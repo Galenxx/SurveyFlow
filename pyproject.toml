@@ -34,7 +34,7 @@ dev = [
 
 # Constrain onnxruntime to versions with Python 3.10/3.11/3.12 wheels
 [tool.uv]
-override-dependencies = [
+constraint-dependencies = [
     "onnxruntime<1.24.3",
 ]
 
