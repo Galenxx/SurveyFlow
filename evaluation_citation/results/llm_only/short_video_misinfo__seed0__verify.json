@@ -1,0 +1,807 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "short_video_misinfo",
+  "seed": 0,
+  "topic": "Detection of Misinformation and Harmful Content on Short-Form Video Platforms: Methods, Datasets, and Multimodal Approaches",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Unknown Author. (2024). Placeholder Reference 1. arXiv:0000.00000v1.",
+      "parsed": {
+        "title": "Placeholder Reference 1",
+        "authors": "Unknown Author",
+        "year": "2024",
+        "arxiv_id": "0000.00000v1",
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Unknown Author. (2024). Placeholder Reference 2. arXiv:0000.00000v1.",
+      "parsed": {
+        "title": "Placeholder Reference 2",
+        "authors": "Unknown Author",
+        "year": "2024",
+        "arxiv_id": "0000.00000v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "PRGB Benchmark: A Robust Placeholder-Assisted Algorithm for Benchmarking Retrieval-Augmented Generation",
+          "arxiv_id": "2507.22927",
+          "doi": "10.48550/arXiv.2507.22927",
+          "year": "2025",
+          "authors": [
+            "Zhehao Tan",
+            "Yihan Jiao",
+            "Dan Yang",
+            "Lei Liu",
+            "Jie Feng",
+            "Duolin Sun",
+            "Yue Shen",
+            "Jian Wang",
+            "Peng Wei",
+            "Jinjie Gu"
+          ]
+        },
+        {
+          "title": "Comprar Martindale: The Complete Drug Reference. 2 Vol., 38th Edition | Sean Sweetman | 9780857111395 | Pharmaceutical Press",
+          "arxiv_id": null,
+          "doi": null,
+          "year": "2014",
+          "authors": [
+            "Sean C. Sweetman"
+          ]
+        },
+        {
+          "title": "PRGB Benchmark: A Robust Placeholder-Assisted Algorithm for Benchmarking Retrieval-Augmented Generation",
+          "arxiv_id": null,
+          "doi": "10.1609/aaai.v40i39.40602",
+          "year": "2026",
+          "authors": [
+            "Zhehao Tan",
+            "Yihan Jiao",
+            "Dan Yang",
+            "Junwei Liu",
+            "Lei Liu",
+            "Jie Feng",
+            "Duolin Sun",
+            "Yue Shen",
+            "Jian Wang",
+            "Peng Wei",
+            "Jinjie Gu"
+          ]
+        },
+        {
+          "title": "Multiple exponence in Georgian placeholder verbs",
+          "arxiv_id": null,
+          "doi": "10.1007/s11525-025-09439-0",
+          "year": "2025",
+          "authors": [
+            "Nino Amiridze"
+          ]
+        },
+        {
+          "title": "Comprar Dermatology e-dition 2nd Ed - Text with Continually Updated Online Reference, 2-Volume Set | Ronald P. Rapini | 9781416032694 | Mosby",
+          "arxiv_id": null,
+          "doi": null,
+          "year": "2007",
+          "authors": [
+            "R. Rapini",
+            "J. Jorizzo",
+            "J. Bolognia"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": "10.1007/s11525-025-09439-0",
+          "title": "Multiple exponence in Georgian placeholder verbs",
+          "abstract": "",
+          "year": "2025",
+          "authors": [
+            "Nino Amiridze"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 1
+        },
+        "title_sim": 0.39436619718309857,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Unknown Author. (2024). Placeholder Reference 3. arXiv:0000.00000v1.",
+      "parsed": {
+        "title": "Placeholder Reference 3",
+        "authors": "Unknown Author",
+        "year": "2024",
+        "arxiv_id": "0000.00000v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Full-Reference 3-D Video Quality Assessment Using Scene Component Statistical Dependencies",
+          "arxiv_id": null,
+          "doi": "10.1109/LSP.2018.2829107",
+          "year": "2018",
+          "authors": [
+            "Balasubramanyam Appina",
+            "Sumohana S. Channappayya"
+          ]
+        },
+        {
+          "title": "PRGB Benchmark: A Robust Placeholder-Assisted Algorithm for Benchmarking Retrieval-Augmented Generation",
+          "arxiv_id": "2507.22927",
+          "doi": "10.48550/arXiv.2507.22927",
+          "year": "2025",
+          "authors": [
+            "Zhehao Tan",
+            "Yihan Jiao",
+            "Dan Yang",
+            "Lei Liu",
+            "Jie Feng",
+            "Duolin Sun",
+            "Yue Shen",
+            "Jian Wang",
+            "Peng Wei",
+            "Jinjie Gu"
+          ]
+        },
+        {
+          "title": "PRGB Benchmark: A Robust Placeholder-Assisted Algorithm for Benchmarking Retrieval-Augmented Generation",
+          "arxiv_id": null,
+          "doi": "10.1609/aaai.v40i39.40602",
+          "year": "2026",
+          "authors": [
+            "Zhehao Tan",
+            "Yihan Jiao",
+            "Dan Yang",
+            "Junwei Liu",
+            "Lei Liu",
+            "Jie Feng",
+            "Duolin Sun",
+            "Yue Shen",
+            "Jian Wang",
+            "Peng Wei",
+            "Jinjie Gu"
+          ]
+        },
+        {
+          "title": "PETformer: Long-Term Time Series Forecasting via Placeholder-Enhanced Transformer",
+          "arxiv_id": "2308.04791",
+          "doi": "10.1109/TETCI.2024.3502437",
+          "year": "2023",
+          "authors": [
+            "Shengsheng Lin",
+            "Weiwei Lin",
+            "Wentai Wu",
+            "Song Wang",
+            "Yongxiang Wang"
+          ]
+        },
+        {
+          "title": "New trends in virtual reference library services: an overview of technology-based interventions, challenges and strategies",
+          "arxiv_id": null,
+          "doi": "10.1108/rsr-06-2025-0037",
+          "year": "2025",
+          "authors": [
+            "Leila Keikha",
+            "Azita Shahraki-Mohammadi",
+            "Abdolahad Nabiolahi"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "2308.04791",
+          "doi": "10.1109/TETCI.2024.3502437",
+          "title": "PETformer: Long-Term Time Series Forecasting via Placeholder-Enhanced Transformer",
+          "abstract": "Recently, the superiority of Transformer for long-term time series forecasting (LTSF) tasks has been challenged, particularly since recent work has shown that simple models can outperform numerous Transformer-based approaches. This evidence suggests that a notable gap remains in fully leveraging the potential of Transformer in LTSF tasks. Therefore, this study investigates key issues when applying Transformer to LTSF, encompassing aspects of temporal continuity, information density, and multi-channel relationships. We introduce the Placeholder-enhanced Technique (PET) to enhance the computational efficiency and predictive accuracy of Transformer in LTSF tasks. Furthermore, we delve into the impact of larger patch strategies and channel interaction strategies on Transformer's performance, specifically Long Sub-sequence Division (LSD) and Multi-channel Separation and Interaction (MSI). These strategies collectively constitute a novel model termed PETformer. Extensive experiments have demonstrated that PETformer achieves state-of-the-art performance on eight commonly used public datasets for LTSF, surpassing all existing models. The insights and enhancement methodologies presented in this paper serve as valuable reference points and sources of inspiration for future research endeavors.",
+          "year": "2023",
+          "authors": [
+            "Shengsheng Lin",
+            "Weiwei Lin",
+            "Wentai Wu",
+            "Song Wang",
+            "Yongxiang Wang"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 57
+        },
+        "title_sim": 0.3300970873786408,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Unknown Author. (2024). Placeholder Reference 4. arXiv:0000.00000v1.",
+      "parsed": {
+        "title": "Placeholder Reference 4",
+        "authors": "Unknown Author",
+        "year": "2024",
+        "arxiv_id": "0000.00000v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Erratum to: Prediction of tautomer ratios by embedded-cluster integral equation theory",
+          "arxiv_id": null,
+          "doi": "10.1007/s10822-010-9360-6",
+          "year": "2010",
+          "authors": [
+            "S. M. Kast",
+            "bullet Jochen",
+            "Heil bullet",
+            "Stefan Gü",
+            "B. Schmidt",
+            "S. M. Kast",
+            "J. Heil",
+            "Á. J. Heil",
+            "S. Güssregen",
+            "A. Schmidt"
+          ]
+        },
+        {
+          "title": "PRGB Benchmark: A Robust Placeholder-Assisted Algorithm for Benchmarking Retrieval-Augmented Generation",
+          "arxiv_id": "2507.22927",
+          "doi": "10.48550/arXiv.2507.22927",
+          "year": "2025",
+          "authors": [
+            "Zhehao Tan",
+            "Yihan Jiao",
+            "Dan Yang",
+            "Lei Liu",
+            "Jie Feng",
+            "Duolin Sun",
+            "Yue Shen",
+            "Jian Wang",
+            "Peng Wei",
+            "Jinjie Gu"
+          ]
+        },
+        {
+          "title": "Use of Fat Mass and Fat Free Mass Standard Deviation Scores Obtained Using Simple Measurement Methods in Healthy Children and Patients: Comparison with the Reference 4-Component Model",
+          "arxiv_id": null,
+          "doi": "10.1371/journal.pone.0062139",
+          "year": "2013",
+          "authors": [
+            "R. Atherton",
+            "Jane E. Williams",
+            "J. Wells",
+            "M. Fewtrell"
+          ]
+        },
+        {
+          "title": "Body-composition assessment in infancy: air-displacement plethysmography compared with a reference 4-compartment model.",
+          "arxiv_id": null,
+          "doi": "10.1093/AJCN/85.1.90",
+          "year": "2007",
+          "authors": [
+            "K. Ellis",
+            "M. Yao",
+            "R. Shypailo",
+            "A. Urlando",
+            "W. Wong",
+            "W. Heird"
+          ]
+        },
+        {
+          "title": "Linux in a nutshell - a desktop quick reference (4. ed.)",
+          "arxiv_id": null,
+          "doi": null,
+          "year": "2000",
+          "authors": [
+            "Ellen Siever",
+            "S. Figgins",
+            "A. Weber"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": null,
+          "title": "Linux in a nutshell - a desktop quick reference (4. ed.)",
+          "abstract": "",
+          "year": "2000",
+          "authors": [
+            "Ellen Siever",
+            "S. Figgins",
+            "A. Weber"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 10
+        },
+        "title_sim": 0.4931506849315068,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 4,
+      "raw": "Unknown Author. (2024). Placeholder Reference 5. arXiv:0000.00000v1.",
+      "parsed": {
+        "title": "Placeholder Reference 5",
+        "authors": "Unknown Author",
+        "year": "2024",
+        "arxiv_id": "0000.00000v1",
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 5,
+      "raw": "Unknown Author. (2024). Placeholder Reference 6. arXiv:0000.00000v1.",
+      "parsed": {
+        "title": "Placeholder Reference 6",
+        "authors": "Unknown Author",
+        "year": "2024",
+        "arxiv_id": "0000.00000v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Post hoc analysis of a randomised, placebo-controlled, active-reference 6-week study of brexpiprazole in acute schizophrenia",
+          "arxiv_id": null,
+          "doi": "10.1017/neu.2020.8",
+          "year": "2020",
+          "authors": [
+            "S. Marder",
+            "H. Eriksson",
+            "Yudong Zhao",
+            "M. Hobart"
+          ]
+        },
+        {
+          "title": "PRGB Benchmark: A Robust Placeholder-Assisted Algorithm for Benchmarking Retrieval-Augmented Generation",
+          "arxiv_id": "2507.22927",
+          "doi": "10.48550/arXiv.2507.22927",
+          "year": "2025",
+          "authors": [
+            "Zhehao Tan",
+            "Yihan Jiao",
+            "Dan Yang",
+            "Lei Liu",
+            "Jie Feng",
+            "Duolin Sun",
+            "Yue Shen",
+            "Jian Wang",
+            "Peng Wei",
+            "Jinjie Gu"
+          ]
+        },
+        {
+          "title": "Laboratory testing of West Valley reference 6 glass",
+          "arxiv_id": null,
+          "doi": null,
+          "year": "1995",
+          "authors": [
+            "W. Ebert"
+          ]
+        },
+        {
+          "title": "PETformer: Long-Term Time Series Forecasting via Placeholder-Enhanced Transformer",
+          "arxiv_id": "2308.04791",
+          "doi": "10.1109/TETCI.2024.3502437",
+          "year": "2023",
+          "authors": [
+            "Shengsheng Lin",
+            "Weiwei Lin",
+            "Wentai Wu",
+            "Song Wang",
+            "Yongxiang Wang"
+          ]
+        },
+        {
+          "title": "New Types of Reference Materials in the Field of Ionizing Radiation Measurements",
+          "arxiv_id": null,
+          "doi": "10.20915/2077-1177-2024-20-3-41-52",
+          "year": "2024",
+          "authors": [
+            "T. I. Shilnikova",
+            "G. Zhukov",
+            "M. S. Epov"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": null,
+          "title": "Laboratory testing of West Valley reference 6 glass",
+          "abstract": "",
+          "year": "1995",
+          "authors": [
+            "W. Ebert"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 3
+        },
+        "title_sim": 0.4864864864864865,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 6,
+      "raw": "Unknown Author. (2024). Placeholder Reference 7. arXiv:0000.00000v1.",
+      "parsed": {
+        "title": "Placeholder Reference 7",
+        "authors": "Unknown Author",
+        "year": "2024",
+        "arxiv_id": "0000.00000v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "PRGB Benchmark: A Robust Placeholder-Assisted Algorithm for Benchmarking Retrieval-Augmented Generation",
+          "arxiv_id": "2507.22927",
+          "doi": "10.48550/arXiv.2507.22927",
+          "year": "2025",
+          "authors": [
+            "Zhehao Tan",
+            "Yihan Jiao",
+            "Dan Yang",
+            "Lei Liu",
+            "Jie Feng",
+            "Duolin Sun",
+            "Yue Shen",
+            "Jian Wang",
+            "Peng Wei",
+            "Jinjie Gu"
+          ]
+        },
+        {
+          "title": "PETformer: Long-Term Time Series Forecasting via Placeholder-Enhanced Transformer",
+          "arxiv_id": "2308.04791",
+          "doi": "10.1109/TETCI.2024.3502437",
+          "year": "2023",
+          "authors": [
+            "Shengsheng Lin",
+            "Weiwei Lin",
+            "Wentai Wu",
+            "Song Wang",
+            "Yongxiang Wang"
+          ]
+        },
+        {
+          "title": "New trends in virtual reference library services: an overview of technology-based interventions, challenges and strategies",
+          "arxiv_id": null,
+          "doi": "10.1108/rsr-06-2025-0037",
+          "year": "2025",
+          "authors": [
+            "Leila Keikha",
+            "Azita Shahraki-Mohammadi",
+            "Abdolahad Nabiolahi"
+          ]
+        },
+        {
+          "title": "Reference soil groups map of Ethiopia based on legacy data and machine learning-technique: EthioSoilGrids 1.0",
+          "arxiv_id": null,
+          "doi": "10.5194/soil-10-189-2024",
+          "year": "2024",
+          "authors": [
+            "Ashenafi Ali",
+            "T. Erkossa",
+            "Kiflu Gudeta",
+            "4. WuletawuAbera",
+            "2. EphremMesﬁn",
+            "Terefe Mekete 2",
+            "M. Haile",
+            "Wondwosen Haile",
+            "A. Abegaz",
+            "Demeke Tafesse",
+            "7. GebeyhuBelay",
+            "Mekonen Getahun",
+            "S. Beyene",
+            "Mohamed Assen",
+            "A. Regassa",
+            "Yihenew G. Selassie 9",
+            "Solomon Tadesse",
+            "Dawit Abebe",
+            "Yitbarek Wolde",
+            "2. NesruHussien",
+            "2. AbebeYirdaw",
+            "Addisu Mera 2",
+            "Tesema Admas",
+            "F. Wakoya",
+            "Awgachew Legesse",
+            "2. NigatTessema",
+            "14 AyeleAbebe",
+            "S. Gebremariam",
+            "Yismaw Aregaw",
+            "Bizuayehu Abebaw",
+            "Damtew Bekele",
+            "Eylachew Zewdie 7",
+            "S. Schulz",
+            "L. Tamene",
+            "2. EyasuElias"
+          ]
+        },
+        {
+          "title": "“ChatGPT Assists Me in My Reference List:” Exploring the Chatbot’s Potential as Citation Formatting Tool",
+          "arxiv_id": null,
+          "doi": "10.1080/10875301.2024.2351021",
+          "year": "2024",
+          "authors": [
+            "D. V. Rogayan"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "2308.04791",
+          "doi": "10.1109/TETCI.2024.3502437",
+          "title": "PETformer: Long-Term Time Series Forecasting via Placeholder-Enhanced Transformer",
+          "abstract": "Recently, the superiority of Transformer for long-term time series forecasting (LTSF) tasks has been challenged, particularly since recent work has shown that simple models can outperform numerous Transformer-based approaches. This evidence suggests that a notable gap remains in fully leveraging the potential of Transformer in LTSF tasks. Therefore, this study investigates key issues when applying Transformer to LTSF, encompassing aspects of temporal continuity, information density, and multi-channel relationships. We introduce the Placeholder-enhanced Technique (PET) to enhance the computational efficiency and predictive accuracy of Transformer in LTSF tasks. Furthermore, we delve into the impact of larger patch strategies and channel interaction strategies on Transformer's performance, specifically Long Sub-sequence Division (LSD) and Multi-channel Separation and Interaction (MSI). These strategies collectively constitute a novel model termed PETformer. Extensive experiments have demonstrated that PETformer achieves state-of-the-art performance on eight commonly used public datasets for LTSF, surpassing all existing models. The insights and enhancement methodologies presented in this paper serve as valuable reference points and sources of inspiration for future research endeavors.",
+          "year": "2023",
+          "authors": [
+            "Shengsheng Lin",
+            "Weiwei Lin",
+            "Wentai Wu",
+            "Song Wang",
+            "Yongxiang Wang"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 57
+        },
+        "title_sim": 0.3300970873786408,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 7,
+      "raw": "Unknown Author. (2024). Placeholder Reference 8. arXiv:0000.00000v1.",
+      "parsed": {
+        "title": "Placeholder Reference 8",
+        "authors": "Unknown Author",
+        "year": "2024",
+        "arxiv_id": "0000.00000v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "PRGB Benchmark: A Robust Placeholder-Assisted Algorithm for Benchmarking Retrieval-Augmented Generation",
+          "arxiv_id": "2507.22927",
+          "doi": "10.48550/arXiv.2507.22927",
+          "year": "2025",
+          "authors": [
+            "Zhehao Tan",
+            "Yihan Jiao",
+            "Dan Yang",
+            "Lei Liu",
+            "Jie Feng",
+            "Duolin Sun",
+            "Yue Shen",
+            "Jian Wang",
+            "Peng Wei",
+            "Jinjie Gu"
+          ]
+        },
+        {
+          "title": "PETformer: Long-Term Time Series Forecasting via Placeholder-Enhanced Transformer",
+          "arxiv_id": "2308.04791",
+          "doi": "10.1109/TETCI.2024.3502437",
+          "year": "2023",
+          "authors": [
+            "Shengsheng Lin",
+            "Weiwei Lin",
+            "Wentai Wu",
+            "Song Wang",
+            "Yongxiang Wang"
+          ]
+        },
+        {
+          "title": "New trends in virtual reference library services: an overview of technology-based interventions, challenges and strategies",
+          "arxiv_id": null,
+          "doi": "10.1108/rsr-06-2025-0037",
+          "year": "2025",
+          "authors": [
+            "Leila Keikha",
+            "Azita Shahraki-Mohammadi",
+            "Abdolahad Nabiolahi"
+          ]
+        },
+        {
+          "title": "The Allen Mouse Brain Common Coordinate Framework: A 3D Reference Atlas",
+          "arxiv_id": null,
+          "doi": "10.1016/j.cell.2020.04.007",
+          "year": "2020",
+          "authors": [
+            "Quanxin Wang",
+            "S. Ding",
+            "Yang Li",
+            "J. Royall",
+            "Hongkui Zeng",
+            "L. Ng"
+          ]
+        },
+        {
+          "title": "Certified Reference Material for the Composition of Phthalates in a Polymer Matrix Based on Polyvinyl Chloride",
+          "arxiv_id": null,
+          "doi": "10.20915/2077-1177-2023-19-5-83-94",
+          "year": "2024",
+          "authors": [
+            "A. G. Budko"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": "10.1016/j.cell.2020.04.007",
+          "title": "The Allen Mouse Brain Common Coordinate Framework: A 3D Reference Atlas",
+          "abstract": "Summary Recent large-scale international collaborations are generating major surveys of cell types and connections in the mouse brain, collecting large amounts of data across modalities, spatial scales, and brain areas. Successful integration of these data requires a standard 3D reference atlas. Here, we present the Allen Mouse Brain Common Coordinate Framework (CCFv3) as such a resource. We constructed an average template brain at 10 μm voxel resolution by interpolating high resolution in-plane serial two-photon tomography images with 100 μm z-sampling from 1,675 young adult C57BL/6J mice. Then, using multimodal reference data, we parcellated the entire brain directly in 3D, labeling every voxel with a brain structure spanning 43 isocortical areas and their layers, 329 subcortical gray matter structures, 81 fiber tracts, and 8 ventricular structures. CCFv3 can be used to analyze, visualize and integrate multimodal and multiscale datasets in 3D, and is openly accessible (https://atlas.brain-map.org).",
+          "year": "2020",
+          "authors": [
+            "Quanxin Wang",
+            "S. Ding",
+            "Yang Li",
+            "J. Royall",
+            "Hongkui Zeng",
+            "L. Ng"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 1330
+        },
+        "title_sim": 0.3655913978494624,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 8,
+      "raw": "Unknown Author. (2024). Placeholder Reference 9. arXiv:0000.00000v1.",
+      "parsed": {
+        "title": "Placeholder Reference 9",
+        "authors": "Unknown Author",
+        "year": "2024",
+        "arxiv_id": "0000.00000v1",
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 9,
+      "raw": "Unknown Author. (2024). Placeholder Reference 10. arXiv:0000.00000v1.",
+      "parsed": {
+        "title": "Placeholder Reference 10",
+        "authors": "Unknown Author",
+        "year": "2024",
+        "arxiv_id": "0000.00000v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Fillers, Pauses and Placeholders",
+          "arxiv_id": null,
+          "doi": "10.1075/TSL.93",
+          "year": "2010",
+          "authors": [
+            "Nino Amiridze",
+            "Boyd H. Davis",
+            "M. Maclagan"
+          ]
+        },
+        {
+          "title": "PRGB Benchmark: A Robust Placeholder-Assisted Algorithm for Benchmarking Retrieval-Augmented Generation",
+          "arxiv_id": "2507.22927",
+          "doi": "10.48550/arXiv.2507.22927",
+          "year": "2025",
+          "authors": [
+            "Zhehao Tan",
+            "Yihan Jiao",
+            "Dan Yang",
+            "Lei Liu",
+            "Jie Feng",
+            "Duolin Sun",
+            "Yue Shen",
+            "Jian Wang",
+            "Peng Wei",
+            "Jinjie Gu"
+          ]
+        },
+        {
+          "title": "U.S. Diagnostic Reference Levels and Achievable Doses for 10 Adult CT Examinations.",
+          "arxiv_id": null,
+          "doi": "10.1148/radiol.2017161911",
+          "year": "2017",
+          "authors": [
+            "K. Kanal",
+            "P. Butler",
+            "D. Sengupta",
+            "M. Bhargavan-Chatfield",
+            "L. Coombs",
+            "R. Morin"
+          ]
+        },
+        {
+          "title": "Development of Reference Materials of Specific Electrical Conductivity of Liquids",
+          "arxiv_id": null,
+          "doi": "10.20915/2077-1177-2025-21-3-78-90",
+          "year": "2025",
+          "authors": [
+            "M. V. Bednova",
+            "A. V. Strelnikov",
+            "E. V. Shkuleva"
+          ]
+        },
+        {
+          "title": "New trends in virtual reference library services: an overview of technology-based interventions, challenges and strategies",
+          "arxiv_id": null,
+          "doi": "10.1108/rsr-06-2025-0037",
+          "year": "2025",
+          "authors": [
+            "Leila Keikha",
+            "Azita Shahraki-Mohammadi",
+            "Abdolahad Nabiolahi"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": "10.1075/TSL.93",
+          "title": "Fillers, Pauses and Placeholders",
+          "abstract": "",
+          "year": "2010",
+          "authors": [
+            "Nino Amiridze",
+            "Boyd H. Davis",
+            "M. Maclagan"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 33
+        },
+        "title_sim": 0.4,
+        "id_match": false
+      }
+    }
+  ]
+}

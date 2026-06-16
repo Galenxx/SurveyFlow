@@ -1,0 +1,771 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "code_review_llm",
+  "seed": 1,
+  "topic": "Large Language Models for Automated Code Review: Techniques, Benchmarks, and Industrial Deployment",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Li, Y., Wang, S., & Nguyen, T. N. (2022). CodeReviewer: Pre-Training for Automating Code Review Activities. arXiv:2203.09095v1.",
+      "parsed": {
+        "title": "CodeReviewer: Pre-Training for Automating Code Review Activities",
+        "authors": "Li, Y., Wang, S., & Nguyen, T. N",
+        "year": "2022",
+        "arxiv_id": "2203.09095v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Automating Code Review Activities by Large-Scale Pre-training",
+          "arxiv_id": "2203.09095",
+          "doi": null,
+          "year": "2022",
+          "authors": [
+            "Zhiyu Li",
+            "Shuai Lu",
+            "Daya Guo",
+            "Nan Duan",
+            "Shailesh Jannu",
+            "Grant Jenks",
+            "Deep Majumder",
+            "Jared Green",
+            "Alexey Svyatkovskiy",
+            "Shengyu Fu",
+            "Neel Sundaresan"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "2203.09095",
+          "title": "Automating Code Review Activities by Large-Scale Pre-training",
+          "abstract": "Code review is an essential part to software development lifecycle since it aims at guaranteeing the quality of codes. Modern code review activities necessitate developers viewing, understanding and even running the programs to assess logic, functionality, latency, style and other factors. It turns out that developers have to spend far too much time reviewing the code of their peers. Accordingly, it is in significant demand to automate the code review process. In this research, we focus on utilizing pre-training techniques for the tasks in the code review scenario. We collect a large-scale dataset of real-world code changes and code reviews from open-source projects in nine of the most popular programming languages. To better understand code diffs and reviews, we propose CodeReviewer, a pre-trained model that utilizes four pre-training tasks tailored specifically for the code review scenario. To evaluate our model, we focus on three key tasks related to code review activities, including code change quality estimation, review comment generation and code refinement. Furthermore, we establish a high-quality benchmark dataset based on our collected data for these three tasks and conduct comprehensive experiments on it. The experimental results demonstrate that our model outperforms the previous state-of-the-art pre-training approaches in all tasks. Further analysis show that our proposed pre-training tasks and the multilingual pre-training dataset benefit the model on the understanding of code changes and reviews.",
+          "year": "2022",
+          "authors": [
+            "Zhiyu Li",
+            "Shuai Lu",
+            "Daya Guo",
+            "Nan Duan",
+            "Shailesh Jannu",
+            "Grant Jenks",
+            "Deep Majumder",
+            "Jared Green",
+            "Alexey Svyatkovskiy",
+            "Shengyu Fu",
+            "Neel Sundaresan"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 0.5454545454545454,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Li, Y., Wang, S., & Nguyen, T. N. (2022). CoditT5: Pretraining for Source Code and Natural Language Editing. arXiv:2206.06370v1.",
+      "parsed": {
+        "title": "CoditT5: Pretraining for Source Code and Natural Language Editing",
+        "authors": "Li, Y., Wang, S., & Nguyen, T. N",
+        "year": "2022",
+        "arxiv_id": "2206.06370v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Don't \"research fast and break things\": On the ethics of Computational Social Science",
+          "arxiv_id": "2206.06370",
+          "doi": null,
+          "year": "2022",
+          "authors": [
+            "David Leslie"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "2206.06370",
+          "title": "Don't \"research fast and break things\": On the ethics of Computational Social Science",
+          "abstract": "This article is concerned with setting up practical guardrails within the research activities and environments of CSS. It aims to provide CSS scholars, as well as policymakers and other stakeholders who apply CSS methods, with the critical and constructive means needed to ensure that their practices are ethical, trustworthy, and responsible. It begins by providing a taxonomy of the ethical challenges faced by researchers in the field of CSS. These are challenges related to (1) the treatment of research subjects, (2) the impacts of CSS research on affected individuals and communities, (3) the quality of CSS research and to its epistemological status, (4) research integrity, and (5) research equity. Taking these challenges as a motivation for cultural transformation, it then argues for the end-to-end incorporation of habits of responsible research and innovation (RRI) into CSS practices, focusing on the role that contextual considerations, anticipatory reflection, impact assessment, public engagement, and justifiable and well-documented action should play across the research lifecycle. In proposing the inclusion of habits of RRI in CSS practices, the chapter lays out several practical steps needed for ethical, trustworthy, and responsible CSS research activities. These include stakeholder engagement processes, research impact assessments, data lifecycle documentation, bias self-assessments, and transparent research reporting protocols.",
+          "year": "2022",
+          "authors": [
+            "David Leslie"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 0.3150684931506849,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Hou, X., Zhao, Y., Liu, Y., et al. (2023). Large Language Models for Software Engineering: A Systematic Literature Review. arXiv:2308.10620v2.",
+      "parsed": {
+        "title": "Large Language Models for Software Engineering: A Systematic Literature Review",
+        "authors": "Hou, X., Zhao, Y., Liu, Y., et al",
+        "year": "2023",
+        "arxiv_id": "2308.10620v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Large Language Models for Software Engineering: A Systematic Literature Review",
+          "arxiv_id": "2308.10620",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Xinyi Hou",
+            "Yanjie Zhao",
+            "Yue Liu",
+            "Zhou Yang",
+            "Kailong Wang",
+            "Li Li",
+            "Xiapu Luo",
+            "David Lo",
+            "John Grundy",
+            "Haoyu Wang"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2308.10620",
+          "title": "Large Language Models for Software Engineering: A Systematic Literature Review",
+          "abstract": "Large Language Models (LLMs) have significantly impacted numerous domains, including Software Engineering (SE). Many recent publications have explored LLMs applied to various SE tasks. Nevertheless, a comprehensive understanding of the application, effects, and possible limitations of LLMs on SE is still in its early stages. To bridge this gap, we conducted a systematic literature review (SLR) on LLM4SE, with a particular focus on understanding how LLMs can be exploited to optimize processes and outcomes. We select and analyze 395 research papers from January 2017 to January 2024 to answer four key research questions (RQs). In RQ1, we categorize different LLMs that have been employed in SE tasks, characterizing their distinctive features and uses. In RQ2, we analyze the methods used in data collection, preprocessing, and application, highlighting the role of well-curated datasets for successful LLM for SE implementation. RQ3 investigates the strategies employed to optimize and evaluate the performance of LLMs in SE. Finally, RQ4 examines the specific SE tasks where LLMs have shown success to date, illustrating their practical contributions to the field. From the answers to these RQs, we discuss the current state-of-the-art and trends, identifying gaps in existing research, and flagging promising areas for future study. Our artifacts are publicly available at https://github.com/xinyi-hou/LLM4SE_SLR.",
+          "year": "2023",
+          "authors": [
+            "Xinyi Hou",
+            "Yanjie Zhao",
+            "Yue Liu",
+            "Zhou Yang",
+            "Kailong Wang",
+            "Li Li",
+            "Xiapu Luo",
+            "David Lo",
+            "John Grundy",
+            "Haoyu Wang"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Fan, A., Gokkaya, B., Harman, M., et al. (2023). A Survey on Large Language Models for Software Engineering. arXiv:2310.03533v1.",
+      "parsed": {
+        "title": "A Survey on Large Language Models for Software Engineering",
+        "authors": "Fan, A., Gokkaya, B., Harman, M., et al",
+        "year": "2023",
+        "arxiv_id": "2310.03533v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Large Language Models for Software Engineering: Survey and Open Problems",
+          "arxiv_id": "2310.03533",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Angela Fan",
+            "Beliz Gokkaya",
+            "Mark Harman",
+            "Mitya Lyubarskiy",
+            "Shubho Sengupta",
+            "Shin Yoo",
+            "Jie M. Zhang"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "2310.03533",
+          "title": "Large Language Models for Software Engineering: Survey and Open Problems",
+          "abstract": "This paper provides a survey of the emerging area of Large Language Models (LLMs) for Software Engineering (SE). It also sets out open research challenges for the application of LLMs to technical problems faced by software engineers. LLMs' emergent properties bring novelty and creativity with applications right across the spectrum of Software Engineering activities including coding, design, requirements, repair, refactoring, performance improvement, documentation and analytics. However, these very same emergent properties also pose significant technical challenges; we need techniques that can reliably weed out incorrect solutions, such as hallucinations. Our survey reveals the pivotal role that hybrid techniques (traditional SE plus LLMs) have to play in the development and deployment of reliable, efficient and effective LLM-based SE.",
+          "year": "2023",
+          "authors": [
+            "Angela Fan",
+            "Beliz Gokkaya",
+            "Mark Harman",
+            "Mitya Lyubarskiy",
+            "Shubho Sengupta",
+            "Shin Yoo",
+            "Jie M. Zhang"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 0.7131782945736435,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 4,
+      "raw": "Wang, Y., Wang, W., Joty, S., & Hoi, S. (2021). CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation. arXiv:2109.00859v2.",
+      "parsed": {
+        "title": "CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation",
+        "authors": "Wang, Y., Wang, W., Joty, S., & Hoi, S",
+        "year": "2021",
+        "arxiv_id": "2109.00859v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation",
+          "arxiv_id": "2109.00859",
+          "doi": null,
+          "year": "2021",
+          "authors": [
+            "Yue Wang",
+            "Weishi Wang",
+            "Shafiq Joty",
+            "Steven C. H. Hoi"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2109.00859",
+          "title": "CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation",
+          "abstract": "Pre-trained models for Natural Languages (NL) like BERT and GPT have been recently shown to transfer well to Programming Languages (PL) and largely benefit a broad set of code-related tasks. Despite their success, most current methods either rely on an encoder-only (or decoder-only) pre-training that is suboptimal for generation (resp. understanding) tasks or process the code snippet in the same way as NL, neglecting the special characteristics of PL such as token types. We present CodeT5, a unified pre-trained encoder-decoder Transformer model that better leverages the code semantics conveyed from the developer-assigned identifiers. Our model employs a unified framework to seamlessly support both code understanding and generation tasks and allows for multi-task learning. Besides, we propose a novel identifier-aware pre-training task that enables the model to distinguish which code tokens are identifiers and to recover them when they are masked. Furthermore, we propose to exploit the user-written code comments with a bimodal dual generation task for better NL-PL alignment. Comprehensive experiments show that CodeT5 significantly outperforms prior methods on understanding tasks such as code defect detection and clone detection, and generation tasks across various directions including PL-NL, NL-PL, and PL-PL. Further analysis reveals that our model can better capture semantic information from code. Our code and pre-trained models are released at https: //github.com/salesforce/CodeT5 .",
+          "year": "2021",
+          "authors": [
+            "Yue Wang",
+            "Weishi Wang",
+            "Shafiq Joty",
+            "Steven C. H. Hoi"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 5,
+      "raw": "Zhang, Q., Zhu, L., Wang, Y., et al. (2023). Automated Program Repair in the Era of Large Pre-trained Language Models. arXiv:2305.01186v1.",
+      "parsed": {
+        "title": "Automated Program Repair in the Era of Large Pre-trained Language Models",
+        "authors": "Zhang, Q., Zhu, L., Wang, Y., et al",
+        "year": "2023",
+        "arxiv_id": "2305.01186v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Deconstructing Student Perceptions of Generative AI (GenAI) through an Expectancy Value Theory (EVT)-based Instrument",
+          "arxiv_id": "2305.01186",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Cecilia Ka Yuk Chan",
+            "Wenxin Zhou"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "2305.01186",
+          "title": "Deconstructing Student Perceptions of Generative AI (GenAI) through an Expectancy Value Theory (EVT)-based Instrument",
+          "abstract": "This study examines the relationship between student perceptions and their intention to use generative AI in higher education. Drawing on Expectancy-Value Theory (EVT), a questionnaire was developed to measure students' knowledge of generative AI, perceived value, and perceived cost. A sample of 405 students participated in the study, and confirmatory factor analysis was used to validate the constructs. The results indicate a strong positive correlation between perceived value and intention to use generative AI, and a weak negative correlation between perceived cost and intention to use. As we continue to explore the implications of generative AI in education and other domains, it is crucial to carefully consider the potential long-term consequences and the ethical dilemmas that may arise from widespread adoption.",
+          "year": "2023",
+          "authors": [
+            "Cecilia Ka Yuk Chan",
+            "Wenxin Zhou"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 0.31351351351351353,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 6,
+      "raw": "Roziere, B., Gehring, J., Gloeckle, F., et al. (2023). Code Llama: Open Foundation Models for Code. arXiv:2308.12950v1.",
+      "parsed": {
+        "title": "Code Llama: Open Foundation Models for Code",
+        "authors": "Roziere, B., Gehring, J., Gloeckle, F., et al",
+        "year": "2023",
+        "arxiv_id": "2308.12950v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Code Llama: Open Foundation Models for Code",
+          "arxiv_id": "2308.12950",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Baptiste Rozière",
+            "Jonas Gehring",
+            "Fabian Gloeckle",
+            "Sten Sootla",
+            "Itai Gat",
+            "Xiaoqing Ellen Tan",
+            "Yossi Adi",
+            "Jingyu Liu",
+            "Romain Sauvestre",
+            "Tal Remez",
+            "Jérémy Rapin",
+            "Artyom Kozhevnikov",
+            "Ivan Evtimov",
+            "Joanna Bitton",
+            "Manish Bhatt",
+            "Cristian Canton Ferrer",
+            "Aaron Grattafiori",
+            "Wenhan Xiong",
+            "Alexandre Défossez",
+            "Jade Copet",
+            "Faisal Azhar",
+            "Hugo Touvron",
+            "Louis Martin",
+            "Nicolas Usunier",
+            "Thomas Scialom",
+            "Gabriel Synnaeve"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2308.12950",
+          "title": "Code Llama: Open Foundation Models for Code",
+          "abstract": "We release Code Llama, a family of large language models for code based on Llama 2 providing state-of-the-art performance among open models, infilling capabilities, support for large input contexts, and zero-shot instruction following ability for programming tasks. We provide multiple flavors to cover a wide range of applications: foundation models (Code Llama), Python specializations (Code Llama - Python), and instruction-following models (Code Llama - Instruct) with 7B, 13B, 34B and 70B parameters each. All models are trained on sequences of 16k tokens and show improvements on inputs with up to 100k tokens. 7B, 13B and 70B Code Llama and Code Llama - Instruct variants support infilling based on surrounding content. Code Llama reaches state-of-the-art performance among open models on several code benchmarks, with scores of up to 67% and 65% on HumanEval and MBPP, respectively. Notably, Code Llama - Python 7B outperforms Llama 2 70B on HumanEval and MBPP, and all our models outperform every other publicly available model on MultiPL-E. We release Code Llama under a permissive license that allows for both research and commercial use.",
+          "year": "2023",
+          "authors": [
+            "Baptiste Rozière",
+            "Jonas Gehring",
+            "Fabian Gloeckle",
+            "Sten Sootla",
+            "Itai Gat",
+            "Xiaoqing Ellen Tan",
+            "Yossi Adi",
+            "Jingyu Liu",
+            "Romain Sauvestre",
+            "Tal Remez",
+            "Jérémy Rapin",
+            "Artyom Kozhevnikov",
+            "Ivan Evtimov",
+            "Joanna Bitton",
+            "Manish Bhatt",
+            "Cristian Canton Ferrer",
+            "Aaron Grattafiori",
+            "Wenhan Xiong",
+            "Alexandre Défossez",
+            "Jade Copet",
+            "Faisal Azhar",
+            "Hugo Touvron",
+            "Louis Martin",
+            "Nicolas Usunier",
+            "Thomas Scialom",
+            "Gabriel Synnaeve"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 7,
+      "raw": "Chen, M., Tworek, J., Jun, H., et al. (2021). Evaluating Large Language Models Trained on Code. arXiv:2107.03374v1.",
+      "parsed": {
+        "title": "Evaluating Large Language Models Trained on Code",
+        "authors": "Chen, M., Tworek, J., Jun, H., et al",
+        "year": "2021",
+        "arxiv_id": "2107.03374v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Evaluating Large Language Models Trained on Code",
+          "arxiv_id": "2107.03374",
+          "doi": null,
+          "year": "2021",
+          "authors": [
+            "Mark Chen",
+            "Jerry Tworek",
+            "Heewoo Jun",
+            "Qiming Yuan",
+            "Henrique Ponde de Oliveira Pinto",
+            "Jared Kaplan",
+            "Harri Edwards",
+            "Yuri Burda",
+            "Nicholas Joseph",
+            "Greg Brockman",
+            "Alex Ray",
+            "Raul Puri",
+            "Gretchen Krueger",
+            "Michael Petrov",
+            "Heidy Khlaaf",
+            "Girish Sastry",
+            "Pamela Mishkin",
+            "Brooke Chan",
+            "Scott Gray",
+            "Nick Ryder",
+            "Mikhail Pavlov",
+            "Alethea Power",
+            "Lukasz Kaiser",
+            "Mohammad Bavarian",
+            "Clemens Winter",
+            "Philippe Tillet",
+            "Felipe Petroski Such",
+            "Dave Cummings",
+            "Matthias Plappert",
+            "Fotios Chantzis",
+            "Elizabeth Barnes",
+            "Ariel Herbert-Voss",
+            "William Hebgen Guss",
+            "Alex Nichol",
+            "Alex Paino",
+            "Nikolas Tezak",
+            "Jie Tang",
+            "Igor Babuschkin",
+            "Suchir Balaji",
+            "Shantanu Jain",
+            "William Saunders",
+            "Christopher Hesse",
+            "Andrew N. Carr",
+            "Jan Leike",
+            "Josh Achiam",
+            "Vedant Misra",
+            "Evan Morikawa",
+            "Alec Radford",
+            "Matthew Knight",
+            "Miles Brundage",
+            "Mira Murati",
+            "Katie Mayer",
+            "Peter Welinder",
+            "Bob McGrew",
+            "Dario Amodei",
+            "Sam McCandlish",
+            "Ilya Sutskever",
+            "Wojciech Zaremba"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2107.03374",
+          "title": "Evaluating Large Language Models Trained on Code",
+          "abstract": "We introduce Codex, a GPT language model fine-tuned on publicly available code from GitHub, and study its Python code-writing capabilities. A distinct production version of Codex powers GitHub Copilot. On HumanEval, a new evaluation set we release to measure functional correctness for synthesizing programs from docstrings, our model solves 28.8% of the problems, while GPT-3 solves 0% and GPT-J solves 11.4%. Furthermore, we find that repeated sampling from the model is a surprisingly effective strategy for producing working solutions to difficult prompts. Using this method, we solve 70.2% of our problems with 100 samples per problem. Careful investigation of our model reveals its limitations, including difficulty with docstrings describing long chains of operations and with binding operations to variables. Finally, we discuss the potential broader impacts of deploying powerful code generation technologies, covering safety, security, and economics.",
+          "year": "2021",
+          "authors": [
+            "Mark Chen",
+            "Jerry Tworek",
+            "Heewoo Jun",
+            "Qiming Yuan",
+            "Henrique Ponde de Oliveira Pinto",
+            "Jared Kaplan",
+            "Harri Edwards",
+            "Yuri Burda",
+            "Nicholas Joseph",
+            "Greg Brockman",
+            "Alex Ray",
+            "Raul Puri",
+            "Gretchen Krueger",
+            "Michael Petrov",
+            "Heidy Khlaaf",
+            "Girish Sastry",
+            "Pamela Mishkin",
+            "Brooke Chan",
+            "Scott Gray",
+            "Nick Ryder",
+            "Mikhail Pavlov",
+            "Alethea Power",
+            "Lukasz Kaiser",
+            "Mohammad Bavarian",
+            "Clemens Winter",
+            "Philippe Tillet",
+            "Felipe Petroski Such",
+            "Dave Cummings",
+            "Matthias Plappert",
+            "Fotios Chantzis",
+            "Elizabeth Barnes",
+            "Ariel Herbert-Voss",
+            "William Hebgen Guss",
+            "Alex Nichol",
+            "Alex Paino",
+            "Nikolas Tezak",
+            "Jie Tang",
+            "Igor Babuschkin",
+            "Suchir Balaji",
+            "Shantanu Jain",
+            "William Saunders",
+            "Christopher Hesse",
+            "Andrew N. Carr",
+            "Jan Leike",
+            "Josh Achiam",
+            "Vedant Misra",
+            "Evan Morikawa",
+            "Alec Radford",
+            "Matthew Knight",
+            "Miles Brundage",
+            "Mira Murati",
+            "Katie Mayer",
+            "Peter Welinder",
+            "Bob McGrew",
+            "Dario Amodei",
+            "Sam McCandlish",
+            "Ilya Sutskever",
+            "Wojciech Zaremba"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 8,
+      "raw": "Li, R., Allal, L. B., Zi, Y., et al. (2023). StarCoder: May the Source Be with You! arXiv:2305.06161v1.",
+      "parsed": {
+        "title": "StarCoder: May the Source Be with You!",
+        "authors": "Li, R., Allal, L. B., Zi, Y., et al",
+        "year": "2023",
+        "arxiv_id": "2305.06161v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "StarCoder: may the source be with you!",
+          "arxiv_id": "2305.06161",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Raymond Li",
+            "Loubna Ben Allal",
+            "Yangtian Zi",
+            "Niklas Muennighoff",
+            "Denis Kocetkov",
+            "Chenghao Mou",
+            "Marc Marone",
+            "Christopher Akiki",
+            "Jia Li",
+            "Jenny Chim",
+            "Qian Liu",
+            "Evgenii Zheltonozhskii",
+            "Terry Yue Zhuo",
+            "Thomas Wang",
+            "Olivier Dehaene",
+            "Mishig Davaadorj",
+            "Joel Lamy-Poirier",
+            "João Monteiro",
+            "Oleh Shliazhko",
+            "Nicolas Gontier",
+            "Nicholas Meade",
+            "Armel Zebaze",
+            "Ming-Ho Yee",
+            "Logesh Kumar Umapathi",
+            "Jian Zhu",
+            "Benjamin Lipkin",
+            "Muhtasham Oblokulov",
+            "Zhiruo Wang",
+            "Rudra Murthy",
+            "Jason Stillerman",
+            "Siva Sankalp Patel",
+            "Dmitry Abulkhanov",
+            "Marco Zocca",
+            "Manan Dey",
+            "Zhihan Zhang",
+            "Nour Fahmy",
+            "Urvashi Bhattacharyya",
+            "Wenhao Yu",
+            "Swayam Singh",
+            "Sasha Luccioni",
+            "Paulo Villegas",
+            "Maxim Kunakov",
+            "Fedor Zhdanov",
+            "Manuel Romero",
+            "Tony Lee",
+            "Nadav Timor",
+            "Jennifer Ding",
+            "Claire Schlesinger",
+            "Hailey Schoelkopf",
+            "Jan Ebert",
+            "Tri Dao",
+            "Mayank Mishra",
+            "Alex Gu",
+            "Jennifer Robinson",
+            "Carolyn Jane Anderson",
+            "Brendan Dolan-Gavitt",
+            "Danish Contractor",
+            "Siva Reddy",
+            "Daniel Fried",
+            "Dzmitry Bahdanau",
+            "Yacine Jernite",
+            "Carlos Muñoz Ferrandis",
+            "Sean Hughes",
+            "Thomas Wolf",
+            "Arjun Guha",
+            "Leandro von Werra",
+            "Harm de Vries"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2305.06161",
+          "title": "StarCoder: may the source be with you!",
+          "abstract": "The BigCode community, an open-scientific collaboration working on the responsible development of Large Language Models for Code (Code LLMs), introduces StarCoder and StarCoderBase: 15.5B parameter models with 8K context length, infilling capabilities and fast large-batch inference enabled by multi-query attention. StarCoderBase is trained on 1 trillion tokens sourced from The Stack, a large collection of permissively licensed GitHub repositories with inspection tools and an opt-out process. We fine-tuned StarCoderBase on 35B Python tokens, resulting in the creation of StarCoder. We perform the most comprehensive evaluation of Code LLMs to date and show that StarCoderBase outperforms every open Code LLM that supports multiple programming languages and matches or outperforms the OpenAI code-cushman-001 model. Furthermore, StarCoder outperforms every model that is fine-tuned on Python, can be prompted to achieve 40\\% pass@1 on HumanEval, and still retains its performance on other programming languages. We take several important steps towards a safe open-access model release, including an improved PII redaction pipeline and a novel attribution tracing tool, and make the StarCoder models publicly available under a more commercially viable version of the Open Responsible AI Model license.",
+          "year": "2023",
+          "authors": [
+            "Raymond Li",
+            "Loubna Ben Allal",
+            "Yangtian Zi",
+            "Niklas Muennighoff",
+            "Denis Kocetkov",
+            "Chenghao Mou",
+            "Marc Marone",
+            "Christopher Akiki",
+            "Jia Li",
+            "Jenny Chim",
+            "Qian Liu",
+            "Evgenii Zheltonozhskii",
+            "Terry Yue Zhuo",
+            "Thomas Wang",
+            "Olivier Dehaene",
+            "Mishig Davaadorj",
+            "Joel Lamy-Poirier",
+            "João Monteiro",
+            "Oleh Shliazhko",
+            "Nicolas Gontier",
+            "Nicholas Meade",
+            "Armel Zebaze",
+            "Ming-Ho Yee",
+            "Logesh Kumar Umapathi",
+            "Jian Zhu",
+            "Benjamin Lipkin",
+            "Muhtasham Oblokulov",
+            "Zhiruo Wang",
+            "Rudra Murthy",
+            "Jason Stillerman",
+            "Siva Sankalp Patel",
+            "Dmitry Abulkhanov",
+            "Marco Zocca",
+            "Manan Dey",
+            "Zhihan Zhang",
+            "Nour Fahmy",
+            "Urvashi Bhattacharyya",
+            "Wenhao Yu",
+            "Swayam Singh",
+            "Sasha Luccioni",
+            "Paulo Villegas",
+            "Maxim Kunakov",
+            "Fedor Zhdanov",
+            "Manuel Romero",
+            "Tony Lee",
+            "Nadav Timor",
+            "Jennifer Ding",
+            "Claire Schlesinger",
+            "Hailey Schoelkopf",
+            "Jan Ebert",
+            "Tri Dao",
+            "Mayank Mishra",
+            "Alex Gu",
+            "Jennifer Robinson",
+            "Carolyn Jane Anderson",
+            "Brendan Dolan-Gavitt",
+            "Danish Contractor",
+            "Siva Reddy",
+            "Daniel Fried",
+            "Dzmitry Bahdanau",
+            "Yacine Jernite",
+            "Carlos Muñoz Ferrandis",
+            "Sean Hughes",
+            "Thomas Wolf",
+            "Arjun Guha",
+            "Leandro von Werra",
+            "Harm de Vries"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 9,
+      "raw": "Luo, Z., Xu, C., Zhao, P., et al. (2023). WizardCoder: Empowering Code Large Language Models with Evol-Instruct. arXiv:2306.08568v1.",
+      "parsed": {
+        "title": "WizardCoder: Empowering Code Large Language Models with Evol-Instruct",
+        "authors": "Luo, Z., Xu, C., Zhao, P., et al",
+        "year": "2023",
+        "arxiv_id": "2306.08568v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "WizardCoder: Empowering Code Large Language Models with Evol-Instruct",
+          "arxiv_id": "2306.08568",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Ziyang Luo",
+            "Can Xu",
+            "Pu Zhao",
+            "Qingfeng Sun",
+            "Xiubo Geng",
+            "Wenxiang Hu",
+            "Chongyang Tao",
+            "Jing Ma",
+            "Qingwei Lin",
+            "Daxin Jiang"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2306.08568",
+          "title": "WizardCoder: Empowering Code Large Language Models with Evol-Instruct",
+          "abstract": "Code Large Language Models (Code LLMs), such as StarCoder, have demonstrated exceptional performance in code-related tasks. However, most existing models are solely pre-trained on extensive raw code data without instruction fine-tuning. In this paper, we introduce WizardCoder, which empowers Code LLMs with complex instruction fine-tuning, by adapting the Evol-Instruct method to the domain of code. Through comprehensive experiments on four prominent code generation benchmarks, namely HumanEval, HumanEval+, MBPP, and DS-1000, we unveil the exceptional capabilities of our model. It surpasses all other open-source Code LLMs by a substantial margin. Moreover, our model even outperforms the largest closed LLMs, Anthropic's Claude and Google's Bard, on HumanEval and HumanEval+. Our code, model weights, and data are public at https://github.com/nlpxucan/WizardLM",
+          "year": "2023",
+          "authors": [
+            "Ziyang Luo",
+            "Can Xu",
+            "Pu Zhao",
+            "Qingfeng Sun",
+            "Xiubo Geng",
+            "Wenxiang Hu",
+            "Chongyang Tao",
+            "Jing Ma",
+            "Qingwei Lin",
+            "Daxin Jiang"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    }
+  ]
+}

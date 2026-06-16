@@ -1,0 +1,65 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "txt2sql",
+  "seed": 1,
+  "topic": "Text-to-SQL Generation with Large Language Models: Schema Linking, Benchmarks, and Robustness",
+  "metrics": {
+    "n_cited_claims": 0,
+    "support_total": 0,
+    "citation_recall": null,
+    "n_supported": 0,
+    "n_partial": 0,
+    "n_unsupported": 0,
+    "n_error": 0,
+    "n_citation_mounts": 0,
+    "n_contributing": 0,
+    "contributing_weight": 0.0,
+    "citation_precision": null,
+    "n_not_verifiable": 3,
+    "n_claims": 16,
+    "n_claims_with_cite": 3,
+    "n_claims_bare": 13,
+    "bare_assertion_rate": 0.8125
+  },
+  "per_sentence": [
+    {
+      "sent_id": 30,
+      "section_title": "3 Background and Foundations",
+      "text": "A central challenge in text-to-SQL systems is schema linking, which aims to identify the database schemas—such as tables and columns—and database values referenced within natural language questions (Câmara et al., 2024).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 32,
+      "section_title": "3 Background and Foundations",
+      "text": "Their approach first generates a preliminary SQL query using the complete database schema and achieves high recall through bidirectional schema linking, thereby reducing the risk of incomplete results (Câmara et al., 2024).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 42,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "Despite the advances driven by large language models in Text-to-SQL systems, a critical bottleneck remains in schema linking—the process of aligning natural language questions with the relevant portions of a database schema (Câmara et al., 2024).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    }
+  ]
+}

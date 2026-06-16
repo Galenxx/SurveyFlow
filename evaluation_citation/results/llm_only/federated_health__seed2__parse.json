@@ -1,0 +1,97 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\llm_only\\Federated_Learning_for_Privacy_Preserving_Healthca__glm-5.1__seed2.md",
+  "topic": "3 Architectures for Federated Learning in Healthcare",
+  "n_references": 10,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "McMahan, H. B., Moore, E., Ramage, D., Hampson, S., & y Arcas, B. A. (2017). Communication-Efficient Learning of Deep Networks from Decentralized Data. arXiv:1602.05629v3.",
+      "title": "Communication-Efficient Learning of Deep Networks from Decentralized Data",
+      "authors": "McMahan, H. B., Moore, E., Ramage, D., Hampson, S., & y Arcas, B. A",
+      "year": "2017",
+      "arxiv_id": "1602.05629v3",
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Li, T., Sahu, A. K., Zaheer, M., Sanjabi, M., Talwalkar, A., & Smith, V. (2020). Federated Optimization in Heterogeneous Networks. arXiv:1812.06127v3.",
+      "title": "Federated Optimization in Heterogeneous Networks",
+      "authors": "Li, T., Sahu, A. K., Zaheer, M., Sanjabi, M., Talwalkar, A., & Smith, V",
+      "year": "2020",
+      "arxiv_id": "1812.06127v3",
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Sheller, M. J., Rebsamen, M., et al. (2018). Multi-Institutional Deep Learning Modeling Without Sharing Patient Data: A Feasibility Study on Brain Tumor Segmentation. arXiv:1810.04304v1.",
+      "title": "Multi-Institutional Deep Learning Modeling Without Sharing Patient Data: A Feasibility Study on Brain Tumor Segmentation",
+      "authors": "Sheller, M. J., Rebsamen, M., et al",
+      "year": "2018",
+      "arxiv_id": "1810.04304v1",
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Rieke, N., Hancox, J., Li, W., Milletarì, F., Roth, H. R., Albarqouni, S., et al. (2020). The future of digital health with federated learning. arXiv:2003.08119v3.",
+      "title": "The future of digital health with federated learning",
+      "authors": "Rieke, N., Hancox, J., Li, W., Milletarì, F., Roth, H. R., Albarqouni, S., et al",
+      "year": "2020",
+      "arxiv_id": "2003.08119v3",
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Xu, J., Glicksberg, B. S., Su, C., Walker, P., Bian, J., & Wang, F. (2020). Federated Learning for Healthcare Informatics. arXiv:2011.10263v2.",
+      "title": "Federated Learning for Healthcare Informatics",
+      "authors": "Xu, J., Glicksberg, B. S., Su, C., Walker, P., Bian, J., & Wang, F",
+      "year": "2020",
+      "arxiv_id": "2011.10263v2",
+      "doi": null
+    },
+    {
+      "ref_id": 5,
+      "raw": "Zhu, L., Liu, Z., & Han, S. (2019). Deep Leakage from Gradients. arXiv:1906.08935v2.",
+      "title": "Deep Leakage from Gradients",
+      "authors": "Zhu, L., Liu, Z., & Han, S",
+      "year": "2019",
+      "arxiv_id": "1906.08935v2",
+      "doi": null
+    },
+    {
+      "ref_id": 6,
+      "raw": "Geiping, J., Bauermeister, H., Dröge, H., & Moeller, M. (2020). Inverting Gradients - How easy is it to break privacy in federated learning?. arXiv:2003.14053v3.",
+      "title": "Inverting Gradients - How easy is it to break privacy in federated learning?",
+      "authors": "Geiping, J., Bauermeister, H., Dröge, H., & Moeller, M",
+      "year": "2020",
+      "arxiv_id": "2003.14053v3",
+      "doi": null
+    },
+    {
+      "ref_id": 7,
+      "raw": "Mothukuri, V., Parizi, R. M., Pouriyeh, S., Huang, Y., Dehghantanha, A., & Srivastava, G. (2020). A survey on security and privacy of federated learning. arXiv:2004.06677v2.",
+      "title": "A survey on security and privacy of federated learning",
+      "authors": "Mothukuri, V., Parizi, R. M., Pouriyeh, S., Huang, Y., Dehghantanha, A., & Srivastava, G",
+      "year": "2020",
+      "arxiv_id": "2004.06677v2",
+      "doi": null
+    },
+    {
+      "ref_id": 8,
+      "raw": "Li, Q., Wen, Z., Wu, Z., Hu, S., Wang, N., Li, Y., et al. (2021). A Survey on Federated Learning: Systems and Vision. arXiv:1907.09693v4.",
+      "title": "A Survey on Federated Learning: Systems and Vision",
+      "authors": "Li, Q., Wen, Z., Wu, Z., Hu, S., Wang, N., Li, Y., et al",
+      "year": "2021",
+      "arxiv_id": "1907.09693v4",
+      "doi": null
+    },
+    {
+      "ref_id": 9,
+      "raw": "Terrail, J. O., et al. (2022). Fed-BioMed: Open, Transparent and Reproducible Federated Learning for Healthcare. arXiv:2206.09562v1.",
+      "title": "Fed-BioMed: Open, Transparent and Reproducible Federated Learning for Healthcare",
+      "authors": "Terrail, J. O., et al",
+      "year": "2022",
+      "arxiv_id": "2206.09562v1",
+      "doi": null
+    }
+  ]
+}

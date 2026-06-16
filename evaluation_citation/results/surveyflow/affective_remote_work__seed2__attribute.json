@@ -1,0 +1,77 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "affective_remote_work",
+  "seed": 2,
+  "topic": "Affective Computing for Remote Workplace Monitoring: Sensing, Inference, and Ethical Considerations",
+  "metrics": {
+    "n_cited_claims": 3,
+    "support_total": 0.0,
+    "citation_recall": 0.0,
+    "n_supported": 0,
+    "n_partial": 0,
+    "n_unsupported": 3,
+    "n_error": 0,
+    "n_citation_mounts": 3,
+    "n_contributing": 0,
+    "contributing_weight": 0.0,
+    "citation_precision": 0.0,
+    "n_not_verifiable": 0,
+    "n_claims": 7,
+    "n_claims_with_cite": 3,
+    "n_claims_bare": 4,
+    "bare_assertion_rate": 0.5714
+  },
+  "per_sentence": [
+    {
+      "sent_id": 34,
+      "section_title": "3.1 Audio-Visual Sensing for Cognitive Load and Affect in Remote Work",
+      "text": "A key resource for audio-visual sensing of cognitive load and affect in remote work is the AVCAffe dataset introduced by Bussolan et al. (2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes the MultiPhysio-HRC dataset, not the AVCAffe dataset introduced by Bussolan et al. (2025), so it does not support the claim about AVCAffe.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 36,
+      "section_title": "3.1 Audio-Visual Sensing for Cognitive Load and Affect in Remote Work",
+      "text": "The tasks, which included open discussions and collaborative decision-making exercises, were constructed to elicit varying levels of cognitive load (Bussolan et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes a dataset that includes controlled cognitive tasks but does not specify that those tasks were open discussions or collaborative decision-making exercises designed to elicit varying cognitive load levels.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 38,
+      "section_title": "4.1 Socio-demographic and Cross-cultural Determinants of Emotional AI Attitudes",
+      "text": "The evidence provided for Mantello et al. (2021) consists solely of bibliographic metadata and reference list entries, without any substantive findings, results, or discussion from the study itself.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract describes survey findings and discussion, not merely bibliographic metadata and reference list entries, so it does not support the claim that the evidence consists solely of such non-substantive content.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "gnn_drug",
+  "seed": 0,
+  "topic": "Graph Neural Networks for Drug Discovery and Molecular Property Prediction",
+  "metrics": {
+    "n_cited_claims": 14,
+    "support_total": 7.5,
+    "citation_recall": 0.5357,
+    "n_supported": 6,
+    "n_partial": 3,
+    "n_unsupported": 5,
+    "n_error": 0,
+    "n_citation_mounts": 14,
+    "n_contributing": 6,
+    "contributing_weight": 7.5,
+    "citation_precision": 0.5357,
+    "n_not_verifiable": 0,
+    "n_claims": 30,
+    "n_claims_with_cite": 14,
+    "n_claims_bare": 16,
+    "bare_assertion_rate": 0.5333
+  },
+  "per_sentence": [
+    {
+      "sent_id": 37,
+      "section_title": "3.1 Virtual Screening and De Novo Drug Design",
+      "text": "Tripathy et al. (2024) note that AI-driven approaches now enable predictive synthesis planning, reaction outcome prediction, and property estimation with unprecedented precision, thereby streamlining synthetic route design and the optimization of molecular properties for diverse applications.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract of c0 contains a sentence that is nearly identical to the claim, explicitly stating that AI-driven approaches enable predictive synthesis planning, reaction outcome prediction, and property estimation with unprecedented precision, thereby streamlining synthetic route design and optimization of molecular properties for diverse applications.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 40,
+      "section_title": "3.1 Virtual Screening and De Novo Drug Design",
+      "text": "Zhang et al. (2025) provide a comprehensive overview of such methods, with their review dedicating specific attention to virtual screening and binding site prediction.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper is a review of GNNs in drug discovery but its abstract does not mention Zhang et al. (2025) or indicate that it dedicates specific attention to virtual screening and binding site prediction, nor does it confirm that Zhang et al. (2025) provides such a review.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 43,
+      "section_title": "3.2 Topology-Aware Molecular Graph Representations",
+      "text": "Zhang et al. (2025) note that these representations capture molecular topology, which facilitates compatibility with sequence-based models; however, they also observe that such representations inherently struggle to capture structural symmetry, reversibility, and long-range dependencies.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses GNNs as topology-aware models for molecular representation but does not mention any inherent struggles with capturing structural symmetry, reversibility, or long-range dependencies.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 45,
+      "section_title": "3.2 Topology-Aware Molecular Graph Representations",
+      "text": "The broader context in which these representations are deployed is one where AI techniques, including machine learning algorithms, neural networks, and deep learning architectures, have substantially improved the accuracy and efficiency of molecular structure prediction, quantum chemistry calculations, and molecular dynamics simulations (Tripathy et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract of c0 directly states that AI techniques including machine learning, neural networks, and deep learning have significantly enhanced the accuracy and efficiency of molecular structure prediction, quantum chemistry calculations, and molecular dynamics simulations, which exactly matches the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 47,
+      "section_title": "3.3 GNNs vs Classical Featurisation for QSAR and Activity-Cliff Prediction",
+      "text": "Tripathy et al. (2024) note that AI techniques, including machine learning and deep learning architectures, have improved the accuracy and efficiency of molecular structure prediction and quantum chemistry calculations, and they facilitate virtual screening and de novo drug design.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that AI techniques enhance molecular structure prediction and quantum chemistry calculations, and facilitate virtual screening and de novo drug design, directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 49,
+      "section_title": "3.3 GNNs vs Classical Featurisation for QSAR and Activity-Cliff Prediction",
+      "text": "Zhang et al. (2025) provide a review of GNNs in drug discovery, covering their use in molecular property prediction and virtual screening.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states the review covers GNN applications in drug discovery including molecular property prediction and virtual screening, directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 52,
+      "section_title": "4.1 Bond-Based Message Passing in D-MPNN",
+      "text": "Gong and Maday (2023) apply this bond-based message passing algorithm, inspired by D-MPNN, to update both bond states and atom states.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The evidence describes D-GATs using attention-based directed message passing, but does not mention D-MPNN, bond-based message passing inspired by D-MPNN, or the specific work of Gong and Maday (2023).",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 53,
+      "section_title": "4.1 Bond-Based Message Passing in D-MPNN",
+      "text": "Their approach incorporates a scaled dot-product attention mechanism into the message passing process, and for molecule-level prediction tasks, they further employ an attention-based readout function (Gong & Maday, 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that the proposed D-GATs update bond and atom states using a scaled dot-product attention mechanism, directly supporting the claim about incorporating scaled dot-product attention into message passing.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 55,
+      "section_title": "4.2 Adaptive Substructure-Aware Expert Models",
+      "text": "Nguyen et al. (2020) introduced a mixture-of-experts approach, TopExpert, in which the number of experts and a key parameter ψ must be carefully tuned for each scenario using a validation set.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses meta-learning initializations for GNNs in low-resource molecular property prediction and does not mention a mixture-of-experts approach, TopExpert, or parameters ψ and number of experts.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 58,
+      "section_title": "4.2 Adaptive Substructure-Aware Expert Models",
+      "text": "Gong and Maday (2023) identify the design of better message passing algorithms as another possible direction for advancing molecular representation learning, noting that existing pre-training strategies already incorporate chemical environment matching and 3D geometric information such as bond lengths and angles.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The cited evidence proposes a better message passing algorithm (D-GATs) for molecular representation learning, which aligns with the first part of the claim, but it does not mention existing pre-training strategies incorporating chemical environment matching or 3D geometric information such as bond lengths and angles.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 60,
+      "section_title": "4.3 Molecular Property Prediction as Graph-Level Classification",
+      "text": "Molecular property prediction is a fundamental task in cheminformatics and bioinformatics, with critical applications in drug discovery and toxicity assessment (Nguyen et al., 2020).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The cited evidence confirms that molecular property prediction is important in drug discovery, but it does not mention toxicity assessment or explicitly state that the task is fundamental in cheminformatics and bioinformatics.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 62,
+      "section_title": "4.3 Molecular Property Prediction as Graph-Level Classification",
+      "text": "Nguyen et al. (2020) note that traditional approaches to this task often rely on hand-crafted molecular descriptors paired with machine learning models such as random forests or support vector machines.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper focuses on meta-learning for graph neural networks in low-resource settings and does not mention traditional hand-crafted molecular descriptors, random forests, or support vector machines.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 63,
+      "section_title": "4.3 Molecular Property Prediction as Graph-Level Classification",
+      "text": "More recently, graph neural networks (GNNs) following the Message Passing Neural Network (MPNN) framework have been applied to molecular property prediction, where model performance is determined by the specific message passing algorithm employed (Gong & Maday, 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that GNNs have varying performance on molecular property prediction depending on the message passing algorithm used, directly supporting the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 64,
+      "section_title": "4.3 Molecular Property Prediction as Graph-Level Classification",
+      "text": "Gong and Maday (2023) develop a directed message passing approach inspired by Directed MPNN (D-MPNN), applying a bond-based message passing algorithm that operates over the molecular graph to produce a graph-level representation suitable for property prediction.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence describes a directed message passing approach (D-GAT) that uses attention over directed bonds for molecular property prediction, which aligns with the claim's mention of a directed message passing approach and property prediction, but it does not mention Gong and Maday (2023) or D-MPNN, so the specific attribution and inspiration are unsupported.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

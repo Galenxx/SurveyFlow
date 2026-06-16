@@ -1,0 +1,735 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "neural_audio_codec",
+  "seed": 2,
+  "topic": "Neural Audio Codecs and Discrete Speech Representations: Architectures, Tokenization, and Generative Applications",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Zeghidour, N., Luebs, A., Omran, A., Skoglund, J., & Tagliasacchi, M. (2021). SoundStream: An End-to-End Neural Audio Codec. arXiv:2107.03312v1.",
+      "parsed": {
+        "title": "SoundStream: An End-to-End Neural Audio Codec",
+        "authors": "Zeghidour, N., Luebs, A., Omran, A., Skoglund, J., & Tagliasacchi, M",
+        "year": "2021",
+        "arxiv_id": "2107.03312v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "SoundStream: An End-to-End Neural Audio Codec",
+          "arxiv_id": "2107.03312",
+          "doi": "10.1109/taslp.2021.3129994",
+          "year": "2021",
+          "authors": [
+            "Neil Zeghidour",
+            "Alejandro Luebs",
+            "Ahmed Omran",
+            "J. Skoglund",
+            "M. Tagliasacchi"
+          ]
+        },
+        {
+          "title": "Exploiting Neural Audio Codecs for Edge-to-Gateway Speech Processing",
+          "arxiv_id": null,
+          "doi": "10.23919/eusipco63237.2025.11226634",
+          "year": "2025",
+          "authors": [
+            "Stefano Ciapponi",
+            "Elisabetta Farella"
+          ]
+        },
+        {
+          "title": "HYFuse: Aligning Heterogeneous Speech Pre-Trained Representations in Hyperbolic Space for Speech Emotion Recognition",
+          "arxiv_id": "2506.03403",
+          "doi": "10.21437/interspeech.2025-2191",
+          "year": "2025",
+          "authors": [
+            "Chetia Phukan",
+            "Girish",
+            "Mohd Mujtaba Akhtar",
+            "S. Behera",
+            "Pailla Balakrishna Reddy",
+            "Arun Balaji Buduru",
+            "Rajesh Sharma",
+            "India Upes"
+          ]
+        },
+        {
+          "title": "High Quality and Secure Speech Transmission at Low Bitrate via Semantic-Acoustic Hybrid Coding for Low-Altitude Intelligent Systems",
+          "arxiv_id": null,
+          "doi": "10.1109/TCCN.2026.3657147",
+          "year": "2026",
+          "authors": [
+            "Bo Chen",
+            "Jianping An",
+            "Bowen Gui",
+            "Liang Zeng"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2107.03312",
+          "doi": "10.1109/taslp.2021.3129994",
+          "title": "SoundStream: An End-to-End Neural Audio Codec",
+          "abstract": "We present SoundStream, a novel neural audio codec that can efficiently compress speech, music and general audio at bitrates normally targeted by speech-tailored codecs. SoundStream relies on a model architecture composed by a fully convolutional encoder/decoder network and a residual vector quantizer, which are trained jointly end-to-end. Training leverages recent advances in text-to-speech and speech enhancement, which combine adversarial and reconstruction losses to allow the generation of high-quality audio content from quantized embeddings. By training with structured dropout applied to quantizer layers, a single model can operate across variable bitrates from 3 kbps to 18 kbps, with a negligible quality loss when compared with models trained at fixed bitrates. In addition, the model is amenable to a low latency implementation, which supports streamable inference and runs in real time on a smartphone CPU. In subjective evaluations using audio at 24 kHz sampling rate, SoundStream at 3 kbps outperforms Opus at 12 kbps and approaches EVS at 9.6 kbps. Moreover, we are able to perform joint compression and enhancement either at the encoder or at the decoder side with no additional latency, which we demonstrate through background noise suppression for speech.",
+          "year": "2021",
+          "authors": [
+            "Neil Zeghidour",
+            "Alejandro Luebs",
+            "Ahmed Omran",
+            "J. Skoglund",
+            "M. Tagliasacchi"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 1342
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Defossez, A., Copet, J., Synnaeve, G., & Adi, Y. (2022). High Fidelity Neural Audio Compression. arXiv:2210.13438v1.",
+      "parsed": {
+        "title": "High Fidelity Neural Audio Compression",
+        "authors": "Defossez, A., Copet, J., Synnaeve, G., & Adi, Y",
+        "year": "2022",
+        "arxiv_id": "2210.13438v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "High Fidelity Neural Audio Compression",
+          "arxiv_id": "2210.13438",
+          "doi": null,
+          "year": "2022",
+          "authors": [
+            "Alexandre Défossez",
+            "Jade Copet",
+            "Gabriel Synnaeve",
+            "Yossi Adi"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2210.13438",
+          "title": "High Fidelity Neural Audio Compression",
+          "abstract": "We introduce a state-of-the-art real-time, high-fidelity, audio codec leveraging neural networks. It consists in a streaming encoder-decoder architecture with quantized latent space trained in an end-to-end fashion. We simplify and speed-up the training by using a single multiscale spectrogram adversary that efficiently reduces artifacts and produce high-quality samples. We introduce a novel loss balancer mechanism to stabilize training: the weight of a loss now defines the fraction of the overall gradient it should represent, thus decoupling the choice of this hyper-parameter from the typical scale of the loss. Finally, we study how lightweight Transformer models can be used to further compress the obtained representation by up to 40%, while staying faster than real time. We provide a detailed description of the key design choices of the proposed model including: training objective, architectural changes and a study of various perceptual loss functions. We present an extensive subjective evaluation (MUSHRA tests) together with an ablation study for a range of bandwidths and audio domains, including speech, noisy-reverberant speech, and music. Our approach is superior to the baselines methods across all evaluated settings, considering both 24 kHz monophonic and 48 kHz stereophonic audio. Code and models are available at github.com/facebookresearch/encodec.",
+          "year": "2022",
+          "authors": [
+            "Alexandre Défossez",
+            "Jade Copet",
+            "Gabriel Synnaeve",
+            "Yossi Adi"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Borsos, Z., Marinier, R., Vincent, D., Kharitonov, E., Pietquin, O., Sharifi, M., Roblek, D., Teboul, O., Grangier, D., Tagliasacchi, M., & Zeghidour, N. (2022). AudioLM: a Language Modeling Approach to Audio Generation. arXiv:2209.03143v1.",
+      "parsed": {
+        "title": "AudioLM: a Language Modeling Approach to Audio Generation",
+        "authors": "Borsos, Z., Marinier, R., Vincent, D., Kharitonov, E., Pietquin, O., Sharifi, M., Roblek, D., Teboul, O., Grangier, D., Tagliasacchi, M., & Zeghidour, N",
+        "year": "2022",
+        "arxiv_id": "2209.03143v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "AudioLM: A Language Modeling Approach to Audio Generation",
+          "arxiv_id": "2209.03143",
+          "doi": "10.1109/TASLP.2023.3288409",
+          "year": "2022",
+          "authors": [
+            "Zalán Borsos",
+            "Raphaël Marinier",
+            "Damien Vincent",
+            "E. Kharitonov",
+            "O. Pietquin",
+            "Matthew Sharifi",
+            "Dominik Roblek",
+            "Olivier Teboul",
+            "David Grangier",
+            "M. Tagliasacchi",
+            "Neil Zeghidour"
+          ]
+        },
+        {
+          "title": "LM-VC: Zero-Shot Voice Conversion via Speech Generation Based on Language Models",
+          "arxiv_id": "2306.10521",
+          "doi": "10.1109/LSP.2023.3308474",
+          "year": "2023",
+          "authors": [
+            "Zhichao Wang",
+            "Yuan-Jui Chen",
+            "Linfu Xie",
+            "Qiao Tian",
+            "Yuping Wang"
+          ]
+        },
+        {
+          "title": "On Generative Spoken Language Modeling from Raw Audio",
+          "arxiv_id": "2102.01192",
+          "doi": "10.1162/tacl_a_00430",
+          "year": "2021",
+          "authors": [
+            "Kushal Lakhotia",
+            "Evgeny Kharitonov",
+            "Wei-Ning Hsu",
+            "Yossi Adi",
+            "Adam Polyak",
+            "Benjamin Bolte",
+            "Tu Nguyen",
+            "Jade Copet",
+            "Alexei Baevski",
+            "A. Mohamed",
+            "Emmanuel Dupoux"
+          ]
+        },
+        {
+          "title": "Can Large Language Models Predict Audio Effects Parameters from Natural Language?",
+          "arxiv_id": "2505.20770",
+          "doi": "10.1109/WASPAA66052.2025.11230953",
+          "year": "2025",
+          "authors": [
+            "Seungheon Doh",
+            "Junghyun Koo",
+            "Marco A. Mart'inez-Ram'irez",
+            "Wei-Hsiang Liao",
+            "Juhan Nam",
+            "Yuki Mitsufuji"
+          ]
+        },
+        {
+          "title": "Image Generation Using AI with Effective Audio Playback System",
+          "arxiv_id": null,
+          "doi": "10.1109/INCET61516.2024.10593387",
+          "year": "2024",
+          "authors": [
+            "A. Inbavalli",
+            "K. Sakthidhasan",
+            "G. Krishna"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2209.03143",
+          "doi": "10.1109/TASLP.2023.3288409",
+          "title": "AudioLM: A Language Modeling Approach to Audio Generation",
+          "abstract": "We introduce AudioLM, a framework for high-quality audio generation with long-term consistency. AudioLM maps the input audio to a sequence of discrete tokens and casts audio generation as a language modeling task in this representation space. We show how existing audio tokenizers provide different trade-offs between reconstruction quality and long-term structure, and we propose a hybrid tokenization scheme to achieve both objectives. Namely, we leverage the discretized activations of a masked language model pre-trained on audio to capture long-term structure and the discrete codes produced by a neural audio codec to achieve high-quality synthesis. By training on large corpora of raw audio waveforms, AudioLM learns to generate natural and coherent continuations given short prompts. When trained on speech, and without any transcript or annotation, AudioLM generates syntactically and semantically plausible speech continuations while also maintaining speaker identity and prosody for unseen speakers. Furthermore, we demonstrate how our approach extends beyond speech by generating coherent piano music continuations, despite being trained without any symbolic representation of music.",
+          "year": "2022",
+          "authors": [
+            "Zalán Borsos",
+            "Raphaël Marinier",
+            "Damien Vincent",
+            "E. Kharitonov",
+            "O. Pietquin",
+            "Matthew Sharifi",
+            "Dominik Roblek",
+            "Olivier Teboul",
+            "David Grangier",
+            "M. Tagliasacchi",
+            "Neil Zeghidour"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 953
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Wang, C., Chen, S., Wu, Y., Zhang, Z., Zhou, L., Liu, S., Chen, Z., Liu, Y., Wang, H., Li, J., He, L., Zhao, S., & Wei, F. (2023). Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers. arXiv:2301.02111v1.",
+      "parsed": {
+        "title": "Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers",
+        "authors": "Wang, C., Chen, S., Wu, Y., Zhang, Z., Zhou, L., Liu, S., Chen, Z., Liu, Y., Wang, H., Li, J., He, L., Zhao, S., & Wei, F",
+        "year": "2023",
+        "arxiv_id": "2301.02111v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers",
+          "arxiv_id": "2301.02111",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Chengyi Wang",
+            "Sanyuan Chen",
+            "Yu Wu",
+            "Ziqiang Zhang",
+            "Long Zhou",
+            "Shujie Liu",
+            "Zhuo Chen",
+            "Yanqing Liu",
+            "Huaming Wang",
+            "Jinyu Li",
+            "Lei He",
+            "Sheng Zhao",
+            "Furu Wei"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2301.02111",
+          "title": "Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers",
+          "abstract": "We introduce a language modeling approach for text to speech synthesis (TTS). Specifically, we train a neural codec language model (called Vall-E) using discrete codes derived from an off-the-shelf neural audio codec model, and regard TTS as a conditional language modeling task rather than continuous signal regression as in previous work. During the pre-training stage, we scale up the TTS training data to 60K hours of English speech which is hundreds of times larger than existing systems. Vall-E emerges in-context learning capabilities and can be used to synthesize high-quality personalized speech with only a 3-second enrolled recording of an unseen speaker as an acoustic prompt. Experiment results show that Vall-E significantly outperforms the state-of-the-art zero-shot TTS system in terms of speech naturalness and speaker similarity. In addition, we find Vall-E could preserve the speaker's emotion and acoustic environment of the acoustic prompt in synthesis. See https://aka.ms/valle for demos of our work.",
+          "year": "2023",
+          "authors": [
+            "Chengyi Wang",
+            "Sanyuan Chen",
+            "Yu Wu",
+            "Ziqiang Zhang",
+            "Long Zhou",
+            "Shujie Liu",
+            "Zhuo Chen",
+            "Yanqing Liu",
+            "Huaming Wang",
+            "Jinyu Li",
+            "Lei He",
+            "Sheng Zhao",
+            "Furu Wei"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 4,
+      "raw": "Copet, J., Kreuk, F., Gat, I., Remez, T., Kant, D., Synnaeve, G., Adi, Y., & Defossez, A. (2023). Simple and Controllable Music Generation. arXiv:2306.05284v1.",
+      "parsed": {
+        "title": "Simple and Controllable Music Generation",
+        "authors": "Copet, J., Kreuk, F., Gat, I., Remez, T., Kant, D., Synnaeve, G., Adi, Y., & Defossez, A",
+        "year": "2023",
+        "arxiv_id": "2306.05284v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Simple and Controllable Music Generation",
+          "arxiv_id": "2306.05284",
+          "doi": "10.48550/arXiv.2306.05284",
+          "year": "2023",
+          "authors": [
+            "Jade Copet",
+            "F. Kreuk",
+            "Itai Gat",
+            "Tal Remez",
+            "David Kant",
+            "Gabriel Synnaeve",
+            "Yossi Adi",
+            "Alexandre D'efossez"
+          ]
+        },
+        {
+          "title": "Domain Adversarial Training on Conditional Variational Auto-Encoder for Controllable Music Generation",
+          "arxiv_id": "2209.07144",
+          "doi": "10.48550/arXiv.2209.07144",
+          "year": "2022",
+          "authors": [
+            "Jingwei Zhao",
+            "Gus G. Xia",
+            "Ye Wang"
+          ]
+        },
+        {
+          "title": "TEAdapter: Supply Vivid Guidance for Controllable Text-to-Music Generation",
+          "arxiv_id": "2408.04865",
+          "doi": "10.1109/ICME57554.2024.10688330",
+          "year": "2024",
+          "authors": [
+            "Jialing Zou",
+            "Jiahao Mei",
+            "Xudong Nan",
+            "Jinghua Li",
+            "Daoguo Dong",
+            "Liang He"
+          ]
+        },
+        {
+          "title": "High Fidelity Text-Guided Music Generation and Editing via Single-Stage Flow Matching",
+          "arxiv_id": null,
+          "doi": "10.48550/arXiv.2407.03648",
+          "year": "2024",
+          "authors": [
+            "Gaël Le Lan",
+            "Bowen Shi",
+            "Zhaoheng Ni",
+            "Sidd Srinivasan",
+            "Anurag Kumar",
+            "Brian Ellis",
+            "David Kant",
+            "Varun Nagaraja",
+            "Ernie Chang",
+            "Wei-Ning Hsu",
+            "Yangyang Shi",
+            "Vikas Chandra"
+          ]
+        },
+        {
+          "title": "Controllable Music Production with Diffusion Models and Guidance Gradients",
+          "arxiv_id": "2311.00613",
+          "doi": "10.48550/arXiv.2311.00613",
+          "year": "2023",
+          "authors": [
+            "M. Levy",
+            "Bruno Di Giorgi",
+            "Floris Weers",
+            "Angelos Katharopoulos",
+            "Tom Nickson"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2306.05284",
+          "doi": "10.48550/arXiv.2306.05284",
+          "title": "Simple and Controllable Music Generation",
+          "abstract": "We tackle the task of conditional music generation. We introduce MusicGen, a single Language Model (LM) that operates over several streams of compressed discrete music representation, i.e., tokens. Unlike prior work, MusicGen is comprised of a single-stage transformer LM together with efficient token interleaving patterns, which eliminates the need for cascading several models, e.g., hierarchically or upsampling. Following this approach, we demonstrate how MusicGen can generate high-quality samples, while being conditioned on textual description or melodic features, allowing better controls over the generated output. We conduct extensive empirical evaluation, considering both automatic and human studies, showing the proposed approach is superior to the evaluated baselines on a standard text-to-music benchmark. Through ablation studies, we shed light over the importance of each of the components comprising MusicGen. Music samples, code, and models are available at https://github.com/facebookresearch/audiocraft.",
+          "year": "2023",
+          "authors": [
+            "Jade Copet",
+            "F. Kreuk",
+            "Itai Gat",
+            "Tal Remez",
+            "David Kant",
+            "Gabriel Synnaeve",
+            "Yossi Adi",
+            "Alexandre D'efossez"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 701
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 5,
+      "raw": "Kreuk, F., Synnaeve, G., Polyak, A., Singer, U., Defossez, A., Copet, J., Parikh, D., Taigman, Y., & Adi, Y. (2022). AudioGen: Textually Guided Audio Generation. arXiv:2209.15352v1.",
+      "parsed": {
+        "title": "AudioGen: Textually Guided Audio Generation",
+        "authors": "Kreuk, F., Synnaeve, G., Polyak, A., Singer, U., Defossez, A., Copet, J., Parikh, D., Taigman, Y., & Adi, Y",
+        "year": "2022",
+        "arxiv_id": "2209.15352v1",
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 6,
+      "raw": "Zhang, Z., Zhou, L., Wang, C., Chen, S., Wu, Y., Liu, S., Chen, Z., Liu, Y., Wang, H., Li, J., He, L., Zhao, S., & Wei, F. (2023). SpeechTokenizer: Unified Speech Tokenizer for Speech Language Models. arXiv:2308.16692v1.",
+      "parsed": {
+        "title": "SpeechTokenizer: Unified Speech Tokenizer for Speech Language Models",
+        "authors": "Zhang, Z., Zhou, L., Wang, C., Chen, S., Wu, Y., Liu, S., Chen, Z., Liu, Y., Wang, H., Li, J., He, L., Zhao, S., & Wei, F",
+        "year": "2023",
+        "arxiv_id": "2308.16692v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "SpeechTokenizer: Unified Speech Tokenizer for Speech Large Language Models",
+          "arxiv_id": "2308.16692",
+          "doi": "10.48550/arXiv.2308.16692",
+          "year": "2023",
+          "authors": [
+            "Xin Zhang",
+            "Dong Zhang",
+            "Shimin Li",
+            "Yaqian Zhou",
+            "Xipeng Qiu"
+          ]
+        },
+        {
+          "title": "OpusLM: A Family of Open Unified Speech Language Models",
+          "arxiv_id": "2506.17611",
+          "doi": "10.48550/arXiv.2506.17611",
+          "year": "2025",
+          "authors": [
+            "Jinchuan Tian",
+            "William Chen",
+            "Yifan Peng",
+            "Jiatong Shi",
+            "Siddhant Arora",
+            "Shikhar Bharadwaj",
+            "Takashi Maekaku",
+            "Yusuke Shinohara",
+            "Keita Goto",
+            "Xiangyu Yue",
+            "Huck Yang",
+            "Shinji Watanabe"
+          ]
+        },
+        {
+          "title": "DualSpeechLM: Towards Unified Speech Understanding and Generation via Dual Speech Token Modeling with Large Language Models",
+          "arxiv_id": "2508.08961",
+          "doi": "10.48550/arXiv.2508.08961",
+          "year": "2025",
+          "authors": [
+            "Yuanyuan Wang",
+            "Dongchao Yang",
+            "Yiwen Shao",
+            "Hangting Chen",
+            "Jiankun Zhao",
+            "Zhiyong Wu",
+            "Helen Meng",
+            "Xixin Wu"
+          ]
+        },
+        {
+          "title": "Llama-Mimi: Speech Language Models with Interleaved Semantic and Acoustic Tokens",
+          "arxiv_id": null,
+          "doi": "10.48550/arXiv.2509.14882",
+          "year": "2025",
+          "authors": [
+            "Issa Sugiura",
+            "Shuhei Kurita",
+            "Yusuke Oda",
+            "Ryuichiro Higashinaka"
+          ]
+        },
+        {
+          "title": "The WER Trap: Shattering the Illusion of Unified Tokens in Speech Language Models",
+          "arxiv_id": "2605.29209",
+          "doi": null,
+          "year": "2026",
+          "authors": [
+            "Xiangyue Zhang",
+            "Yuxin Li",
+            "Haoyang Zhang",
+            "Shiqin Han",
+            "Hexin Liu",
+            "Qiquan Zhang",
+            "Beena Ahmed",
+            "Julien Epps"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2308.16692",
+          "doi": "10.48550/arXiv.2308.16692",
+          "title": "SpeechTokenizer: Unified Speech Tokenizer for Speech Large Language Models",
+          "abstract": "Current speech large language models build upon discrete speech representations, which can be categorized into semantic tokens and acoustic tokens. However, existing speech tokens are not specifically designed for speech language modeling. To assess the suitability of speech tokens for building speech language models, we established the first benchmark, SLMTokBench. Our results indicate that neither semantic nor acoustic tokens are ideal for this purpose. Therefore, we propose SpeechTokenizer, a unified speech tokenizer for speech large language models. SpeechTokenizer adopts the Encoder-Decoder architecture with residual vector quantization (RVQ). Unifying semantic and acoustic tokens, SpeechTokenizer disentangles different aspects of speech information hierarchically across different RVQ layers. Furthermore, We construct a Unified Speech Language Model (USLM) leveraging SpeechTokenizer. Experiments show that SpeechTokenizer performs comparably to EnCodec in speech reconstruction and demonstrates strong performance on the SLMTokBench benchmark. Also, USLM outperforms VALL-E in zero-shot Text-to-Speech tasks. Code and models are available at https://github.com/ZhangXInFD/SpeechTokenizer/.",
+          "year": "2023",
+          "authors": [
+            "Xin Zhang",
+            "Dong Zhang",
+            "Shimin Li",
+            "Yaqian Zhou",
+            "Xipeng Qiu"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 133
+        },
+        "title_sim": 0.9571428571428572,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 7,
+      "raw": "Kumar, R., Seetharaman, P., Luebs, A., Kumar, I., & Kumar, K. (2023). High-Fidelity Audio Compression with Improved RVQGAN. arXiv:2306.06546v1.",
+      "parsed": {
+        "title": "High-Fidelity Audio Compression with Improved RVQGAN",
+        "authors": "Kumar, R., Seetharaman, P., Luebs, A., Kumar, I., & Kumar, K",
+        "year": "2023",
+        "arxiv_id": "2306.06546v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "High-Fidelity Audio Compression with Improved RVQGAN",
+          "arxiv_id": "2306.06546",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Rithesh Kumar",
+            "Prem Seetharaman",
+            "Alejandro Luebs",
+            "Ishaan Kumar",
+            "Kundan Kumar"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2306.06546",
+          "title": "High-Fidelity Audio Compression with Improved RVQGAN",
+          "abstract": "Language models have been successfully used to model natural signals, such as images, speech, and music. A key component of these models is a high quality neural compression model that can compress high-dimensional natural signals into lower dimensional discrete tokens. To that end, we introduce a high-fidelity universal neural audio compression algorithm that achieves ~90x compression of 44.1 KHz audio into tokens at just 8kbps bandwidth. We achieve this by combining advances in high-fidelity audio generation with better vector quantization techniques from the image domain, along with improved adversarial and reconstruction losses. We compress all domains (speech, environment, music, etc.) with a single universal model, making it widely applicable to generative modeling of all audio. We compare with competing audio compression algorithms, and find our method outperforms them significantly. We provide thorough ablations for every design choice, as well as open-source code and trained model weights. We hope our work can lay the foundation for the next generation of high-fidelity audio modeling.",
+          "year": "2023",
+          "authors": [
+            "Rithesh Kumar",
+            "Prem Seetharaman",
+            "Alejandro Luebs",
+            "Ishaan Kumar",
+            "Kundan Kumar"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 8,
+      "raw": "Kharitonov, E., Vincent, D., Borsos, Z., Marinier, R., Girgin, S., Pietquin, O., Sharifi, M., Tagliasacchi, M., & Zeghidour, N. (2023). SPEAR-TTS: Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision. arXiv:2302.03540v1.",
+      "parsed": {
+        "title": "SPEAR-TTS: Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision",
+        "authors": "Kharitonov, E., Vincent, D., Borsos, Z., Marinier, R., Girgin, S., Pietquin, O., Sharifi, M., Tagliasacchi, M., & Zeghidour, N",
+        "year": "2023",
+        "arxiv_id": "2302.03540v1",
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 9,
+      "raw": "Yang, D., Liu, S., Huang, R., Tian, J., Weng, C., & Zou, Y. (2023). HiFi-Codec: Group-residual Vector Quantization for High Fidelity Audio Codec. arXiv:2305.02765v1.",
+      "parsed": {
+        "title": "HiFi-Codec: Group-residual Vector Quantization for High Fidelity Audio Codec",
+        "authors": "Yang, D., Liu, S., Huang, R., Tian, J., Weng, C., & Zou, Y",
+        "year": "2023",
+        "arxiv_id": "2305.02765v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "HiFi-Codec: Group-residual Vector quantization for High Fidelity Audio Codec",
+          "arxiv_id": "2305.02765",
+          "doi": "10.48550/arXiv.2305.02765",
+          "year": "2023",
+          "authors": [
+            "Dongchao Yang",
+            "Songxiang Liu",
+            "Rongjie Huang",
+            "Jinchuan Tian",
+            "Chao Weng",
+            "Yuexian Zou"
+          ]
+        },
+        {
+          "title": "SwitchCodec: A High-Fidelity Nerual Audio Codec With Sparse Quantization",
+          "arxiv_id": "2505.24437",
+          "doi": "10.48550/arXiv.2505.24437",
+          "year": "2025",
+          "authors": [
+            "Jin Wang",
+            "Wenbin Jiang",
+            "Xiangbo Wang"
+          ]
+        },
+        {
+          "title": "Switchcodec: Adaptive residual-expert sparse quantization for high-fidelity neural audio coding",
+          "arxiv_id": "2601.20362",
+          "doi": "10.48550/arXiv.2601.20362",
+          "year": "2026",
+          "authors": [
+            "Xiangbo Wang",
+            "Wenbin Jiang",
+            "Jin Wang",
+            "Yubo You",
+            "Sheng Fang",
+            "Fei Wen"
+          ]
+        },
+        {
+          "title": "MBCodec:Thorough disentangle for high-fidelity audio compression",
+          "arxiv_id": "2509.17006",
+          "doi": "10.48550/arXiv.2509.17006",
+          "year": "2025",
+          "authors": [
+            "Ruonan Zhang",
+            "Xiaoyang Hao",
+            "Yichen Han",
+            "Junjie Cao",
+            "Yue Liu",
+            "Kai Zhang"
+          ]
+        },
+        {
+          "title": "RVQ-NVC: Taming RVQ-VAE for High Fidelity Neural Vibrotactile Compression",
+          "arxiv_id": null,
+          "doi": "10.1109/TMM.2026.3654467",
+          "year": "2026",
+          "authors": [
+            "Dazhong He",
+            "Qian Liu"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2305.02765",
+          "doi": "10.48550/arXiv.2305.02765",
+          "title": "HiFi-Codec: Group-residual Vector quantization for High Fidelity Audio Codec",
+          "abstract": "Audio codec models are widely used in audio communication as a crucial technique for compressing audio into discrete representations. Nowadays, audio codec models are increasingly utilized in generation fields as intermediate representations. For instance, AudioLM is an audio generation model that uses the discrete representation of SoundStream as a training target, while VALL-E employs the Encodec model as an intermediate feature to aid TTS tasks. Despite their usefulness, two challenges persist: (1) training these audio codec models can be difficult due to the lack of publicly available training processes and the need for large-scale data and GPUs; (2) achieving good reconstruction performance requires many codebooks, which increases the burden on generation models. In this study, we propose a group-residual vector quantization (GRVQ) technique and use it to develop a novel \\textbf{Hi}gh \\textbf{Fi}delity Audio Codec model, HiFi-Codec, which only requires 4 codebooks. We train all the models using publicly available TTS data such as LibriTTS, VCTK, AISHELL, and more, with a total duration of over 1000 hours, using 8 GPUs. Our experimental results show that HiFi-Codec outperforms Encodec in terms of reconstruction performance despite requiring only 4 codebooks. To facilitate research in audio codec and generation, we introduce AcademiCodec, the first open-source audio codec toolkit that offers training codes and pre-trained models for Encodec, SoundStream, and HiFi-Codec. Code and pre-trained model can be found on: \\href{https://github.com/yangdongchao/AcademiCodec}{https://github.com/yangdongchao/AcademiCodec}",
+          "year": "2023",
+          "authors": [
+            "Dongchao Yang",
+            "Songxiang Liu",
+            "Rongjie Huang",
+            "Jinchuan Tian",
+            "Chao Weng",
+            "Yuexian Zou"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 224
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    }
+  ]
+}

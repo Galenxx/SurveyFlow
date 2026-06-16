@@ -1,0 +1,827 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "short_video_misinfo",
+  "seed": 2,
+  "topic": "Detection of Misinformation and Harmful Content on Short-Form Video Platforms: Methods, Datasets, and Multimodal Approaches",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Wang, Y., Ma, F., Jin, Z., Yuan, Y., Xun, G., Jha, K., Su, L., & Gao, J. (2018). EANN: Event Adversarial Neural Networks for Multi-Modal Fake News Detection. arXiv:1803.07509v1.",
+      "parsed": {
+        "title": "EANN: Event Adversarial Neural Networks for Multi-Modal Fake News Detection",
+        "authors": "Wang, Y., Ma, F., Jin, Z., Yuan, Y., Xun, G., Jha, K., Su, L., & Gao, J",
+        "year": "2018",
+        "arxiv_id": "1803.07509v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "EANN: Event Adversarial Neural Networks for Multi-Modal Fake News Detection",
+          "arxiv_id": null,
+          "doi": "10.1145/3219819.3219903",
+          "year": "2018",
+          "authors": [
+            "Yaqing Wang",
+            "Fenglong Ma",
+            "Zhiwei Jin",
+            "Ye Yuan",
+            "Guangxu Xun",
+            "Kishlay Jha",
+            "Lu Su",
+            "Jing Gao"
+          ]
+        },
+        {
+          "title": "Modality and Event Adversarial Networks for Multi-Modal Fake News Detection",
+          "arxiv_id": null,
+          "doi": "10.1109/lsp.2022.3181893",
+          "year": "2022",
+          "authors": [
+            "Pengfei Wei",
+            "Fei Wu",
+            "Ying Sun",
+            "Honghui Zhou",
+            "Xiao-Yuan Jing"
+          ]
+        },
+        {
+          "title": "Multi-modal Fake News Detection Use Event-Categorizing Neural Networks",
+          "arxiv_id": null,
+          "doi": "10.1007/978-3-031-25201-3_23",
+          "year": "2022",
+          "authors": [
+            "Buze Zhao",
+            "Hai Deng",
+            "Jie Hao"
+          ]
+        },
+        {
+          "title": "BDANN: BERT-Based Domain Adaptation Neural Network for Multi-Modal Fake News Detection",
+          "arxiv_id": null,
+          "doi": "10.1109/IJCNN48605.2020.9206973",
+          "year": "2020",
+          "authors": [
+            "T. Zhang",
+            "Di Wang",
+            "Huanhuan Chen",
+            "Zhiwei Zeng",
+            "Wei Guo",
+            "C. Miao",
+            "Li-zhen Cui"
+          ]
+        },
+        {
+          "title": "A Multi-Reading Habits Fusion Adversarial Network for Multi-Modal Fake News Detection",
+          "arxiv_id": null,
+          "doi": "10.14569/ijacsa.2024.0150740",
+          "year": "2024",
+          "authors": [
+            "Bofan Wang",
+            "Shenwu Zhang"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": "10.1145/3219819.3219903",
+          "title": "EANN: Event Adversarial Neural Networks for Multi-Modal Fake News Detection",
+          "abstract": "As news reading on social media becomes more and more popular, fake news becomes a major issue concerning the public and government. The fake news can take advantage of multimedia content to mislead readers and get dissemination, which can cause negative effects or even manipulate the public events. One of the unique challenges for fake news detection on social media is how to identify fake news on newly emerged events. Unfortunately, most of the existing approaches can hardly handle this challenge, since they tend to learn event-specific features that can not be transferred to unseen events. In order to address this issue, we propose an end-to-end framework named Event Adversarial Neural Network (EANN), which can derive event-invariant features and thus benefit the detection of fake news on newly arrived events. It consists of three main components: the multi-modal feature extractor, the fake news detector, and the event discriminator. The multi-modal feature extractor is responsible for extracting the textual and visual features from posts. It cooperates with the fake news detector to learn the discriminable representation for the detection of fake news. The role of event discriminator is to remove the event-specific features and keep shared features among events. Extensive experiments are conducted on multimedia datasets collected from Weibo and Twitter. The experimental results show our proposed EANN model can outperform the state-of-the-art methods, and learn transferable feature representations.",
+          "year": "2018",
+          "authors": [
+            "Yaqing Wang",
+            "Fenglong Ma",
+            "Zhiwei Jin",
+            "Ye Yuan",
+            "Guangxu Xun",
+            "Kishlay Jha",
+            "Lu Su",
+            "Jing Gao"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 1210
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Baltrušaitis, T., Ahuja, C., & Morency, L. P. (2017). Multimodal Machine Learning: A Survey and Taxonomy. arXiv:1705.09406v1.",
+      "parsed": {
+        "title": "Multimodal Machine Learning: A Survey and Taxonomy",
+        "authors": "Baltrušaitis, T., Ahuja, C., & Morency, L. P",
+        "year": "2017",
+        "arxiv_id": "1705.09406v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Multimodal Machine Learning: A Survey and Taxonomy",
+          "arxiv_id": "1705.09406",
+          "doi": "10.1109/TPAMI.2018.2798607",
+          "year": "2017",
+          "authors": [
+            "T. Baltrušaitis",
+            "Chaitanya Ahuja",
+            "Louis-philippe Morency"
+          ]
+        },
+        {
+          "title": "Mental health monitoring with multimodal sensing and machine learning: A survey",
+          "arxiv_id": null,
+          "doi": "10.1016/J.PMCJ.2018.09.003",
+          "year": "2018",
+          "authors": [
+            "Enrique Garcia-Ceja",
+            "M. Riegler",
+            "T. Nordgreen",
+            "P. Jakobsen",
+            "K. Oedegaard",
+            "J. Tørresen"
+          ]
+        },
+        {
+          "title": "Arabic Multimodal Machine Learning: Datasets, Applications, Approaches, and Challenges",
+          "arxiv_id": "2508.12227",
+          "doi": "10.48550/arXiv.2508.12227",
+          "year": "2025",
+          "authors": [
+            "Abdelhamid Haouhat",
+            "Slimane Bellaouar",
+            "A. Nehar",
+            "H. Cherroun",
+            "Ahmed Abdelali"
+          ]
+        },
+        {
+          "title": "Exploring the Taxonomy of Survey Papers on Large Language Models Using Classical Machine Learning",
+          "arxiv_id": null,
+          "doi": "10.4236/jilsa.2025.172006",
+          "year": "2025",
+          "authors": [
+            "Maqsudur Rahman",
+            "M. Shahjahan"
+          ]
+        },
+        {
+          "title": "Recent Advances of Multimodal Continual Learning: A Comprehensive Survey",
+          "arxiv_id": "2410.05352",
+          "doi": "10.48550/arXiv.2410.05352",
+          "year": "2024",
+          "authors": [
+            "Dianzhi Yu",
+            "Xinni Zhang",
+            "Yankai Chen",
+            "Aiwei Liu",
+            "Yifei Zhang",
+            "Philip S. Yu",
+            "Irwin King"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "1705.09406",
+          "doi": "10.1109/TPAMI.2018.2798607",
+          "title": "Multimodal Machine Learning: A Survey and Taxonomy",
+          "abstract": "Our experience of the world is multimodal - we see objects, hear sounds, feel texture, smell odors, and taste flavors. Modality refers to the way in which something happens or is experienced and a research problem is characterized as multimodal when it includes multiple such modalities. In order for Artificial Intelligence to make progress in understanding the world around us, it needs to be able to interpret such multimodal signals together. Multimodal machine learning aims to build models that can process and relate information from multiple modalities. It is a vibrant multi-disciplinary field of increasing importance and with extraordinary potential. Instead of focusing on specific multimodal applications, this paper surveys the recent advances in multimodal machine learning itself and presents them in a common taxonomy. We go beyond the typical early and late fusion categorization and identify broader challenges that are faced by multimodal machine learning, namely: representation, translation, alignment, fusion, and co-learning. This new taxonomy will enable researchers to better understand the state of the field and identify directions for future research.",
+          "year": "2017",
+          "authors": [
+            "T. Baltrušaitis",
+            "Chaitanya Ahuja",
+            "Louis-philippe Morency"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 4215
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Nakamura, K., Levy, S., & Wang, W. Y. (2019). Fakeddit: A New Multimodal Benchmark Dataset for Fake News Detection. arXiv:1911.03854v1.",
+      "parsed": {
+        "title": "Fakeddit: A New Multimodal Benchmark Dataset for Fake News Detection",
+        "authors": "Nakamura, K., Levy, S., & Wang, W. Y",
+        "year": "2019",
+        "arxiv_id": "1911.03854v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "r/Fakeddit: A New Multimodal Benchmark Dataset for Fine-grained Fake News Detection",
+          "arxiv_id": "1911.03854",
+          "doi": null,
+          "year": "2019",
+          "authors": [
+            "Kai Nakamura",
+            "Sharon Levy",
+            "W. Wang"
+          ]
+        },
+        {
+          "title": "Fakeddit: A New Multimodal Benchmark Dataset for Fine-grained Fake News Detection",
+          "arxiv_id": null,
+          "doi": null,
+          "year": "2020",
+          "authors": [
+            "Kai Nakamura",
+            "Sharon Levy",
+            "William Yang Wang"
+          ]
+        },
+        {
+          "title": "TriSageNet: A Multimodal Attention-Guided Framework for High-Precision Fake News Detection",
+          "arxiv_id": null,
+          "doi": "10.1109/ICUIS67429.2025.11380816",
+          "year": "2025",
+          "authors": [
+            "Divya Nair",
+            "Mathiarasi Balakrishnan"
+          ]
+        },
+        {
+          "title": "Fake News Detection and Classification with Multimodal Learning",
+          "arxiv_id": null,
+          "doi": null,
+          "year": "2021",
+          "authors": [
+            "Charles Bai",
+            "Yiqi Chen",
+            "Elaine Liu"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "1911.03854",
+          "doi": null,
+          "title": "r/Fakeddit: A New Multimodal Benchmark Dataset for Fine-grained Fake News Detection",
+          "abstract": "Fake news has altered society in negative ways in politics and culture. It has adversely affected both online social network systems as well as offline communities and conversations. Using automatic machine learning classification models is an efficient way to combat the widespread dissemination of fake news. However, a lack of effective, comprehensive datasets has been a problem for fake news research and detection model development. Prior fake news datasets do not provide multimodal text and image data, metadata, comment data, and fine-grained fake news categorization at the scale and breadth of our dataset. We present Fakeddit, a novel multimodal dataset consisting of over 1 million samples from multiple categories of fake news. After being processed through several stages of review, the samples are labeled according to 2-way, 3-way, and 6-way classification categories through distant supervision. We construct hybrid text+image models and perform extensive experiments for multiple variations of classification, demonstrating the importance of the novel aspect of multimodality and fine-grained classification unique to Fakeddit.",
+          "year": "2019",
+          "authors": [
+            "Kai Nakamura",
+            "Sharon Levy",
+            "W. Wang"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 180
+        },
+        "title_sim": 0.9115646258503401,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Mathew, B., Kumar, N., Goyal, P., & Mukherjee, A. (2020). HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection. arXiv:2012.03658v2.",
+      "parsed": {
+        "title": "HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection",
+        "authors": "Mathew, B., Kumar, N., Goyal, P., & Mukherjee, A",
+        "year": "2020",
+        "arxiv_id": "2012.03658v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection",
+          "arxiv_id": "2012.10289",
+          "doi": "10.1609/aaai.v35i17.17745",
+          "year": "2020",
+          "authors": [
+            "Binny Mathew",
+            "Punyajoy Saha",
+            "Seid Muhie Yimam",
+            "Chris Biemann",
+            "Pawan Goyal",
+            "Animesh Mukherjee"
+          ]
+        },
+        {
+          "title": "TARGE: large language model-powered explainable hate speech detection",
+          "arxiv_id": null,
+          "doi": "10.7717/peerj-cs.2911",
+          "year": "2025",
+          "authors": [
+            "Muhammad Haseeb Hashir",
+            "Sung Won Kim",
+            "A. Zubiaga"
+          ]
+        },
+        {
+          "title": "Hate Speech Detection by Using Rationales for Judging Sarcasm",
+          "arxiv_id": null,
+          "doi": "10.3390/app14114898",
+          "year": "2024",
+          "authors": [
+            "M. Mamun",
+            "Takashi Tsunakawa",
+            "Masafumi Nishida",
+            "Masafumi Nishimura"
+          ]
+        },
+        {
+          "title": "Social Media Hate Speech Detection Using Explainable Artificial Intelligence (XAI)",
+          "arxiv_id": null,
+          "doi": "10.3390/a15080291",
+          "year": "2022",
+          "authors": [
+            "Harsh Mehta",
+            "K. Passi"
+          ]
+        },
+        {
+          "title": "HateMirage: An Explainable Multi-Dimensional Dataset for Decoding Faux Hate and Subtle Online Abuse",
+          "arxiv_id": "2603.02684",
+          "doi": null,
+          "year": "2026",
+          "authors": [
+            "Sai Kartheek Reddy Kasu",
+            "Shankar Biradar",
+            "Sunil Saumya",
+            "Md. Shad Akhtar"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "2012.10289",
+          "doi": "10.1609/aaai.v35i17.17745",
+          "title": "HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection",
+          "abstract": "Hate speech is a challenging issue plaguing the online social media. While better models for hate speech detection are continuously being developed, there is little research on the bias and interpretability aspects of hate speech. In this paper, we introduce HateXplain, the first benchmark hate speech dataset covering multiple aspects of the issue. Each post in our dataset is annotated from three different perspectives: the basic, commonly used 3-class classification (i.e., hate, offensive or normal), the target community (i.e., the community that has been the victim of hate speech/offensive speech in the post), and the rationales, i.e., the portions of the post on which their labelling decision (as hate, offensive or normal) is based. We utilize existing state-of-the-art models and observe that even models that perform very well in classification do not score high on explainability metrics like model plausibility and faithfulness. We also observe that models, which utilize the human rationales for training, perform better in reducing unintended bias towards target communities. We have made our code and dataset public for other researchers.",
+          "year": "2020",
+          "authors": [
+            "Binny Mathew",
+            "Punyajoy Saha",
+            "Seid Muhie Yimam",
+            "Chris Biemann",
+            "Pawan Goyal",
+            "Animesh Mukherjee"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 795
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 4,
+      "raw": "Davidson, T., Warmsley, D., Macy, M., & Weber, I. (2017). Automated Hate Speech Detection and the Problem of Offensive Language. arXiv:1703.04009v1.",
+      "parsed": {
+        "title": "Automated Hate Speech Detection and the Problem of Offensive Language",
+        "authors": "Davidson, T., Warmsley, D., Macy, M., & Weber, I",
+        "year": "2017",
+        "arxiv_id": "1703.04009v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Automated Hate Speech Detection and the Problem of Offensive Language",
+          "arxiv_id": "1703.04009",
+          "doi": "10.1609/icwsm.v11i1.14955",
+          "year": "2017",
+          "authors": [
+            "Thomas Davidson",
+            "Dana Warmsley",
+            "M. Macy",
+            "Ingmar Weber"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "1703.04009",
+          "doi": "10.1609/icwsm.v11i1.14955",
+          "title": "Automated Hate Speech Detection and the Problem of Offensive Language",
+          "abstract": "A key challenge for automatic hate-speech detection on social media is the separation of hate speech from other instances of offensive language. Lexical detection methods tend to have low precision because they classify all messages containing particular terms as hate speech and previous work using supervised learning has failed to distinguish between the two categories. We used a crowd-sourced hate speech lexicon to collect tweets containing hate speech keywords. We use crowd-sourcing to label a sample of these tweets into three categories: those containing hate speech, only offensive language, and those with neither. We train a multi-class classifier to distinguish between these different categories. Close analysis of the predictions and the errors shows when we can reliably separate hate speech from other offensive language and when this differentiation is more difficult. We find that racist and homophobic tweets are more likely to be classified as hate speech but that sexist tweets are generally classified as offensive. Tweets without explicit hate keywords are also more difficult to classify.",
+          "year": "2017",
+          "authors": [
+            "Thomas Davidson",
+            "Dana Warmsley",
+            "M. Macy",
+            "Ingmar Weber"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 3150
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 5,
+      "raw": "Rossler, A., Cozzolino, D., Verdoliva, L., Riess, C., Thies, J., & Niessner, M. (2019). FaceForensics++: Learning to Detect Manipulated Facial Images. arXiv:1901.08971v1.",
+      "parsed": {
+        "title": "FaceForensics++: Learning to Detect Manipulated Facial Images",
+        "authors": "Rossler, A., Cozzolino, D., Verdoliva, L., Riess, C., Thies, J., & Niessner, M",
+        "year": "2019",
+        "arxiv_id": "1901.08971v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "FaceForensics++: Learning to Detect Manipulated Facial Images",
+          "arxiv_id": "1901.08971",
+          "doi": "10.1109/ICCV.2019.00009",
+          "year": "2019",
+          "authors": [
+            "Andreas Rössler",
+            "D. Cozzolino",
+            "L. Verdoliva",
+            "C. Riess",
+            "Justus Thies",
+            "M. Nießner"
+          ]
+        },
+        {
+          "title": "Comparative Analysis of Deep Learning Architectures for Robust Deepfake Detection using Transfer Learning",
+          "arxiv_id": null,
+          "doi": "10.1109/ICACRS67045.2025.11324347",
+          "year": "2025",
+          "authors": [
+            "Thilagavathi C",
+            "Harshivpranav R S",
+            "K. C",
+            "Muthuprakash S",
+            "V. G."
+          ]
+        },
+        {
+          "title": "DeepJurist: A Hybrid Deep Learning Architecture for Detecting Fake Visual Evidence in Judicial Systems",
+          "arxiv_id": null,
+          "doi": "10.1109/ICCIT64611.2024.11022369",
+          "year": "2024",
+          "authors": [
+            "Ashifur Rahman",
+            "Md. Rajaul Karim",
+            "Md. Azizur Rahman",
+            "Punam Chowdhury",
+            "Amran Hossain",
+            "Rafiqul Islam"
+          ]
+        },
+        {
+          "title": "Multi-task Learning for Detecting and Segmenting Manipulated Facial Images and Videos",
+          "arxiv_id": "1906.06876",
+          "doi": "10.1109/BTAS46853.2019.9185974",
+          "year": "2019",
+          "authors": [
+            "H. Nguyen",
+            "Fuming Fang",
+            "J. Yamagishi",
+            "I. Echizen"
+          ]
+        },
+        {
+          "title": "A YOLOV3-Based Method for Detecting Deepfake Manipulated Facial Images",
+          "arxiv_id": null,
+          "doi": "10.55525/tjst.1386253",
+          "year": "2024",
+          "authors": [
+            "M. Karaköse",
+            "Hasan Yetíş",
+            "Mert Çeçen"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "1901.08971",
+          "doi": "10.1109/ICCV.2019.00009",
+          "title": "FaceForensics++: Learning to Detect Manipulated Facial Images",
+          "abstract": "The rapid progress in synthetic image generation and manipulation has now come to a point where it raises significant concerns for the implications towards society. At best, this leads to a loss of trust in digital content, but could potentially cause further harm by spreading false information or fake news. This paper examines the realism of state-of-the-art image manipulations, and how difficult it is to detect them, either automatically or by humans. To standardize the evaluation of detection methods, we propose an automated benchmark for facial manipulation detection. In particular, the benchmark is based on Deep-Fakes, Face2Face, FaceSwap and NeuralTextures as prominent representatives for facial manipulations at random compression level and size. The benchmark is publicly available and contains a hidden test set as well as a database of over 1.8 million manipulated images. This dataset is over an order of magnitude larger than comparable, publicly available, forgery datasets. Based on this data, we performed a thorough analysis of data-driven forgery detectors. We show that the use of additional domain-specific knowledge improves forgery detection to unprecedented accuracy, even in the presence of strong compression, and clearly outperforms human observers.",
+          "year": "2019",
+          "authors": [
+            "Andreas Rössler",
+            "D. Cozzolino",
+            "L. Verdoliva",
+            "C. Riess",
+            "Justus Thies",
+            "M. Nießner"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 3081
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 6,
+      "raw": "Li, L. H., Yatskar, M., Yin, D., Hsieh, C. J., & Chang, K. W. (2019). VisualBERT: A Simple and Performant Baseline for Vision and Language. arXiv:1908.03557v2.",
+      "parsed": {
+        "title": "VisualBERT: A Simple and Performant Baseline for Vision and Language",
+        "authors": "Li, L. H., Yatskar, M., Yin, D., Hsieh, C. J., & Chang, K. W",
+        "year": "2019",
+        "arxiv_id": "1908.03557v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "VisualBERT: A Simple and Performant Baseline for Vision and Language",
+          "arxiv_id": "1908.03557",
+          "doi": null,
+          "year": "2019",
+          "authors": [
+            "Liunian Harold Li",
+            "Mark Yatskar",
+            "Da Yin",
+            "Cho-Jui Hsieh",
+            "Kai-Wei Chang"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "1908.03557",
+          "doi": null,
+          "title": "VisualBERT: A Simple and Performant Baseline for Vision and Language",
+          "abstract": "We propose VisualBERT, a simple and flexible framework for modeling a broad range of vision-and-language tasks. VisualBERT consists of a stack of Transformer layers that implicitly align elements of an input text and regions in an associated input image with self-attention. We further propose two visually-grounded language model objectives for pre-training VisualBERT on image caption data. Experiments on four vision-and-language tasks including VQA, VCR, NLVR2, and Flickr30K show that VisualBERT outperforms or rivals with state-of-the-art models while being significantly simpler. Further analysis demonstrates that VisualBERT can ground elements of language to image regions without any explicit supervision and is even sensitive to syntactic relationships, tracking, for example, associations between verbs and image regions corresponding to their arguments.",
+          "year": "2019",
+          "authors": [
+            "Liunian Harold Li",
+            "Mark Yatskar",
+            "Da Yin",
+            "Cho-Jui Hsieh",
+            "Kai-Wei Chang"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 2326
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 7,
+      "raw": "Shu, K., Sliva, A., Wang, S., Tang, J., & Liu, H. (2017). Fake News Detection on Social Media: A Data Mining Perspective. arXiv:1708.01931v1.",
+      "parsed": {
+        "title": "Fake News Detection on Social Media: A Data Mining Perspective",
+        "authors": "Shu, K., Sliva, A., Wang, S., Tang, J., & Liu, H",
+        "year": "2017",
+        "arxiv_id": "1708.01931v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Fake News Detection on Social Media: A Data Mining Perspective",
+          "arxiv_id": "1708.01967",
+          "doi": "10.1145/3137597.3137600",
+          "year": "2017",
+          "authors": [
+            "Kai Shu",
+            "A. Sliva",
+            "Suhang Wang",
+            "Jiliang Tang",
+            "Huan Liu"
+          ]
+        },
+        {
+          "title": "Innovative Approaches to Fake News Detection: A Data Mining Perspective",
+          "arxiv_id": null,
+          "doi": "10.34257/gjcstcvol24is1pg1",
+          "year": "2025",
+          "authors": [
+            "Md. Ismail",
+            "Yayale Isihaka Muhammad",
+            "A. M. Abdullahi"
+          ]
+        },
+        {
+          "title": "Combating Fake News: A Data Management and Mining Perspective",
+          "arxiv_id": null,
+          "doi": "10.14778/3352063.3352117",
+          "year": "2019",
+          "authors": [
+            "L. Lakshmanan",
+            "Michael Simpson",
+            "Saravanan Thirumuruganathan"
+          ]
+        },
+        {
+          "title": "A Review on Fake News Detection using Machine Learning",
+          "arxiv_id": null,
+          "doi": "10.24113/ijoscience.v9i2.511",
+          "year": "2023",
+          "authors": [
+            "Parul Saini",
+            "Virendra Khatarkar"
+          ]
+        },
+        {
+          "title": "Evaluating Deep Learning Approaches for Covid19 Fake News Detection",
+          "arxiv_id": "2101.04012",
+          "doi": "10.1007/978-3-030-73696-5_15",
+          "year": "2021",
+          "authors": [
+            "Apurva Wani",
+            "Isha Joshi",
+            "Snehal Khandve",
+            "Vedangi Wagh",
+            "Raviraj Joshi"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "1708.01967",
+          "doi": "10.1145/3137597.3137600",
+          "title": "Fake News Detection on Social Media: A Data Mining Perspective",
+          "abstract": "Social media for news consumption is a double-edged sword. On the one hand, its low cost, easy access, and rapid dissemination of information lead people to seek out and consume news from social media. On the other hand, it enables the wide spread of \\fake news\", i.e., low quality news with intentionally false information. The extensive spread of fake news has the potential for extremely negative impacts on individuals and society. Therefore, fake news detection on social media has recently become an emerging research that is attracting tremendous attention. Fake news detection on social media presents unique characteristics and challenges that make existing detection algorithms from traditional news media ine ective or not applicable. First, fake news is intentionally written to mislead readers to believe false information, which makes it difficult and nontrivial to detect based on news content; therefore, we need to include auxiliary information, such as user social engagements on social media, to help make a determination. Second, exploiting this auxiliary information is challenging in and of itself as users' social engagements with fake news produce data that is big, incomplete, unstructured, and noisy. Because the issue of fake news detection on social media is both challenging and relevant, we conducted this survey to further facilitate research on the problem. In this survey, we present a comprehensive review of detecting fake news on social media, including fake news characterizations on psychology and social theories, existing algorithms from a data mining perspective, evaluation metrics and representative datasets. We also discuss related research areas, open problems, and future research directions for fake news detection on social media.",
+          "year": "2017",
+          "authors": [
+            "Kai Shu",
+            "A. Sliva",
+            "Suhang Wang",
+            "Jiliang Tang",
+            "Huan Liu"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 3264
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 8,
+      "raw": "Radford, A., Kim, J. W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry, G., Askell, A., Mishkin, P., Clark, J., Krueger, G., & Sutskever, I. (2021). Learning Transferable Visual Models From Natural Language Supervision. arXiv:2103.00020v1.",
+      "parsed": {
+        "title": "Learning Transferable Visual Models From Natural Language Supervision",
+        "authors": "Radford, A., Kim, J. W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry, G., Askell, A., Mishkin, P., Clark, J., Krueger, G., & Sutskever, I",
+        "year": "2021",
+        "arxiv_id": "2103.00020v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Learning Transferable Visual Models From Natural Language Supervision",
+          "arxiv_id": "2103.00020",
+          "doi": null,
+          "year": "2021",
+          "authors": [
+            "Alec Radford",
+            "Jong Wook Kim",
+            "Chris Hallacy",
+            "Aditya Ramesh",
+            "Gabriel Goh",
+            "Sandhini Agarwal",
+            "Girish Sastry",
+            "Amanda Askell",
+            "Pamela Mishkin",
+            "Jack Clark",
+            "Gretchen Krueger",
+            "Ilya Sutskever"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2103.00020",
+          "title": "Learning Transferable Visual Models From Natural Language Supervision",
+          "abstract": "State-of-the-art computer vision systems are trained to predict a fixed set of predetermined object categories. This restricted form of supervision limits their generality and usability since additional labeled data is needed to specify any other visual concept. Learning directly from raw text about images is a promising alternative which leverages a much broader source of supervision. We demonstrate that the simple pre-training task of predicting which caption goes with which image is an efficient and scalable way to learn SOTA image representations from scratch on a dataset of 400 million (image, text) pairs collected from the internet. After pre-training, natural language is used to reference learned visual concepts (or describe new ones) enabling zero-shot transfer of the model to downstream tasks. We study the performance of this approach by benchmarking on over 30 different existing computer vision datasets, spanning tasks such as OCR, action recognition in videos, geo-localization, and many types of fine-grained object classification. The model transfers non-trivially to most tasks and is often competitive with a fully supervised baseline without the need for any dataset specific training. For instance, we match the accuracy of the original ResNet-50 on ImageNet zero-shot without needing to use any of the 1.28 million training examples it was trained on. We release our code and pre-trained model weights at https://github.com/OpenAI/CLIP.",
+          "year": "2021",
+          "authors": [
+            "Alec Radford",
+            "Jong Wook Kim",
+            "Chris Hallacy",
+            "Aditya Ramesh",
+            "Gabriel Goh",
+            "Sandhini Agarwal",
+            "Girish Sastry",
+            "Amanda Askell",
+            "Pamela Mishkin",
+            "Jack Clark",
+            "Gretchen Krueger",
+            "Ilya Sutskever"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 9,
+      "raw": "Du, Y., Liu, Z., Li, Z., Wang, W., Lin, H., Zhang, M., Liu, N., & Wu, W. (2022). Multimodal Learning with Transformers: A Survey. arXiv:2206.06488v1.",
+      "parsed": {
+        "title": "Multimodal Learning with Transformers: A Survey",
+        "authors": "Du, Y., Liu, Z., Li, Z., Wang, W., Lin, H., Zhang, M., Liu, N., & Wu, W",
+        "year": "2022",
+        "arxiv_id": "2206.06488v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Multimodal Learning With Transformers: A Survey",
+          "arxiv_id": "2206.06488",
+          "doi": "10.1109/TPAMI.2023.3275156",
+          "year": "2022",
+          "authors": [
+            "P. Xu",
+            "Xiatian Zhu",
+            "D. Clifton"
+          ]
+        },
+        {
+          "title": "Machine Learning and Deep Learning for Alzheimer’s Disease Diagnosis: A Survey of MRI, PET, Multimodal Fusion, Transformers, Graph Neural Networks, and Explainable AI",
+          "arxiv_id": null,
+          "doi": "10.63125/vf6dkg22",
+          "year": "2026",
+          "authors": [
+            "I. Ahmad",
+            "Tasfia Tarannum",
+            "Mohammed Majbah Uddin"
+          ]
+        },
+        {
+          "title": "A survey of deep-learning-based radiology report generation using multimodal inputs",
+          "arxiv_id": null,
+          "doi": "10.1016/j.media.2025.103627",
+          "year": "2025",
+          "authors": [
+            "Xinyi Wang",
+            "G. Figueredo",
+            "Ruizhe Li",
+            "Wei Emma Zhang",
+            "Weitong Chen",
+            "Xin Chen"
+          ]
+        },
+        {
+          "title": "From Templates to Transformers: A survey of Multimodal Image Captioning Decoders",
+          "arxiv_id": null,
+          "doi": "10.1109/IC2E357697.2023.10262494",
+          "year": "2023",
+          "authors": [
+            "Himanshu Sharma",
+            "Devanand Padha"
+          ]
+        },
+        {
+          "title": "From CNNs to Transformers in Multimodal Human Action Recognition: A Survey",
+          "arxiv_id": "2405.15813",
+          "doi": "10.1145/3664815",
+          "year": "2024",
+          "authors": [
+            "Muhammad Bilal Shaikh",
+            "Douglas Chai",
+            "Syed Mohammed Shamsul Islam",
+            "Naveed Akhtar"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2206.06488",
+          "doi": "10.1109/TPAMI.2023.3275156",
+          "title": "Multimodal Learning With Transformers: A Survey",
+          "abstract": "Transformer is a promising neural network learner, and has achieved great success in various machine learning tasks. Thanks to the recent prevalence of multimodal applications and Big Data, Transformer-based multimodal learning has become a hot topic in AI research. This paper presents a comprehensive survey of Transformer techniques oriented at multimodal data. The main contents of this survey include: (1) a background of multimodal learning, Transformer ecosystem, and the multimodal Big Data era, (2) a systematic review of Vanilla Transformer, Vision Transformer, and multimodal Transformers, from a geometrically topological perspective, (3) a review of multimodal Transformer applications, via two important paradigms, i.e., for multimodal pretraining and for specific multimodal tasks, (4) a summary of the common challenges and designs shared by the multimodal Transformer models and applications, and (5) a discussion of open problems and potential research directions for the community.",
+          "year": "2022",
+          "authors": [
+            "P. Xu",
+            "Xiatian Zhu",
+            "D. Clifton"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 1034
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    }
+  ]
+}

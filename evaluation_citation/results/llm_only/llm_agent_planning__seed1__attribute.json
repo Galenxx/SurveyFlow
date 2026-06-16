@@ -1,0 +1,154 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "llm_agent_planning",
+  "seed": 1,
+  "topic": "Planning and Reasoning in Large Language Model Agents: Methods, Tool Use, and Evaluation Benchmarks",
+  "metrics": {
+    "n_cited_claims": 6,
+    "support_total": 2.5,
+    "citation_recall": 0.4167,
+    "n_supported": 2,
+    "n_partial": 1,
+    "n_unsupported": 3,
+    "n_error": 0,
+    "n_citation_mounts": 6,
+    "n_contributing": 2,
+    "contributing_weight": 2.5,
+    "citation_precision": 0.4167,
+    "n_not_verifiable": 2,
+    "n_claims": 37,
+    "n_claims_with_cite": 8,
+    "n_claims_bare": 29,
+    "bare_assertion_rate": 0.7838
+  },
+  "per_sentence": [
+    {
+      "sent_id": 32,
+      "section_title": "3 Reasoning and Planning Methodologies",
+      "text": "The introduction of chain-of-thought prompting marked a significant leap forward, enabling models to generate intermediate reasoning steps before arriving at a final answer (Wei et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that chain-of-thought prompting, which generates intermediate reasoning steps, significantly improves complex reasoning in large language models, directly supporting the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 34,
+      "section_title": "3 Reasoning and Planning Methodologies",
+      "text": "Plan-and-Solve Prompting improves zero-shot reasoning by explicitly instructing the model to first devise a plan and then execute it step-by-step (Wang et al., 2023).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 44,
+      "section_title": "4 Tool Use and Action Generation",
+      "text": "ReAct is a foundational framework in this domain, demonstrating that interleaving reasoning traces with action generation allows agents to dynamically decide when to invoke a tool, what parameters to pass, and how to incorporate the tool's output into subsequent reasoning (Yao et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes the Tree of Thoughts framework, which focuses on deliberate reasoning through exploration and self-evaluation, but does not mention interleaving reasoning with tool use, dynamic tool invocation, or incorporating tool outputs, which are the core claims about ReAct.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 46,
+      "section_title": "4 Tool Use and Action Generation",
+      "text": "Toolformer introduced a self-supervised approach where the LLM itself learns to insert API calls into its generated text, significantly expanding its functional capabilities without requiring extensive human annotation (Schick et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that Toolformer uses a self-supervised method to teach itself to decide and insert API calls, expanding capabilities without extensive human annotation.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 52,
+      "section_title": "5 Evaluation Benchmarks and Metrics",
+      "text": "WebShop is an early example of such a benchmark, providing a real-world e-commerce environment where agents must navigate web pages, understand product specifications, and complete purchase instructions, thereby testing both language understanding and interactive decision-making (Yao et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes the Tree of Thoughts framework for language model reasoning and does not mention WebShop, e-commerce environments, or any benchmark involving web navigation and purchase instructions.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 54,
+      "section_title": "5 Evaluation Benchmarks and Metrics",
+      "text": "AgentBench assesses LLMs as agents across a diverse set of environments, including operating systems, web browsing, database querying, and digital card games, providing a holistic view of an agent's reasoning and acting proficiency (Liu et al., 2023).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 60,
+      "section_title": "6 Challenges and Limitations",
+      "text": "While self-reflection mechanisms attempt to mitigate this, agents often struggle to identify their own errors, especially when the initial reasoning is flawed but internally consistent (Shinn et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes Reflexion's use of linguistic feedback to improve decision-making but does not provide evidence that agents struggle to identify their own errors when initial reasoning is flawed but internally consistent.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 62,
+      "section_title": "6 Challenges and Limitations",
+      "text": "Techniques like graph-based search or iterative reflection require multiple forward passes through the LLM, which can be prohibitively slow and expensive for real-time applications (Besta et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence shows that Graph of Thoughts can reduce costs compared to Tree of Thoughts, but it does not address whether graph-based search or iterative reflection require multiple forward passes or are prohibitively slow and expensive for real-time applications.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

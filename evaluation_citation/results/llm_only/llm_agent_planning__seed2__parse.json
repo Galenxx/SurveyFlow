@@ -1,0 +1,97 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\llm_only\\Planning_and_Reasoning_in_Large_Language_Model_Age__glm-5.1__seed2.md",
+  "topic": "3 Planning and Reasoning Methods",
+  "n_references": 10,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed Chi, Quoc Le, Denny Zhou. (2022). Chain-of-Thought Prompting Elicits Reasoning in Large Language Models. arXiv:2201.11903v6.",
+      "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "authors": "Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed Chi, Quoc Le, Denny Zhou",
+      "year": "2022",
+      "arxiv_id": "2201.11903v6",
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Lei Wang, Wanyu Xu, Yihuai Lan, Zhiqiang Hu, Yunshi Lan, Roy Ka-Wei Lee, Ee-Peng Lim. (2023). Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models. arXiv:2305.04091v2.",
+      "title": "Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models",
+      "authors": "Lei Wang, Wanyu Xu, Yihuai Lan, Zhiqiang Hu, Yunshi Lan, Roy Ka-Wei Lee, Ee-Peng Lim",
+      "year": "2023",
+      "arxiv_id": "2305.04091v2",
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, Yuan Cao. (2022). ReAct: Synergizing Reasoning and Acting in Language Models. arXiv:2210.03629v3.",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "authors": "Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, Yuan Cao",
+      "year": "2022",
+      "arxiv_id": "2210.03629v3",
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Timo Schick, Jane Dwivedi-Yu, Roberto Dessì, Roberta Raileanu, Maria Lomeli, Luke Zettlemoyer, Nicola Cancedda, Thomas Scialom. (2023). Toolformer: Language Models Can Teach Themselves to Use Tools. arXiv:2302.04761v1.",
+      "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+      "authors": "Timo Schick, Jane Dwivedi-Yu, Roberto Dessì, Roberta Raileanu, Maria Lomeli, Luke Zettlemoyer, Nicola Cancedda, Thomas Scialom",
+      "year": "2023",
+      "arxiv_id": "2302.04761v1",
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Xiao Liu, Hao Yu, Hanchen Zhang, Yifan Qu, Fan Zhang, Zehua Qi, et al. (2023). AgentBench: Evaluating LLMs as Agents. arXiv:2308.03688v3.",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "authors": "Xiao Liu, Hao Yu, Hanchen Zhang, Yifan Qu, Fan Zhang, Zehua Qi, et al",
+      "year": "2023",
+      "arxiv_id": "2308.03688v3",
+      "doi": null
+    },
+    {
+      "ref_id": 5,
+      "raw": "Yujia Qin, Shihao Liang, Yining Ye, Kunlun Zhu, Lan Yan, Yaxi Lu, et al. (2023). ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs. arXiv:2307.16789v3.",
+      "title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs",
+      "authors": "Yujia Qin, Shihao Liang, Yining Ye, Kunlun Zhu, Lan Yan, Yaxi Lu, et al",
+      "year": "2023",
+      "arxiv_id": "2307.16789v3",
+      "doi": null
+    },
+    {
+      "ref_id": 6,
+      "raw": "Yongliang Shen, Kaitao Song, Xu Tan, Dongsheng Li, Weiming Lu, Yueting Zhuang. (2023). HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face. arXiv:2303.17580v3.",
+      "title": "HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face",
+      "authors": "Yongliang Shen, Kaitao Song, Xu Tan, Dongsheng Li, Weiming Lu, Yueting Zhuang",
+      "year": "2023",
+      "arxiv_id": "2303.17580v3",
+      "doi": null
+    },
+    {
+      "ref_id": 7,
+      "raw": "Andy Zhou, Kai Yan, Michal Shlapentokh-Rothman, Haohan Wang, Yoav Artzi. (2023). Language Agent Tree Search Unifies Language Acting and Reasoning. arXiv:2310.04444v2.",
+      "title": "Language Agent Tree Search Unifies Language Acting and Reasoning",
+      "authors": "Andy Zhou, Kai Yan, Michal Shlapentokh-Rothman, Haohan Wang, Yoav Artzi",
+      "year": "2023",
+      "arxiv_id": "2310.04444v2",
+      "doi": null
+    },
+    {
+      "ref_id": 8,
+      "raw": "Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Thomas L. Griffiths, Yuan Cao, Karthik Narasimhan. (2023). Tree of Thoughts: Deliberate Problem Solving with Large Language Models. arXiv:2305.10601v2.",
+      "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+      "authors": "Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Thomas L. Griffiths, Yuan Cao, Karthik Narasimhan",
+      "year": "2023",
+      "arxiv_id": "2305.10601v2",
+      "doi": null
+    },
+    {
+      "ref_id": 9,
+      "raw": "Noah Shinn, Federico Cassano, Ashwin Gopinath, Karthik Narasimhan, Shunyu Yao. (2023). Reflexion: Language Agents with Verbal Reinforcement Learning. arXiv:2303.11366v2.",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "authors": "Noah Shinn, Federico Cassano, Ashwin Gopinath, Karthik Narasimhan, Shunyu Yao",
+      "year": "2023",
+      "arxiv_id": "2303.11366v2",
+      "doi": null
+    }
+  ]
+}

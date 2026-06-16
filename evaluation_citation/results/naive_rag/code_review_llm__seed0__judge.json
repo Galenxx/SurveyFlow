@@ -1,0 +1,77 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "code_review_llm",
+  "seed": 0,
+  "topic": "Large Language Models for Automated Code Review: Techniques, Benchmarks, and Industrial Deployment",
+  "n_references": 6,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper uses code review data to improve automated program repair with LLMs, which is tangentially related to automated code review but focuses on program repair rather than reviewing code."
+      }
+    },
+    {
+      "ref_id": 1,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper includes a Reviewer agent for code review within a broader multi-agent software development framework, making code review a component rather than the primary focus of the work."
+      }
+    },
+    {
+      "ref_id": 2,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "The paper focuses on continual instruction tuning for self-evolving LLMs, not on automated code review techniques, benchmarks, or deployment in that domain."
+      }
+    },
+    {
+      "ref_id": 3,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "The paper surveys multimodal retrieval-augmented generation for LLMs in general, with no specific focus on automated code review, its techniques, benchmarks, or industrial deployment."
+      }
+    },
+    {
+      "ref_id": 4,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 5,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper reviews benchmarks and metrics for evaluating LLMs on code generation, which is tangentially related to automated code review but does not directly address code review techniques, benchmarks, or deployment."
+      }
+    }
+  ],
+  "aggregate": {
+    "score": 25.0,
+    "n_relevant": 0,
+    "n_partial": 3,
+    "n_irrelevant": 3,
+    "n_error": 0,
+    "n_judged": 6
+  }
+}

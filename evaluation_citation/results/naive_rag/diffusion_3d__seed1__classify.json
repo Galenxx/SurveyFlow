@@ -1,0 +1,33 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "diffusion_3d",
+  "seed": 1,
+  "topic": "Diffusion Models for 3D Shape and Scene Generation: Methods, Representations, and Evaluation",
+  "n_references": 2,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 1,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    }
+  ],
+  "distribution": {
+    "RESOLVED": 2,
+    "METADATA_PARSE_ERROR": 0,
+    "ID_EXTRACTION_FAIL": 0,
+    "DEDUP_COLLISION": 0,
+    "GENUINELY_FABRICATED": 0,
+    "PLACEHOLDER_PADDING": 0
+  },
+  "n_resolved": 2,
+  "n_padding": 0,
+  "n_failures": 0,
+  "n_genuinely_fabricated": 0
+}

@@ -1,0 +1,111 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "neural_audio_codec",
+  "seed": 0,
+  "topic": "Neural Audio Codecs and Discrete Speech Representations: Architectures, Tokenization, and Generative Applications",
+  "metrics": {
+    "n_cited_claims": 5,
+    "support_total": 0.0,
+    "citation_recall": 0.0,
+    "n_supported": 0,
+    "n_partial": 0,
+    "n_unsupported": 5,
+    "n_error": 0,
+    "n_citation_mounts": 5,
+    "n_contributing": 0,
+    "contributing_weight": 0.0,
+    "citation_precision": 0.0,
+    "n_not_verifiable": 0,
+    "n_claims": 22,
+    "n_claims_with_cite": 6,
+    "n_claims_bare": 16,
+    "bare_assertion_rate": 0.7273
+  },
+  "per_sentence": [
+    {
+      "sent_id": 33,
+      "section_title": "3 Background and Foundations",
+      "text": "Extending this foundation, Li et al. (2025) propose a low-bitrate neural codec framework designed to learn disentangled discrete tokens at both global and local levels, incorporating knowledge from self-supervised learning (SSL) representations.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses speech enhancement using continuous embeddings from a neural audio codec, but it does not mention a low-bitrate neural codec framework, disentangled discrete tokens at global and local levels, or incorporation of self-supervised learning representations as claimed in the sentence.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 34,
+      "section_title": "3 Background and Foundations",
+      "text": "The representational capacity of these tokens has been evaluated on multilingual datasets for tasks including speech understanding and emotion recognition (Li et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence discusses speech enhancement using continuous embeddings of a neural audio codec but does not mention evaluation on multilingual datasets, speech understanding, or emotion recognition.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 36,
+      "section_title": "4 Methods and Techniques",
+      "text": "Li et al. (2025) introduce a low-bitrate neural codec framework that learns disentangled discrete tokens at both global and local levels, incorporating knowledge from self-supervised learning (SSL) representations.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses using continuous embeddings from a pretrained neural audio codec for speech enhancement, but it does not mention learning disentangled discrete tokens at global and local levels or incorporating SSL representations, which are the core factual claims of the sentence.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 41,
+      "section_title": "5 Applications and Systems",
+      "text": "Li et al. (2025) introduced a low-bitrate neural codec framework that learns disentangled discrete tokens at global and local levels, incorporating knowledge from self-supervised learning (SSL) representations.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes a speech enhancement method using continuous embeddings from a neural audio codec, but it does not mention Li et al. (2025), low-bitrate codecs, disentangled discrete tokens at global/local levels, or incorporation of SSL representations.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 46,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "Li et al. (2025) address this by introducing a low-bitrate codec framework designed to learn disentangled discrete tokens at these two levels, incorporating knowledge from self-supervised learning (SSL) representations.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a speech enhancement method using continuous embeddings from a pretrained NAC encoder, but it does not mention learning disentangled discrete tokens at two levels, incorporating SSL representations, or a low-bitrate codec framework as claimed in the sentence.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

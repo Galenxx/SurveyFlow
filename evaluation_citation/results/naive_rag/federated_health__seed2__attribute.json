@@ -1,0 +1,230 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "federated_health",
+  "seed": 2,
+  "topic": "Federated Learning for Privacy-Preserving Healthcare: Architectures, Communication Efficiency, and Clinical Deployment",
+  "metrics": {
+    "n_cited_claims": 12,
+    "support_total": 7.5,
+    "citation_recall": 0.625,
+    "n_supported": 6,
+    "n_partial": 3,
+    "n_unsupported": 3,
+    "n_error": 0,
+    "n_citation_mounts": 12,
+    "n_contributing": 6,
+    "contributing_weight": 7.5,
+    "citation_precision": 0.625,
+    "n_not_verifiable": 0,
+    "n_claims": 18,
+    "n_claims_with_cite": 12,
+    "n_claims_bare": 6,
+    "bare_assertion_rate": 0.3333
+  },
+  "per_sentence": [
+    {
+      "sent_id": 33,
+      "section_title": "3 Background and Foundations",
+      "text": "In this paradigm, each participating institution trains a model locally on its own data, and only model updates are transmitted for aggregation into a shared global model (Serrano et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly describes a federated learning framework where institutions train locally and only model updates are aggregated, directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 34,
+      "section_title": "3 Background and Foundations",
+      "text": "This design inherently preserves data privacy while allowing the collective model to benefit from diverse datasets distributed across different sites (Serrano et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that FedIHRAS is a privacy-preserving federated learning framework enabling collaborative AI across institutions while preserving data privacy, directly supporting the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 35,
+      "section_title": "3 Background and Foundations",
+      "text": "The approach has gained significant traction in healthcare, where the privacy-preserving nature of FL is particularly valuable for working with medical data (Wen et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The cited abstract mentions healthcare as a privacy-critical domain for FL but does not provide evidence that FL has gained significant traction specifically in healthcare.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 36,
+      "section_title": "3 Background and Foundations",
+      "text": "As Wen et al. (2024) note, the field has progressed from basic implementations toward specialized approaches that address the unique challenges posed by medical datasets.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper focuses on a data pricing mechanism for federated learning and does not discuss the progression from basic implementations to specialized approaches for medical datasets.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 37,
+      "section_title": "4 Methods and Techniques",
+      "text": "Federated learning (FL) has gained significant traction in healthcare due to its privacy-preserving nature (Wen et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that FL is a mainstream privacy-preserving machine learning paradigm offering promising solutions for privacy-critical domains such as healthcare, directly supporting the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 38,
+      "section_title": "4 Methods and Techniques",
+      "text": "Among the foundational techniques employed in this domain, the Federated Averaging (FedAvg) algorithm remains a widely used approach that facilitates collaborative training across multiple institutions while preserving data privacy and security (Serrano et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence describes a specific federated learning framework (FedIHRAS) that uses privacy-preserving techniques for multi-institutional collaboration, but it does not mention or provide evidence about the Federated Averaging (FedAvg) algorithm being a foundational or widely used approach.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 39,
+      "section_title": "4 Methods and Techniques",
+      "text": "Wen et al. (2024) further situate their work within the context of state-of-the-art federated learning techniques for large language models, noting that their approach offers efficiency and performance advantages in comparative analysis.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses a data pricing mechanism for federated learning and does not mention large language models, efficiency/performance advantages in comparative analysis, or the work by Wen et al. (2024).",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 40,
+      "section_title": "5 Applications and Systems",
+      "text": "Federated learning has gained substantial traction in healthcare due to its inherent privacy-preserving nature (Wen et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that Federated Learning is a mainstream privacy-preserving paradigm offering promising solutions for privacy-critical domains such as healthcare, directly supporting the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 42,
+      "section_title": "5 Applications and Systems",
+      "text": "Serrano et al. (2026) describe federated learning as a widely adopted decentralized framework in which each institution trains models locally on its own data and only shares model updates for aggregation into a global model.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that federated learning is a paradigm for collaborative AI while preserving data privacy, which aligns with the claim that it is a decentralized framework where institutions train locally and share only model updates.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 44,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "Federated learning has gained significant traction in healthcare due to its privacy-preserving nature (Wen et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The abstract states FL is a privacy-preserving paradigm and mentions healthcare as a privacy-critical domain, but it does not provide evidence that FL has gained significant traction in healthcare specifically.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 46,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "The Federated Averaging (FedAvg) algorithm, a widely used approach that facilitates collaborative training across multiple institutions while preserving data privacy and security, serves as the foundation for many healthcare FL frameworks (Serrano et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes a specific FL framework (FedIHRAS) but never mentions the Federated Averaging (FedAvg) algorithm or states that FedAvg serves as the foundation for many healthcare FL frameworks.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 48,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "Additionally, the integration of auxiliary capabilities—such as explainability mechanisms and automated clinical reporting—into privacy-preserving FL pipelines introduces further complexity that current approaches have only begun to address (Serrano et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The cited paper explicitly proposes a privacy-preserving FL framework that integrates explainability (Grad-CAM) and automated clinical reporting, directly supporting the claim that such integration introduces complexity that current approaches have only begun to address.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    }
+  ]
+}

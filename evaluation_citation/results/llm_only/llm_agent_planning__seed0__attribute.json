@@ -1,0 +1,162 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "llm_agent_planning",
+  "seed": 0,
+  "topic": "Planning and Reasoning in Large Language Model Agents: Methods, Tool Use, and Evaluation Benchmarks",
+  "metrics": {
+    "n_cited_claims": 8,
+    "support_total": 4.5,
+    "citation_recall": 0.5625,
+    "n_supported": 4,
+    "n_partial": 1,
+    "n_unsupported": 3,
+    "n_error": 0,
+    "n_citation_mounts": 8,
+    "n_contributing": 5,
+    "contributing_weight": 4.5,
+    "citation_precision": 0.5625,
+    "n_not_verifiable": 0,
+    "n_claims": 39,
+    "n_claims_with_cite": 8,
+    "n_claims_bare": 31,
+    "bare_assertion_rate": 0.7949
+  },
+  "per_sentence": [
+    {
+      "sent_id": 45,
+      "section_title": "3 Reasoning and Planning Methodologies",
+      "text": "One prominent approach is Plan-and-Solve Prompting, which explicitly decouples the planning phase from the execution phase, prompting the model to first generate a high-level plan and then execute each step sequentially (Wang et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that Plan-and-Solve prompting consists of first devising a plan to divide the task into subtasks and then carrying out the subtasks according to the plan, which directly matches the sentence's description of decoupling planning from execution.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 49,
+      "section_title": "3 Reasoning and Planning Methodologies",
+      "text": "ToT allows the model to evaluate different reasoning paths, look ahead, and backtrack when a path proves unviable, mimicking human deliberative reasoning (Yao et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The sentence claims that Tree-of-Thoughts (ToT) enables evaluation of reasoning paths, lookahead, and backtracking, but the cited paper describes a ReAct-based legal agent (LAURA) and never mentions ToT or its specific mechanisms.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 56,
+      "section_title": "4 Tool Use and Integration",
+      "text": "Toolformer demonstrated that LLMs could be fine-tuned in a self-supervised manner to decide which tools to call, when to call them, and how to pass arguments, significantly enhancing their mathematical and factual accuracy without sacrificing core linguistic capabilities (Schick et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that Toolformer is trained in a self-supervised way to decide which APIs to call, when to call them, what arguments to pass, and how to incorporate results, and that it improves performance on tasks like arithmetic and factual lookup without sacrificing core language modeling abilities.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 58,
+      "section_title": "4 Tool Use and Integration",
+      "text": "HuggingGPT exemplifies this paradigm by utilizing an LLM as a central controller that parses user requests, selects appropriate models from the Hugging Face ecosystem, and synthesizes their outputs into a coherent final response (Shen et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that HuggingGPT uses ChatGPT to parse user requests, select models from Hugging Face, execute subtasks, and summarize the response, directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 64,
+      "section_title": "5 Interactive and Reflective Agents",
+      "text": "This synergy enables the agent to update its reasoning based on observations gathered from the environment, creating a more grounded and adaptive decision-making loop (Yao et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a ReAct-based legal QA system that combines reasoning with retrieval tools, but it does not mention updating reasoning based on observations gathered from the environment to create a grounded and adaptive decision-making loop.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 67,
+      "section_title": "5 Interactive and Reflective Agents",
+      "text": "Instead of updating model weights, Reflexion stores this feedback in an episodic memory buffer, which is consulted in subsequent trials to avoid repeating the same mistakes (Shinn et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 7
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that Reflexion agents maintain reflective text in an episodic memory buffer to improve decision-making in subsequent trials, directly supporting the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 74,
+      "section_title": "6 Evaluation Benchmarks",
+      "text": "This benchmark evaluates an agent's ability to handle multi-step navigation, parse HTML, and make grounded decisions under uncertainty (Yao et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a legal QA system for Vietnamese law, not a benchmark evaluating multi-step navigation, HTML parsing, or decision-making under uncertainty.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 77,
+      "section_title": "6 Evaluation Benchmarks",
+      "text": "By testing LLMs across these diverse domains, AgentBench reveals that while proprietary models exhibit strong agentic capabilities, there remains a significant performance gap compared to open-source alternatives, particularly in complex reasoning and long-context dependency tasks (Liu et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms a performance gap between top commercial LLMs and many open-source competitors, but it does not state that open-source models are stronger; rather, it indicates commercial models are ahead, and it does not specifically attribute the gap to complex reasoning and long-context dependency tasks as the sentence claims.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    }
+  ]
+}

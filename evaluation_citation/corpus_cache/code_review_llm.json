@@ -1,0 +1,424 @@
+{
+  "arxiv_query": "(abs:\"code review\" AND abs:\"automation\" AND abs:\"large language model\" OR abs:\"llm\" OR abs:\"benchmark\" OR abs:\"deployment\" OR abs:\"bug detection\" OR abs:\"prompt engineering\" OR abs:\"fine tuning\")",
+  "generic_arxiv_query": "(abs:\"code review\" AND abs:\"language model\") OR (abs:\"automated review\" AND abs:\"deep learning\")",
+  "s2_query": "large language model code review",
+  "s2_generic_query": "automated code review machine learning",
+  "survey_id": "corpus_code_review_llm",
+  "tsv_path": "./data/tsv\\corpus_code_review_llm.tsv",
+  "paper_list": [
+    {
+      "title": "Book review: The Discourse of Physics: Building Knowledge through Language, Mathematics and Image",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "0017ff43481055cb633502f06d237d7a0d4f0166",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Zhigang Yu"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2020
+    },
+    {
+      "title": "AgentMesh: A Cooperative Multi-Agent Generative AI Framework for Software Development Automation",
+      "pdf_link": "",
+      "arxiv_id": "2507.19902",
+      "s2_id": "008f84c2d5828481504d5cce64706a4c798d2d00",
+      "open_access_pdf_url": "",
+      "authors": [
+        "S. Khanzadeh"
+      ],
+      "source": "s2",
+      "citation_count": 10,
+      "year": 2025
+    },
+    {
+      "title": "Retrieving Multimodal Information for Augmented Generation: A Survey",
+      "pdf_link": "https://arxiv.org/pdf/2303.10868",
+      "arxiv_id": "2303.10868",
+      "s2_id": "00a9a469bb019bf33eeee438c110f704b71cda73",
+      "open_access_pdf_url": "https://arxiv.org/pdf/2303.10868",
+      "authors": [
+        "Ruochen Zhao",
+        "Hailin Chen",
+        "Weishi Wang",
+        "Fangkai Jiao",
+        "Do Xuan Long",
+        "Chengwei Qin",
+        "Bosheng Ding",
+        "Xiaobao Guo",
+        "Minzhi Li",
+        "Xingxuan Li",
+        "Shafiq R. Joty"
+      ],
+      "source": "s2",
+      "citation_count": 142,
+      "year": 2023
+    },
+    {
+      "title": "Self-Evolving LLMs via Continual Instruction Tuning",
+      "pdf_link": "",
+      "arxiv_id": "2509.18133",
+      "s2_id": "011ff31a8f7ab3137db54941f00c2718d2efb178",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Jiazheng Kang",
+        "Le Huang",
+        "Cheng Hou",
+        "Zhe Zhao",
+        "Zhenxiang Yan",
+        "Ting Bai"
+      ],
+      "source": "s2",
+      "citation_count": 5,
+      "year": 2025
+    },
+    {
+      "title": "The Role of Artificial Intelligence in Breast Cancer Patient Education: Scoping Review",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "01356dddfa4a816f8492ed5e0ceb319664768ceb",
+      "open_access_pdf_url": "",
+      "authors": [
+        "PhD Saldy Yusuf.",
+        "Maria Kurnyata",
+        "Rante Kada",
+        "Hasniati Haeruddin",
+        "Selviana Anwar",
+        "Eka Suprapti"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2025
+    },
+    {
+      "title": "Brief State of the Art on Human-AI in Software Engineering: Impact, Ethical Challenges, and Academic Evolution",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "013938285fcf956233cff02a5f5d894f028248aa",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Yazmin V. Morales M.",
+        "Blanca D. Valenzuela R.",
+        "René Santaolaya Salgado",
+        "Gabriel González Serna",
+        "Noé A. Castro Sánchez"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2024
+    },
+    {
+      "title": "Unsupervised Abstractive Text Summarization with Length Controlled Autoencoder",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "013ceea88acbbd7527edaf86797b74e5374a30b3",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Abhinav Dugar",
+        "Gaurav Singh",
+        "Navyasree B",
+        "Anand Kumar M"
+      ],
+      "source": "s2",
+      "citation_count": 3,
+      "year": 2022
+    },
+    {
+      "title": "Reviewing Scientific Papers for Critical Problems With Reasoning LLMs: Baseline Approaches and Automatic Evaluation",
+      "pdf_link": "",
+      "arxiv_id": "2505.23824",
+      "s2_id": "014a155f1e94d1e68cef0bc74cfd5969b19eb6b3",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Tianmai M. Zhang",
+        "Neil F. Abernethy"
+      ],
+      "source": "s2",
+      "citation_count": 12,
+      "year": 2025
+    },
+    {
+      "title": "A comprehensive study of AI in test case generation: Analysing industry trends and developing a predictive model",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "015f63fdc132750f50517ba166348bb9dc1406e6",
+      "open_access_pdf_url": "",
+      "authors": [
+        "R. Kanth",
+        "R. Guru",
+        "Anusuya M A",
+        "M. B K"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2025
+    },
+    {
+      "title": "Benchmarks and Metrics for Evaluations of Code Generation: A Critical Review",
+      "pdf_link": "https://arxiv.org/pdf/2406.12655",
+      "arxiv_id": "2406.12655",
+      "s2_id": "0176a64b895de803bbf1d4628e4f8cd6fa82d6d7",
+      "open_access_pdf_url": "https://arxiv.org/pdf/2406.12655",
+      "authors": [
+        "Debalina Ghosh Paul",
+        "Hong Zhu",
+        "Ian Bayley"
+      ],
+      "source": "s2",
+      "citation_count": 48,
+      "year": 2024
+    },
+    {
+      "title": "Fine-Tuning and Prompt Engineering for Large Language Models-based Code Review Automation",
+      "pdf_link": "http://arxiv.org/pdf/2402.00905v4",
+      "arxiv_id": "2402.00905v4",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Chanathip Pornprasit",
+        "Chakkrit Tantithamthavorn"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    },
+    {
+      "title": "RovoDev Code Reviewer: A Large-Scale Online Evaluation of LLM-based Code Review Automation at Atlassian",
+      "pdf_link": "http://arxiv.org/pdf/2601.01129v2",
+      "arxiv_id": "2601.01129v2",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Kla Tantithamthavorn",
+        "Yaotian Zou",
+        "Andy Wong",
+        "Michael Gupta",
+        "Zhe Wang",
+        "Mike Buller",
+        "Ryan Jiang",
+        "Matthew Watson",
+        "Minwoo Jeong",
+        "Kun Chen",
+        "Ming Wu"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    },
+    {
+      "title": "Code Review Automation Via Multi-task Federated LLM -- An Empirical Study",
+      "pdf_link": "http://arxiv.org/pdf/2412.15676v1",
+      "arxiv_id": "2412.15676v1",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Jahnavi Kumar",
+        "Sridhar Chimalakonda"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    },
+    {
+      "title": "Enhancing Automated Program Repair through Fine-tuning and Prompt Engineering",
+      "pdf_link": "http://arxiv.org/pdf/2304.07840v2",
+      "arxiv_id": "2304.07840v2",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Rishov Paul",
+        "Md. Mohib Hossain",
+        "Mohammed Latif Siddiq",
+        "Masum Hasan",
+        "Anindya Iqbal",
+        "Joanna C. S. Santos"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    },
+    {
+      "title": "LLaMA-Reviewer: Advancing Code Review Automation with Large Language Models through Parameter-Efficient Fine-Tuning",
+      "pdf_link": "http://arxiv.org/pdf/2308.11148v2",
+      "arxiv_id": "2308.11148v2",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Junyi Lu",
+        "Lei Yu",
+        "Xiaojia Li",
+        "Li Yang",
+        "Chun Zuo"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    }
+  ],
+  "download_status": {
+    "2507.19902": "success",
+    "2303.10868": "success",
+    "2509.18133": "success",
+    "2505.23824": "success",
+    "2406.12655": "success",
+    "2402.00905v4": "success",
+    "2601.01129v2": "success",
+    "2412.15676v1": "success",
+    "2304.07840v2": "success",
+    "2308.11148v2": "success"
+  },
+  "failed_papers": [],
+  "chroma_collections": [
+    "enhancingautomatedprogramrepairthroughfine-tuningandpromptengia",
+    "benchmarksandmetricsforevaluationsofcodegenerationacriticalreva",
+    "agentmeshacooperativemulti-agentgenerativeaiframeworkforsoftwaa",
+    "codereviewautomationviamulti-taskfederatedllm--anempiricalstuda",
+    "llama-revieweradvancingcodereviewautomationwithlargelanguagemoa",
+    "retrievingmultimodalinformationforaugmentedgenerationasurvea",
+    "reviewingscientificpapersforcriticalproblemswithreasoningllmsba",
+    "fine-tuningandpromptengineeringforlargelanguagemodels-basedcoda",
+    "rovodevcoderevieweralarge-scaleonlineevaluationofllm-basedcodea",
+    "self-evolvingllmsviacontinualinstructiontunina"
+  ],
+  "total_chunks": 1422,
+  "embedding_status": {
+    "./data/arxiv_downloads\\corpus_code_review_llm\\Enhancing Automated Program Repair through Fine-tuning and Prompt Engineering.pdf": "success",
+    "./data/arxiv_downloads\\corpus_code_review_llm\\Benchmarks and Metrics for Evaluations of Code Generation_ A Critical Review.pdf": "success",
+    "./data/arxiv_downloads\\corpus_code_review_llm\\AgentMesh_ A Cooperative Multi-Agent Generative AI Framework for Software Development Automation.pdf": "success",
+    "./data/arxiv_downloads\\corpus_code_review_llm\\Code Review Automation Via Multi-task Federated LLM -- An Empirical Study.pdf": "success",
+    "./data/arxiv_downloads\\corpus_code_review_llm\\LLaMA-Reviewer_ Advancing Code Review Automation with Large Language Models through Parameter-Effici.pdf": "success",
+    "./data/arxiv_downloads\\corpus_code_review_llm\\Retrieving Multimodal Information for Augmented Generation_ A Survey.pdf": "success",
+    "./data/arxiv_downloads\\corpus_code_review_llm\\Reviewing Scientific Papers for Critical Problems With Reasoning LLMs_ Baseline Approaches and Autom.pdf": "success",
+    "./data/arxiv_downloads\\corpus_code_review_llm\\Fine-Tuning and Prompt Engineering for Large Language Models-based Code Review Automation.pdf": "success",
+    "./data/arxiv_downloads\\corpus_code_review_llm\\RovoDev Code Reviewer_ A Large-Scale Online Evaluation of LLM-based Code Review Automation at Atlass.pdf": "success",
+    "./data/arxiv_downloads\\corpus_code_review_llm\\Self-Evolving LLMs via Continual Instruction Tuning.pdf": "success"
+  },
+  "citation_paper_meta": {
+    "self-evolvingllmsviacontinualinstructiontunina": {
+      "title": "Self-Evolving LLMs via Continual Instruction Tuning",
+      "authors": [
+        "Jiazheng Kang",
+        "Le Huang",
+        "Cheng Hou",
+        "Zhe Zhao",
+        "Zhenxiang Yan",
+        "Ting Bai"
+      ],
+      "year": 2025,
+      "arxiv_id": "2509.18133",
+      "s2_id": "011ff31a8f7ab3137db54941f00c2718d2efb178"
+    },
+    "fine-tuningandpromptengineeringforlargelanguagemodels-basedcoda": {
+      "title": "Fine-Tuning and Prompt Engineering for Large Language Models-based Code Review Automation",
+      "authors": [
+        "Chanathip Pornprasit",
+        "Chakkrit Tantithamthavorn"
+      ],
+      "year": 2024,
+      "arxiv_id": "2402.00905v4",
+      "s2_id": ""
+    },
+    "codereviewautomationviamulti-taskfederatedllm--anempiricalstuda": {
+      "title": "Code Review Automation Via Multi-task Federated LLM -- An Empirical Study",
+      "authors": [
+        "Jahnavi Kumar",
+        "Sridhar Chimalakonda"
+      ],
+      "year": 2024,
+      "arxiv_id": "2412.15676v1",
+      "s2_id": ""
+    },
+    "enhancingautomatedprogramrepairthroughfine-tuningandpromptengia": {
+      "title": "Enhancing Automated Program Repair through Fine-tuning and Prompt Engineering",
+      "authors": [
+        "Rishov Paul",
+        "Md. Mohib Hossain",
+        "Mohammed Latif Siddiq",
+        "Masum Hasan",
+        "Anindya Iqbal",
+        "Joanna C. S. Santos"
+      ],
+      "year": 2023,
+      "arxiv_id": "2304.07840v2",
+      "s2_id": ""
+    },
+    "benchmarksandmetricsforevaluationsofcodegenerationacriticalreva": {
+      "title": "Benchmarks and Metrics for Evaluations of Code Generation: A Critical Review",
+      "authors": [
+        "Debalina Ghosh Paul",
+        "Hong Zhu",
+        "Ian Bayley"
+      ],
+      "year": 2024,
+      "arxiv_id": "2406.12655",
+      "s2_id": "0176a64b895de803bbf1d4628e4f8cd6fa82d6d7"
+    },
+    "agentmeshacooperativemulti-agentgenerativeaiframeworkforsoftwaa": {
+      "title": "AgentMesh: A Cooperative Multi-Agent Generative AI Framework for Software Development Automation",
+      "authors": [
+        "S. Khanzadeh"
+      ],
+      "year": 2025,
+      "arxiv_id": "2507.19902",
+      "s2_id": "008f84c2d5828481504d5cce64706a4c798d2d00"
+    },
+    "llama-revieweradvancingcodereviewautomationwithlargelanguagemoa": {
+      "title": "Fine-Tuning and Prompt Engineering for Large Language Models-based Code Review Automation",
+      "authors": [
+        "Chanathip Pornprasit",
+        "Chakkrit Tantithamthavorn"
+      ],
+      "year": 2024,
+      "arxiv_id": "2402.00905v4",
+      "s2_id": ""
+    },
+    "retrievingmultimodalinformationforaugmentedgenerationasurvea": {
+      "title": "Retrieving Multimodal Information for Augmented Generation: A Survey",
+      "authors": [
+        "Ruochen Zhao",
+        "Hailin Chen",
+        "Weishi Wang",
+        "Fangkai Jiao",
+        "Do Xuan Long",
+        "Chengwei Qin",
+        "Bosheng Ding",
+        "Xiaobao Guo",
+        "Minzhi Li",
+        "Xingxuan Li",
+        "Shafiq R. Joty"
+      ],
+      "year": 2023,
+      "arxiv_id": "2303.10868",
+      "s2_id": "00a9a469bb019bf33eeee438c110f704b71cda73"
+    },
+    "reviewingscientificpapersforcriticalproblemswithreasoningllmsba": {
+      "title": "Reviewing Scientific Papers for Critical Problems With Reasoning LLMs: Baseline Approaches and Automatic Evaluation",
+      "authors": [
+        "Tianmai M. Zhang",
+        "Neil F. Abernethy"
+      ],
+      "year": 2025,
+      "arxiv_id": "2505.23824",
+      "s2_id": "014a155f1e94d1e68cef0bc74cfd5969b19eb6b3"
+    },
+    "rovodevcoderevieweralarge-scaleonlineevaluationofllm-basedcodea": {
+      "title": "Fine-Tuning and Prompt Engineering for Large Language Models-based Code Review Automation",
+      "authors": [
+        "Chanathip Pornprasit",
+        "Chakkrit Tantithamthavorn"
+      ],
+      "year": 2024,
+      "arxiv_id": "2402.00905v4",
+      "s2_id": ""
+    }
+  },
+  "_corpus_stats": {
+    "topic_id": "code_review_llm",
+    "survey_id": "corpus_code_review_llm",
+    "n_papers_in_list": 15,
+    "n_collections": 10,
+    "total_chunks": 1422,
+    "n_citation_meta": 10
+  }
+}

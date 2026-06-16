@@ -1,0 +1,247 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "short_video_misinfo",
+  "seed": 2,
+  "topic": "Detection of Misinformation and Harmful Content on Short-Form Video Platforms: Methods, Datasets, and Multimodal Approaches",
+  "metrics": {
+    "n_cited_claims": 13,
+    "support_total": 5.0,
+    "citation_recall": 0.3846,
+    "n_supported": 4,
+    "n_partial": 2,
+    "n_unsupported": 7,
+    "n_error": 0,
+    "n_citation_mounts": 13,
+    "n_contributing": 6,
+    "contributing_weight": 5.0,
+    "citation_precision": 0.3846,
+    "n_not_verifiable": 0,
+    "n_claims": 25,
+    "n_claims_with_cite": 13,
+    "n_claims_bare": 12,
+    "bare_assertion_rate": 0.48
+  },
+  "per_sentence": [
+    {
+      "sent_id": 38,
+      "section_title": "3.1 Claim Detection in Visual and Non-Linguistic Audio",
+      "text": "Kan et al. (2024) illustrate this scenario with the example of encountering a video in an unfamiliar language: a viewer may be unable to recognize any spoken words yet can still distinguish between genres such as a nursery rhyme or dance video, which likely lack an informative claim, and a podcast or news clip, which likely contain one.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a system that detects informative intent in videos but does not mention the specific example of distinguishing genres in an unfamiliar language based on audio-visual cues alone.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 41,
+      "section_title": "3.1 Claim Detection in Visual and Non-Linguistic Audio",
+      "text": "Vatndal and Setty (2025) survey several tools in this space, noting that BRENDA provides real-time claim detection for long-form text, while PODFC is tailored for long-form audio verification in multilingual contexts.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes ShortCheck, a tool for short-form video checkworthiness detection, and does not mention BRENDA, PODFC, or their respective capabilities for long-form text or audio verification.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 43,
+      "section_title": "3.1 Claim Detection in Visual and Non-Linguistic Audio",
+      "text": "These systems, however, depend on transcribed speech, leaving open the challenge of detecting claims directly from non-linguistic audio-visual signals, as suggested by the masked autoencoder approach referenced in Kan et al. (2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The cited paper explicitly introduces a masked autoencoder approach (ViMGuard) that detects claims directly from non-linguistic audio-visual signals, directly supporting the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 45,
+      "section_title": "3.2 Checkworthiness Assessment for TikTok Videos",
+      "text": "Vatndal and Setty (2025) propose ShortCheck, a modular, inference-only pipeline specifically designed to detect potentially misleading or checkworthy content in short-form videos such as those published on TikTok.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that ShortCheck is a modular, inference-only pipeline designed to automatically identify checkworthy short-form videos, matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 46,
+      "section_title": "3.2 Checkworthiness Assessment for TikTok Videos",
+      "text": "The system assigns each video a binary categorical label—Checkworthy or Not Checkworthy—and its design emphasizes modularity over monolithic or end-to-end models (Vatndal & Setty, 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms the system assigns a binary checkworthy label and emphasizes modularity, but it does not explicitly state that the design emphasizes modularity over monolithic or end-to-end models.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 48,
+      "section_title": "3.2 Checkworthiness Assessment for TikTok Videos",
+      "text": "Kan et al. (2024) constructed a handmade dataset for evaluating their ViMGuard system, which comprised short-form videos scraped from TikTok, Instagram Reels, and YouTube Shorts, as well as homemade videos recorded on a phone.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The abstract describes ViMGuard's architecture and evaluation but does not mention any dataset construction, let alone one scraped from TikTok, Instagram Reels, YouTube Shorts, or homemade videos.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 49,
+      "section_title": "3.2 Checkworthiness Assessment for TikTok Videos",
+      "text": "The final dataset contained around 700 short-form videos, each manually labeled (Kan et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The abstract describes ViMGuard's architecture and evaluation but never mentions a dataset of ~700 manually labeled short-form videos, so the specific factual claim is not supported.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 52,
+      "section_title": "4.1 Explainable Forensics for Long-Form Video Manipulations",
+      "text": "Feng et al. (2026) address this gap by introducing a dedicated benchmark and a baseline method for explainable forensic techniques that detect manipulated segments in untrimmed long videos.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states the authors formulate the task, introduce the TASLE benchmark, and propose the MSLoc baseline, directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 53,
+      "section_title": "4.1 Explainable Forensics for Long-Form Video Manipulations",
+      "text": "Their work promotes research into robust and interpretable video authenticity analysis, which they describe as crucial for combating misinformation in an era of increasingly realistic AI-generated content (Feng et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The cited paper explicitly addresses interpretable (explainable) forensics for AI-generated video segments in long videos, directly supporting the claim about promoting robust and interpretable video authenticity analysis to combat misinformation.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 54,
+      "section_title": "4.1 Explainable Forensics for Long-Form Video Manipulations",
+      "text": "To facilitate reproducibility and encourage future research on this task, the authors plan to release the associated dataset and code (Feng et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper states that its dataset and code are publicly available, but it does not mention any future plan to release them, which is the specific claim in the sentence.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 56,
+      "section_title": "4.2 Cross-Modal Consistency for Short-Form Fake News Detection",
+      "text": "Tian et al. (2026) categorize current short news video detectors into three families, observing that feature-based multimodal models rely on strong single-modality encoders with late fusion but only weakly exploit cross-modal interactions.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a single detector (MAGIC3) that explicitly models cross-modal consistency, but provides no evidence for a three-family categorization of detectors or the claim that feature-based multimodal models only weakly exploit cross-modal interactions.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 59,
+      "section_title": "4.2 Cross-Modal Consistency for Short-Form Fake News Detection",
+      "text": "Although the evidence from Feng et al. (2026) focuses on long-form video forensics, their observation that manipulated segments often manifest as subtle boundary discrepancies and that conventional models are insensitive to such cues because they assume each input clip is entirely real or fake highlights a broader principle: detectors must move beyond treating multimodal inputs as uniform wholes.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms the task targets localized manipulations in long videos and that existing methods fail by treating clips as wholes, but it does not explicitly state that manipulated segments manifest as subtle boundary discrepancies or that conventional models are insensitive to such cues.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 61,
+      "section_title": "4.2 Cross-Modal Consistency for Short-Form Fake News Detection",
+      "text": "Tian et al. (2026) further underscore the need for approaches that go beyond weak cross-modal interaction, pointing toward consistency-based reasoning as a natural evolution for the field.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper proposes a consistency-based detection method but does not discuss or advocate for a broader evolution of the field beyond weak cross-modal interaction, nor does it mention Tian et al. (2026).",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

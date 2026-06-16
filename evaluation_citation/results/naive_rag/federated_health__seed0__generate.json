@@ -1,0 +1,17 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "federated_health",
+  "seed": 0,
+  "md_path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\naive_rag\\Federated_Learning_for_Privacy_Preserving_Healthca__seed0\\survey.md",
+  "survey_id": "corpus_federated_health",
+  "n_references_requested": 10,
+  "n_references_realized": 4,
+  "corpus_stats": {
+    "n_papers_in_list": 15,
+    "n_collections_embedded": 7,
+    "n_citation_meta": 7,
+    "n_collections_used_in_writing": 4,
+    "total_chunks": 889
+  },
+  "warning": "LOW CITATION COUNT: realized 4 references < 6 (= 60% of requested 10). Inspect corpus_stats to see whether the corpus was thin or the writer dropped sections."
+}

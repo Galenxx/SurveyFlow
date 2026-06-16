@@ -1,0 +1,57 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "battery_soh_ml",
+  "seed": 2,
+  "topic": "Machine Learning for Lithium-Ion Battery State-of-Health Estimation and Remaining-Useful-Life Prediction",
+  "n_references": 4,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper proposes a general prognostic framework evaluated on battery data (XJTU) among other domains, but its main contribution is a domain-agnostic physics-informed neural network rather than a focused study on lithium-ion battery state-of-health estimation or remaining-useful-life prediction."
+      }
+    },
+    {
+      "ref_id": 1,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper directly addresses data-driven state-of-health estimation and remaining-useful-life prediction for lithium-ion batteries using Gaussian process regression, which is a core method within the survey's scope."
+      }
+    },
+    {
+      "ref_id": 2,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper explicitly addresses state-of-health estimation and remaining-useful-life prediction for lithium-ion batteries using machine learning, which are the core topics of the survey."
+      }
+    },
+    {
+      "ref_id": 3,
+      "identification_verdict": "MISSING_ID",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper directly addresses lithium-ion battery state-of-health estimation using a machine learning method (support vector regression), which is a core topic of the survey."
+      }
+    }
+  ],
+  "aggregate": {
+    "score": 87.5,
+    "n_relevant": 3,
+    "n_partial": 1,
+    "n_irrelevant": 0,
+    "n_error": 0,
+    "n_judged": 4
+  }
+}

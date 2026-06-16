@@ -1,0 +1,117 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "gnn_drug",
+  "seed": 0,
+  "topic": "Graph Neural Networks for Drug Discovery and Molecular Property Prediction",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "identification_verdict": "NOT_FOUND",
+      "title_sim": 0.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=NOT_FOUND); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 1,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper directly benchmarks and proposes a graph convolutional neural network for molecular property prediction, which is a core topic of the survey on graph neural networks for drug discovery and molecular property prediction."
+      }
+    },
+    {
+      "ref_id": 2,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper introduces a graph neural network architecture for molecular property prediction, directly advancing the core topic of the survey."
+      }
+    },
+    {
+      "ref_id": 3,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "SchNet is a foundational graph neural network architecture for molecular property prediction, directly aligning with the survey's focus on GNNs for drug discovery and molecular tasks."
+      }
+    },
+    {
+      "ref_id": 4,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper directly addresses molecular graph generation for drug discovery, a core topic within the survey's scope of graph neural networks for molecular property prediction and drug design."
+      }
+    },
+    {
+      "ref_id": 5,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a generative model for molecular graphs and evaluates it on a chemical database, directly addressing molecular property prediction and drug discovery tasks."
+      }
+    },
+    {
+      "ref_id": 6,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper introduces a graph neural network architecture for molecular property prediction, directly advancing the core topic of the survey."
+      }
+    },
+    {
+      "ref_id": 7,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper presents a general graph neural network library (PyTorch Geometric) that could be used for drug discovery and molecular property prediction, but its main contribution is the software infrastructure rather than advancing methods or applications in that specific domain."
+      }
+    },
+    {
+      "ref_id": 8,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper proposes a generative model for small graphs and evaluates on molecule generation, which is tangentially related to drug discovery but does not directly address molecular property prediction or drug discovery tasks."
+      }
+    },
+    {
+      "ref_id": 9,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a graph variational autoencoder for molecule generation and design, directly contributing to graph neural network methods for molecular property prediction and drug discovery."
+      }
+    }
+  ],
+  "aggregate": {
+    "score": 80.0,
+    "n_relevant": 7,
+    "n_partial": 2,
+    "n_irrelevant": 1,
+    "n_error": 0,
+    "n_judged": 10
+  }
+}

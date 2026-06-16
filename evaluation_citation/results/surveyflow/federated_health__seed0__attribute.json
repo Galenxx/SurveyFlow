@@ -1,0 +1,264 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "federated_health",
+  "seed": 0,
+  "topic": "Federated Learning for Privacy-Preserving Healthcare: Architectures, Communication Efficiency, and Clinical Deployment",
+  "metrics": {
+    "n_cited_claims": 14,
+    "support_total": 3.0,
+    "citation_recall": 0.2143,
+    "n_supported": 1,
+    "n_partial": 4,
+    "n_unsupported": 9,
+    "n_error": 0,
+    "n_citation_mounts": 14,
+    "n_contributing": 2,
+    "contributing_weight": 3.0,
+    "citation_precision": 0.2143,
+    "n_not_verifiable": 0,
+    "n_claims": 34,
+    "n_claims_with_cite": 14,
+    "n_claims_bare": 20,
+    "bare_assertion_rate": 0.5882
+  },
+  "per_sentence": [
+    {
+      "sent_id": 32,
+      "section_title": "3.1 Intention-Hiding Vertical Federated Learning for Medical Data",
+      "text": "Rajagopal et al. (2023) observe that conventional vertical federated learning (VFL) protects data during model training but does not conceal the fact that training is occurring.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses federated learning for privacy in IoT healthcare but does not mention vertical federated learning or whether training occurrence is concealed.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 36,
+      "section_title": "3.2 Quantum Federated Learning Architectures for Healthcare",
+      "text": "Sai et al. (2025) catalog several representative architectures: a pure quantum, centralized approach for a dynamic aggregation algorithm aimed at intelligent diagnosis within the Internet of Medical Things, and hybrid centralized frameworks for quantum-enhanced federated learning with edge computing for advanced pain assessment and for federated quanvolutional neural networks in healthcare scenarios.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence mentions QFL applications in healthcare and classifies architectures by quantum architecture (pure/hybrid) and network topology (centralized), but it does not specifically describe a pure quantum centralized dynamic aggregation algorithm for IoMT diagnosis or hybrid centralized frameworks for edge-computing pain assessment and federated quanvolutional neural networks.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 39,
+      "section_title": "3.2 Quantum Federated Learning Architectures for Healthcare",
+      "text": "Rajagopal et al. (2023) note that vertical federated learning (VFL) has demonstrated excellent performance in smart healthcare applications, a setting driven by the availability of big data where machine learning plays an essential role.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The cited paper discusses federated learning in smart healthcare but does not mention vertical federated learning (VFL) or its performance, only addressing a general federated learning framework for ECG data.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 42,
+      "section_title": "3.3 Triple-Shuffle and Contribution-Aware Serial Federated Learning for Segmented Healthcare Data",
+      "text": "Rajagopal et al. (2023) note that federated learning has many applications in smart healthcare, citing electronic health records as an example of clinical medical data that can benefit from such approaches.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The cited paper proposes a federated learning framework for ECG data in smart healthcare, which supports the general claim of applications in smart healthcare, but it does not mention electronic health records as an example of clinical medical data.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 43,
+      "section_title": "3.3 Triple-Shuffle and Contribution-Aware Serial Federated Learning for Segmented Healthcare Data",
+      "text": "In a standard federated setup, clients train a model on private datasets and share only model updates with a coordinating server, which aggregates the updates and broadcasts the refined model for subsequent rounds (Sai et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract describes Quantum Federated Learning (QFL) and its architecture but does not describe or confirm the standard federated learning process of clients training on private data and sharing only model updates with a coordinating server.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 45,
+      "section_title": "4.1 Layer-Skipping Strategies for Federated Large Language Models",
+      "text": "Layer-skipping strategies in federated learning for large language models are motivated by the observation that not all layers of a pre-trained model require updating during fine-tuning, especially for domain-specific adaptation (Wen et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses data pricing and client selection in federated learning, not layer-skipping strategies or fine-tuning of large language models.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 47,
+      "section_title": "4.1 Layer-Skipping Strategies for Federated Large Language Models",
+      "text": "Wen et al. (2024) describe Layer-Skipping Federated Learning as a parameter-efficient method in which only a portion of the model’s layers are fine-tuned, although the precise selection mechanism is not detailed in the provided evidence.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence discusses a data pricing mechanism for federated learning and does not mention layer-skipping, parameter-efficient fine-tuning, or any method of selectively fine-tuning model layers.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 48,
+      "section_title": "4.1 Layer-Skipping Strategies for Federated Large Language Models",
+      "text": "A more concrete instantiation of layer selection is offered by Tang et al. (2023), who propose a three-step procedure executed in each federated round.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a framework for intention-hiding vertical federated learning but does not mention a three-step procedure executed in each federated round by Tang et al. (2023).",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 54,
+      "section_title": "4.2 Selective Attention Federated Learning for Clinical Text Classification",
+      "text": "Tang et al. (2023) describe a federated learning system applied to user-generated text for depression and anxiety prediction, where sensitive text remains on-device and is never centrally collected.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a vertical federated learning framework for medical data with intention-hiding, not a system applied to user-generated text for depression and anxiety prediction where sensitive text remains on-device.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 56,
+      "section_title": "4.2 Selective Attention Federated Learning for Clinical Text Classification",
+      "text": "Clinical text classification tasks in federated environments can involve standard healthcare datasets; Wen et al. (2024) employ the i2b2 2010 Clinical Concept Extraction dataset, a medical named entity recognition task that extracts mentions of problems, tests, and treatments from de-identified clinical notes, as well as MIMIC-III discharge summaries, within a realistic healthcare natural language processing scenario.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses a data pricing mechanism for federated learning and does not mention the i2b2 2010 dataset, MIMIC-III, or any clinical text classification task.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 57,
+      "section_title": "5.1 Decentralized Federated Learning for Multi-Demographic Chest Radiograph Analysis",
+      "text": "Serrano et al. (2026) investigated the application of federated learning to adult chest X-ray analysis, modeling a realistic scenario where each institution independently trains a local diagnostic model for classifying pneumonia and radiographs with no findings.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract describes a federated learning framework for chest X-ray analysis but does not mention Serrano et al. (2026), pneumonia classification, or a scenario where each institution independently trains a local diagnostic model.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 59,
+      "section_title": "5.1 Decentralized Federated Learning for Multi-Demographic Chest Radiograph Analysis",
+      "text": "While Rajagopal et al. (2023) discuss federated learning broadly as a privacy-preserving paradigm that enables machine learning without exposing private data, their work focuses on ECG data in IoT-integrated computing environments rather than chest radiograph analysis.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The cited paper explicitly proposes a federated learning framework for ECG data in IoT-integrated computing environments, confirming the sentence's claim that the work focuses on ECG data rather than chest radiograph analysis.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 63,
+      "section_title": "5.2 Privacy-Preserved Pre-Training Data Pricing in Federated Learning",
+      "text": "Rajagopal et al. (2023) characterize federated learning as a mainstream privacy-preserving approach that enables machine learning model training without exposing private data, noting its adoption in domains such as medical information systems and financial data analysis.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The cited evidence supports that federated learning is used for privacy-preserving model training in medical IoT, but it does not mention financial data analysis or characterize federated learning as a mainstream approach.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 64,
+      "section_title": "5.2 Privacy-Preserved Pre-Training Data Pricing in Federated Learning",
+      "text": "Serrano et al. (2026) employ a federated learning framework based on the Federated Averaging (FedAvg) algorithm, which facilitates collaborative training across multiple institutions while preserving data privacy and security.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes a federated learning framework (FedIHRAS) but never mentions the Federated Averaging (FedAvg) algorithm, so it does not support the claim that Serrano et al. employ FedAvg.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "diffusion_3d",
+  "seed": 2,
+  "topic": "Diffusion Models for 3D Shape and Scene Generation: Methods, Representations, and Evaluation",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "identification_verdict": "NOT_FOUND",
+      "title_sim": 0.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=NOT_FOUND); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 1,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a diffusion-based method for generating 3D point clouds from text prompts, which directly aligns with the survey's focus on diffusion models for 3D shape generation."
+      }
+    },
+    {
+      "ref_id": 2,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a diffusion-based generative model for 3D shapes using implicit functions, which directly aligns with the survey's focus on diffusion models for 3D shape generation and representations."
+      }
+    },
+    {
+      "ref_id": 3,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a text-to-3D generation method using diffusion models, which is directly within the survey's scope of diffusion models for 3D shape generation."
+      }
+    },
+    {
+      "ref_id": 4,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a method to lift pretrained 2D diffusion models for 3D generation using score chaining and differentiable rendering, directly addressing 3D shape generation with diffusion models."
+      }
+    },
+    {
+      "ref_id": 5,
+      "identification_verdict": "NOT_FOUND",
+      "title_sim": 0.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=NOT_FOUND); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 6,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper directly addresses 3D scene generation from text using diffusion-based 2D models, fitting the survey's focus on diffusion models for 3D shape and scene generation."
+      }
+    },
+    {
+      "ref_id": 7,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper uses a diffusion model (InstructPix2Pix) for 3D scene editing, which is tangentially related to the survey's focus on diffusion models for 3D shape and scene generation, but its primary contribution is editing rather than generation."
+      }
+    },
+    {
+      "ref_id": 8,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a diffusion model for 3D shape generation, completion, and reconstruction from multimodal inputs, which directly aligns with the survey's focus on diffusion models for 3D shape generation."
+      }
+    },
+    {
+      "ref_id": 9,
+      "identification_verdict": "NOT_FOUND",
+      "title_sim": 0.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=NOT_FOUND); defaulting to IRRELEVANT for faithfulness"
+      }
+    }
+  ],
+  "aggregate": {
+    "score": 65.0,
+    "n_relevant": 6,
+    "n_partial": 1,
+    "n_irrelevant": 3,
+    "n_error": 0,
+    "n_judged": 10
+  }
+}

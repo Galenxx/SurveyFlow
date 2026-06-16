@@ -1,0 +1,116 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "txt2sql",
+  "seed": 1,
+  "topic": "Text-to-SQL Generation with Large Language Models: Schema Linking, Benchmarks, and Robustness",
+  "metrics": {
+    "n_cited_claims": 3,
+    "support_total": 2.5,
+    "citation_recall": 0.8333,
+    "n_supported": 2,
+    "n_partial": 1,
+    "n_unsupported": 0,
+    "n_error": 0,
+    "n_citation_mounts": 3,
+    "n_contributing": 3,
+    "contributing_weight": 2.5,
+    "citation_precision": 0.8333,
+    "n_not_verifiable": 3,
+    "n_claims": 34,
+    "n_claims_with_cite": 6,
+    "n_claims_bare": 28,
+    "bare_assertion_rate": 0.8235
+  },
+  "per_sentence": [
+    {
+      "sent_id": 36,
+      "section_title": "3 Schema Linking in the Era of LLMs",
+      "text": "For instance, RAT-SQL introduced a relation-aware self-attention mechanism to jointly encode the question and schema, allowing the model to learn structural biases directly from the data (Wang et al., 2019).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 41,
+      "section_title": "3 Schema Linking in the Era of LLMs",
+      "text": "For example, S3 introduces a framework that generates schema links as an intermediate step before SQL generation, effectively decoupling the linking task from the synthesis task and guiding the LLM's attention to the correct database entities (Yang et al., 2023).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 44,
+      "section_title": "4 Evolving Benchmarks and Evaluation",
+      "text": "For years, the Spider dataset stood as the definitive benchmark, driving progress by providing a large-scale, cross-domain evaluation of complex SQL generation (Yu et al., 2018).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms Spider is a large-scale, cross-domain dataset for complex SQL generation, but it does not establish that it 'stood as the definitive benchmark' or 'drove progress' for years.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 55,
+      "section_title": "5 Prompting and Decomposition Strategies",
+      "text": "The C3 framework demonstrates the power of this approach by utilizing ChatGPT's zero-shot capabilities through a combination of clear prompt construction, calibration, and consistency checking, significantly boosting baseline performance without any fine-tuning (Dong et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that C3 is a ChatGPT-based zero-shot method using Clear Prompting, Calibration with Hints, and Consistent Output, and that it achieves state-of-the-art zero-shot performance without mentioning fine-tuning, directly supporting the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 57,
+      "section_title": "5 Prompting and Decomposition Strategies",
+      "text": "It employs decomposed in-context learning, where the LLM is prompted to first identify the relevant tables and columns, then generate the SQL skeleton, and finally fill in the details, followed by a self-correction step to debug any execution errors (Pourreza and Rafiei, 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that the approach decomposes the text-to-SQL task into smaller sub-tasks and feeds their solutions into LLMs, which directly matches the sentence's description of decomposed in-context learning with a self-correction step.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 62,
+      "section_title": "6 Robustness and Fine-Tuning",
+      "text": "A comprehensive evaluation of ChatGPT's zero-shot capabilities revealed significant drops in performance when faced with complex schemas or ambiguous queries, highlighting that LLMs are not yet reliable out-of-the-box database interfaces (Chang and Fosler-Lussier, 2023).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    }
+  ]
+}

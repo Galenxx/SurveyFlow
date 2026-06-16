@@ -1,0 +1,69 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "code_review_llm",
+  "seed": 0,
+  "topic": "Large Language Models for Automated Code Review: Techniques, Benchmarks, and Industrial Deployment",
+  "n_references": 8,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 1,
+      "label": "DEDUP_COLLISION",
+      "reason": "identifier resolves to a different paper than the title (id/title mismatch)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 2,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 3,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 4,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 5,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 6,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 7,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    }
+  ],
+  "distribution": {
+    "RESOLVED": 7,
+    "METADATA_PARSE_ERROR": 0,
+    "ID_EXTRACTION_FAIL": 0,
+    "DEDUP_COLLISION": 1,
+    "GENUINELY_FABRICATED": 0,
+    "PLACEHOLDER_PADDING": 0
+  },
+  "n_resolved": 7,
+  "n_padding": 0,
+  "n_failures": 1,
+  "n_genuinely_fabricated": 0
+}

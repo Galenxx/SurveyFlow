@@ -1,0 +1,97 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\llm_only\\Text_to_SQL_Generation_with_Large_Language_Models__glm-5.1__seed0.md",
+  "topic": "3 Schema Linking in the Era of LLMs",
+  "n_references": 10,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Rui Cao, Jingxuan Li, Bowen Li, Lei Zou. (2023). RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL. arXiv:2302.05971v2.",
+      "title": "RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL",
+      "authors": "Rui Cao, Jingxuan Li, Bowen Li, Lei Zou",
+      "year": "2023",
+      "arxiv_id": "2302.05971v2",
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Mohammadreza Pourreza, Davood Rafiei. (2023). DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction. arXiv:2304.11015v2.",
+      "title": "DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction",
+      "authors": "Mohammadreza Pourreza, Davood Rafiei",
+      "year": "2023",
+      "arxiv_id": "2304.11015v2",
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Jinyang Li, Binyuan Hui, Ge Qu, Jiaxi Yang, Bofei Gao, Liuzheng Yuan, Nan Duan, Chen Chen, Tianyu Liu, Bowen Zhou. (2023). Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQL. arXiv:2305.03111v3.",
+      "title": "Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQL",
+      "authors": "Jinyang Li, Binyuan Hui, Ge Qu, Jiaxi Yang, Bofei Gao, Liuzheng Yuan, Nan Duan, Chen Chen, Tianyu Liu, Bowen Zhou",
+      "year": "2023",
+      "arxiv_id": "2305.03111v3",
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Tao Yu, Rui Zhang, Kai Yang, Michihiro Yasunaga, Dongxu Wang, Nikhil R. Naik, Deepak S. Vijay, Dragomir Radev. (2018). Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task. arXiv:1809.08887v1.",
+      "title": "Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task",
+      "authors": "Tao Yu, Rui Zhang, Kai Yang, Michihiro Yasunaga, Dongxu Wang, Nikhil R. Naik, Deepak S. Vijay, Dragomir Radev",
+      "year": "2018",
+      "arxiv_id": "1809.08887v1",
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Yujian Gan, Xinyun Chen, Qiuping Huang, Matthew Purver, John R. Woodward, Jinxia Xie, Pengfei Liu. (2021). Dr. Spider: Diagnosing and Evaluating Text-to-SQL Robustness. arXiv:2108.09002v1.",
+      "title": "Dr. Spider: Diagnosing and Evaluating Text-to-SQL Robustness",
+      "authors": "Yujian Gan, Xinyun Chen, Qiuping Huang, Matthew Purver, John R. Woodward, Jinxia Xie, Pengfei Liu",
+      "year": "2021",
+      "arxiv_id": "2108.09002v1",
+      "doi": null
+    },
+    {
+      "ref_id": 5,
+      "raw": "Haoyang Li, Jing Zhang, Hanbing Liu, Jie Liu, Ju Fan, Cuiping Li, Hong Chen. (2024). CodeS: Towards Building Open-source Language Models for Text-to-SQL. arXiv:2402.16347v1.",
+      "title": "CodeS: Towards Building Open-source Language Models for Text-to-SQL",
+      "authors": "Haoyang Li, Jing Zhang, Hanbing Liu, Jie Liu, Ju Fan, Cuiping Li, Hong Chen",
+      "year": "2024",
+      "arxiv_id": "2402.16347v1",
+      "doi": null
+    },
+    {
+      "ref_id": 6,
+      "raw": "George Katsogiannis-Meimarakis, Georgia Koutrika. (2023). A Survey on Deep Learning Approaches for Text-to-SQL. arXiv:2305.11861v1.",
+      "title": "A Survey on Deep Learning Approaches for Text-to-SQL",
+      "authors": "George Katsogiannis-Meimarakis, Georgia Koutrika",
+      "year": "2023",
+      "arxiv_id": "2305.11861v1",
+      "doi": null
+    },
+    {
+      "ref_id": 7,
+      "raw": "Yiming Dong, Shu Zhao, Lin Yue, Shanghang Jiang. (2023). C3: Zero-shot Text-to-SQL with ChatGPT. arXiv:2307.07306v1.",
+      "title": "C3: Zero-shot Text-to-SQL with ChatGPT",
+      "authors": "Yiming Dong, Shu Zhao, Lin Yue, Shanghang Jiang",
+      "year": "2023",
+      "arxiv_id": "2307.07306v1",
+      "doi": null
+    },
+    {
+      "ref_id": 8,
+      "raw": "Yihan Gao, Siyu Long, Xinyu Pi, Jianwei Li. (2022). Spider-DK: A Dataset for Evaluating Text-to-SQL with Domain Knowledge. arXiv:2202.13530v1.",
+      "title": "Spider-DK: A Dataset for Evaluating Text-to-SQL with Domain Knowledge",
+      "authors": "Yihan Gao, Siyu Long, Xinyu Pi, Jianwei Li",
+      "year": "2022",
+      "arxiv_id": "2202.13530v1",
+      "doi": null
+    },
+    {
+      "ref_id": 9,
+      "raw": "Bing Wang, Changyu Ren, Jian Yang, Xinzhou Jin, Guoqing Du, Junyi Peng, Zhoujun Li. (2024). MAC-SQL: Multi-Agent Collaboration for Text-to-SQL. arXiv:2312.11242v2.",
+      "title": "MAC-SQL: Multi-Agent Collaboration for Text-to-SQL",
+      "authors": "Bing Wang, Changyu Ren, Jian Yang, Xinzhou Jin, Guoqing Du, Junyi Peng, Zhoujun Li",
+      "year": "2024",
+      "arxiv_id": "2312.11242v2",
+      "doi": null
+    }
+  ]
+}

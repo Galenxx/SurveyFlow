@@ -1,0 +1,97 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\llm_only\\Large_Language_Models_for_Automated_Code_Review_T__glm-5.1__seed2.md",
+  "topic": "3 Techniques and Architectures for Code Review",
+  "n_references": 10,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Chen, M., et al. (2021). Evaluating Large Language Models Trained on Code. arXiv:2107.03374v1.",
+      "title": "Evaluating Large Language Models Trained on Code",
+      "authors": "Chen, M., et al",
+      "year": "2021",
+      "arxiv_id": "2107.03374v1",
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Feng, Z., et al. (2020). CodeBERT: A Pre-trained Model for Programming and Natural Languages. arXiv:2002.08155v3.",
+      "title": "CodeBERT: A Pre-trained Model for Programming and Natural Languages",
+      "authors": "Feng, Z., et al",
+      "year": "2020",
+      "arxiv_id": "2002.08155v3",
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Guo, D., et al. (2021). GraphCodeBERT: Pre-training Code Representation with Data Flow. arXiv:2009.08366v2.",
+      "title": "GraphCodeBERT: Pre-training Code Representation with Data Flow",
+      "authors": "Guo, D., et al",
+      "year": "2021",
+      "arxiv_id": "2009.08366v2",
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Hou, X., et al. (2023). Large Language Models for Software Engineering: A Systematic Literature Review. arXiv:2308.10620v1.",
+      "title": "Large Language Models for Software Engineering: A Systematic Literature Review",
+      "authors": "Hou, X., et al",
+      "year": "2023",
+      "arxiv_id": "2308.10620v1",
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Li, F., et al. (2022). Automating Code Review Activities by Large-Scale Pre-training. arXiv:2203.09095v1.",
+      "title": "Automating Code Review Activities by Large-Scale Pre-training",
+      "authors": "Li, F., et al",
+      "year": "2022",
+      "arxiv_id": "2203.09095v1",
+      "doi": null
+    },
+    {
+      "ref_id": 5,
+      "raw": "Li, Y., et al. (2022). Competition-Level Code Generation with AlphaCode. arXiv:2202.07680v1.",
+      "title": "Competition-Level Code Generation with AlphaCode",
+      "authors": "Li, Y., et al",
+      "year": "2022",
+      "arxiv_id": "2202.07680v1",
+      "doi": null
+    },
+    {
+      "ref_id": 6,
+      "raw": "Roziere, B., et al. (2023). Code Llama: Open Foundation Models for Code. arXiv:2308.12950v1.",
+      "title": "Code Llama: Open Foundation Models for Code",
+      "authors": "Roziere, B., et al",
+      "year": "2023",
+      "arxiv_id": "2308.12950v1",
+      "doi": null
+    },
+    {
+      "ref_id": 7,
+      "raw": "Wang, Y., et al. (2021). CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation. arXiv:2109.00859v2.",
+      "title": "CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation",
+      "authors": "Wang, Y., et al",
+      "year": "2021",
+      "arxiv_id": "2109.00859v2",
+      "doi": null
+    },
+    {
+      "ref_id": 8,
+      "raw": "Wang, Y., et al. (2023). CodeT5+: Open Code Large Language Models for Code Understanding and Generation. arXiv:2305.07922v1.",
+      "title": "CodeT5+: Open Code Large Language Models for Code Understanding and Generation",
+      "authors": "Wang, Y., et al",
+      "year": "2023",
+      "arxiv_id": "2305.07922v1",
+      "doi": null
+    },
+    {
+      "ref_id": 9,
+      "raw": "Xia, C. S., et al. (2023). Automated Program Repair in the Era of Large Language Models. arXiv:2304.00385v1.",
+      "title": "Automated Program Repair in the Era of Large Language Models",
+      "authors": "Xia, C. S., et al",
+      "year": "2023",
+      "arxiv_id": "2304.00385v1",
+      "doi": null
+    }
+  ]
+}

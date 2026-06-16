@@ -1,0 +1,16 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "battery_soh_ml",
+  "seed": 2,
+  "md_path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\llm_only\\Machine_Learning_for_Lithium_Ion_Battery_State_of__glm-5.1__seed2.md",
+  "survey_id": "",
+  "n_references_requested": 10,
+  "n_references_realized": 10,
+  "corpus_stats": {
+    "n_papers_in_list": 0,
+    "n_collections_embedded": 0,
+    "n_citation_meta": 0,
+    "total_chunks": 0,
+    "note": "LLM_ONLY has no retrieval corpus by construction"
+  }
+}

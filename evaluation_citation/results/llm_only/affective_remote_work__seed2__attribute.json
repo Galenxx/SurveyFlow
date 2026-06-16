@@ -1,0 +1,69 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "affective_remote_work",
+  "seed": 2,
+  "topic": "Affective Computing for Remote Workplace Monitoring: Sensing, Inference, and Ethical Considerations",
+  "metrics": {
+    "n_cited_claims": 1,
+    "support_total": 1.0,
+    "citation_recall": 1.0,
+    "n_supported": 1,
+    "n_partial": 0,
+    "n_unsupported": 0,
+    "n_error": 0,
+    "n_citation_mounts": 1,
+    "n_contributing": 1,
+    "contributing_weight": 1.0,
+    "citation_precision": 1.0,
+    "n_not_verifiable": 2,
+    "n_claims": 57,
+    "n_claims_with_cite": 8,
+    "n_claims_bare": 49,
+    "bare_assertion_rate": 0.8596
+  },
+  "per_sentence": [
+    {
+      "sent_id": 39,
+      "section_title": "3 Sensing Technologies for Remote Affective Monitoring",
+      "text": "Despite these hurdles, deep learning techniques have significantly advanced the robustness of facial expression recognition in the wild (Li & Deng, 2018).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 56,
+      "section_title": "4 Inference Mechanisms and Multimodal Fusion",
+      "text": "A seminal advancement in this space is the Tensor Fusion Network, which explicitly models unimodal, bimodal, and trimodal interactions by computing the outer product of feature representations, thereby capturing complex, non-linear relationships between modalities (Zadeh et al., 2017).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 58,
+      "section_title": "4 Inference Mechanisms and Multimodal Fusion",
+      "text": "The Multimodal Transformer (MulT) aligns and fuses multimodal sequences by allowing one modality to attend to features in another, without requiring strict temporal alignment (Tsai et al., 2019).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that MulT uses directional pairwise crossmodal attention to handle unaligned multimodal sequences without explicit alignment, directly supporting the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    }
+  ]
+}

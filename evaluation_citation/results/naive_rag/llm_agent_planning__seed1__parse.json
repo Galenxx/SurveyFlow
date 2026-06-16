@@ -1,0 +1,70 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\naive_rag\\Planning_and_Reasoning_in_Large_Language_Model_Age__seed1\\survey.md",
+  "topic": "3 Background and Foundations",
+  "n_references": 7,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Unknown Author (n.d.). EHRAgent Code Empowers Large Language Models for Few-shot Complex Tabular Reasoning on Electronic H.",
+      "title": null,
+      "authors": null,
+      "year": null,
+      "arxiv_id": null,
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Rodríguez-Sánchez, M. J., Noguera, M., Ruiz-Zafra, Á., & Benghazi, K. (2026). Towards a Declarative Agentic Layer for Intelligent Agents in MCP-Based Server Ecosystems. arXiv:2601.17435.",
+      "title": "Towards a Declarative Agentic Layer for Intelligent Agents in MCP-Based Server Ecosystems",
+      "authors": "Rodríguez-Sánchez, M. J., Noguera, M., Ruiz-Zafra, Á., & Benghazi, K",
+      "year": "2026",
+      "arxiv_id": "2601.17435",
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Xu, Z., Wu, Z., Zhou, Y., Feng, A., Zhou, K., Woo, S., Ramnath, K., Tian, Y., Qi, X., Qiu, W., Cheong, L. L., & Ding, H. (2025). Beyond Correctness: Rewarding Faithful Reasoning in Retrieval-Augmented Generation. arXiv:2510.13272.",
+      "title": "Beyond Correctness: Rewarding Faithful Reasoning in Retrieval-Augmented Generation",
+      "authors": "Xu, Z., Wu, Z., Zhou, Y., Feng, A., Zhou, K., Woo, S., Ramnath, K., Tian, Y., Qi, X., Qiu, W., Cheong, L. L., & Ding, H",
+      "year": "2025",
+      "arxiv_id": "2510.13272",
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Cheng, X., Hu, Y., Zhang, X., Xu, L., Pan, Z., Li, X., & Liu, Y. (2025). TravelBench: A Real-World Benchmark for Multi-Turn and Tool-Augmented Travel Planning.",
+      "title": "TravelBench: A Real-World Benchmark for Multi-Turn and Tool-Augmented Travel Planning",
+      "authors": "Cheng, X., Hu, Y., Zhang, X., Xu, L., Pan, Z., Li, X., & Liu, Y",
+      "year": "2025",
+      "arxiv_id": null,
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Pham, T. D., Tanikanti, A., & Keçeli, M. (2025). ChemGraph: An Agentic Framework for Computational Chemistry Workflows. arXiv:2506.06363.",
+      "title": "ChemGraph: An Agentic Framework for Computational Chemistry Workflows",
+      "authors": "Pham, T. D., Tanikanti, A., & Keçeli, M",
+      "year": "2025",
+      "arxiv_id": "2506.06363",
+      "doi": null
+    },
+    {
+      "ref_id": 5,
+      "raw": "Li, Y., Wen, H., Wang, W., Li, X., Yuan, Y., Liu, G., Liu, J., Xu, W., Wang, X., Sun, Y., Kong, R., Wang, Y., Geng, H., Luan, J., Jin, X., Ye, Z., Xiong, G., Zhang, F., Li, X., ... Liu, Y. (2024). Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security. arXiv:2401.05459.",
+      "title": "Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security",
+      "authors": "Li, Y., Wen, H., Wang, W., Li, X., Yuan, Y., Liu, G., Liu, J., Xu, W., Wang, X., Sun, Y., Kong, R., Wang, Y., Geng, H., Luan, J., Jin, X., Ye, Z., Xiong, G., Zhang, F., Li, X., ... Liu, Y",
+      "year": "2024",
+      "arxiv_id": "2401.05459",
+      "doi": null
+    },
+    {
+      "ref_id": 6,
+      "raw": "Unknown Author (n.d.). LLMArena Assessing Capabilities of Large Language Models in Dynamic Multi-Agent Environments.",
+      "title": null,
+      "authors": null,
+      "year": null,
+      "arxiv_id": null,
+      "doi": null
+    }
+  ]
+}

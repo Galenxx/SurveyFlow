@@ -1,0 +1,117 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "battery_soh_ml",
+  "seed": 0,
+  "topic": "Machine Learning for Lithium-Ion Battery State-of-Health Estimation and Remaining-Useful-Life Prediction",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 0.48484848484848486,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 1,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 0.39436619718309857,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 2,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 0.36363636363636365,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 3,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 0.4931506849315068,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 4,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 0.3300970873786408,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 5,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 0.4864864864864865,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 6,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 0.3300970873786408,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 7,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 0.3655913978494624,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 8,
+      "identification_verdict": "NOT_FOUND",
+      "title_sim": 0.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=NOT_FOUND); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 9,
+      "identification_verdict": "NOT_FOUND",
+      "title_sim": 0.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=NOT_FOUND); defaulting to IRRELEVANT for faithfulness"
+      }
+    }
+  ],
+  "aggregate": {
+    "score": 0.0,
+    "n_relevant": 0,
+    "n_partial": 0,
+    "n_irrelevant": 10,
+    "n_error": 0,
+    "n_judged": 10
+  }
+}

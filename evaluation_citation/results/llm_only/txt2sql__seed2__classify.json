@@ -1,0 +1,81 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "txt2sql",
+  "seed": 2,
+  "topic": "Text-to-SQL Generation with Large Language Models: Schema Linking, Benchmarks, and Robustness",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "label": "GENUINELY_FABRICATED",
+      "reason": "identifier present but no real candidate found (verdict=NOT_FOUND)",
+      "verdict": "NOT_FOUND"
+    },
+    {
+      "ref_id": 1,
+      "label": "GENUINELY_FABRICATED",
+      "reason": "identifier present but no real candidate found (verdict=NOT_FOUND)",
+      "verdict": "NOT_FOUND"
+    },
+    {
+      "ref_id": 2,
+      "label": "DEDUP_COLLISION",
+      "reason": "identifier resolves to a different paper than the title (id/title mismatch)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 3,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 4,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 5,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 6,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 7,
+      "label": "DEDUP_COLLISION",
+      "reason": "identifier resolves to a different paper than the title (id/title mismatch)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 8,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 9,
+      "label": "GENUINELY_FABRICATED",
+      "reason": "identifier present but no real candidate found (verdict=NOT_FOUND)",
+      "verdict": "NOT_FOUND"
+    }
+  ],
+  "distribution": {
+    "RESOLVED": 5,
+    "METADATA_PARSE_ERROR": 0,
+    "ID_EXTRACTION_FAIL": 0,
+    "DEDUP_COLLISION": 2,
+    "GENUINELY_FABRICATED": 3,
+    "PLACEHOLDER_PADDING": 0
+  },
+  "n_resolved": 5,
+  "n_padding": 0,
+  "n_failures": 5,
+  "n_genuinely_fabricated": 3
+}

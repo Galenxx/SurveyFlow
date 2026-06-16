@@ -1,0 +1,77 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "affective_remote_work",
+  "seed": 0,
+  "topic": "Affective Computing for Remote Workplace Monitoring: Sensing, Inference, and Ethical Considerations",
+  "metrics": {
+    "n_cited_claims": 3,
+    "support_total": 1.0,
+    "citation_recall": 0.3333,
+    "n_supported": 1,
+    "n_partial": 0,
+    "n_unsupported": 2,
+    "n_error": 0,
+    "n_citation_mounts": 3,
+    "n_contributing": 1,
+    "contributing_weight": 1.0,
+    "citation_precision": 0.3333,
+    "n_not_verifiable": 0,
+    "n_claims": 9,
+    "n_claims_with_cite": 3,
+    "n_claims_bare": 6,
+    "bare_assertion_rate": 0.6667
+  },
+  "per_sentence": [
+    {
+      "sent_id": 38,
+      "section_title": "3.1 Audio-Visual Sensing of Cognitive Load and Affect",
+      "text": "Bussolan et al. (2025) introduced a multimodal dataset designed to capture cognitive load and affective states during remote work.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper introduces a dataset for industrial human-robot collaboration, not a dataset designed to capture cognitive load and affective states during remote work as claimed.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 41,
+      "section_title": "4.1 Socio-demographic and Cross-cultural Determinants of Worker Attitudes toward Emotional AI",
+      "text": "I notice that all five source chunks from Mantello et al. (2021) contain identical metadata — the article title, DOI, and references to Ball (2010) and Barrett (2017) — but none of the chunks include the actual evidence text from the paper (e.g., findings, methods, survey results, or discussion of socio-demographic or cross-cultural determinants).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The sentence claims that the cited evidence chunks lack actual evidence text, but the provided evidence (c0) includes an abstract with findings, methods, and discussion of socio-demographic and cross-cultural determinants, directly contradicting the claim.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 44,
+      "section_title": "4.1 Socio-demographic and Cross-cultural Determinants of Worker Attitudes toward Emotional AI",
+      "text": "Here is the resulting section:\n\n---\n\n\nMantello et al. (2021) have examined how socio-demographic and cross-cultural factors shape worker attitudes toward emotional artificial intelligence in workplace settings.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The cited paper's abstract explicitly states it analyzes survey responses to explore how socio-demographic and cross-cultural factors shape attitudes toward Emotional AI in the workplace, directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    }
+  ]
+}

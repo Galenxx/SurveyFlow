@@ -1,0 +1,117 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "short_video_misinfo",
+  "seed": 1,
+  "topic": "Detection of Misinformation and Harmful Content on Short-Form Video Platforms: Methods, Datasets, and Multimodal Approaches",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 1,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper presents a general fake news dataset for social media, which is tangentially relevant as a potential resource but does not specifically address short-form video platforms or multimodal video analysis."
+      }
+    },
+    {
+      "ref_id": 2,
+      "identification_verdict": "NOT_FOUND",
+      "title_sim": 0.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=NOT_FOUND); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 3,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper surveys face manipulation and DeepFake detection, which is a specific type of misinformation, but it does not focus on short-form video platforms, multimodal approaches, or the broader detection of harmful content on such platforms."
+      }
+    },
+    {
+      "ref_id": 4,
+      "identification_verdict": "NOT_FOUND",
+      "title_sim": 0.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=NOT_FOUND); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 5,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 6,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 7,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 8,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper addresses hate speech detection on social media, which is a form of harmful content, but it focuses on text-only Twitter data and does not involve short-form video platforms or multimodal approaches central to the survey."
+      }
+    },
+    {
+      "ref_id": 9,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    }
+  ],
+  "aggregate": {
+    "score": 15.0,
+    "n_relevant": 0,
+    "n_partial": 3,
+    "n_irrelevant": 7,
+    "n_error": 0,
+    "n_judged": 10
+  }
+}

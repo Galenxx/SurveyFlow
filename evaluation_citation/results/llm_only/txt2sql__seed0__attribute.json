@@ -1,0 +1,124 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "txt2sql",
+  "seed": 0,
+  "topic": "Text-to-SQL Generation with Large Language Models: Schema Linking, Benchmarks, and Robustness",
+  "metrics": {
+    "n_cited_claims": 5,
+    "support_total": 5.0,
+    "citation_recall": 1.0,
+    "n_supported": 5,
+    "n_partial": 0,
+    "n_unsupported": 0,
+    "n_error": 0,
+    "n_citation_mounts": 5,
+    "n_contributing": 5,
+    "contributing_weight": 5.0,
+    "citation_precision": 1.0,
+    "n_not_verifiable": 1,
+    "n_claims": 40,
+    "n_claims_with_cite": 6,
+    "n_claims_bare": 34,
+    "bare_assertion_rate": 0.85
+  },
+  "per_sentence": [
+    {
+      "sent_id": 35,
+      "section_title": "3 Schema Linking in the Era of LLMs",
+      "text": "For instance, methods like RESDSQL explicitly separate the schema linking process from the skeleton parsing of the SQL query, demonstrating that forcing a model to first identify relevant schema elements significantly improves generation accuracy (Cao et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that RESDSQL decouples schema linking and skeleton parsing by injecting relevant schema items into the encoder and generating the skeleton first in the decoder, which directly supports the claim that separating these processes improves generation accuracy.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 41,
+      "section_title": "4 Evolution of Text-to-SQL Benchmarks",
+      "text": "The evaluation of Text-to-SQL systems has historically been anchored by the Spider dataset, which provided a large-scale, cross-domain benchmark focusing on complex SQL queries and database generalization (Yu et al., 2018).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states Spider is a large-scale, cross-domain dataset with complex SQL queries and a task requiring generalization to new databases, directly supporting the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 45,
+      "section_title": "4 Evolution of Text-to-SQL Benchmarks",
+      "text": "A prime example is the BIRD benchmark, which incorporates large-scale databases with dirty data, extensive domain knowledge, and massive schemas (Li et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that BIRD contains large-scale databases (95 databases, 33.4 GB), highlights challenges of dirty database contents, requires external knowledge, and involves massive schemas, directly supporting the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 56,
+      "section_title": "5 Robustness and Diagnostic Evaluation",
+      "text": "Spider benchmark systematically categorizes and evaluates these robustness challenges, demonstrating that state-of-the-art models experience substantial performance drops when confronted with column name synonyms, database dialect changes, or question perturbations (Gan et al., 2021).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 64,
+      "section_title": "6 Advanced Methodologies: Decomposition and Multi-Agent Systems",
+      "text": "Decomposition strategies, such as DIN-SQL, instruct the LLM to first generate a natural language plan or decompose the complex query into simpler sub-queries before synthesizing the final SQL (Pourreza and Rafiei, 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that DIN-SQL decomposes complex text-to-SQL tasks into smaller sub-tasks and feeds their solutions into LLMs, which directly matches the sentence's description of generating a plan or decomposing into simpler sub-queries before synthesizing the final SQL.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 67,
+      "section_title": "6 Advanced Methodologies: Decomposition and Multi-Agent Systems",
+      "text": "Taking decomposition a step further, multi-agent frameworks like MAC-SQL assign specialized roles to different LLM agents, such as a selector for schema linking, a decomposer for query planning, and a refiner for self-correction (Wang et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 9
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly describes MAC-SQL as a multi-agent framework with a decomposer agent for Text-to-SQL generation and auxiliary agents for sub-database selection and SQL refinement, directly matching the sentence's claim about specialized roles.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "txt2sql",
+  "seed": 2,
+  "topic": "Text-to-SQL Generation with Large Language Models: Schema Linking, Benchmarks, and Robustness",
+  "metrics": {
+    "n_cited_claims": 5,
+    "support_total": 3.0,
+    "citation_recall": 0.6,
+    "n_supported": 2,
+    "n_partial": 2,
+    "n_unsupported": 1,
+    "n_error": 0,
+    "n_citation_mounts": 5,
+    "n_contributing": 3,
+    "contributing_weight": 3.0,
+    "citation_precision": 0.6,
+    "n_not_verifiable": 4,
+    "n_claims": 34,
+    "n_claims_with_cite": 9,
+    "n_claims_bare": 25,
+    "bare_assertion_rate": 0.7353
+  },
+  "per_sentence": [
+    {
+      "sent_id": 39,
+      "section_title": "3 Schema Linking in the Era of LLMs",
+      "text": "For example, RESDSQL explicitly decouples schema linking from skeleton parsing, employing a cross-encoder to rank and filter schema items before generating the SQL skeleton (Li et al., 2023).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 42,
+      "section_title": "3 Schema Linking in the Era of LLMs",
+      "text": "DIN-SQL employs a decomposed prompting strategy where the LLM is first asked to identify the relevant tables and columns step-by-step before writing the query (Pourreza and Rafiei, 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that the approach decomposes a complex text-to-SQL task into smaller sub-tasks and feeds their solutions into LLMs, which directly supports the claim of a decomposed prompting strategy with step-by-step identification before query writing.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 44,
+      "section_title": "4 Evolving Benchmarks and Evaluation",
+      "text": "The evaluation of Text-to-SQL systems has historically relied on the Spider dataset, which standardized cross-domain evaluation by providing a diverse set of databases and complex query structures (Yu et al., 2018).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 48,
+      "section_title": "4 Evolving Benchmarks and Evaluation",
+      "text": "BIRD is a prominent example, offering a large-scale benchmark grounded in real-world databases that contain dirty data, massive row counts, and obscure schema names (Li et al., 2023).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 50,
+      "section_title": "4 Evolving Benchmarks and Evaluation",
+      "text": "The stark performance drop of state-of-the-art LLMs on BIRD compared to Spider underscores the ongoing challenges in handling realistic data distributions (Gao et al., 2023) and highlights the necessity for benchmarks that rigorously test a model's ability to reason over imperfect information.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 8
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper evaluates LLMs on Spider but does not mention BIRD, compare performance across the two benchmarks, or discuss challenges with realistic data distributions or imperfect information.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 55,
+      "section_title": "5 Robustness and Generalization",
+      "text": "The C3 framework demonstrates that carefully crafted zero-shot prompts, combined with schema filtering and consistency checks, can significantly stabilize ChatGPT's performance across different phrasing of the same question (Dong et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The abstract confirms C3 is a zero-shot Text-to-SQL method with components addressing input, bias, and output, but it does not explicitly mention schema filtering, consistency checks, or stabilizing performance across different phrasings of the same question.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 58,
+      "section_title": "5 Robustness and Generalization",
+      "text": "MAC-SQL utilizes a collaborative framework where different LLM agents assume specialized roles, such as schema linking, SQL generation, and error correction (Wang et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The abstract confirms a decomposer agent for SQL generation and auxiliary agents for error correction, but does not explicitly mention a 'schema linking' role, so the specific claim about that specialized role is not directly supported.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 63,
+      "section_title": "6 Open-Source Models and Frameworks",
+      "text": "CodeS represents a significant step towards building open-source language models explicitly for Text-to-SQL (Hai et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that CodeS is a fully open-source language model specifically designed for the text-to-SQL task, directly supporting the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 66,
+      "section_title": "6 Open-Source Models and Frameworks",
+      "text": "PET-SQL introduces a prompt-enhanced two-stage framework that systematically optimizes the prompt structure for schema representation and question decomposition (Li et al., 2024).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    }
+  ]
+}

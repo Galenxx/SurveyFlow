@@ -1,0 +1,111 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "txt2sql",
+  "seed": 0,
+  "topic": "Text-to-SQL Generation with Large Language Models: Schema Linking, Benchmarks, and Robustness",
+  "metrics": {
+    "n_cited_claims": 5,
+    "support_total": 0.0,
+    "citation_recall": 0.0,
+    "n_supported": 0,
+    "n_partial": 0,
+    "n_unsupported": 5,
+    "n_error": 0,
+    "n_citation_mounts": 5,
+    "n_contributing": 0,
+    "contributing_weight": 0.0,
+    "citation_precision": 0.0,
+    "n_not_verifiable": 0,
+    "n_claims": 18,
+    "n_claims_with_cite": 5,
+    "n_claims_bare": 13,
+    "bare_assertion_rate": 0.7222
+  },
+  "per_sentence": [
+    {
+      "sent_id": 44,
+      "section_title": "4 Methods and Techniques",
+      "text": "Their survey also examines various schema linking and data augmentation techniques that have been proposed to enhance text-to-SQL approaches, situating these methods alongside supervised fine-tuning-based strategies that predate the current era of large language models (Câmara et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper focuses on SQL-to-text generation using LLMs and does not examine schema linking, data augmentation, or supervised fine-tuning strategies for text-to-SQL, nor does it survey such techniques.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 45,
+      "section_title": "5 Applications and Systems",
+      "text": "Large language models (LLMs) have enabled substantial progress in natural-language-to-SQL (NL2SQL) systems, which allow non-expert users to query relational databases through natural language questions (Câmara et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper addresses SQL-to-text explanation, not natural-language-to-SQL (NL2SQL) systems, so it does not support the claim about LLMs enabling progress in NL2SQL.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 46,
+      "section_title": "5 Applications and Systems",
+      "text": "Despite these advances, a critical bottleneck persists: accurately identifying which parts of the database schema are relevant to a given question—a process known as schema linking (Câmara et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses SQL-to-text generation using LLMs and does not address schema linking or the challenge of identifying relevant database schema parts for a question.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 48,
+      "section_title": "5 Applications and Systems",
+      "text": "Their approach first generates a preliminary SQL query using the complete database schema and employs bidirectional schema linking to achieve a high recall rate, thereby reducing the risk of incomplete results (Câmara et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses SQL-to-text explanation generation using LLMs, but it does not describe a method that generates a preliminary SQL query using a complete database schema or employs bidirectional schema linking to achieve high recall.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 51,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "Their work frames schema linking as a trade-off between positive gain and negative impact, and they propose a framework that first generates a preliminary SQL query using the complete schema, employing bidirectional schema linking to achieve high recall and reduce the risk of incomplete results (Câmara et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses SQL-to-text generation using LLMs and does not address schema linking, bidirectional schema linking, or the trade-off between positive gain and negative impact in SQL generation.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

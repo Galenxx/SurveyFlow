@@ -1,0 +1,712 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "neural_audio_codec",
+  "seed": 1,
+  "topic": "Neural Audio Codecs and Discrete Speech Representations: Architectures, Tokenization, and Generative Applications",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Défossez, A., Copet, J., Synnaeve, G., & Adi, Y. (2022). High Fidelity Neural Audio Compression. arXiv:2210.13438v1.",
+      "parsed": {
+        "title": "High Fidelity Neural Audio Compression",
+        "authors": "Défossez, A., Copet, J., Synnaeve, G., & Adi, Y",
+        "year": "2022",
+        "arxiv_id": "2210.13438v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "High Fidelity Neural Audio Compression",
+          "arxiv_id": "2210.13438",
+          "doi": null,
+          "year": "2022",
+          "authors": [
+            "Alexandre Défossez",
+            "Jade Copet",
+            "Gabriel Synnaeve",
+            "Yossi Adi"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2210.13438",
+          "title": "High Fidelity Neural Audio Compression",
+          "abstract": "We introduce a state-of-the-art real-time, high-fidelity, audio codec leveraging neural networks. It consists in a streaming encoder-decoder architecture with quantized latent space trained in an end-to-end fashion. We simplify and speed-up the training by using a single multiscale spectrogram adversary that efficiently reduces artifacts and produce high-quality samples. We introduce a novel loss balancer mechanism to stabilize training: the weight of a loss now defines the fraction of the overall gradient it should represent, thus decoupling the choice of this hyper-parameter from the typical scale of the loss. Finally, we study how lightweight Transformer models can be used to further compress the obtained representation by up to 40%, while staying faster than real time. We provide a detailed description of the key design choices of the proposed model including: training objective, architectural changes and a study of various perceptual loss functions. We present an extensive subjective evaluation (MUSHRA tests) together with an ablation study for a range of bandwidths and audio domains, including speech, noisy-reverberant speech, and music. Our approach is superior to the baselines methods across all evaluated settings, considering both 24 kHz monophonic and 48 kHz stereophonic audio. Code and models are available at github.com/facebookresearch/encodec.",
+          "year": "2022",
+          "authors": [
+            "Alexandre Défossez",
+            "Jade Copet",
+            "Gabriel Synnaeve",
+            "Yossi Adi"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Kumar, R., Seetharaman, P., Luebs, A., Kumar, I., & Kumar, K. (2023). High-Fidelity Audio Compression with Improved RVQGAN. arXiv:2306.06546v1.",
+      "parsed": {
+        "title": "High-Fidelity Audio Compression with Improved RVQGAN",
+        "authors": "Kumar, R., Seetharaman, P., Luebs, A., Kumar, I., & Kumar, K",
+        "year": "2023",
+        "arxiv_id": "2306.06546v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "High-Fidelity Audio Compression with Improved RVQGAN",
+          "arxiv_id": "2306.06546",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Rithesh Kumar",
+            "Prem Seetharaman",
+            "Alejandro Luebs",
+            "Ishaan Kumar",
+            "Kundan Kumar"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2306.06546",
+          "title": "High-Fidelity Audio Compression with Improved RVQGAN",
+          "abstract": "Language models have been successfully used to model natural signals, such as images, speech, and music. A key component of these models is a high quality neural compression model that can compress high-dimensional natural signals into lower dimensional discrete tokens. To that end, we introduce a high-fidelity universal neural audio compression algorithm that achieves ~90x compression of 44.1 KHz audio into tokens at just 8kbps bandwidth. We achieve this by combining advances in high-fidelity audio generation with better vector quantization techniques from the image domain, along with improved adversarial and reconstruction losses. We compress all domains (speech, environment, music, etc.) with a single universal model, making it widely applicable to generative modeling of all audio. We compare with competing audio compression algorithms, and find our method outperforms them significantly. We provide thorough ablations for every design choice, as well as open-source code and trained model weights. We hope our work can lay the foundation for the next generation of high-fidelity audio modeling.",
+          "year": "2023",
+          "authors": [
+            "Rithesh Kumar",
+            "Prem Seetharaman",
+            "Alejandro Luebs",
+            "Ishaan Kumar",
+            "Kundan Kumar"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Wang, C., Chen, S., Wu, Y., Zhang, Z., Zhou, L., Liu, S., ... & Wei, F. (2023). Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers. arXiv:2301.02111v1.",
+      "parsed": {
+        "title": "Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers",
+        "authors": "Wang, C., Chen, S., Wu, Y., Zhang, Z., Zhou, L., Liu, S., ... & Wei, F",
+        "year": "2023",
+        "arxiv_id": "2301.02111v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers",
+          "arxiv_id": "2301.02111",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Chengyi Wang",
+            "Sanyuan Chen",
+            "Yu Wu",
+            "Ziqiang Zhang",
+            "Long Zhou",
+            "Shujie Liu",
+            "Zhuo Chen",
+            "Yanqing Liu",
+            "Huaming Wang",
+            "Jinyu Li",
+            "Lei He",
+            "Sheng Zhao",
+            "Furu Wei"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2301.02111",
+          "title": "Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers",
+          "abstract": "We introduce a language modeling approach for text to speech synthesis (TTS). Specifically, we train a neural codec language model (called Vall-E) using discrete codes derived from an off-the-shelf neural audio codec model, and regard TTS as a conditional language modeling task rather than continuous signal regression as in previous work. During the pre-training stage, we scale up the TTS training data to 60K hours of English speech which is hundreds of times larger than existing systems. Vall-E emerges in-context learning capabilities and can be used to synthesize high-quality personalized speech with only a 3-second enrolled recording of an unseen speaker as an acoustic prompt. Experiment results show that Vall-E significantly outperforms the state-of-the-art zero-shot TTS system in terms of speech naturalness and speaker similarity. In addition, we find Vall-E could preserve the speaker's emotion and acoustic environment of the acoustic prompt in synthesis. See https://aka.ms/valle for demos of our work.",
+          "year": "2023",
+          "authors": [
+            "Chengyi Wang",
+            "Sanyuan Chen",
+            "Yu Wu",
+            "Ziqiang Zhang",
+            "Long Zhou",
+            "Shujie Liu",
+            "Zhuo Chen",
+            "Yanqing Liu",
+            "Huaming Wang",
+            "Jinyu Li",
+            "Lei He",
+            "Sheng Zhao",
+            "Furu Wei"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Zhang, Z., Zhou, L., Wang, C., Chen, S., Wu, Y., Liu, S., ... & Wei, F. (2023). SpeechTokenizer: Unified Speech Tokenizer for Speech Language Models. arXiv:2308.16692v1.",
+      "parsed": {
+        "title": "SpeechTokenizer: Unified Speech Tokenizer for Speech Language Models",
+        "authors": "Zhang, Z., Zhou, L., Wang, C., Chen, S., Wu, Y., Liu, S., ... & Wei, F",
+        "year": "2023",
+        "arxiv_id": "2308.16692v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "SpeechTokenizer: Unified Speech Tokenizer for Speech Large Language Models",
+          "arxiv_id": "2308.16692",
+          "doi": "10.48550/arXiv.2308.16692",
+          "year": "2023",
+          "authors": [
+            "Xin Zhang",
+            "Dong Zhang",
+            "Shimin Li",
+            "Yaqian Zhou",
+            "Xipeng Qiu"
+          ]
+        },
+        {
+          "title": "OpusLM: A Family of Open Unified Speech Language Models",
+          "arxiv_id": "2506.17611",
+          "doi": "10.48550/arXiv.2506.17611",
+          "year": "2025",
+          "authors": [
+            "Jinchuan Tian",
+            "William Chen",
+            "Yifan Peng",
+            "Jiatong Shi",
+            "Siddhant Arora",
+            "Shikhar Bharadwaj",
+            "Takashi Maekaku",
+            "Yusuke Shinohara",
+            "Keita Goto",
+            "Xiangyu Yue",
+            "Huck Yang",
+            "Shinji Watanabe"
+          ]
+        },
+        {
+          "title": "DualSpeechLM: Towards Unified Speech Understanding and Generation via Dual Speech Token Modeling with Large Language Models",
+          "arxiv_id": "2508.08961",
+          "doi": "10.48550/arXiv.2508.08961",
+          "year": "2025",
+          "authors": [
+            "Yuanyuan Wang",
+            "Dongchao Yang",
+            "Yiwen Shao",
+            "Hangting Chen",
+            "Jiankun Zhao",
+            "Zhiyong Wu",
+            "Helen Meng",
+            "Xixin Wu"
+          ]
+        },
+        {
+          "title": "Llama-Mimi: Speech Language Models with Interleaved Semantic and Acoustic Tokens",
+          "arxiv_id": null,
+          "doi": "10.48550/arXiv.2509.14882",
+          "year": "2025",
+          "authors": [
+            "Issa Sugiura",
+            "Shuhei Kurita",
+            "Yusuke Oda",
+            "Ryuichiro Higashinaka"
+          ]
+        },
+        {
+          "title": "The WER Trap: Shattering the Illusion of Unified Tokens in Speech Language Models",
+          "arxiv_id": "2605.29209",
+          "doi": null,
+          "year": "2026",
+          "authors": [
+            "Xiangyue Zhang",
+            "Yuxin Li",
+            "Haoyang Zhang",
+            "Shiqin Han",
+            "Hexin Liu",
+            "Qiquan Zhang",
+            "Beena Ahmed",
+            "Julien Epps"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2308.16692",
+          "doi": "10.48550/arXiv.2308.16692",
+          "title": "SpeechTokenizer: Unified Speech Tokenizer for Speech Large Language Models",
+          "abstract": "Current speech large language models build upon discrete speech representations, which can be categorized into semantic tokens and acoustic tokens. However, existing speech tokens are not specifically designed for speech language modeling. To assess the suitability of speech tokens for building speech language models, we established the first benchmark, SLMTokBench. Our results indicate that neither semantic nor acoustic tokens are ideal for this purpose. Therefore, we propose SpeechTokenizer, a unified speech tokenizer for speech large language models. SpeechTokenizer adopts the Encoder-Decoder architecture with residual vector quantization (RVQ). Unifying semantic and acoustic tokens, SpeechTokenizer disentangles different aspects of speech information hierarchically across different RVQ layers. Furthermore, We construct a Unified Speech Language Model (USLM) leveraging SpeechTokenizer. Experiments show that SpeechTokenizer performs comparably to EnCodec in speech reconstruction and demonstrates strong performance on the SLMTokBench benchmark. Also, USLM outperforms VALL-E in zero-shot Text-to-Speech tasks. Code and models are available at https://github.com/ZhangXInFD/SpeechTokenizer/.",
+          "year": "2023",
+          "authors": [
+            "Xin Zhang",
+            "Dong Zhang",
+            "Shimin Li",
+            "Yaqian Zhou",
+            "Xipeng Qiu"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 133
+        },
+        "title_sim": 0.9571428571428572,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 4,
+      "raw": "Borsos, Z., Marinier, R., Synnaeve, G., Kharitonov, E., Zeghidour, N., Ebbers, P., ... & Sharifi, M. (2022). AudioLM: a Language Modeling Approach to Audio Generation. arXiv:2209.03143v1.",
+      "parsed": {
+        "title": "AudioLM: a Language Modeling Approach to Audio Generation",
+        "authors": "Borsos, Z., Marinier, R., Synnaeve, G., Kharitonov, E., Zeghidour, N., Ebbers, P., ... & Sharifi, M",
+        "year": "2022",
+        "arxiv_id": "2209.03143v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "AudioLM: A Language Modeling Approach to Audio Generation",
+          "arxiv_id": "2209.03143",
+          "doi": "10.1109/TASLP.2023.3288409",
+          "year": "2022",
+          "authors": [
+            "Zalán Borsos",
+            "Raphaël Marinier",
+            "Damien Vincent",
+            "E. Kharitonov",
+            "O. Pietquin",
+            "Matthew Sharifi",
+            "Dominik Roblek",
+            "Olivier Teboul",
+            "David Grangier",
+            "M. Tagliasacchi",
+            "Neil Zeghidour"
+          ]
+        },
+        {
+          "title": "LM-VC: Zero-Shot Voice Conversion via Speech Generation Based on Language Models",
+          "arxiv_id": "2306.10521",
+          "doi": "10.1109/LSP.2023.3308474",
+          "year": "2023",
+          "authors": [
+            "Zhichao Wang",
+            "Yuan-Jui Chen",
+            "Linfu Xie",
+            "Qiao Tian",
+            "Yuping Wang"
+          ]
+        },
+        {
+          "title": "On Generative Spoken Language Modeling from Raw Audio",
+          "arxiv_id": "2102.01192",
+          "doi": "10.1162/tacl_a_00430",
+          "year": "2021",
+          "authors": [
+            "Kushal Lakhotia",
+            "Evgeny Kharitonov",
+            "Wei-Ning Hsu",
+            "Yossi Adi",
+            "Adam Polyak",
+            "Benjamin Bolte",
+            "Tu Nguyen",
+            "Jade Copet",
+            "Alexei Baevski",
+            "A. Mohamed",
+            "Emmanuel Dupoux"
+          ]
+        },
+        {
+          "title": "Can Large Language Models Predict Audio Effects Parameters from Natural Language?",
+          "arxiv_id": "2505.20770",
+          "doi": "10.1109/WASPAA66052.2025.11230953",
+          "year": "2025",
+          "authors": [
+            "Seungheon Doh",
+            "Junghyun Koo",
+            "Marco A. Mart'inez-Ram'irez",
+            "Wei-Hsiang Liao",
+            "Juhan Nam",
+            "Yuki Mitsufuji"
+          ]
+        },
+        {
+          "title": "Image Generation Using AI with Effective Audio Playback System",
+          "arxiv_id": null,
+          "doi": "10.1109/INCET61516.2024.10593387",
+          "year": "2024",
+          "authors": [
+            "A. Inbavalli",
+            "K. Sakthidhasan",
+            "G. Krishna"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2209.03143",
+          "doi": "10.1109/TASLP.2023.3288409",
+          "title": "AudioLM: A Language Modeling Approach to Audio Generation",
+          "abstract": "We introduce AudioLM, a framework for high-quality audio generation with long-term consistency. AudioLM maps the input audio to a sequence of discrete tokens and casts audio generation as a language modeling task in this representation space. We show how existing audio tokenizers provide different trade-offs between reconstruction quality and long-term structure, and we propose a hybrid tokenization scheme to achieve both objectives. Namely, we leverage the discretized activations of a masked language model pre-trained on audio to capture long-term structure and the discrete codes produced by a neural audio codec to achieve high-quality synthesis. By training on large corpora of raw audio waveforms, AudioLM learns to generate natural and coherent continuations given short prompts. When trained on speech, and without any transcript or annotation, AudioLM generates syntactically and semantically plausible speech continuations while also maintaining speaker identity and prosody for unseen speakers. Furthermore, we demonstrate how our approach extends beyond speech by generating coherent piano music continuations, despite being trained without any symbolic representation of music.",
+          "year": "2022",
+          "authors": [
+            "Zalán Borsos",
+            "Raphaël Marinier",
+            "Damien Vincent",
+            "E. Kharitonov",
+            "O. Pietquin",
+            "Matthew Sharifi",
+            "Dominik Roblek",
+            "Olivier Teboul",
+            "David Grangier",
+            "M. Tagliasacchi",
+            "Neil Zeghidour"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 953
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 5,
+      "raw": "Yang, D., Liu, S., Huang, R., Weng, L., & Zou, H. (2023). HiFi-Codec: Group-residual VQ for High-fidelity Speech Codec. arXiv:2305.02765v1.",
+      "parsed": {
+        "title": "HiFi-Codec: Group-residual VQ for High-fidelity Speech Codec",
+        "authors": "Yang, D., Liu, S., Huang, R., Weng, L., & Zou, H",
+        "year": "2023",
+        "arxiv_id": "2305.02765v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Spectrogram Patch Codec: A 2D Block-Quantized VQ-VAE and HiFi-GAN for Neural Speech Coding",
+          "arxiv_id": "2509.02244",
+          "doi": "10.48550/arXiv.2509.02244",
+          "year": "2025",
+          "authors": [
+            "Luis Felipe Chary",
+            "Miguel Arjona Ramirez"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "2509.02244",
+          "doi": "10.48550/arXiv.2509.02244",
+          "title": "Spectrogram Patch Codec: A 2D Block-Quantized VQ-VAE and HiFi-GAN for Neural Speech Coding",
+          "abstract": "We present a neural speech codec that challenges the need for complex residual vector quantization (RVQ) stacks by introducing a simpler, single-stage quantization approach. Our method operates directly on the mel-spectrogram, treating it as a 2D data and quantizing non-overlapping 4x4 patches into a single, shared codebook. This patchwise design simplifies the architecture, enables low-latency streaming, and yields a discrete latent grid. To ensure high-fidelity synthesis, we employ a late-stage adversarial fine-tuning for the VQ-VAE and train a HiFi-GAN vocoder from scratch on the codec's reconstructed spectrograms. Operating at approximately 7.5 kbits/s for 16 kHz speech, our system was evaluated against several state-of-the-art neural codecs using objective metrics such as STOI, PESQ, MCD, and ViSQOL. The results demonstrate that our simplified, non-residual architecture achieves competitive perceptual quality and intelligibility, validating it as an effective and open foundation for future low-latency codec designs.",
+          "year": "2025",
+          "authors": [
+            "Luis Felipe Chary",
+            "Miguel Arjona Ramirez"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 2
+        },
+        "title_sim": 0.44594594594594594,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 6,
+      "raw": "Kharitonov, E., Vincent, D., Borsos, Z., Marinier, R., Girin, O., Synnaeve, G., ... & Dupoux, E. (2023). Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision. arXiv:2302.03540v1.",
+      "parsed": {
+        "title": "Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision",
+        "authors": "Kharitonov, E., Vincent, D., Borsos, Z., Marinier, R., Girin, O., Synnaeve, G., ... & Dupoux, E",
+        "year": "2023",
+        "arxiv_id": "2302.03540v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision",
+          "arxiv_id": "2302.03540",
+          "doi": "10.1162/tacl_a_00618",
+          "year": "2023",
+          "authors": [
+            "E. Kharitonov",
+            "Damien Vincent",
+            "Zalán Borsos",
+            "Raphaël Marinier",
+            "Sertan Girgin",
+            "O. Pietquin",
+            "Matthew Sharifi",
+            "M. Tagliasacchi",
+            "Neil Zeghidour"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2302.03540",
+          "doi": "10.1162/tacl_a_00618",
+          "title": "Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision",
+          "abstract": "Abstract We introduce SPEAR-TTS, a multi-speaker text-to-speech (TTS) system that can be trained with minimal supervision. By combining two types of discrete speech representations, we cast TTS as a composition of two sequence-to-sequence tasks: from text to high-level semantic tokens (akin to “reading”) and from semantic tokens to low-level acoustic tokens (“speaking”). Decoupling these two tasks enables training of the “speaking” module using abundant audio-only data, and unlocks the highly efficient combination of pretraining and backtranslation to reduce the need for parallel data when training the “reading” component. To control the speaker identity, we adopt example prompting, which allows SPEAR-TTS to generalize to unseen speakers using only a short sample of 3 seconds, without any explicit speaker representation or speaker labels. Our experiments demonstrate that SPEAR-TTS achieves a character error rate that is competitive with state-of-the-art methods using only 15 minutes of parallel data, while matching ground-truth speech in naturalness and acoustic quality.",
+          "year": "2023",
+          "authors": [
+            "E. Kharitonov",
+            "Damien Vincent",
+            "Zalán Borsos",
+            "Raphaël Marinier",
+            "Sertan Girgin",
+            "O. Pietquin",
+            "Matthew Sharifi",
+            "M. Tagliasacchi",
+            "Neil Zeghidour"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 279
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 7,
+      "raw": "Ji, S., Tang, Z., Wang, P., Jiang, D., & Chen, X. (2024). Language-Codec: Reducing the Gaps Between Discrete Tokens of Speech and Text Language Models. arXiv:2402.12208v1.",
+      "parsed": {
+        "title": "Language-Codec: Reducing the Gaps Between Discrete Tokens of Speech and Text Language Models",
+        "authors": "Ji, S., Tang, Z., Wang, P., Jiang, D., & Chen, X",
+        "year": "2024",
+        "arxiv_id": "2402.12208v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Language-Codec: Reducing the Gaps Between Discrete Codec Representation and Speech Language Models",
+          "arxiv_id": null,
+          "doi": "10.48550/arXiv.2402.12208",
+          "year": "2024",
+          "authors": [
+            "Shengpeng Ji",
+            "Minghui Fang",
+            "Ziyue Jiang",
+            "Rongjie Huang",
+            "Jialung Zuo",
+            "Shulei Wang",
+            "Zhou Zhao"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": "10.48550/arXiv.2402.12208",
+          "title": "Language-Codec: Reducing the Gaps Between Discrete Codec Representation and Speech Language Models",
+          "abstract": "",
+          "year": "2024",
+          "authors": [
+            "Shengpeng Ji",
+            "Minghui Fang",
+            "Ziyue Jiang",
+            "Rongjie Huang",
+            "Jialung Zuo",
+            "Shulei Wang",
+            "Zhou Zhao"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 25
+        },
+        "title_sim": 0.8191489361702128,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 8,
+      "raw": "Wu, Y., Chen, K., Zhang, T., Liu, S., Wang, C., Qian, Y., & Zou, H. (2022). AudioDec: An Open-source Streaming Audio Encoder-Decoder Framework. arXiv:2209.14490v1.",
+      "parsed": {
+        "title": "AudioDec: An Open-source Streaming Audio Encoder-Decoder Framework",
+        "authors": "Wu, Y., Chen, K., Zhang, T., Liu, S., Wang, C., Qian, Y., & Zou, H",
+        "year": "2022",
+        "arxiv_id": "2209.14490v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Audiodec: An Open-Source Streaming High-Fidelity Neural Audio Codec",
+          "arxiv_id": "2305.16608",
+          "doi": "10.1109/ICASSP49357.2023.10096509",
+          "year": "2023",
+          "authors": [
+            "Yi-Chiao Wu",
+            "I. D. Gebru",
+            "Dejan Markovic",
+            "Alexander Richard"
+          ]
+        },
+        {
+          "title": "Telemeta: An open-source web framework for ethnomusicological audio archives management and automatic analysis",
+          "arxiv_id": null,
+          "doi": "10.1145/2660168.2660169",
+          "year": "2014",
+          "authors": [
+            "T. Fillon",
+            "Joséphine Simonnot",
+            "M. Mifune",
+            "Stéphanie Khoury",
+            "Guillaume Pellerin",
+            "Maxime Le Coz"
+          ]
+        },
+        {
+          "title": "CodecSep: Prompt-Driven Universal Sound Separation on Neural Audio Codec Latents",
+          "arxiv_id": "2509.11717",
+          "doi": null,
+          "year": "2025",
+          "authors": [
+            "Adhiraj Banerjee",
+            "Vipul Arora"
+          ]
+        },
+        {
+          "title": "Two Mechanisms to Deploy Real-Time Voice Transmission over Internet of Things (VoIoTs)",
+          "arxiv_id": null,
+          "doi": null,
+          "year": "2019",
+          "authors": [
+            "Ina'am Fathi",
+            "Q. Ali",
+            "J. Abdul-Jabbar"
+          ]
+        },
+        {
+          "title": "Dynamic data path reconfiguration",
+          "arxiv_id": null,
+          "doi": "10.1145/985135.985157",
+          "year": "2001",
+          "authors": [
+            "C. Griwodz",
+            "M. Zink"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "2305.16608",
+          "doi": "10.1109/ICASSP49357.2023.10096509",
+          "title": "Audiodec: An Open-Source Streaming High-Fidelity Neural Audio Codec",
+          "abstract": "A good audio codec for live applications such as telecommunication is characterized by three key properties: (1) compression, i.e. the bitrate that is required to transmit the signal should be as low as possible; (2) latency, i.e. encoding and decoding the signal needs to be fast enough to enable communication without or with only minimal noticeable delay; and (3) reconstruction quality of the signal. In this work, we propose an open-source, streamable, and real-time neural audio codec that achieves strong performance along all three axes: it can reconstruct highly natural sounding 48 kHz speech signals while operating at only 12 kbps and running with less than 6 ms (GPU)/10 ms (CPU) latency. An efficient training paradigm is also demonstrated for developing such neural audio codecs for real-world scenarios. Both objective and subjective evaluations using the VCTK corpus are provided. To sum up, AudioDec is a well-developed plug-and-play benchmark for audio codec applications.",
+          "year": "2023",
+          "authors": [
+            "Yi-Chiao Wu",
+            "I. D. Gebru",
+            "Dejan Markovic",
+            "Alexander Richard"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 133
+        },
+        "title_sim": 0.6870229007633588,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 9,
+      "raw": "Wang, C., Chen, S., Wu, Y., Zhang, Z., Wu, Z., Liu, S., ... & Wei, F. (2024). VALL-E 2: Neural Codec Language Models are Human Parity Zero-Shot Text to Speech Synthesizers. arXiv:2405.15347v1.",
+      "parsed": {
+        "title": "VALL-E 2: Neural Codec Language Models are Human Parity Zero-Shot Text to Speech Synthesizers",
+        "authors": "Wang, C., Chen, S., Wu, Y., Zhang, Z., Wu, Z., Liu, S., ... & Wei, F",
+        "year": "2024",
+        "arxiv_id": "2405.15347v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "VALL-E 2: Neural Codec Language Models are Human Parity Zero-Shot Text to Speech Synthesizers",
+          "arxiv_id": "2406.05370",
+          "doi": "10.48550/arXiv.2406.05370",
+          "year": "2024",
+          "authors": [
+            "Sanyuan Chen",
+            "Shujie Liu",
+            "Long Zhou",
+            "Yanqing Liu",
+            "Xu Tan",
+            "Jinyu Li",
+            "Sheng Zhao",
+            "Yao Qian",
+            "Furu Wei"
+          ]
+        },
+        {
+          "title": "Human Voice Synthesis and Cloning Using Generative AI Models: A Comprehensive Review of Recent Advances and Applications",
+          "arxiv_id": null,
+          "doi": "10.1109/ICECIE66637.2025.11363848",
+          "year": "2025",
+          "authors": [
+            "P. Pallewatta",
+            "Samantha Mathara Arachchi",
+            "Adrian David Cheok",
+            "Sanam Rizvan",
+            "K. Karunanayaka",
+            "Trapp Kayuni",
+            "Tinmei Aleksandr"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "2406.05370",
+          "doi": "10.48550/arXiv.2406.05370",
+          "title": "VALL-E 2: Neural Codec Language Models are Human Parity Zero-Shot Text to Speech Synthesizers",
+          "abstract": "This paper introduces VALL-E 2, the latest advancement in neural codec language models that marks a milestone in zero-shot text-to-speech synthesis (TTS), achieving human parity for the first time. Based on its predecessor, VALL-E, the new iteration introduces two significant enhancements: Repetition Aware Sampling refines the original nucleus sampling process by accounting for token repetition in the decoding history. It not only stabilizes the decoding but also circumvents the infinite loop issue. Grouped Code Modeling organizes codec codes into groups to effectively shorten the sequence length, which not only boosts inference speed but also addresses the challenges of long sequence modeling. Our experiments on the LibriSpeech and VCTK datasets show that VALL-E 2 surpasses previous systems in speech robustness, naturalness, and speaker similarity. It is the first of its kind to reach human parity on these benchmarks. Moreover, VALL-E 2 consistently synthesizes high-quality speech, even for sentences that are traditionally challenging due to their complexity or repetitive phrases. The advantages of this work could contribute to valuable endeavors, such as generating speech for individuals with aphasia or people with amyotrophic lateral sclerosis. See https://aka.ms/valle2 for demos of VALL-E 2.",
+          "year": "2024",
+          "authors": [
+            "Sanyuan Chen",
+            "Shujie Liu",
+            "Long Zhou",
+            "Yanqing Liu",
+            "Xu Tan",
+            "Jinyu Li",
+            "Sheng Zhao",
+            "Yao Qian",
+            "Furu Wei"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 190
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    }
+  ]
+}

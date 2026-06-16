@@ -1,0 +1,158 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "neural_audio_codec",
+  "seed": 1,
+  "topic": "Neural Audio Codecs and Discrete Speech Representations: Architectures, Tokenization, and Generative Applications",
+  "metrics": {
+    "n_cited_claims": 7,
+    "support_total": 4.5,
+    "citation_recall": 0.6429,
+    "n_supported": 4,
+    "n_partial": 1,
+    "n_unsupported": 2,
+    "n_error": 0,
+    "n_citation_mounts": 7,
+    "n_contributing": 4,
+    "contributing_weight": 4.5,
+    "citation_precision": 0.6429,
+    "n_not_verifiable": 1,
+    "n_claims": 32,
+    "n_claims_with_cite": 8,
+    "n_claims_bare": 24,
+    "bare_assertion_rate": 0.75
+  },
+  "per_sentence": [
+    {
+      "sent_id": 40,
+      "section_title": "3 Architectural Foundations of Neural Audio Codecs",
+      "text": "EnCodec introduced a streamlined architecture utilizing a multiscale STFT discriminator alongside the standard convolutional encoder-decoder, setting a strong baseline for neural audio compression (Défossez et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly describes a streaming encoder-decoder architecture with a single multiscale spectrogram adversary, which matches the sentence's claim of a streamlined architecture using a multiscale STFT discriminator and convolutional encoder-decoder.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 41,
+      "section_title": "3 Architectural Foundations of Neural Audio Codecs",
+      "text": "Building upon this, the Descript Audio Codec (DAC) identified and addressed several artifacts introduced by standard training, proposing improved VQ techniques, quantizer dropout, and an increased number of discriminators to eliminate pitch and periodicity artifacts, thereby pushing the boundaries of high-fidelity reconstruction (Kumar et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence describes an improved RVQGAN with better VQ techniques and adversarial losses, but it does not explicitly mention quantizer dropout, an increased number of discriminators, or the specific elimination of pitch and periodicity artifacts as claimed in the sentence.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 49,
+      "section_title": "4 Tokenization Strategies and Residual Vector Quantization",
+      "text": "SpeechTokenizer introduces a novel approach by replacing the first RVQ layer with a semantic encoder distilled from a self-supervised speech model (like HuBERT), forcing the first layer to capture linguistic content while subsequent RVQ layers capture the remaining acoustic details (Zhang et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The abstract describes SpeechTokenizer's architecture and hierarchical disentanglement but does not mention replacing the first RVQ layer with a semantic encoder distilled from a self-supervised model like HuBERT.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 50,
+      "section_title": "4 Tokenization Strategies and Residual Vector Quantization",
+      "text": "Similarly, HiFi-Codec proposes a group-residual VQ structure that reduces the inter-dependency between codebooks, improving the efficiency of the tokenization process and facilitating better language modeling performance (Yang et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a single-stage patch quantization approach without residual vector quantization, and makes no mention of HiFi-Codec, group-residual VQ, or reducing inter-dependency between codebooks.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 54,
+      "section_title": "5 Generative Audio Language Models",
+      "text": "It used a two-stage process: first generating coarse semantic tokens (from SSL models) autoregressively, and then conditioning a second model on these semantic tokens to generate fine acoustic tokens from a neural codec (Borsos et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract describes a hybrid tokenization scheme where discretized activations from a masked language model (semantic tokens) capture long-term structure and discrete codes from a neural audio codec (acoustic tokens) achieve high-quality synthesis, matching the two-stage process in the sentence.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 58,
+      "section_title": "5 Generative Audio Language Models",
+      "text": "SPEAR-TTS extended this paradigm by framing text-to-speech as a translation task between text and discrete speech tokens, demonstrating that minimal supervision is sufficient to train high-fidelity TTS systems using language models over discrete codec tokens (Kharitonov et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract confirms that SPEAR-TTS casts TTS as two sequence-to-sequence tasks using discrete speech representations, can be trained with minimal supervision, and achieves high-fidelity output competitive with state-of-the-art methods.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 62,
+      "section_title": "6 Zero-Shot TTS and Voice Cloning",
+      "text": "By conditioning the language model on both the text prompt and the acoustic tokens of a 3-second enrollment snippet, VALL-E preserves the speaker's emotion, acoustic environment, and vocal timbre without any fine-tuning (Wang et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that VALL-E can preserve the speaker's emotion and acoustic environment using only a 3-second enrolled recording as an acoustic prompt, directly supporting the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 65,
+      "section_title": "6 Zero-Shot TTS and Voice Cloning",
+      "text": "Language-Codec addresses the misalignment between text and codec vocabularies by injecting language structure into the codec tokens, making them easier for language models to learn and improving the robustness of zero-shot generation (Ji et al., 2024).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    }
+  ]
+}

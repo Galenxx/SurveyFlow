@@ -1,0 +1,81 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "battery_soh_ml",
+  "seed": 0,
+  "topic": "Machine Learning for Lithium-Ion Battery State-of-Health Estimation and Remaining-Useful-Life Prediction",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "label": "PLACEHOLDER_PADDING",
+      "reason": "forced placeholder reference (llm_only padding artifact)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 1,
+      "label": "PLACEHOLDER_PADDING",
+      "reason": "forced placeholder reference (llm_only padding artifact)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 2,
+      "label": "PLACEHOLDER_PADDING",
+      "reason": "forced placeholder reference (llm_only padding artifact)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 3,
+      "label": "PLACEHOLDER_PADDING",
+      "reason": "forced placeholder reference (llm_only padding artifact)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 4,
+      "label": "PLACEHOLDER_PADDING",
+      "reason": "forced placeholder reference (llm_only padding artifact)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 5,
+      "label": "PLACEHOLDER_PADDING",
+      "reason": "forced placeholder reference (llm_only padding artifact)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 6,
+      "label": "PLACEHOLDER_PADDING",
+      "reason": "forced placeholder reference (llm_only padding artifact)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 7,
+      "label": "PLACEHOLDER_PADDING",
+      "reason": "forced placeholder reference (llm_only padding artifact)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 8,
+      "label": "PLACEHOLDER_PADDING",
+      "reason": "forced placeholder reference (llm_only padding artifact)",
+      "verdict": "NOT_FOUND"
+    },
+    {
+      "ref_id": 9,
+      "label": "PLACEHOLDER_PADDING",
+      "reason": "forced placeholder reference (llm_only padding artifact)",
+      "verdict": "NOT_FOUND"
+    }
+  ],
+  "distribution": {
+    "RESOLVED": 0,
+    "METADATA_PARSE_ERROR": 0,
+    "ID_EXTRACTION_FAIL": 0,
+    "DEDUP_COLLISION": 0,
+    "GENUINELY_FABRICATED": 0,
+    "PLACEHOLDER_PADDING": 10
+  },
+  "n_resolved": 0,
+  "n_padding": 10,
+  "n_failures": 0,
+  "n_genuinely_fabricated": 0
+}

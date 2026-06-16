@@ -1,0 +1,97 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "diffusion_3d",
+  "seed": 2,
+  "topic": "Diffusion Models for 3D Shape and Scene Generation: Methods, Representations, and Evaluation",
+  "n_references": 8,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a dual diffusion model framework for generating 3D avatars (shapes and textures) from multi-modal prompts, directly contributing to diffusion-based 3D shape generation methods."
+      }
+    },
+    {
+      "ref_id": 1,
+      "identification_verdict": "MISSING_ID",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper uses a diffusion model for joint pose estimation and shape reconstruction, which relates to 3D shape generation, but its primary focus is on pose estimation and handling partial observations rather than advancing 3D shape/scene generation methods, representations, or evaluation as the survey requires."
+      }
+    },
+    {
+      "ref_id": 2,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a diffusion model for 3D shape generation, completion, and reconstruction from multimodal inputs, which directly aligns with the survey's focus on diffusion models for 3D shape generation."
+      }
+    },
+    {
+      "ref_id": 3,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a scalable diffusion-based framework for high-resolution 3D shape generation using sparse volumetric representations, which directly aligns with the survey's focus on diffusion models for 3D shape generation methods and representations."
+      }
+    },
+    {
+      "ref_id": 4,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper uses diffusion models for conditional generation of CAD command sequences, which is a specific sub-area of 3D shape generation, but its focus on parametric CAD representations and engineering applications makes it only tangentially aligned with the survey's broader scope on 3D shape and scene generation methods and representations."
+      }
+    },
+    {
+      "ref_id": 5,
+      "identification_verdict": "NOT_FOUND",
+      "title_sim": 0.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=NOT_FOUND); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 6,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper presents a diffusion-based generative model for 3D shapes, directly addressing the survey's core topic of diffusion models for 3D shape generation."
+      }
+    },
+    {
+      "ref_id": 7,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper presents a diffusion-based framework for 3D point cloud generation with explicit part and symmetry modeling, directly aligning with the survey's focus on diffusion models for 3D shape generation methods and representations."
+      }
+    }
+  ],
+  "aggregate": {
+    "score": 75.0,
+    "n_relevant": 5,
+    "n_partial": 2,
+    "n_irrelevant": 1,
+    "n_error": 0,
+    "n_judged": 8
+  }
+}

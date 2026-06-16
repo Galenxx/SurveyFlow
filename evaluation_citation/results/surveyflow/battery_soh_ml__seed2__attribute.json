@@ -1,0 +1,383 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "battery_soh_ml",
+  "seed": 2,
+  "topic": "Machine Learning for Lithium-Ion Battery State-of-Health Estimation and Remaining-Useful-Life Prediction",
+  "metrics": {
+    "n_cited_claims": 21,
+    "support_total": 7.5,
+    "citation_recall": 0.3571,
+    "n_supported": 5,
+    "n_partial": 5,
+    "n_unsupported": 11,
+    "n_error": 0,
+    "n_citation_mounts": 21,
+    "n_contributing": 10,
+    "contributing_weight": 7.5,
+    "citation_precision": 0.3571,
+    "n_not_verifiable": 0,
+    "n_claims": 33,
+    "n_claims_with_cite": 21,
+    "n_claims_bare": 12,
+    "bare_assertion_rate": 0.3636
+  },
+  "per_sentence": [
+    {
+      "sent_id": 35,
+      "section_title": "3.1 Data-Driven Cycle Life Prediction for Battery State and Health Estimation",
+      "text": "Data-driven approaches, particularly those employing machine learning, have gained increasing attention for battery state estimation due to the need for models that can be optimized using large, high-resolution datasets (Zhang et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper uses support vector regression for state-of-health estimation but does not mention data-driven approaches gaining attention due to large, high-resolution datasets or the need for models optimized on such data.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 36,
+      "section_title": "3.1 Data-Driven Cycle Life Prediction for Battery State and Health Estimation",
+      "text": "Liu and Gao (2025) note that such methods have been applied successfully for battery state and health estimation, framing the subsequent step in any modeling effort as the precise definition of the application.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a specific SOH estimation method but does not discuss the general success of such methods or frame the subsequent step as precise definition of the application.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 37,
+      "section_title": "3.1 Data-Driven Cycle Life Prediction for Battery State and Health Estimation",
+      "text": "Their work introduces a tutorial perspective on building interpretable and accurate data-driven cycle life prediction models, emphasizing that application definition is the ideal first stage of the process (Liu & Gao, 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a specific SOH estimation method using TCN-GRU networks and charging segments, but it does not present a tutorial perspective on building interpretable cycle life prediction models nor does it discuss application definition as the first stage of the process.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 40,
+      "section_title": "3.2 Gaussian Process Regression Networks for Unseen Cell SOH Estimation",
+      "text": "Liu and Gao (2025) note that purely data-driven models often struggle with generalization beyond the intended application or cell type, and they reference hybrid models that combine mechanistic and machine learning approaches to retain physical insight while preserving flexibility.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a purely data-driven model (TCN-GRU) and does not mention hybrid mechanistic-machine learning approaches or discuss generalization limitations beyond its specific battery application.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 41,
+      "section_title": "3.2 Gaussian Process Regression Networks for Unseen Cell SOH Estimation",
+      "text": "Zhang et al. (2022) mention Gaussian processes as a class of machine learning regressors used for state-of-health estimation and cite prior work by Li et al. (2020) that applied incremental capacity analysis with Gaussian process regression.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes a method combining incremental capacity analysis with support vector regression, not Gaussian process regression, and does not mention Gaussian processes or the prior work by Li et al. (2020).",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 42,
+      "section_title": "3.2 Gaussian Process Regression Networks for Unseen Cell SOH Estimation",
+      "text": "However, Zhang et al. (2022) clarify that the Li et al. study performed single-cell estimation, using the first 55% of cycles as training data to predict future degradation, and they distinguish their own work as focusing on a different scenario.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes a method combining incremental capacity analysis with support vector regression for state-of-health estimation, but it does not mention Li et al., single-cell estimation, using the first 55% of cycles as training data, or any distinction between Zhang et al.'s work and Li et al.'s scenario.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 46,
+      "section_title": "3.3 Extrapolating Capacity Fade and Remaining Useful Life with Gaussian Process Regression",
+      "text": "Zhang et al. (2022) note that such approaches typically rely on observing batteries from beginning-of-life to a certain age as training data, after which the model predicts the aging trajectory until end-of-life.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract describes a method for state-of-health estimation using ICA and SVR but does not mention training on data from beginning-of-life to a certain age or predicting aging trajectories until end-of-life.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 49,
+      "section_title": "3.3 Extrapolating Capacity Fade and Remaining Useful Life with Gaussian Process Regression",
+      "text": "Liu and Gao (2025) observe that the exclusion of calendar aging in lifetime predictions may lead to overly optimistic lifetime projections.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence focuses on a method for SOH estimation using charging segments and does not mention calendar aging, lifetime predictions, or the consequences of excluding calendar aging.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 51,
+      "section_title": "4.1 Electrochemical-Thermal-Degradation Modeling for Calendar and Cycle Ageing",
+      "text": "Madabattula (2026) developed an electrochemical-thermal-degradation model that links calendar and cycle ageing through a consistent parameterisation.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that the work presents a framework to consistently parameterise key degradation modes and uses a P2D electrochemical-thermal-degradation model to predict capacity fade under both calendar and combined calendar-cyclic ageing, directly supporting the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 53,
+      "section_title": "4.1 Electrochemical-Thermal-Degradation Modeling for Calendar and Cycle Ageing",
+      "text": "At a low state of charge of 10%, calendar ageing effects are far lower than cycling effects, and the cycle-life for 50% depth-of-discharge (DoD) cases at both 25°C and 40°C extends beyond 12 years (Madabattula, 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms that cycle-life can extend beyond 12 years for some conditions and that calendar ageing is lower than cycling at low SoC, but it does not specifically state that at 10% SoC calendar effects are far lower than cycling effects nor that 50% DoD cases at both 25°C and 40°C exceed 12 years.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 55,
+      "section_title": "4.1 Electrochemical-Thermal-Degradation Modeling for Calendar and Cycle Ageing",
+      "text": "At 40°C with a 100% rest state of charge, the cell experiences the shortest life—ranging from 0.9 to 2 years—due to the dominant contribution of calendar ageing (Madabattula, 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms that at 40°C and 100% rest SoC the cell has a short life (0.8–14 years range) and that calendar ageing is a dominant mechanism, but it does not explicitly state a 0.9–2 year range or that calendar ageing is the dominant contribution specifically at that condition.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 56,
+      "section_title": "4.1 Electrochemical-Thermal-Degradation Modeling for Calendar and Cycle Ageing",
+      "text": "When the rest state of charge is reduced to 10% at the same 1C rate and 40°C temperature, the cycle-life lengthens substantially to between 10 and 14 years as a result of diminished calendar ageing effects (Madabattula, 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that the model predicts cycle-life between 0.8 and 14 years under various conditions including 1C rate, 40°C, and 10% rest SoC, directly supporting the claim of substantially lengthened cycle-life to 10–14 years at those parameters.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 58,
+      "section_title": "4.2 Reinforced Graph-Based Physics-Informed Neural Networks for SoH and RUL Prediction",
+      "text": "Pour et al. (2025) proposed a reinforced graph-based physics-informed neural network enhanced with dynamic weights for state-of-health (SoH) and remaining useful life (RUL) estimation.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The cited paper's title and abstract explicitly describe the proposed RGPD framework as a reinforced graph-based physics-informed neural network with dynamic weights for RUL and SoH estimation, directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 59,
+      "section_title": "4.2 Reinforced Graph-Based Physics-Informed Neural Networks for SoH and RUL Prediction",
+      "text": "Their framework builds on the concept of Deep Hidden Physics Models, which employ deep neural networks to jointly learn the system solution and the structure of its underlying dynamics directly from observed data (Pour et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a reinforced graph-based physics-informed network for RUL/SoH estimation, not a Deep Hidden Physics Model that jointly learns system solution and underlying dynamics structure from data.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 60,
+      "section_title": "4.2 Reinforced Graph-Based Physics-Informed Neural Networks for SoH and RUL Prediction",
+      "text": "In a complementary direction, Madabattula (2026) developed a consistent parameterisation of an electrochemical-thermal-degradation model that links calendar and cycle ageing in lithium-ion batteries.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states the work presents a framework to consistently parameterise key degradation modes using an electrochemical-thermal-degradation model and predicts capacity fade under both calendar and combined calendar-cyclic ageing, directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 61,
+      "section_title": "4.2 Reinforced Graph-Based Physics-Informed Neural Networks for SoH and RUL Prediction",
+      "text": "This physics-based approach provides insights into the coupled effects of usage conditions on degradation mechanisms to predict SoH and RUL (Madabattula, 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The cited paper explicitly describes a physics-based electrochemical-thermal-degradation model that predicts SoH and RUL under varied usage conditions (C-rate, rest SoC, DoD, temperature), directly supporting the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 62,
+      "section_title": "4.2 Reinforced Graph-Based Physics-Informed Neural Networks for SoH and RUL Prediction",
+      "text": "The simulated SoH and degradation mode analysis data generated under 81 cyclic ageing use cases, 9 calendar ageing cases, and 3 standard cycling conditions have been made available online for training physics-informed data-driven models (Madabattula, 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms a simulated dataset for 81 cyclic ageing cases was made available, but it does not mention 9 calendar ageing cases, 3 standard cycling conditions, or the year 2026.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 63,
+      "section_title": "4.2 Reinforced Graph-Based Physics-Informed Neural Networks for SoH and RUL Prediction",
+      "text": "Madabattula (2026) notes that a physics-based model offering such degradation mode insights was not previously available in the literature, and the resulting insights can help validate battery models under different modes of operation for consistency checking and cell improvement.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence describes a physics-based electrochemical-thermal-degradation model that provides mechanistic insights into degradation modes, supporting the claim that such a model offers insights, but it does not explicitly state that no such model was previously available or that the insights are used for consistency checking and cell improvement.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 64,
+      "section_title": "5.1 Predicting Charge Status and Residual Value from Pulse Tests for Battery Remanufacturing",
+      "text": "The work by Tao (2024) outlines a framework for predicting charge status and residual value from pulse tests as part of battery remanufacturing.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The abstract describes a framework for residual value assessment and quality control using early-cycle data, but it does not explicitly mention pulse tests or charge status prediction, so only part of the claim is directly supported.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 65,
+      "section_title": "5.1 Predicting Charge Status and Residual Value from Pulse Tests for Battery Remanufacturing",
+      "text": "The table of contents indicates that Section 5.5.1 addresses charge status prediction from pulse tests, while Section 5.5.2 covers residual value prediction from pulse tests (Tao, 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract describes machine learning methods for battery quality control, residual value assessment, and diagnostics/prognostics but does not mention a table of contents, section numbering, or specific sections on charge status prediction or residual value prediction from pulse tests.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 66,
+      "section_title": "5.1 Predicting Charge Status and Residual Value from Pulse Tests for Battery Remanufacturing",
+      "text": "A subsequent section, 5.5.3, is devoted to generalization risk analysis, suggesting that the author also examines the robustness and transferability of these predictive approaches (Tao, 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The abstract describes machine learning methods for battery lifecycle management but makes no mention of a section 5.5.3, generalization risk analysis, robustness, or transferability of predictive approaches.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

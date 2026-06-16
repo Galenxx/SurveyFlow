@@ -1,0 +1,94 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "short_video_misinfo",
+  "seed": 2,
+  "topic": "Detection of Misinformation and Harmful Content on Short-Form Video Platforms: Methods, Datasets, and Multimodal Approaches",
+  "metrics": {
+    "n_cited_claims": 4,
+    "support_total": 2.5,
+    "citation_recall": 0.625,
+    "n_supported": 2,
+    "n_partial": 1,
+    "n_unsupported": 1,
+    "n_error": 0,
+    "n_citation_mounts": 4,
+    "n_contributing": 3,
+    "contributing_weight": 2.5,
+    "citation_precision": 0.625,
+    "n_not_verifiable": 0,
+    "n_claims": 14,
+    "n_claims_with_cite": 4,
+    "n_claims_bare": 10,
+    "bare_assertion_rate": 0.7143
+  },
+  "per_sentence": [
+    {
+      "sent_id": 37,
+      "section_title": "3 Background and Foundations",
+      "text": "Vatndal and Setty (2025) observe that a substantial gap persists in the development of deployable, interpretable tools for this medium.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a specific tool (ShortCheck) but does not discuss or quantify any gap in the development of deployable, interpretable tools for short-form video, nor does it mention Vatndal and Setty (2025).",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 40,
+      "section_title": "4 Methods and Techniques",
+      "text": "Vatndal and Setty (2025) introduce a demonstration system designed for the detection of checkworthy content in short-form videos, specifically targeting TikTok.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that ShortCheck is a pipeline designed to identify checkworthy short-form videos on platforms like TikTok, directly matching the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 44,
+      "section_title": "5 Applications and Systems",
+      "text": "Vatndal and Setty (2025) introduce ShortCheck, a demonstration system designed for detecting checkworthy content in multilingual short-form videos, specifically targeting TikTok.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that ShortCheck is a pipeline for identifying checkworthy short-form videos, is validated on TikTok videos in a multilingual setting, and is designed to help human fact-checkers, directly supporting the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 48,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "Vatndal and Setty (2025) emphasize that bridging the gap between research and practice requires not only advances in multimodal understanding but also system outputs that are aligned with the needs of human fact-checkers operating in high-throughput environments.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence shows a system designed to assist human fact-checkers with multimodal short-form videos, which partially supports the need for multimodal understanding and alignment with fact-checker needs, but it does not explicitly address bridging the research-practice gap or high-throughput environments.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    }
+  ]
+}

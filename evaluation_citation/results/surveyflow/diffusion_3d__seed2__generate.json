@@ -1,0 +1,19 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "diffusion_3d",
+  "seed": 2,
+  "md_path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\surveyflow\\diffusion_3d__seed2\\survey.md",
+  "survey_id": "corpus_diffusion_3d",
+  "n_references_requested": 10,
+  "n_references_realized": 8,
+  "corpus_stats": {
+    "n_papers_in_list": 10,
+    "n_papers_downloaded_ok": 11,
+    "n_collections_embedded": 11,
+    "n_papers_embedded_ok": 11,
+    "n_citation_meta": 11,
+    "total_chunks": 1322,
+    "num_classes": 3,
+    "n_labels": 11
+  }
+}

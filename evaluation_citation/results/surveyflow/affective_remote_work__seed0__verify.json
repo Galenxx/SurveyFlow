@@ -1,0 +1,107 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "affective_remote_work",
+  "seed": 0,
+  "topic": "Affective Computing for Remote Workplace Monitoring: Sensing, Inference, and Ethical Considerations",
+  "n_references": 2,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Mantello, P., Ho, M., Nguyen, M., & Vuong, Q. (2021). Bosses without a heart: socio-demographic and cross-cultural determinants of attitude toward Emotional AI in the workplace.",
+      "parsed": {
+        "title": "Bosses without a heart: socio-demographic and cross-cultural determinants of attitude toward Emotional AI in the workplace",
+        "authors": "Mantello, P., Ho, M., Nguyen, M., & Vuong, Q",
+        "year": "2021",
+        "arxiv_id": null,
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Bosses without a heart: socio-demographic and cross-cultural determinants of attitude toward Emotional AI in the workplace",
+          "arxiv_id": null,
+          "doi": "10.1007/s00146-021-01290-1",
+          "year": "2021",
+          "authors": [
+            "Peter Mantello",
+            "Manh-Tung Ho",
+            "Minh-Hoang Nguyen",
+            "Q. Vuong"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISSING_ID",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": "10.1007/s00146-021-01290-1",
+          "title": "Bosses without a heart: socio-demographic and cross-cultural determinants of attitude toward Emotional AI in the workplace",
+          "abstract": "Biometric technologies are becoming more pervasive in the workplace, augmenting managerial processes such as hiring, monitoring and terminating employees. Until recently, these devices consisted mainly of GPS tools that track location, software that scrutinizes browser activity and keyboard strokes, and heat/motion sensors that monitor workstation presence. Today, however, a new generation of biometric devices has emerged that can sense, read, monitor and evaluate the affective state of a worker. More popularly known by its commercial moniker, Emotional AI, the technology stems from advancements in affective computing. But whereas previous generations of biometric monitoring targeted the exterior physical body of the worker, concurrent with the writings of Foucault and Hardt, we argue that emotion-recognition tools signal a far more invasive disciplinary gaze that exposes and makes vulnerable the inner regions of the worker-self. Our paper explores attitudes towards empathic surveillance by analyzing a survey of 1015 responses of future job-seekers from 48 countries with Bayesian statistics. Our findings reveal affect tools, left unregulated in the workplace, may lead to heightened stress and anxiety among disadvantaged ethnicities, gender and income class. We also discuss a stark cross-cultural discrepancy whereby East Asians, compared to Western subjects, are more likely to profess a trusting attitude toward EAI-enabled automated management. While this emerging technology is driven by neoliberal incentives to optimize the worksite and increase productivity, ultimately, empathic surveillance may create more problems in terms of algorithmic bias, opaque decisionism, and the erosion of employment relations. Thus, this paper nuances and extends emerging literature on emotion-sensing technologies in the workplace, particularly through its highly original cross-cultural study.",
+          "year": "2021",
+          "authors": [
+            "Peter Mantello",
+            "Manh-Tung Ho",
+            "Minh-Hoang Nguyen",
+            "Q. Vuong"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 133
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Bussolan, A., Baraldo, S., Avram, O., Urcola, P., Montesano, L., Gambardella, L. M., & Valente, A. (2025). MultiPhysio-HRC: Multimodal Physiological Signals Dataset for industrial Human-Robot Collaboration. arXiv:2510.00703v1.",
+      "parsed": {
+        "title": "MultiPhysio-HRC: Multimodal Physiological Signals Dataset for industrial Human-Robot Collaboration",
+        "authors": "Bussolan, A., Baraldo, S., Avram, O., Urcola, P., Montesano, L., Gambardella, L. M., & Valente, A",
+        "year": "2025",
+        "arxiv_id": "2510.00703v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "MultiPhysio-HRC: Multimodal Physiological Signals Dataset for industrial Human-Robot Collaboration",
+          "arxiv_id": "2510.00703",
+          "doi": null,
+          "year": "2025",
+          "authors": [
+            "Andrea Bussolan",
+            "Stefano Baraldo",
+            "Oliver Avram",
+            "Pablo Urcola",
+            "Luis Montesano",
+            "Luca Maria Gambardella",
+            "Anna Valente"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2510.00703",
+          "title": "MultiPhysio-HRC: Multimodal Physiological Signals Dataset for industrial Human-Robot Collaboration",
+          "abstract": "Human-robot collaboration (HRC) is a key focus of Industry 5.0, aiming to enhance worker productivity while ensuring well-being. The ability to perceive human psycho-physical states, such as stress and cognitive load, is crucial for adaptive and human-aware robotics. This paper introduces MultiPhysio-HRC, a multimodal dataset containing physiological, audio, and facial data collected during real-world HRC scenarios. The dataset includes electroencephalography (EEG), electrocardiography (ECG), electrodermal activity (EDA), respiration (RESP), electromyography (EMG), voice recordings, and facial action units. The dataset integrates controlled cognitive tasks, immersive virtual reality experiences, and industrial disassembly activities performed manually and with robotic assistance, to capture a holistic view of the participants' mental states. Rich ground truth annotations were obtained using validated psychological self-assessment questionnaires. Baseline models were evaluated for stress and cognitive load classification, demonstrating the dataset's potential for affective computing and human-aware robotics research. MultiPhysio-HRC is publicly available to support research in human-centered automation, workplace well-being, and intelligent robotic systems.",
+          "year": "2025",
+          "authors": [
+            "Andrea Bussolan",
+            "Stefano Baraldo",
+            "Oliver Avram",
+            "Pablo Urcola",
+            "Luis Montesano",
+            "Luca Maria Gambardella",
+            "Anna Valente"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    }
+  ]
+}

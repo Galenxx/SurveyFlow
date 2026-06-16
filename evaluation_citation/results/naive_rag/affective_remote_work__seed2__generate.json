@@ -1,0 +1,17 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "affective_remote_work",
+  "seed": 2,
+  "md_path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\naive_rag\\Affective_Computing_for_Remote_Workplace_Monitorin__seed2\\survey.md",
+  "survey_id": "corpus_affective_remote_work",
+  "n_references_requested": 10,
+  "n_references_realized": 1,
+  "corpus_stats": {
+    "n_papers_in_list": 11,
+    "n_collections_embedded": 2,
+    "n_citation_meta": 2,
+    "n_collections_used_in_writing": 1,
+    "total_chunks": 109
+  },
+  "warning": "LOW CITATION COUNT: realized 1 references < 6 (= 60% of requested 10). Inspect corpus_stats to see whether the corpus was thin or the writer dropped sections."
+}

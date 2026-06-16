@@ -1,0 +1,57 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "short_video_misinfo",
+  "seed": 0,
+  "topic": "Detection of Misinformation and Harmful Content on Short-Form Video Platforms: Methods, Datasets, and Multimodal Approaches",
+  "n_references": 4,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper directly addresses multimodal fake news detection in short-form videos, proposing a method that explicitly models cross-modal consistency, which is central to the survey's focus on misinformation detection methods for short-form video platforms."
+      }
+    },
+    {
+      "ref_id": 1,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper addresses AI-generated video manipulation detection in long-form videos, which is related to misinformation detection but focuses on forensic localization and explanation rather than the specific context of short-form video platforms or multimodal approaches for harmful content."
+      }
+    },
+    {
+      "ref_id": 2,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper directly addresses misinformation detection in short-form videos using a multimodal approach, which is the core focus of the survey."
+      }
+    },
+    {
+      "ref_id": 3,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper directly addresses misinformation detection on short-form video platforms with a multimodal pipeline and provides a dataset, aligning with the survey's core focus on methods, datasets, and multimodal approaches."
+      }
+    }
+  ],
+  "aggregate": {
+    "score": 87.5,
+    "n_relevant": 3,
+    "n_partial": 1,
+    "n_irrelevant": 0,
+    "n_error": 0,
+    "n_judged": 4
+  }
+}

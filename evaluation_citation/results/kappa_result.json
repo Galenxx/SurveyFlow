@@ -1,0 +1,42 @@
+{
+  "n_annotated": 30,
+  "n_valid_pairs": 30,
+  "weighted_kappa": 0.8578,
+  "exact_agreement_rate": 0.9,
+  "confusion_matrix": {
+    "rows": "human (UNSUPPORTED=0, PARTIAL=1, SUPPORTED=2)",
+    "cols": "llm (UNSUPPORTED=0, PARTIAL=1, SUPPORTED=2)",
+    "matrix": [
+      [
+        13.0,
+        0.0,
+        0.0
+      ],
+      [
+        2.0,
+        5.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        9.0
+      ]
+    ]
+  },
+  "per_system_kappa": {
+    "SURVEYFLOW": {
+      "kappa": 0.5652,
+      "n": 10
+    },
+    "NAIVE_RAG": {
+      "kappa": 1.0,
+      "n": 10
+    },
+    "LLM_ONLY": {
+      "kappa": 1.0,
+      "n": 10
+    }
+  },
+  "interpretation": "almost perfect (0.81-1.00)"
+}

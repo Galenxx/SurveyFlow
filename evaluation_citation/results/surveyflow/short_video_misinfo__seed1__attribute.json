@@ -1,0 +1,145 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "short_video_misinfo",
+  "seed": 1,
+  "topic": "Detection of Misinformation and Harmful Content on Short-Form Video Platforms: Methods, Datasets, and Multimodal Approaches",
+  "metrics": {
+    "n_cited_claims": 7,
+    "support_total": 2.0,
+    "citation_recall": 0.2857,
+    "n_supported": 1,
+    "n_partial": 2,
+    "n_unsupported": 4,
+    "n_error": 0,
+    "n_citation_mounts": 7,
+    "n_contributing": 1,
+    "contributing_weight": 2.0,
+    "citation_precision": 0.2857,
+    "n_not_verifiable": 0,
+    "n_claims": 17,
+    "n_claims_with_cite": 7,
+    "n_claims_bare": 10,
+    "bare_assertion_rate": 0.5882
+  },
+  "per_sentence": [
+    {
+      "sent_id": 30,
+      "section_title": "3.1 Multimodal Claim Detection for False Positive Reduction",
+      "text": "Kan et al. (2024) address this issue directly through a dedicated Claim Detection task designed to reduce such errors.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes ViMGuard's dual-component system for video misinformation detection but does not mention Kan et al. (2024) or a dedicated Claim Detection task designed to reduce errors.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 34,
+      "section_title": "3.1 Multimodal Claim Detection for False Positive Reduction",
+      "text": "Vatndal and Setty (2025) note that multimodal misinformation has spurred the development of techniques that fuse text, audio, and visual cues.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a specific detection pipeline but does not mention or support the claim that multimodal misinformation has spurred the development of techniques fusing text, audio, and visual cues.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 37,
+      "section_title": "3.2 Checkworthy TikTok Video Detection for Fact-Checkers",
+      "text": "Kan et al. (2024) introduced ViMGuard, a multi-modal system for guarding against video misinformation, and evaluated it on a handcrafted dataset of approximately 700 short-form videos scraped from TikTok, Instagram Reels, and YouTube Shorts, supplemented with homemade recordings, all manually labeled for their task.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The abstract confirms ViMGuard is a multi-modal system for video misinformation guarding and was evaluated, but it does not mention the specific dataset of ~700 handcrafted short-form videos scraped from TikTok, Instagram Reels, and YouTube Shorts with homemade recordings and manual labeling.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 38,
+      "section_title": "3.2 Checkworthy TikTok Video Detection for Fact-Checkers",
+      "text": "In a related line of work, Vatndal and Setty (2025) curated a dataset of TikTok videos sourced from fact-checking platforms including Snopes, PolitiFact, FactCheck.org, and Health Feedback, which they manually annotated for checkworthiness using a defined set of guidelines.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract describes a pipeline called ShortCheck and mentions two manually annotated TikTok datasets, but it does not state that the dataset was curated from Snopes, PolitiFact, FactCheck.org, or Health Feedback, nor does it mention Vatndal and Setty (2025) or annotation guidelines for checkworthiness.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 39,
+      "section_title": "4.1 Sliding-Window Forensics for Long-Form Manipulated Segments",
+      "text": "Feng et al. (2026) address the challenge of detecting manipulated segments within untrimmed, long-form videos by introducing a dedicated benchmark and a baseline method designed for this task.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states the authors formulate the task, introduce the TASLE benchmark, and propose the MSLoc baseline, directly matching the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 43,
+      "section_title": "5.1 Exploiting Cross-Modal Consistency for Fake News Detection",
+      "text": "Tian et al. (2026) categorize existing detectors into three families, noting that feature-based multimodal models, such as FakeSV, rely on strong single-modality encoders with late fusion but only weakly capture cross-modal relationships.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms that FakeSV is a feature-based multimodal model with strong single-modality encoders and late fusion, but it does not explicitly state that FakeSV 'only weakly capture[s] cross-modal relationships'—that characterization is not directly supported by the cited abstract.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 44,
+      "section_title": "5.1 Exploiting Cross-Modal Consistency for Fake News Detection",
+      "text": "Deep fusion architectures, including TikTec, FANVM, SVFEND, FakingRecipe, and KDSGAT-FNVD, attempt more integrated representations, yet Tian et al. (2026) position their own work as a response to the persistent gap in explicitly modeling cross-modal consistency.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes MAGIC3 as a detector that explicitly models cross-modal consistency, but it does not mention or position itself relative to the listed architectures (TikTec, FANVM, SVFEND, FakingRecipe, KDSGAT-FNVD) nor does it frame its contribution as a response to a persistent gap in explicitly modeling cross-modal consistency.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

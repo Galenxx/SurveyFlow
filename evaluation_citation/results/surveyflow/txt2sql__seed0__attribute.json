@@ -1,0 +1,320 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "txt2sql",
+  "seed": 0,
+  "topic": "Text-to-SQL Generation with Large Language Models: Schema Linking, Benchmarks, and Robustness",
+  "metrics": {
+    "n_cited_claims": 15,
+    "support_total": 4.5,
+    "citation_recall": 0.3,
+    "n_supported": 4,
+    "n_partial": 1,
+    "n_unsupported": 10,
+    "n_error": 0,
+    "n_citation_mounts": 15,
+    "n_contributing": 5,
+    "contributing_weight": 4.5,
+    "citation_precision": 0.3,
+    "n_not_verifiable": 3,
+    "n_claims": 47,
+    "n_claims_with_cite": 19,
+    "n_claims_bare": 28,
+    "bare_assertion_rate": 0.5957
+  },
+  "per_sentence": [
+    {
+      "sent_id": 35,
+      "section_title": "3.1 Bidirectional Schema Linking and Retrieval",
+      "text": "The effectiveness of this bidirectional schema linking framework is evaluated in terms of schema retrieval performance and its downstream impact on SQL generation (Câmara et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper evaluates SQL-to-text generation using LLMs and does not mention bidirectional schema linking, schema retrieval performance, or downstream SQL generation impact.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 37,
+      "section_title": "3.1 Bidirectional Schema Linking and Retrieval",
+      "text": "Vichev and Marchev (2024) note that existing text-to-SQL training datasets provide (question, schema context)–SQL pairs without explicitly indicating the chosen schema.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses RAG for text-to-SQL and uses BIRD data but never mentions whether training datasets explicitly indicate the chosen schema, so it does not support the claim.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 41,
+      "section_title": "3.2 View-Based Schema Linking",
+      "text": "This perspective challenges earlier approaches that incorporated schema linking as an explicit architectural component, such as RAT-SQL (Câmara et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses SQL-to-text generation using LLMs and does not mention RAT-SQL, schema linking, or any architectural component related to the claim.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 43,
+      "section_title": "3.2 View-Based Schema Linking",
+      "text": "Vichev and Marchev (2024) point out that existing text-to-SQL training datasets provide data in the form of question, schema, and SQL statement triples without indicating which parts of the schema were actually chosen for the query.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses RAG-based text-to-SQL prompt augmentation and embedding model evaluation but does not mention the structure of training datasets or whether they lack schema selection indicators.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 44,
+      "section_title": "3.2 View-Based Schema Linking",
+      "text": "To address this absence of a dedicated training set for schema linking, they parse the SQL statement related to a given question to obtain the ground-truth tables and columns used (Vichev & Marchev, 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses RAG-based context retrieval for Text-to-SQL but does not mention parsing SQL to obtain ground-truth tables and columns for schema linking training, nor does it reference Vichev & Marchev (2024).",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 45,
+      "section_title": "3.3 Robust Pre-processing for Schema Linking",
+      "text": "The emergence of large language models (LLMs) has reignited debate on the necessity of explicit schema linking, with some arguing that well-reasoned LLMs may implicitly perform schema linking, especially when the full schema fits within the model’s context window (Câmara et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper investigates LLMs for SQL-to-text generation and does not discuss schema linking, implicit or explicit, nor the debate about its necessity in text-to-SQL tasks.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 49,
+      "section_title": "3.3 Robust Pre-processing for Schema Linking",
+      "text": "To improve the robustness of schema linking models, Vichev and Marchev (2024) employ data enhancement techniques on the training dataset.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses RAG-based context retrieval for text-to-SQL and fine-tuning a sentence transformer, but makes no mention of data enhancement techniques on training datasets for schema linking robustness, nor does it reference Vichev and Marchev (2024).",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 51,
+      "section_title": "4.1 Backdoor Trojans and Quantization in Code LLMs",
+      "text": "Hussain et al. (2025) investigate the intersection of backdoor trojans and model quantization in code LLMs, specifically studying Llama 2 models.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The cited paper explicitly investigates the impact of quantization on trojans in code LLMs, specifically studying Llama-2-7b and CodeLlama-7b, which directly supports the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 53,
+      "section_title": "4.1 Backdoor Trojans and Quantization in Code LLMs",
+      "text": "They note that prior work has shown quantization can significantly reduce LLMs' vulnerability to jailbreaking attacks, as demonstrated on models including Mistral, Llama, and MosaicML (Hussain et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence examines quantization's effect on data poisoning (trojans) in code LLMs, not on jailbreaking attacks, and does not mention Mistral or MosaicML models.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 54,
+      "section_title": "4.1 Backdoor Trojans and Quantization in Code LLMs",
+      "text": "Conversely, other research has revealed that quantization can be leveraged to recover sensitive information (Hussain et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper investigates how quantization affects trojan attacks in code LLMs, but it does not show that quantization can be leveraged to recover sensitive information.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 58,
+      "section_title": "4.2 Data Augmentation and SQL-Centric Mixture Optimization",
+      "text": "While the evidence from Hussain et al. (2025) does not directly describe a data augmentation or mixture optimization strategy, it provides relevant context on the training procedures used when fine-tuning large code models, noting that massive models were trained with LoRA targeting specific projection modules at a learning rate of 3e-4 with the AdamW optimizer.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence discusses quantization effects on trojans in code LLMs and does not mention LoRA, learning rates, AdamW, or any training procedure details referenced in the sentence.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 60,
+      "section_title": "4.3 Multi-Stage Fine-Tuning with Noisy Schema Sampling",
+      "text": "The excerpts from Hussain et al. (2025) discuss quantization and its effects on model dependencies, while those from Câmara et al. (2024) describe the use of the CodeS-7B model and a schema item classifier for SQL-to-text generation.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence from c0 discusses quantization effects on model dependencies (specifically trojan vulnerabilities) in code LLMs, but no evidence is provided for c1 (Câmara et al. 2024) regarding CodeS-7B or a schema item classifier for SQL-to-text generation.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 63,
+      "section_title": "5.1 Modular Reasoning and MCTS-Based Candidate Selection",
+      "text": "Liu et al. (2024) propose an agent-based approach in which MCTS progressively decomposes a problem into candidate reasoning trajectories.",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 66,
+      "section_title": "5.1 Modular Reasoning and MCTS-Based Candidate Selection",
+      "text": "In a related direction, Maamari et al. (2025) introduce a compounding operator framework for enterprise text‑to‑SQL.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that GenEdit 'leverages compounding operators to improve knowledge retrieval and to create a plan as chain-of-thought steps that guides generation,' directly supporting the claim of a compounding operator framework for enterprise text-to-SQL.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 71,
+      "section_title": "5.2 Compounding Operators and Iterative SQL Refinement",
+      "text": "Liu et al. (2024) note that multi-agent and iterative reasoning have been explored to address challenges where computation is implicit, rewards become coarse in math-intensive queries, and performance is unstable under tight budgets.",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 72,
+      "section_title": "5.2 Compounding Operators and Iterative SQL Refinement",
+      "text": "In a complementary direction, Maamari et al. (2025) introduce the concept of compounding operators within their GenEdit system, where SQL generation is decomposed into a sequence of operators.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that GenEdit 'employs a pipeline of operators decomposing SQL generation' and 'leverages compounding operators' to guide generation, directly supporting the claim that Maamari et al. (2025) introduce compounding operators that decompose SQL generation into a sequence of operators.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 75,
+      "section_title": "5.3 Schema-Infused In-Context Learning for SELECT Operations",
+      "text": "Liu et al. (2024) describe retrieval-aware optimization strategies that mitigate schema context cost, noting that in-context reinforcement learning combined with retrieval-augmented generation improves database and table selection under limited context.",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 77,
+      "section_title": "5.3 Schema-Infused In-Context Learning for SELECT Operations",
+      "text": "A complementary perspective is offered by Maamari et al. (2025), who frame the selection problem as a compounding sequence of operators within the GenEdit framework.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that GenEdit 'leverages compounding operators to improve knowledge retrieval and to create a plan as chain-of-thought steps that guides generation,' directly supporting the claim that the selection problem is framed as a compounding sequence of operators within the GenEdit framework.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    }
+  ]
+}

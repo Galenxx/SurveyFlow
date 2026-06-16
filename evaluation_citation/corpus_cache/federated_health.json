@@ -1,0 +1,393 @@
+{
+  "arxiv_query": "(abs:\"federated learning\" AND abs:\"healthcare\" AND abs:\"privacy\" OR abs:\"non iid\" OR abs:\"heterogeneity\" OR abs:\"communication\" OR abs:\"encryption\" OR abs:\"differential privacy\" OR abs:\"clinical\")",
+  "generic_arxiv_query": "(abs:\"federated learning\" AND abs:\"medical\") OR (abs:\"privacy\" AND abs:\"healthcare\")",
+  "s2_query": "federated learning healthcare privacy",
+  "s2_generic_query": "federated learning healthcare data privacy",
+  "survey_id": "corpus_federated_health",
+  "tsv_path": "./data/tsv\\corpus_federated_health.tsv",
+  "paper_list": [
+    {
+      "title": "Boosting multi-demographic federated learning for chest radiograph analysis using general-purpose self-supervised representations",
+      "pdf_link": "",
+      "arxiv_id": "2504.08584",
+      "s2_id": "0011e408c02f2f3e6fb6b6d26e7fee03da9533c9",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Mahshad Lotfinia",
+        "Arash Tayebiarasteh",
+        "Samaneh Samiei",
+        "Mehdi Joodaki",
+        "Soroosh Tayebi Arasteh"
+      ],
+      "source": "s2",
+      "citation_count": 11,
+      "year": 2025
+    },
+    {
+      "title": "FedSDM: Federated learning based smart decision making module for ECG data in IoT integrated Edge-Fog-Cloud computing environments",
+      "pdf_link": "https://doi.org/10.1016/j.iot.2023.100784",
+      "arxiv_id": "",
+      "s2_id": "002019b0142b04acbc7afa17391949d518183f20",
+      "open_access_pdf_url": "https://doi.org/10.1016/j.iot.2023.100784",
+      "authors": [
+        "Shinu M. Rajagopal",
+        "S. M.",
+        "R. Buyya"
+      ],
+      "source": "s2",
+      "citation_count": 119,
+      "year": 2023
+    },
+    {
+      "title": "IHVFL: a privacy-enhanced intention-hiding vertical federated learning framework for medical data",
+      "pdf_link": "https://cybersecurity.springeropen.com/counter/pdf/10.1186/s42400-023-00166-9",
+      "arxiv_id": "",
+      "s2_id": "0021242eee6ead1bb4846ee5e5a40dd3bce08507",
+      "open_access_pdf_url": "https://cybersecurity.springeropen.com/counter/pdf/10.1186/s42400-023-00166-9",
+      "authors": [
+        "Fei Tang",
+        "Shikai Liang",
+        "Guowei Ling",
+        "Jinyong Shan"
+      ],
+      "source": "s2",
+      "citation_count": 18,
+      "year": 2023
+    },
+    {
+      "title": "PrivFED: Protecting User Privacy in Federated Learning Systems Through Differential Privacy",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "00a52a4ac14c07dd353839fb6803010f897baadc",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Karthik Thumula",
+        "Hariprasad Holla",
+        "C. Gutti",
+        "Arun Ambika Sasikumar",
+        "Hemanth Gogineni"
+      ],
+      "source": "s2",
+      "citation_count": 15,
+      "year": 2025
+    },
+    {
+      "title": "FedIHRAS: A Privacy-Preserving Federated Learning Framework for Multi-Institutional Collaborative Radiological Analysis with Integrated Explainability and Automated Clinical Reporting",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "00c66b004f29ce4f7b9a4b6633da8fa91075a097",
+      "open_access_pdf_url": "",
+      "authors": [
+        "A. Serrano",
+        "Gabriel Arquelau Pimenta Rodrigues",
+        "G. Bispo",
+        "V. P. Gonçalves",
+        "G. P. R. Filho",
+        "M. G. M. Peixoto",
+        "Rodrigo Bonacin",
+        "Rodolfo Ipolito Meneguette"
+      ],
+      "source": "s2",
+      "citation_count": 1,
+      "year": 2026
+    },
+    {
+      "title": "Research on Development Strategies of Deep Learning in Medical Applications",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "00cfa81abdc0c602ab8987421597c36dbd33a071",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Yixuan Wei"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2025
+    },
+    {
+      "title": "FLMarket: Enabling Privacy-preserved Pre-training Data Pricing for Federated Learning",
+      "pdf_link": "",
+      "arxiv_id": "2411.11713",
+      "s2_id": "00d2b261142d9c4d8bee178efe7e96e30bc3f047",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Zhenyu Wen",
+        "Wanglei Feng",
+        "Di Wu",
+        "Haozhen Hu",
+        "Chang Xu",
+        "Bin Qian",
+        "Zhen Hong",
+        "Cong Wang",
+        "Shouling Ji"
+      ],
+      "source": "s2",
+      "citation_count": 3,
+      "year": 2024
+    },
+    {
+      "title": "Federated Learning for Privacy-Preserving Seizure Detection in IoT-Cloud Networks",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "010b79cf8fd783a815c667bbec35ecc3111c7a78",
+      "open_access_pdf_url": "",
+      "authors": [
+        "B. Abirami",
+        "G. Umarani Srikanth",
+        "S. P"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2025
+    },
+    {
+      "title": "Bridging Earth and Space: A Flexible and Resilient Federated Learning Framework Deployed on the International Space Station",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "013b6db4eb9d5666dc391d78452f8d408ec5f8ad",
+      "open_access_pdf_url": "",
+      "authors": [
+        "James A. Casaletto",
+        "Patrick Foley",
+        "Mark Fernandez",
+        "Lauren M. Sanders",
+        "Ryan T. Scott",
+        "Shubha Ranjan",
+        "Shashi Jain",
+        "Nate Haynes",
+        "M. Boerma",
+        "S. Costes",
+        "Graham Mackintosh"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2025
+    },
+    {
+      "title": "Ethical Implications of Data Sharing and Patient Privacy in Medical Informatics Systems",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "01541f88a6986cd0241995a72174c211022e47c8",
+      "open_access_pdf_url": "",
+      "authors": [
+        "F. A. Alijoyo",
+        "M. Alazzam",
+        "Ahmad Hussein Hassan Muhammad",
+        "Ali Hilal Mutlag",
+        "Mustafa Zuhaer Nayef Al-Dabagh",
+        "B. Kiran Bala"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2025
+    },
+    {
+      "title": "Federated Learning with Layer Skipping: Efficient Training of Large Language Models for Healthcare NLP",
+      "pdf_link": "http://arxiv.org/pdf/2504.10536v1",
+      "arxiv_id": "2504.10536v1",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Lihong Zhang",
+        "Yue Li"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    },
+    {
+      "title": "Selective Attention Federated Learning: Improving Privacy and Efficiency for Clinical Text Classification",
+      "pdf_link": "http://arxiv.org/pdf/2504.11793v3",
+      "arxiv_id": "2504.11793v3",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Yue Li",
+        "Lihong Zhang"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    },
+    {
+      "title": "A Comparative Benchmark of Federated Learning Strategies for Mortality Prediction on Heterogeneous and Imbalanced Clinical Data",
+      "pdf_link": "http://arxiv.org/pdf/2509.10517v2",
+      "arxiv_id": "2509.10517v2",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Rodrigo Tertulino"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    },
+    {
+      "title": "Quantum Federated Learning: Architectural Elements and Future Directions",
+      "pdf_link": "http://arxiv.org/pdf/2510.17642v1",
+      "arxiv_id": "2510.17642v1",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Siva Sai",
+        "Abhishek Sawaika",
+        "Prabhjot Singh",
+        "Rajkumar Buyya"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    },
+    {
+      "title": "TriCon-SF: A Triple-Shuffle and Contribution-Aware Serial Federated Learning Framework for Heterogeneous Healthcare Data",
+      "pdf_link": "http://arxiv.org/pdf/2506.16723v1",
+      "arxiv_id": "2506.16723v1",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Yuping Yan",
+        "Yizhi Wang",
+        "Yuanshuai Li",
+        "Yaochu Jin"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    }
+  ],
+  "download_status": {
+    "2504.08584": "success",
+    "2411.11713": "success",
+    "2504.10536v1": "success",
+    "2504.11793v3": "success",
+    "2509.10517v2": "failed: Download failed: 404",
+    "2510.17642v1": "success",
+    "2506.16723v1": "success",
+    "s2:002019b0142b04acbc7afa17391949d518183f20": "success",
+    "s2:0021242eee6ead1bb4846ee5e5a40dd3bce08507": "success"
+  },
+  "failed_papers": [
+    "2509.10517v2"
+  ],
+  "chroma_collections": [
+    "ihvflaprivacy-enhancedintention-hidingverticalfederatedlearnina",
+    "federatedlearningwithlayerskippingefficienttrainingoflargelanga",
+    "boostingmulti-demographicfederatedlearningforchestradiographana",
+    "flmarketenablingprivacy-preservedpre-trainingdatapricingforfeda",
+    "selectiveattentionfederatedlearningimprovingprivacyandefficiena",
+    "quantumfederatedlearningarchitecturalelementsandfuturedirectioa",
+    "tricon-sfatriple-shuffleandcontribution-awareserialfederatedlea"
+  ],
+  "total_chunks": 889,
+  "embedding_status": {
+    "./data/arxiv_downloads\\corpus_federated_health\\FedSDM_ Federated learning based smart decision making module for ECG data in IoT integrated Edge-Fo.pdf": "failed: Empty or too-short text extracted from PDF",
+    "./data/arxiv_downloads\\corpus_federated_health\\IHVFL_ a privacy-enhanced intention-hiding vertical federated learning framework for medical data.pdf": "success",
+    "./data/arxiv_downloads\\corpus_federated_health\\Federated Learning with Layer Skipping_ Efficient Training of Large Language Models for Healthcare N.pdf": "success",
+    "./data/arxiv_downloads\\corpus_federated_health\\Boosting multi-demographic federated learning for chest radiograph analysis using general-purpose se.pdf": "success",
+    "./data/arxiv_downloads\\corpus_federated_health\\FLMarket_ Enabling Privacy-preserved Pre-training Data Pricing for Federated Learning.pdf": "success",
+    "./data/arxiv_downloads\\corpus_federated_health\\Selective Attention Federated Learning_ Improving Privacy and Efficiency for Clinical Text Classific.pdf": "success",
+    "./data/arxiv_downloads\\corpus_federated_health\\Quantum Federated Learning_ Architectural Elements and Future Directions.pdf": "success",
+    "./data/arxiv_downloads\\corpus_federated_health\\TriCon-SF_ A Triple-Shuffle and Contribution-Aware Serial Federated Learning Framework for Heterogen.pdf": "success"
+  },
+  "citation_paper_meta": {
+    "boostingmulti-demographicfederatedlearningforchestradiographana": {
+      "title": "FedIHRAS: A Privacy-Preserving Federated Learning Framework for Multi-Institutional Collaborative Radiological Analysis with Integrated Explainability and Automated Clinical Reporting",
+      "authors": [
+        "A. Serrano",
+        "Gabriel Arquelau Pimenta Rodrigues",
+        "G. Bispo",
+        "V. P. Gonçalves",
+        "G. P. R. Filho",
+        "M. G. M. Peixoto",
+        "Rodrigo Bonacin",
+        "Rodolfo Ipolito Meneguette"
+      ],
+      "year": 2026,
+      "arxiv_id": "",
+      "s2_id": "00c66b004f29ce4f7b9a4b6633da8fa91075a097"
+    },
+    "ihvflaprivacy-enhancedintention-hidingverticalfederatedlearnina": {
+      "title": "FedSDM: Federated learning based smart decision making module for ECG data in IoT integrated Edge-Fog-Cloud computing environments",
+      "authors": [
+        "Shinu M. Rajagopal",
+        "S. M.",
+        "R. Buyya"
+      ],
+      "year": 2023,
+      "arxiv_id": "",
+      "s2_id": "002019b0142b04acbc7afa17391949d518183f20"
+    },
+    "federatedlearningwithlayerskippingefficienttrainingoflargelanga": {
+      "title": "FLMarket: Enabling Privacy-preserved Pre-training Data Pricing for Federated Learning",
+      "authors": [
+        "Zhenyu Wen",
+        "Wanglei Feng",
+        "Di Wu",
+        "Haozhen Hu",
+        "Chang Xu",
+        "Bin Qian",
+        "Zhen Hong",
+        "Cong Wang",
+        "Shouling Ji"
+      ],
+      "year": 2024,
+      "arxiv_id": "2411.11713",
+      "s2_id": "00d2b261142d9c4d8bee178efe7e96e30bc3f047"
+    },
+    "flmarketenablingprivacy-preservedpre-trainingdatapricingforfeda": {
+      "title": "FedSDM: Federated learning based smart decision making module for ECG data in IoT integrated Edge-Fog-Cloud computing environments",
+      "authors": [
+        "Shinu M. Rajagopal",
+        "S. M.",
+        "R. Buyya"
+      ],
+      "year": 2023,
+      "arxiv_id": "",
+      "s2_id": "002019b0142b04acbc7afa17391949d518183f20"
+    },
+    "selectiveattentionfederatedlearningimprovingprivacyandefficiena": {
+      "title": "IHVFL: a privacy-enhanced intention-hiding vertical federated learning framework for medical data",
+      "authors": [
+        "Fei Tang",
+        "Shikai Liang",
+        "Guowei Ling",
+        "Jinyong Shan"
+      ],
+      "year": 2023,
+      "arxiv_id": "",
+      "s2_id": "0021242eee6ead1bb4846ee5e5a40dd3bce08507"
+    },
+    "quantumfederatedlearningarchitecturalelementsandfuturedirectioa": {
+      "title": "Quantum Federated Learning: Architectural Elements and Future Directions",
+      "authors": [
+        "Siva Sai",
+        "Abhishek Sawaika",
+        "Prabhjot Singh",
+        "Rajkumar Buyya"
+      ],
+      "year": 2025,
+      "arxiv_id": "2510.17642v1",
+      "s2_id": ""
+    },
+    "tricon-sfatriple-shuffleandcontribution-awareserialfederatedlea": {
+      "title": "IHVFL: a privacy-enhanced intention-hiding vertical federated learning framework for medical data",
+      "authors": [
+        "Fei Tang",
+        "Shikai Liang",
+        "Guowei Ling",
+        "Jinyong Shan"
+      ],
+      "year": 2023,
+      "arxiv_id": "",
+      "s2_id": "0021242eee6ead1bb4846ee5e5a40dd3bce08507"
+    }
+  },
+  "_corpus_stats": {
+    "topic_id": "federated_health",
+    "survey_id": "corpus_federated_health",
+    "n_papers_in_list": 15,
+    "n_collections": 7,
+    "total_chunks": 889,
+    "n_citation_meta": 7
+  }
+}

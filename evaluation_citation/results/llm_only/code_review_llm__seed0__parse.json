@@ -1,0 +1,97 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\llm_only\\Large_Language_Models_for_Automated_Code_Review_T__glm-5.1__seed0.md",
+  "topic": "3 Techniques for Automated Code Review",
+  "n_references": 10,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Hou, X., Zhao, Y., Liu, Y., et al. (2023). Large Language Models for Software Engineering: A Systematic Literature Review. arXiv:2308.10620v2.",
+      "title": "Large Language Models for Software Engineering: A Systematic Literature Review",
+      "authors": "Hou, X., Zhao, Y., Liu, Y., et al",
+      "year": "2023",
+      "arxiv_id": "2308.10620v2",
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Li, J., Wang, Z., Zhang, H., & Xie, T. (2022). Automating Code Review Activities by Large-Scale Pre-training. arXiv:2203.09095v1.",
+      "title": "Automating Code Review Activities by Large-Scale Pre-training",
+      "authors": "Li, J., Wang, Z., Zhang, H., & Xie, T",
+      "year": "2022",
+      "arxiv_id": "2203.09095v1",
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Zhang, J., Wang, Y., Sun, H., & Li, G. (2023). CoditT5: Pretraining for Source Code and Natural Language Editing. arXiv:2306.03016v1.",
+      "title": "CoditT5: Pretraining for Source Code and Natural Language Editing",
+      "authors": "Zhang, J., Wang, Y., Sun, H., & Li, G",
+      "year": "2023",
+      "arxiv_id": "2306.03016v1",
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Chen, M., Tworek, J., Jun, H., et al. (2021). Evaluating Large Language Models Trained on Code. arXiv:2107.03374v1.",
+      "title": "Evaluating Large Language Models Trained on Code",
+      "authors": "Chen, M., Tworek, J., Jun, H., et al",
+      "year": "2021",
+      "arxiv_id": "2107.03374v1",
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Cassano, F., Gouwar, J., Nguyen, D., et al. (2022). MultiPL-E: A Scalable and Polyglot Approach to Benchmarking Neural Code Generation. arXiv:2207.06630v2.",
+      "title": "MultiPL-E: A Scalable and Polyglot Approach to Benchmarking Neural Code Generation",
+      "authors": "Cassano, F., Gouwar, J., Nguyen, D., et al",
+      "year": "2022",
+      "arxiv_id": "2207.06630v2",
+      "doi": null
+    },
+    {
+      "ref_id": 5,
+      "raw": "Nijkamp, E., Pang, B., Hayashi, H., et al. (2023). CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis. arXiv:2203.13474v2.",
+      "title": "CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis",
+      "authors": "Nijkamp, E., Pang, B., Hayashi, H., et al",
+      "year": "2023",
+      "arxiv_id": "2203.13474v2",
+      "doi": null
+    },
+    {
+      "ref_id": 6,
+      "raw": "Le, H., Wang, Y., Gotmare, A. D., et al. (2022). CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning. arXiv:2207.01780v2.",
+      "title": "CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning",
+      "authors": "Le, H., Wang, Y., Gotmare, A. D., et al",
+      "year": "2022",
+      "arxiv_id": "2207.01780v2",
+      "doi": null
+    },
+    {
+      "ref_id": 7,
+      "raw": "Wang, Y., Wang, W., Joty, S., & Hoi, S. (2021). CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation. arXiv:2109.00859v2.",
+      "title": "CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation",
+      "authors": "Wang, Y., Wang, W., Joty, S., & Hoi, S",
+      "year": "2021",
+      "arxiv_id": "2109.00859v2",
+      "doi": null
+    },
+    {
+      "ref_id": 8,
+      "raw": "Li, R., Ben Allal, L., Zi, Y., et al. (2023). StarCoder: May the Source Be with You!. arXiv:2305.06161v1.",
+      "title": "StarCoder: May the Source Be with You!",
+      "authors": "Li, R., Ben Allal, L., Zi, Y., et al",
+      "year": "2023",
+      "arxiv_id": "2305.06161v1",
+      "doi": null
+    },
+    {
+      "ref_id": 9,
+      "raw": "Touvron, H., Lavril, T., Izacard, G., et al. (2023). LLaMA: Open and Efficient Foundation Language Models. arXiv:2302.13971v1.",
+      "title": "LLaMA: Open and Efficient Foundation Language Models",
+      "authors": "Touvron, H., Lavril, T., Izacard, G., et al",
+      "year": "2023",
+      "arxiv_id": "2302.13971v1",
+      "doi": null
+    }
+  ]
+}

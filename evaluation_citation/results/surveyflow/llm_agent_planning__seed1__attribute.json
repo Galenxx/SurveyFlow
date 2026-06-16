@@ -1,0 +1,332 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "llm_agent_planning",
+  "seed": 1,
+  "topic": "Planning and Reasoning in Large Language Model Agents: Methods, Tool Use, and Evaluation Benchmarks",
+  "metrics": {
+    "n_cited_claims": 18,
+    "support_total": 9.5,
+    "citation_recall": 0.5278,
+    "n_supported": 8,
+    "n_partial": 3,
+    "n_unsupported": 7,
+    "n_error": 0,
+    "n_citation_mounts": 18,
+    "n_contributing": 9,
+    "contributing_weight": 9.5,
+    "citation_precision": 0.5278,
+    "n_not_verifiable": 0,
+    "n_claims": 48,
+    "n_claims_with_cite": 25,
+    "n_claims_bare": 23,
+    "bare_assertion_rate": 0.4792
+  },
+  "per_sentence": [
+    {
+      "sent_id": 34,
+      "section_title": "3.1 Reinforcement Learning for Agentic Search and Multi-Turn Planning",
+      "text": "Recent work has motivated a shift toward agentic search, a paradigm in which large language models are trained via reinforcement learning to dynamically plan, issue queries to a retriever, and reason over returned evidence as part of an interactive trajectory (Xu et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that recent work has begun training LLMs to dynamically plan, query, and reason with search engines as tools, a paradigm increasingly referred to as agentic search, directly supporting the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 37,
+      "section_title": "3.2 Plan-Level Optimization in Agentic Directed Acyclic Graphs",
+      "text": "Shen et al. (2025) introduce the problem of applying transformations such as node reordering and operator fusion across complex agentic DAGs, noting that existing multi-agent frameworks like LangGraph, AutoGen, and AgentScope provide abstractions for state management and message passing but do not perform these structural optimizations.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence describes Halo's DAG-based optimization for agentic workflows but does not mention Shen et al. (2025), the specific transformations of node reordering and operator fusion, or the named frameworks LangGraph, AutoGen, and AgentScope.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 40,
+      "section_title": "3.2 Plan-Level Optimization in Agentic Directed Acyclic Graphs",
+      "text": "Xu et al. (2025) describe a setting in which large language models are trained via reinforcement learning to dynamically plan, issue queries to a retriever, and reason over returned evidence as part of an interactive trajectory.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that recent work trains LLMs to 'dynamically plan, query, and reason with search engines as tools' using reinforcement learning, directly matching the sentence's description.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 41,
+      "section_title": "3.2 Plan-Level Optimization in Agentic Directed Acyclic Graphs",
+      "text": "This trajectory-level reasoning naturally produces DAG-shaped plans whose efficiency and correctness can benefit from the kinds of plan-level optimizations that Shen et al. (2025) target.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The sentence claims that Shen et al. (2025) target plan-level optimizations for DAG-shaped plans, but the provided evidence describes Halo, not Shen et al. (2025), and contains no information about the work of Shen et al.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 43,
+      "section_title": "3.3 Input Reformulation and Declarative Tool Grounding",
+      "text": "Shen et al. (2025) describe approaches that compile agentic workflows into primitive-based dataflow graphs, enabling primitive-level pipelining.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract states that Halo represents each workflow as a structured query plan DAG and constructs a consolidated graph for batched queries, which directly corresponds to compiling agentic workflows into primitive-based dataflow graphs and enabling primitive-level pipelining.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 47,
+      "section_title": "3.3 Input Reformulation and Declarative Tool Grounding",
+      "text": "Xu et al. (2025) construct a large-scale dataset of search-augmented reasoning trajectories by subsampling 27,000 instances from NQ and HotpotQA and prompting Claude-3.7-Sonnet to label these trajectories for Information-Think faithfulness.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes a faithfulness evaluation framework and a training method (VERITAS) but does not mention constructing a dataset of 27,000 search-augmented reasoning trajectories from NQ and HotpotQA using Claude-3.7-Sonnet for labeling.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 50,
+      "section_title": "4.1 Computational Chemistry Workflow Planning with ChemGraph",
+      "text": "Pham et al. (2025) introduced ChemGraph, an agentic framework designed to orchestrate computational chemistry workflows.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that ChemGraph is an agentic framework designed to streamline and automate computational chemistry workflows, directly supporting the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 52,
+      "section_title": "4.1 Computational Chemistry Workflow Planning with ChemGraph",
+      "text": "These tools span a broad range of functionalities, from basic cheminformatics operations such as molecular conversion to simulation backends (Pham et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes ChemGraph as an agentic framework for automating computational chemistry workflows, but it does not mention molecular conversion or simulation backends, nor does it reference Pham et al. (2025).",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 54,
+      "section_title": "4.1 Computational Chemistry Workflow Planning with ChemGraph",
+      "text": "They position this initial version of ChemGraph as a groundwork for systems of intelligent scientific assistance (Pham et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The abstract describes ChemGraph as a framework for automating computational chemistry workflows, but it does not mention positioning it as groundwork for intelligent scientific assistance systems.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 62,
+      "section_title": "4.3 Skill Selection and Reasoning in LLM-based Personal Agents",
+      "text": "Pham et al. (2025) note that LLMs have shown exceptional capabilities in natural language understanding, reasoning, and task execution, making them well-suited for directing intricate processes; indeed, several LLM-based agents have been developed to assist users with chemistry-related tasks.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The ChemGraph abstract explicitly states that LLMs are used for natural language understanding, task planning, and scientific reasoning to provide an intuitive interface for computational chemistry workflows, directly supporting the claim that LLMs are capable in these areas and that LLM-based agents have been developed for chemistry tasks.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 64,
+      "section_title": "4.3 Skill Selection and Reasoning in LLM-based Personal Agents",
+      "text": "Pham et al. (2025) describe two distinct assessment approaches: single-turn evaluation, where the agentic framework receives a user query and generates a complete response without human intervention, and multi-turn evaluation.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract describes ChemGraph's architecture and evaluation on benchmark tasks but never mentions single-turn or multi-turn evaluation approaches, so it provides no evidence for the claimed distinction.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 67,
+      "section_title": "5.1 Environment Generation for Long-Horizon Computer Use Agents",
+      "text": "The design of environments for long-horizon computer use agents has moved beyond static, single-turn benchmarks toward dynamic, multi-step settings that require agents to decompose complex goals, coordinate subtasks, and adapt to evolving situations (Xi et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "C-World is explicitly designed to create dynamic, multi-step environments with long-horizon workflows, realistic failures, and perturbations, directly supporting the claim that agent environment design has moved beyond static, single-turn benchmarks.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 68,
+      "section_title": "5.1 Environment Generation for Long-Horizon Computer Use Agents",
+      "text": "In such open-world contexts, tool use—encompassing querying services, operating software, and executing workflows—serves as the primary interface through which agents act (Xi et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence shows that tool use is central to agent action in C-World, but it does not establish that tool use is the primary interface for agents in open-world contexts generally, only that it is the action space in this specific environment.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 69,
+      "section_title": "5.1 Environment Generation for Long-Horizon Computer Use Agents",
+      "text": "Xi et al. (2026) further note that recent work has explored self-correction and multi-agent role specialization as strategies for managing extended workflows.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes an environment creation system for agent evaluation and training, but does not mention self-correction or multi-agent role specialization as strategies for managing extended workflows.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 73,
+      "section_title": "5.2 Strategic Planning and Opponent Modeling in Multi-Agent Interactions",
+      "text": "Xi et al. (2026) observe that, despite the strong reasoning capabilities exhibited by large language models, agents frequently fail to maintain coherent long-horizon plans, adapt to evolving situations, or recover from intermediate errors when faced with large decision spaces, underspecified requirements, and many interacting constraints.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The C-World abstract explicitly states that evaluation of nine state-of-the-art LLMs shows planning ability is uniformly strong but execution remains the bottleneck, with constraint following as the dominant failure mode, directly supporting the claim that agents fail to maintain coherent long-horizon plans and handle constraints.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 76,
+      "section_title": "5.3 Categorization of Planning Capabilities in LLM Agents",
+      "text": "Recent progress in tool use has been rapid, with frontier LLMs reaching near-saturated performance on single-turn function calling and schema compliance benchmarks (Xi et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence discusses agent planning and execution bottlenecks in C-World but does not mention single-turn function calling, schema compliance benchmarks, or near-saturated performance by frontier LLMs.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 78,
+      "section_title": "5.3 Categorization of Planning Capabilities in LLM Agents",
+      "text": "When confronted with complex objectives involving large decision spaces, underspecified requirements, and many interacting constraints, current agents frequently fail to maintain coherent long-horizon plans, adapt to evolving situations, or recover from intermediate errors (Xi et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The C-World abstract explicitly states that evaluation of nine state-of-the-art LLMs reveals execution is the bottleneck and constraint following is the dominant failure mode, directly supporting the claim that agents fail with complex objectives involving many interacting constraints and error recovery.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 81,
+      "section_title": "5.3 Categorization of Planning Capabilities in LLM Agents",
+      "text": "However, the evidence indicates that planning capabilities in LLM agents can be understood along a spectrum: while narrow, single-turn tool use is approaching a solved problem, the capacity for robust, adaptive planning in complex, dynamic environments remains an open challenge (Xi et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence supports that planning ability is strong but execution and constraint following are bottlenecks, which aligns with the claim that robust adaptive planning in complex environments remains challenging, but it does not address the spectrum claim that narrow single-turn tool use is approaching a solved problem.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    }
+  ]
+}

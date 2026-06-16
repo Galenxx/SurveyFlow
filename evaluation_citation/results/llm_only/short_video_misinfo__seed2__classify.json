@@ -1,0 +1,81 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "short_video_misinfo",
+  "seed": 2,
+  "topic": "Detection of Misinformation and Harmful Content on Short-Form Video Platforms: Methods, Datasets, and Multimodal Approaches",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "label": "DEDUP_COLLISION",
+      "reason": "identifier resolves to a different paper than the title (id/title mismatch)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 1,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 2,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 3,
+      "label": "DEDUP_COLLISION",
+      "reason": "identifier resolves to a different paper than the title (id/title mismatch)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 4,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 5,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 6,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 7,
+      "label": "DEDUP_COLLISION",
+      "reason": "identifier resolves to a different paper than the title (id/title mismatch)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 8,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 9,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    }
+  ],
+  "distribution": {
+    "RESOLVED": 7,
+    "METADATA_PARSE_ERROR": 0,
+    "ID_EXTRACTION_FAIL": 0,
+    "DEDUP_COLLISION": 3,
+    "GENUINELY_FABRICATED": 0,
+    "PLACEHOLDER_PADDING": 0
+  },
+  "n_resolved": 7,
+  "n_padding": 0,
+  "n_failures": 3,
+  "n_genuinely_fabricated": 0
+}

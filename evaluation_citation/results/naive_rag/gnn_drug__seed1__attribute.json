@@ -1,0 +1,179 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "gnn_drug",
+  "seed": 1,
+  "topic": "Graph Neural Networks for Drug Discovery and Molecular Property Prediction",
+  "metrics": {
+    "n_cited_claims": 9,
+    "support_total": 1.0,
+    "citation_recall": 0.1111,
+    "n_supported": 0,
+    "n_partial": 2,
+    "n_unsupported": 7,
+    "n_error": 0,
+    "n_citation_mounts": 9,
+    "n_contributing": 1,
+    "contributing_weight": 1.0,
+    "citation_precision": 0.1111,
+    "n_not_verifiable": 0,
+    "n_claims": 17,
+    "n_claims_with_cite": 9,
+    "n_claims_bare": 8,
+    "bare_assertion_rate": 0.4706
+  },
+  "per_sentence": [
+    {
+      "sent_id": 34,
+      "section_title": "3 Background and Foundations",
+      "text": "Nguyen et al. (2020) note that deep learning methods based on Graph Neural Networks have attracted considerable attention because they can perceive molecular topological structures; these approaches model molecules as molecular graphs and recast property prediction as graph-level classification or regression tasks.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper focuses on meta-learning for low-resource molecular property prediction but does not state that deep learning methods based on Graph Neural Networks have attracted considerable attention because they can perceive molecular topological structures or that they model molecules as molecular graphs for graph-level tasks.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 35,
+      "section_title": "3 Background and Foundations",
+      "text": "Jiang et al. (2025) observe that, while the broader field of graph representation learning has seen substantial research interest concentrated on improving neural architectures, the graph model itself—that is, the way real-world objects such as molecules are represented as graphs—has received comparatively limited attention, despite often involving diverse structural considerations.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract focuses on improving molecular property prediction via a mixture-of-experts GNN architecture and does not discuss or provide evidence about the relative research attention given to neural architectures versus graph representation models.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 37,
+      "section_title": "4 Methods and Techniques",
+      "text": "Graph neural networks (GNNs) have become a central technique for molecular property prediction by representing molecules as molecular graphs and framing the prediction task as graph-level classification (Nguyen et al., 2020).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The cited paper uses GNNs for molecular property prediction but focuses on meta-learning initializations for low-resource settings rather than establishing GNNs as a central technique or framing the task as graph-level classification.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 39,
+      "section_title": "4 Methods and Techniques",
+      "text": "Beyond the design of neural architectures, Jiang et al. (2025) note that the field of graph representation learning has devoted substantial research interest to improving such architectures, while the manner in which real-world objects are modeled as graphs has received comparatively limited attention.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper focuses on a specific GNN architecture for molecular property prediction and does not discuss the broader field's attention to architecture design versus graph modeling of real-world objects.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 41,
+      "section_title": "5 Applications and Systems",
+      "text": "Nguyen et al. (2020) note that deep learning approaches based on graph neural networks have attracted significant attention because they can perceive molecular topological structures.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper focuses on meta-learning for low-resource molecular property prediction and does not discuss or provide evidence that graph neural networks attract attention because they can perceive molecular topological structures.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 42,
+      "section_title": "5 Applications and Systems",
+      "text": "In this paradigm, molecules are modeled as molecular graphs, and property prediction is cast as a graph-level classification task (Nguyen et al., 2020).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper focuses on meta-learning for low-resource molecular property prediction but does not define or state that molecules are modeled as molecular graphs with property prediction cast as a graph-level classification task.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 43,
+      "section_title": "5 Applications and Systems",
+      "text": "More recently, Jiang et al. (2025) observe that the field of graph representation learning has focused heavily on improving neural architectures, while the graph model used to represent real-world objects has received comparatively limited attention.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper focuses on a specific molecular property prediction method and does not discuss or provide evidence about the broader field's attention to graph models versus neural architectures.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 45,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "Nguyen et al. (2020) highlight that deep learning methods based on Graph Neural Networks have become prominent for perceiving molecular topological structures, yet their performance is constrained in low-resource settings.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence supports that deep learning with GNNs is used for molecular property prediction and that performance is constrained in low-resource settings, but it does not explicitly state that GNNs have become prominent for perceiving molecular topological structures.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 48,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "Jiang et al. (2025) observe that while substantial research has focused on improving neural architectures for graph representation learning, the graph model itself—how real-world objects such as molecules are represented as graphs—has received only limited attention.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper focuses on improving molecular property prediction via a mixture-of-experts GNN architecture and does not discuss or provide evidence about the broader claim that graph model representation has received limited research attention.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

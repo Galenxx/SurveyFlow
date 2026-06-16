@@ -1,0 +1,16 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\naive_rag\\Detection_of_Misinformation_and_Harmful_Content_on__seed0\\survey.md",
+  "topic": "3 Background and Foundations",
+  "n_references": 1,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Vatndal, H., & Setty, V. (2025). ShortCheck: Checkworthiness Detection of Multilingual Short-Form Videos. arXiv:2509.20467v1.",
+      "title": "ShortCheck: Checkworthiness Detection of Multilingual Short-Form Videos",
+      "authors": "Vatndal, H., & Setty, V",
+      "year": "2025",
+      "arxiv_id": "2509.20467v1",
+      "doi": null
+    }
+  ]
+}

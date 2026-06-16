@@ -1,0 +1,97 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "gnn_drug",
+  "seed": 2,
+  "topic": "Graph Neural Networks for Drug Discovery and Molecular Property Prediction",
+  "n_references": 8,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper is a comprehensive review of GNNs in drug discovery, directly covering molecular property prediction and related tasks, making it a representative work for the survey."
+      }
+    },
+    {
+      "ref_id": 1,
+      "identification_verdict": "MISSING_ID",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper directly addresses molecular property prediction with graph neural networks in low-data drug discovery settings, making it a representative work for the survey topic."
+      }
+    },
+    {
+      "ref_id": 2,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a graph neural network with directed message passing and attention for molecular property prediction, which is directly within the scope of GNNs for drug discovery and molecular property prediction."
+      }
+    },
+    {
+      "ref_id": 3,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper directly investigates graph neural networks for molecular property prediction and activity-cliff prediction, which are core topics within the survey's scope of GNNs for drug discovery and molecular property prediction."
+      }
+    },
+    {
+      "ref_id": 4,
+      "identification_verdict": "MISSING_ID",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper mentions graph neural networks as one of many AI techniques in computational chemistry and drug discovery, but its main contribution is a broad overview of AI in chemistry rather than a focused study on GNNs for molecular property prediction."
+      }
+    },
+    {
+      "ref_id": 5,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a self-supervised graph neural network for molecular representation learning and demonstrates state-of-the-art performance on drug discovery tasks including molecular property prediction, which is directly within the survey's scope."
+      }
+    },
+    {
+      "ref_id": 6,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a novel GNN method to capture long-range interactions in molecular graphs for property prediction, directly advancing the core topic of GNNs for drug discovery and molecular property prediction."
+      }
+    },
+    {
+      "ref_id": 7,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a novel GNN-based framework for molecular property prediction, which is directly within the scope of the survey on Graph Neural Networks for Drug Discovery and Molecular Property Prediction."
+      }
+    }
+  ],
+  "aggregate": {
+    "score": 93.75,
+    "n_relevant": 7,
+    "n_partial": 1,
+    "n_irrelevant": 0,
+    "n_error": 0,
+    "n_judged": 8
+  }
+}

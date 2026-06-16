@@ -1,0 +1,79 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\surveyflow\\gnn_drug__seed1\\survey.md",
+  "topic": "3 Graph Neural Networks for Molecular Property Prediction",
+  "n_references": 8,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Zhang, O., Lin, H., Zhang, X., Wang, X., Wu, Z., Ye, Q., Zhao, W., Wang, J., Ying, K., Kang, Y., Hsieh, C., & Hou, T. (2025). Graph Neural Networks in Modern AI-aided Drug Discovery. arXiv:2506.06915v1.",
+      "title": "Graph Neural Networks in Modern AI-aided Drug Discovery",
+      "authors": "Zhang, O., Lin, H., Zhang, X., Wang, X., Wu, Z., Ye, Q., Zhao, W., Wang, J., Ying, K., Kang, Y., Hsieh, C., & Hou, T",
+      "year": "2025",
+      "arxiv_id": "2506.06915v1",
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Nguyen, C. Q., Kreatsoulas, C., & Branson, K. (2020). Meta-Learning GNN Initializations for Low-Resource Molecular Property Prediction.",
+      "title": "Meta-Learning GNN Initializations for Low-Resource Molecular Property Prediction",
+      "authors": "Nguyen, C. Q., Kreatsoulas, C., & Branson, K",
+      "year": "2020",
+      "arxiv_id": null,
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Gong, C., & Maday, Y. (2023). Directed Message Passing Based on Attention for Prediction of Molecular Properties. arXiv:2305.14819v1.",
+      "title": "Directed Message Passing Based on Attention for Prediction of Molecular Properties",
+      "authors": "Gong, C., & Maday, Y",
+      "year": "2023",
+      "arxiv_id": "2305.14819v1",
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Dablander, M. (2024). Investigating Graph Neural Networks and Classical Feature-Extraction Techniques in Activity-Cliff and Molecular Property Prediction. arXiv:2411.13688v1.",
+      "title": "Investigating Graph Neural Networks and Classical Feature-Extraction Techniques in Activity-Cliff and Molecular Property Prediction",
+      "authors": "Dablander, M",
+      "year": "2024",
+      "arxiv_id": "2411.13688v1",
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Tripathy, P., Das, B., & Shahi, S. (2024). Demystifying Molecules: Unveiling the Power of AI in Computational Chemistry.",
+      "title": "Demystifying Molecules: Unveiling the Power of AI in Computational Chemistry",
+      "authors": "Tripathy, P., Das, B., & Shahi, S",
+      "year": "2024",
+      "arxiv_id": null,
+      "doi": null
+    },
+    {
+      "ref_id": 5,
+      "raw": "Wang, Z., Feng, Z., Li, Y., Li, B., Wang, Y., Sha, C., He, M., & Li, X. (2022). BatmanNet: Bi-branch Masked Graph Transformer Autoencoder for Molecular Representation. arXiv:2211.13979v3.",
+      "title": "BatmanNet: Bi-branch Masked Graph Transformer Autoencoder for Molecular Representation",
+      "authors": "Wang, Z., Feng, Z., Li, Y., Li, B., Wang, Y., Sha, C., He, M., & Li, X",
+      "year": "2022",
+      "arxiv_id": "2211.13979v3",
+      "doi": null
+    },
+    {
+      "ref_id": 6,
+      "raw": "Li, X., Zhou, Z., Yao, J., Rong, Y., Zhang, L., & Han, B. (2023). Neural Atoms: Propagating Long-range Interaction in Molecular Graphs through Efficient Communication Channel. arXiv:2311.01276.",
+      "title": "Neural Atoms: Propagating Long-range Interaction in Molecular Graphs through Efficient Communication Channel",
+      "authors": "Li, X., Zhou, Z., Yao, J., Rong, Y., Zhang, L., & Han, B",
+      "year": "2023",
+      "arxiv_id": "2311.01276",
+      "doi": null
+    },
+    {
+      "ref_id": 7,
+      "raw": "Jiang, T., Wang, Z., Yu, S., & Xuan, Q. (2025). Adaptive Substructure-Aware Expert Model for Molecular Property Prediction. arXiv:2504.05844.",
+      "title": "Adaptive Substructure-Aware Expert Model for Molecular Property Prediction",
+      "authors": "Jiang, T., Wang, Z., Yu, S., & Xuan, Q",
+      "year": "2025",
+      "arxiv_id": "2504.05844",
+      "doi": null
+    }
+  ]
+}

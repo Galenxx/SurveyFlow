@@ -1,0 +1,61 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\surveyflow\\battery_soh_ml__seed0\\survey.md",
+  "topic": "3 Temporal Convolutional Gated Recurrent Unit with Support Vector Regression for SOH Estimation",
+  "n_references": 6,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Zhang, Y., Liu, Y., Wang, J., & Zhang, T. (2022). State-of-health estimation for lithium-ion batteries by combining model-based incremental capacity analysis with support vector regression.",
+      "title": "State-of-health estimation for lithium-ion batteries by combining model-based incremental capacity analysis with support vector regression",
+      "authors": "Zhang, Y., Liu, Y., Wang, J., & Zhang, T",
+      "year": "2022",
+      "arxiv_id": null,
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Richardson, R. R., Osborne, M. A., & Howey, D. A. (2017). Gaussian process regression for forecasting battery state of health. arXiv:1703.05687v2.",
+      "title": "Gaussian process regression for forecasting battery state of health",
+      "authors": "Richardson, R. R., Osborne, M. A., & Howey, D. A",
+      "year": "2017",
+      "arxiv_id": "1703.05687v2",
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Tao, S. (2024). Machine Learning-Assisted Sustainable Remanufacturing, Reusing and Recycling for Lithium-ion Batteries. arXiv:2406.00276v2.",
+      "title": "Machine Learning-Assisted Sustainable Remanufacturing, Reusing and Recycling for Lithium-ion Batteries",
+      "authors": "Tao, S",
+      "year": "2024",
+      "arxiv_id": "2406.00276v2",
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Madabattula, G. (2026). Linking Calendar and Cycle Ageing in Lithium-Ion Batteries through Consistent Parameterisation of an Electrochemical-Thermal-Degradation Model. arXiv:2604.09217v1.",
+      "title": "Linking Calendar and Cycle Ageing in Lithium-Ion Batteries through Consistent Parameterisation of an Electrochemical-Thermal-Degradation Model",
+      "authors": "Madabattula, G",
+      "year": "2026",
+      "arxiv_id": "2604.09217v1",
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Pour, M. A., Ghasemzadeh, A., Bijarchi, M. A., & Shafii, M. B. (2025). Toward accurate RUL and SoH estimation using reinforced graph-based physics-informed neural networks enhanced with dynamic weights. arXiv:2507.09766v2.",
+      "title": "Toward accurate RUL and SoH estimation using reinforced graph-based physics-informed neural networks enhanced with dynamic weights",
+      "authors": "Pour, M. A., Ghasemzadeh, A., Bijarchi, M. A., & Shafii, M. B",
+      "year": "2025",
+      "arxiv_id": "2507.09766v2",
+      "doi": null
+    },
+    {
+      "ref_id": 5,
+      "raw": "liu, c., & Gao, D. (2025). SOH Estimation of Lithium-Ion Batteries from Charging Segments via TCN-GRU Networks.",
+      "title": "SOH Estimation of Lithium-Ion Batteries from Charging Segments via TCN-GRU Networks",
+      "authors": "liu, c., & Gao, D",
+      "year": "2025",
+      "arxiv_id": null,
+      "doi": null
+    }
+  ]
+}

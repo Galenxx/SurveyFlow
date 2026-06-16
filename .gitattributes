@@ -1,0 +1,25 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Python source files
+*.py text diff=python
+
+# Markdown / YAML / TOML / JSON / text
+*.md text
+*.yml text
+*.yaml text
+*.toml text
+*.json text
+
+# Binary files — do not attempt to normalize
+*.bin binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
+*.woff binary
+*.woff2 binary
+*.db binary

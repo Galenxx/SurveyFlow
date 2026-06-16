@@ -1,0 +1,220 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "battery_soh_ml",
+  "seed": 1,
+  "topic": "Machine Learning for Lithium-Ion Battery State-of-Health Estimation and Remaining-Useful-Life Prediction",
+  "n_references": 4,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Pour, M. A., Ghasemzadeh, A., Bijarchi, M. A., & Shafii, M. B. (2025). Toward accurate RUL and SoH estimation using reinforced graph-based physics-informed neural networks enhanced with dynamic weights. arXiv:2507.09766v2.",
+      "parsed": {
+        "title": "Toward accurate RUL and SoH estimation using reinforced graph-based physics-informed neural networks enhanced with dynamic weights",
+        "authors": "Pour, M. A., Ghasemzadeh, A., Bijarchi, M. A., & Shafii, M. B",
+        "year": "2025",
+        "arxiv_id": "2507.09766v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Toward accurate RUL and SoH estimation using reinforced graph-based physics-informed neural networks enhanced with dynamic weights",
+          "arxiv_id": "2507.09766",
+          "doi": null,
+          "year": "2025",
+          "authors": [
+            "Mohamadreza Akbari Pour",
+            "Ali Ghasemzadeh",
+            "Mohamad Ali Bijarchi",
+            "Mohammad Behshad Shafii"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2507.09766",
+          "title": "Toward accurate RUL and SoH estimation using reinforced graph-based physics-informed neural networks enhanced with dynamic weights",
+          "abstract": "Accurate estimation of Remaining Useful Life (RUL) and State of Health (SoH) is essential for reliable Prognostics and Health Management (PHM), supporting timely maintenance and dependable industrial operation. However, hybrid models that combine data-driven learning with physics-based regularization often rely on fixed loss weights and therefore lose accuracy when transferred across assets with different degradation behaviors. This study introduces Reinforced Graph-based Physics-informed Networks with Dynamic Weighting (RGPD), a unified framework for spatio-temporal degradation modeling and adaptive physics-guided regularization. Graph-based representation learning captures inter-sensor degradation structure, a Soft Actor-Critic (SAC) module refines latent features under noisy conditions, and a lightweight Q-learning policy adaptively balances monotonicity, smoothness, and latent-dynamics residual losses during training. The framework is evaluated on the C-MAPSS, PHM2012, and XJTU datasets, which represent engine, bearing, and battery degradation processes. Relative to the strongest compared baselines reported in the corresponding benchmark tables, RGPD improves average RMSE by up to 12 percent on PHM2012 and C-MAPSS, and reduces average MAPE by 20 percent on XJTU compared with the second-best reported model. Performance on these heterogeneous benchmarks further suggests the model's generalizability across degradation systems. The physics-informed component is implemented through degradation-consistent priors together with a Deep Hidden Physics Model-style residual, which improves physical plausibility without requiring a full first-principles model for each asset type.",
+          "year": "2025",
+          "authors": [
+            "Mohamadreza Akbari Pour",
+            "Ali Ghasemzadeh",
+            "Mohamad Ali Bijarchi",
+            "Mohammad Behshad Shafii"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Richardson, R. R., Osborne, M. A., & Howey, D. A. (2017). Gaussian process regression for forecasting battery state of health. arXiv:1703.05687v2.",
+      "parsed": {
+        "title": "Gaussian process regression for forecasting battery state of health",
+        "authors": "Richardson, R. R., Osborne, M. A., & Howey, D. A",
+        "year": "2017",
+        "arxiv_id": "1703.05687v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Gaussian process regression for forecasting battery state of health",
+          "arxiv_id": "1703.05687",
+          "doi": null,
+          "year": "2017",
+          "authors": [
+            "Robert R. Richardson",
+            "Michael A. Osborne",
+            "David A. Howey"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "1703.05687",
+          "title": "Gaussian process regression for forecasting battery state of health",
+          "abstract": "Accurately predicting the future capacity and remaining useful life of batteries is necessary to ensure reliable system operation and to minimise maintenance costs. The complex nature of battery degradation has meant that mechanistic modelling of capacity fade has thus far remained intractable; however, with the advent of cloud-connected devices, data from cells in various applications is becoming increasingly available, and the feasibility of data-driven methods for battery prognostics is increasing. Here we propose Gaussian process (GP) regression for forecasting battery state of health, and highlight various advantages of GPs over other data-driven and mechanistic approaches. GPs are a type of Bayesian non-parametric method, and hence can model complex systems whilst handling uncertainty in a principled manner. Prior information can be exploited by GPs in a variety of ways: explicit mean functions can be used if the functional form of the underlying degradation model is available, and multiple-output GPs can effectively exploit correlations between data from different cells. We demonstrate the predictive capability of GPs for short-term and long-term (remaining useful life) forecasting on a selection of capacity vs. cycle datasets from lithium-ion cells.",
+          "year": "2017",
+          "authors": [
+            "Robert R. Richardson",
+            "Michael A. Osborne",
+            "David A. Howey"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Tao, S. (2024). Machine Learning-Assisted Sustainable Remanufacturing, Reusing and Recycling for Lithium-ion Batteries. arXiv:2406.00276v2.",
+      "parsed": {
+        "title": "Machine Learning-Assisted Sustainable Remanufacturing, Reusing and Recycling for Lithium-ion Batteries",
+        "authors": "Tao, S",
+        "year": "2024",
+        "arxiv_id": "2406.00276v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Machine Learning-Assisted Sustainable Remanufacturing, Reusing and Recycling for Lithium-ion Batteries",
+          "arxiv_id": "2406.00276",
+          "doi": null,
+          "year": "2024",
+          "authors": [
+            "Shengyu Tao"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2406.00276",
+          "title": "Machine Learning-Assisted Sustainable Remanufacturing, Reusing and Recycling for Lithium-ion Batteries",
+          "abstract": "The sustainable utilization of lithium-ion batteries (LIBs) is crucial to the global energy transition and carbon neutrality, yet data scarcity and heterogeneity remain major barriers across remanufacturing, reusing, and recycling. This dissertation develops a machine learning assisted framework to address these challenges throughout the battery lifecycle. A physics informed quality control model predicts long-term degradation from limited early-cycle data, while a generative learning based residual value assessment method enables rapid and accurate evaluation of retired batteries under random conditions. A federated learning strategy achieves privacy preserving and high precision cathode material sorting, supporting efficient recycling. Furthermore, a unified diagnostics and prognostics framework based on correlation alignment enhances adaptability across tasks such as state of health estimation, state of charge estimation, and remaining useful life prediction under varied testing protocols. Collectively, these contributions advance sustainable battery management by integrating physics, data generation, privacy preserving collaboration, and adaptive learning, offering methodological innovations to promote circular economy and global carbon neutrality.",
+          "year": "2024",
+          "authors": [
+            "Shengyu Tao"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Zhang, Y., Liu, Y., Wang, J., & Zhang, T. (2022). State-of-health estimation for lithium-ion batteries by combining model-based incremental capacity analysis with support vector regression.",
+      "parsed": {
+        "title": "State-of-health estimation for lithium-ion batteries by combining model-based incremental capacity analysis with support vector regression",
+        "authors": "Zhang, Y., Liu, Y., Wang, J., & Zhang, T",
+        "year": "2022",
+        "arxiv_id": null,
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "State-of-health estimation for lithium-ion batteries by combining model-based incremental capacity analysis with support vector regression",
+          "arxiv_id": null,
+          "doi": "10.1016/j.energy.2021.121986",
+          "year": "2022",
+          "authors": [
+            "Yajun Zhang",
+            "Yajie Liu",
+            "Jia Wang",
+            "Tao Zhang"
+          ]
+        },
+        {
+          "title": "SOH Estimation for Lithium-Ion Batteries Based on Health Indicators Extraction and MKRVR",
+          "arxiv_id": null,
+          "doi": "10.1149/1945-7111/ad29c2",
+          "year": "2024",
+          "authors": [
+            "Zhang Mei",
+            "Lv Le",
+            "Jian Zhang"
+          ]
+        },
+        {
+          "title": "Research on methods for extracting aging characteristics and health status of lithium-ion batteries based on small samples",
+          "arxiv_id": null,
+          "doi": "10.1063/5.0071686",
+          "year": "2022",
+          "authors": [
+            "Yongqin Zhou",
+            "Yujia Chang",
+            "Yongchao Wang",
+            "Ran Li"
+          ]
+        },
+        {
+          "title": "Battery Lifespan Prediction Using Machine Learning and NASA Aging Dataset",
+          "arxiv_id": null,
+          "doi": "10.55041/ijsrem43585",
+          "year": "2025",
+          "authors": [
+            "D. John",
+            "B. Prasad",
+            "Bhushan Murkute",
+            "M. Patil",
+            "A. Agrawal",
+            "Uday Shahu"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISSING_ID",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": "10.1016/j.energy.2021.121986",
+          "title": "State-of-health estimation for lithium-ion batteries by combining model-based incremental capacity analysis with support vector regression",
+          "abstract": "Abstract Accurate state-of-health (SOH) estimation for lithium-ion batteries is of great significance for future intelligent battery management systems. This study proposes a novel method combining voltage-capacity (VC)-model-based incremental capacity analysis (ICA) with support vector regression (SVR) for battery SOH estimation. For accurate and efficient capture of IC curves, 18 VC models are first compared, and then, suitable models are selected for two types of batteries with different chemistries, enabling multitype health features to be obtained by parameterizing the VC models. After correlation analysis of these extracted health features with the reference battery capacity, the SVR algorithm is adopted to construct SOH estimation models. Finally, four aging datasets are employed for validation of the proposed method. The experimental results show that the SVR models achieve high accuracy in SOH estimation, i.e., the respective mean absolute errors (MAEs) and root mean square errors (RMSEs) of all batteries are limited to within 1.1%. Moreover, the method is robust against different initial aging statuses and cycle conditions of the batteries: after migration and fine-tuning, both the MAEs and RMSEs can be confined to within 2.3% by utilizing the established SVR models.",
+          "year": "2022",
+          "authors": [
+            "Yajun Zhang",
+            "Yajie Liu",
+            "Jia Wang",
+            "Tao Zhang"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 166
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    }
+  ]
+}

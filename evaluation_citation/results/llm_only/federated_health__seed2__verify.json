@@ -1,0 +1,499 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "federated_health",
+  "seed": 2,
+  "topic": "Federated Learning for Privacy-Preserving Healthcare: Architectures, Communication Efficiency, and Clinical Deployment",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "McMahan, H. B., Moore, E., Ramage, D., Hampson, S., & y Arcas, B. A. (2017). Communication-Efficient Learning of Deep Networks from Decentralized Data. arXiv:1602.05629v3.",
+      "parsed": {
+        "title": "Communication-Efficient Learning of Deep Networks from Decentralized Data",
+        "authors": "McMahan, H. B., Moore, E., Ramage, D., Hampson, S., & y Arcas, B. A",
+        "year": "2017",
+        "arxiv_id": "1602.05629v3",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Communication-Efficient Learning of Deep Networks from Decentralized Data",
+          "arxiv_id": "1602.05629",
+          "doi": null,
+          "year": "2016",
+          "authors": [
+            "H. Brendan McMahan",
+            "Eider Moore",
+            "Daniel Ramage",
+            "Seth Hampson",
+            "Blaise Agüera y Arcas"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "1602.05629",
+          "title": "Communication-Efficient Learning of Deep Networks from Decentralized Data",
+          "abstract": "Modern mobile devices have access to a wealth of data suitable for learning models, which in turn can greatly improve the user experience on the device. For example, language models can improve speech recognition and text entry, and image models can automatically select good photos. However, this rich data is often privacy sensitive, large in quantity, or both, which may preclude logging to the data center and training there using conventional approaches. We advocate an alternative that leaves the training data distributed on the mobile devices, and learns a shared model by aggregating locally-computed updates. We term this decentralized approach Federated Learning. We present a practical method for the federated learning of deep networks based on iterative model averaging, and conduct an extensive empirical evaluation, considering five different model architectures and four datasets. These experiments demonstrate the approach is robust to the unbalanced and non-IID data distributions that are a defining characteristic of this setting. Communication costs are the principal constraint, and we show a reduction in required communication rounds by 10-100x as compared to synchronized stochastic gradient descent.",
+          "year": "2016",
+          "authors": [
+            "H. Brendan McMahan",
+            "Eider Moore",
+            "Daniel Ramage",
+            "Seth Hampson",
+            "Blaise Agüera y Arcas"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Li, T., Sahu, A. K., Zaheer, M., Sanjabi, M., Talwalkar, A., & Smith, V. (2020). Federated Optimization in Heterogeneous Networks. arXiv:1812.06127v3.",
+      "parsed": {
+        "title": "Federated Optimization in Heterogeneous Networks",
+        "authors": "Li, T., Sahu, A. K., Zaheer, M., Sanjabi, M., Talwalkar, A., & Smith, V",
+        "year": "2020",
+        "arxiv_id": "1812.06127v3",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Federated Optimization in Heterogeneous Networks",
+          "arxiv_id": "1812.06127",
+          "doi": null,
+          "year": "2018",
+          "authors": [
+            "Tian Li",
+            "Anit Kumar Sahu",
+            "Manzil Zaheer",
+            "Maziar Sanjabi",
+            "Ameet Talwalkar",
+            "Virginia Smith"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "1812.06127",
+          "title": "Federated Optimization in Heterogeneous Networks",
+          "abstract": "Federated Learning is a distributed learning paradigm with two key challenges that differentiate it from traditional distributed optimization: (1) significant variability in terms of the systems characteristics on each device in the network (systems heterogeneity), and (2) non-identically distributed data across the network (statistical heterogeneity). In this work, we introduce a framework, FedProx, to tackle heterogeneity in federated networks. FedProx can be viewed as a generalization and re-parametrization of FedAvg, the current state-of-the-art method for federated learning. While this re-parameterization makes only minor modifications to the method itself, these modifications have important ramifications both in theory and in practice. Theoretically, we provide convergence guarantees for our framework when learning over data from non-identical distributions (statistical heterogeneity), and while adhering to device-level systems constraints by allowing each participating device to perform a variable amount of work (systems heterogeneity). Practically, we demonstrate that FedProx allows for more robust convergence than FedAvg across a suite of realistic federated datasets. In particular, in highly heterogeneous settings, FedProx demonstrates significantly more stable and accurate convergence behavior relative to FedAvg---improving absolute test accuracy by 22% on average.",
+          "year": "2018",
+          "authors": [
+            "Tian Li",
+            "Anit Kumar Sahu",
+            "Manzil Zaheer",
+            "Maziar Sanjabi",
+            "Ameet Talwalkar",
+            "Virginia Smith"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Sheller, M. J., Rebsamen, M., et al. (2018). Multi-Institutional Deep Learning Modeling Without Sharing Patient Data: A Feasibility Study on Brain Tumor Segmentation. arXiv:1810.04304v1.",
+      "parsed": {
+        "title": "Multi-Institutional Deep Learning Modeling Without Sharing Patient Data: A Feasibility Study on Brain Tumor Segmentation",
+        "authors": "Sheller, M. J., Rebsamen, M., et al",
+        "year": "2018",
+        "arxiv_id": "1810.04304v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Multi-Institutional Deep Learning Modeling Without Sharing Patient Data: A Feasibility Study on Brain Tumor Segmentation",
+          "arxiv_id": "1810.04304",
+          "doi": null,
+          "year": "2018",
+          "authors": [
+            "Micah J Sheller",
+            "G Anthony Reina",
+            "Brandon Edwards",
+            "Jason Martin",
+            "Spyridon Bakas"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "1810.04304",
+          "title": "Multi-Institutional Deep Learning Modeling Without Sharing Patient Data: A Feasibility Study on Brain Tumor Segmentation",
+          "abstract": "Deep learning models for semantic segmentation of images require large amounts of data. In the medical imaging domain, acquiring sufficient data is a significant challenge. Labeling medical image data requires expert knowledge. Collaboration between institutions could address this challenge, but sharing medical data to a centralized location faces various legal, privacy, technical, and data-ownership challenges, especially among international institutions. In this study, we introduce the first use of federated learning for multi-institutional collaboration, enabling deep learning modeling without sharing patient data. Our quantitative results demonstrate that the performance of federated semantic segmentation models (Dice=0.852) on multimodal brain scans is similar to that of models trained by sharing data (Dice=0.862). We compare federated learning with two alternative collaborative learning methods and find that they fail to match the performance of federated learning.",
+          "year": "2018",
+          "authors": [
+            "Micah J Sheller",
+            "G Anthony Reina",
+            "Brandon Edwards",
+            "Jason Martin",
+            "Spyridon Bakas"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Rieke, N., Hancox, J., Li, W., Milletarì, F., Roth, H. R., Albarqouni, S., et al. (2020). The future of digital health with federated learning. arXiv:2003.08119v3.",
+      "parsed": {
+        "title": "The future of digital health with federated learning",
+        "authors": "Rieke, N., Hancox, J., Li, W., Milletarì, F., Roth, H. R., Albarqouni, S., et al",
+        "year": "2020",
+        "arxiv_id": "2003.08119v3",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "The Future of Digital Health with Federated Learning",
+          "arxiv_id": "2003.08119",
+          "doi": null,
+          "year": "2020",
+          "authors": [
+            "Nicola Rieke",
+            "Jonny Hancox",
+            "Wenqi Li",
+            "Fausto Milletari",
+            "Holger Roth",
+            "Shadi Albarqouni",
+            "Spyridon Bakas",
+            "Mathieu N. Galtier",
+            "Bennett Landman",
+            "Klaus Maier-Hein",
+            "Sebastien Ourselin",
+            "Micah Sheller",
+            "Ronald M. Summers",
+            "Andrew Trask",
+            "Daguang Xu",
+            "Maximilian Baust",
+            "M. Jorge Cardoso"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2003.08119",
+          "title": "The Future of Digital Health with Federated Learning",
+          "abstract": "Data-driven Machine Learning has emerged as a promising approach for building accurate and robust statistical models from medical data, which is collected in huge volumes by modern healthcare systems. Existing medical data is not fully exploited by ML primarily because it sits in data silos and privacy concerns restrict access to this data. However, without access to sufficient data, ML will be prevented from reaching its full potential and, ultimately, from making the transition from research to clinical practice. This paper considers key factors contributing to this issue, explores how Federated Learning (FL) may provide a solution for the future of digital health and highlights the challenges and considerations that need to be addressed.",
+          "year": "2020",
+          "authors": [
+            "Nicola Rieke",
+            "Jonny Hancox",
+            "Wenqi Li",
+            "Fausto Milletari",
+            "Holger Roth",
+            "Shadi Albarqouni",
+            "Spyridon Bakas",
+            "Mathieu N. Galtier",
+            "Bennett Landman",
+            "Klaus Maier-Hein",
+            "Sebastien Ourselin",
+            "Micah Sheller",
+            "Ronald M. Summers",
+            "Andrew Trask",
+            "Daguang Xu",
+            "Maximilian Baust",
+            "M. Jorge Cardoso"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 4,
+      "raw": "Xu, J., Glicksberg, B. S., Su, C., Walker, P., Bian, J., & Wang, F. (2020). Federated Learning for Healthcare Informatics. arXiv:2011.10263v2.",
+      "parsed": {
+        "title": "Federated Learning for Healthcare Informatics",
+        "authors": "Xu, J., Glicksberg, B. S., Su, C., Walker, P., Bian, J., & Wang, F",
+        "year": "2020",
+        "arxiv_id": "2011.10263v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Quantifying the Role of the Surfactant and the Thermophoretic Force in Plasmonic Nano-Optical Trapping",
+          "arxiv_id": "2011.10263",
+          "doi": null,
+          "year": "2020",
+          "authors": [
+            "Quanbo Jiang",
+            "Benoît Rogez",
+            "Jean-Benoît Claude",
+            "Guillaume Baffou",
+            "Jérôme Wenger"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "2011.10263",
+          "title": "Quantifying the Role of the Surfactant and the Thermophoretic Force in Plasmonic Nano-Optical Trapping",
+          "abstract": "Plasmonic nano-tweezers use intense electric field gradients to generate optical forces able to trap nano-objects in liquids. However, part of the incident light is absorbed into the metal, and a supplementary thermophoretic force acting on the nano-object arises from the resulting temperature gradient. Plasmonic nano-tweezers thus face the challenge of disentangling the intricate contributions of the optical and thermophoretic forces. Here, we show that commonly added surfactants can unexpectedly impact the trap performance by acting on the thermophilic or thermophobic response of the nano-object. Using different surfactants in double nanohole plasmonic trapping experiments, we measure and compare the contributions of the thermophoretic and the optical forces, evidencing a trap stiffness 20x higher using sodium dodecyl sulfate (SDS) as compared to Triton X-100. This work uncovers an important mechanism in plasmonic nano-tweezers and provides guidelines to control and optimize the trap performance for different plasmonic designs.",
+          "year": "2020",
+          "authors": [
+            "Quanbo Jiang",
+            "Benoît Rogez",
+            "Jean-Benoît Claude",
+            "Guillaume Baffou",
+            "Jérôme Wenger"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 0.24489795918367346,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 5,
+      "raw": "Zhu, L., Liu, Z., & Han, S. (2019). Deep Leakage from Gradients. arXiv:1906.08935v2.",
+      "parsed": {
+        "title": "Deep Leakage from Gradients",
+        "authors": "Zhu, L., Liu, Z., & Han, S",
+        "year": "2019",
+        "arxiv_id": "1906.08935v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Deep Leakage from Gradients",
+          "arxiv_id": "1906.08935",
+          "doi": null,
+          "year": "2019",
+          "authors": [
+            "Ligeng Zhu",
+            "Zhijian Liu",
+            "Song Han"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "1906.08935",
+          "title": "Deep Leakage from Gradients",
+          "abstract": "Exchanging gradients is a widely used method in modern multi-node machine learning system (e.g., distributed training, collaborative learning). For a long time, people believed that gradients are safe to share: i.e., the training data will not be leaked by gradient exchange. However, we show that it is possible to obtain the private training data from the publicly shared gradients. We name this leakage as Deep Leakage from Gradient and empirically validate the effectiveness on both computer vision and natural language processing tasks. Experimental results show that our attack is much stronger than previous approaches: the recovery is pixel-wise accurate for images and token-wise matching for texts. We want to raise people's awareness to rethink the gradient's safety. Finally, we discuss several possible strategies to prevent such deep leakage. The most effective defense method is gradient pruning.",
+          "year": "2019",
+          "authors": [
+            "Ligeng Zhu",
+            "Zhijian Liu",
+            "Song Han"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 6,
+      "raw": "Geiping, J., Bauermeister, H., Dröge, H., & Moeller, M. (2020). Inverting Gradients - How easy is it to break privacy in federated learning?. arXiv:2003.14053v3.",
+      "parsed": {
+        "title": "Inverting Gradients - How easy is it to break privacy in federated learning?",
+        "authors": "Geiping, J., Bauermeister, H., Dröge, H., & Moeller, M",
+        "year": "2020",
+        "arxiv_id": "2003.14053v3",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Inverting Gradients -- How easy is it to break privacy in federated learning?",
+          "arxiv_id": "2003.14053",
+          "doi": null,
+          "year": "2020",
+          "authors": [
+            "Jonas Geiping",
+            "Hartmut Bauermeister",
+            "Hannah Dröge",
+            "Michael Moeller"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2003.14053",
+          "title": "Inverting Gradients -- How easy is it to break privacy in federated learning?",
+          "abstract": "The idea of federated learning is to collaboratively train a neural network on a server. Each user receives the current weights of the network and in turns sends parameter updates (gradients) based on local data. This protocol has been designed not only to train neural networks data-efficiently, but also to provide privacy benefits for users, as their input data remains on device and only parameter gradients are shared. But how secure is sharing parameter gradients? Previous attacks have provided a false sense of security, by succeeding only in contrived settings - even for a single image. However, by exploiting a magnitude-invariant loss along with optimization strategies based on adversarial attacks, we show that is is actually possible to faithfully reconstruct images at high resolution from the knowledge of their parameter gradients, and demonstrate that such a break of privacy is possible even for trained deep networks. We analyze the effects of architecture as well as parameters on the difficulty of reconstructing an input image and prove that any input to a fully connected layer can be reconstructed analytically independent of the remaining architecture. Finally we discuss settings encountered in practice and show that even averaging gradients over several iterations or several images does not protect the user's privacy in federated learning applications in computer vision.",
+          "year": "2020",
+          "authors": [
+            "Jonas Geiping",
+            "Hartmut Bauermeister",
+            "Hannah Dröge",
+            "Michael Moeller"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 7,
+      "raw": "Mothukuri, V., Parizi, R. M., Pouriyeh, S., Huang, Y., Dehghantanha, A., & Srivastava, G. (2020). A survey on security and privacy of federated learning. arXiv:2004.06677v2.",
+      "parsed": {
+        "title": "A survey on security and privacy of federated learning",
+        "authors": "Mothukuri, V., Parizi, R. M., Pouriyeh, S., Huang, Y., Dehghantanha, A., & Srivastava, G",
+        "year": "2020",
+        "arxiv_id": "2004.06677v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Kondo screening in Co adatoms with full Coulomb interaction",
+          "arxiv_id": "2004.06677",
+          "doi": null,
+          "year": "2020",
+          "authors": [
+            "Angelo Valli",
+            "Marc Philipp Bahlke",
+            "Alexander Kowalski",
+            "Michael Karolak",
+            "Carmen Herrmann",
+            "Giorgio Sangiovanni"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "2004.06677",
+          "title": "Kondo screening in Co adatoms with full Coulomb interaction",
+          "abstract": "Using a numerically exact first-principles many-body approach, we revisit the \"prototypical\" Kondo case of a cobalt impurity on copper. Even though this is considered a well understood example of the Kondo effect, we reveal an unexpectedly strong dependence of the screening properties on the parametrization of the local Coulomb tensor. As a consequence, the Kondo temperature can vary by orders of magnitude depending on the complexity of the parametrization of the electron-electron interaction. Further, we challenge the established picture of a spin-$1$ moment involving two cobalt $d$-orbitals only, as orbital-mixing interaction terms boost the contribution of the remainder of the $d$-shell.",
+          "year": "2020",
+          "authors": [
+            "Angelo Valli",
+            "Marc Philipp Bahlke",
+            "Alexander Kowalski",
+            "Michael Karolak",
+            "Carmen Herrmann",
+            "Giorgio Sangiovanni"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 0.1592920353982301,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 8,
+      "raw": "Li, Q., Wen, Z., Wu, Z., Hu, S., Wang, N., Li, Y., et al. (2021). A Survey on Federated Learning: Systems and Vision. arXiv:1907.09693v4.",
+      "parsed": {
+        "title": "A Survey on Federated Learning: Systems and Vision",
+        "authors": "Li, Q., Wen, Z., Wu, Z., Hu, S., Wang, N., Li, Y., et al",
+        "year": "2021",
+        "arxiv_id": "1907.09693v4",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "A Survey on Federated Learning Systems: Vision, Hype and Reality for Data Privacy and Protection",
+          "arxiv_id": "1907.09693",
+          "doi": null,
+          "year": "2019",
+          "authors": [
+            "Qinbin Li",
+            "Zeyi Wen",
+            "Zhaomin Wu",
+            "Sixu Hu",
+            "Naibo Wang",
+            "Yuan Li",
+            "Xu Liu",
+            "Bingsheng He"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "1907.09693",
+          "title": "A Survey on Federated Learning Systems: Vision, Hype and Reality for Data Privacy and Protection",
+          "abstract": "Federated learning has been a hot research topic in enabling the collaborative training of machine learning models among different organizations under the privacy restrictions. As researchers try to support more machine learning models with different privacy-preserving approaches, there is a requirement in developing systems and infrastructures to ease the development of various federated learning algorithms. Similar to deep learning systems such as PyTorch and TensorFlow that boost the development of deep learning, federated learning systems (FLSs) are equivalently important, and face challenges from various aspects such as effectiveness, efficiency, and privacy. In this survey, we conduct a comprehensive review on federated learning systems. To achieve smooth flow and guide future research, we introduce the definition of federated learning systems and analyze the system components. Moreover, we provide a thorough categorization for federated learning systems according to six different aspects, including data distribution, machine learning model, privacy mechanism, communication architecture, scale of federation and motivation of federation. The categorization can help the design of federated learning systems as shown in our case studies. By systematically summarizing the existing federated learning systems, we present the design factors, case studies, and future research opportunities.",
+          "year": "2019",
+          "authors": [
+            "Qinbin Li",
+            "Zeyi Wen",
+            "Zhaomin Wu",
+            "Sixu Hu",
+            "Naibo Wang",
+            "Yuan Li",
+            "Xu Liu",
+            "Bingsheng He"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 0.6293706293706294,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 9,
+      "raw": "Terrail, J. O., et al. (2022). Fed-BioMed: Open, Transparent and Reproducible Federated Learning for Healthcare. arXiv:2206.09562v1.",
+      "parsed": {
+        "title": "Fed-BioMed: Open, Transparent and Reproducible Federated Learning for Healthcare",
+        "authors": "Terrail, J. O., et al",
+        "year": "2022",
+        "arxiv_id": "2206.09562v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Single-Qubit Reaped Quantum State Tomography",
+          "arxiv_id": "2206.09562",
+          "doi": null,
+          "year": "2022",
+          "authors": [
+            "Mahn-Soo Choi"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "2206.09562",
+          "title": "Single-Qubit Reaped Quantum State Tomography",
+          "abstract": "Quantum state tomography is the experimental procedure of determining an unknown state. It is not only essential for the verification of resources and processors of quantum information but is also important in its own right with regard to the foundation of quantum mechanics. Standard methods have been elusive for large systems because of the enormous number of observables to be measured and the exponential complexity of data post-processing. Here, we propose a new scheme of quantum state tomography that requires the measurement of only three observables (acting jointly on the system and pointer) regardless of the size of the system. The system is coupled to a \"pointer\" of single qubit, and the wavefunction of the system is \"reaped\" onto the pointer upon the measurement of the system. Subsequently, standard two-state tomography on the pointer and classical post-processing are used to reconstruct the quantum state of the system. We also developed an efficient and scalable iterative maximum likelihood algorithm to estimate states from statistically incomplete data.",
+          "year": "2022",
+          "authors": [
+            "Mahn-Soo Choi"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 0.21311475409836064,
+        "id_match": true
+      }
+    }
+  ]
+}

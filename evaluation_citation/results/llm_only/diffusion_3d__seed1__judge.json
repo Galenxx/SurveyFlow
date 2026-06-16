@@ -1,0 +1,117 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "diffusion_3d",
+  "seed": 1,
+  "topic": "Diffusion Models for 3D Shape and Scene Generation: Methods, Representations, and Evaluation",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "The paper introduces denoising diffusion probabilistic models for 2D image synthesis and does not address 3D shape or scene generation, which is the focus of the survey."
+      }
+    },
+    {
+      "ref_id": 1,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 2,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper introduces a diffusion model for 3D shape generation and completion, directly aligning with the survey's focus on diffusion models for 3D shape generation."
+      }
+    },
+    {
+      "ref_id": 3,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper introduces a latent diffusion model for 3D shape generation, directly addressing the survey's core topic of diffusion models for 3D shape generation, and it covers methods, representations, and evaluation aspects."
+      }
+    },
+    {
+      "ref_id": 4,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a method for text- and shape-guided 3D shape generation using latent diffusion models and NeRF, which directly addresses the survey's focus on diffusion models for 3D shape generation."
+      }
+    },
+    {
+      "ref_id": 5,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper introduces a method for text-to-3D generation using 2D diffusion models as priors, directly contributing to the survey's focus on diffusion models for 3D shape generation."
+      }
+    },
+    {
+      "ref_id": 6,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a diffusion-based method for 3D shape generation using triplane representations, which directly aligns with the survey's focus on diffusion models for 3D shape generation and representations."
+      }
+    },
+    {
+      "ref_id": 7,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a diffusion-based method for generating 3D point clouds from text prompts, which directly aligns with the survey's focus on diffusion models for 3D shape generation."
+      }
+    },
+    {
+      "ref_id": 8,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a diffusion-based generative model for 3D shapes using implicit function representations, which is directly within the survey's scope of diffusion models for 3D shape generation, methods, and representations."
+      }
+    },
+    {
+      "ref_id": 9,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a diffusion model for 3D shape generation, completion, and reconstruction from multimodal inputs, which directly aligns with the survey's focus on diffusion models for 3D shape generation."
+      }
+    }
+  ],
+  "aggregate": {
+    "score": 80.0,
+    "n_relevant": 8,
+    "n_partial": 0,
+    "n_irrelevant": 2,
+    "n_error": 0,
+    "n_judged": 10
+  }
+}

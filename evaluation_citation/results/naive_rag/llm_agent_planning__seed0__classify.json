@@ -1,0 +1,63 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "llm_agent_planning",
+  "seed": 0,
+  "topic": "Planning and Reasoning in Large Language Model Agents: Methods, Tool Use, and Evaluation Benchmarks",
+  "n_references": 7,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "label": "METADATA_PARSE_ERROR",
+      "reason": "no extractable title from the reference line",
+      "verdict": "NOT_FOUND"
+    },
+    {
+      "ref_id": 1,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 2,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 3,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MISSING_ID)",
+      "verdict": "MISSING_ID"
+    },
+    {
+      "ref_id": 4,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 5,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 6,
+      "label": "METADATA_PARSE_ERROR",
+      "reason": "no extractable title from the reference line",
+      "verdict": "NOT_FOUND"
+    }
+  ],
+  "distribution": {
+    "RESOLVED": 5,
+    "METADATA_PARSE_ERROR": 2,
+    "ID_EXTRACTION_FAIL": 0,
+    "DEDUP_COLLISION": 0,
+    "GENUINELY_FABRICATED": 0,
+    "PLACEHOLDER_PADDING": 0
+  },
+  "n_resolved": 5,
+  "n_padding": 0,
+  "n_failures": 2,
+  "n_genuinely_fabricated": 0
+}

@@ -1,0 +1,97 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\llm_only\\Detection_of_Misinformation_and_Harmful_Content_on__glm-5.1__seed2.md",
+  "topic": "3 Multimodal Approaches for Video Misinformation Detection",
+  "n_references": 10,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Wang, Y., Ma, F., Jin, Z., Yuan, Y., Xun, G., Jha, K., Su, L., & Gao, J. (2018). EANN: Event Adversarial Neural Networks for Multi-Modal Fake News Detection. arXiv:1803.07509v1.",
+      "title": "EANN: Event Adversarial Neural Networks for Multi-Modal Fake News Detection",
+      "authors": "Wang, Y., Ma, F., Jin, Z., Yuan, Y., Xun, G., Jha, K., Su, L., & Gao, J",
+      "year": "2018",
+      "arxiv_id": "1803.07509v1",
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Baltrušaitis, T., Ahuja, C., & Morency, L. P. (2017). Multimodal Machine Learning: A Survey and Taxonomy. arXiv:1705.09406v1.",
+      "title": "Multimodal Machine Learning: A Survey and Taxonomy",
+      "authors": "Baltrušaitis, T., Ahuja, C., & Morency, L. P",
+      "year": "2017",
+      "arxiv_id": "1705.09406v1",
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Nakamura, K., Levy, S., & Wang, W. Y. (2019). Fakeddit: A New Multimodal Benchmark Dataset for Fake News Detection. arXiv:1911.03854v1.",
+      "title": "Fakeddit: A New Multimodal Benchmark Dataset for Fake News Detection",
+      "authors": "Nakamura, K., Levy, S., & Wang, W. Y",
+      "year": "2019",
+      "arxiv_id": "1911.03854v1",
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Mathew, B., Kumar, N., Goyal, P., & Mukherjee, A. (2020). HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection. arXiv:2012.03658v2.",
+      "title": "HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection",
+      "authors": "Mathew, B., Kumar, N., Goyal, P., & Mukherjee, A",
+      "year": "2020",
+      "arxiv_id": "2012.03658v2",
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Davidson, T., Warmsley, D., Macy, M., & Weber, I. (2017). Automated Hate Speech Detection and the Problem of Offensive Language. arXiv:1703.04009v1.",
+      "title": "Automated Hate Speech Detection and the Problem of Offensive Language",
+      "authors": "Davidson, T., Warmsley, D., Macy, M., & Weber, I",
+      "year": "2017",
+      "arxiv_id": "1703.04009v1",
+      "doi": null
+    },
+    {
+      "ref_id": 5,
+      "raw": "Rossler, A., Cozzolino, D., Verdoliva, L., Riess, C., Thies, J., & Niessner, M. (2019). FaceForensics++: Learning to Detect Manipulated Facial Images. arXiv:1901.08971v1.",
+      "title": "FaceForensics++: Learning to Detect Manipulated Facial Images",
+      "authors": "Rossler, A., Cozzolino, D., Verdoliva, L., Riess, C., Thies, J., & Niessner, M",
+      "year": "2019",
+      "arxiv_id": "1901.08971v1",
+      "doi": null
+    },
+    {
+      "ref_id": 6,
+      "raw": "Li, L. H., Yatskar, M., Yin, D., Hsieh, C. J., & Chang, K. W. (2019). VisualBERT: A Simple and Performant Baseline for Vision and Language. arXiv:1908.03557v2.",
+      "title": "VisualBERT: A Simple and Performant Baseline for Vision and Language",
+      "authors": "Li, L. H., Yatskar, M., Yin, D., Hsieh, C. J., & Chang, K. W",
+      "year": "2019",
+      "arxiv_id": "1908.03557v2",
+      "doi": null
+    },
+    {
+      "ref_id": 7,
+      "raw": "Shu, K., Sliva, A., Wang, S., Tang, J., & Liu, H. (2017). Fake News Detection on Social Media: A Data Mining Perspective. arXiv:1708.01931v1.",
+      "title": "Fake News Detection on Social Media: A Data Mining Perspective",
+      "authors": "Shu, K., Sliva, A., Wang, S., Tang, J., & Liu, H",
+      "year": "2017",
+      "arxiv_id": "1708.01931v1",
+      "doi": null
+    },
+    {
+      "ref_id": 8,
+      "raw": "Radford, A., Kim, J. W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry, G., Askell, A., Mishkin, P., Clark, J., Krueger, G., & Sutskever, I. (2021). Learning Transferable Visual Models From Natural Language Supervision. arXiv:2103.00020v1.",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "authors": "Radford, A., Kim, J. W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry, G., Askell, A., Mishkin, P., Clark, J., Krueger, G., & Sutskever, I",
+      "year": "2021",
+      "arxiv_id": "2103.00020v1",
+      "doi": null
+    },
+    {
+      "ref_id": 9,
+      "raw": "Du, Y., Liu, Z., Li, Z., Wang, W., Lin, H., Zhang, M., Liu, N., & Wu, W. (2022). Multimodal Learning with Transformers: A Survey. arXiv:2206.06488v1.",
+      "title": "Multimodal Learning with Transformers: A Survey",
+      "authors": "Du, Y., Liu, Z., Li, Z., Wang, W., Lin, H., Zhang, M., Liu, N., & Wu, W",
+      "year": "2022",
+      "arxiv_id": "2206.06488v1",
+      "doi": null
+    }
+  ]
+}

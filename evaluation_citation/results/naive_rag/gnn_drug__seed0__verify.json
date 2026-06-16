@@ -1,0 +1,97 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "gnn_drug",
+  "seed": 0,
+  "topic": "Graph Neural Networks for Drug Discovery and Molecular Property Prediction",
+  "n_references": 2,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Nguyen, C. Q., Kreatsoulas, C., & Branson, K. (2020). Meta-Learning GNN Initializations for Low-Resource Molecular Property Prediction.",
+      "parsed": {
+        "title": "Meta-Learning GNN Initializations for Low-Resource Molecular Property Prediction",
+        "authors": "Nguyen, C. Q., Kreatsoulas, C., & Branson, K",
+        "year": "2020",
+        "arxiv_id": null,
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "title_search",
+      "candidates": [
+        {
+          "title": "Meta-Learning GNN Initializations for Low-Resource Molecular Property Prediction",
+          "arxiv_id": "2003.05996",
+          "doi": null,
+          "year": "2020",
+          "authors": [
+            "Cuong Q. Nguyen",
+            "Constantine Kreatsoulas",
+            "Kim M. Branson"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISSING_ID",
+        "best_hit": {
+          "arxiv_id": "2003.05996",
+          "title": "Meta-Learning GNN Initializations for Low-Resource Molecular Property Prediction",
+          "abstract": "Building in silico models to predict chemical properties and activities is a crucial step in drug discovery. However, limited labeled data often hinders the application of deep learning in this setting. Meanwhile advances in meta-learning have enabled state-of-the-art performances in few-shot learning benchmarks, naturally prompting the question: Can meta-learning improve deep learning performance in low-resource drug discovery projects? In this work, we assess the transferability of graph neural networks initializations learned by the Model-Agnostic Meta-Learning (MAML) algorithm - and its variants FO-MAML and ANIL - for chemical properties and activities tasks. Using the ChEMBL20 dataset to emulate low-resource settings, our benchmark shows that meta-initializations perform comparably to or outperform multi-task pre-training baselines on 16 out of 20 in-distribution tasks and on all out-of-distribution tasks, providing an average improvement in AUPRC of 11.2% and 26.9% respectively. Finally, we observe that meta-initializations consistently result in the best performing models across fine-tuning sets with $k \\in \\{16, 32, 64, 128, 256\\}$ instances.",
+          "year": "2020",
+          "authors": [
+            "Cuong Q. Nguyen",
+            "Constantine Kreatsoulas",
+            "Kim M. Branson"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Jiang, T., Wang, Z., Yu, S., & Xuan, Q. (2025). Adaptive Substructure-Aware Expert Model for Molecular Property Prediction. arXiv:2504.05844.",
+      "parsed": {
+        "title": "Adaptive Substructure-Aware Expert Model for Molecular Property Prediction",
+        "authors": "Jiang, T., Wang, Z., Yu, S., & Xuan, Q",
+        "year": "2025",
+        "arxiv_id": "2504.05844",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Adaptive Substructure-Aware Expert Model for Molecular Property Prediction",
+          "arxiv_id": "2504.05844",
+          "doi": null,
+          "year": "2025",
+          "authors": [
+            "Tianyi Jiang",
+            "Zeyu Wang",
+            "Shanqing Yu",
+            "Qi Xuan"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2504.05844",
+          "title": "Adaptive Substructure-Aware Expert Model for Molecular Property Prediction",
+          "abstract": "Molecular property prediction is essential for applications such as drug discovery and toxicity assessment. While Graph Neural Networks (GNNs) have shown promising results by modeling molecules as molecular graphs, their reliance on data-driven learning limits their ability to generalize, particularly in the presence of data imbalance and diverse molecular substructures. Existing methods often overlook the varying contributions of different substructures to molecular properties, treating them uniformly. To address these challenges, we propose ASE-Mol, a novel GNN-based framework that leverages a Mixture-of-Experts (MoE) approach for molecular property prediction. ASE-Mol incorporates BRICS decomposition and significant substructure awareness to dynamically identify positive and negative substructures. By integrating a MoE architecture, it reduces the adverse impact of negative motifs while improving adaptability to positive motifs. Experimental results on eight benchmark datasets demonstrate that ASE-Mol achieves state-of-the-art performance, with significant improvements in both accuracy and interpretability.",
+          "year": "2025",
+          "authors": [
+            "Tianyi Jiang",
+            "Zeyu Wang",
+            "Shanqing Yu",
+            "Qi Xuan"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "affective_remote_work",
+  "seed": 0,
+  "topic": "Affective Computing for Remote Workplace Monitoring: Sensing, Inference, and Ethical Considerations",
+  "n_references": 1,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "label": "ID_EXTRACTION_FAIL",
+      "reason": "title-only reference could not be pinned to one paper (verdict=NOT_FOUND)",
+      "verdict": "NOT_FOUND"
+    }
+  ],
+  "distribution": {
+    "RESOLVED": 0,
+    "METADATA_PARSE_ERROR": 0,
+    "ID_EXTRACTION_FAIL": 1,
+    "DEDUP_COLLISION": 0,
+    "GENUINELY_FABRICATED": 0,
+    "PLACEHOLDER_PADDING": 0
+  },
+  "n_resolved": 0,
+  "n_padding": 0,
+  "n_failures": 1,
+  "n_genuinely_fabricated": 0
+}

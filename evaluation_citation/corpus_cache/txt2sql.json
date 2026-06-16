@@ -1,0 +1,449 @@
+{
+  "arxiv_query": "(abs:\"text to sql\" AND abs:\"schema linking\" AND abs:\"nl2sql\" OR abs:\"sql generation\" OR abs:\"benchmark\" OR abs:\"robustness\" OR abs:\"llm\" OR abs:\"spider\" OR abs:\"bird\")",
+  "generic_arxiv_query": "(abs:\"text to sql\" AND abs:\"language model\") OR (abs:\"natural language\" AND abs:\"sql generation\")",
+  "s2_query": "text to sql generation large language models",
+  "s2_generic_query": "text to sql language models",
+  "survey_id": "corpus_txt2sql",
+  "tsv_path": "./data/tsv\\corpus_txt2sql.tsv",
+  "paper_list": [
+    {
+      "title": "GenEdit: Compounding Operators and Continuous Improvement to Tackle Text-to-SQL in the Enterprise",
+      "pdf_link": "",
+      "arxiv_id": "2503.21602",
+      "s2_id": "002e39f6fd78d2b4c4a0c28d9461b9daa31865bb",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Karime Maamari",
+        "Connor Landy",
+        "A. Mhedhbi"
+      ],
+      "source": "s2",
+      "citation_count": 2,
+      "year": 2025
+    },
+    {
+      "title": "A Modular Agent-Based Approach to Complex Data Question-Answering with SQL Generation and Parameter-Efficient Fine-Tuning",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "00d4d2b0748a3012571521d2e3960e7ac180975b",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Bingying Liu",
+        "Zhan Cheng",
+        "Yujing Liu",
+        "Yanxin Shen",
+        "Xiaojun Guo"
+      ],
+      "source": "s2",
+      "citation_count": 2,
+      "year": 2024
+    },
+    {
+      "title": "Capturing the Effects of Quantization on Trojans in Code LLMs",
+      "pdf_link": "",
+      "arxiv_id": "2505.14200",
+      "s2_id": "011e10d8de4cce18497731c6f1ef1081d96c8380",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Aftab Hussain",
+        "Sadegh AlMahdi Kazemi Zarkouei",
+        "Md Rafiqul Islam Rabin",
+        "Mohammad Amin Alipour",
+        "Sen Lin",
+        "Bowen Xu"
+      ],
+      "source": "s2",
+      "citation_count": 1,
+      "year": 2025
+    },
+    {
+      "title": "A Large Language Model approach to SQL-to-Text Generation",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "01e564bf0bd7923e84b07d47a7278196fa637fb6",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Vanessa Câmara",
+        "Rayol Mendonca-Neto",
+        "André Silva",
+        "Luiz Cordovil"
+      ],
+      "source": "s2",
+      "citation_count": 12,
+      "year": 2024
+    },
+    {
+      "title": "RAGSQL: Context Retrieval Evaluation on Augmenting Text-to-SQL Prompts",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "021afe7dabf04e1358559f5720bb36d9c464dc87",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Sergey Vichev",
+        "Angel Marchev"
+      ],
+      "source": "s2",
+      "citation_count": 4,
+      "year": 2024
+    },
+    {
+      "title": "V-SQL: A View-based Two-stage Text-to-SQL Framework",
+      "pdf_link": "",
+      "arxiv_id": "2502.15686",
+      "s2_id": "024e93b46cf7476f29867b2d13f91ec953e84afe",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Zeshun You",
+        "Jiebin Yao",
+        "Dong Cheng",
+        "Zhiwei Wen",
+        "Zhiliang Lu",
+        "Xianyi Shen"
+      ],
+      "source": "s2",
+      "citation_count": 2,
+      "year": 2024
+    },
+    {
+      "title": "Talking to Data: Designing Smart Assistants for Humanities Databases",
+      "pdf_link": "",
+      "arxiv_id": "2506.00986",
+      "s2_id": "02a2d86c226bffb2a47785d18faa474b94948413",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Alexander Sergeev",
+        "Valeriya Goloviznina",
+        "Mikhail Melnichenko",
+        "E. Kotelnikov"
+      ],
+      "source": "s2",
+      "citation_count": 1,
+      "year": 2025
+    },
+    {
+      "title": "Fine-Tuning Gemma-2B for Text-to-SQL Generation",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "04773fa5e838b187e857a6870ea4f58a1c4b2989",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Himadri Neogi",
+        "Jishnu Ray",
+        "Subhabrata Banerjee"
+      ],
+      "source": "s2",
+      "citation_count": 3,
+      "year": 2024
+    },
+    {
+      "title": "Enhancing Text-to-SQL Capabilities of Large Language Models through Tailored Promptings",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "05029b32c290adf87e56fde8585021a6c78600d4",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Zhao Tan",
+        "X. Liu",
+        "Qing Shu",
+        "Xi Li",
+        "Changxuan Wan",
+        "Dexi Liu",
+        "Qizhi Wan",
+        "Guoqiong Liao"
+      ],
+      "source": "s2",
+      "citation_count": 26,
+      "year": 2024
+    },
+    {
+      "title": "IESR:Efficient MCTS-Based Modular Reasoning for Text-to-SQL with Large Language Models",
+      "pdf_link": "",
+      "arxiv_id": "2602.05385",
+      "s2_id": "05dd62ea4c9207fd86196721b8578707cc27c159",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Tao Liu",
+        "Jiafan Lu",
+        "Bohan Yu",
+        "Pengcheng Wu",
+        "Haixin Liu",
+        "Guoyu Xu",
+        "Xiangheng Li",
+        "Lixiao Li",
+        "Jiaming Hou",
+        "Shijun Zhao",
+        "X. Lyu",
+        "Kunli Zhang",
+        "Yuxiang Jia",
+        "Hongying Zan"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2026
+    },
+    {
+      "title": "JOLT-SQL: Joint Loss Tuning of Text-to-SQL with Confusion-aware Noisy Schema Sampling",
+      "pdf_link": "http://arxiv.org/pdf/2505.14305v3",
+      "arxiv_id": "2505.14305v3",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Jinwang Song",
+        "Hongying Zan",
+        "Kunli Zhang",
+        "Lingling Mu",
+        "Yingjie Han",
+        "Haobo Hua",
+        "Min Peng"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    },
+    {
+      "title": "CodeS: Towards Building Open-source Language Models for Text-to-SQL",
+      "pdf_link": "http://arxiv.org/pdf/2402.16347v1",
+      "arxiv_id": "2402.16347v1",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Haoyang Li",
+        "Jing Zhang",
+        "Hanbing Liu",
+        "Ju Fan",
+        "Xiaokang Zhang",
+        "Jun Zhu",
+        "Renjie Wei",
+        "Hongyan Pan",
+        "Cuiping Li",
+        "Hong Chen"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    },
+    {
+      "title": "RSL-SQL: Robust Schema Linking in Text-to-SQL Generation",
+      "pdf_link": "http://arxiv.org/pdf/2411.00073v2",
+      "arxiv_id": "2411.00073v2",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Zhenbiao Cao",
+        "Yuanlei Zheng",
+        "Zhihao Fan",
+        "Xiaojin Zhang",
+        "Wei Chen",
+        "Xiang Bai"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    },
+    {
+      "title": "Solid-SQL: Enhanced Schema-linking based In-context Learning for Robust Text-to-SQL",
+      "pdf_link": "http://arxiv.org/pdf/2412.12522v1",
+      "arxiv_id": "2412.12522v1",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Geling Liu",
+        "Yunzhi Tan",
+        "Ruichao Zhong",
+        "Yuanzhen Xie",
+        "Lingchen Zhao",
+        "Qian Wang",
+        "Bo Hu",
+        "Zang Li"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    },
+    {
+      "title": "Rethinking Schema Linking: A Context-Aware Bidirectional Retrieval Approach for Text-to-SQL",
+      "pdf_link": "http://arxiv.org/pdf/2510.14296v2",
+      "arxiv_id": "2510.14296v2",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Md Mahadi Hasan Nahid",
+        "Davood Rafiei",
+        "Weiwei Zhang",
+        "Yong Zhang"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    }
+  ],
+  "download_status": {
+    "2503.21602": "success",
+    "2505.14200": "success",
+    "2502.15686": "success",
+    "2506.00986": "success",
+    "2602.05385": "success",
+    "2505.14305v3": "success",
+    "2402.16347v1": "success",
+    "2411.00073v2": "success",
+    "2412.12522v1": "success",
+    "2510.14296v2": "success"
+  },
+  "failed_papers": [],
+  "chroma_collections": [
+    "capturingtheeffectsofquantizationontrojansincodellma",
+    "iesrefficientmcts-basedmodularreasoningfortext-to-sqlwithlargea",
+    "geneditcompoundingoperatorsandcontinuousimprovementtotackletexa",
+    "codestowardsbuildingopen-sourcelanguagemodelsfortext-to-sqa",
+    "rethinkingschemalinkingacontext-awarebidirectionalretrievalappa",
+    "jolt-sqljointlosstuningoftext-to-sqlwithconfusion-awarenoisysca",
+    "talkingtodatadesigningsmartassistantsforhumanitiesdatabasea",
+    "solid-sqlenhancedschema-linkingbasedin-contextlearningforrobusa",
+    "v-sqlaview-basedtwo-stagetext-to-sqlframewora",
+    "rsl-sqlrobustschemalinkingintext-to-sqlgeneratioa"
+  ],
+  "total_chunks": 1194,
+  "embedding_status": {
+    "./data/arxiv_downloads\\corpus_txt2sql\\Capturing the Effects of Quantization on Trojans in Code LLMs.pdf": "success",
+    "./data/arxiv_downloads\\corpus_txt2sql\\IESR_Efficient MCTS-Based Modular Reasoning for Text-to-SQL with Large Language Models.pdf": "success",
+    "./data/arxiv_downloads\\corpus_txt2sql\\GenEdit_ Compounding Operators and Continuous Improvement to Tackle Text-to-SQL in the Enterprise.pdf": "success",
+    "./data/arxiv_downloads\\corpus_txt2sql\\CodeS_ Towards Building Open-source Language Models for Text-to-SQL.pdf": "success",
+    "./data/arxiv_downloads\\corpus_txt2sql\\Rethinking Schema Linking_ A Context-Aware Bidirectional Retrieval Approach for Text-to-SQL.pdf": "success",
+    "./data/arxiv_downloads\\corpus_txt2sql\\JOLT-SQL_ Joint Loss Tuning of Text-to-SQL with Confusion-aware Noisy Schema Sampling.pdf": "success",
+    "./data/arxiv_downloads\\corpus_txt2sql\\Talking to Data_ Designing Smart Assistants for Humanities Databases.pdf": "success",
+    "./data/arxiv_downloads\\corpus_txt2sql\\Solid-SQL_ Enhanced Schema-linking based In-context Learning for Robust Text-to-SQL.pdf": "success",
+    "./data/arxiv_downloads\\corpus_txt2sql\\V-SQL_ A View-based Two-stage Text-to-SQL Framework.pdf": "success",
+    "./data/arxiv_downloads\\corpus_txt2sql\\RSL-SQL_ Robust Schema Linking in Text-to-SQL Generation.pdf": "success"
+  },
+  "citation_paper_meta": {
+    "capturingtheeffectsofquantizationontrojansincodellma": {
+      "title": "Capturing the Effects of Quantization on Trojans in Code LLMs",
+      "authors": [
+        "Aftab Hussain",
+        "Sadegh AlMahdi Kazemi Zarkouei",
+        "Md Rafiqul Islam Rabin",
+        "Mohammad Amin Alipour",
+        "Sen Lin",
+        "Bowen Xu"
+      ],
+      "year": 2025,
+      "arxiv_id": "2505.14200",
+      "s2_id": "011e10d8de4cce18497731c6f1ef1081d96c8380"
+    },
+    "iesrefficientmcts-basedmodularreasoningfortext-to-sqlwithlargea": {
+      "title": "A Modular Agent-Based Approach to Complex Data Question-Answering with SQL Generation and Parameter-Efficient Fine-Tuning",
+      "authors": [
+        "Bingying Liu",
+        "Zhan Cheng",
+        "Yujing Liu",
+        "Yanxin Shen",
+        "Xiaojun Guo"
+      ],
+      "year": 2024,
+      "arxiv_id": "",
+      "s2_id": "00d4d2b0748a3012571521d2e3960e7ac180975b"
+    },
+    "geneditcompoundingoperatorsandcontinuousimprovementtotackletexa": {
+      "title": "GenEdit: Compounding Operators and Continuous Improvement to Tackle Text-to-SQL in the Enterprise",
+      "authors": [
+        "Karime Maamari",
+        "Connor Landy",
+        "A. Mhedhbi"
+      ],
+      "year": 2025,
+      "arxiv_id": "2503.21602",
+      "s2_id": "002e39f6fd78d2b4c4a0c28d9461b9daa31865bb"
+    },
+    "codestowardsbuildingopen-sourcelanguagemodelsfortext-to-sqa": {
+      "title": "A Large Language Model approach to SQL-to-Text Generation",
+      "authors": [
+        "Vanessa Câmara",
+        "Rayol Mendonca-Neto",
+        "André Silva",
+        "Luiz Cordovil"
+      ],
+      "year": 2024,
+      "arxiv_id": "",
+      "s2_id": "01e564bf0bd7923e84b07d47a7278196fa637fb6"
+    },
+    "rethinkingschemalinkingacontext-awarebidirectionalretrievalappa": {
+      "title": "A Large Language Model approach to SQL-to-Text Generation",
+      "authors": [
+        "Vanessa Câmara",
+        "Rayol Mendonca-Neto",
+        "André Silva",
+        "Luiz Cordovil"
+      ],
+      "year": 2024,
+      "arxiv_id": "",
+      "s2_id": "01e564bf0bd7923e84b07d47a7278196fa637fb6"
+    },
+    "jolt-sqljointlosstuningoftext-to-sqlwithconfusion-awarenoisysca": {
+      "title": "Fine-Tuning Gemma-2B for Text-to-SQL Generation",
+      "authors": [
+        "Himadri Neogi",
+        "Jishnu Ray",
+        "Subhabrata Banerjee"
+      ],
+      "year": 2024,
+      "arxiv_id": "",
+      "s2_id": "04773fa5e838b187e857a6870ea4f58a1c4b2989"
+    },
+    "talkingtodatadesigningsmartassistantsforhumanitiesdatabasea": {
+      "title": "Talking to Data: Designing Smart Assistants for Humanities Databases",
+      "authors": [
+        "Alexander Sergeev",
+        "Valeriya Goloviznina",
+        "Mikhail Melnichenko",
+        "E. Kotelnikov"
+      ],
+      "year": 2025,
+      "arxiv_id": "2506.00986",
+      "s2_id": "02a2d86c226bffb2a47785d18faa474b94948413"
+    },
+    "solid-sqlenhancedschema-linkingbasedin-contextlearningforrobusa": {
+      "title": "RAGSQL: Context Retrieval Evaluation on Augmenting Text-to-SQL Prompts",
+      "authors": [
+        "Sergey Vichev",
+        "Angel Marchev"
+      ],
+      "year": 2024,
+      "arxiv_id": "",
+      "s2_id": "021afe7dabf04e1358559f5720bb36d9c464dc87"
+    },
+    "v-sqlaview-basedtwo-stagetext-to-sqlframewora": {
+      "title": "V-SQL: A View-based Two-stage Text-to-SQL Framework",
+      "authors": [
+        "Zeshun You",
+        "Jiebin Yao",
+        "Dong Cheng",
+        "Zhiwei Wen",
+        "Zhiliang Lu",
+        "Xianyi Shen"
+      ],
+      "year": 2024,
+      "arxiv_id": "2502.15686",
+      "s2_id": "024e93b46cf7476f29867b2d13f91ec953e84afe"
+    },
+    "rsl-sqlrobustschemalinkingintext-to-sqlgeneratioa": {
+      "title": "A Large Language Model approach to SQL-to-Text Generation",
+      "authors": [
+        "Vanessa Câmara",
+        "Rayol Mendonca-Neto",
+        "André Silva",
+        "Luiz Cordovil"
+      ],
+      "year": 2024,
+      "arxiv_id": "",
+      "s2_id": "01e564bf0bd7923e84b07d47a7278196fa637fb6"
+    }
+  },
+  "_corpus_stats": {
+    "topic_id": "txt2sql",
+    "survey_id": "corpus_txt2sql",
+    "n_papers_in_list": 15,
+    "n_collections": 10,
+    "total_chunks": 1194,
+    "n_citation_meta": 10
+  }
+}

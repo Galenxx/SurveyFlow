@@ -1,0 +1,81 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "neural_audio_codec",
+  "seed": 1,
+  "topic": "Neural Audio Codecs and Discrete Speech Representations: Architectures, Tokenization, and Generative Applications",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 1,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 2,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 3,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 4,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 5,
+      "label": "DEDUP_COLLISION",
+      "reason": "identifier resolves to a different paper than the title (id/title mismatch)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 6,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 7,
+      "label": "DEDUP_COLLISION",
+      "reason": "identifier resolves to a different paper than the title (id/title mismatch)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 8,
+      "label": "DEDUP_COLLISION",
+      "reason": "identifier resolves to a different paper than the title (id/title mismatch)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 9,
+      "label": "DEDUP_COLLISION",
+      "reason": "identifier resolves to a different paper than the title (id/title mismatch)",
+      "verdict": "MISMATCH"
+    }
+  ],
+  "distribution": {
+    "RESOLVED": 6,
+    "METADATA_PARSE_ERROR": 0,
+    "ID_EXTRACTION_FAIL": 0,
+    "DEDUP_COLLISION": 4,
+    "GENUINELY_FABRICATED": 0,
+    "PLACEHOLDER_PADDING": 0
+  },
+  "n_resolved": 6,
+  "n_padding": 0,
+  "n_failures": 4,
+  "n_genuinely_fabricated": 0
+}

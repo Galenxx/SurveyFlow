@@ -1,0 +1,128 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "federated_health",
+  "seed": 2,
+  "topic": "Federated Learning for Privacy-Preserving Healthcare: Architectures, Communication Efficiency, and Clinical Deployment",
+  "metrics": {
+    "n_cited_claims": 6,
+    "support_total": 3.5,
+    "citation_recall": 0.5833,
+    "n_supported": 3,
+    "n_partial": 1,
+    "n_unsupported": 2,
+    "n_error": 0,
+    "n_citation_mounts": 6,
+    "n_contributing": 4,
+    "contributing_weight": 3.5,
+    "citation_precision": 0.5833,
+    "n_not_verifiable": 0,
+    "n_claims": 38,
+    "n_claims_with_cite": 6,
+    "n_claims_bare": 32,
+    "bare_assertion_rate": 0.8421
+  },
+  "per_sentence": [
+    {
+      "sent_id": 32,
+      "section_title": "3 Architectures for Federated Learning in Healthcare",
+      "text": "This architecture is the foundation of the seminal Federated Averaging (FedAvg) algorithm, which remains the baseline for multi-institutional medical collaborations (McMahan et al., 2017).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The cited paper explicitly presents a federated learning method based on iterative model averaging (FedAvg) and demonstrates its effectiveness, directly supporting the claim that this architecture is the foundation of the FedAvg algorithm.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 40,
+      "section_title": "3 Architectures for Federated Learning in Healthcare",
+      "text": "Furthermore, the development of open-source platforms tailored for medical FL, such as Fed-BioMed, has streamlined the deployment of these architectures, providing researchers with the necessary tools to implement secure, reproducible, and transparent medical FL applications (Terrail et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 9
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper is about quantum state tomography and has no connection to medical federated learning, open-source platforms, or Fed-BioMed.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 46,
+      "section_title": "4 Communication Efficiency in Federated Healthcare Systems",
+      "text": "For instance, algorithms like FedProx modify the local objective function by adding a proximal term, which restricts local updates from diverging too far from the global model, thereby accelerating convergence under the statistical heterogeneity typical of medical data (Li et al., 2020).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that FedProx modifies the local objective by adding a proximal term, provides convergence guarantees under statistical heterogeneity, and demonstrates more stable and accurate convergence in heterogeneous settings.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 54,
+      "section_title": "5 Privacy-Preserving Mechanisms and Threat Models",
+      "text": "Research has demonstrated that deep leakage from gradients can reconstruct pixel-perfect copies of training images, posing a severe risk to patient confidentiality (Zhu et al., 2019).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The cited paper demonstrates pixel-wise accurate image reconstruction from gradients, supporting the technical claim, but does not mention patient confidentiality or medical data, so the specific risk to patient confidentiality is not directly supported.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 64,
+      "section_title": "6 Clinical Deployment and Real-World Applications",
+      "text": "The first major multi-institutional FL study demonstrated that a globally trained model could achieve performance comparable to a model trained on centrally pooled data, without sharing patient scans (Sheller et al., 2018).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states this is the first use of federated learning for multi-institutional collaboration and shows that federated model performance (Dice=0.852) is similar to a data-sharing model (Dice=0.862) without sharing patient data.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 66,
+      "section_title": "6 Clinical Deployment and Real-World Applications",
+      "text": "The future of digital health with federated learning also extends to genomics, where FL enables the analysis of rare genetic variants across biobanks without transferring raw genomic data (Rieke et al., 2020).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses federated learning for digital health in general but does not mention genomics, rare genetic variants, or biobanks, so it provides no evidence for the specific claim.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

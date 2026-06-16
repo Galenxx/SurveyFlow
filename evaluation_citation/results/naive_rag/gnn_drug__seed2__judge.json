@@ -1,0 +1,37 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "gnn_drug",
+  "seed": 2,
+  "topic": "Graph Neural Networks for Drug Discovery and Molecular Property Prediction",
+  "n_references": 2,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "identification_verdict": "MISSING_ID",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper directly addresses molecular property prediction with graph neural networks in low-data drug discovery settings, making it a representative work for the survey topic."
+      }
+    },
+    {
+      "ref_id": 1,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a GNN-based framework for molecular property prediction, which is directly within the scope of the survey on Graph Neural Networks for Drug Discovery and Molecular Property Prediction."
+      }
+    }
+  ],
+  "aggregate": {
+    "score": 100.0,
+    "n_relevant": 2,
+    "n_partial": 0,
+    "n_irrelevant": 0,
+    "n_error": 0,
+    "n_judged": 2
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "diffusion_3d",
+  "seed": 0,
+  "topic": "Diffusion Models for 3D Shape and Scene Generation: Methods, Representations, and Evaluation",
+  "n_references": 2,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Zhou, C., Zhong, F., Xia, W., Miao, A., Baykal, C., & Öztireli, C. (2026). Quartet of Diffusions: Structure-Aware Point Cloud Generation through Part and Symmetry Guidance. arXiv:2601.20425.",
+      "parsed": {
+        "title": "Quartet of Diffusions: Structure-Aware Point Cloud Generation through Part and Symmetry Guidance",
+        "authors": "Zhou, C., Zhong, F., Xia, W., Miao, A., Baykal, C., & Öztireli, C",
+        "year": "2026",
+        "arxiv_id": "2601.20425",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Quartet of Diffusions: Structure-Aware Point Cloud Generation through Part and Symmetry Guidance",
+          "arxiv_id": "2601.20425",
+          "doi": null,
+          "year": "2026",
+          "authors": [
+            "Chenliang Zhou",
+            "Fangcheng Zhong",
+            "Weihao Xia",
+            "Albert Miao",
+            "Canberk Baykal",
+            "Cengiz Oztireli"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2601.20425",
+          "title": "Quartet of Diffusions: Structure-Aware Point Cloud Generation through Part and Symmetry Guidance",
+          "abstract": "We introduce the Quartet of Diffusions, a structure-aware point cloud generation framework that explicitly models part composition and symmetry. Unlike prior methods that treat shape generation as a holistic process or only support part composition, our approach leverages four coordinated diffusion models to learn distributions of global shape latents, symmetries, semantic parts, and their spatial assembly. This structured pipeline ensures guaranteed symmetry, coherent part placement, and diverse, high-quality outputs. By disentangling the generative process into interpretable components, our method supports fine-grained control over shape attributes, enabling targeted manipulation of individual parts while preserving global consistency. A central global latent further reinforces structural coherence across assembled parts. Our experiments show that the Quartet achieves state-of-the-art performance. To our best knowledge, this is the first 3D point cloud generation framework that fully integrates and enforces both symmetry and part priors throughout the generative process.",
+          "year": "2026",
+          "authors": [
+            "Chenliang Zhou",
+            "Fangcheng Zhong",
+            "Weihao Xia",
+            "Albert Miao",
+            "Canberk Baykal",
+            "Cengiz Oztireli"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Li, H., Feng, Y., Meng, M., Yang, Y., Liu, X., & Zhang, B. (2026). Dual Diffusion Models for Multi-modal Guided 3D Avatar Generation. arXiv:2603.04307.",
+      "parsed": {
+        "title": "Dual Diffusion Models for Multi-modal Guided 3D Avatar Generation",
+        "authors": "Li, H., Feng, Y., Meng, M., Yang, Y., Liu, X., & Zhang, B",
+        "year": "2026",
+        "arxiv_id": "2603.04307",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Dual Diffusion Models for Multi-modal Guided 3D Avatar Generation",
+          "arxiv_id": "2603.04307",
+          "doi": null,
+          "year": "2026",
+          "authors": [
+            "Hong Li",
+            "Yutang Feng",
+            "Minqi Meng",
+            "Yichen Yang",
+            "Xuhui Liu",
+            "Baochang Zhang"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2603.04307",
+          "title": "Dual Diffusion Models for Multi-modal Guided 3D Avatar Generation",
+          "abstract": "Generating high-fidelity 3D avatars from text or image prompts is highly sought after in virtual reality and human-computer interaction. However, existing text-driven methods often rely on iterative Score Distillation Sampling (SDS) or CLIP optimization, which struggle with fine-grained semantic control and suffer from excessively slow inference. Meanwhile, image-driven approaches are severely bottlenecked by the scarcity and high acquisition cost of high-quality 3D facial scans, limiting model generalization. To address these challenges, we first construct a novel, large-scale dataset comprising over 100,000 pairs across four modalities: fine-grained textual descriptions, in-the-wild face images, high-quality light-normalized texture UV maps, and 3D geometric shapes. Leveraging this comprehensive dataset, we propose PromptAvatar, a framework featuring dual diffusion models. Specifically, it integrates a Texture Diffusion Model (TDM) that supports flexible multi-condition guidance from text and/or image prompts, alongside a Geometry Diffusion Model (GDM) guided by text prompts. By learning the direct mapping from multi-modal prompts to 3D representations, PromptAvatar eliminates the need for time-consuming iterative optimization, successfully generating high-fidelity, shading-free 3D avatars in under 10 seconds. Extensive quantitative and qualitative experiments demonstrate that our method significantly outperforms existing state-of-the-art approaches in generation quality, fine-grained detail alignment, and computational efficiency.",
+          "year": "2026",
+          "authors": [
+            "Hong Li",
+            "Yutang Feng",
+            "Minqi Meng",
+            "Yichen Yang",
+            "Xuhui Liu",
+            "Baochang Zhang"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    }
+  ]
+}

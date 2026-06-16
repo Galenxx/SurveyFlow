@@ -1,0 +1,97 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\llm_only\\Diffusion_Models_for_3D_Shape_and_Scene_Generation__glm-5.1__seed2.md",
+  "topic": "3 3D Representations for Diffusion Models",
+  "n_references": 10,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Ben Poole, Ajay Jain, Jonathan T. Barron, Ben Mildenhall. (2022). DreamFusion: Text-to-3D using 2D Diffusion. arXiv:2209.14988v1.",
+      "title": "DreamFusion: Text-to-3D using 2D Diffusion",
+      "authors": "Ben Poole, Ajay Jain, Jonathan T. Barron, Ben Mildenhall",
+      "year": "2022",
+      "arxiv_id": "2209.14988v1",
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Alex Nichol, Heewoo Jun, Prafulla Dhariwal, Pamela Mishkin, Mark Chen. (2022). Point-E: A System for Generating 3D Point Clouds from Complex Prompts. arXiv:2212.08751v1.",
+      "title": "Point-E: A System for Generating 3D Point Clouds from Complex Prompts",
+      "authors": "Alex Nichol, Heewoo Jun, Prafulla Dhariwal, Pamela Mishkin, Mark Chen",
+      "year": "2022",
+      "arxiv_id": "2212.08751v1",
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Heewoo Jun, Alex Nichol. (2023). Shap-E: Generating Conditional 3D Implicit Functions. arXiv:2305.02463v1.",
+      "title": "Shap-E: Generating Conditional 3D Implicit Functions",
+      "authors": "Heewoo Jun, Alex Nichol",
+      "year": "2023",
+      "arxiv_id": "2305.02463v1",
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Chen-Hsuan Lin, Jun Gao, Luming Tang, Towaki Takikawa, Xiaohui Zeng, Xun Huang, Karsten Kreis, Sanja Fidler, Ming-Yu Liu, Tsung-Yi Lin. (2023). Magic3D: High-Resolution Text-to-3D Content Creation. arXiv:2211.10440v1.",
+      "title": "Magic3D: High-Resolution Text-to-3D Content Creation",
+      "authors": "Chen-Hsuan Lin, Jun Gao, Luming Tang, Towaki Takikawa, Xiaohui Zeng, Xun Huang, Karsten Kreis, Sanja Fidler, Ming-Yu Liu, Tsung-Yi Lin",
+      "year": "2023",
+      "arxiv_id": "2211.10440v1",
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Haochen Wang, Xiaodan Du, Jiahao Li, Raymond A. Yeh, Greg Shakhnarovich. (2022). Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation. arXiv:2212.00774v1.",
+      "title": "Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation",
+      "authors": "Haochen Wang, Xiaodan Du, Jiahao Li, Raymond A. Yeh, Greg Shakhnarovich",
+      "year": "2022",
+      "arxiv_id": "2212.00774v1",
+      "doi": null
+    },
+    {
+      "ref_id": 5,
+      "raw": "Gal Metzer, Elad Richardson, Or Patashnik, Raja Giryes, Daniel Cohen-Or. (2023). Latent-NeRF for Shape-Guided Generation of 3D Shapes and Textures. arXiv:2211.07600v1.",
+      "title": "Latent-NeRF for Shape-Guided Generation of 3D Shapes and Textures",
+      "authors": "Gal Metzer, Elad Richardson, Or Patashnik, Raja Giryes, Daniel Cohen-Or",
+      "year": "2023",
+      "arxiv_id": "2211.07600v1",
+      "doi": null
+    },
+    {
+      "ref_id": 6,
+      "raw": "Lukas Höllein, Albarq Alawi, Ang Cao, Justin Johnson, Matthias Nießner. (2023). Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models. arXiv:2303.11989v1.",
+      "title": "Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models",
+      "authors": "Lukas Höllein, Albarq Alawi, Ang Cao, Justin Johnson, Matthias Nießner",
+      "year": "2023",
+      "arxiv_id": "2303.11989v1",
+      "doi": null
+    },
+    {
+      "ref_id": 7,
+      "raw": "Ayaan Haque, Michele Tancik, Alexei Efros, Aleksander Holynski, Angjoo Kanazawa. (2023). Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions. arXiv:2303.12789v1.",
+      "title": "Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions",
+      "authors": "Ayaan Haque, Michele Tancik, Alexei Efros, Aleksander Holynski, Angjoo Kanazawa",
+      "year": "2023",
+      "arxiv_id": "2303.12789v1",
+      "doi": null
+    },
+    {
+      "ref_id": 8,
+      "raw": "Yen-Chi Cheng, Chieh Hubert Lin, Hsin-Ying Lee, Jian Ren, Sergey Tulyakov, Min Sun. (2023). SDFusion: Multimodal 3D Shape Completion, Reconstruction, and Generation. arXiv:2212.04493v1.",
+      "title": "SDFusion: Multimodal 3D Shape Completion, Reconstruction, and Generation",
+      "authors": "Yen-Chi Cheng, Chieh Hubert Lin, Hsin-Ying Lee, Jian Ren, Sergey Tulyakov, Min Sun",
+      "year": "2023",
+      "arxiv_id": "2212.04493v1",
+      "doi": null
+    },
+    {
+      "ref_id": 9,
+      "raw": "Tengfei Wang, Bo Zhang, Ting Zhang, Shuyang Gu, Jianmin Bao, Tadas Baltrusaitis, Jingjing Shen, Dong Chen, Fang Wen, Qifeng Chen, Baining Guo. (2023). Rodin: A Generative Model for Sculpting 3D Digital Avatars Using Diffusion. arXiv:2212.06135v1.",
+      "title": "Rodin: A Generative Model for Sculpting 3D Digital Avatars Using Diffusion",
+      "authors": "Tengfei Wang, Bo Zhang, Ting Zhang, Shuyang Gu, Jianmin Bao, Tadas Baltrusaitis, Jingjing Shen, Dong Chen, Fang Wen, Qifeng Chen, Baining Guo",
+      "year": "2023",
+      "arxiv_id": "2212.06135v1",
+      "doi": null
+    }
+  ]
+}

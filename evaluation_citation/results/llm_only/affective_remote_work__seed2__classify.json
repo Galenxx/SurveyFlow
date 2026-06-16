@@ -1,0 +1,81 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "affective_remote_work",
+  "seed": 2,
+  "topic": "Affective Computing for Remote Workplace Monitoring: Sensing, Inference, and Ethical Considerations",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "label": "GENUINELY_FABRICATED",
+      "reason": "identifier present but no real candidate found (verdict=NOT_FOUND)",
+      "verdict": "NOT_FOUND"
+    },
+    {
+      "ref_id": 1,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 2,
+      "label": "METADATA_PARSE_ERROR",
+      "reason": "no extractable title from the reference line",
+      "verdict": "NOT_FOUND"
+    },
+    {
+      "ref_id": 3,
+      "label": "PLACEHOLDER_PADDING",
+      "reason": "forced placeholder reference (llm_only padding artifact)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 4,
+      "label": "PLACEHOLDER_PADDING",
+      "reason": "forced placeholder reference (llm_only padding artifact)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 5,
+      "label": "PLACEHOLDER_PADDING",
+      "reason": "forced placeholder reference (llm_only padding artifact)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 6,
+      "label": "PLACEHOLDER_PADDING",
+      "reason": "forced placeholder reference (llm_only padding artifact)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 7,
+      "label": "PLACEHOLDER_PADDING",
+      "reason": "forced placeholder reference (llm_only padding artifact)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 8,
+      "label": "PLACEHOLDER_PADDING",
+      "reason": "forced placeholder reference (llm_only padding artifact)",
+      "verdict": "MISMATCH"
+    },
+    {
+      "ref_id": 9,
+      "label": "PLACEHOLDER_PADDING",
+      "reason": "forced placeholder reference (llm_only padding artifact)",
+      "verdict": "MISMATCH"
+    }
+  ],
+  "distribution": {
+    "RESOLVED": 1,
+    "METADATA_PARSE_ERROR": 1,
+    "ID_EXTRACTION_FAIL": 0,
+    "DEDUP_COLLISION": 0,
+    "GENUINELY_FABRICATED": 1,
+    "PLACEHOLDER_PADDING": 7
+  },
+  "n_resolved": 1,
+  "n_padding": 7,
+  "n_failures": 2,
+  "n_genuinely_fabricated": 1
+}

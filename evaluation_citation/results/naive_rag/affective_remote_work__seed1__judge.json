@@ -1,0 +1,27 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "affective_remote_work",
+  "seed": 1,
+  "topic": "Affective Computing for Remote Workplace Monitoring: Sensing, Inference, and Ethical Considerations",
+  "n_references": 1,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "identification_verdict": "MISSING_ID",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper directly investigates attitudes toward Emotional AI (affective computing) in the workplace, covering sensing, inference, and ethical considerations, making it a representative work for the survey."
+      }
+    }
+  ],
+  "aggregate": {
+    "score": 100.0,
+    "n_relevant": 1,
+    "n_partial": 0,
+    "n_irrelevant": 0,
+    "n_error": 0,
+    "n_judged": 1
+  }
+}

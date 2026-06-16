@@ -1,0 +1,96 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "short_video_misinfo",
+  "seed": 1,
+  "topic": "Detection of Misinformation and Harmful Content on Short-Form Video Platforms: Methods, Datasets, and Multimodal Approaches",
+  "metrics": {
+    "n_cited_claims": 4,
+    "support_total": 2.0,
+    "citation_recall": 0.5,
+    "n_supported": 2,
+    "n_partial": 0,
+    "n_unsupported": 2,
+    "n_error": 0,
+    "n_citation_mounts": 5,
+    "n_contributing": 2,
+    "contributing_weight": 2.0,
+    "citation_precision": 0.4,
+    "n_not_verifiable": 0,
+    "n_claims": 14,
+    "n_claims_with_cite": 4,
+    "n_claims_bare": 10,
+    "bare_assertion_rate": 0.7143
+  },
+  "per_sentence": [
+    {
+      "sent_id": 33,
+      "section_title": "3 Background and Foundations",
+      "text": "Vatndal and Setty (2025) observe that bridging this divide requires not only improved multimodal understanding but also system outputs that align with the needs of human fact-checkers in high-throughput environments.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes a pipeline for detecting checkworthy videos but does not mention Vatndal and Setty (2025), nor does it discuss bridging a divide through improved multimodal understanding and alignment with human fact-checker needs in high-throughput environments.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 37,
+      "section_title": "4 Methods and Techniques",
+      "text": "Vatndal and Setty (2025) introduce a demonstration system designed to detect checkworthy TikTok videos, emphasizing the need for improved multimodal understanding and system outputs that align with the requirements of human fact-checkers operating in high-throughput environments.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The evidence describes ShortCheck, a system that automatically identifies checkworthy TikTok videos for human fact-checkers, directly matching the claim about a demonstration system for detecting checkworthy TikTok videos and aligning with fact-checker needs.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 39,
+      "section_title": "5 Applications and Systems",
+      "text": "Vatndal and Setty (2025) present ShortCheck, a demonstration system designed for detecting checkworthy content in TikTok videos.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that ShortCheck is a pipeline designed to identify checkworthy short-form videos, directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 44,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "Vatndal and Setty (2025) note that the divide between deployable, interpretable tools for short-form video and current capabilities “remains substantial.” Bridging this divide requires not only improved multimodal understanding but also system outputs that align with the needs of human fact-checkers in high-throughput environments (Vatndal & Setty, 2025).",
+      "n_cites": 2,
+      "label_to_ref": {
+        "c0": 0,
+        "c1": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes ShortCheck as a deployable tool for checkworthiness detection but does not discuss any 'substantial divide' between deployable tools and current capabilities, nor does it address the need for improved multimodal understanding or alignment with fact-checker needs in high-throughput environments.",
+        "per_citation_contribution": {
+          "c0": false,
+          "c1": false
+        }
+      }
+    }
+  ]
+}

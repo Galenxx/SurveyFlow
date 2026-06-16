@@ -1,0 +1,289 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "code_review_llm",
+  "seed": 0,
+  "topic": "Large Language Models for Automated Code Review: Techniques, Benchmarks, and Industrial Deployment",
+  "n_references": 6,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Paul, R., Hossain, M. M., Siddiq, M. L., Hasan, M., Iqbal, A., & Santos, J. C. S. (2023). Enhancing Automated Program Repair through Fine-tuning and Prompt Engineering. arXiv:2304.07840v2.",
+      "parsed": {
+        "title": "Enhancing Automated Program Repair through Fine-tuning and Prompt Engineering",
+        "authors": "Paul, R., Hossain, M. M., Siddiq, M. L., Hasan, M., Iqbal, A., & Santos, J. C. S",
+        "year": "2023",
+        "arxiv_id": "2304.07840v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Enhancing Automated Program Repair through Fine-tuning and Prompt Engineering",
+          "arxiv_id": "2304.07840",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Rishov Paul",
+            "Md. Mohib Hossain",
+            "Mohammed Latif Siddiq",
+            "Masum Hasan",
+            "Anindya Iqbal",
+            "Joanna C. S. Santos"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2304.07840",
+          "title": "Enhancing Automated Program Repair through Fine-tuning and Prompt Engineering",
+          "abstract": "Sequence-to-sequence models have been used to transform erroneous programs into correct ones when trained with a large enough dataset. Some recent studies also demonstrated strong empirical evidence that code review could improve the program repair further. Large language models, trained with Natural Language (NL) and Programming Language (PL), can contain inherent knowledge of both. In this study, we investigate if this inherent knowledge of PL and NL can be utilized to improve automated program repair. We applied PLBART and CodeT5, two state-of-the-art language models that are pre-trained with both PL and NL, on two such natural language-based program repair datasets and found that the pre-trained language models fine-tuned with datasets containing both code review and subsequent code changes notably outperformed each of the previous models. With the advent of code generative models like Codex and GPT-3.5-Turbo, we also performed zero-shot and few-shots learning-based prompt engineering to assess their performance on these datasets. However, the practical application of using LLMs in the context of automated program repair is still a long way off based on our manual analysis of the generated repaired codes by the learning models.",
+          "year": "2023",
+          "authors": [
+            "Rishov Paul",
+            "Md. Mohib Hossain",
+            "Mohammed Latif Siddiq",
+            "Masum Hasan",
+            "Anindya Iqbal",
+            "Joanna C. S. Santos"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Khanzadeh, S. (2025). AgentMesh: A Cooperative Multi-Agent Generative AI Framework for Software Development Automation. arXiv:2507.19902.",
+      "parsed": {
+        "title": "AgentMesh: A Cooperative Multi-Agent Generative AI Framework for Software Development Automation",
+        "authors": "Khanzadeh, S",
+        "year": "2025",
+        "arxiv_id": "2507.19902",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "AgentMesh: A Cooperative Multi-Agent Generative AI Framework for Software Development Automation",
+          "arxiv_id": "2507.19902",
+          "doi": null,
+          "year": "2025",
+          "authors": [
+            "Sourena Khanzadeh"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2507.19902",
+          "title": "AgentMesh: A Cooperative Multi-Agent Generative AI Framework for Software Development Automation",
+          "abstract": "Software development is a complex, multi-phase process traditionally requiring collaboration among individuals with diverse expertise. We propose AgentMesh, a Python-based framework that uses multiple cooperating LLM-powered agents to automate software development tasks. In AgentMesh, specialized agents - a Planner, Coder, Debugger, and Reviewer - work in concert to transform a high-level requirement into fully realized code. The Planner agent first decomposes user requests into concrete subtasks; the Coder agent implements each subtask in code; the Debugger agent tests and fixes the code; and the Reviewer agent validates the final output for correctness and quality. We describe the architecture and design of these agents and their communication, and provide implementation details including prompt strategies and workflow orchestration. A case study illustrates AgentMesh handling a non-trivial development request via sequential task planning, code generation, iterative debugging, and final code review. We discuss how dividing responsibilities among cooperative agents leverages the strengths of large language models while mitigating single-agent limitations. Finally, we examine current limitations - such as error propagation and context scaling - and outline future work toward more robust, scalable multi-agent AI systems for software engineering automation.",
+          "year": "2025",
+          "authors": [
+            "Sourena Khanzadeh"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Kang, J., Huang, L., Hou, C., Zhao, Z., Yan, Z., & Bai, T. (2025). Self-Evolving LLMs via Continual Instruction Tuning. arXiv:2509.18133.",
+      "parsed": {
+        "title": "Self-Evolving LLMs via Continual Instruction Tuning",
+        "authors": "Kang, J., Huang, L., Hou, C., Zhao, Z., Yan, Z., & Bai, T",
+        "year": "2025",
+        "arxiv_id": "2509.18133",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Self-Evolving LLMs via Continual Instruction Tuning",
+          "arxiv_id": "2509.18133",
+          "doi": null,
+          "year": "2025",
+          "authors": [
+            "Jiazheng Kang",
+            "Le Huang",
+            "Cheng Hou",
+            "Zhe Zhao",
+            "Zhenxiang Yan",
+            "Ting Bai"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2509.18133",
+          "title": "Self-Evolving LLMs via Continual Instruction Tuning",
+          "abstract": "In real-world industrial settings, large language models (LLMs) must learn continually to keep pace with diverse and evolving tasks, requiring self-evolution to refine knowledge under dynamic data distributions. However, existing continual learning (CL) approaches, such as replay and parameter isolation, often suffer from catastrophic forgetting: training on new tasks degrades performance on earlier ones by overfitting to the new distribution and weakening generalization.We propose MoE-CL, a parameter-efficient adversarial mixture-of-experts framework for industrial-scale, self-evolving continual instruction tuning of LLMs. MoE-CL uses a dual-expert design: (1) a dedicated LoRA expert per task to preserve task-specific knowledge via parameter independence, mitigating forgetting; and (2) a shared LoRA expert to enable cross-task transfer. To prevent transferring task-irrelevant noise through the shared pathway, we integrate a task-aware discriminator within a GAN. The discriminator encourages the shared expert to pass only task-aligned information during sequential training. Through adversarial learning, the shared expert acquires generalized representations that mimic the discriminator, while dedicated experts retain task-specific details, balancing knowledge retention and cross-task generalization and thereby supporting self-evolution.Extensive experiments on the public MTL5 benchmark and an industrial Tencent3 benchmark validate the effectiveness of MoE-CL for continual instruction tuning. In real-world A/B testing for content compliance review on the Tencent Video platform, MoE-CL reduced manual review costs by 15.3%. These results demonstrate that MoE-CL is practical for large-scale industrial deployment where continual adaptation and stable transfer are critical.",
+          "year": "2025",
+          "authors": [
+            "Jiazheng Kang",
+            "Le Huang",
+            "Cheng Hou",
+            "Zhe Zhao",
+            "Zhenxiang Yan",
+            "Ting Bai"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Zhao, R., Chen, H., Wang, W., Jiao, F., Long, D. X., Qin, C., Ding, B., Guo, X., Li, M., Li, X., & Joty, S. R. (2023). Retrieving Multimodal Information for Augmented Generation: A Survey. arXiv:2303.10868.",
+      "parsed": {
+        "title": "Retrieving Multimodal Information for Augmented Generation: A Survey",
+        "authors": "Zhao, R., Chen, H., Wang, W., Jiao, F., Long, D. X., Qin, C., Ding, B., Guo, X., Li, M., Li, X., & Joty, S. R",
+        "year": "2023",
+        "arxiv_id": "2303.10868",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Retrieving Multimodal Information for Augmented Generation: A Survey",
+          "arxiv_id": "2303.10868",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Ruochen Zhao",
+            "Hailin Chen",
+            "Weishi Wang",
+            "Fangkai Jiao",
+            "Xuan Long Do",
+            "Chengwei Qin",
+            "Bosheng Ding",
+            "Xiaobao Guo",
+            "Minzhi Li",
+            "Xingxuan Li",
+            "Shafiq Joty"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2303.10868",
+          "title": "Retrieving Multimodal Information for Augmented Generation: A Survey",
+          "abstract": "As Large Language Models (LLMs) become popular, there emerged an important trend of using multimodality to augment the LLMs' generation ability, which enables LLMs to better interact with the world. However, there lacks a unified perception of at which stage and how to incorporate different modalities. In this survey, we review methods that assist and augment generative models by retrieving multimodal knowledge, whose formats range from images, codes, tables, graphs, to audio. Such methods offer a promising solution to important concerns such as factuality, reasoning, interpretability, and robustness. By providing an in-depth review, this survey is expected to provide scholars with a deeper understanding of the methods' applications and encourage them to adapt existing techniques to the fast-growing field of LLMs.",
+          "year": "2023",
+          "authors": [
+            "Ruochen Zhao",
+            "Hailin Chen",
+            "Weishi Wang",
+            "Fangkai Jiao",
+            "Xuan Long Do",
+            "Chengwei Qin",
+            "Bosheng Ding",
+            "Xiaobao Guo",
+            "Minzhi Li",
+            "Xingxuan Li",
+            "Shafiq Joty"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 4,
+      "raw": "Pornprasit, C., & Tantithamthavorn, C. (2024). Fine-Tuning and Prompt Engineering for Large Language Models-based Code Review Automation. arXiv:2402.00905v4.",
+      "parsed": {
+        "title": "Fine-Tuning and Prompt Engineering for Large Language Models-based Code Review Automation",
+        "authors": "Pornprasit, C., & Tantithamthavorn, C",
+        "year": "2024",
+        "arxiv_id": "2402.00905v4",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Fine-Tuning and Prompt Engineering for Large Language Models-based Code Review Automation",
+          "arxiv_id": "2402.00905",
+          "doi": null,
+          "year": "2024",
+          "authors": [
+            "Chanathip Pornprasit",
+            "Chakkrit Tantithamthavorn"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "2402.00905",
+          "title": "Fine-Tuning and Prompt Engineering for Large Language Models-based Code Review Automation",
+          "abstract": "Context: The rapid evolution of Large Language Models (LLMs) has sparked significant interest in leveraging their capabilities for automating code review processes. Prior studies often focus on developing LLMs for code review automation, yet require expensive resources, which is infeasible for organizations with limited budgets and resources. Thus, fine-tuning and prompt engineering are the two common approaches to leveraging LLMs for code review automation. Objective: We aim to investigate the performance of LLMs-based code review automation based on two contexts, i.e., when LLMs are leveraged by fine-tuning and prompting. Fine-tuning involves training the model on a specific code review dataset, while prompting involves providing explicit instructions to guide the model's generation process without requiring a specific code review dataset. Method: We leverage model fine-tuning and inference techniques (i.e., zero-shot learning, few-shot learning and persona) on LLMs-based code review automation. In total, we investigate 12 variations of two LLMs-based code review automation (i.e., GPT- 3.5 and Magicoder), and compare them with the Guo et al.'s approach and three existing code review automation approaches. Results: The fine-tuning of GPT 3.5 with zero-shot learning helps GPT-3.5 to achieve 73.17% -74.23% higher EM than the Guo et al.'s approach. In addition, when GPT-3.5 is not fine-tuned, GPT-3.5 with few-shot learning achieves 46.38% - 659.09% higher EM than GPT-3.5 with zero-shot learning. Conclusions: Based on our results, we recommend that (1) LLMs for code review automation should be fine-tuned to achieve the highest performance; and (2) when data is not sufficient for model fine-tuning (e.g., a cold-start problem), few-shot learning without a persona should be used for LLMs for code review automation.",
+          "year": "2024",
+          "authors": [
+            "Chanathip Pornprasit",
+            "Chakkrit Tantithamthavorn"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 5,
+      "raw": "Paul, D. G., Zhu, H., & Bayley, I. (2024). Benchmarks and Metrics for Evaluations of Code Generation: A Critical Review. arXiv:2406.12655.",
+      "parsed": {
+        "title": "Benchmarks and Metrics for Evaluations of Code Generation: A Critical Review",
+        "authors": "Paul, D. G., Zhu, H., & Bayley, I",
+        "year": "2024",
+        "arxiv_id": "2406.12655",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Benchmarks and Metrics for Evaluations of Code Generation: A Critical Review",
+          "arxiv_id": "2406.12655",
+          "doi": null,
+          "year": "2024",
+          "authors": [
+            "Debalina Ghosh Paul",
+            "Hong Zhu",
+            "Ian Bayley"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2406.12655",
+          "title": "Benchmarks and Metrics for Evaluations of Code Generation: A Critical Review",
+          "abstract": "With the rapid development of Large Language Models (LLMs), a large number of machine learning models have been developed to assist programming tasks including the generation of program code from natural language input. However, how to evaluate such LLMs for this task is still an open problem despite of the great amount of research efforts that have been made and reported to evaluate and compare them. This paper provides a critical review of the existing work on the testing and evaluation of these tools with a focus on two key aspects: the benchmarks and the metrics used in the evaluations. Based on the review, further research directions are discussed.",
+          "year": "2024",
+          "authors": [
+            "Debalina Ghosh Paul",
+            "Hong Zhu",
+            "Ian Bayley"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    }
+  ]
+}

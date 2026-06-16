@@ -1,0 +1,158 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "llm_agent_planning",
+  "seed": 2,
+  "topic": "Planning and Reasoning in Large Language Model Agents: Methods, Tool Use, and Evaluation Benchmarks",
+  "metrics": {
+    "n_cited_claims": 7,
+    "support_total": 6.0,
+    "citation_recall": 0.8571,
+    "n_supported": 6,
+    "n_partial": 0,
+    "n_unsupported": 1,
+    "n_error": 0,
+    "n_citation_mounts": 7,
+    "n_contributing": 6,
+    "contributing_weight": 6.0,
+    "citation_precision": 0.8571,
+    "n_not_verifiable": 1,
+    "n_claims": 39,
+    "n_claims_with_cite": 8,
+    "n_claims_bare": 31,
+    "bare_assertion_rate": 0.7949
+  },
+  "per_sentence": [
+    {
+      "sent_id": 33,
+      "section_title": "3 Planning and Reasoning Methods",
+      "text": "Chain-of-thought (CoT) prompting emerged as a breakthrough, enabling LLMs to solve complex problems by generating intermediate reasoning steps before arriving at a final answer (Wei et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract directly states that generating intermediate reasoning steps via chain-of-thought prompting significantly improves complex reasoning in large language models, matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 37,
+      "section_title": "3 Planning and Reasoning Methods",
+      "text": "Plan-and-Solve prompting improves zero-shot CoT by explicitly asking the model to first generate a comprehensive plan and then execute it step-by-step, significantly reducing calculation and reasoning errors in multi-step tasks (Wang et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that Plan-and-Solve prompting addresses missing-step errors by first devising a plan and then executing subtasks, and that it consistently outperforms Zero-shot-CoT, directly supporting the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 46,
+      "section_title": "4 Tool Use and Integration",
+      "text": "By interleaving the generation of reasoning traces with task-specific actions, ReAct allows agents to dynamically gather information from external environments and update their reasoning accordingly (Yao et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that ReAct generates reasoning traces and task-specific actions in an interleaved manner, allowing actions to interface with external sources to gather additional information, which directly supports the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 49,
+      "section_title": "4 Tool Use and Integration",
+      "text": "Toolformer introduced a self-supervised approach where LLMs teach themselves to use tools by injecting API calls into training data, learning when and how to invoke external functionalities like calculators or search engines (Schick et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that Toolformer uses a self-supervised method to teach itself to use external tools like calculators and search engines by deciding when and how to call APIs.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 55,
+      "section_title": "5 Evaluation Benchmarks",
+      "text": "AgentBench provides a comprehensive, multi-dimensional evaluation framework that assesses LLMs as agents across eight distinct environments, including operating systems, web browsing, and digital card games (Liu et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that AgentBench is a multi-dimensional benchmark consisting of 8 distinct environments to assess LLM-as-Agent's reasoning and decision-making abilities, directly supporting the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 58,
+      "section_title": "5 Evaluation Benchmarks",
+      "text": "ToolLLM focuses specifically on tool use, evaluating agents on their ability to navigate massive API repositories, understand tool documentation, and execute complex, multi-tool instructions (Qin et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states ToolLLM involves a dataset of 16,464 real-world APIs, covers both single-tool and multi-tool scenarios, and evaluates tool-use capabilities, directly supporting the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 65,
+      "section_title": "6 Challenges and Limitations",
+      "text": "The lack of standardized interfaces and the semantic ambiguity in natural language descriptions of tools make robust tool integration a persistent bottleneck, particularly in multi-tool orchestration systems like HuggingGPT (Shen et al., 2023).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 68,
+      "section_title": "6 Challenges and Limitations",
+      "text": "Search-based algorithms like Language Agent Tree Search require multiple LLM inference calls per task, making them prohibitively slow for real-time applications (Zhou et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 7
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper analyzes prompt controllability and does not mention search-based algorithms, multiple inference calls, or real-time latency, so it provides no evidence for the claim.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

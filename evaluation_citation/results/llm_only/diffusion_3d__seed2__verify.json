@@ -1,0 +1,689 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "diffusion_3d",
+  "seed": 2,
+  "topic": "Diffusion Models for 3D Shape and Scene Generation: Methods, Representations, and Evaluation",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Ben Poole, Ajay Jain, Jonathan T. Barron, Ben Mildenhall. (2022). DreamFusion: Text-to-3D using 2D Diffusion. arXiv:2209.14988v1.",
+      "parsed": {
+        "title": "DreamFusion: Text-to-3D using 2D Diffusion",
+        "authors": "Ben Poole, Ajay Jain, Jonathan T. Barron, Ben Mildenhall",
+        "year": "2022",
+        "arxiv_id": "2209.14988v1",
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Alex Nichol, Heewoo Jun, Prafulla Dhariwal, Pamela Mishkin, Mark Chen. (2022). Point-E: A System for Generating 3D Point Clouds from Complex Prompts. arXiv:2212.08751v1.",
+      "parsed": {
+        "title": "Point-E: A System for Generating 3D Point Clouds from Complex Prompts",
+        "authors": "Alex Nichol, Heewoo Jun, Prafulla Dhariwal, Pamela Mishkin, Mark Chen",
+        "year": "2022",
+        "arxiv_id": "2212.08751v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Point-E: A System for Generating 3D Point Clouds from Complex Prompts",
+          "arxiv_id": "2212.08751",
+          "doi": "10.48550/arXiv.2212.08751",
+          "year": "2022",
+          "authors": [
+            "Alex Nichol",
+            "Heewoo Jun",
+            "Prafulla Dhariwal",
+            "Pamela Mishkin",
+            "Mark Chen"
+          ]
+        },
+        {
+          "title": "Proc3D: Procedural 3D Generation and Parametric Editing of 3D Shapes with Large Language Models",
+          "arxiv_id": "2601.12234",
+          "doi": "10.48550/arXiv.2601.12234",
+          "year": "2026",
+          "authors": [
+            "Fadlullah Raji",
+            "Stefano Petrangeli",
+            "Matheus A Gadelha",
+            "Yu Shen",
+            "Uttaran Bhattacharya",
+            "Gang Wu"
+          ]
+        },
+        {
+          "title": "Integrating Multimodal Large Language Models with Point Clouds for Urban Vehicle Detection",
+          "arxiv_id": null,
+          "doi": "10.29227/im-2025-02-02-113",
+          "year": "2025",
+          "authors": [
+            "Horia Ameen",
+            "Antón Núñez-Seoane",
+            "David Conde",
+            "Mario Soilán"
+          ]
+        },
+        {
+          "title": "Multitemporal field-based plant height estimation using 3D point clouds generated from small unmanned aerial systems high-resolution imagery",
+          "arxiv_id": null,
+          "doi": "10.1016/j.jag.2017.08.014",
+          "year": "2018",
+          "authors": [
+            "L. Malambo",
+            "S. Popescu",
+            "S. Murray",
+            "E. Putman",
+            "N. A. Pugh",
+            "David W. Horne",
+            "Grant Richardson",
+            "R. Sheridan",
+            "W. Rooney",
+            "R. Avant",
+            "Misty Vidrine",
+            "Billy F. McCutchen",
+            "David D. Baltensperger",
+            "Michael P. Bishop"
+          ]
+        },
+        {
+          "title": "Generating 3D architectured nature-inspired materials and granular media using diffusion models based on language cues",
+          "arxiv_id": null,
+          "doi": "10.1093/oxfmat/itac010",
+          "year": "2022",
+          "authors": [
+            "M. Buehler"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2212.08751",
+          "doi": "10.48550/arXiv.2212.08751",
+          "title": "Point-E: A System for Generating 3D Point Clouds from Complex Prompts",
+          "abstract": "While recent work on text-conditional 3D object generation has shown promising results, the state-of-the-art methods typically require multiple GPU-hours to produce a single sample. This is in stark contrast to state-of-the-art generative image models, which produce samples in a number of seconds or minutes. In this paper, we explore an alternative method for 3D object generation which produces 3D models in only 1-2 minutes on a single GPU. Our method first generates a single synthetic view using a text-to-image diffusion model, and then produces a 3D point cloud using a second diffusion model which conditions on the generated image. While our method still falls short of the state-of-the-art in terms of sample quality, it is one to two orders of magnitude faster to sample from, offering a practical trade-off for some use cases. We release our pre-trained point cloud diffusion models, as well as evaluation code and models, at https://github.com/openai/point-e.",
+          "year": "2022",
+          "authors": [
+            "Alex Nichol",
+            "Heewoo Jun",
+            "Prafulla Dhariwal",
+            "Pamela Mishkin",
+            "Mark Chen"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 852
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Heewoo Jun, Alex Nichol. (2023). Shap-E: Generating Conditional 3D Implicit Functions. arXiv:2305.02463v1.",
+      "parsed": {
+        "title": "Shap-E: Generating Conditional 3D Implicit Functions",
+        "authors": "Heewoo Jun, Alex Nichol",
+        "year": "2023",
+        "arxiv_id": "2305.02463v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Shap-E: Generating Conditional 3D Implicit Functions",
+          "arxiv_id": "2305.02463",
+          "doi": "10.48550/arXiv.2305.02463",
+          "year": "2023",
+          "authors": [
+            "Heewoo Jun",
+            "Alex Nichol"
+          ]
+        },
+        {
+          "title": "UDiFF: Generating Conditional Unsigned Distance Fields with Optimal Wavelet Diffusion",
+          "arxiv_id": "2404.06851",
+          "doi": "10.1109/CVPR52733.2024.02031",
+          "year": "2024",
+          "authors": [
+            "Junsheng Zhou",
+            "Weiqi Zhang",
+            "Baorui Ma",
+            "Kanle Shi",
+            "Yu-Shen Liu",
+            "Zhizhong Han"
+          ]
+        },
+        {
+          "title": "Diffusion-SDF: Conditional Generative Modeling of Signed Distance Functions",
+          "arxiv_id": "2211.13757",
+          "doi": "10.1109/ICCV51070.2023.00215",
+          "year": "2022",
+          "authors": [
+            "Gene Chou",
+            "Yuval Bahat",
+            "Felix Heide"
+          ]
+        },
+        {
+          "title": "3D Teeth Reconstruction from Panoramic Radiographs Using Neural Implicit Functions",
+          "arxiv_id": "2311.16524",
+          "doi": "10.1007/978-3-031-43999-5_36",
+          "year": "2023",
+          "authors": [
+            "Sihwan Park",
+            "Seongjun Kim",
+            "In-Seok Song",
+            "S. Baek"
+          ]
+        },
+        {
+          "title": "Deep Conditional Shape Models for 3D cardiac image segmentation",
+          "arxiv_id": "2310.10756",
+          "doi": "10.48550/arXiv.2310.10756",
+          "year": "2023",
+          "authors": [
+            "Athira J. Jacob",
+            "Puneet Sharma",
+            "Daniel Rückert"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2305.02463",
+          "doi": "10.48550/arXiv.2305.02463",
+          "title": "Shap-E: Generating Conditional 3D Implicit Functions",
+          "abstract": "We present Shap-E, a conditional generative model for 3D assets. Unlike recent work on 3D generative models which produce a single output representation, Shap-E directly generates the parameters of implicit functions that can be rendered as both textured meshes and neural radiance fields. We train Shap-E in two stages: first, we train an encoder that deterministically maps 3D assets into the parameters of an implicit function; second, we train a conditional diffusion model on outputs of the encoder. When trained on a large dataset of paired 3D and text data, our resulting models are capable of generating complex and diverse 3D assets in a matter of seconds. When compared to Point-E, an explicit generative model over point clouds, Shap-E converges faster and reaches comparable or better sample quality despite modeling a higher-dimensional, multi-representation output space. We release model weights, inference code, and samples at https://github.com/openai/shap-e.",
+          "year": "2023",
+          "authors": [
+            "Heewoo Jun",
+            "Alex Nichol"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 473
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Chen-Hsuan Lin, Jun Gao, Luming Tang, Towaki Takikawa, Xiaohui Zeng, Xun Huang, Karsten Kreis, Sanja Fidler, Ming-Yu Liu, Tsung-Yi Lin. (2023). Magic3D: High-Resolution Text-to-3D Content Creation. arXiv:2211.10440v1.",
+      "parsed": {
+        "title": "Magic3D: High-Resolution Text-to-3D Content Creation",
+        "authors": "Chen-Hsuan Lin, Jun Gao, Luming Tang, Towaki Takikawa, Xiaohui Zeng, Xun Huang, Karsten Kreis, Sanja Fidler, Ming-Yu Liu, Tsung-Yi Lin",
+        "year": "2023",
+        "arxiv_id": "2211.10440v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Magic3D: High-Resolution Text-to-3D Content Creation",
+          "arxiv_id": "2211.10440",
+          "doi": "10.1109/CVPR52729.2023.00037",
+          "year": "2022",
+          "authors": [
+            "Chen-Hsuan Lin",
+            "Jun Gao",
+            "Luming Tang",
+            "Towaki Takikawa",
+            "Xiaohui Zeng",
+            "Xun Huang",
+            "Karsten Kreis",
+            "S. Fidler",
+            "Ming-Yu Liu",
+            "Tsung-Yi Lin"
+          ]
+        },
+        {
+          "title": "3D-CLFusion: Fast Text-to-3D Rendering with Contrastive Latent Diffusion",
+          "arxiv_id": "2303.11938",
+          "doi": "10.48550/arXiv.2303.11938",
+          "year": "2023",
+          "authors": [
+            "Yu-Jhe Li",
+            "Kris Kitani"
+          ]
+        },
+        {
+          "title": "LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation",
+          "arxiv_id": "2402.05054",
+          "doi": "10.48550/arXiv.2402.05054",
+          "year": "2024",
+          "authors": [
+            "Jiaxiang Tang",
+            "Zhaoxi Chen",
+            "Xiaokang Chen",
+            "Tengfei Wang",
+            "Gang Zeng",
+            "Ziwei Liu"
+          ]
+        },
+        {
+          "title": "HexaDream: hexaview prior and constraint for text to 3D creation",
+          "arxiv_id": null,
+          "doi": "10.1007/s11704-025-40774-x",
+          "year": "2025",
+          "authors": [
+            "Zhichao Zhang",
+            "Hui Chen",
+            "Jin-Sheng Deng",
+            "Ming Xu",
+            "Zhengbin Pang"
+          ]
+        },
+        {
+          "title": "SuperCarver: Texture-Consistent 3D Geometry Super-Resolution for High-Fidelity Surface Detail Generation",
+          "arxiv_id": "2503.09439",
+          "doi": "10.48550/arXiv.2503.09439",
+          "year": "2025",
+          "authors": [
+            "Qijian Zhang",
+            "X. Jian",
+            "Xuan Zhang",
+            "Wenping Wang",
+            "Junhui Hou"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2211.10440",
+          "doi": "10.1109/CVPR52729.2023.00037",
+          "title": "Magic3D: High-Resolution Text-to-3D Content Creation",
+          "abstract": "DreamFusion [31] has recently demonstrated the utility of a pretrained text-to-image diffusion model to optimize Neural Radiance Fields (NeRF) [23], achieving remarkable text-to-3D synthesis results. However, the method has two inherent limitations: (a) extremely slow optimization of NeRF and (b) low-resolution image space supervision on NeRF, leading to low-quality 3D models with a long processing time. In this paper, we address these limitations by utilizing a two-stage optimization framework. First, we obtain a coarse model using a low-resolution diffusion prior and accelerate with a sparse 3D hash grid structure. Using the coarse representation as the initialization, we further optimize a textured 3D mesh model with an efficient differentiable renderer interacting with a high-resolution latent diffusion model. Our method, dubbed Magic3D, can create high quality 3D mesh models in 40 minutes, which is 2× faster than DreamFusion (reportedly taking 1.5 hours on average), while also achieving higher resolution. User studies show 61.7% raters to prefer our approach over DreamFusion. Together with the image-conditioned generation capabilities, we provide users with new ways to control 3D synthesis, opening up new avenues to various creative applications.",
+          "year": "2022",
+          "authors": [
+            "Chen-Hsuan Lin",
+            "Jun Gao",
+            "Luming Tang",
+            "Towaki Takikawa",
+            "Xiaohui Zeng",
+            "Xun Huang",
+            "Karsten Kreis",
+            "S. Fidler",
+            "Ming-Yu Liu",
+            "Tsung-Yi Lin"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 1585
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 4,
+      "raw": "Haochen Wang, Xiaodan Du, Jiahao Li, Raymond A. Yeh, Greg Shakhnarovich. (2022). Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation. arXiv:2212.00774v1.",
+      "parsed": {
+        "title": "Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation",
+        "authors": "Haochen Wang, Xiaodan Du, Jiahao Li, Raymond A. Yeh, Greg Shakhnarovich",
+        "year": "2022",
+        "arxiv_id": "2212.00774v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation",
+          "arxiv_id": "2212.00774",
+          "doi": "10.1109/CVPR52729.2023.01214",
+          "year": "2022",
+          "authors": [
+            "Haochen Wang",
+            "Xiaodan Du",
+            "Jiahao Li",
+            "Raymond A. Yeh",
+            "Gregory Shakhnarovich"
+          ]
+        },
+        {
+          "title": "Harnessing the Power of Training-Free Techniques in Text-to-2D Generation for Text-to-3D Generation via Score Distillation Sampling",
+          "arxiv_id": "2505.19868",
+          "doi": "10.48550/arXiv.2505.19868",
+          "year": "2025",
+          "authors": [
+            "Junhong Lee",
+            "Seungwook Kim",
+            "Minsu Cho"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2212.00774",
+          "doi": "10.1109/CVPR52729.2023.01214",
+          "title": "Score Jacobian Chaining: Lifting Pretrained 2D Diffusion Models for 3D Generation",
+          "abstract": "A diffusion model learns to predict a vector field of gradients. We propose to apply chain rule on the learned gradients, and back-propagate the score of a diffusion model through the Jacobian of a differentiable renderer, which we instantiate to be a voxel radiance field. This setup aggregates 2D scores at multiple camera viewpoints into a 3D score, and re-purposes a pretrained 2D model for 3D data generation. We identify a technical challenge of distribution mismatch that arises in this application, and propose a novel estimation mechanism to resolve it. We run our algorithm on several off-the-shelf diffusion image generative models, including the recently released Stable Diffusion trained on the large-scale LAION 5B dataset.",
+          "year": "2022",
+          "authors": [
+            "Haochen Wang",
+            "Xiaodan Du",
+            "Jiahao Li",
+            "Raymond A. Yeh",
+            "Gregory Shakhnarovich"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 687
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 5,
+      "raw": "Gal Metzer, Elad Richardson, Or Patashnik, Raja Giryes, Daniel Cohen-Or. (2023). Latent-NeRF for Shape-Guided Generation of 3D Shapes and Textures. arXiv:2211.07600v1.",
+      "parsed": {
+        "title": "Latent-NeRF for Shape-Guided Generation of 3D Shapes and Textures",
+        "authors": "Gal Metzer, Elad Richardson, Or Patashnik, Raja Giryes, Daniel Cohen-Or",
+        "year": "2023",
+        "arxiv_id": "2211.07600v1",
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 6,
+      "raw": "Lukas Höllein, Albarq Alawi, Ang Cao, Justin Johnson, Matthias Nießner. (2023). Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models. arXiv:2303.11989v1.",
+      "parsed": {
+        "title": "Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models",
+        "authors": "Lukas Höllein, Albarq Alawi, Ang Cao, Justin Johnson, Matthias Nießner",
+        "year": "2023",
+        "arxiv_id": "2303.11989v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models",
+          "arxiv_id": "2303.11989",
+          "doi": "10.1109/ICCV51070.2023.00727",
+          "year": "2023",
+          "authors": [
+            "Lukas Höllein",
+            "Ang Cao",
+            "Andrew Owens",
+            "Justin Johnson",
+            "M. Nießner"
+          ]
+        },
+        {
+          "title": "Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models",
+          "arxiv_id": null,
+          "doi": null,
+          "year": null,
+          "authors": [
+            "A. Video"
+          ]
+        },
+        {
+          "title": "An Optimization Framework to Enforce Multi-View Consistency for Texturing 3D Meshes Using Pre-Trained Text-to-Image Models",
+          "arxiv_id": "2403.15559",
+          "doi": "10.48550/arXiv.2403.15559",
+          "year": "2024",
+          "authors": [
+            "Zhengyi Zhao",
+            "Chen Song",
+            "Xiaodong Gu",
+            "Yuan Dong",
+            "Qi Zuo",
+            "Weihao Yuan",
+            "Zilong Dong",
+            "Liefeng Bo",
+            "Qi-Xing Huang"
+          ]
+        },
+        {
+          "title": "MFSM-Net: Multimodal Feature Fusion for the Semantic Segmentation of Urban-Scale Textured 3D Meshes",
+          "arxiv_id": null,
+          "doi": "10.3390/rs17091573",
+          "year": "2025",
+          "authors": [
+            "Xinjie Hao",
+            "Jiahui Wang",
+            "Wei Leng",
+            "Rongting Zhang",
+            "Guangyun Zhang"
+          ]
+        },
+        {
+          "title": "DreamDissector: Learning Disentangled Text-to-3D Generation from 2D Diffusion Priors",
+          "arxiv_id": "2407.16260",
+          "doi": "10.48550/arXiv.2407.16260",
+          "year": "2024",
+          "authors": [
+            "Zizheng Yan",
+            "Jiapeng Zhou",
+            "Fanpeng Meng",
+            "Yushuang Wu",
+            "Lingteng Qiu",
+            "Zisheng Ye",
+            "Shuguang Cui",
+            "Guanying Chen",
+            "Xiaoguang Han"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2303.11989",
+          "doi": "10.1109/ICCV51070.2023.00727",
+          "title": "Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models",
+          "abstract": "We present Text2Room 1, a method for generating room-scale textured 3D meshes from a given text prompt as input. To this end, we leverage pre-trained 2D text-to-image models to synthesize a sequence of images from different poses. In order to lift these outputs into a consistent 3D scene representation, we combine monocular depth estimation with a text-conditioned inpainting model. The core idea of our approach is a tailored viewpoint selection such that the content of each image can be fused into a seamless, textured 3D mesh. More specifically, we propose a continuous alignment strategy that iteratively fuses scene frames with the existing geometry to create a seamless mesh. Unlike existing works that focus on generating single objects [56], [41] or zoom-out trajectories [18] from text, our method generates complete 3D scenes with multiple objects and explicit 3D geometry. We evaluate our approach using qualitative and quantitative metrics, demonstrating it as the first method to generate room-scale 3D geometry with compelling textures from only text as input.",
+          "year": "2023",
+          "authors": [
+            "Lukas Höllein",
+            "Ang Cao",
+            "Andrew Owens",
+            "Justin Johnson",
+            "M. Nießner"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 301
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 7,
+      "raw": "Ayaan Haque, Michele Tancik, Alexei Efros, Aleksander Holynski, Angjoo Kanazawa. (2023). Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions. arXiv:2303.12789v1.",
+      "parsed": {
+        "title": "Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions",
+        "authors": "Ayaan Haque, Michele Tancik, Alexei Efros, Aleksander Holynski, Angjoo Kanazawa",
+        "year": "2023",
+        "arxiv_id": "2303.12789v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions",
+          "arxiv_id": "2303.12789",
+          "doi": "10.1109/ICCV51070.2023.01808",
+          "year": "2023",
+          "authors": [
+            "Ayaan Haque",
+            "Matthew Tancik",
+            "Alexei A. Efros",
+            "Aleksander Holynski",
+            "Angjoo Kanazawa"
+          ]
+        },
+        {
+          "title": "SIn-NeRF2NeRF: Editing 3D Scenes with Instructions through Segmentation and Inpainting",
+          "arxiv_id": "2408.13285",
+          "doi": "10.48550/arXiv.2408.13285",
+          "year": "2024",
+          "authors": [
+            "Jiseung Hong",
+            "Changmin Lee",
+            "Gyusang Yu"
+          ]
+        },
+        {
+          "title": "SVGS: Single-View to 3D Object Editing via Gaussian Splatting",
+          "arxiv_id": "2603.28126",
+          "doi": "10.1145/3803793",
+          "year": "2026",
+          "authors": [
+            "Pengcheng Xue",
+            "Yan Tian",
+            "Qi Song",
+            "Ziyi Wang",
+            "Linyang He",
+            "Weiping Ding",
+            "M. Hassaballah",
+            "K. Egiazarian",
+            "Wei-fa Yang",
+            "Leszek Rutkowski"
+          ]
+        },
+        {
+          "title": "Instruct 4D-to-4D: Editing 4D Scenes as Pseudo-3D Scenes Using 2D Diffusion",
+          "arxiv_id": "2406.09402",
+          "doi": "10.1109/CVPR52733.2024.01907",
+          "year": "2024",
+          "authors": [
+            "Linzhan Mou",
+            "Jun-Kun Chen",
+            "Yu-Xiong Wang"
+          ]
+        },
+        {
+          "title": "GaussianEditor: Editing 3D Gaussians Delicately with Text Instructions",
+          "arxiv_id": "2311.16037",
+          "doi": "10.1109/CVPR52733.2024.01975",
+          "year": "2023",
+          "authors": [
+            "Jiemin Fang",
+            "Junjie Wang",
+            "Xiaopeng Zhang",
+            "Lingxi Xie",
+            "Qi Tian"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2303.12789",
+          "doi": "10.1109/ICCV51070.2023.01808",
+          "title": "Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions",
+          "abstract": "We propose a method for editing NeRF scenes with text-instructions. Given a NeRF of a scene and the collection of images used to reconstruct it, our method uses an image-conditioned diffusion model (InstructPix2Pix) to iteratively edit the input images while optimizing the underlying scene, resulting in an optimized 3D scene that respects the edit instruction. We demonstrate that our proposed method is able to edit large-scale, real-world scenes, and is able to accomplish more realistic, targeted edits than prior work. Result videos can be found on the project website: https://instruct-nerf2nerf.github.io.",
+          "year": "2023",
+          "authors": [
+            "Ayaan Haque",
+            "Matthew Tancik",
+            "Alexei A. Efros",
+            "Aleksander Holynski",
+            "Angjoo Kanazawa"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 571
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 8,
+      "raw": "Yen-Chi Cheng, Chieh Hubert Lin, Hsin-Ying Lee, Jian Ren, Sergey Tulyakov, Min Sun. (2023). SDFusion: Multimodal 3D Shape Completion, Reconstruction, and Generation. arXiv:2212.04493v1.",
+      "parsed": {
+        "title": "SDFusion: Multimodal 3D Shape Completion, Reconstruction, and Generation",
+        "authors": "Yen-Chi Cheng, Chieh Hubert Lin, Hsin-Ying Lee, Jian Ren, Sergey Tulyakov, Min Sun",
+        "year": "2023",
+        "arxiv_id": "2212.04493v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "SDFusion: Multimodal 3D Shape Completion, Reconstruction, and Generation",
+          "arxiv_id": "2212.04493",
+          "doi": null,
+          "year": "2022",
+          "authors": [
+            "Yen-Chi Cheng",
+            "Hsin-Ying Lee",
+            "Sergey Tulyakov",
+            "Alexander Schwing",
+            "Liangyan Gui"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2212.04493",
+          "title": "SDFusion: Multimodal 3D Shape Completion, Reconstruction, and Generation",
+          "abstract": "In this work, we present a novel framework built to simplify 3D asset generation for amateur users. To enable interactive generation, our method supports a variety of input modalities that can be easily provided by a human, including images, text, partially observed shapes and combinations of these, further allowing to adjust the strength of each input. At the core of our approach is an encoder-decoder, compressing 3D shapes into a compact latent representation, upon which a diffusion model is learned. To enable a variety of multi-modal inputs, we employ task-specific encoders with dropout followed by a cross-attention mechanism. Due to its flexibility, our model naturally supports a variety of tasks, outperforming prior works on shape completion, image-based 3D reconstruction, and text-to-3D. Most interestingly, our model can combine all these tasks into one swiss-army-knife tool, enabling the user to perform shape generation using incomplete shapes, images, and textual descriptions at the same time, providing the relative weights for each input and facilitating interactivity. Despite our approach being shape-only, we further show an efficient method to texture the generated shape using large-scale text-to-image models.",
+          "year": "2022",
+          "authors": [
+            "Yen-Chi Cheng",
+            "Hsin-Ying Lee",
+            "Sergey Tulyakov",
+            "Alexander Schwing",
+            "Liangyan Gui"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 9,
+      "raw": "Tengfei Wang, Bo Zhang, Ting Zhang, Shuyang Gu, Jianmin Bao, Tadas Baltrusaitis, Jingjing Shen, Dong Chen, Fang Wen, Qifeng Chen, Baining Guo. (2023). Rodin: A Generative Model for Sculpting 3D Digital Avatars Using Diffusion. arXiv:2212.06135v1.",
+      "parsed": {
+        "title": "Rodin: A Generative Model for Sculpting 3D Digital Avatars Using Diffusion",
+        "authors": "Tengfei Wang, Bo Zhang, Ting Zhang, Shuyang Gu, Jianmin Bao, Tadas Baltrusaitis, Jingjing Shen, Dong Chen, Fang Wen, Qifeng Chen, Baining Guo",
+        "year": "2023",
+        "arxiv_id": "2212.06135v1",
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    }
+  ]
+}

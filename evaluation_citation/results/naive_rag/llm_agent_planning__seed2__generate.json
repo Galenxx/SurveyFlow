@@ -1,0 +1,16 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "llm_agent_planning",
+  "seed": 2,
+  "md_path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\naive_rag\\Planning_and_Reasoning_in_Large_Language_Model_Age__seed2\\survey.md",
+  "survey_id": "corpus_llm_agent_planning",
+  "n_references_requested": 10,
+  "n_references_realized": 7,
+  "corpus_stats": {
+    "n_papers_in_list": 10,
+    "n_collections_embedded": 12,
+    "n_citation_meta": 12,
+    "n_collections_used_in_writing": 8,
+    "total_chunks": 1821
+  }
+}

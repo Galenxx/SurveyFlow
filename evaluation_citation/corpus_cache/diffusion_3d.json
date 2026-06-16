@@ -1,0 +1,385 @@
+{
+  "arxiv_query": "(abs:\"diffusion model\" AND abs:\"3d shape\" AND abs:\"denoising diffusion\" OR abs:\"score based model\" OR abs:\"scene generation\" OR abs:\"point cloud\" OR abs:\"mesh\" OR abs:\"implicit representation\" OR abs:\"voxel grid\" OR abs:\"triplane\")",
+  "generic_arxiv_query": "(abs:\"diffusion model\" AND abs:\"3d generation\") OR (abs:\"denoising diffusion\" AND abs:\"shape synthesis\")",
+  "s2_query": "diffusion model 3d shape generation",
+  "s2_generic_query": "generative models three dimensional shape synthesis",
+  "survey_id": "corpus_diffusion_3d",
+  "tsv_path": "./data/tsv\\corpus_diffusion_3d.tsv",
+  "paper_list": [
+    {
+      "title": "Ten years of the helium ion microscope",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "020fc1eebe92dfe7893cf85455f7c38363024b7e",
+      "open_access_pdf_url": "",
+      "authors": [
+        "R. Córdoba",
+        "A. Ibarra",
+        "D. Mailly",
+        "I. Guillamón",
+        "H. Suderow",
+        "J. M. Teresa"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2020
+    },
+    {
+      "title": "Make-A-Shape: a Ten-Million-scale 3D Shape Model",
+      "pdf_link": "",
+      "arxiv_id": "2401.11067",
+      "s2_id": "022af7d9ba658ef305772386863701e1ac9d3822",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Ka-Hei Hui",
+        "Aditya Sanghi",
+        "Arianna Rampini",
+        "Kamal Rahimi Malekshan",
+        "Zhengzhe Liu",
+        "Hooman Shayani",
+        "Chi-Wing Fu"
+      ],
+      "source": "s2",
+      "citation_count": 29,
+      "year": 2024
+    },
+    {
+      "title": "SDFusion: Multimodal 3D Shape Completion, Reconstruction, and Generation",
+      "pdf_link": "https://arxiv.org/pdf/2212.04493",
+      "arxiv_id": "2212.04493",
+      "s2_id": "02c0b857b13030a596bd34dc0d75f499aaf4b420",
+      "open_access_pdf_url": "https://arxiv.org/pdf/2212.04493",
+      "authors": [
+        "Yen-Chi Cheng",
+        "Hsin-Ying Lee",
+        "S. Tulyakov",
+        "A. Schwing",
+        "Liangyan Gui"
+      ],
+      "source": "s2",
+      "citation_count": 364,
+      "year": 2022
+    },
+    {
+      "title": "GroupPortrait: Multi-ID Portrait Generation with High Identity Preservation and Fine-Grained Control",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "0309e9b57859fdc6865f6a1f8f6f8e50f20d6059",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Meijia Huang",
+        "Ruida Li",
+        "Bing Ma",
+        "Liangwei Jiang",
+        "Shuo Fang",
+        "Chenguang Ma"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2026
+    },
+    {
+      "title": "Quartet of Diffusions: Structure-Aware Point Cloud Generation through Part and Symmetry Guidance",
+      "pdf_link": "",
+      "arxiv_id": "2601.20425",
+      "s2_id": "0312f2f64d46cea722d15a51bf64cc4a21cc5733",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Chenliang Zhou",
+        "Fangcheng Zhong",
+        "Weihao Xia",
+        "Albert Miao",
+        "Canberk Baykal",
+        "Cengiz Öztireli"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2026
+    },
+    {
+      "title": "GenCAD: Image-Conditioned Computer-Aided Design Generation with Transformer-Based Contrastive Representation and Diffusion Priors",
+      "pdf_link": "",
+      "arxiv_id": "2409.16294",
+      "s2_id": "037f34c8a8e03d91b02af9a9e7539f683b10fa91",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Md Ferdous Alam",
+        "Faez Ahmed"
+      ],
+      "source": "s2",
+      "citation_count": 32,
+      "year": 2024
+    },
+    {
+      "title": "Dual Diffusion Models for Multi-modal Guided 3D Avatar Generation",
+      "pdf_link": "",
+      "arxiv_id": "2603.04307",
+      "s2_id": "03cb2ac995a072beef73423673176baba6bb8171",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Hong Li",
+        "Yutang Feng",
+        "M. Meng",
+        "Yichen Yang",
+        "Xuhui Liu",
+        "Baochang Zhang"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2026
+    },
+    {
+      "title": "Equivariant Diffusion Model With A5-Group Neurons for Joint Pose Estimation and Shape Reconstruction",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "03d7965c60e2de1dbe36fa8d33e3c04932974caf",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Boyan Wan",
+        "Yifei Shi",
+        "Xiaohong Chen",
+        "Kai Xu"
+      ],
+      "source": "s2",
+      "citation_count": 4,
+      "year": 2025
+    },
+    {
+      "title": "Direct3D-S2: Gigascale 3D Generation Made Easy with Spatial Sparse Attention",
+      "pdf_link": "",
+      "arxiv_id": "2505.17412",
+      "s2_id": "03ebe0fb80d3253a5231d0f1cbac7f3f20fa3aec",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Shuang Wu",
+        "Youtian Lin",
+        "Feihu Zhang",
+        "Yifei Zeng",
+        "Yikang Yang",
+        "Yajie Bao",
+        "Jiachen Qian",
+        "Siyu Zhu",
+        "Xun Cao",
+        "Philip Torr",
+        "Yao Yao"
+      ],
+      "source": "s2",
+      "citation_count": 77,
+      "year": 2025
+    },
+    {
+      "title": "Denoising Diffusions in Latent Space for Medical Image Segmentation",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "0443be5e1d785b3df3eb1056685039b87c720a8d",
+      "open_access_pdf_url": "",
+      "authors": [
+        "F. Zaman",
+        "Mathews Jacob",
+        "Amanda Chang",
+        "Kan Liu",
+        "Milan Sonka",
+        "Xiaodong Wu"
+      ],
+      "source": "s2",
+      "citation_count": 2,
+      "year": 2024
+    }
+  ],
+  "download_status": {
+    "2401.11067": "success",
+    "2212.04493": "success",
+    "2601.20425": "success",
+    "2409.16294": "success",
+    "2603.04307": "success",
+    "2505.17412": "success",
+    "2407.21428v1": "success",
+    "2303.08133v2": "success",
+    "2312.04875v3": "success",
+    "2210.06978v1": "success",
+    "2104.03670v3": "success"
+  },
+  "failed_papers": [],
+  "chroma_collections": [
+    "3dshapegenerationandcompletionthroughpoint-voxeldiffusioa",
+    "dualdiffusionmodelsformulti-modalguided3davatargeneratioa",
+    "deformable3dshapediffusionmodea",
+    "direct3d-s2gigascale3dgenerationmadeeasywithspatialsparseattena",
+    "gencadimage-conditionedcomputer-aideddesigngenerationwithtransa",
+    "meshdiffusionscore-basedgenerative3dmeshmodelina",
+    "lionlatentpointdiffusionmodelsfor3dshapegeneratioa",
+    "make-a-shapeaten-million-scale3dshapemodea",
+    "mvddmulti-viewdepthdiffusionmodela",
+    "sdfusionmultimodal3dshapecompletionreconstructionandgeneratioa",
+    "quartetofdiffusionsstructure-awarepointcloudgenerationthroughpa"
+  ],
+  "total_chunks": 1322,
+  "embedding_status": {
+    "./data/arxiv_downloads\\corpus_diffusion_3d\\3D Shape Generation and Completion through Point-Voxel Diffusion.pdf": "success",
+    "./data/arxiv_downloads\\corpus_diffusion_3d\\Dual Diffusion Models for Multi-modal Guided 3D Avatar Generation.pdf": "success",
+    "./data/arxiv_downloads\\corpus_diffusion_3d\\Deformable 3D Shape Diffusion Model.pdf": "success",
+    "./data/arxiv_downloads\\corpus_diffusion_3d\\Direct3D-S2_ Gigascale 3D Generation Made Easy with Spatial Sparse Attention.pdf": "success",
+    "./data/arxiv_downloads\\corpus_diffusion_3d\\GenCAD_ Image-Conditioned Computer-Aided Design Generation with Transformer-Based Contrastive Repres.pdf": "success",
+    "./data/arxiv_downloads\\corpus_diffusion_3d\\MeshDiffusion_ Score-based Generative 3D Mesh Modeling.pdf": "success",
+    "./data/arxiv_downloads\\corpus_diffusion_3d\\LION_ Latent Point Diffusion Models for 3D Shape Generation.pdf": "success",
+    "./data/arxiv_downloads\\corpus_diffusion_3d\\Make-A-Shape_ a Ten-Million-scale 3D Shape Model.pdf": "success",
+    "./data/arxiv_downloads\\corpus_diffusion_3d\\MVDD_ Multi-View Depth Diffusion Models.pdf": "success",
+    "./data/arxiv_downloads\\corpus_diffusion_3d\\SDFusion_ Multimodal 3D Shape Completion, Reconstruction, and Generation.pdf": "success",
+    "./data/arxiv_downloads\\corpus_diffusion_3d\\Quartet of Diffusions_ Structure-Aware Point Cloud Generation through Part and Symmetry Guidance.pdf": "success"
+  },
+  "citation_paper_meta": {
+    "dualdiffusionmodelsformulti-modalguided3davatargeneratioa": {
+      "title": "Dual Diffusion Models for Multi-modal Guided 3D Avatar Generation",
+      "authors": [
+        "Hong Li",
+        "Yutang Feng",
+        "M. Meng",
+        "Yichen Yang",
+        "Xuhui Liu",
+        "Baochang Zhang"
+      ],
+      "year": 2026,
+      "arxiv_id": "2603.04307",
+      "s2_id": "03cb2ac995a072beef73423673176baba6bb8171"
+    },
+    "deformable3dshapediffusionmodea": {
+      "title": "Equivariant Diffusion Model With A5-Group Neurons for Joint Pose Estimation and Shape Reconstruction",
+      "authors": [
+        "Boyan Wan",
+        "Yifei Shi",
+        "Xiaohong Chen",
+        "Kai Xu"
+      ],
+      "year": 2025,
+      "arxiv_id": "",
+      "s2_id": "03d7965c60e2de1dbe36fa8d33e3c04932974caf"
+    },
+    "3dshapegenerationandcompletionthroughpoint-voxeldiffusioa": {
+      "title": "SDFusion: Multimodal 3D Shape Completion, Reconstruction, and Generation",
+      "authors": [
+        "Yen-Chi Cheng",
+        "Hsin-Ying Lee",
+        "S. Tulyakov",
+        "A. Schwing",
+        "Liangyan Gui"
+      ],
+      "year": 2022,
+      "arxiv_id": "2212.04493",
+      "s2_id": "02c0b857b13030a596bd34dc0d75f499aaf4b420"
+    },
+    "direct3d-s2gigascale3dgenerationmadeeasywithspatialsparseattena": {
+      "title": "Direct3D-S2: Gigascale 3D Generation Made Easy with Spatial Sparse Attention",
+      "authors": [
+        "Shuang Wu",
+        "Youtian Lin",
+        "Feihu Zhang",
+        "Yifei Zeng",
+        "Yikang Yang",
+        "Yajie Bao",
+        "Jiachen Qian",
+        "Siyu Zhu",
+        "Xun Cao",
+        "Philip Torr",
+        "Yao Yao"
+      ],
+      "year": 2025,
+      "arxiv_id": "2505.17412",
+      "s2_id": "03ebe0fb80d3253a5231d0f1cbac7f3f20fa3aec"
+    },
+    "gencadimage-conditionedcomputer-aideddesigngenerationwithtransa": {
+      "title": "GenCAD: Image-Conditioned Computer-Aided Design Generation with Transformer-Based Contrastive Representation and Diffusion Priors",
+      "authors": [
+        "Md Ferdous Alam",
+        "Faez Ahmed"
+      ],
+      "year": 2024,
+      "arxiv_id": "2409.16294",
+      "s2_id": "037f34c8a8e03d91b02af9a9e7539f683b10fa91"
+    },
+    "meshdiffusionscore-basedgenerative3dmeshmodelina": {
+      "title": "MeshDiffusion Score-based Generative 3D Mesh Modeling",
+      "authors": [],
+      "year": null,
+      "arxiv_id": "",
+      "s2_id": ""
+    },
+    "lionlatentpointdiffusionmodelsfor3dshapegeneratioa": {
+      "title": "Dual Diffusion Models for Multi-modal Guided 3D Avatar Generation",
+      "authors": [
+        "Hong Li",
+        "Yutang Feng",
+        "M. Meng",
+        "Yichen Yang",
+        "Xuhui Liu",
+        "Baochang Zhang"
+      ],
+      "year": 2026,
+      "arxiv_id": "2603.04307",
+      "s2_id": "03cb2ac995a072beef73423673176baba6bb8171"
+    },
+    "make-a-shapeaten-million-scale3dshapemodea": {
+      "title": "Make-A-Shape: a Ten-Million-scale 3D Shape Model",
+      "authors": [
+        "Ka-Hei Hui",
+        "Aditya Sanghi",
+        "Arianna Rampini",
+        "Kamal Rahimi Malekshan",
+        "Zhengzhe Liu",
+        "Hooman Shayani",
+        "Chi-Wing Fu"
+      ],
+      "year": 2024,
+      "arxiv_id": "2401.11067",
+      "s2_id": "022af7d9ba658ef305772386863701e1ac9d3822"
+    },
+    "mvddmulti-viewdepthdiffusionmodela": {
+      "title": "Dual Diffusion Models for Multi-modal Guided 3D Avatar Generation",
+      "authors": [
+        "Hong Li",
+        "Yutang Feng",
+        "M. Meng",
+        "Yichen Yang",
+        "Xuhui Liu",
+        "Baochang Zhang"
+      ],
+      "year": 2026,
+      "arxiv_id": "2603.04307",
+      "s2_id": "03cb2ac995a072beef73423673176baba6bb8171"
+    },
+    "sdfusionmultimodal3dshapecompletionreconstructionandgeneratioa": {
+      "title": "SDFusion: Multimodal 3D Shape Completion, Reconstruction, and Generation",
+      "authors": [
+        "Yen-Chi Cheng",
+        "Hsin-Ying Lee",
+        "S. Tulyakov",
+        "A. Schwing",
+        "Liangyan Gui"
+      ],
+      "year": 2022,
+      "arxiv_id": "2212.04493",
+      "s2_id": "02c0b857b13030a596bd34dc0d75f499aaf4b420"
+    },
+    "quartetofdiffusionsstructure-awarepointcloudgenerationthroughpa": {
+      "title": "Quartet of Diffusions: Structure-Aware Point Cloud Generation through Part and Symmetry Guidance",
+      "authors": [
+        "Chenliang Zhou",
+        "Fangcheng Zhong",
+        "Weihao Xia",
+        "Albert Miao",
+        "Canberk Baykal",
+        "Cengiz Öztireli"
+      ],
+      "year": 2026,
+      "arxiv_id": "2601.20425",
+      "s2_id": "0312f2f64d46cea722d15a51bf64cc4a21cc5733"
+    }
+  },
+  "_corpus_stats": {
+    "topic_id": "diffusion_3d",
+    "survey_id": "corpus_diffusion_3d",
+    "n_papers_in_list": 10,
+    "n_collections": 11,
+    "total_chunks": 1322,
+    "n_citation_meta": 11
+  }
+}

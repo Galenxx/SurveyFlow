@@ -1,0 +1,213 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "llm_agent_planning",
+  "seed": 2,
+  "topic": "Planning and Reasoning in Large Language Model Agents: Methods, Tool Use, and Evaluation Benchmarks",
+  "metrics": {
+    "n_cited_claims": 11,
+    "support_total": 0.0,
+    "citation_recall": 0.0,
+    "n_supported": 0,
+    "n_partial": 0,
+    "n_unsupported": 11,
+    "n_error": 0,
+    "n_citation_mounts": 11,
+    "n_contributing": 0,
+    "contributing_weight": 0.0,
+    "citation_precision": 0.0,
+    "n_not_verifiable": 0,
+    "n_claims": 22,
+    "n_claims_with_cite": 11,
+    "n_claims_bare": 11,
+    "bare_assertion_rate": 0.5
+  },
+  "per_sentence": [
+    {
+      "sent_id": 34,
+      "section_title": "3 Background and Foundations",
+      "text": "Li et al. (2024) emphasize that planning is one of the most critical capabilities for such agents, as it requires complex understanding, reasoning, and decision-making processes.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence mentions task planning as a lacking capability in existing IPAs and as a component of LLM-based agents, but it does not state or emphasize that planning is one of the most critical capabilities requiring complex understanding, reasoning, and decision-making.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 36,
+      "section_title": "3 Background and Foundations",
+      "text": "Li et al. (2024) note that their work represents the first comprehensive analysis of LLM-based agents specifically through the lens of these planning capabilities.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract does not claim to be the first comprehensive analysis of LLM-based agents through the lens of planning capabilities, nor does it mention Li et al. (2024) or any such specific contribution.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 38,
+      "section_title": "3 Background and Foundations",
+      "text": "Rationale-based methods can explain model outputs by explicitly training on human-annotated data, while chain-of-thought reasoning approaches enable models to generate textual explanations of their reasoning steps (Li et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses personal LLM agents and their capabilities but does not mention rationale-based methods, human-annotated training data, or chain-of-thought reasoning, so it provides no evidence for the sentence's specific factual claim.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 39,
+      "section_title": "3 Background and Foundations",
+      "text": "Li et al. (2024) further observe that recent studies have sought to make this reasoning process more robust and reliable by enhancing chain-of-thought reasoning techniques.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses personal LLM agents and their capabilities but does not mention chain-of-thought reasoning or efforts to make reasoning more robust and reliable.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 40,
+      "section_title": "4 Methods and Techniques",
+      "text": "Li et al. (2024) position planning as a core capability for autonomous agents, requiring complex understanding, reasoning, and decision-making.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence discusses planning as a missing capability in existing IPAs and mentions LLMs enabling autonomous problem-solving, but it does not explicitly position planning as a core capability requiring complex understanding, reasoning, and decision-making as claimed.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 43,
+      "section_title": "4 Methods and Techniques",
+      "text": "They further observe that recent work has sought to enhance chain-of-thought reasoning to make the reasoning process more robust and reliable (Li et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses personal LLM agents and their capabilities but does not mention chain-of-thought reasoning or efforts to make reasoning more robust and reliable.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 48,
+      "section_title": "5 Applications and Systems",
+      "text": "Li et al. (2024) emphasize that planning is one of the most critical capabilities for autonomous agents, requiring complex understanding, reasoning, and decision-making processes.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses planning as a missing capability in existing IPAs and mentions LLMs' reasoning, but it does not state that planning is 'one of the most critical capabilities' nor does it emphasize this claim as attributed to Li et al. (2024).",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 49,
+      "section_title": "5 Applications and Systems",
+      "text": "Their survey provides what they describe as the first comprehensive analysis of LLM-based agents specifically from the perspective of planning abilities, categorizing existing works into five main directions (Li et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses personal LLM agents broadly but does not claim to provide the first comprehensive analysis of LLM-based agents from a planning perspective nor categorize works into five main directions.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 51,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "A central challenge for LLM-based agents lies in the complexity of planning, which demands sophisticated understanding, reasoning, and decision-making (Li et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses the general potential of LLMs for task planning and personal assistance but does not identify planning complexity as a central challenge or mention the specific demands of sophisticated understanding, reasoning, and decision-making as a core difficulty.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 52,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "While autonomous agents have demonstrated notable capabilities in reasoning, planning, and memorizing, ensuring robust and reliable planning in open-ended environments remains an open problem (EHRAgent Code Empowers Large Language Models for Few-shot Co, n.d.; Li et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence discusses the potential of LLM-based agents for personal assistance and notes limitations of existing IPAs, but it does not specifically address or support the claim that robust and reliable planning in open-ended environments remains an open problem.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 54,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "Li et al. (2024) note that chain-of-thought reasoning approaches can help models generate textual explanations, and that rationale-based methods trained on human-annotated data offer another avenue for explaining model outputs, though developing more robust reasoning mechanisms continues to be a pressing research direction.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses personal LLM agents and their architecture, capability, efficiency, and security, but makes no mention of chain-of-thought reasoning, rationale-based methods, human-annotated data, or the development of robust reasoning mechanisms.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

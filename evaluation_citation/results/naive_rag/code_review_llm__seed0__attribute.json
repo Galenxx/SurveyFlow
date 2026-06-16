@@ -1,0 +1,196 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "code_review_llm",
+  "seed": 0,
+  "topic": "Large Language Models for Automated Code Review: Techniques, Benchmarks, and Industrial Deployment",
+  "metrics": {
+    "n_cited_claims": 10,
+    "support_total": 4.0,
+    "citation_recall": 0.4,
+    "n_supported": 2,
+    "n_partial": 4,
+    "n_unsupported": 4,
+    "n_error": 0,
+    "n_citation_mounts": 10,
+    "n_contributing": 3,
+    "contributing_weight": 4.0,
+    "citation_precision": 0.4,
+    "n_not_verifiable": 0,
+    "n_claims": 18,
+    "n_claims_with_cite": 10,
+    "n_claims_bare": 8,
+    "bare_assertion_rate": 0.4444
+  },
+  "per_sentence": [
+    {
+      "sent_id": 34,
+      "section_title": "3 Background and Foundations",
+      "text": "Pornprasit and Tantithamthavorn (2024) note that a large language model (LLM) is a large deep learning model based on the transformer architecture, and that recent work has proposed LLM-based approaches for code review automation.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence supports the claim that recent work has proposed LLM-based approaches for code review automation, but it does not define an LLM as a large deep learning model based on the transformer architecture.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 35,
+      "section_title": "3 Background and Foundations",
+      "text": "In the related domain of automated program repair, Paul et al. (2023) trace earlier neural foundations, observing that DeepFix employed a neural network with an attention mechanism to predict fixes for common errors in C programs, while CoCoNut introduced the first application of the FConv architecture for automatic code repair, removing drawbacks of prior neural machine translation methods.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence discusses fine-tuning PLBART and CodeT5 and prompt engineering with Codex/GPT-3.5-Turbo for program repair, but never mentions DeepFix, attention mechanisms, CoCoNut, or the FConv architecture, so it provides no support for the specific historical claims about those earlier neural approaches.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 36,
+      "section_title": "3 Background and Foundations",
+      "text": "Paul et al. (2023) further distinguish their own work as using different pre-trained models and LLMs to repair code based on code reviews, situating LLMs as a contemporary evolution of these earlier neural repair techniques.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that pre-trained language models (PLBART, CodeT5) and LLMs (Codex, GPT-3.5-Turbo) were used to repair code based on code review, directly supporting the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 37,
+      "section_title": "4 Methods and Techniques",
+      "text": "Recent approaches to code review automation have increasingly adopted large language models (LLMs), which are large deep learning models based on the transformer architecture (Pornprasit & Tantithamthavorn, 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms that LLMs are used for code review automation but does not state that LLMs are large deep learning models based on the transformer architecture.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 39,
+      "section_title": "4 Methods and Techniques",
+      "text": "Paul et al. (2023) note that DeepFix employed a neural network with an attention mechanism to predict fixes for common errors in C programs, while CoCoNut introduced the first application of the FConv architecture for automatic code repair, addressing limitations of earlier neural machine translation methods.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence discusses fine-tuning PLBART and CodeT5 and prompt engineering with Codex/GPT-3.5-Turbo for program repair, but makes no mention of DeepFix, attention mechanisms, CoCoNut, or the FConv architecture.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 40,
+      "section_title": "4 Methods and Techniques",
+      "text": "Paul et al. (2023) themselves used different pre-trained models and LLMs to repair code based on code reviews.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that the authors applied PLBART and CodeT5 (pre-trained models) and performed prompt engineering with Codex and GPT-3.5-Turbo (LLMs) to repair code using datasets containing code review and subsequent code changes.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 42,
+      "section_title": "5 Applications and Systems",
+      "text": "Pornprasit and Tantithamthavorn (2024) note that LLM-based approaches have been proposed for code review automation, describing these models as large deep learning models built on the transformer architecture.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms LLMs are used for code review automation but does not describe them as 'large deep learning models built on the transformer architecture.'",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 43,
+      "section_title": "5 Applications and Systems",
+      "text": "In the domain of automated program repair, Paul et al. (2023) highlight earlier neural systems such as DeepFix, which used a neural network with an attention mechanism to predict fixes for common errors in C programs, and CoCoNut, which introduced the FConv architecture for automatic code repair.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence discusses PLBART, CodeT5, Codex, and GPT-3.5-Turbo for program repair but never mentions DeepFix, attention mechanisms, CoCoNut, or the FConv architecture, so it provides no support for the claim about those earlier neural systems.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 46,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "Pornprasit and Tantithamthavorn (2024) note that recent work has proposed LLM-based approaches for code review automation, describing LLMs as large deep learning models built on the transformer architecture.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms that LLMs are used for code review automation but does not describe LLMs as large deep learning models built on the transformer architecture.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 48,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "Similarly, Paul et al. (2023) highlight the evolution of neural repair techniques, from early attention-based models like DeepFix for C programs to the introduction of the FConv architecture in CoCoNut, and position their own work as leveraging pre-trained models and LLMs for code repair based on code reviews.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence discusses fine-tuning PLBART and CodeT5 on code-review datasets and prompt engineering with Codex/GPT-3.5-Turbo, but it does not mention DeepFix, FConv, CoCoNut, or any evolution of neural repair techniques from attention-based models to pre-trained models and LLMs.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "federated_health",
+  "seed": 0,
+  "topic": "Federated Learning for Privacy-Preserving Healthcare: Architectures, Communication Efficiency, and Clinical Deployment",
+  "metrics": {
+    "n_cited_claims": 0,
+    "support_total": 0,
+    "citation_recall": null,
+    "n_supported": 0,
+    "n_partial": 0,
+    "n_unsupported": 0,
+    "n_error": 0,
+    "n_citation_mounts": 0,
+    "n_contributing": 0,
+    "contributing_weight": 0.0,
+    "citation_precision": null,
+    "n_not_verifiable": 0,
+    "n_claims": 0,
+    "n_claims_with_cite": 0,
+    "n_claims_bare": 0,
+    "bare_assertion_rate": null
+  },
+  "per_sentence": []
+}

@@ -1,0 +1,192 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "gnn_drug",
+  "seed": 0,
+  "topic": "Graph Neural Networks for Drug Discovery and Molecular Property Prediction",
+  "metrics": {
+    "n_cited_claims": 9,
+    "support_total": 6.0,
+    "citation_recall": 0.6667,
+    "n_supported": 6,
+    "n_partial": 0,
+    "n_unsupported": 3,
+    "n_error": 0,
+    "n_citation_mounts": 9,
+    "n_contributing": 6,
+    "contributing_weight": 6.0,
+    "citation_precision": 0.6667,
+    "n_not_verifiable": 1,
+    "n_claims": 42,
+    "n_claims_with_cite": 10,
+    "n_claims_bare": 32,
+    "bare_assertion_rate": 0.7619
+  },
+  "per_sentence": [
+    {
+      "sent_id": 39,
+      "section_title": "3 Molecular Representation and Graph Construction",
+      "text": "The transition from simple 2D topological graphs to rich 3D geometric graphs has been a major catalyst for the development of specialized GNN architectures capable of respecting physical symmetries, such as rotation and translation invariance (Schütt et al., 2017).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that SchNet uses continuous-filter convolutional layers to model molecules without discretizing their 3D positions and achieves rotationally invariant energy predictions, directly supporting the claim that specialized GNN architectures respect physical symmetries like rotation invariance.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 40,
+      "section_title": "3 Molecular Representation and Graph Construction",
+      "text": "Furthermore, the choice of graph granularity—ranging from atom-level graphs to coarse-grained fragment-level graphs—adds another layer of design flexibility, allowing researchers to balance computational efficiency with representational fidelity (Fey & Lenssen, 2019).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 7
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes the PyTorch Geometric library and its performance, but does not discuss graph granularity choices (atom-level vs. fragment-level) or the trade-off between computational efficiency and representational fidelity.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 48,
+      "section_title": "4 Graph Neural Network Architectures for Molecules",
+      "text": "For instance, DimeNet uses spherical Bessel functions and spherical harmonics to embed interatomic distances and angles, enabling the network to learn expressive directional representations (Klicpera et al., 2020).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that DimeNet uses spherical Bessel functions for a radial basis and directional message passing that embeds messages associated with directions, which together enable learning expressive directional representations.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 50,
+      "section_title": "4 Graph Neural Network Architectures for Molecules",
+      "text": "Another line of architectural innovation focuses on ensuring that the GNNs respect the fundamental symmetries of physical systems, leading to the development of equivariant GNNs that guarantee rotation and translation equivariance by construction, thereby improving sample efficiency and generalization (Gasteiger et al., 2021).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract of GemNet explicitly states that the proposed GNNs with spherical representations are universal approximators for predictions invariant to translation and equivariant to permutation and rotation, directly supporting the claim that equivariant GNNs guarantee rotation and translation equivariance by construction.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 59,
+      "section_title": "5 Molecular Property Prediction",
+      "text": "By passing messages along directed edges rather than undirected nodes, D-MPNNs avoid the creation of artificial loops and learn more distinct representations of atomic environments, leading to superior performance in tasks like toxicity prediction and drug efficacy classification (Yang et al., 2019).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses general graph convolutional models and benchmarks but never mentions D-MPNNs, directed edges, avoiding artificial loops, or the specific tasks of toxicity prediction and drug efficacy classification.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 60,
+      "section_title": "5 Molecular Property Prediction",
+      "text": "The continuous improvement in property prediction accuracy directly accelerates the drug discovery pipeline by enabling more reliable virtual screening and reducing the reliance on costly and time-consuming wet-lab experiments (Gilmer et al., 2017).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 66,
+      "section_title": "6 Generative Models for Drug Discovery",
+      "text": "Early variational autoencoder frameworks like GraphVAE introduced probabilistic generation of small graphs using graph matching techniques (Simonovsky & Komodakis, 2018).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 8
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states the method is a variational autoencoder that outputs a probabilistic graph for generation, directly matching the claim about GraphVAE introducing probabilistic generation of small graphs.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 67,
+      "section_title": "6 Generative Models for Drug Discovery",
+      "text": "Constrained Graph VAEs enforce chemical validity during the decoding process, ensuring that generated outputs are valid molecules (Liu et al., 2018).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 9
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The abstract describes a graph VAE for molecule generation and mentions design choices to mitigate linearization downsides, but it does not state that the model enforces chemical validity during decoding or guarantees valid molecule outputs.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 69,
+      "section_title": "6 Generative Models for Drug Discovery",
+      "text": "GraphAF combines autoregressive generation with normalizing flows, allowing for exact density estimation and efficient sampling, while maintaining high validity and property optimization capabilities (Shi et al., 2020).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that GraphAF combines autoregressive and flow-based approaches, enabling data density estimation, efficient parallel training, and an iterative sampling process with valency checking, which directly supports the claim of exact density estimation, efficient sampling, high validity, and property optimization capabilities.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 70,
+      "section_title": "6 Generative Models for Drug Discovery",
+      "text": "Generative Adversarial Networks (GANs) have also been adapted for molecular graphs, with models like MolGAN utilizing a permutation-invariant discriminator to handle the non-uniqueness of graph representations (De Cao & Kipf, 2018).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract states that MolGAN adapts GANs to operate directly on graph-structured data, and the paper's title and content confirm it is an implicit generative model for molecular graphs, directly supporting the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    }
+  ]
+}

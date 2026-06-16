@@ -1,0 +1,679 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "txt2sql",
+  "seed": 2,
+  "topic": "Text-to-SQL Generation with Large Language Models: Schema Linking, Benchmarks, and Robustness",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Yu et al. (2018). Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Database Semantic Parsing and Text-to-SQL Task. arXiv:1809.08887v1.",
+      "parsed": {
+        "title": "Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Database Semantic Parsing and Text-to-SQL Task",
+        "authors": "Yu et al",
+        "year": "2018",
+        "arxiv_id": "1809.08887v1",
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Li et al. (2023). BIRD: A Big Bench for Large-Scale Database Grounded Text-to-SQL. arXiv:2305.03111v2.",
+      "parsed": {
+        "title": "BIRD: A Big Bench for Large-Scale Database Grounded Text-to-SQL",
+        "authors": "Li et al",
+        "year": "2023",
+        "arxiv_id": "2305.03111v2",
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Pourreza and Rafiei (2023). DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction. arXiv:2304.11015v4.",
+      "parsed": {
+        "title": "DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction",
+        "authors": "Pourreza and Rafiei",
+        "year": "2023",
+        "arxiv_id": "2304.11015v4",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction",
+          "arxiv_id": "2304.11015",
+          "doi": "10.48550/arXiv.2304.11015",
+          "year": "2023",
+          "authors": [
+            "M. Pourreza",
+            "Davood Rafiei"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "2304.11015",
+          "doi": "10.48550/arXiv.2304.11015",
+          "title": "DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction",
+          "abstract": "We study the problem of decomposing a complex text-to-sql task into smaller sub-tasks and how such a decomposition can significantly improve the performance of Large Language Models (LLMs) in the reasoning process. There is currently a significant gap between the performance of fine-tuned models and prompting approaches using LLMs on challenging text-to-sql datasets such as Spider. We show that SQL queries, despite their declarative structure, can be broken down into sub-problems and the solutions of those sub-problems can be fed into LLMs to significantly improve their performance. Our experiments with three LLMs show that this approach consistently improves their performance by roughly 10%, pushing the accuracy of LLMs towards state-of-the-art, and even beating large fine-tuned models on the holdout Spider dataset.",
+          "year": "2023",
+          "authors": [
+            "M. Pourreza",
+            "Davood Rafiei"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 703
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Li et al. (2023). RESDSQL: Decoupling Schema Linking from Skeleton Parsing for Text-to-SQL. arXiv:2302.05965v2.",
+      "parsed": {
+        "title": "RESDSQL: Decoupling Schema Linking from Skeleton Parsing for Text-to-SQL",
+        "authors": "Li et al",
+        "year": "2023",
+        "arxiv_id": "2302.05965v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL",
+          "arxiv_id": "2302.05965",
+          "doi": "10.48550/arXiv.2302.05965",
+          "year": "2023",
+          "authors": [
+            "Haoyang Li",
+            "Jing Zhang",
+            "Cuiping Li",
+            "Hong Chen"
+          ]
+        },
+        {
+          "title": "Decoupling the Skeleton Parsing and Schema Linking for Text-to-SQL",
+          "arxiv_id": null,
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Haoyang Li",
+            "Jing Zhang",
+            "Cuiping Li",
+            "Hong Chen"
+          ]
+        },
+        {
+          "title": "Lightweight Text-to-SQL Enhancement via Schema Ranking and Skeleton-Constrained CoT Distillation",
+          "arxiv_id": null,
+          "doi": "10.1109/AIBDF67964.2025.11440751",
+          "year": "2025",
+          "authors": [
+            "Weihong Gao",
+            "Xinying Li",
+            "Bin Qin"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2302.05965",
+          "doi": "10.48550/arXiv.2302.05965",
+          "title": "RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL",
+          "abstract": "One of the recent best attempts at Text-to-SQL is the pre-trained language model. Due to the structural property of the SQL queries, the seq2seq model takes the responsibility of parsing both the schema items (i.e., tables and columns) and the skeleton (i.e., SQL keywords). Such coupled targets increase the difficulty of parsing the correct SQL queries especially when they involve many schema items and logic operators. This paper proposes a ranking-enhanced encoding and skeleton-aware decoding framework to decouple the schema linking and the skeleton parsing. Specifically, for a seq2seq encoder-decode model, its encoder is injected by the most relevant schema items instead of the whole unordered ones, which could alleviate the schema linking effort during SQL parsing, and its decoder first generates the skeleton and then the actual SQL query, which could implicitly constrain the SQL parsing. We evaluate our proposed framework on Spider and its three robustness variants: Spider-DK, Spider-Syn, and Spider-Realistic. The experimental results show that our framework delivers promising performance and robustness. Our code is available at https://github.com/RUCKBReasoning/RESDSQL.",
+          "year": "2023",
+          "authors": [
+            "Haoyang Li",
+            "Jing Zhang",
+            "Cuiping Li",
+            "Hong Chen"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 360
+        },
+        "title_sim": 0.950354609929078,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 4,
+      "raw": "Dong et al. (2023). C3: Zero-shot Text-to-SQL with ChatGPT. arXiv:2307.07306v2.",
+      "parsed": {
+        "title": "C3: Zero-shot Text-to-SQL with ChatGPT",
+        "authors": "Dong et al",
+        "year": "2023",
+        "arxiv_id": "2307.07306v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "C3: Zero-shot Text-to-SQL with ChatGPT",
+          "arxiv_id": "2307.07306",
+          "doi": "10.48550/arXiv.2307.07306",
+          "year": "2023",
+          "authors": [
+            "Xuemei Dong",
+            "Chao Zhang",
+            "Yuhang Ge",
+            "Yuren Mao",
+            "Yunjun Gao",
+            "Lu Chen",
+            "Jinshu Lin",
+            "Dongfang Lou"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2307.07306",
+          "doi": "10.48550/arXiv.2307.07306",
+          "title": "C3: Zero-shot Text-to-SQL with ChatGPT",
+          "abstract": "This paper proposes a ChatGPT-based zero-shot Text-to-SQL method, dubbed C3, which achieves 82.3\\% in terms of execution accuracy on the holdout test set of Spider and becomes the state-of-the-art zero-shot Text-to-SQL method on the Spider Challenge. C3 consists of three key components: Clear Prompting (CP), Calibration with Hints (CH), and Consistent Output (CO), which are corresponding to the model input, model bias and model output respectively. It provides a systematic treatment for zero-shot Text-to-SQL. Extensive experiments have been conducted to verify the effectiveness and efficiency of our proposed method.",
+          "year": "2023",
+          "authors": [
+            "Xuemei Dong",
+            "Chao Zhang",
+            "Yuhang Ge",
+            "Yuren Mao",
+            "Yunjun Gao",
+            "Lu Chen",
+            "Jinshu Lin",
+            "Dongfang Lou"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 254
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 5,
+      "raw": "Wang et al. (2024). MAC-SQL: Multi-Agent Collaboration for Text-to-SQL. arXiv:2312.11242v2.",
+      "parsed": {
+        "title": "MAC-SQL: Multi-Agent Collaboration for Text-to-SQL",
+        "authors": "Wang et al",
+        "year": "2024",
+        "arxiv_id": "2312.11242v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL",
+          "arxiv_id": "2312.11242",
+          "doi": "10.48550/arXiv.2312.11242",
+          "year": "2023",
+          "authors": [
+            "Bing Wang",
+            "Changyu Ren",
+            "Jian Yang",
+            "Xinnian Liang",
+            "Jiaqi Bai",
+            "Qian-Wen Zhang",
+            "Zhao Yan",
+            "Zhoujun Li"
+          ]
+        },
+        {
+          "title": "Advances in Web-age information management : 5th International Conference, WAIM 2004, Dalian, China, July 15-17, 2004 : proceedings",
+          "arxiv_id": null,
+          "doi": null,
+          "year": "2004",
+          "authors": [
+            "Quing Li",
+            "Guoren Wang",
+            "Ling Feng"
+          ]
+        },
+        {
+          "title": "Advances in Web-age information management : 5th International Conference, WAIM 2004, Dalian, China, July 15-17, 2004 : proceedings",
+          "arxiv_id": null,
+          "doi": null,
+          "year": "2004",
+          "authors": []
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2312.11242",
+          "doi": "10.48550/arXiv.2312.11242",
+          "title": "MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL",
+          "abstract": "Recent LLM-based Text-to-SQL methods usually suffer from significant performance degradation on\"huge\"databases and complex user questions that require multi-step reasoning. Moreover, most existing methods neglect the crucial significance of LLMs utilizing external tools and model collaboration. To address these challenges, we introduce MAC-SQL, a novel LLM-based multi-agent collaborative framework. Our framework comprises a core decomposer agent for Text-to-SQL generation with few-shot chain-of-thought reasoning, accompanied by two auxiliary agents that utilize external tools or models to acquire smaller sub-databases and refine erroneous SQL queries. The decomposer agent collaborates with auxiliary agents, which are activated as needed and can be expanded to accommodate new features or tools for effective Text-to-SQL parsing. In our framework, We initially leverage GPT-4 as the strong backbone LLM for all agent tasks to determine the upper bound of our framework. We then fine-tune an open-sourced instruction-followed model, SQL-Llama, by leveraging Code Llama 7B, to accomplish all tasks as GPT-4 does. Experiments show that SQL-Llama achieves a comparable execution accuracy of 43.94, compared to the baseline accuracy of 46.35 for vanilla GPT-4. At the time of writing, MAC-SQL+GPT-4 achieves an execution accuracy of 59.59 when evaluated on the BIRD benchmark, establishing a new state-of-the-art (SOTA) on its holdout test set (https://github.com/wbbeyourself/MAC-SQL).",
+          "year": "2023",
+          "authors": [
+            "Bing Wang",
+            "Changyu Ren",
+            "Jian Yang",
+            "Xinnian Liang",
+            "Jiaqi Bai",
+            "Qian-Wen Zhang",
+            "Zhao Yan",
+            "Zhoujun Li"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 224
+        },
+        "title_sim": 0.8727272727272727,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 6,
+      "raw": "Hai et al. (2024). CodeS: Towards Building Open-source Language Models for Text-to-SQL. arXiv:2402.16347v1.",
+      "parsed": {
+        "title": "CodeS: Towards Building Open-source Language Models for Text-to-SQL",
+        "authors": "Hai et al",
+        "year": "2024",
+        "arxiv_id": "2402.16347v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "CodeS: Towards Building Open-source Language Models for Text-to-SQL",
+          "arxiv_id": "2402.16347",
+          "doi": "10.1145/3654930",
+          "year": "2024",
+          "authors": [
+            "Haoyang Li",
+            "Jing Zhang",
+            "Hanbing Liu",
+            "Ju Fan",
+            "Xiaokang Zhang",
+            "Jun Zhu",
+            "Renjie Wei",
+            "Hongyan Pan",
+            "Cuiping Li",
+            "Hong Chen"
+          ]
+        },
+        {
+          "title": "UniQL: Towards Dialect-Universal Benchmarking for Text-to-SQL",
+          "arxiv_id": "2606.08018",
+          "doi": null,
+          "year": "2026",
+          "authors": [
+            "Jianling Gao",
+            "Chongyang Tao",
+            "Jiayuan Bai",
+            "Liu Yang",
+            "Xuanguang Pan",
+            "Jinrui Liu",
+            "Shihao Xing",
+            "Xiaohan Xu",
+            "Jieming Liang",
+            "Shuai Ma"
+          ]
+        },
+        {
+          "title": "AutoTQA: Towards Autonomous Tabular Question Answering through Multi-Agent Large Language Models",
+          "arxiv_id": null,
+          "doi": "10.14778/3685800.3685816",
+          "year": "2024",
+          "authors": [
+            "Jun-Peng Zhu",
+            "Peng Cai",
+            "Kai Xu",
+            "Li Li",
+            "Yishen Sun",
+            "Shuai Zhou",
+            "Haihuang Su",
+            "Liu Tang",
+            "Qi Liu"
+          ]
+        },
+        {
+          "title": "Towards Building Large Scale Datasets and State-of-the-Art Automatic Speech Translation Systems for 14 Indian Languages",
+          "arxiv_id": null,
+          "doi": "10.18653/v1/2025.acl-long.1582",
+          "year": "2025",
+          "authors": [
+            "Ashwin Sankar",
+            "Sparsh Jain",
+            "N. Narasimhan",
+            "Devilal Choudhary",
+            "Dhairya Suman",
+            "Mohammed Safi Ur Rahman Khan",
+            "Anoop Kunchukuttan",
+            "Mitesh M. Khapra",
+            "Raj Dabre"
+          ]
+        },
+        {
+          "title": "SEED-Bench-2: Benchmarking Multimodal Large Language Models",
+          "arxiv_id": "2311.17092",
+          "doi": "10.48550/arXiv.2311.17092",
+          "year": "2023",
+          "authors": [
+            "Bohao Li",
+            "Yuying Ge",
+            "Yixiao Ge",
+            "Guangzhi Wang",
+            "Rui Wang",
+            "Ruimao Zhang",
+            "Ying Shan"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2402.16347",
+          "doi": "10.1145/3654930",
+          "title": "CodeS: Towards Building Open-source Language Models for Text-to-SQL",
+          "abstract": "Language models have shown promising performance on the task of translating natural language questions into SQL queries (Text-to-SQL). However, most of the state-of-the-art (SOTA) approaches rely on powerful yet closed-source large language models (LLMs), such as ChatGPT and GPT-4, which may have the limitations of unclear model architectures, data privacy risks, and expensive inference overheads. To address the limitations, we introduce CodeS, a series of pre-trained language models with parameters ranging from 1B to 15B, specifically designed for the text-to-SQL task. CodeS is a fully open-source language model, which achieves superior accuracy with much smaller parameter sizes. This paper studies the research challenges in building CodeS. To enhance the SQL generation abilities of CodeS, we adopt an incremental pre-training approach using a specifically curated SQL-centric corpus. Based on this, we address the challenges of schema linking and rapid domain adaptation through strategic prompt construction and a bi-directional data augmentation technique. We conduct comprehensive evaluations on multiple datasets, including the widely used Spider benchmark, the newly released BIRD benchmark, robustness-diagnostic benchmarks such as Spider-DK, Spider-Syn, Spider-Realistic, and Dr.Spider, as well as two real-world datasets created for financial and academic applications. The experimental results show that our CodeS achieves new SOTA accuracy and robustness on nearly all challenging text-to-SQL benchmarks.",
+          "year": "2024",
+          "authors": [
+            "Haoyang Li",
+            "Jing Zhang",
+            "Hanbing Liu",
+            "Ju Fan",
+            "Xiaokang Zhang",
+            "Jun Zhu",
+            "Renjie Wei",
+            "Hongyan Pan",
+            "Cuiping Li",
+            "Hong Chen"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 300
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 7,
+      "raw": "Li et al. (2024). PET-SQL: A Prompt-Enhanced Two-Stage Text-to-SQL Framework. arXiv:2402.00359v1.",
+      "parsed": {
+        "title": "PET-SQL: A Prompt-Enhanced Two-Stage Text-to-SQL Framework",
+        "authors": "Li et al",
+        "year": "2024",
+        "arxiv_id": "2402.00359v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "PET-SQL: A Prompt-enhanced Two-stage Text-to-SQL Framework with Cross-consistency",
+          "arxiv_id": null,
+          "doi": "10.48550/arXiv.2403.09732",
+          "year": "2024",
+          "authors": [
+            "Zhishuai Li",
+            "Xiang Wang",
+            "Jingjing Zhao",
+            "Sun Yang",
+            "Guoqing Du",
+            "Xiaoru Hu",
+            "Bin Zhang",
+            "Yuxiao Ye",
+            "Ziyue Li",
+            "Rui Zhao",
+            "Hangyu Mao"
+          ]
+        },
+        {
+          "title": "PET-SQL: A Prompt-Enhanced Two-Round Refinement of Text-to-SQL with Cross-Consistency",
+          "arxiv_id": "2403.09732",
+          "doi": "10.1007/978-981-95-3830-0_13",
+          "year": "2024",
+          "authors": [
+            "Zhishuai Li",
+            "Xiang Wang",
+            "Jingjing Zhao",
+            "Sun Yang",
+            "Guoqing Du",
+            "Xiaoru Hu",
+            "Bin Zhang",
+            "Yuxiao Ye",
+            "Ziyue Li",
+            "Rui Zhao",
+            "Hangyu Mao"
+          ]
+        },
+        {
+          "title": "Retrieval-augmented Chinese text-to-SQL generation for conversational bibliographic search",
+          "arxiv_id": null,
+          "doi": "10.1371/journal.pone.0334965",
+          "year": "2025",
+          "authors": [
+            "Zhenyu Wang",
+            "Mark Xuefang Zhu",
+            "Guo Li",
+            "Shanshan Kong"
+          ]
+        },
+        {
+          "title": "G³R: A Graph-Guided Generate-and-Rerank Framework for Complex and Cross-domain Text-to-SQL Generation",
+          "arxiv_id": null,
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Yanzheng Xiang",
+            "Qian-Wen Zhang",
+            "Xu Zhang",
+            "Zejie Liu",
+            "Yunbo Cao",
+            "Deyu Zhou"
+          ]
+        },
+        {
+          "title": "Talk to your data: Enhancing Business Intelligence and Inventory Management with LLM-Driven Semantic Parsing and Text-to-SQL for Database Querying",
+          "arxiv_id": null,
+          "doi": "10.1109/ICDABI60145.2023.10629374",
+          "year": "2023",
+          "authors": [
+            "Jerry Zhu",
+            "Saad A. Bazaz",
+            "Srimonti Dutta",
+            "Bhavaraju Anuraag",
+            "Imran Haider",
+            "Srijita Bandopadhyay"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": "10.48550/arXiv.2403.09732",
+          "title": "PET-SQL: A Prompt-enhanced Two-stage Text-to-SQL Framework with Cross-consistency",
+          "abstract": "",
+          "year": "2024",
+          "authors": [
+            "Zhishuai Li",
+            "Xiang Wang",
+            "Jingjing Zhao",
+            "Sun Yang",
+            "Guoqing Du",
+            "Xiaoru Hu",
+            "Bin Zhang",
+            "Yuxiao Ye",
+            "Ziyue Li",
+            "Rui Zhao",
+            "Hangyu Mao"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 46
+        },
+        "title_sim": 0.8321167883211679,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 8,
+      "raw": "Gao et al. (2023). Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation. arXiv:2308.15363v2.",
+      "parsed": {
+        "title": "Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation",
+        "authors": "Gao et al",
+        "year": "2023",
+        "arxiv_id": "2308.15363v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation",
+          "arxiv_id": "2308.15363",
+          "doi": "10.48550/arXiv.2308.15363",
+          "year": "2023",
+          "authors": [
+            "Dawei Gao",
+            "Haibin Wang",
+            "Yaliang Li",
+            "Xiuyu Sun",
+            "Yichen Qian",
+            "Bolin Ding",
+            "Jingren Zhou"
+          ]
+        },
+        {
+          "title": "DB-GPT-Hub: Towards Open Benchmarking Text-to-SQL Empowered by Large Language Models",
+          "arxiv_id": "2406.11434",
+          "doi": "10.48550/arXiv.2406.11434",
+          "year": "2024",
+          "authors": [
+            "Fan Zhou",
+            "Siqiao Xue",
+            "Danrui Qi",
+            "Wenhui Shi",
+            "Wang Zhao",
+            "Ganglin Wei",
+            "Hongyang Zhang",
+            "Caigai Jiang",
+            "Gangwei Jiang",
+            "Zhixuan Chu",
+            "Faqiang Chen"
+          ]
+        },
+        {
+          "title": "QUERYING DATABASES WITH NATURAL LANGUAGE: THE USE OF LARGE LANGUAGE MODELS FOR TEXT-TO-SQL TASKS",
+          "arxiv_id": null,
+          "doi": "10.17771/pucrio.acad.66799",
+          "year": "2024",
+          "authors": [
+            "Eduardo R. S. Nascimento",
+            "Marco A. Casanova"
+          ]
+        },
+        {
+          "title": "Dr.Spider: A Diagnostic Evaluation Benchmark towards Text-to-SQL Robustness",
+          "arxiv_id": "2301.08881",
+          "doi": "10.48550/arXiv.2301.08881",
+          "year": "2023",
+          "authors": [
+            "Shuaichen Chang",
+            "J. Wang",
+            "Mingwen Dong",
+            "Lin Pan",
+            "Henghui Zhu",
+            "A. Li",
+            "Wuwei Lan",
+            "Shenmin Zhang",
+            "Jiarong Jiang",
+            "Joseph Lilien",
+            "Stephen M. Ash",
+            "William Yang Wang",
+            "Zhiguo Wang",
+            "Vittorio Castelli",
+            "Patrick Ng",
+            "Bing Xiang"
+          ]
+        },
+        {
+          "title": "Enhancing Text-to-SQL Translation for Financial System Design",
+          "arxiv_id": "2312.14725",
+          "doi": "10.1145/3639477.3639732",
+          "year": "2023",
+          "authors": [
+            "Yewei Song",
+            "Saad Ezzini",
+            "Xunzhu Tang",
+            "Cedric Lothritz",
+            "Jacques Klein",
+            "Tégawendé F. Bissyandé",
+            "A. Boytsov",
+            "Ulrick Ble",
+            "Anne Goujon"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2308.15363",
+          "doi": "10.48550/arXiv.2308.15363",
+          "title": "Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation",
+          "abstract": "Large language models (LLMs) have emerged as a new paradigm for Text-to-SQL task. However, the absence of a systematical benchmark inhibits the development of designing effective, efficient and economic LLM-based Text-to-SQL solutions. To address this challenge, in this paper, we first conduct a systematical and extensive comparison over existing prompt engineering methods, including question representation, example selection and example organization, and with these experimental results, we elaborate their pros and cons. Based on these findings, we propose a new integrated solution, named DAIL-SQL, which refreshes the Spider leaderboard with 86.6% execution accuracy and sets a new bar.\n To explore the potential of open-source LLM, we investigate them in various scenarios, and further enhance their performance with supervised fine-tuning. Our explorations highlight open-source LLMs' potential in Text-to-SQL, as well as the advantages and disadvantages of the supervised fine-tuning. Additionally, towards an efficient and economic LLM-based Text-to-SQL solution, we emphasize the token efficiency in prompt engineering and compare the prior studies under this metric. We hope that our work provides a deeper understanding of Text-to-SQL with LLMs, and inspires further investigations and broad applications.",
+          "year": "2023",
+          "authors": [
+            "Dawei Gao",
+            "Haibin Wang",
+            "Yaliang Li",
+            "Xiuyu Sun",
+            "Yichen Qian",
+            "Bolin Ding",
+            "Jingren Zhou"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 635
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 9,
+      "raw": "Katsogiannis-Meimarakis and Koutrika (2023). A Survey on Text-to-SQL Parsing: Shifts in the Era of Large Language Models. arXiv:2309.09001v1.",
+      "parsed": {
+        "title": "A Survey on Text-to-SQL Parsing: Shifts in the Era of Large Language Models",
+        "authors": "Katsogiannis-Meimarakis and Koutrika",
+        "year": "2023",
+        "arxiv_id": "2309.09001v1",
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    }
+  ]
+}

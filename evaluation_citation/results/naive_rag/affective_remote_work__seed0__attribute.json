@@ -1,0 +1,91 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "affective_remote_work",
+  "seed": 0,
+  "topic": "Affective Computing for Remote Workplace Monitoring: Sensing, Inference, and Ethical Considerations",
+  "metrics": {
+    "n_cited_claims": 0,
+    "support_total": 0,
+    "citation_recall": null,
+    "n_supported": 0,
+    "n_partial": 0,
+    "n_unsupported": 0,
+    "n_error": 0,
+    "n_citation_mounts": 0,
+    "n_contributing": 0,
+    "contributing_weight": 0.0,
+    "citation_precision": null,
+    "n_not_verifiable": 5,
+    "n_claims": 11,
+    "n_claims_with_cite": 5,
+    "n_claims_bare": 6,
+    "bare_assertion_rate": 0.5455
+  },
+  "per_sentence": [
+    {
+      "sent_id": 33,
+      "section_title": "3 Background and Foundations",
+      "text": "Mantello et al. (2021) observe that a new generation of biometric devices has arisen that can sense, read, monitor, and evaluate the affective state of a worker.",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 36,
+      "section_title": "4 Methods and Techniques",
+      "text": "Mantello et al. (2021) situate contemporary workplace monitoring within the emergence of a new generation of biometric devices capable of sensing, reading, monitoring, and evaluating a worker’s affective state.",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 38,
+      "section_title": "5 Applications and Systems",
+      "text": "A prominent application domain is workplace monitoring through Emotional AI, a technology derived from affective computing that enables biometric devices to sense, read, monitor, and evaluate a worker’s affective state (Mantello et al., 2021).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 39,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "A significant challenge confronting the deployment of affective computing in organizational settings is the emergence of technologies that can sense, read, monitor, and evaluate the affective state of a worker, commercially known as Emotional AI (Mantello et al., 2021).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 41,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "The evidence underscores that these systems represent a new generation of biometric devices, moving beyond prior forms of monitoring to target workers' emotional states directly (Mantello et al., 2021).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    }
+  ]
+}

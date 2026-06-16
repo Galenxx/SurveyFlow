@@ -1,0 +1,79 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\naive_rag\\Text_to_SQL_Generation_with_Large_Language_Models__seed0\\survey.md",
+  "topic": "3 Background and Foundations",
+  "n_references": 8,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Hussain, A., Zarkouei, S. A. K., Rabin, M. R. I., Alipour, M. A., Lin, S., & Xu, B. (2025). Capturing the Effects of Quantization on Trojans in Code LLMs. arXiv:2505.14200.",
+      "title": "Capturing the Effects of Quantization on Trojans in Code LLMs",
+      "authors": "Hussain, A., Zarkouei, S. A. K., Rabin, M. R. I., Alipour, M. A., Lin, S., & Xu, B",
+      "year": "2025",
+      "arxiv_id": "2505.14200",
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Neogi, H., Ray, J., & Banerjee, S. (2024). Fine-Tuning Gemma-2B for Text-to-SQL Generation.",
+      "title": "Fine-Tuning Gemma-2B for Text-to-SQL Generation",
+      "authors": "Neogi, H., Ray, J., & Banerjee, S",
+      "year": "2024",
+      "arxiv_id": null,
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Câmara, V., Mendonca-Neto, R., Silva, A., & Cordovil, L. (2024). A Large Language Model approach to SQL-to-Text Generation.",
+      "title": "A Large Language Model approach to SQL-to-Text Generation",
+      "authors": "Câmara, V., Mendonca-Neto, R., Silva, A., & Cordovil, L",
+      "year": "2024",
+      "arxiv_id": null,
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Maamari, K., Landy, C., & Mhedhbi, A. (2025). GenEdit: Compounding Operators and Continuous Improvement to Tackle Text-to-SQL in the Enterprise. arXiv:2503.21602.",
+      "title": "GenEdit: Compounding Operators and Continuous Improvement to Tackle Text-to-SQL in the Enterprise",
+      "authors": "Maamari, K., Landy, C., & Mhedhbi, A",
+      "year": "2025",
+      "arxiv_id": "2503.21602",
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Sergeev, A., Goloviznina, V., Melnichenko, M., & Kotelnikov, E. (2025). Talking to Data: Designing Smart Assistants for Humanities Databases. arXiv:2506.00986.",
+      "title": "Talking to Data: Designing Smart Assistants for Humanities Databases",
+      "authors": "Sergeev, A., Goloviznina, V., Melnichenko, M., & Kotelnikov, E",
+      "year": "2025",
+      "arxiv_id": "2506.00986",
+      "doi": null
+    },
+    {
+      "ref_id": 5,
+      "raw": "You, Z., Yao, J., Cheng, D., Wen, Z., Lu, Z., & Shen, X. (2024). V-SQL: A View-based Two-stage Text-to-SQL Framework. arXiv:2502.15686.",
+      "title": "V-SQL: A View-based Two-stage Text-to-SQL Framework",
+      "authors": "You, Z., Yao, J., Cheng, D., Wen, Z., Lu, Z., & Shen, X",
+      "year": "2024",
+      "arxiv_id": "2502.15686",
+      "doi": null
+    },
+    {
+      "ref_id": 6,
+      "raw": "Liu, B., Cheng, Z., Liu, Y., Shen, Y., & Guo, X. (2024). A Modular Agent-Based Approach to Complex Data Question-Answering with SQL Generation and Parameter-Efficient Fine-Tuning.",
+      "title": "A Modular Agent-Based Approach to Complex Data Question-Answering with SQL Generation and Parameter-Efficient Fine-Tuning",
+      "authors": "Liu, B., Cheng, Z., Liu, Y., Shen, Y., & Guo, X",
+      "year": "2024",
+      "arxiv_id": null,
+      "doi": null
+    },
+    {
+      "ref_id": 7,
+      "raw": "Vichev, S., & Marchev, A. (2024). RAGSQL: Context Retrieval Evaluation on Augmenting Text-to-SQL Prompts.",
+      "title": "RAGSQL: Context Retrieval Evaluation on Augmenting Text-to-SQL Prompts",
+      "authors": "Vichev, S., & Marchev, A",
+      "year": "2024",
+      "arxiv_id": null,
+      "doi": null
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "arxiv_query": "(abs:\"state of health\" AND abs:\"remaining useful life\" AND abs:\"machine learning\" OR abs:\"deep learning\" OR abs:\"lithium ion\" OR abs:\"degradation\" OR abs:\"capacity\" OR abs:\"prognostics\" OR abs:\"physics informed\")",
+  "generic_arxiv_query": "(abs:\"battery\" AND abs:\"machine learning\") OR (abs:\"lithium ion\" AND abs:\"deep learning\")",
+  "s2_query": "lithium ion battery state of health estimation",
+  "s2_generic_query": "lithium battery health prediction machine learning",
+  "survey_id": "corpus_battery_soh_ml",
+  "tsv_path": "./data/tsv\\corpus_battery_soh_ml.tsv",
+  "paper_list": [
+    {
+      "title": "Research on State of Health Estimation of Lithium Batteries Based on EIS and CNN-VIT Models",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "0040eb15c563f86d42340edde37652c7b94db558",
+      "open_access_pdf_url": "",
+      "authors": [
+        "C. Chang",
+        "Guangwei Su",
+        "Haimei Cen",
+        "Jiuchun Jiang",
+        "Aina Tian",
+        "Yang Gao",
+        "Tiezhou Wu"
+      ],
+      "source": "s2",
+      "citation_count": 3,
+      "year": 2023
+    },
+    {
+      "title": "Aging States Estimation and Monitoring Strategies of Li-Ion Batteries Using Incremental Capacity Analysis and Gaussian Process Regression",
+      "pdf_link": "",
+      "arxiv_id": "2603.26155",
+      "s2_id": "00446c3187c6e4673ad8166e0676c51047706d27",
+      "open_access_pdf_url": "",
+      "authors": [
+        "M. Landwehr",
+        "Patrick Hoher",
+        "Johannes Reuter"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2026
+    },
+    {
+      "title": "Data-Driven Soh Estimation Via Voltage Temporal and Capacity Peak Features for Batteries",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "0046547bfd684e7f648d7802bf4303a241d6e89a",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Qinghua Li",
+        "Zhongbao Wei",
+        "Hany M. Hasanien"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2025
+    },
+    {
+      "title": "Bias-Compensated State Estimation Algorithm for Lithium Iron Phosphate Batteries with Flat OCV-SOC Curves",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "0054c9452c8df65a4875b6f5598c4471e51f6f3f",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Baozhao Yi",
+        "Jiawei Zhang",
+        "Ziyou Song"
+      ],
+      "source": "s2",
+      "citation_count": 1,
+      "year": 2024
+    },
+    {
+      "title": "SOH Estimation of Lithium-Ion Batteries from Charging Segments via TCN-GRU Networks",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "006b2979b53b668a5e53016a769bffc63bb2b729",
+      "open_access_pdf_url": "",
+      "authors": [
+        "chengfu liu",
+        "Dexin Gao"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2025
+    },
+    {
+      "title": "A Novel Online Parameter Identification Algorithm for Fractional-Order Equivalent Circuit Model of Lithium-Ion Batteries",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "006be79d4476e9c0543f91113ef167c17ddc59bc",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Lan Li",
+        "Huarong Zhu",
+        "Anjian Zhou",
+        "Minghui Hu",
+        "Chunyun Fu",
+        "D. Qin"
+      ],
+      "source": "s2",
+      "citation_count": 3,
+      "year": 2020
+    },
+    {
+      "title": "A reduced‐order electrochemical model for coupled prediction of state of charge and state of health of lithium ion batteries under constant current‐constant voltage charging conditions",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "0072aaae8aebc7efed44c44d12f43988b6e8a467",
+      "open_access_pdf_url": "",
+      "authors": [
+        "N. N. Dingari",
+        "Mahesh Mynam",
+        "B. Rai"
+      ],
+      "source": "s2",
+      "citation_count": 12,
+      "year": 2020
+    },
+    {
+      "title": "Lightweight hybrid neural network with physics consistency regularization for lithium-ion battery state of health estimation",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "00a812e48c1333bcd50811aebc7a32af82b29894",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Ping Zhang",
+        "Hui Zhang",
+        "Jiayi Zhou",
+        "Qin Zhou",
+        "Jiaqi Chen"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2026
+    },
+    {
+      "title": "State-of-health estimation for lithium-ion batteries by combining model-based incremental capacity analysis with support vector regression",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "00c8b023c245b83117d08bd060c9d6b3d5e80bd1",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Yajun Zhang",
+        "Yajie Liu",
+        "Jia Wang",
+        "Tao Zhang"
+      ],
+      "source": "s2",
+      "citation_count": 166,
+      "year": 2022
+    },
+    {
+      "title": "A hybrid data-driven model for state of health estimation of Lithium-ion battery with capacity recovery",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "00e1e433218d04e984f2e0a9215f226f67e0eb14",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Y. Lin",
+        "Luo Zhou",
+        "Jianhai Yan",
+        "Shuguang He"
+      ],
+      "source": "s2",
+      "citation_count": 5,
+      "year": 2025
+    },
+    {
+      "title": "Machine Learning-Assisted Sustainable Remanufacturing, Reusing and Recycling for Lithium-ion Batteries",
+      "pdf_link": "http://arxiv.org/pdf/2406.00276v2",
+      "arxiv_id": "2406.00276v2",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Shengyu Tao"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    },
+    {
+      "title": "Gaussian process regression for forecasting battery state of health",
+      "pdf_link": "http://arxiv.org/pdf/1703.05687v2",
+      "arxiv_id": "1703.05687v2",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Robert R. Richardson",
+        "Michael A. Osborne",
+        "David A. Howey"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    },
+    {
+      "title": "Linking Calendar and Cycle Ageing in Lithium-Ion Batteries through Consistent Parameterisation of an Electrochemical-Thermal-Degradation Model",
+      "pdf_link": "http://arxiv.org/pdf/2604.09217v1",
+      "arxiv_id": "2604.09217v1",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Ganesh Madabattula"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    },
+    {
+      "title": "Toward accurate RUL and SoH estimation using reinforced graph-based physics-informed neural networks enhanced with dynamic weights",
+      "pdf_link": "http://arxiv.org/pdf/2507.09766v2",
+      "arxiv_id": "2507.09766v2",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Mohamadreza Akbari Pour",
+        "Ali Ghasemzadeh",
+        "Mohamad Ali Bijarchi",
+        "Mohammad Behshad Shafii"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    },
+    {
+      "title": "Cycle Life Prediction for Lithium-ion Batteries: Machine Learning and More",
+      "pdf_link": "http://arxiv.org/pdf/2404.04049v1",
+      "arxiv_id": "2404.04049v1",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Joachim Schaeffer",
+        "Giacomo Galuppini",
+        "Jinwook Rhyu",
+        "Patrick A. Asinger",
+        "Robin Droop",
+        "Rolf Findeisen",
+        "Richard D. Braatz"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    }
+  ],
+  "download_status": {
+    "2603.26155": "success",
+    "2406.00276v2": "success",
+    "1703.05687v2": "success",
+    "2604.09217v1": "success",
+    "2507.09766v2": "success",
+    "2404.04049v1": "success"
+  },
+  "failed_papers": [],
+  "chroma_collections": [
+    "cyclelifepredictionforlithium-ionbatteriesmachinelearningandmoa",
+    "agingstatesestimationandmonitoringstrategiesofli-ionbatteriesua",
+    "linkingcalendarandcycleageinginlithium-ionbatteriesthroughconsa",
+    "machinelearning-assistedsustainableremanufacturingreusingandrea",
+    "gaussianprocessregressionforforecastingbatterystateofhealta",
+    "towardaccuraterulandsohestimationusingreinforcedgraph-basedphya"
+  ],
+  "total_chunks": 721,
+  "embedding_status": {
+    "./data/arxiv_downloads\\corpus_battery_soh_ml\\Cycle Life Prediction for Lithium-ion Batteries_ Machine Learning and More.pdf": "success",
+    "./data/arxiv_downloads\\corpus_battery_soh_ml\\Aging States Estimation and Monitoring Strategies of Li-Ion Batteries Using Incremental Capacity Ana.pdf": "success",
+    "./data/arxiv_downloads\\corpus_battery_soh_ml\\Linking Calendar and Cycle Ageing in Lithium-Ion Batteries through Consistent Parameterisation of an.pdf": "success",
+    "./data/arxiv_downloads\\corpus_battery_soh_ml\\Machine Learning-Assisted Sustainable Remanufacturing, Reusing and Recycling for Lithium-ion Batteri.pdf": "success",
+    "./data/arxiv_downloads\\corpus_battery_soh_ml\\Gaussian process regression for forecasting battery state of health.pdf": "success",
+    "./data/arxiv_downloads\\corpus_battery_soh_ml\\Toward accurate RUL and SoH estimation using reinforced graph-based physics-informed neural networks.pdf": "success"
+  },
+  "citation_paper_meta": {
+    "agingstatesestimationandmonitoringstrategiesofli-ionbatteriesua": {
+      "title": "State-of-health estimation for lithium-ion batteries by combining model-based incremental capacity analysis with support vector regression",
+      "authors": [
+        "Yajun Zhang",
+        "Yajie Liu",
+        "Jia Wang",
+        "Tao Zhang"
+      ],
+      "year": 2022,
+      "arxiv_id": "",
+      "s2_id": "00c8b023c245b83117d08bd060c9d6b3d5e80bd1"
+    },
+    "gaussianprocessregressionforforecastingbatterystateofhealta": {
+      "title": "Gaussian process regression for forecasting battery state of health",
+      "authors": [
+        "Robert R. Richardson",
+        "Michael A. Osborne",
+        "David A. Howey"
+      ],
+      "year": 2017,
+      "arxiv_id": "1703.05687v2",
+      "s2_id": ""
+    },
+    "machinelearning-assistedsustainableremanufacturingreusingandrea": {
+      "title": "Machine Learning-Assisted Sustainable Remanufacturing, Reusing and Recycling for Lithium-ion Batteries",
+      "authors": [
+        "Shengyu Tao"
+      ],
+      "year": 2024,
+      "arxiv_id": "2406.00276v2",
+      "s2_id": ""
+    },
+    "linkingcalendarandcycleageinginlithium-ionbatteriesthroughconsa": {
+      "title": "Linking Calendar and Cycle Ageing in Lithium-Ion Batteries through Consistent Parameterisation of an Electrochemical-Thermal-Degradation Model",
+      "authors": [
+        "Ganesh Madabattula"
+      ],
+      "year": 2026,
+      "arxiv_id": "2604.09217v1",
+      "s2_id": ""
+    },
+    "towardaccuraterulandsohestimationusingreinforcedgraph-basedphya": {
+      "title": "Toward accurate RUL and SoH estimation using reinforced graph-based physics-informed neural networks enhanced with dynamic weights",
+      "authors": [
+        "Mohamadreza Akbari Pour",
+        "Ali Ghasemzadeh",
+        "Mohamad Ali Bijarchi",
+        "Mohammad Behshad Shafii"
+      ],
+      "year": 2025,
+      "arxiv_id": "2507.09766v2",
+      "s2_id": ""
+    },
+    "cyclelifepredictionforlithium-ionbatteriesmachinelearningandmoa": {
+      "title": "SOH Estimation of Lithium-Ion Batteries from Charging Segments via TCN-GRU Networks",
+      "authors": [
+        "chengfu liu",
+        "Dexin Gao"
+      ],
+      "year": 2025,
+      "arxiv_id": "",
+      "s2_id": "006b2979b53b668a5e53016a769bffc63bb2b729"
+    }
+  },
+  "_corpus_stats": {
+    "topic_id": "battery_soh_ml",
+    "survey_id": "corpus_battery_soh_ml",
+    "n_papers_in_list": 15,
+    "n_collections": 6,
+    "total_chunks": 721,
+    "n_citation_meta": 6
+  }
+}

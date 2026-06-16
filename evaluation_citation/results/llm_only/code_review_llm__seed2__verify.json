@@ -1,0 +1,681 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "code_review_llm",
+  "seed": 2,
+  "topic": "Large Language Models for Automated Code Review: Techniques, Benchmarks, and Industrial Deployment",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Chen, M., et al. (2021). Evaluating Large Language Models Trained on Code. arXiv:2107.03374v1.",
+      "parsed": {
+        "title": "Evaluating Large Language Models Trained on Code",
+        "authors": "Chen, M., et al",
+        "year": "2021",
+        "arxiv_id": "2107.03374v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Evaluating Large Language Models Trained on Code",
+          "arxiv_id": "2107.03374",
+          "doi": null,
+          "year": "2021",
+          "authors": [
+            "Mark Chen",
+            "Jerry Tworek",
+            "Heewoo Jun",
+            "Qiming Yuan",
+            "Henrique Ponde de Oliveira Pinto",
+            "Jared Kaplan",
+            "Harri Edwards",
+            "Yuri Burda",
+            "Nicholas Joseph",
+            "Greg Brockman",
+            "Alex Ray",
+            "Raul Puri",
+            "Gretchen Krueger",
+            "Michael Petrov",
+            "Heidy Khlaaf",
+            "Girish Sastry",
+            "Pamela Mishkin",
+            "Brooke Chan",
+            "Scott Gray",
+            "Nick Ryder",
+            "Mikhail Pavlov",
+            "Alethea Power",
+            "Lukasz Kaiser",
+            "Mohammad Bavarian",
+            "Clemens Winter",
+            "Philippe Tillet",
+            "Felipe Petroski Such",
+            "Dave Cummings",
+            "Matthias Plappert",
+            "Fotios Chantzis",
+            "Elizabeth Barnes",
+            "Ariel Herbert-Voss",
+            "William Hebgen Guss",
+            "Alex Nichol",
+            "Alex Paino",
+            "Nikolas Tezak",
+            "Jie Tang",
+            "Igor Babuschkin",
+            "Suchir Balaji",
+            "Shantanu Jain",
+            "William Saunders",
+            "Christopher Hesse",
+            "Andrew N. Carr",
+            "Jan Leike",
+            "Josh Achiam",
+            "Vedant Misra",
+            "Evan Morikawa",
+            "Alec Radford",
+            "Matthew Knight",
+            "Miles Brundage",
+            "Mira Murati",
+            "Katie Mayer",
+            "Peter Welinder",
+            "Bob McGrew",
+            "Dario Amodei",
+            "Sam McCandlish",
+            "Ilya Sutskever",
+            "Wojciech Zaremba"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2107.03374",
+          "title": "Evaluating Large Language Models Trained on Code",
+          "abstract": "We introduce Codex, a GPT language model fine-tuned on publicly available code from GitHub, and study its Python code-writing capabilities. A distinct production version of Codex powers GitHub Copilot. On HumanEval, a new evaluation set we release to measure functional correctness for synthesizing programs from docstrings, our model solves 28.8% of the problems, while GPT-3 solves 0% and GPT-J solves 11.4%. Furthermore, we find that repeated sampling from the model is a surprisingly effective strategy for producing working solutions to difficult prompts. Using this method, we solve 70.2% of our problems with 100 samples per problem. Careful investigation of our model reveals its limitations, including difficulty with docstrings describing long chains of operations and with binding operations to variables. Finally, we discuss the potential broader impacts of deploying powerful code generation technologies, covering safety, security, and economics.",
+          "year": "2021",
+          "authors": [
+            "Mark Chen",
+            "Jerry Tworek",
+            "Heewoo Jun",
+            "Qiming Yuan",
+            "Henrique Ponde de Oliveira Pinto",
+            "Jared Kaplan",
+            "Harri Edwards",
+            "Yuri Burda",
+            "Nicholas Joseph",
+            "Greg Brockman",
+            "Alex Ray",
+            "Raul Puri",
+            "Gretchen Krueger",
+            "Michael Petrov",
+            "Heidy Khlaaf",
+            "Girish Sastry",
+            "Pamela Mishkin",
+            "Brooke Chan",
+            "Scott Gray",
+            "Nick Ryder",
+            "Mikhail Pavlov",
+            "Alethea Power",
+            "Lukasz Kaiser",
+            "Mohammad Bavarian",
+            "Clemens Winter",
+            "Philippe Tillet",
+            "Felipe Petroski Such",
+            "Dave Cummings",
+            "Matthias Plappert",
+            "Fotios Chantzis",
+            "Elizabeth Barnes",
+            "Ariel Herbert-Voss",
+            "William Hebgen Guss",
+            "Alex Nichol",
+            "Alex Paino",
+            "Nikolas Tezak",
+            "Jie Tang",
+            "Igor Babuschkin",
+            "Suchir Balaji",
+            "Shantanu Jain",
+            "William Saunders",
+            "Christopher Hesse",
+            "Andrew N. Carr",
+            "Jan Leike",
+            "Josh Achiam",
+            "Vedant Misra",
+            "Evan Morikawa",
+            "Alec Radford",
+            "Matthew Knight",
+            "Miles Brundage",
+            "Mira Murati",
+            "Katie Mayer",
+            "Peter Welinder",
+            "Bob McGrew",
+            "Dario Amodei",
+            "Sam McCandlish",
+            "Ilya Sutskever",
+            "Wojciech Zaremba"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Feng, Z., et al. (2020). CodeBERT: A Pre-trained Model for Programming and Natural Languages. arXiv:2002.08155v3.",
+      "parsed": {
+        "title": "CodeBERT: A Pre-trained Model for Programming and Natural Languages",
+        "authors": "Feng, Z., et al",
+        "year": "2020",
+        "arxiv_id": "2002.08155v3",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "CodeBERT: A Pre-Trained Model for Programming and Natural Languages",
+          "arxiv_id": "2002.08155",
+          "doi": null,
+          "year": "2020",
+          "authors": [
+            "Zhangyin Feng",
+            "Daya Guo",
+            "Duyu Tang",
+            "Nan Duan",
+            "Xiaocheng Feng",
+            "Ming Gong",
+            "Linjun Shou",
+            "Bing Qin",
+            "Ting Liu",
+            "Daxin Jiang",
+            "Ming Zhou"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2002.08155",
+          "title": "CodeBERT: A Pre-Trained Model for Programming and Natural Languages",
+          "abstract": "We present CodeBERT, a bimodal pre-trained model for programming language (PL) and nat-ural language (NL). CodeBERT learns general-purpose representations that support downstream NL-PL applications such as natural language codesearch, code documentation generation, etc. We develop CodeBERT with Transformer-based neural architecture, and train it with a hybrid objective function that incorporates the pre-training task of replaced token detection, which is to detect plausible alternatives sampled from generators. This enables us to utilize both bimodal data of NL-PL pairs and unimodal data, where the former provides input tokens for model training while the latter helps to learn better generators. We evaluate CodeBERT on two NL-PL applications by fine-tuning model parameters. Results show that CodeBERT achieves state-of-the-art performance on both natural language code search and code documentation generation tasks. Furthermore, to investigate what type of knowledge is learned in CodeBERT, we construct a dataset for NL-PL probing, and evaluate in a zero-shot setting where parameters of pre-trained models are fixed. Results show that CodeBERT performs better than previous pre-trained models on NL-PL probing.",
+          "year": "2020",
+          "authors": [
+            "Zhangyin Feng",
+            "Daya Guo",
+            "Duyu Tang",
+            "Nan Duan",
+            "Xiaocheng Feng",
+            "Ming Gong",
+            "Linjun Shou",
+            "Bing Qin",
+            "Ting Liu",
+            "Daxin Jiang",
+            "Ming Zhou"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Guo, D., et al. (2021). GraphCodeBERT: Pre-training Code Representation with Data Flow. arXiv:2009.08366v2.",
+      "parsed": {
+        "title": "GraphCodeBERT: Pre-training Code Representation with Data Flow",
+        "authors": "Guo, D., et al",
+        "year": "2021",
+        "arxiv_id": "2009.08366v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "GraphCodeBERT: Pre-training Code Representations with Data Flow",
+          "arxiv_id": "2009.08366",
+          "doi": null,
+          "year": "2020",
+          "authors": [
+            "Daya Guo",
+            "Shuo Ren",
+            "Shuai Lu",
+            "Zhangyin Feng",
+            "Duyu Tang",
+            "Shujie Liu",
+            "Long Zhou",
+            "Nan Duan",
+            "Alexey Svyatkovskiy",
+            "Shengyu Fu",
+            "Michele Tufano",
+            "Shao Kun Deng",
+            "Colin Clement",
+            "Dawn Drain",
+            "Neel Sundaresan",
+            "Jian Yin",
+            "Daxin Jiang",
+            "Ming Zhou"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2009.08366",
+          "title": "GraphCodeBERT: Pre-training Code Representations with Data Flow",
+          "abstract": "Pre-trained models for programming language have achieved dramatic empirical improvements on a variety of code-related tasks such as code search, code completion, code summarization, etc. However, existing pre-trained models regard a code snippet as a sequence of tokens, while ignoring the inherent structure of code, which provides crucial code semantics and would enhance the code understanding process. We present GraphCodeBERT, a pre-trained model for programming language that considers the inherent structure of code. Instead of taking syntactic-level structure of code like abstract syntax tree (AST), we use data flow in the pre-training stage, which is a semantic-level structure of code that encodes the relation of \"where-the-value-comes-from\" between variables. Such a semantic-level structure is neat and does not bring an unnecessarily deep hierarchy of AST, the property of which makes the model more efficient. We develop GraphCodeBERT based on Transformer. In addition to using the task of masked language modeling, we introduce two structure-aware pre-training tasks. One is to predict code structure edges, and the other is to align representations between source code and code structure. We implement the model in an efficient way with a graph-guided masked attention function to incorporate the code structure. We evaluate our model on four tasks, including code search, clone detection, code translation, and code refinement. Results show that code structure and newly introduced pre-training tasks can improve GraphCodeBERT and achieves state-of-the-art performance on the four downstream tasks. We further show that the model prefers structure-level attentions over token-level attentions in the task of code search.",
+          "year": "2020",
+          "authors": [
+            "Daya Guo",
+            "Shuo Ren",
+            "Shuai Lu",
+            "Zhangyin Feng",
+            "Duyu Tang",
+            "Shujie Liu",
+            "Long Zhou",
+            "Nan Duan",
+            "Alexey Svyatkovskiy",
+            "Shengyu Fu",
+            "Michele Tufano",
+            "Shao Kun Deng",
+            "Colin Clement",
+            "Dawn Drain",
+            "Neel Sundaresan",
+            "Jian Yin",
+            "Daxin Jiang",
+            "Ming Zhou"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 0.991869918699187,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Hou, X., et al. (2023). Large Language Models for Software Engineering: A Systematic Literature Review. arXiv:2308.10620v1.",
+      "parsed": {
+        "title": "Large Language Models for Software Engineering: A Systematic Literature Review",
+        "authors": "Hou, X., et al",
+        "year": "2023",
+        "arxiv_id": "2308.10620v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Large Language Models for Software Engineering: A Systematic Literature Review",
+          "arxiv_id": "2308.10620",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Xinyi Hou",
+            "Yanjie Zhao",
+            "Yue Liu",
+            "Zhou Yang",
+            "Kailong Wang",
+            "Li Li",
+            "Xiapu Luo",
+            "David Lo",
+            "John Grundy",
+            "Haoyu Wang"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2308.10620",
+          "title": "Large Language Models for Software Engineering: A Systematic Literature Review",
+          "abstract": "Large Language Models (LLMs) have significantly impacted numerous domains, including Software Engineering (SE). Many recent publications have explored LLMs applied to various SE tasks. Nevertheless, a comprehensive understanding of the application, effects, and possible limitations of LLMs on SE is still in its early stages. To bridge this gap, we conducted a systematic literature review (SLR) on LLM4SE, with a particular focus on understanding how LLMs can be exploited to optimize processes and outcomes. We select and analyze 395 research papers from January 2017 to January 2024 to answer four key research questions (RQs). In RQ1, we categorize different LLMs that have been employed in SE tasks, characterizing their distinctive features and uses. In RQ2, we analyze the methods used in data collection, preprocessing, and application, highlighting the role of well-curated datasets for successful LLM for SE implementation. RQ3 investigates the strategies employed to optimize and evaluate the performance of LLMs in SE. Finally, RQ4 examines the specific SE tasks where LLMs have shown success to date, illustrating their practical contributions to the field. From the answers to these RQs, we discuss the current state-of-the-art and trends, identifying gaps in existing research, and flagging promising areas for future study. Our artifacts are publicly available at https://github.com/xinyi-hou/LLM4SE_SLR.",
+          "year": "2023",
+          "authors": [
+            "Xinyi Hou",
+            "Yanjie Zhao",
+            "Yue Liu",
+            "Zhou Yang",
+            "Kailong Wang",
+            "Li Li",
+            "Xiapu Luo",
+            "David Lo",
+            "John Grundy",
+            "Haoyu Wang"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 4,
+      "raw": "Li, F., et al. (2022). Automating Code Review Activities by Large-Scale Pre-training. arXiv:2203.09095v1.",
+      "parsed": {
+        "title": "Automating Code Review Activities by Large-Scale Pre-training",
+        "authors": "Li, F., et al",
+        "year": "2022",
+        "arxiv_id": "2203.09095v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Automating Code Review Activities by Large-Scale Pre-training",
+          "arxiv_id": "2203.09095",
+          "doi": null,
+          "year": "2022",
+          "authors": [
+            "Zhiyu Li",
+            "Shuai Lu",
+            "Daya Guo",
+            "Nan Duan",
+            "Shailesh Jannu",
+            "Grant Jenks",
+            "Deep Majumder",
+            "Jared Green",
+            "Alexey Svyatkovskiy",
+            "Shengyu Fu",
+            "Neel Sundaresan"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2203.09095",
+          "title": "Automating Code Review Activities by Large-Scale Pre-training",
+          "abstract": "Code review is an essential part to software development lifecycle since it aims at guaranteeing the quality of codes. Modern code review activities necessitate developers viewing, understanding and even running the programs to assess logic, functionality, latency, style and other factors. It turns out that developers have to spend far too much time reviewing the code of their peers. Accordingly, it is in significant demand to automate the code review process. In this research, we focus on utilizing pre-training techniques for the tasks in the code review scenario. We collect a large-scale dataset of real-world code changes and code reviews from open-source projects in nine of the most popular programming languages. To better understand code diffs and reviews, we propose CodeReviewer, a pre-trained model that utilizes four pre-training tasks tailored specifically for the code review scenario. To evaluate our model, we focus on three key tasks related to code review activities, including code change quality estimation, review comment generation and code refinement. Furthermore, we establish a high-quality benchmark dataset based on our collected data for these three tasks and conduct comprehensive experiments on it. The experimental results demonstrate that our model outperforms the previous state-of-the-art pre-training approaches in all tasks. Further analysis show that our proposed pre-training tasks and the multilingual pre-training dataset benefit the model on the understanding of code changes and reviews.",
+          "year": "2022",
+          "authors": [
+            "Zhiyu Li",
+            "Shuai Lu",
+            "Daya Guo",
+            "Nan Duan",
+            "Shailesh Jannu",
+            "Grant Jenks",
+            "Deep Majumder",
+            "Jared Green",
+            "Alexey Svyatkovskiy",
+            "Shengyu Fu",
+            "Neel Sundaresan"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 5,
+      "raw": "Li, Y., et al. (2022). Competition-Level Code Generation with AlphaCode. arXiv:2202.07680v1.",
+      "parsed": {
+        "title": "Competition-Level Code Generation with AlphaCode",
+        "authors": "Li, Y., et al",
+        "year": "2022",
+        "arxiv_id": "2202.07680v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "The halo bispectrum as a sensitive probe of massive neutrinos and baryon physics",
+          "arxiv_id": "2202.07680",
+          "doi": null,
+          "year": "2022",
+          "authors": [
+            "Victoria Yankelevich",
+            "Ian G. McCarthy",
+            "Juliana Kwan",
+            "Sam G. Stafford",
+            "Jia Liu"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "2202.07680",
+          "title": "The halo bispectrum as a sensitive probe of massive neutrinos and baryon physics",
+          "abstract": "The power spectrum has been a workhorse for cosmological studies of large-scale structure. However, the present-day matter distribution is highly non-Gaussian and significant cosmological information is also contained in higher-order correlation functions. Meanwhile, baryon physics (particularly AGN feedback) has previously been shown to strongly affect the two-point statistics but there has been limited exploration of its effects on higher-order functions to date. Here we use the BAHAMAS suite of cosmological hydrodynamical simulations to explore the effects of baryon physics and massive neutrinos on the halo bispectrum. In contrast to matter clustering which is suppressed by baryon physics, we find that the halo clustering is typically enhanced. The strength of the effect and the scale over which it extends depends on how haloes are selected. On small scales (k > 1 $h$ Mpc$^{-1}$, dominated by satellites of groups/clusters), we find that the bispectrum is highly sensitive to the efficiency of star formation and feedback, making it an excellent testing ground for galaxy formation models. We show that the effects of feedback and the effects of massive neutrinos are largely separable (independent of each other) and that massive neutrinos strongly suppress the halo bispectrum on virtually all scales up to the free-streaming length (apart from the smallest scales, where baryon physics dominates). The strong sensitivity of the bispectrum to neutrinos on the largest scales and galaxy formation physics on the smallest scales bodes well for upcoming precision measurements from the next generation of wide-field surveys.",
+          "year": "2022",
+          "authors": [
+            "Victoria Yankelevich",
+            "Ian G. McCarthy",
+            "Juliana Kwan",
+            "Sam G. Stafford",
+            "Jia Liu"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 0.203125,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 6,
+      "raw": "Roziere, B., et al. (2023). Code Llama: Open Foundation Models for Code. arXiv:2308.12950v1.",
+      "parsed": {
+        "title": "Code Llama: Open Foundation Models for Code",
+        "authors": "Roziere, B., et al",
+        "year": "2023",
+        "arxiv_id": "2308.12950v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Code Llama: Open Foundation Models for Code",
+          "arxiv_id": "2308.12950",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Baptiste Rozière",
+            "Jonas Gehring",
+            "Fabian Gloeckle",
+            "Sten Sootla",
+            "Itai Gat",
+            "Xiaoqing Ellen Tan",
+            "Yossi Adi",
+            "Jingyu Liu",
+            "Romain Sauvestre",
+            "Tal Remez",
+            "Jérémy Rapin",
+            "Artyom Kozhevnikov",
+            "Ivan Evtimov",
+            "Joanna Bitton",
+            "Manish Bhatt",
+            "Cristian Canton Ferrer",
+            "Aaron Grattafiori",
+            "Wenhan Xiong",
+            "Alexandre Défossez",
+            "Jade Copet",
+            "Faisal Azhar",
+            "Hugo Touvron",
+            "Louis Martin",
+            "Nicolas Usunier",
+            "Thomas Scialom",
+            "Gabriel Synnaeve"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2308.12950",
+          "title": "Code Llama: Open Foundation Models for Code",
+          "abstract": "We release Code Llama, a family of large language models for code based on Llama 2 providing state-of-the-art performance among open models, infilling capabilities, support for large input contexts, and zero-shot instruction following ability for programming tasks. We provide multiple flavors to cover a wide range of applications: foundation models (Code Llama), Python specializations (Code Llama - Python), and instruction-following models (Code Llama - Instruct) with 7B, 13B, 34B and 70B parameters each. All models are trained on sequences of 16k tokens and show improvements on inputs with up to 100k tokens. 7B, 13B and 70B Code Llama and Code Llama - Instruct variants support infilling based on surrounding content. Code Llama reaches state-of-the-art performance among open models on several code benchmarks, with scores of up to 67% and 65% on HumanEval and MBPP, respectively. Notably, Code Llama - Python 7B outperforms Llama 2 70B on HumanEval and MBPP, and all our models outperform every other publicly available model on MultiPL-E. We release Code Llama under a permissive license that allows for both research and commercial use.",
+          "year": "2023",
+          "authors": [
+            "Baptiste Rozière",
+            "Jonas Gehring",
+            "Fabian Gloeckle",
+            "Sten Sootla",
+            "Itai Gat",
+            "Xiaoqing Ellen Tan",
+            "Yossi Adi",
+            "Jingyu Liu",
+            "Romain Sauvestre",
+            "Tal Remez",
+            "Jérémy Rapin",
+            "Artyom Kozhevnikov",
+            "Ivan Evtimov",
+            "Joanna Bitton",
+            "Manish Bhatt",
+            "Cristian Canton Ferrer",
+            "Aaron Grattafiori",
+            "Wenhan Xiong",
+            "Alexandre Défossez",
+            "Jade Copet",
+            "Faisal Azhar",
+            "Hugo Touvron",
+            "Louis Martin",
+            "Nicolas Usunier",
+            "Thomas Scialom",
+            "Gabriel Synnaeve"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 7,
+      "raw": "Wang, Y., et al. (2021). CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation. arXiv:2109.00859v2.",
+      "parsed": {
+        "title": "CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation",
+        "authors": "Wang, Y., et al",
+        "year": "2021",
+        "arxiv_id": "2109.00859v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation",
+          "arxiv_id": "2109.00859",
+          "doi": null,
+          "year": "2021",
+          "authors": [
+            "Yue Wang",
+            "Weishi Wang",
+            "Shafiq Joty",
+            "Steven C. H. Hoi"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2109.00859",
+          "title": "CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation",
+          "abstract": "Pre-trained models for Natural Languages (NL) like BERT and GPT have been recently shown to transfer well to Programming Languages (PL) and largely benefit a broad set of code-related tasks. Despite their success, most current methods either rely on an encoder-only (or decoder-only) pre-training that is suboptimal for generation (resp. understanding) tasks or process the code snippet in the same way as NL, neglecting the special characteristics of PL such as token types. We present CodeT5, a unified pre-trained encoder-decoder Transformer model that better leverages the code semantics conveyed from the developer-assigned identifiers. Our model employs a unified framework to seamlessly support both code understanding and generation tasks and allows for multi-task learning. Besides, we propose a novel identifier-aware pre-training task that enables the model to distinguish which code tokens are identifiers and to recover them when they are masked. Furthermore, we propose to exploit the user-written code comments with a bimodal dual generation task for better NL-PL alignment. Comprehensive experiments show that CodeT5 significantly outperforms prior methods on understanding tasks such as code defect detection and clone detection, and generation tasks across various directions including PL-NL, NL-PL, and PL-PL. Further analysis reveals that our model can better capture semantic information from code. Our code and pre-trained models are released at https: //github.com/salesforce/CodeT5 .",
+          "year": "2021",
+          "authors": [
+            "Yue Wang",
+            "Weishi Wang",
+            "Shafiq Joty",
+            "Steven C. H. Hoi"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 8,
+      "raw": "Wang, Y., et al. (2023). CodeT5+: Open Code Large Language Models for Code Understanding and Generation. arXiv:2305.07922v1.",
+      "parsed": {
+        "title": "CodeT5+: Open Code Large Language Models for Code Understanding and Generation",
+        "authors": "Wang, Y., et al",
+        "year": "2023",
+        "arxiv_id": "2305.07922v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "CodeT5+: Open Code Large Language Models for Code Understanding and Generation",
+          "arxiv_id": "2305.07922",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Yue Wang",
+            "Hung Le",
+            "Akhilesh Deepak Gotmare",
+            "Nghi D. Q. Bui",
+            "Junnan Li",
+            "Steven C. H. Hoi"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2305.07922",
+          "title": "CodeT5+: Open Code Large Language Models for Code Understanding and Generation",
+          "abstract": "Large language models (LLMs) pretrained on vast source code have achieved prominent progress in code intelligence. However, existing code LLMs have two main limitations in terms of architecture and pretraining tasks. First, they often adopt a specific architecture (encoder-only or decoder-only) or rely on a unified encoder-decoder network for different downstream tasks. The former paradigm is limited by inflexibility in applications while in the latter, the model is treated as a single system for all tasks, leading to suboptimal performance on a subset of tasks. Secondly, they often employ a limited set of pretraining objectives which might not be relevant to some downstream tasks and hence result in substantial performance degrade. To address these limitations, we propose ``CodeT5+'', a family of encoder-decoder LLMs for code in which component modules can be flexibly combined to suit a wide range of downstream code tasks. Such flexibility is enabled by our proposed mixture of pretraining objectives to mitigate the pretrain-finetune discrepancy. These objectives cover span denoising, contrastive learning, text-code matching, and causal LM pretraining tasks, on both unimodal and bimodal multilingual code corpora. Furthermore, we propose to initialize CodeT5+ with frozen off-the-shelf LLMs without training from scratch to efficiently scale up our models, and explore instruction-tuning to align with natural language instructions. We extensively evaluate CodeT5+ on over 20 code-related benchmarks in different settings, including zero-shot, finetuning, and instruction-tuning. We observe state-of-the-art (SoTA) model performance on various code-related tasks, such as code generation and completion, math programming, and text-to-code retrieval tasks. Particularly, our instruction-tuned CodeT5+ 16B achieves new SoTA results on HumanEval code generation task against other open code LLMs.",
+          "year": "2023",
+          "authors": [
+            "Yue Wang",
+            "Hung Le",
+            "Akhilesh Deepak Gotmare",
+            "Nghi D. Q. Bui",
+            "Junnan Li",
+            "Steven C. H. Hoi"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 9,
+      "raw": "Xia, C. S., et al. (2023). Automated Program Repair in the Era of Large Language Models. arXiv:2304.00385v1.",
+      "parsed": {
+        "title": "Automated Program Repair in the Era of Large Language Models",
+        "authors": "Xia, C. S., et al",
+        "year": "2023",
+        "arxiv_id": "2304.00385v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Keep the Conversation Going: Fixing 162 out of 337 bugs for $0.42 each using ChatGPT",
+          "arxiv_id": "2304.00385",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Chunqiu Steven Xia",
+            "Lingming Zhang"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "2304.00385",
+          "title": "Keep the Conversation Going: Fixing 162 out of 337 bugs for $0.42 each using ChatGPT",
+          "abstract": "Automated Program Repair (APR) aims to automatically generate patches for buggy programs. Recent APR work has been focused on leveraging modern Large Language Models (LLMs) to directly generate patches for APR. Such LLM-based APR tools work by first constructing an input prompt built using the original buggy code and then queries the LLM to generate patches. While the LLM-based APR tools are able to achieve state-of-the-art results, it still follows the classic Generate and Validate repair paradigm of first generating lots of patches and then validating each one afterwards. This not only leads to many repeated patches that are incorrect but also miss the crucial information in test failures as well as in plausible patches. To address these limitations, we propose ChatRepair, the first fully automated conversation-driven APR approach that interleaves patch generation with instant feedback to perform APR in a conversational style. ChatRepair first feeds the LLM with relevant test failure information to start with, and then learns from both failures and successes of earlier patching attempts of the same bug for more powerful APR. For earlier patches that failed to pass all tests, we combine the incorrect patches with their corresponding relevant test failure information to construct a new prompt for the LLM to generate the next patch. In this way, we can avoid making the same mistakes. For earlier patches that passed all the tests, we further ask the LLM to generate alternative variations of the original plausible patches. In this way, we can further build on and learn from earlier successes to generate more plausible patches to increase the chance of having correct patches. While our approach is general, we implement ChatRepair using state-of-the-art dialogue-based LLM -- ChatGPT. By calculating the cost of accessing ChatGPT, we can fix 162 out of 337 bugs for \\$0.42 each!",
+          "year": "2023",
+          "authors": [
+            "Chunqiu Steven Xia",
+            "Lingming Zhang"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 0.29577464788732394,
+        "id_match": true
+      }
+    }
+  ]
+}

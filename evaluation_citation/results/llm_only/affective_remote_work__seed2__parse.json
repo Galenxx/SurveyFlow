@@ -1,0 +1,97 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\llm_only\\Affective_Computing_for_Remote_Workplace_Monitorin__glm-5.1__seed2.md",
+  "topic": "3 Sensing Technologies for Remote Affective Monitoring",
+  "n_references": 10,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Li, S., & Deng, W. (2018). Deep Facial Expression Recognition: A Survey. arXiv:1804.08348v3.",
+      "title": "Deep Facial Expression Recognition: A Survey",
+      "authors": "Li, S., & Deng, W",
+      "year": "2018",
+      "arxiv_id": "1804.08348v3",
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Tsai, Y. H., Bai, S., Liang, P. P., Kolter, J. Z., Morency, L. P., & Salakhutdinov, R. (2019). Multimodal Transformer for Unaligned Multimodal Language Sequences. arXiv:1906.00295v2.",
+      "title": "Multimodal Transformer for Unaligned Multimodal Language Sequences",
+      "authors": "Tsai, Y. H., Bai, S., Liang, P. P., Kolter, J. Z., Morency, L. P., & Salakhutdinov, R",
+      "year": "2019",
+      "arxiv_id": "1906.00295v2",
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Zadeh, A., Chen, M., Poria, S., Cambria, E., & Morency, L. P. (2017).",
+      "title": null,
+      "authors": "Zadeh, A., Chen, M., Poria, S., Cambria, E., & Morency, L. P",
+      "year": "2017",
+      "arxiv_id": null,
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Unknown Author. (2024). Placeholder Reference 4. arXiv:0000.00000v1.",
+      "title": "Placeholder Reference 4",
+      "authors": "Unknown Author",
+      "year": "2024",
+      "arxiv_id": "0000.00000v1",
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Unknown Author. (2024). Placeholder Reference 5. arXiv:0000.00000v1.",
+      "title": "Placeholder Reference 5",
+      "authors": "Unknown Author",
+      "year": "2024",
+      "arxiv_id": "0000.00000v1",
+      "doi": null
+    },
+    {
+      "ref_id": 5,
+      "raw": "Unknown Author. (2024). Placeholder Reference 6. arXiv:0000.00000v1.",
+      "title": "Placeholder Reference 6",
+      "authors": "Unknown Author",
+      "year": "2024",
+      "arxiv_id": "0000.00000v1",
+      "doi": null
+    },
+    {
+      "ref_id": 6,
+      "raw": "Unknown Author. (2024). Placeholder Reference 7. arXiv:0000.00000v1.",
+      "title": "Placeholder Reference 7",
+      "authors": "Unknown Author",
+      "year": "2024",
+      "arxiv_id": "0000.00000v1",
+      "doi": null
+    },
+    {
+      "ref_id": 7,
+      "raw": "Unknown Author. (2024). Placeholder Reference 8. arXiv:0000.00000v1.",
+      "title": "Placeholder Reference 8",
+      "authors": "Unknown Author",
+      "year": "2024",
+      "arxiv_id": "0000.00000v1",
+      "doi": null
+    },
+    {
+      "ref_id": 8,
+      "raw": "Unknown Author. (2024). Placeholder Reference 9. arXiv:0000.00000v1.",
+      "title": "Placeholder Reference 9",
+      "authors": "Unknown Author",
+      "year": "2024",
+      "arxiv_id": "0000.00000v1",
+      "doi": null
+    },
+    {
+      "ref_id": 9,
+      "raw": "Unknown Author. (2024). Placeholder Reference 10. arXiv:0000.00000v1.",
+      "title": "Placeholder Reference 10",
+      "authors": "Unknown Author",
+      "year": "2024",
+      "arxiv_id": "0000.00000v1",
+      "doi": null
+    }
+  ]
+}

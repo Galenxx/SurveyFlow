@@ -1,0 +1,402 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "code_review_llm",
+  "seed": 2,
+  "topic": "Large Language Models for Automated Code Review: Techniques, Benchmarks, and Industrial Deployment",
+  "metrics": {
+    "n_cited_claims": 22,
+    "support_total": 11.5,
+    "citation_recall": 0.5227,
+    "n_supported": 9,
+    "n_partial": 5,
+    "n_unsupported": 8,
+    "n_error": 0,
+    "n_citation_mounts": 23,
+    "n_contributing": 9,
+    "contributing_weight": 11.5,
+    "citation_precision": 0.5,
+    "n_not_verifiable": 0,
+    "n_claims": 43,
+    "n_claims_with_cite": 22,
+    "n_claims_bare": 21,
+    "bare_assertion_rate": 0.4884
+  },
+  "per_sentence": [
+    {
+      "sent_id": 34,
+      "section_title": "3.1 Parameter-Efficient Fine-Tuning and Prompting for Code Review and Repair",
+      "text": "Paul et al. (2023) argue that there is a clear need for new techniques to improve the state of the art in repairing buggy code, and they open a path that uses prompt engineering to craft clear and concise prompts, enabling large language models to produce coherent and relevant repair responses.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence shows that prompt engineering was used with LLMs for program repair, but it does not argue for a clear need for new techniques or claim that prompt engineering opens a path to coherent and relevant repairs; instead it concludes practical application is still far off.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 35,
+      "section_title": "3.1 Parameter-Efficient Fine-Tuning and Prompting for Code Review and Repair",
+      "text": "Their study further validates that code repair can be significantly improved by using large language models pre‑trained on both natural language and programming language, and they examine outputs from fine‑tuned models and prompted LLMs to assess how well the repaired programs align with code review expectations (Paul et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The cited paper explicitly investigates whether pre-trained language models (PLBART, CodeT5) fine-tuned on code review data improve program repair and also examines outputs from prompted LLMs (Codex, GPT-3.5-Turbo) via manual analysis, directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 37,
+      "section_title": "3.1 Parameter-Efficient Fine-Tuning and Prompting for Code Review and Repair",
+      "text": "Khanzadeh (2025) introduces AgentMesh, a cooperative multi‑agent system in which a Debugger agent uses an LLM to analyze failures—such as reading an error traceback or identifying a logical mistake—and then proposes a fix.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that the Debugger agent 'tests and fixes the code', which directly supports the claim that it analyzes failures and proposes fixes.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 38,
+      "section_title": "3.1 Parameter-Efficient Fine-Tuning and Prompting for Code Review and Repair",
+      "text": "The agent applies the repair by generating a patch or revised code, and this process operates in an iterative test‑and‑fix loop that continues until the code meets the acceptance criteria of the subtask (Khanzadeh, 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence describes a Debugger agent that tests and fixes code, but does not explicitly confirm that the repair process involves generating a patch or revised code in an iterative test-and-fix loop that continues until acceptance criteria are met.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 41,
+      "section_title": "3.2 Multi-Agent LLM Frameworks for Automated Code Review",
+      "text": "Paul et al. (2023) investigated the use of different pre-trained models and LLMs to repair code based on code reviews, demonstrating that learning-based models can improve their performance when leveraging code review information rather than relying solely on source code to predict proper fixes.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract of c0 explicitly states that pre-trained language models fine-tuned on datasets containing both code review and subsequent code changes notably outperformed previous models, directly supporting the claim that learning-based models improve when leveraging code review information.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 42,
+      "section_title": "3.2 Multi-Agent LLM Frameworks for Automated Code Review",
+      "text": "Their work extended prior studies by fine-tuning models, prompting LLMs, and manually analyzing the results (Paul et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly describes fine-tuning pre-trained language models, performing prompt engineering with LLMs, and conducting manual analysis of generated repairs, which directly matches the sentence's claim about extending prior studies through these three activities.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 43,
+      "section_title": "3.2 Multi-Agent LLM Frameworks for Automated Code Review",
+      "text": "In a parallel direction, Khanzadeh (2025) introduced AgentMesh, a cooperative multi-agent framework for software development automation.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that AgentMesh is a cooperative multi-agent framework using LLM-powered agents to automate software development tasks, directly matching the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 44,
+      "section_title": "3.2 Multi-Agent LLM Frameworks for Automated Code Review",
+      "text": "Within this framework, a dedicated Debugger agent uses an LLM to analyze failures—such as reading an error traceback or spotting a logical mistake—and proposes a fix, which is then applied by generating a patch or revised code through an iterative test-and-fix loop (Khanzadeh, 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that the Debugger agent 'tests and fixes the code' and describes 'iterative debugging' as part of the workflow, directly supporting the claim that a dedicated Debugger agent analyzes failures and proposes fixes through an iterative test-and-fix loop.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 47,
+      "section_title": "3.3 Federated Learning and Retrieval-Augmented Generation for Code Review",
+      "text": "Paul et al. (2023) introduced identifier-aware pre-training and bi-modal dual generation techniques, demonstrating their usability in generating repaired code based on code review.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence discusses fine-tuning PLBART and CodeT5 on code review data and prompt engineering with Codex/GPT-3.5-Turbo, but it does not mention Paul et al. (2023), identifier-aware pre-training, or bi-modal dual generation techniques.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 48,
+      "section_title": "3.3 Federated Learning and Retrieval-Augmented Generation for Code Review",
+      "text": "Their work found that CodeT5, when fine-tuned, exhibited slightly better performance than PLBART in most cases, attributing this to its comparatively stronger natural language and programming language comprehension capabilities, which enabled higher accuracy in predicting correct fixes with the aid of code review (Paul et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms that fine-tuned CodeT5 and PLBART outperform prior models on code-review-augmented repair datasets, but it does not state that CodeT5 is slightly better than PLBART in most cases nor attribute any difference to stronger NL/PL comprehension.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 49,
+      "section_title": "3.3 Federated Learning and Retrieval-Augmented Generation for Code Review",
+      "text": "The study also investigated zero-shot unit test generation using the GPT-3.5-Turbo model with appropriate prompt instructions, focusing on automated code repair through zero-shot and few-shot learning-based prompt engineering (Paul et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms zero-shot and few-shot prompt engineering with GPT-3.5-Turbo for automated program repair, but it does not mention unit test generation, which is a key part of the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 51,
+      "section_title": "3.3 Federated Learning and Retrieval-Augmented Generation for Code Review",
+      "text": "Khanzadeh (2025) describes a Reviewer agent that provides an extra safety net by reviewing every commit, aligning with findings in frameworks such as ChatDev where multi-turn interactions—particularly those using program output as feedback—significantly enhanced debugging success (Khanzadeh, 2025).",
+      "n_cites": 2,
+      "label_to_ref": {
+        "c0": 5,
+        "c1": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes AgentMesh's Reviewer agent but contains no mention of ChatDev, multi-turn interactions using program output as feedback, or any findings about debugging success enhancement.",
+        "per_citation_contribution": {
+          "c0": false,
+          "c1": false
+        }
+      }
+    },
+    {
+      "sent_id": 53,
+      "section_title": "4.1 Benchmarks and Quality Attributes for Code Generation Evaluation",
+      "text": "Paul et al. (2024) identify functional correctness as the primary quality attribute used to assess the output of large language models on programming tasks.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence discusses automated program repair using language models but does not mention functional correctness as a quality attribute or identify it as the primary metric for assessing LLM output on programming tasks.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 56,
+      "section_title": "4.2 Performance Metrics and Evaluation Infrastructure for LLM-Based Coding",
+      "text": "In evaluating LLM-based coding, functional correctness stands as the primary quality attribute for assessing model responses to programming tasks (Paul et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence discusses automated program repair using LLMs but does not address functional correctness as the primary quality attribute for evaluating LLM-based coding responses.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 58,
+      "section_title": "4.2 Performance Metrics and Evaluation Infrastructure for LLM-Based Coding",
+      "text": "Paul et al. (2024) note that correctness assessment varies according to the infrastructure available within a given benchmark, though the evidence does not detail particular metric formulas or evaluation frameworks beyond this foundational observation.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence discusses fine-tuning and prompt engineering for automated program repair but does not mention correctness assessment varying with benchmark infrastructure or any foundational observation about metric formulas or evaluation frameworks.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 60,
+      "section_title": "5.1 Large-Scale Online Evaluation of LLM Code Review in Industrial Settings",
+      "text": "Pornprasit and Tantithamthavorn (2024) present a large-scale online evaluation of an LLM-based code review automation system, RovoDev Code Reviewer, deployed at Atlassian.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence discusses fine-tuning and prompt engineering for LLM-based code review automation but does not mention RovoDev Code Reviewer, Atlassian, or any large-scale online evaluation.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 65,
+      "section_title": "5.1 Large-Scale Online Evaluation of LLM Code Review in Industrial Settings",
+      "text": "While the RovoDev evaluation focuses on a specific deployment snapshot, the broader challenge of sustaining model performance in evolving industrial environments is addressed by Kang et al. (2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper proposes a method for continual instruction tuning to address catastrophic forgetting, but its abstract does not mention Kang et al. (2025) or any broader challenge of sustaining model performance in evolving industrial environments beyond its own technical contribution.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 69,
+      "section_title": "5.2 Self-Evolving LLMs via Continual Instruction Tuning for Code Review",
+      "text": "The automation of code review through large language models (LLMs) has become an active research area, driven by the need to improve software quality and reviewer productivity (Pornprasit & Tantithamthavorn, 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that the rapid evolution of LLMs has sparked significant interest in automating code review, directly supporting the claim that LLM-based code review automation is an active research area driven by quality and productivity needs.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 70,
+      "section_title": "5.2 Self-Evolving LLMs via Continual Instruction Tuning for Code Review",
+      "text": "Recent work has explored fine-tuning models such as CodeT5, Llama, and GPT-4o on task-specific data to generate review comments for code changes (Pornprasit & Tantithamthavorn, 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence mentions fine-tuning GPT-3.5 and Magicoder for code review automation but does not mention CodeT5, Llama, or GPT-4o, so only part of the claim is supported.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 72,
+      "section_title": "5.2 Self-Evolving LLMs via Continual Instruction Tuning for Code Review",
+      "text": "A promising direction for addressing this limitation is continual instruction tuning, a paradigm in which LLMs are dynamically adapted through sequential task-specific instruction tuning (Kang et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The cited paper explicitly proposes a framework for continual instruction tuning of LLMs, which directly matches the sentence's description of a paradigm where LLMs are dynamically adapted through sequential task-specific instruction tuning.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 73,
+      "section_title": "5.2 Self-Evolving LLMs via Continual Instruction Tuning for Code Review",
+      "text": "Kang et al. (2025) describe this approach as enabling models to incrementally incorporate new knowledge from evolving instructions and adapt to diverse tasks while retaining performance on previously learned tasks.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that MoE-CL enables LLMs to learn continually under dynamic data distributions, preserving task-specific knowledge while enabling cross-task transfer, which directly supports the claim of incrementally incorporating new knowledge and adapting to diverse tasks while retaining prior performance.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 75,
+      "section_title": "5.2 Self-Evolving LLMs via Continual Instruction Tuning for Code Review",
+      "text": "This represents a natural evolution beyond the fine-tuning strategies currently dominant in LLM-based code review automation (Pornprasit & Tantithamthavorn, 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper investigates fine-tuning and prompt engineering as current approaches for LLM-based code review automation, but it does not describe or evaluate any strategies that represent an evolution beyond fine-tuning, so it cannot support the claim of a natural evolution beyond fine-tuning.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

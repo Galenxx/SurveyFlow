@@ -1,0 +1,57 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "battery_soh_ml",
+  "seed": 2,
+  "topic": "Machine Learning for Lithium-Ion Battery State-of-Health Estimation and Remaining-Useful-Life Prediction",
+  "n_references": 6,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MISSING_ID)",
+      "verdict": "MISSING_ID"
+    },
+    {
+      "ref_id": 1,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 2,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 3,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 4,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 5,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MISSING_ID)",
+      "verdict": "MISSING_ID"
+    }
+  ],
+  "distribution": {
+    "RESOLVED": 6,
+    "METADATA_PARSE_ERROR": 0,
+    "ID_EXTRACTION_FAIL": 0,
+    "DEDUP_COLLISION": 0,
+    "GENUINELY_FABRICATED": 0,
+    "PLACEHOLDER_PADDING": 0
+  },
+  "n_resolved": 6,
+  "n_padding": 0,
+  "n_failures": 0,
+  "n_genuinely_fabricated": 0
+}

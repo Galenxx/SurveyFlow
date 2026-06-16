@@ -1,0 +1,79 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\surveyflow\\code_review_llm__seed0\\survey.md",
+  "topic": "3 Fine-Tuning and Prompt Design for LLM-Driven Code Review",
+  "n_references": 8,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Kang, J., Huang, L., Hou, C., Zhao, Z., Yan, Z., & Bai, T. (2025). Self-Evolving LLMs via Continual Instruction Tuning. arXiv:2509.18133.",
+      "title": "Self-Evolving LLMs via Continual Instruction Tuning",
+      "authors": "Kang, J., Huang, L., Hou, C., Zhao, Z., Yan, Z., & Bai, T",
+      "year": "2025",
+      "arxiv_id": "2509.18133",
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Pornprasit, C., & Tantithamthavorn, C. (2024). Fine-Tuning and Prompt Engineering for Large Language Models-based Code Review Automation. arXiv:2402.00905v4.",
+      "title": "Fine-Tuning and Prompt Engineering for Large Language Models-based Code Review Automation",
+      "authors": "Pornprasit, C., & Tantithamthavorn, C",
+      "year": "2024",
+      "arxiv_id": "2402.00905v4",
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Kumar, J., & Chimalakonda, S. (2024). Code Review Automation Via Multi-task Federated LLM -- An Empirical Study. arXiv:2412.15676v1.",
+      "title": "Code Review Automation Via Multi-task Federated LLM -- An Empirical Study",
+      "authors": "Kumar, J., & Chimalakonda, S",
+      "year": "2024",
+      "arxiv_id": "2412.15676v1",
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Paul, R., Hossain, M. M., Siddiq, M. L., Hasan, M., Iqbal, A., & Santos, J. C. S. (2023). Enhancing Automated Program Repair through Fine-tuning and Prompt Engineering. arXiv:2304.07840v2.",
+      "title": "Enhancing Automated Program Repair through Fine-tuning and Prompt Engineering",
+      "authors": "Paul, R., Hossain, M. M., Siddiq, M. L., Hasan, M., Iqbal, A., & Santos, J. C. S",
+      "year": "2023",
+      "arxiv_id": "2304.07840v2",
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Paul, D. G., Zhu, H., & Bayley, I. (2024). Benchmarks and Metrics for Evaluations of Code Generation: A Critical Review. arXiv:2406.12655.",
+      "title": "Benchmarks and Metrics for Evaluations of Code Generation: A Critical Review",
+      "authors": "Paul, D. G., Zhu, H., & Bayley, I",
+      "year": "2024",
+      "arxiv_id": "2406.12655",
+      "doi": null
+    },
+    {
+      "ref_id": 5,
+      "raw": "Khanzadeh, S. (2025). AgentMesh: A Cooperative Multi-Agent Generative AI Framework for Software Development Automation. arXiv:2507.19902.",
+      "title": "AgentMesh: A Cooperative Multi-Agent Generative AI Framework for Software Development Automation",
+      "authors": "Khanzadeh, S",
+      "year": "2025",
+      "arxiv_id": "2507.19902",
+      "doi": null
+    },
+    {
+      "ref_id": 6,
+      "raw": "Zhao, R., Chen, H., Wang, W., Jiao, F., Long, D. X., Qin, C., Ding, B., Guo, X., Li, M., Li, X., & Joty, S. R. (2023). Retrieving Multimodal Information for Augmented Generation: A Survey. arXiv:2303.10868.",
+      "title": "Retrieving Multimodal Information for Augmented Generation: A Survey",
+      "authors": "Zhao, R., Chen, H., Wang, W., Jiao, F., Long, D. X., Qin, C., Ding, B., Guo, X., Li, M., Li, X., & Joty, S. R",
+      "year": "2023",
+      "arxiv_id": "2303.10868",
+      "doi": null
+    },
+    {
+      "ref_id": 7,
+      "raw": "Zhang, T. M., & Abernethy, N. F. (2025). Reviewing Scientific Papers for Critical Problems With Reasoning LLMs: Baseline Approaches and Automatic Evaluation. arXiv:2505.23824.",
+      "title": "Reviewing Scientific Papers for Critical Problems With Reasoning LLMs: Baseline Approaches and Automatic Evaluation",
+      "authors": "Zhang, T. M., & Abernethy, N. F",
+      "year": "2025",
+      "arxiv_id": "2505.23824",
+      "doi": null
+    }
+  ]
+}

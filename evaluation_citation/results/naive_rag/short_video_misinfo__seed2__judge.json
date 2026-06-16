@@ -1,0 +1,27 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "short_video_misinfo",
+  "seed": 2,
+  "topic": "Detection of Misinformation and Harmful Content on Short-Form Video Platforms: Methods, Datasets, and Multimodal Approaches",
+  "n_references": 1,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper presents a pipeline for detecting checkworthy misinformation in short-form videos, directly addressing the survey's core topic of misinformation detection on short-form video platforms with multimodal methods."
+      }
+    }
+  ],
+  "aggregate": {
+    "score": 100.0,
+    "n_relevant": 1,
+    "n_partial": 0,
+    "n_irrelevant": 0,
+    "n_error": 0,
+    "n_judged": 1
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\surveyflow\\federated_health__seed0\\survey.md",
+  "topic": "3 Privacy-Preserving Vertical Federated Learning with Quantum Architectures for Healthcare",
+  "n_references": 5,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Serrano, A., Rodrigues, G. A. P., Bispo, G., Gonçalves, V. P., Filho, G. P. R., Peixoto, M. G. M., Bonacin, R., & Meneguette, R. I. (2026). FedIHRAS: A Privacy-Preserving Federated Learning Framework for Multi-Institutional Collaborative Radiological Analysis with Integrated Explainability and Automated Clinical Reporting.",
+      "title": "FedIHRAS: A Privacy-Preserving Federated Learning Framework for Multi-Institutional Collaborative Radiological Analysis with Integrated Explainability and Automated Clinical Reporting",
+      "authors": "Serrano, A., Rodrigues, G. A. P., Bispo, G., Gonçalves, V. P., Filho, G. P. R., Peixoto, M. G. M., Bonacin, R., & Meneguette, R. I",
+      "year": "2026",
+      "arxiv_id": null,
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Rajagopal, S. M., M., S., & Buyya, R. (2023). FedSDM: Federated learning based smart decision making module for ECG data in IoT integrated Edge-Fog-Cloud computing environments.",
+      "title": "FedSDM: Federated learning based smart decision making module for ECG data in IoT integrated Edge-Fog-Cloud computing environments",
+      "authors": "Rajagopal, S. M., M., S., & Buyya, R",
+      "year": "2023",
+      "arxiv_id": null,
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Wen, Z., Feng, W., Wu, D., Hu, H., Xu, C., Qian, B., Hong, Z., Wang, C., & Ji, S. (2024). FLMarket: Enabling Privacy-preserved Pre-training Data Pricing for Federated Learning. arXiv:2411.11713.",
+      "title": "FLMarket: Enabling Privacy-preserved Pre-training Data Pricing for Federated Learning",
+      "authors": "Wen, Z., Feng, W., Wu, D., Hu, H., Xu, C., Qian, B., Hong, Z., Wang, C., & Ji, S",
+      "year": "2024",
+      "arxiv_id": "2411.11713",
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Tang, F., Liang, S., Ling, G., & Shan, J. (2023). IHVFL: a privacy-enhanced intention-hiding vertical federated learning framework for medical data.",
+      "title": "IHVFL: a privacy-enhanced intention-hiding vertical federated learning framework for medical data",
+      "authors": "Tang, F., Liang, S., Ling, G., & Shan, J",
+      "year": "2023",
+      "arxiv_id": null,
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Sai, S., Sawaika, A., Singh, P., & Buyya, R. (2025). Quantum Federated Learning: Architectural Elements and Future Directions. arXiv:2510.17642v1.",
+      "title": "Quantum Federated Learning: Architectural Elements and Future Directions",
+      "authors": "Sai, S., Sawaika, A., Singh, P., & Buyya, R",
+      "year": "2025",
+      "arxiv_id": "2510.17642v1",
+      "doi": null
+    }
+  ]
+}

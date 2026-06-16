@@ -1,0 +1,482 @@
+{
+  "arxiv_query": "(abs:\"neural codec\" AND abs:\"speech token\" AND abs:\"audio codec\" OR abs:\"discrete representation\" OR abs:\"tokenization\" OR abs:\"quantization\" OR abs:\"generative\" OR abs:\"disentanglement\" OR abs:\"fidelity\")",
+  "generic_arxiv_query": "(abs:\"neural codec\" AND abs:\"audio compression\") OR (abs:\"discrete representation\" AND abs:\"speech coding\")",
+  "s2_query": "neural audio codec speech tokenization",
+  "s2_generic_query": "neural audio compression speech representation learning",
+  "survey_id": "corpus_neural_audio_codec",
+  "tsv_path": "./data/tsv\\corpus_neural_audio_codec.tsv",
+  "paper_list": [
+    {
+      "title": "Investigating Neural Audio Codecs For Speech Language Model-Based Speech Generation",
+      "pdf_link": "http://arxiv.org/pdf/2409.04016",
+      "arxiv_id": "2409.04016",
+      "s2_id": "001d797a1862c75c7213b810c56a33ded79c7327",
+      "open_access_pdf_url": "http://arxiv.org/pdf/2409.04016",
+      "authors": [
+        "Jiaqi Li",
+        "Dongmei Wang",
+        "Xiaofei Wang",
+        "Yao Qian",
+        "Long Zhou",
+        "Shujie Liu",
+        "Midia Yousefi",
+        "Canrun Li",
+        "Chung-Hsien Tsai",
+        "Zhen Xiao",
+        "Yanqing Liu",
+        "Junkun Chen",
+        "Sheng Zhao",
+        "Jinyu Li",
+        "Zhizheng Wu",
+        "Michael Zeng"
+      ],
+      "source": "s2",
+      "citation_count": 9,
+      "year": 2024
+    },
+    {
+      "title": "NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers",
+      "pdf_link": "http://arxiv.org/pdf/2304.09116",
+      "arxiv_id": "2304.09116",
+      "s2_id": "00c367427d9135209d84008e6cb5e90f0adba881",
+      "open_access_pdf_url": "http://arxiv.org/pdf/2304.09116",
+      "authors": [
+        "Kai Shen",
+        "Zeqian Ju",
+        "Xu Tan",
+        "Yanqing Liu",
+        "Yichong Leng",
+        "Lei He",
+        "Tao Qin",
+        "Sheng Zhao",
+        "Jiang Bian"
+      ],
+      "source": "s2",
+      "citation_count": 380,
+      "year": 2023
+    },
+    {
+      "title": "FoundationTTS: Text-to-Speech for ASR Customization with Generative Language Model",
+      "pdf_link": "http://arxiv.org/pdf/2303.02939",
+      "arxiv_id": "2303.02939",
+      "s2_id": "026a87569273a9dc49e59a68f0b2089eb8432797",
+      "open_access_pdf_url": "http://arxiv.org/pdf/2303.02939",
+      "authors": [
+        "Rui Xue",
+        "Yanqing Liu",
+        "Lei He",
+        "Xuejiao Tan",
+        "Linquan Liu",
+        "Ed Lin",
+        "Sheng Zhao"
+      ],
+      "source": "s2",
+      "citation_count": 9,
+      "year": 2023
+    },
+    {
+      "title": "Hierarchical Decoding for Discrete Speech Synthesis with Multi-Resolution Spoof Detection",
+      "pdf_link": "",
+      "arxiv_id": "2603.05373",
+      "s2_id": "082a46721dd5b9854f4d41fd89020fe0edad3671",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Junchuan Zhao",
+        "Minh-Duc Vu",
+        "Ye Wang"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2026
+    },
+    {
+      "title": "UniCodec: Unified Audio Codec with Single Domain-Adaptive Codebook",
+      "pdf_link": "",
+      "arxiv_id": "2502.20067",
+      "s2_id": "0c6897b2e27fe8c8dc29bbf655902c2923f251e9",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Yidi Jiang",
+        "Qian Chen",
+        "Shengpeng Ji",
+        "Yu Xi",
+        "Wen Wang",
+        "Chong Zhang",
+        "Xianghu Yue",
+        "Shiliang Zhang",
+        "Haizhou Li"
+      ],
+      "source": "s2",
+      "citation_count": 26,
+      "year": 2025
+    },
+    {
+      "title": "Speech Enhancement Using Continuous Embeddings of Neural Audio Codec",
+      "pdf_link": "",
+      "arxiv_id": "2502.16240",
+      "s2_id": "0d912bc143160964d76cc93ff5fa6d91f25e49e6",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Haoyang Li",
+        "J. Yip",
+        "Tianyu Fan",
+        "Chng Eng Siong"
+      ],
+      "source": "s2",
+      "citation_count": 15,
+      "year": 2025
+    },
+    {
+      "title": "Speech Token Prediction via Compressed-to-fine Language Modeling for Speech Generation",
+      "pdf_link": "",
+      "arxiv_id": "2505.24496",
+      "s2_id": "0daf147e3c0ba5af0314b4b7d30ccb5f6bc6112c",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Wenrui Liu",
+        "Qian Chen",
+        "Wen Wang",
+        "Guan Yang",
+        "Weiqin Li",
+        "Minghui Fang",
+        "Jialong Zuo",
+        "Xiaoda Yang",
+        "Tao Jin",
+        "Jin Xu",
+        "Zemin Liu",
+        "Yafeng Chen",
+        "Jionghao Bai",
+        "Zhifang Guo"
+      ],
+      "source": "s2",
+      "citation_count": 9,
+      "year": 2025
+    },
+    {
+      "title": "Emotional Face-to-Speech",
+      "pdf_link": "",
+      "arxiv_id": "2502.01046",
+      "s2_id": "0dd11d65e9cf36af2ed8608b7ee38a02615fb24c",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Jiaxin Ye",
+        "Boyuan Cao",
+        "Hongming Shan"
+      ],
+      "source": "s2",
+      "citation_count": 7,
+      "year": 2025
+    },
+    {
+      "title": "Optimizing Neural Speech Codec for Low-Bitrate Compression via Multi-Scale Encoding",
+      "pdf_link": "",
+      "arxiv_id": "2410.15749",
+      "s2_id": "0f9c33a76e270c751fdc4a74d989809c8fe4ccce",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Pei-Yin Yang",
+        "Fengping Wang",
+        "Yicheng Zhong",
+        "Huawei Wei",
+        "Zhisheng Wang"
+      ],
+      "source": "s2",
+      "citation_count": 1,
+      "year": 2024
+    },
+    {
+      "title": "Improving Noise Robustness of LLM-based Zero-shot TTS via Discrete Acoustic Token Denoising",
+      "pdf_link": "",
+      "arxiv_id": "2505.13830",
+      "s2_id": "0ff5f6bc2879b3a5fdb10f6a46a05c6fe8d9a624",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Ye-Xin Lu",
+        "Hui-Peng Du",
+        "Fei Liu",
+        "Yang Ai",
+        "Zhenhua Ling"
+      ],
+      "source": "s2",
+      "citation_count": 1,
+      "year": 2025
+    }
+  ],
+  "download_status": {
+    "2409.04016": "success",
+    "2304.09116": "success",
+    "2303.02939": "success",
+    "2603.05373": "success",
+    "2502.20067": "success",
+    "2502.16240": "success",
+    "2505.24496": "success",
+    "2502.01046": "success",
+    "2410.15749": "success",
+    "2505.13830": "success",
+    "2503.12115v2": "success",
+    "2507.18897v1": "success",
+    "2509.11425v2": "success",
+    "2506.22362v1": "success",
+    "2601.17085v1": "success"
+  },
+  "failed_papers": [],
+  "chroma_collections": [
+    "diffsoundstreamefficientspeechtokenizationviadiffusiondecodina",
+    "foundationttstext-to-speechforasrcustomizationwithgenerativelaa",
+    "hierarchicaldecodingfordiscretespeechsynthesiswithmulti-resolua",
+    "hh-codechighcompressionhigh-fidelitydiscreteneuralcodecforspoka",
+    "fusecodecsemantic-contextualfusionandsupervisionforneuralcodeca",
+    "emotionalface-to-speeca",
+    "improvingnoiserobustnessofllm-basedzero-shotttsviadiscreteacoua",
+    "investigatingneuralaudiocodecsforspeechlanguagemodel-basedspeea",
+    "recoveringperformanceinspeechemotionrecognitionfromdiscretetoka",
+    "optimizingneuralspeechcodecforlow-bitratecompressionviamulti-sa",
+    "speechenhancementusingcontinuousembeddingsofneuralaudiocodea",
+    "naturalspeech2latentdiffusionmodelsarenaturalandzero-shotspeeca",
+    "speechtokenpredictionviacompressed-to-finelanguagemodelingforsa",
+    "unicodecunifiedaudiocodecwithsingledomain-adaptivecodebooa",
+    "universalspeechtokenlearningvialow-bitrateneuralcodecandpretraa"
+  ],
+  "total_chunks": 1295,
+  "embedding_status": {
+    "./data/arxiv_downloads\\corpus_neural_audio_codec\\DiffSoundStream_ Efficient Speech Tokenization via Diffusion Decoding.pdf": "success",
+    "./data/arxiv_downloads\\corpus_neural_audio_codec\\FoundationTTS_ Text-to-Speech for ASR Customization with Generative Language Model.pdf": "success",
+    "./data/arxiv_downloads\\corpus_neural_audio_codec\\Hierarchical Decoding for Discrete Speech Synthesis with Multi-Resolution Spoof Detection.pdf": "success",
+    "./data/arxiv_downloads\\corpus_neural_audio_codec\\HH-Codec_ High Compression High-fidelity Discrete Neural Codec for Spoken Language Modeling.pdf": "success",
+    "./data/arxiv_downloads\\corpus_neural_audio_codec\\FuseCodec_ Semantic-Contextual Fusion and Supervision for Neural Codecs.pdf": "success",
+    "./data/arxiv_downloads\\corpus_neural_audio_codec\\Emotional Face-to-Speech.pdf": "success",
+    "./data/arxiv_downloads\\corpus_neural_audio_codec\\Improving Noise Robustness of LLM-based Zero-shot TTS via Discrete Acoustic Token Denoising.pdf": "success",
+    "./data/arxiv_downloads\\corpus_neural_audio_codec\\Investigating Neural Audio Codecs For Speech Language Model-Based Speech Generation.pdf": "success",
+    "./data/arxiv_downloads\\corpus_neural_audio_codec\\Recovering Performance in Speech Emotion Recognition from Discrete Tokens via Multi-Layer Fusion and.pdf": "success",
+    "./data/arxiv_downloads\\corpus_neural_audio_codec\\Optimizing Neural Speech Codec for Low-Bitrate Compression via Multi-Scale Encoding.pdf": "success",
+    "./data/arxiv_downloads\\corpus_neural_audio_codec\\Speech Enhancement Using Continuous Embeddings of Neural Audio Codec.pdf": "success",
+    "./data/arxiv_downloads\\corpus_neural_audio_codec\\NaturalSpeech 2_ Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers.pdf": "success",
+    "./data/arxiv_downloads\\corpus_neural_audio_codec\\Speech Token Prediction via Compressed-to-fine Language Modeling for Speech Generation.pdf": "success",
+    "./data/arxiv_downloads\\corpus_neural_audio_codec\\UniCodec_ Unified Audio Codec with Single Domain-Adaptive Codebook.pdf": "success",
+    "./data/arxiv_downloads\\corpus_neural_audio_codec\\Universal Speech Token Learning via Low-Bitrate Neural Codec and Pretrained Representations.pdf": "success"
+  },
+  "citation_paper_meta": {
+    "investigatingneuralaudiocodecsforspeechlanguagemodel-basedspeea": {
+      "title": "Investigating Neural Audio Codecs For Speech Language Model-Based Speech Generation",
+      "authors": [
+        "Jiaqi Li",
+        "Dongmei Wang",
+        "Xiaofei Wang",
+        "Yao Qian",
+        "Long Zhou",
+        "Shujie Liu",
+        "Midia Yousefi",
+        "Canrun Li",
+        "Chung-Hsien Tsai",
+        "Zhen Xiao",
+        "Yanqing Liu",
+        "Junkun Chen",
+        "Sheng Zhao",
+        "Jinyu Li",
+        "Zhizheng Wu",
+        "Michael Zeng"
+      ],
+      "year": 2024,
+      "arxiv_id": "2409.04016",
+      "s2_id": "001d797a1862c75c7213b810c56a33ded79c7327"
+    },
+    "hierarchicaldecodingfordiscretespeechsynthesiswithmulti-resolua": {
+      "title": "Hierarchical Decoding for Discrete Speech Synthesis with Multi-Resolution Spoof Detection",
+      "authors": [
+        "Junchuan Zhao",
+        "Minh-Duc Vu",
+        "Ye Wang"
+      ],
+      "year": 2026,
+      "arxiv_id": "2603.05373",
+      "s2_id": "082a46721dd5b9854f4d41fd89020fe0edad3671"
+    },
+    "speechenhancementusingcontinuousembeddingsofneuralaudiocodea": {
+      "title": "Speech Enhancement Using Continuous Embeddings of Neural Audio Codec",
+      "authors": [
+        "Haoyang Li",
+        "J. Yip",
+        "Tianyu Fan",
+        "Chng Eng Siong"
+      ],
+      "year": 2025,
+      "arxiv_id": "2502.16240",
+      "s2_id": "0d912bc143160964d76cc93ff5fa6d91f25e49e6"
+    },
+    "speechtokenpredictionviacompressed-to-finelanguagemodelingforsa": {
+      "title": "Speech Token Prediction via Compressed-to-fine Language Modeling for Speech Generation",
+      "authors": [
+        "Wenrui Liu",
+        "Qian Chen",
+        "Wen Wang",
+        "Guan Yang",
+        "Weiqin Li",
+        "Minghui Fang",
+        "Jialong Zuo",
+        "Xiaoda Yang",
+        "Tao Jin",
+        "Jin Xu",
+        "Zemin Liu",
+        "Yafeng Chen",
+        "Jionghao Bai",
+        "Zhifang Guo"
+      ],
+      "year": 2025,
+      "arxiv_id": "2505.24496",
+      "s2_id": "0daf147e3c0ba5af0314b4b7d30ccb5f6bc6112c"
+    },
+    "emotionalface-to-speeca": {
+      "title": "Emotional Face-to-Speech",
+      "authors": [
+        "Jiaxin Ye",
+        "Boyuan Cao",
+        "Hongming Shan"
+      ],
+      "year": 2025,
+      "arxiv_id": "2502.01046",
+      "s2_id": "0dd11d65e9cf36af2ed8608b7ee38a02615fb24c"
+    },
+    "optimizingneuralspeechcodecforlow-bitratecompressionviamulti-sa": {
+      "title": "Optimizing Neural Speech Codec for Low-Bitrate Compression via Multi-Scale Encoding",
+      "authors": [
+        "Pei-Yin Yang",
+        "Fengping Wang",
+        "Yicheng Zhong",
+        "Huawei Wei",
+        "Zhisheng Wang"
+      ],
+      "year": 2024,
+      "arxiv_id": "2410.15749",
+      "s2_id": "0f9c33a76e270c751fdc4a74d989809c8fe4ccce"
+    },
+    "improvingnoiserobustnessofllm-basedzero-shotttsviadiscreteacoua": {
+      "title": "Improving Noise Robustness of LLM-based Zero-shot TTS via Discrete Acoustic Token Denoising",
+      "authors": [
+        "Ye-Xin Lu",
+        "Hui-Peng Du",
+        "Fei Liu",
+        "Yang Ai",
+        "Zhenhua Ling"
+      ],
+      "year": 2025,
+      "arxiv_id": "2505.13830",
+      "s2_id": "0ff5f6bc2879b3a5fdb10f6a46a05c6fe8d9a624"
+    },
+    "diffsoundstreamefficientspeechtokenizationviadiffusiondecodina": {
+      "title": "DiffSoundStream Efficient Speech Tokenization via Diffusion Decoding",
+      "authors": [],
+      "year": null,
+      "arxiv_id": "",
+      "s2_id": ""
+    },
+    "foundationttstext-to-speechforasrcustomizationwithgenerativelaa": {
+      "title": "Investigating Neural Audio Codecs For Speech Language Model-Based Speech Generation",
+      "authors": [
+        "Jiaqi Li",
+        "Dongmei Wang",
+        "Xiaofei Wang",
+        "Yao Qian",
+        "Long Zhou",
+        "Shujie Liu",
+        "Midia Yousefi",
+        "Canrun Li",
+        "Chung-Hsien Tsai",
+        "Zhen Xiao",
+        "Yanqing Liu",
+        "Junkun Chen",
+        "Sheng Zhao",
+        "Jinyu Li",
+        "Zhizheng Wu",
+        "Michael Zeng"
+      ],
+      "year": 2024,
+      "arxiv_id": "2409.04016",
+      "s2_id": "001d797a1862c75c7213b810c56a33ded79c7327"
+    },
+    "hh-codechighcompressionhigh-fidelitydiscreteneuralcodecforspoka": {
+      "title": "Optimizing Neural Speech Codec for Low-Bitrate Compression via Multi-Scale Encoding",
+      "authors": [
+        "Pei-Yin Yang",
+        "Fengping Wang",
+        "Yicheng Zhong",
+        "Huawei Wei",
+        "Zhisheng Wang"
+      ],
+      "year": 2024,
+      "arxiv_id": "2410.15749",
+      "s2_id": "0f9c33a76e270c751fdc4a74d989809c8fe4ccce"
+    },
+    "fusecodecsemantic-contextualfusionandsupervisionforneuralcodeca": {
+      "title": "FuseCodec Semantic-Contextual Fusion and Supervision for Neural Codecs",
+      "authors": [],
+      "year": null,
+      "arxiv_id": "",
+      "s2_id": ""
+    },
+    "recoveringperformanceinspeechemotionrecognitionfromdiscretetoka": {
+      "title": "Hierarchical Decoding for Discrete Speech Synthesis with Multi-Resolution Spoof Detection",
+      "authors": [
+        "Junchuan Zhao",
+        "Minh-Duc Vu",
+        "Ye Wang"
+      ],
+      "year": 2026,
+      "arxiv_id": "2603.05373",
+      "s2_id": "082a46721dd5b9854f4d41fd89020fe0edad3671"
+    },
+    "naturalspeech2latentdiffusionmodelsarenaturalandzero-shotspeeca": {
+      "title": "NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers",
+      "authors": [
+        "Kai Shen",
+        "Zeqian Ju",
+        "Xu Tan",
+        "Yanqing Liu",
+        "Yichong Leng",
+        "Lei He",
+        "Tao Qin",
+        "Sheng Zhao",
+        "Jiang Bian"
+      ],
+      "year": 2023,
+      "arxiv_id": "2304.09116",
+      "s2_id": "00c367427d9135209d84008e6cb5e90f0adba881"
+    },
+    "unicodecunifiedaudiocodecwithsingledomain-adaptivecodebooa": {
+      "title": "UniCodec: Unified Audio Codec with Single Domain-Adaptive Codebook",
+      "authors": [
+        "Yidi Jiang",
+        "Qian Chen",
+        "Shengpeng Ji",
+        "Yu Xi",
+        "Wen Wang",
+        "Chong Zhang",
+        "Xianghu Yue",
+        "Shiliang Zhang",
+        "Haizhou Li"
+      ],
+      "year": 2025,
+      "arxiv_id": "2502.20067",
+      "s2_id": "0c6897b2e27fe8c8dc29bbf655902c2923f251e9"
+    },
+    "universalspeechtokenlearningvialow-bitrateneuralcodecandpretraa": {
+      "title": "Speech Enhancement Using Continuous Embeddings of Neural Audio Codec",
+      "authors": [
+        "Haoyang Li",
+        "J. Yip",
+        "Tianyu Fan",
+        "Chng Eng Siong"
+      ],
+      "year": 2025,
+      "arxiv_id": "2502.16240",
+      "s2_id": "0d912bc143160964d76cc93ff5fa6d91f25e49e6"
+    }
+  },
+  "_corpus_stats": {
+    "topic_id": "neural_audio_codec",
+    "survey_id": "corpus_neural_audio_codec",
+    "n_papers_in_list": 10,
+    "n_collections": 15,
+    "total_chunks": 1295,
+    "n_citation_meta": 15
+  }
+}

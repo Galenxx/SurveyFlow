@@ -1,0 +1,97 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "txt2sql",
+  "seed": 2,
+  "topic": "Text-to-SQL Generation with Large Language Models: Schema Linking, Benchmarks, and Robustness",
+  "n_references": 8,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper uses an SQL code generation task as a testbed for studying quantization effects on trojans, but its main contribution is about security vulnerabilities and model compression, not advancing text-to-SQL generation, schema linking, or robustness in the sense of query accuracy."
+      }
+    },
+    {
+      "ref_id": 1,
+      "identification_verdict": "MISSING_ID",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper includes SQL generation for data queries as a component of a financial QA system, which tangentially relates to Text-to-SQL, but its main focus is on an agent-based architecture and fine-tuning for financial QA rather than advancing schema linking, benchmarks, or robustness in Text-to-SQL."
+      }
+    },
+    {
+      "ref_id": 2,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper presents a Text-to-SQL system using LLMs with schema linking, knowledge retrieval, and robustness mechanisms, directly aligning with the survey's focus on Text-to-SQL generation, schema linking, and robustness."
+      }
+    },
+    {
+      "ref_id": 3,
+      "identification_verdict": "NOT_FOUND",
+      "title_sim": 0.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=NOT_FOUND); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 4,
+      "identification_verdict": "MISSING_ID",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper directly addresses text-to-SQL generation using a large language model (Gemma-2B), which is the core focus of the survey."
+      }
+    },
+    {
+      "ref_id": 5,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper uses text-to-SQL as a filtering component within a broader RAG-based chatbot for humanities databases, but its main contribution is the design of a smart assistant rather than advancing text-to-SQL generation, schema linking, or robustness."
+      }
+    },
+    {
+      "ref_id": 6,
+      "identification_verdict": "NOT_FOUND",
+      "title_sim": 0.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=NOT_FOUND); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 7,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a text-to-SQL framework using LLMs with a novel schema linking strategy, directly addressing the survey's core themes of schema linking and LLM-based text-to-SQL generation."
+      }
+    }
+  ],
+  "aggregate": {
+    "score": 56.25,
+    "n_relevant": 3,
+    "n_partial": 3,
+    "n_irrelevant": 2,
+    "n_error": 0,
+    "n_judged": 8
+  }
+}

@@ -1,0 +1,794 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "gnn_drug",
+  "seed": 0,
+  "topic": "Graph Neural Networks for Drug Discovery and Molecular Property Prediction",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Gilmer, J., Schoenholz, S. S., Riley, P. F., Vinyals, O., & Dahl, G. E. (2017). Neural Message Passing for Quantum Chemistry. arXiv:1704.01212v2.",
+      "parsed": {
+        "title": "Neural Message Passing for Quantum Chemistry",
+        "authors": "Gilmer, J., Schoenholz, S. S., Riley, P. F., Vinyals, O., & Dahl, G. E",
+        "year": "2017",
+        "arxiv_id": "1704.01212v2",
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Yang, K., Swanson, K., Jin, W., Coley, C., Eiden, P., Gao, H., ... & Barzilay, R. (2019). Analyzing Learned Molecular Representations for Property Prediction. arXiv:1904.01561v2.",
+      "parsed": {
+        "title": "Analyzing Learned Molecular Representations for Property Prediction",
+        "authors": "Yang, K., Swanson, K., Jin, W., Coley, C., Eiden, P., Gao, H., ... & Barzilay, R",
+        "year": "2019",
+        "arxiv_id": "1904.01561v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Analyzing Learned Molecular Representations for Property Prediction",
+          "arxiv_id": "1904.01561",
+          "doi": "10.1021/acs.jcim.9b00237",
+          "year": "2019",
+          "authors": [
+            "Kevin Yang",
+            "Kyle Swanson",
+            "Wengong Jin",
+            "Connor W. Coley",
+            "Philipp Eiden",
+            "Hua Gao",
+            "A. Guzman-Perez",
+            "Timothy Hopper",
+            "Brian P. Kelley",
+            "M. Mathea",
+            "Andrew Palmer",
+            "Volker Settels",
+            "T. Jaakkola",
+            "K. Jensen",
+            "R. Barzilay"
+          ]
+        },
+        {
+          "title": "Correction to Analyzing Learned Molecular Representations for Property Prediction",
+          "arxiv_id": null,
+          "doi": "10.1021/acs.jcim.9b01076",
+          "year": "2019",
+          "authors": [
+            "Kevin Yang",
+            "Kyle Swanson",
+            "Wengong Jin",
+            "Connor W. Coley",
+            "Philipp Eiden",
+            "Hua Gao",
+            "A. Guzman-Perez",
+            "Timothy Hopper",
+            "Brian P. Kelley",
+            "M. Mathea",
+            "Andrew Palmer",
+            "Volker Settels",
+            "T. Jaakkola",
+            "K. Jensen",
+            "R. Barzilay"
+          ]
+        },
+        {
+          "title": "BERT Learns (and Teaches) Chemistry",
+          "arxiv_id": "2007.16012",
+          "doi": null,
+          "year": "2020",
+          "authors": [
+            "Josh Payne",
+            "Mario Srouji",
+            "Dian Ang Yap",
+            "Vineet Kosaraju"
+          ]
+        },
+        {
+          "title": "Data Fusion of Deep Learned Molecular Embeddings for Property Prediction",
+          "arxiv_id": "2504.07297",
+          "doi": "10.1021/acs.jcim.5c01728",
+          "year": "2025",
+          "authors": [
+            "Robert J. Appleton",
+            "Brian C. Barnes",
+            "Alejandro Strachan"
+          ]
+        },
+        {
+          "title": "Leveraging Hybrid Representations for Robust Molecular Property Prediction in Low-Data Regimes",
+          "arxiv_id": null,
+          "doi": "10.1109/ICDMW69685.2025.00366",
+          "year": "2025",
+          "authors": [
+            "Alex Liu",
+            "Haomin Zhuang",
+            "Olaf Wiest",
+            "Ying Cheng",
+            "Xiangliang Zhang"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "1904.01561",
+          "doi": "10.1021/acs.jcim.9b00237",
+          "title": "Analyzing Learned Molecular Representations for Property Prediction",
+          "abstract": "Advancements in neural machinery have led to a wide range of algorithmic solutions for molecular property prediction. Two classes of models in particular have yielded promising results: neural networks applied to computed molecular fingerprints or expert-crafted descriptors and graph convolutional neural networks that construct a learned molecular representation by operating on the graph structure of the molecule. However, recent literature has yet to clearly determine which of these two methods is superior when generalizing to new chemical space. Furthermore, prior research has rarely examined these new models in industry research settings in comparison to existing employed models. In this paper, we benchmark models extensively on 19 public and 16 proprietary industrial data sets spanning a wide variety of chemical end points. In addition, we introduce a graph convolutional model that consistently matches or outperforms models using fixed molecular descriptors as well as previous graph neural architectures on both public and proprietary data sets. Our empirical findings indicate that while approaches based on these representations have yet to reach the level of experimental reproducibility, our proposed model nevertheless offers significant improvements over models currently used in industrial workflows.",
+          "year": "2019",
+          "authors": [
+            "Kevin Yang",
+            "Kyle Swanson",
+            "Wengong Jin",
+            "Connor W. Coley",
+            "Philipp Eiden",
+            "Hua Gao",
+            "A. Guzman-Perez",
+            "Timothy Hopper",
+            "Brian P. Kelley",
+            "M. Mathea",
+            "Andrew Palmer",
+            "Volker Settels",
+            "T. Jaakkola",
+            "K. Jensen",
+            "R. Barzilay"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 1736
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Klicpera, J., Groß, J., & Günnemann, S. (2020). Directional Message Passing for Molecular Graphs. arXiv:2003.03123v2.",
+      "parsed": {
+        "title": "Directional Message Passing for Molecular Graphs",
+        "authors": "Klicpera, J., Groß, J., & Günnemann, S",
+        "year": "2020",
+        "arxiv_id": "2003.03123v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Directional Message Passing for Molecular Graphs",
+          "arxiv_id": "2003.03123",
+          "doi": null,
+          "year": "2020",
+          "authors": [
+            "Johannes Klicpera",
+            "Janek Groß",
+            "Stephan Günnemann"
+          ]
+        },
+        {
+          "title": "Directional Message Passing on Molecular Graphs via Synthetic Coordinates",
+          "arxiv_id": "2111.04718",
+          "doi": null,
+          "year": "2021",
+          "authors": [
+            "Johannes Klicpera",
+            "Chandan Yeshwanth",
+            "Stephan Günnemann"
+          ]
+        },
+        {
+          "title": "A Directed Message Passing Neural Network Model for Predicting True Solubility in Drug Discovery",
+          "arxiv_id": null,
+          "doi": "10.54254/2755-2721/2025.tj24494",
+          "year": "2025",
+          "authors": [
+            "Xingyu Zhu"
+          ]
+        },
+        {
+          "title": "GemNet: Universal Directional Graph Neural Networks for Molecules",
+          "arxiv_id": "2106.08903",
+          "doi": null,
+          "year": "2021",
+          "authors": [
+            "Johannes Klicpera",
+            "Florian Becker",
+            "Stephan Gunnemann"
+          ]
+        },
+        {
+          "title": "KGMAEDDI: Knowledge Graph and Molecular-Graph Masked Autoencoder for Drug-Drug Interaction Prediction.",
+          "arxiv_id": null,
+          "doi": "10.1109/JBHI.2025.3610870",
+          "year": "2025",
+          "authors": [
+            "Yu Li",
+            "Zhuhong You",
+            "Yuan Yang",
+            "Cheng-gang Mi"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2003.03123",
+          "doi": null,
+          "title": "Directional Message Passing for Molecular Graphs",
+          "abstract": "Graph neural networks have recently achieved great successes in predicting quantum mechanical properties of molecules. These models represent a molecule as a graph using only the distance between atoms (nodes) and not the spatial direction from one atom to another. However, directional information plays a central role in empirical potentials for molecules, e.g. in angular potentials. To alleviate this limitation we propose directional message passing, in which we embed the messages passed between atoms instead of the atoms themselves. Each message is associated with a direction in coordinate space. These directional message embeddings are rotationally equivariant since the associated directions rotate with the molecule. We propose a message passing scheme analogous to belief propagation, which uses the directional information by transforming messages based on the angle between them. Additionally, we use spherical Bessel functions to construct a theoretically well-founded, orthogonal radial basis that achieves better performance than the currently prevalent Gaussian radial basis functions while using more than 4x fewer parameters. We leverage these innovations to construct the directional message passing neural network (DimeNet). DimeNet outperforms previous GNNs on average by 77% on MD17 and by 41% on QM9.",
+          "year": "2020",
+          "authors": [
+            "Johannes Klicpera",
+            "Janek Groß",
+            "Stephan Günnemann"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 1115
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Schütt, K. T., Kindermans, P. J., Sauceda, H. E., Chmiela, S., Tkatchenko, A., & Müller, K. R. (2017). SchNet: A continuous-filter convolutional neural network for modeling quantum interactions. arXiv:1706.08566v2.",
+      "parsed": {
+        "title": "SchNet: A continuous-filter convolutional neural network for modeling quantum interactions",
+        "authors": "Schütt, K. T., Kindermans, P. J., Sauceda, H. E., Chmiela, S., Tkatchenko, A., & Müller, K. R",
+        "year": "2017",
+        "arxiv_id": "1706.08566v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "SchNet: A continuous-filter convolutional neural network for modeling quantum interactions",
+          "arxiv_id": "1706.08566",
+          "doi": null,
+          "year": "2017",
+          "authors": [
+            "Kristof Schütt",
+            "Pieter-Jan Kindermans",
+            "Huziel Enoc Sauceda Felix",
+            "Stefan Chmiela",
+            "A. Tkatchenko",
+            "K. Müller"
+          ]
+        },
+        {
+          "title": "Quantum-Inspired Optimization Based Convolutional Neural Network for Automated Defect Detection in Knitted Fabrics",
+          "arxiv_id": null,
+          "doi": "10.1109/GCWOT69191.2026.11499511",
+          "year": "2026",
+          "authors": [
+            "Awais Yasin",
+            "H. Sheikh",
+            "Inayat Ullah Khan",
+            "Roohul Amin",
+            "Marium Jala Chaudhry",
+            "R. Siddiqui"
+          ]
+        },
+        {
+          "title": "Reproducing global potential energy surfaces with continuous-filter convolutional neural networks.",
+          "arxiv_id": null,
+          "doi": "10.1063/1.5093908",
+          "year": "2019",
+          "authors": [
+            "Kurt R. Brorsen"
+          ]
+        },
+        {
+          "title": "SchNet - A deep learning architecture for molecules and materials.",
+          "arxiv_id": "1712.06113",
+          "doi": "10.1063/1.5019779",
+          "year": "2017",
+          "authors": [
+            "Kristof T. Schütt",
+            "H. Sauceda",
+            "P. Kindermans",
+            "A. Tkatchenko",
+            "K. Müller"
+          ]
+        },
+        {
+          "title": "EEG based BCI for Seemless Home Automation",
+          "arxiv_id": null,
+          "doi": "10.1109/ACCESS65134.2025.11135623",
+          "year": "2025",
+          "authors": [
+            "Hisana Jannath P. K",
+            "K. A. Muhammed Fahim",
+            "S. B",
+            "Balu Sajeev",
+            "Chithra Parameswaran",
+            "Bobby Mathews C"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "1706.08566",
+          "doi": null,
+          "title": "SchNet: A continuous-filter convolutional neural network for modeling quantum interactions",
+          "abstract": "Deep learning has the potential to revolutionize quantum chemistry as it is ideally suited to learn representations for structured data and speed up the exploration of chemical space. While convolutional neural networks have proven to be the first choice for images, audio and video data, the atoms in molecules are not restricted to a grid. Instead, their precise locations contain essential physical information, that would get lost if discretized. Thus, we propose to use continuous-filter convolutional layers to be able to model local correlations without requiring the data to lie on a grid. We apply those layers in SchNet: a novel deep learning architecture modeling quantum interactions in molecules. We obtain a joint model for the total energy and interatomic forces that follows fundamental quantum-chemical principles. This includes rotationally invariant energy predictions and a smooth, differentiable potential energy surface. Our architecture achieves state-of-the-art performance for benchmarks of equilibrium molecules and molecular dynamics trajectories. Finally, we introduce a more challenging benchmark with chemical and structural variations that suggests the path for further work.",
+          "year": "2017",
+          "authors": [
+            "Kristof Schütt",
+            "Pieter-Jan Kindermans",
+            "Huziel Enoc Sauceda Felix",
+            "Stefan Chmiela",
+            "A. Tkatchenko",
+            "K. Müller"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 1418
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 4,
+      "raw": "Shi, C., Xu, M., Zhu, Z., Zhang, W., Zhang, M., & Tang, J. (2020). GraphAF: a Flow-based Autoregressive Model for Molecular Graph Generation. arXiv:2001.09382v2.",
+      "parsed": {
+        "title": "GraphAF: a Flow-based Autoregressive Model for Molecular Graph Generation",
+        "authors": "Shi, C., Xu, M., Zhu, Z., Zhang, W., Zhang, M., & Tang, J",
+        "year": "2020",
+        "arxiv_id": "2001.09382v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "GraphAF: a Flow-based Autoregressive Model for Molecular Graph Generation",
+          "arxiv_id": "2001.09382",
+          "doi": null,
+          "year": "2020",
+          "authors": [
+            "Chence Shi",
+            "Minkai Xu",
+            "Zhaocheng Zhu",
+            "Weinan Zhang",
+            "Ming Zhang",
+            "Jian Tang"
+          ]
+        },
+        {
+          "title": "Fisher Flow Matching for Generative Modeling over Discrete Data",
+          "arxiv_id": "2405.14664",
+          "doi": "10.48550/arXiv.2405.14664",
+          "year": "2024",
+          "authors": [
+            "Oscar Davis",
+            "Samuel Kessler",
+            "Mircea Petrache",
+            "I. Ceylan",
+            "Michael M. Bronstein",
+            "A. Bose"
+          ]
+        },
+        {
+          "title": "SynCoGen: Synthesizable 3D Molecule Generation via Joint Reaction and Coordinate Modeling",
+          "arxiv_id": "2507.11818",
+          "doi": "10.48550/arXiv.2507.11818",
+          "year": "2025",
+          "authors": [
+            "Andrei Rekesh",
+            "M. Cretu",
+            "Dmytro Shevchuk",
+            "Vignesh Ram Somnath",
+            "Pietro Lió",
+            "Robert A. Batey",
+            "Mike Tyers",
+            "Michal Koziarski",
+            "Cheng-Hao Liu"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2001.09382",
+          "doi": null,
+          "title": "GraphAF: a Flow-based Autoregressive Model for Molecular Graph Generation",
+          "abstract": "Molecular graph generation is a fundamental problem for drug discovery and has been attracting growing attention. The problem is challenging since it requires not only generating chemically valid molecular structures but also optimizing their chemical properties in the meantime. Inspired by the recent progress in deep generative models, in this paper we propose a flow-based autoregressive model for graph generation called GraphAF. GraphAF combines the advantages of both autoregressive and flow-based approaches and enjoys: (1) high model flexibility for data density estimation; (2) efficient parallel computation for training; (3) an iterative sampling process, which allows leveraging chemical domain knowledge for valency checking. Experimental results show that GraphAF is able to generate 68% chemically valid molecules even without chemical knowledge rules and 100% valid molecules with chemical rules. The training process of GraphAF is two times faster than the existing state-of-the-art approach GCPN. After fine-tuning the model for goal-directed property optimization with reinforcement learning, GraphAF achieves state-of-the-art performance on both chemical property optimization and constrained property optimization.",
+          "year": "2020",
+          "authors": [
+            "Chence Shi",
+            "Minkai Xu",
+            "Zhaocheng Zhu",
+            "Weinan Zhang",
+            "Ming Zhang",
+            "Jian Tang"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 546
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 5,
+      "raw": "De Cao, N., & Kipf, T. (2018). MolGAN: An implicit generative model for small molecular graphs. arXiv:1805.11973v1.",
+      "parsed": {
+        "title": "MolGAN: An implicit generative model for small molecular graphs",
+        "authors": "De Cao, N., & Kipf, T",
+        "year": "2018",
+        "arxiv_id": "1805.11973v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "MolGAN: An implicit generative model for small molecular graphs",
+          "arxiv_id": "1805.11973",
+          "doi": null,
+          "year": "2018",
+          "authors": [
+            "Nicola De Cao",
+            "Thomas Kipf"
+          ]
+        },
+        {
+          "title": "L-MolGAN: An improved implicit generative model for large molecular graphs",
+          "arxiv_id": null,
+          "doi": "10.26434/CHEMRXIV.14569545.V1",
+          "year": "2021",
+          "authors": [
+            "Yutaka Tsujimoto",
+            "S. Hiwa",
+            "Yushi Nakamura",
+            "Y. Oe",
+            "Tomoyuki Hiroyasu"
+          ]
+        },
+        {
+          "title": "L-MolGAN: An improved implicit generative model for generation of large molecular graphs",
+          "arxiv_id": null,
+          "doi": null,
+          "year": "2021",
+          "authors": [
+            "Yutaka Tsujimoto",
+            "S. Hiwa",
+            "Yushi Nakamura",
+            "Y. Oe",
+            "Tomoyuki Hiroyasu"
+          ]
+        },
+        {
+          "title": "Генерации графов заданной структуры: от глубоких нейронных сетей к квантовым моделям (на примере создания новых лекарств)",
+          "arxiv_id": null,
+          "doi": "10.71310/pcam.1_71.2026.11",
+          "year": "2026",
+          "authors": [
+            "Ф.Т. Адылова",
+            "Р.Р. Давронов"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "1805.11973",
+          "doi": null,
+          "title": "MolGAN: An implicit generative model for small molecular graphs",
+          "abstract": "eep generative models for graph-structured data offer a new angle on the problem of chemical synthesis: by optimizing differentiable models that directly generate molecular graphs, it is pos-sible to side-step expensive search procedures in the discrete and vast space of chemical structures. We introduce MolGAN, an implicit, likelihood-free generative model for small molecular graphs that circumvents the need for expensive graph matching procedures or node ordering heuris-tics of previous likelihood-based methods. Our method adapts generative adversarial networks (GANs) to operate directly on graph-structured data. We combine our approach with a reinforce-ment learning objective to encourage the genera-tion of molecules with specific desired chemical properties. In experiments on the QM9 chemi-cal database, we demonstrate that our model is capable of generating close to 100% valid com-pounds. MolGAN compares favorably both to recent proposals that use string-based (SMILES) representations of molecules and to a likelihood-based method that directly generates graphs, al-beit being susceptible to mode collapse.",
+          "year": "2018",
+          "authors": [
+            "Nicola De Cao",
+            "Thomas Kipf"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 1092
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 6,
+      "raw": "Gasteiger, J., Becker, F., & Günnemann, S. (2021). GemNet: Universal Directional Graph Neural Networks for Molecules. arXiv:2106.08903v2.",
+      "parsed": {
+        "title": "GemNet: Universal Directional Graph Neural Networks for Molecules",
+        "authors": "Gasteiger, J., Becker, F., & Günnemann, S",
+        "year": "2021",
+        "arxiv_id": "2106.08903v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "GemNet: Universal Directional Graph Neural Networks for Molecules",
+          "arxiv_id": "2106.08903",
+          "doi": null,
+          "year": "2021",
+          "authors": [
+            "Johannes Klicpera",
+            "Florian Becker",
+            "Stephan Gunnemann"
+          ]
+        },
+        {
+          "title": "A General Tensor Prediction Framework Based on Graph Neural Networks.",
+          "arxiv_id": null,
+          "doi": "10.1021/acs.jpclett.3c01200",
+          "year": "2023",
+          "authors": [
+            "Yang Zhong",
+            "Hongyu Yu",
+            "X. Gong",
+            "Hongjun Xiang"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2106.08903",
+          "doi": null,
+          "title": "GemNet: Universal Directional Graph Neural Networks for Molecules",
+          "abstract": "Effectively predicting molecular interactions has the potential to accelerate molecular dynamics by multiple orders of magnitude and thus revolutionize chemical simulations. Graph neural networks (GNNs) have recently shown great successes for this task, overtaking classical methods based on fixed molecular kernels. However, they still appear very limited from a theoretical perspective, since regular GNNs cannot distinguish certain types of graphs. In this work we close this gap between theory and practice. We show that GNNs with spherical representations are indeed universal approximators for predictions that are invariant to translation, and equivariant to permutation and rotation. We then discretize such GNNs via directed edge embeddings and two-hop message passing, and incorporate multiple structural improvements to arrive at the geometric message passing neural network (GemNet). We demonstrate the benefits of the proposed changes in multiple ablation studies. GemNet outperforms previous models on the COLL, MD17, and OC20 datasets by 34%, 41%, and 20%, respectively, and performs especially well on the most challenging molecules. Our implementation is available online.",
+          "year": "2021",
+          "authors": [
+            "Johannes Klicpera",
+            "Florian Becker",
+            "Stephan Gunnemann"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 619
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 7,
+      "raw": "Fey, M., & Lenssen, J. E. (2019). Fast Graph Representation Learning with PyTorch Geometric. arXiv:1903.02428v3.",
+      "parsed": {
+        "title": "Fast Graph Representation Learning with PyTorch Geometric",
+        "authors": "Fey, M., & Lenssen, J. E",
+        "year": "2019",
+        "arxiv_id": "1903.02428v3",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Fast Graph Representation Learning with PyTorch Geometric",
+          "arxiv_id": "1903.02428",
+          "doi": null,
+          "year": "2019",
+          "authors": [
+            "Matthias Fey",
+            "J. E. Lenssen"
+          ]
+        },
+        {
+          "title": "PyTorch 2: Faster Machine Learning Through Dynamic Python Bytecode Transformation and Graph Compilation",
+          "arxiv_id": null,
+          "doi": "10.1145/3620665.3640366",
+          "year": "2024",
+          "authors": [
+            "Jason Ansel",
+            "Edward Yang",
+            "Horace He",
+            "N. Gimelshein",
+            "Animesh Jain",
+            "Michael Voznesensky",
+            "Bin Bao",
+            "Peter Bell",
+            "D. Berard",
+            "Evgeni Burovski",
+            "Geeta Chauhan",
+            "Anjali Chourdia",
+            "W. Constable",
+            "Alban Desmaison",
+            "Zachary DeVito",
+            "Elias Ellison",
+            "W. Feng",
+            "Jiong Gong",
+            "Michael Gschwind",
+            "B. Hirsh",
+            "Sherlock Huang",
+            "Kshiteej Kalambarkar",
+            "Laurent Kirsch",
+            "Michael Lazos",
+            "M. Lezcano",
+            "Yanbo Liang",
+            "J. Liang",
+            "Yinghai Lu",
+            "C. Luk",
+            "Bertrand A. Maher",
+            "Yunjie Pan",
+            "Christian Puhrsch",
+            "Matthias Reso",
+            "Mark-Albert Saroufim",
+            "Marcos Yukio Siraichi",
+            "Helen Suk",
+            "Shunting Zhang",
+            "Michael Suo",
+            "P. Tillet",
+            "Xu Zhao",
+            "Eikan Wang",
+            "Keren Zhou",
+            "Richard Zou",
+            "Xiaodong Wang",
+            "Ajit Mathews",
+            "W. Wen",
+            "Gregory Chanan",
+            "Peng Wu",
+            "Soumith Chintala"
+          ]
+        },
+        {
+          "title": "Influencer Loss: End-to-end Geometric Representation Learning for Track Reconstruction",
+          "arxiv_id": null,
+          "doi": "10.1051/epjconf/202429509016",
+          "year": "2024",
+          "authors": [
+            "Daniel Murnane"
+          ]
+        },
+        {
+          "title": "PyTorch-Geometric Edge – a Library for Learning Representations of Graph Edges",
+          "arxiv_id": null,
+          "doi": null,
+          "year": "2022",
+          "authors": [
+            "Piotr Bielak",
+            "Tomasz Kajdanowicz"
+          ]
+        },
+        {
+          "title": "A Comprehensive Analytical Survey on Unsupervised and Semi-Supervised Graph Representation Learning Methods",
+          "arxiv_id": "2112.10372",
+          "doi": null,
+          "year": "2021",
+          "authors": [
+            "Md. Khaledur Rahman",
+            "A. Azad"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "1903.02428",
+          "doi": null,
+          "title": "Fast Graph Representation Learning with PyTorch Geometric",
+          "abstract": "We introduce PyTorch Geometric, a library for deep learning on irregularly structured input data such as graphs, point clouds and manifolds, built upon PyTorch. In addition to general graph data structures and processing methods, it contains a variety of recently published methods from the domains of relational learning and 3D data processing. PyTorch Geometric achieves high data throughput by leveraging sparse GPU acceleration, by providing dedicated CUDA kernels and by introducing efficient mini-batch handling for input examples of different size. In this work, we present the library in detail and perform a comprehensive comparative study of the implemented methods in homogeneous evaluation scenarios.",
+          "year": "2019",
+          "authors": [
+            "Matthias Fey",
+            "J. E. Lenssen"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 5394
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 8,
+      "raw": "Simonovsky, M., & Komodakis, N. (2018). GraphVAE: Towards Generation of Small Graphs Using Variational Autoencoders. arXiv:1802.03480v1.",
+      "parsed": {
+        "title": "GraphVAE: Towards Generation of Small Graphs Using Variational Autoencoders",
+        "authors": "Simonovsky, M., & Komodakis, N",
+        "year": "2018",
+        "arxiv_id": "1802.03480v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "GraphVAE: Towards Generation of Small Graphs Using Variational Autoencoders",
+          "arxiv_id": "1802.03480",
+          "doi": "10.1007/978-3-030-01418-6_41",
+          "year": "2018",
+          "authors": [
+            "Martin Simonovsky",
+            "N. Komodakis"
+          ]
+        },
+        {
+          "title": "SpecLig: Energy-Guided Hierarchical Model for Target-Specific 3D Ligand Design",
+          "arxiv_id": null,
+          "doi": "10.1101/2025.11.06.687093",
+          "year": "2026",
+          "authors": [
+            "Peidong Zhang",
+            "Rong Han",
+            "Xiangzhe Kong",
+            "Ting Chen",
+            "Jianzhu Ma"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "1802.03480",
+          "doi": "10.1007/978-3-030-01418-6_41",
+          "title": "GraphVAE: Towards Generation of Small Graphs Using Variational Autoencoders",
+          "abstract": "Deep learning on graphs has become a popular research topic with many applications. However, past work has concentrated on learning graph embedding tasks, which is in contrast with advances in generative models for images and text. Is it possible to transfer this progress to the domain of graphs? We propose to sidestep hurdles associated with linearization of such discrete structures by having a decoder output a probabilistic fully-connected graph of a predefined maximum size directly at once. Our method is formulated as a variational autoencoder. We evaluate on the challenging task of molecule generation.",
+          "year": "2018",
+          "authors": [
+            "Martin Simonovsky",
+            "N. Komodakis"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 996
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 9,
+      "raw": "Liu, Q., Allamanis, M., Brockschmidt, M., & Gaunt, A. (2018). Constrained Graph Variational Autoencoders for Molecule Design. arXiv:1805.09076v1.",
+      "parsed": {
+        "title": "Constrained Graph Variational Autoencoders for Molecule Design",
+        "authors": "Liu, Q., Allamanis, M., Brockschmidt, M., & Gaunt, A",
+        "year": "2018",
+        "arxiv_id": "1805.09076v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Constrained Graph Variational Autoencoders for Molecule Design",
+          "arxiv_id": "1805.09076",
+          "doi": null,
+          "year": "2018",
+          "authors": [
+            "Qi Liu",
+            "Miltiadis Allamanis",
+            "Marc Brockschmidt",
+            "Alexander L. Gaunt"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "1805.09076",
+          "title": "Constrained Graph Variational Autoencoders for Molecule Design",
+          "abstract": "Graphs are ubiquitous data structures for representing interactions between entities. With an emphasis on the use of graphs to represent chemical molecules, we explore the task of learning to generate graphs that conform to a distribution observed in training data. We propose a variational autoencoder model in which both encoder and decoder are graph-structured. Our decoder assumes a sequential ordering of graph extension steps and we discuss and analyze design choices that mitigate the potential downsides of this linearization. Experiments compare our approach with a wide range of baselines on the molecule generation task and show that our method is more successful at matching the statistics of the original dataset on semantically important metrics. Furthermore, we show that by using appropriate shaping of the latent space, our model allows us to design molecules that are (locally) optimal in desired properties.",
+          "year": "2018",
+          "authors": [
+            "Qi Liu",
+            "Miltiadis Allamanis",
+            "Marc Brockschmidt",
+            "Alexander L. Gaunt"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    }
+  ]
+}

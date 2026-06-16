@@ -1,0 +1,230 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "federated_health",
+  "seed": 1,
+  "topic": "Federated Learning for Privacy-Preserving Healthcare: Architectures, Communication Efficiency, and Clinical Deployment",
+  "metrics": {
+    "n_cited_claims": 12,
+    "support_total": 1.5,
+    "citation_recall": 0.125,
+    "n_supported": 1,
+    "n_partial": 1,
+    "n_unsupported": 10,
+    "n_error": 0,
+    "n_citation_mounts": 12,
+    "n_contributing": 1,
+    "contributing_weight": 1.5,
+    "citation_precision": 0.125,
+    "n_not_verifiable": 0,
+    "n_claims": 26,
+    "n_claims_with_cite": 12,
+    "n_claims_bare": 14,
+    "bare_assertion_rate": 0.5385
+  },
+  "per_sentence": [
+    {
+      "sent_id": 32,
+      "section_title": "3.1 Layer-Skipping Strategies for Federated LLMs",
+      "text": "Wen et al. (2024) propose an approach in which a majority of layers in pre-trained LLMs are selectively frozen during federated fine-tuning; only the unfrozen subset of parameters is communicated, which dramatically lowers bandwidth requirements while preserving the knowledge encoded in the frozen layers from pre-training.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses a data pricing mechanism for federated learning and does not mention freezing layers, selective parameter communication, or bandwidth reduction in LLM fine-tuning.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 34,
+      "section_title": "3.1 Layer-Skipping Strategies for Federated LLMs",
+      "text": "In a related line of work, Tang et al. (2023) include a static layer-skipping baseline, termed Layer-Skipping FL, that freezes the bottom layers of the model and transmits only the remaining updates.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes an intention-hiding vertical federated learning framework for medical data and does not mention any static layer-skipping baseline, freezing bottom layers, or transmitting only remaining updates.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 36,
+      "section_title": "3.2 Selective Attention Mechanisms for Clinical Text Classification",
+      "text": "Tang et al. (2023) suggest that selective attention mechanisms could benefit healthcare tasks in federated learning beyond text classification, such as named entity recognition or summarization of clinical notes, where identifying critical information while ignoring sensitive details is important.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper focuses on privacy-preserving vertical federated learning for medical data and does not mention selective attention mechanisms, named entity recognition, summarization, or any benefit of attention for healthcare NLP tasks.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 39,
+      "section_title": "4.1 Intention-Hiding and Contribution-Aware Vertical Federated Learning",
+      "text": "To address this, Rajagopal et al. (2023) proposed and characterized the concept of intention-hiding vertical federated learning (IHVFL).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses federated learning for ECG data in IoT healthcare but does not mention intention-hiding vertical federated learning (IHVFL) or the authors Rajagopal et al. (2023).",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 41,
+      "section_title": "4.1 Intention-Hiding and Contribution-Aware Vertical Federated Learning",
+      "text": "The authors further enhanced privacy-preserving feature engineering and introduced a new private set intersection (PSI) protocol as part of this framework (Rajagopal et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses a federated learning framework for ECG data but makes no mention of privacy-preserving feature engineering or a private set intersection protocol.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 44,
+      "section_title": "4.2 Decentralized Frameworks for Multi-Institutional Chest Radiograph Analysis",
+      "text": "Rajagopal et al. (2023) note that Roth et al. (2020) employed an FL framework for breast density classification, achieving performance superior to standalone learning approaches.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes a federated learning framework for ECG data, not breast density classification, and does not mention Roth et al. (2020) or any performance comparison with standalone learning.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 46,
+      "section_title": "4.2 Decentralized Frameworks for Multi-Institutional Chest Radiograph Analysis",
+      "text": "In a more targeted effort, Serrano et al. (2026) introduced FedIHRAS, a privacy-preserving FL framework designed explicitly for multi-institutional collaborative radiological analysis.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that FedIHRAS is a privacy-preserving federated learning framework designed for multi-institutional radiological analysis, directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 47,
+      "section_title": "4.2 Decentralized Frameworks for Multi-Institutional Chest Radiograph Analysis",
+      "text": "Their framework was evaluated on the ChestX-ray14 dataset, which contains images labeled for 14 common thoracic pathologies using automated natural language processing (Serrano et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes evaluation on four chest X-ray datasets totaling ~874,000 images but never mentions the ChestX-ray14 dataset or its 14 NLP-labeled pathologies, so it does not support the specific claim about that dataset.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 51,
+      "section_title": "4.3 Quantum Federated Learning Architectures for Healthcare",
+      "text": "Rajagopal et al. (2023) note that federated learning has many applications in smart healthcare, such as the use of electronic health records containing extensive clinical medical data.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The cited paper proposes a federated learning framework for ECG data in IoT healthcare, which supports the general claim of federated learning applications in smart healthcare, but it does not mention electronic health records or extensive clinical medical data.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 52,
+      "section_title": "4.3 Quantum Federated Learning Architectures for Healthcare",
+      "text": "Serrano et al. (2026) present a heterogeneous federated learning framework for chest X-ray classification, leveraging self-supervised learning representations and evaluated on over 400,000 images from multiple institutions.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes FedIHRAS, a federated learning framework using a modified ResNet-50 for classification, but does not mention self-supervised learning representations, the authors Serrano et al. (2026), or evaluation on over 400,000 images from multiple institutions.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 54,
+      "section_title": "5.1 Data Pricing Mechanisms for Privacy-Preserved Valuation",
+      "text": "Rajagopal et al. (2023) propose a two-phase data pricing framework that integrates privacy protection directly into the valuation process.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses federated learning for privacy in medical IoT but does not mention data pricing, two-phase frameworks, or integrating privacy protection into valuation.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 56,
+      "section_title": "5.1 Data Pricing Mechanisms for Privacy-Preserved Valuation",
+      "text": "The second phase then determines the actual payment for the selected clients through a budget-constrained pricing mechanism (Rajagopal et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses a federated learning framework for ECG data in IoT environments and does not mention any two-phase process, budget-constrained pricing mechanism, or client payment determination.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

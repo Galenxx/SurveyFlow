@@ -1,0 +1,196 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "gnn_drug",
+  "seed": 2,
+  "topic": "Graph Neural Networks for Drug Discovery and Molecular Property Prediction",
+  "metrics": {
+    "n_cited_claims": 10,
+    "support_total": 5.5,
+    "citation_recall": 0.55,
+    "n_supported": 5,
+    "n_partial": 1,
+    "n_unsupported": 4,
+    "n_error": 0,
+    "n_citation_mounts": 10,
+    "n_contributing": 6,
+    "contributing_weight": 5.5,
+    "citation_precision": 0.55,
+    "n_not_verifiable": 0,
+    "n_claims": 26,
+    "n_claims_with_cite": 10,
+    "n_claims_bare": 16,
+    "bare_assertion_rate": 0.6154
+  },
+  "per_sentence": [
+    {
+      "sent_id": 36,
+      "section_title": "3.1 Virtual Screening and De Novo Drug Design",
+      "text": "Tripathy et al. (2024) highlight that AI-driven approaches enable predictive synthesis planning, reaction outcome prediction, and property estimation with unprecedented precision, thereby streamlining synthetic route design and the optimization of molecular properties for diverse applications.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract of c0 contains the sentence verbatim, directly supporting the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 39,
+      "section_title": "3.1 Virtual Screening and De Novo Drug Design",
+      "text": "Zhang et al. (2025) provide a comprehensive overview of these methodologies, noting that virtual screening workflows increasingly incorporate binding site prediction as a foundational step.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence discusses GNNs in drug discovery broadly but never mentions binding site prediction or its role as a foundational step in virtual screening workflows.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 42,
+      "section_title": "3.2 Molecular Topology and Long-Range Dependencies",
+      "text": "Zhang et al. (2025) note that while molecular topology facilitates compatibility with sequence-based models, such representations struggle to capture structural symmetry, reversibility, and long-range dependencies.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses the strengths of GNNs for molecular topology but does not mention sequence-based models, structural symmetry, reversibility, or long-range dependencies, so it provides no evidence for the claimed limitations of molecular topology representations.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 44,
+      "section_title": "4.1 Bond-Based Directed Message Passing with Attention",
+      "text": "Gong and Maday (2023) proposed Directed Graph Attention Networks (D-GATs), a model that incorporates a scaled dot-product attention mechanism for updating both bond states and atom states.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that D-GATs update bond states and atom states using a scaled dot-product attention mechanism, directly supporting the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 48,
+      "section_title": "4.2 Graph-Level Classification for Molecular Topological Structures",
+      "text": "Gong and Maday (2023) introduced Directed Graph Attention Networks (D-GATs), a model that performs directed message passing based on attention mechanisms and combines the resulting representations with a linear classifier for downstream tasks.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that D-GATs use a scaled dot-product attention mechanism for directed message passing and are applied to molecular property prediction, which aligns with the sentence's claim about attention-based directed message passing and downstream task classification.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 51,
+      "section_title": "4.2 Graph-Level Classification for Molecular Topological Structures",
+      "text": "Nguyen et al. (2020) survey approaches within molecular property prediction where expert-based models have demonstrated this capability.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper focuses on meta-learning for low-resource molecular property prediction and does not mention or demonstrate expert-based models, so it cannot support the claim that expert-based models have demonstrated a specific capability.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 54,
+      "section_title": "4.3 Cross-Graph Inter-Message Passing for Molecular Representation",
+      "text": "The design of message passing algorithms is central to the performance of graph neural networks for molecular representation, as models generally follow the Message Passing Neural Network (MPNN) framework (Gong & Maday, 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence shows that different message passing algorithms affect GNN performance and that models follow the MPNN framework, but it does not explicitly state that the design of message passing algorithms is central to performance or that models generally follow the MPNN framework.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 55,
+      "section_title": "4.3 Cross-Graph Inter-Message Passing for Molecular Representation",
+      "text": "A key limitation of many GNN-based approaches is their tendency to treat molecular graphs as undifferentiated wholes, overlooking the distinct roles and contributions of different substructures, which in turn reduces the model’s capacity for generalization (Nguyen et al., 2020).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper focuses on meta-learning for low-resource molecular property prediction and does not discuss GNNs treating molecular graphs as undifferentiated wholes or overlooking substructure roles.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 56,
+      "section_title": "4.3 Cross-Graph Inter-Message Passing for Molecular Representation",
+      "text": "Gong and Maday (2023) address message passing design by applying a bond-based message passing algorithm inspired by Directed MPNN.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The cited paper proposes Directed Graph Attention Networks (D-GATs) that treat molecular graphs as directed graphs and update bond and atom states via attention, which directly matches the claim of applying a bond-based message passing algorithm inspired by Directed MPNN.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 57,
+      "section_title": "5.1 Comparing GNNs with Classical Molecular Featurisations for QSAR",
+      "text": "The available evidence from Dablander (2024) indicates that the thesis includes a dedicated computational study comparing graph neural networks with classical molecular featurisation techniques in the context of QSAR and activity-cliff prediction.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that the paper conducts a rigorous computational study comparing graph neural networks (GINs) with classical featurisations (PDVs, ECFPs) for QSAR and activity-cliff prediction, directly supporting the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    }
+  ]
+}

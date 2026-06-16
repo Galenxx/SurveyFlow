@@ -1,0 +1,16 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "neural_audio_codec",
+  "seed": 1,
+  "md_path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\naive_rag\\Neural_Audio_Codecs_and_Discrete_Speech_Representa__seed1\\survey.md",
+  "survey_id": "corpus_neural_audio_codec",
+  "n_references_requested": 10,
+  "n_references_realized": 8,
+  "corpus_stats": {
+    "n_papers_in_list": 10,
+    "n_collections_embedded": 15,
+    "n_citation_meta": 15,
+    "n_collections_used_in_writing": 9,
+    "total_chunks": 1295
+  }
+}

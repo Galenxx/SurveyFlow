@@ -1,0 +1,97 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\llm_only\\Graph_Neural_Networks_for_Drug_Discovery_and_Molec__glm-5.1__seed2.md",
+  "topic": "3 Foundational GNN Architectures for Molecular Modeling",
+  "n_references": 10,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Gilmer, J., Schoenholz, S. S., Riley, P. F., Vinyals, O., & Dahl, G. E. (2017). Neural Message Passing for Quantum Chemistry. arXiv:1704.01212v2.",
+      "title": "Neural Message Passing for Quantum Chemistry",
+      "authors": "Gilmer, J., Schoenholz, S. S., Riley, P. F., Vinyals, O., & Dahl, G. E",
+      "year": "2017",
+      "arxiv_id": "1704.01212v2",
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Veličković, P., Cucurull, G., Casanova, A., Romero, A., Liò, P., & Bengio, Y. (2017). Graph Attention Networks. arXiv:1710.10903v3.",
+      "title": "Graph Attention Networks",
+      "authors": "Veličković, P., Cucurull, G., Casanova, A., Romero, A., Liò, P., & Bengio, Y",
+      "year": "2017",
+      "arxiv_id": "1710.10903v3",
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Wu, Z., Ramsundar, B., Feinberg, E. N., Gomes, J., Geniesse, C., Pappu, A. S., Leswing, K., & Pande, V. (2017). MoleculeNet: a benchmark for molecular machine learning. arXiv:1703.00564v2.",
+      "title": "MoleculeNet: a benchmark for molecular machine learning",
+      "authors": "Wu, Z., Ramsundar, B., Feinberg, E. N., Gomes, J., Geniesse, C., Pappu, A. S., Leswing, K., & Pande, V",
+      "year": "2017",
+      "arxiv_id": "1703.00564v2",
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Yang, K., Swanson, K., Jin, W., Coley, C., Eiden, P., Gao, H., Guzman-Perez, A., Hopper, T., Kelley, B., Mathea, M., Palmer, A., Settels, V., Jaakkola, T., Jensen, K., & Barzilay, R. (2019). Analyzing Learned Molecular Representations for Property Prediction. arXiv:1904.01561v2.",
+      "title": "Analyzing Learned Molecular Representations for Property Prediction",
+      "authors": "Yang, K., Swanson, K., Jin, W., Coley, C., Eiden, P., Gao, H., Guzman-Perez, A., Hopper, T., Kelley, B., Mathea, M., Palmer, A., Settels, V., Jaakkola, T., Jensen, K., & Barzilay, R",
+      "year": "2019",
+      "arxiv_id": "1904.01561v2",
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Schütt, K. T., Kindermans, P. J., Sauceda, H. E., Chmiela, S., Tkatchenko, A., & Müller, K. R. (2017). SchNet: A continuous-filter convolutional neural network for modeling quantum interactions. arXiv:1706.08566v2.",
+      "title": "SchNet: A continuous-filter convolutional neural network for modeling quantum interactions",
+      "authors": "Schütt, K. T., Kindermans, P. J., Sauceda, H. E., Chmiela, S., Tkatchenko, A., & Müller, K. R",
+      "year": "2017",
+      "arxiv_id": "1706.08566v2",
+      "doi": null
+    },
+    {
+      "ref_id": 5,
+      "raw": "Gasteiger, J., Giri, S., Margraf, J. T., & Günnemann, S. (2021). GemNet: Universal Directional Graph Neural Networks for Molecules. arXiv:2106.08903v2.",
+      "title": "GemNet: Universal Directional Graph Neural Networks for Molecules",
+      "authors": "Gasteiger, J., Giri, S., Margraf, J. T., & Günnemann, S",
+      "year": "2021",
+      "arxiv_id": "2106.08903v2",
+      "doi": null
+    },
+    {
+      "ref_id": 6,
+      "raw": "Jin, W., Barzilay, R., & Jaakkola, T. (2018). Junction Tree Variational Autoencoder for Molecular Graph Generation. arXiv:1802.04364v2.",
+      "title": "Junction Tree Variational Autoencoder for Molecular Graph Generation",
+      "authors": "Jin, W., Barzilay, R., & Jaakkola, T",
+      "year": "2018",
+      "arxiv_id": "1802.04364v2",
+      "doi": null
+    },
+    {
+      "ref_id": 7,
+      "raw": "You, J., Liu, B., Ying, Z., Pande, V., & Leskovec, J. (2018). Graph Convolutional Policy Network for Goal-Directed Molecular Graph Generation. arXiv:1806.02473v1.",
+      "title": "Graph Convolutional Policy Network for Goal-Directed Molecular Graph Generation",
+      "authors": "You, J., Liu, B., Ying, Z., Pande, V., & Leskovec, J",
+      "year": "2018",
+      "arxiv_id": "1806.02473v1",
+      "doi": null
+    },
+    {
+      "ref_id": 8,
+      "raw": "Hu, W., Liu, B., Gomes, J., Zitnik, M., Liang, P., Pande, V., & Leskovec, J. (2019). Strategies for Pre-training Graph Neural Networks. arXiv:1905.12265v1.",
+      "title": "Strategies for Pre-training Graph Neural Networks",
+      "authors": "Hu, W., Liu, B., Gomes, J., Zitnik, M., Liang, P., Pande, V., & Leskovec, J",
+      "year": "2019",
+      "arxiv_id": "1905.12265v1",
+      "doi": null
+    },
+    {
+      "ref_id": 9,
+      "raw": "Rong, Y., Bian, Y., Xu, T., Xie, W., Wei, Y., Huang, W., & Huang, J. (2020). Self-supervised Graph Transformer on Large-scale Molecular Data. arXiv:2007.02835v1.",
+      "title": "Self-supervised Graph Transformer on Large-scale Molecular Data",
+      "authors": "Rong, Y., Bian, Y., Xu, T., Xie, W., Wei, Y., Huang, W., & Huang, J",
+      "year": "2020",
+      "arxiv_id": "2007.02835v1",
+      "doi": null
+    }
+  ]
+}

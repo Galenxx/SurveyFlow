@@ -1,0 +1,97 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\llm_only\\Neural_Audio_Codecs_and_Discrete_Speech_Representa__glm-5.1__seed2.md",
+  "topic": "3 Architectures of Neural Audio Codecs",
+  "n_references": 10,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Zeghidour, N., Luebs, A., Omran, A., Skoglund, J., & Tagliasacchi, M. (2021). SoundStream: An End-to-End Neural Audio Codec. arXiv:2107.03312v1.",
+      "title": "SoundStream: An End-to-End Neural Audio Codec",
+      "authors": "Zeghidour, N., Luebs, A., Omran, A., Skoglund, J., & Tagliasacchi, M",
+      "year": "2021",
+      "arxiv_id": "2107.03312v1",
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Defossez, A., Copet, J., Synnaeve, G., & Adi, Y. (2022). High Fidelity Neural Audio Compression. arXiv:2210.13438v1.",
+      "title": "High Fidelity Neural Audio Compression",
+      "authors": "Defossez, A., Copet, J., Synnaeve, G., & Adi, Y",
+      "year": "2022",
+      "arxiv_id": "2210.13438v1",
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Borsos, Z., Marinier, R., Vincent, D., Kharitonov, E., Pietquin, O., Sharifi, M., Roblek, D., Teboul, O., Grangier, D., Tagliasacchi, M., & Zeghidour, N. (2022). AudioLM: a Language Modeling Approach to Audio Generation. arXiv:2209.03143v1.",
+      "title": "AudioLM: a Language Modeling Approach to Audio Generation",
+      "authors": "Borsos, Z., Marinier, R., Vincent, D., Kharitonov, E., Pietquin, O., Sharifi, M., Roblek, D., Teboul, O., Grangier, D., Tagliasacchi, M., & Zeghidour, N",
+      "year": "2022",
+      "arxiv_id": "2209.03143v1",
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Wang, C., Chen, S., Wu, Y., Zhang, Z., Zhou, L., Liu, S., Chen, Z., Liu, Y., Wang, H., Li, J., He, L., Zhao, S., & Wei, F. (2023). Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers. arXiv:2301.02111v1.",
+      "title": "Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers",
+      "authors": "Wang, C., Chen, S., Wu, Y., Zhang, Z., Zhou, L., Liu, S., Chen, Z., Liu, Y., Wang, H., Li, J., He, L., Zhao, S., & Wei, F",
+      "year": "2023",
+      "arxiv_id": "2301.02111v1",
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Copet, J., Kreuk, F., Gat, I., Remez, T., Kant, D., Synnaeve, G., Adi, Y., & Defossez, A. (2023). Simple and Controllable Music Generation. arXiv:2306.05284v1.",
+      "title": "Simple and Controllable Music Generation",
+      "authors": "Copet, J., Kreuk, F., Gat, I., Remez, T., Kant, D., Synnaeve, G., Adi, Y., & Defossez, A",
+      "year": "2023",
+      "arxiv_id": "2306.05284v1",
+      "doi": null
+    },
+    {
+      "ref_id": 5,
+      "raw": "Kreuk, F., Synnaeve, G., Polyak, A., Singer, U., Defossez, A., Copet, J., Parikh, D., Taigman, Y., & Adi, Y. (2022). AudioGen: Textually Guided Audio Generation. arXiv:2209.15352v1.",
+      "title": "AudioGen: Textually Guided Audio Generation",
+      "authors": "Kreuk, F., Synnaeve, G., Polyak, A., Singer, U., Defossez, A., Copet, J., Parikh, D., Taigman, Y., & Adi, Y",
+      "year": "2022",
+      "arxiv_id": "2209.15352v1",
+      "doi": null
+    },
+    {
+      "ref_id": 6,
+      "raw": "Zhang, Z., Zhou, L., Wang, C., Chen, S., Wu, Y., Liu, S., Chen, Z., Liu, Y., Wang, H., Li, J., He, L., Zhao, S., & Wei, F. (2023). SpeechTokenizer: Unified Speech Tokenizer for Speech Language Models. arXiv:2308.16692v1.",
+      "title": "SpeechTokenizer: Unified Speech Tokenizer for Speech Language Models",
+      "authors": "Zhang, Z., Zhou, L., Wang, C., Chen, S., Wu, Y., Liu, S., Chen, Z., Liu, Y., Wang, H., Li, J., He, L., Zhao, S., & Wei, F",
+      "year": "2023",
+      "arxiv_id": "2308.16692v1",
+      "doi": null
+    },
+    {
+      "ref_id": 7,
+      "raw": "Kumar, R., Seetharaman, P., Luebs, A., Kumar, I., & Kumar, K. (2023). High-Fidelity Audio Compression with Improved RVQGAN. arXiv:2306.06546v1.",
+      "title": "High-Fidelity Audio Compression with Improved RVQGAN",
+      "authors": "Kumar, R., Seetharaman, P., Luebs, A., Kumar, I., & Kumar, K",
+      "year": "2023",
+      "arxiv_id": "2306.06546v1",
+      "doi": null
+    },
+    {
+      "ref_id": 8,
+      "raw": "Kharitonov, E., Vincent, D., Borsos, Z., Marinier, R., Girgin, S., Pietquin, O., Sharifi, M., Tagliasacchi, M., & Zeghidour, N. (2023). SPEAR-TTS: Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision. arXiv:2302.03540v1.",
+      "title": "SPEAR-TTS: Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision",
+      "authors": "Kharitonov, E., Vincent, D., Borsos, Z., Marinier, R., Girgin, S., Pietquin, O., Sharifi, M., Tagliasacchi, M., & Zeghidour, N",
+      "year": "2023",
+      "arxiv_id": "2302.03540v1",
+      "doi": null
+    },
+    {
+      "ref_id": 9,
+      "raw": "Yang, D., Liu, S., Huang, R., Tian, J., Weng, C., & Zou, Y. (2023). HiFi-Codec: Group-residual Vector Quantization for High Fidelity Audio Codec. arXiv:2305.02765v1.",
+      "title": "HiFi-Codec: Group-residual Vector Quantization for High Fidelity Audio Codec",
+      "authors": "Yang, D., Liu, S., Huang, R., Tian, J., Weng, C., & Zou, Y",
+      "year": "2023",
+      "arxiv_id": "2305.02765v1",
+      "doi": null
+    }
+  ]
+}

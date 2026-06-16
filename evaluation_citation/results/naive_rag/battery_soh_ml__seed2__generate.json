@@ -1,0 +1,17 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "battery_soh_ml",
+  "seed": 2,
+  "md_path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\naive_rag\\Machine_Learning_for_Lithium_Ion_Battery_State_of__seed2\\survey.md",
+  "survey_id": "corpus_battery_soh_ml",
+  "n_references_requested": 10,
+  "n_references_realized": 4,
+  "corpus_stats": {
+    "n_papers_in_list": 15,
+    "n_collections_embedded": 6,
+    "n_citation_meta": 6,
+    "n_collections_used_in_writing": 4,
+    "total_chunks": 721
+  },
+  "warning": "LOW CITATION COUNT: realized 4 references < 6 (= 60% of requested 10). Inspect corpus_stats to see whether the corpus was thin or the writer dropped sections."
+}

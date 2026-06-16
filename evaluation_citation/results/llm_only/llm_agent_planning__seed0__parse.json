@@ -1,0 +1,97 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\llm_only\\Planning_and_Reasoning_in_Large_Language_Model_Age__glm-5.1__seed0.md",
+  "topic": "3 Reasoning and Planning Methodologies",
+  "n_references": 10,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Schick, T., Dwivedi-Yu, J., Dessì, R., Raileanu, R., Lomeli, M., Hambro, E., Zettlemoyer, L., Cancedda, N., & Scialom, T. (2023). Toolformer: Language Models Can Teach Themselves to Use Tools. arXiv:2302.04761v1.",
+      "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+      "authors": "Schick, T., Dwivedi-Yu, J., Dessì, R., Raileanu, R., Lomeli, M., Hambro, E., Zettlemoyer, L., Cancedda, N., & Scialom, T",
+      "year": "2023",
+      "arxiv_id": "2302.04761v1",
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan, K., & Cao, Y. (2023). ReAct: Synergizing Reasoning and Acting in Language Models. arXiv:2210.03629v1.",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "authors": "Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan, K., & Cao, Y",
+      "year": "2023",
+      "arxiv_id": "2210.03629v1",
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Yao, S., Yu, D., Zhao, J., Shafran, I., Griffiths, T., Cao, Y., & Narasimhan, K. (2023). Tree of Thoughts: Deliberate Problem Solving with Large Language Models. arXiv:2305.10601v1.",
+      "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+      "authors": "Yao, S., Yu, D., Zhao, J., Shafran, I., Griffiths, T., Cao, Y., & Narasimhan, K",
+      "year": "2023",
+      "arxiv_id": "2305.10601v1",
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Shen, Y., Song, K., Tan, X., Li, D., Lu, W., & Zhuang, Y. (2023). HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face. arXiv:2303.17580v1.",
+      "title": "HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face",
+      "authors": "Shen, Y., Song, K., Tan, X., Li, D., Lu, W., & Zhuang, Y",
+      "year": "2023",
+      "arxiv_id": "2303.17580v1",
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Liu, X., Yu, H., Zhang, H., Xu, X., Lei, X., Chang, H., Wang, L., & Sun, M. (2023). AgentBench: Evaluating LLMs as Agents. arXiv:2308.03688v1.",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "authors": "Liu, X., Yu, H., Zhang, H., Xu, X., Lei, X., Chang, H., Wang, L., & Sun, M",
+      "year": "2023",
+      "arxiv_id": "2308.03688v1",
+      "doi": null
+    },
+    {
+      "ref_id": 5,
+      "raw": "Wang, L., Xu, W., Lan, Y., Hu, Z., Lan, Y., Lee, R. K. W., & Lim, E. P. (2023). Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models. arXiv:2305.04091v1.",
+      "title": "Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models",
+      "authors": "Wang, L., Xu, W., Lan, Y., Hu, Z., Lan, Y., Lee, R. K. W., & Lim, E. P",
+      "year": "2023",
+      "arxiv_id": "2305.04091v1",
+      "doi": null
+    },
+    {
+      "ref_id": 6,
+      "raw": "Wang, G., Xie, Y., Jiang, Y., Mandlekar, A., Xiao, C., Zhu, Y., Fan, L., & Anandkumar, A. (2023). Voyager: An Open-Ended Embodied Agent with Large Language Models. arXiv:2305.16291v1.",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "authors": "Wang, G., Xie, Y., Jiang, Y., Mandlekar, A., Xiao, C., Zhu, Y., Fan, L., & Anandkumar, A",
+      "year": "2023",
+      "arxiv_id": "2305.16291v1",
+      "doi": null
+    },
+    {
+      "ref_id": 7,
+      "raw": "Shinn, N., Cassano, F., Gopinath, A., Narasimhan, K., & Yao, S. (2023). Reflexion: Language Agents with Verbal Reinforcement Learning. arXiv:2303.11366v1.",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "authors": "Shinn, N., Cassano, F., Gopinath, A., Narasimhan, K., & Yao, S",
+      "year": "2023",
+      "arxiv_id": "2303.11366v1",
+      "doi": null
+    },
+    {
+      "ref_id": 8,
+      "raw": "Yao, S., Chen, H., Yang, J., & Narasimhan, K. (2022). WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents. arXiv:2207.01206v1.",
+      "title": "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents",
+      "authors": "Yao, S., Chen, H., Yang, J., & Narasimhan, K",
+      "year": "2022",
+      "arxiv_id": "2207.01206v1",
+      "doi": null
+    },
+    {
+      "ref_id": 9,
+      "raw": "Besta, M., Blach, N., Kubicek, A., Gerstenberger, R., Gianinazzi, L., Gajda, J., Podstawski, M., Niewiadomski, H., Muller, P., & Hoefler, T. (2023). Graph of Thoughts: Solving Elaborate Problems with Large Language Models. arXiv:2308.09687v1.",
+      "title": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+      "authors": "Besta, M., Blach, N., Kubicek, A., Gerstenberger, R., Gianinazzi, L., Gajda, J., Podstawski, M., Niewiadomski, H., Muller, P., & Hoefler, T",
+      "year": "2023",
+      "arxiv_id": "2308.09687v1",
+      "doi": null
+    }
+  ]
+}

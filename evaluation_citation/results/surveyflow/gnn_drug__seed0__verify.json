@@ -1,0 +1,385 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "gnn_drug",
+  "seed": 0,
+  "topic": "Graph Neural Networks for Drug Discovery and Molecular Property Prediction",
+  "n_references": 8,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Zhang, O., Lin, H., Zhang, X., Wang, X., Wu, Z., Ye, Q., Zhao, W., Wang, J., Ying, K., Kang, Y., Hsieh, C., & Hou, T. (2025). Graph Neural Networks in Modern AI-aided Drug Discovery. arXiv:2506.06915v1.",
+      "parsed": {
+        "title": "Graph Neural Networks in Modern AI-aided Drug Discovery",
+        "authors": "Zhang, O., Lin, H., Zhang, X., Wang, X., Wu, Z., Ye, Q., Zhao, W., Wang, J., Ying, K., Kang, Y., Hsieh, C., & Hou, T",
+        "year": "2025",
+        "arxiv_id": "2506.06915v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Graph Neural Networks in Modern AI-aided Drug Discovery",
+          "arxiv_id": "2506.06915",
+          "doi": null,
+          "year": "2025",
+          "authors": [
+            "Odin Zhang",
+            "Haitao Lin",
+            "Xujun Zhang",
+            "Xiaorui Wang",
+            "Zhenxing Wu",
+            "Qing Ye",
+            "Weibo Zhao",
+            "Jike Wang",
+            "Kejun Ying",
+            "Yu Kang",
+            "Chang-yu Hsieh",
+            "Tingjun Hou"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2506.06915",
+          "title": "Graph Neural Networks in Modern AI-aided Drug Discovery",
+          "abstract": "Graph neural networks (GNNs), as topology/structure-aware models within deep learning, have emerged as powerful tools for AI-aided drug discovery (AIDD). By directly operating on molecular graphs, GNNs offer an intuitive and expressive framework for learning the complex topological and geometric features of drug-like molecules, cementing their role in modern molecular modeling. This review provides a comprehensive overview of the methodological foundations and representative applications of GNNs in drug discovery, spanning tasks such as molecular property prediction, virtual screening, molecular generation, biomedical knowledge graph construction, and synthesis planning. Particular attention is given to recent methodological advances, including geometric GNNs, interpretable models, uncertainty quantification, scalable graph architectures, and graph generative frameworks. We also discuss how these models integrate with modern deep learning approaches, such as self-supervised learning, multi-task learning, meta-learning and pre-training. Throughout this review, we highlight the practical challenges and methodological bottlenecks encountered when applying GNNs to real-world drug discovery pipelines, and conclude with a discussion on future directions.",
+          "year": "2025",
+          "authors": [
+            "Odin Zhang",
+            "Haitao Lin",
+            "Xujun Zhang",
+            "Xiaorui Wang",
+            "Zhenxing Wu",
+            "Qing Ye",
+            "Weibo Zhao",
+            "Jike Wang",
+            "Kejun Ying",
+            "Yu Kang",
+            "Chang-yu Hsieh",
+            "Tingjun Hou"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Nguyen, C. Q., Kreatsoulas, C., & Branson, K. (2020). Meta-Learning GNN Initializations for Low-Resource Molecular Property Prediction.",
+      "parsed": {
+        "title": "Meta-Learning GNN Initializations for Low-Resource Molecular Property Prediction",
+        "authors": "Nguyen, C. Q., Kreatsoulas, C., & Branson, K",
+        "year": "2020",
+        "arxiv_id": null,
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "title_search",
+      "candidates": [
+        {
+          "title": "Meta-Learning GNN Initializations for Low-Resource Molecular Property Prediction",
+          "arxiv_id": "2003.05996",
+          "doi": null,
+          "year": "2020",
+          "authors": [
+            "Cuong Q. Nguyen",
+            "Constantine Kreatsoulas",
+            "Kim M. Branson"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISSING_ID",
+        "best_hit": {
+          "arxiv_id": "2003.05996",
+          "title": "Meta-Learning GNN Initializations for Low-Resource Molecular Property Prediction",
+          "abstract": "Building in silico models to predict chemical properties and activities is a crucial step in drug discovery. However, limited labeled data often hinders the application of deep learning in this setting. Meanwhile advances in meta-learning have enabled state-of-the-art performances in few-shot learning benchmarks, naturally prompting the question: Can meta-learning improve deep learning performance in low-resource drug discovery projects? In this work, we assess the transferability of graph neural networks initializations learned by the Model-Agnostic Meta-Learning (MAML) algorithm - and its variants FO-MAML and ANIL - for chemical properties and activities tasks. Using the ChEMBL20 dataset to emulate low-resource settings, our benchmark shows that meta-initializations perform comparably to or outperform multi-task pre-training baselines on 16 out of 20 in-distribution tasks and on all out-of-distribution tasks, providing an average improvement in AUPRC of 11.2% and 26.9% respectively. Finally, we observe that meta-initializations consistently result in the best performing models across fine-tuning sets with $k \\in \\{16, 32, 64, 128, 256\\}$ instances.",
+          "year": "2020",
+          "authors": [
+            "Cuong Q. Nguyen",
+            "Constantine Kreatsoulas",
+            "Kim M. Branson"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Gong, C., & Maday, Y. (2023). Directed Message Passing Based on Attention for Prediction of Molecular Properties. arXiv:2305.14819v1.",
+      "parsed": {
+        "title": "Directed Message Passing Based on Attention for Prediction of Molecular Properties",
+        "authors": "Gong, C., & Maday, Y",
+        "year": "2023",
+        "arxiv_id": "2305.14819v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Directed Message Passing Based on Attention for Prediction of Molecular Properties",
+          "arxiv_id": "2305.14819",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Chen Gong",
+            "Yvon Maday"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2305.14819",
+          "title": "Directed Message Passing Based on Attention for Prediction of Molecular Properties",
+          "abstract": "Molecular representation learning (MRL) has long been crucial in the fields of drug discovery and materials science, and it has made significant progress due to the development of natural language processing (NLP) and graph neural networks (GNNs). NLP treats the molecules as one dimensional sequential tokens while GNNs treat them as two dimensional topology graphs. Based on different message passing algorithms, GNNs have various performance on detecting chemical environments and predicting molecular properties. Herein, we propose Directed Graph Attention Networks (D-GATs): the expressive GNNs with directed bonds. The key to the success of our strategy is to treat the molecular graph as directed graph and update the bond states and atom states by scaled dot-product attention mechanism. This allows the model to better capture the sub-structure of molecular graph, i.e., functional groups. Compared to other GNNs or Message Passing Neural Networks (MPNNs), D-GATs outperform the state-of-the-art on 13 out of 15 important molecular property prediction benchmarks.",
+          "year": "2023",
+          "authors": [
+            "Chen Gong",
+            "Yvon Maday"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Dablander, M. (2024). Investigating Graph Neural Networks and Classical Feature-Extraction Techniques in Activity-Cliff and Molecular Property Prediction. arXiv:2411.13688v1.",
+      "parsed": {
+        "title": "Investigating Graph Neural Networks and Classical Feature-Extraction Techniques in Activity-Cliff and Molecular Property Prediction",
+        "authors": "Dablander, M",
+        "year": "2024",
+        "arxiv_id": "2411.13688v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Investigating Graph Neural Networks and Classical Feature-Extraction Techniques in Activity-Cliff and Molecular Property Prediction",
+          "arxiv_id": "2411.13688",
+          "doi": null,
+          "year": "2024",
+          "authors": [
+            "Markus Dablander"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2411.13688",
+          "title": "Investigating Graph Neural Networks and Classical Feature-Extraction Techniques in Activity-Cliff and Molecular Property Prediction",
+          "abstract": "Molecular featurisation refers to the transformation of molecular data into numerical feature vectors. It is one of the key research areas in molecular machine learning and computational drug discovery. Recently, message-passing graph neural networks (GNNs) have emerged as a novel method to learn differentiable features directly from molecular graphs. While such techniques hold great promise, further investigations are needed to clarify if and when they indeed manage to definitively outcompete classical molecular featurisations such as extended-connectivity fingerprints (ECFPs) and physicochemical-descriptor vectors (PDVs). We systematically explore and further develop classical and graph-based molecular featurisation methods for two important tasks: molecular property prediction, in particular, quantitative structure-activity relationship (QSAR) prediction, and the largely unexplored challenge of activity-cliff (AC) prediction. We first give a technical description and critical analysis of PDVs, ECFPs and message-passing GNNs, with a focus on graph isomorphism networks (GINs). We then conduct a rigorous computational study to compare the performance of PDVs, ECFPs and GINs for QSAR and AC-prediction. Following this, we mathematically describe and computationally evaluate a novel twin neural network model for AC-prediction. We further introduce an operation called substructure pooling for the vectorisation of structural fingerprints as a natural counterpart to graph pooling in GNN architectures. We go on to propose Sort & Slice, a simple substructure-pooling technique for ECFPs that robustly outperforms hash-based folding at molecular property prediction. Finally, we outline two ideas for future research: (i) a graph-based self-supervised learning strategy to make classical molecular featurisations trainable, and (ii) trainable substructure-pooling via differentiable self-attention.",
+          "year": "2024",
+          "authors": [
+            "Markus Dablander"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 4,
+      "raw": "Tripathy, P., Das, B., & Shahi, S. (2024). Demystifying Molecules: Unveiling the Power of AI in Computational Chemistry.",
+      "parsed": {
+        "title": "Demystifying Molecules: Unveiling the Power of AI in Computational Chemistry",
+        "authors": "Tripathy, P., Das, B., & Shahi, S",
+        "year": "2024",
+        "arxiv_id": null,
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Demystifying Molecules: Unveiling the Power of AI in Computational Chemistry",
+          "arxiv_id": null,
+          "doi": "10.48047/afjbs.6.11.2024.1851-1861",
+          "year": "2024",
+          "authors": [
+            "Parinita Tripathy",
+            "B. Das",
+            "Sanyogita Shahi"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISSING_ID",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": "10.48047/afjbs.6.11.2024.1851-1861",
+          "title": "Demystifying Molecules: Unveiling the Power of AI in Computational Chemistry",
+          "abstract": ": AI techniques, including machine learning algorithms, neural networks, and deep learning architectures, have significantly enhanced the accuracy and efficiency of molecular structure prediction, quantum chemistry calculations, and molecular dynamics simulations. In drug discovery, AI facilitates virtual screening, de novo drug design, and pharmacophore modeling, accelerating the identification and optimization of novel therapeutics. Furthermore, AI-driven approaches enable predictive synthesis planning, reaction outcome prediction, and property estimation with unprecedented precision, thereby streamlining synthetic route design and optimization of molecular properties for diverse applications. Methodological advancements encompass a spectrum of techniques, from traditional machine learning models like support vector machines and random forests to state-of-the-art deep learning models such as convolutional neural networks (CNNs), recurrent neural networks (RNNs), and graph neural networks (GNNs). These methodologies are complemented by hybrid approaches and ensemble methods that leverage the strengths of different AI paradigms to address complex chemistry-related challenges effectively. Despite these achievements, challenges remain, including the need for high-quality and diverse datasets, interpretation of AI-driven predictions, and ensuring model generalizability beyond training data. Addressing these challenges is crucial for advancing the reliability and applicability of AI in computational chemistry. Looking ahead, the integration of AI with experimental chemistry holds promise for accelerating discovery processes and optimizing experimental design. Ethical considerations and societal impacts of AI applications in chemistry also warrant careful deliberation as the field continues to evolve.",
+          "year": "2024",
+          "authors": [
+            "Parinita Tripathy",
+            "B. Das",
+            "Sanyogita Shahi"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 1
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 5,
+      "raw": "Wang, Z., Feng, Z., Li, Y., Li, B., Wang, Y., Sha, C., He, M., & Li, X. (2022). BatmanNet: Bi-branch Masked Graph Transformer Autoencoder for Molecular Representation. arXiv:2211.13979v3.",
+      "parsed": {
+        "title": "BatmanNet: Bi-branch Masked Graph Transformer Autoencoder for Molecular Representation",
+        "authors": "Wang, Z., Feng, Z., Li, Y., Li, B., Wang, Y., Sha, C., He, M., & Li, X",
+        "year": "2022",
+        "arxiv_id": "2211.13979v3",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "BatmanNet: Bi-branch Masked Graph Transformer Autoencoder for Molecular Representation",
+          "arxiv_id": "2211.13979",
+          "doi": null,
+          "year": "2022",
+          "authors": [
+            "Zhen Wang",
+            "Zheng Feng",
+            "Yanjun Li",
+            "Bowen Li",
+            "Yongrui Wang",
+            "Chulin Sha",
+            "Min He",
+            "Xiaolin Li"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2211.13979",
+          "title": "BatmanNet: Bi-branch Masked Graph Transformer Autoencoder for Molecular Representation",
+          "abstract": "Although substantial efforts have been made using graph neural networks (GNNs) for AI-driven drug discovery (AIDD), effective molecular representation learning remains an open challenge, especially in the case of insufficient labeled molecules. Recent studies suggest that big GNN models pre-trained by self-supervised learning on unlabeled datasets enable better transfer performance in downstream molecular property prediction tasks. However, the approaches in these studies require multiple complex self-supervised tasks and large-scale datasets, which are time-consuming, computationally expensive, and difficult to pre-train end-to-end. Here, we design a simple yet effective self-supervised strategy to simultaneously learn local and global information about molecules, and further propose a novel bi-branch masked graph transformer autoencoder (BatmanNet) to learn molecular representations. BatmanNet features two tailored complementary and asymmetric graph autoencoders to reconstruct the missing nodes and edges, respectively, from a masked molecular graph. With this design, BatmanNet can effectively capture the underlying structure and semantic information of molecules, thus improving the performance of molecular representation. BatmanNet achieves state-of-the-art results for multiple drug discovery tasks, including molecular properties prediction, drug-drug interaction, and drug-target interaction, on 13 benchmark datasets, demonstrating its great potential and superiority in molecular representation learning.",
+          "year": "2022",
+          "authors": [
+            "Zhen Wang",
+            "Zheng Feng",
+            "Yanjun Li",
+            "Bowen Li",
+            "Yongrui Wang",
+            "Chulin Sha",
+            "Min He",
+            "Xiaolin Li"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 6,
+      "raw": "Li, X., Zhou, Z., Yao, J., Rong, Y., Zhang, L., & Han, B. (2023). Neural Atoms: Propagating Long-range Interaction in Molecular Graphs through Efficient Communication Channel. arXiv:2311.01276.",
+      "parsed": {
+        "title": "Neural Atoms: Propagating Long-range Interaction in Molecular Graphs through Efficient Communication Channel",
+        "authors": "Li, X., Zhou, Z., Yao, J., Rong, Y., Zhang, L., & Han, B",
+        "year": "2023",
+        "arxiv_id": "2311.01276",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Neural Atoms: Propagating Long-range Interaction in Molecular Graphs through Efficient Communication Channel",
+          "arxiv_id": "2311.01276",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Xuan Li",
+            "Zhanke Zhou",
+            "Jiangchao Yao",
+            "Yu Rong",
+            "Lu Zhang",
+            "Bo Han"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2311.01276",
+          "title": "Neural Atoms: Propagating Long-range Interaction in Molecular Graphs through Efficient Communication Channel",
+          "abstract": "Graph Neural Networks (GNNs) have been widely adopted for drug discovery with molecular graphs. Nevertheless, current GNNs mainly excel in leveraging short-range interactions (SRI) but struggle to capture long-range interactions (LRI), both of which are crucial for determining molecular properties. To tackle this issue, we propose a method to abstract the collective information of atomic groups into a few $\\textit{Neural Atoms}$ by implicitly projecting the atoms of a molecular. Specifically, we explicitly exchange the information among neural atoms and project them back to the atoms' representations as an enhancement. With this mechanism, neural atoms establish the communication channels among distant nodes, effectively reducing the interaction scope of arbitrary node pairs into a single hop. To provide an inspection of our method from a physical perspective, we reveal its connection to the traditional LRI calculation method, Ewald Summation. The Neural Atom can enhance GNNs to capture LRI by approximating the potential LRI of the molecular. We conduct extensive experiments on four long-range graph benchmarks, covering graph-level and link-level tasks on molecular graphs. We achieve up to a 27.32% and 38.27% improvement in the 2D and 3D scenarios, respectively. Empirically, our method can be equipped with an arbitrary GNN to help capture LRI. Code and datasets are publicly available in https://github.com/tmlr-group/NeuralAtom.",
+          "year": "2023",
+          "authors": [
+            "Xuan Li",
+            "Zhanke Zhou",
+            "Jiangchao Yao",
+            "Yu Rong",
+            "Lu Zhang",
+            "Bo Han"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 7,
+      "raw": "Jiang, T., Wang, Z., Yu, S., & Xuan, Q. (2025). Adaptive Substructure-Aware Expert Model for Molecular Property Prediction. arXiv:2504.05844.",
+      "parsed": {
+        "title": "Adaptive Substructure-Aware Expert Model for Molecular Property Prediction",
+        "authors": "Jiang, T., Wang, Z., Yu, S., & Xuan, Q",
+        "year": "2025",
+        "arxiv_id": "2504.05844",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Adaptive Substructure-Aware Expert Model for Molecular Property Prediction",
+          "arxiv_id": "2504.05844",
+          "doi": null,
+          "year": "2025",
+          "authors": [
+            "Tianyi Jiang",
+            "Zeyu Wang",
+            "Shanqing Yu",
+            "Qi Xuan"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2504.05844",
+          "title": "Adaptive Substructure-Aware Expert Model for Molecular Property Prediction",
+          "abstract": "Molecular property prediction is essential for applications such as drug discovery and toxicity assessment. While Graph Neural Networks (GNNs) have shown promising results by modeling molecules as molecular graphs, their reliance on data-driven learning limits their ability to generalize, particularly in the presence of data imbalance and diverse molecular substructures. Existing methods often overlook the varying contributions of different substructures to molecular properties, treating them uniformly. To address these challenges, we propose ASE-Mol, a novel GNN-based framework that leverages a Mixture-of-Experts (MoE) approach for molecular property prediction. ASE-Mol incorporates BRICS decomposition and significant substructure awareness to dynamically identify positive and negative substructures. By integrating a MoE architecture, it reduces the adverse impact of negative motifs while improving adaptability to positive motifs. Experimental results on eight benchmark datasets demonstrate that ASE-Mol achieves state-of-the-art performance, with significant improvements in both accuracy and interpretability.",
+          "year": "2025",
+          "authors": [
+            "Tianyi Jiang",
+            "Zeyu Wang",
+            "Shanqing Yu",
+            "Qi Xuan"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\naive_rag\\Neural_Audio_Codecs_and_Discrete_Speech_Representa__seed1\\survey.md",
+  "topic": "3 Background and Foundations",
+  "n_references": 8,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Li, H., Yip, J., Fan, T., & Siong, C. E. (2025). Speech Enhancement Using Continuous Embeddings of Neural Audio Codec. arXiv:2502.16240.",
+      "title": "Speech Enhancement Using Continuous Embeddings of Neural Audio Codec",
+      "authors": "Li, H., Yip, J., Fan, T., & Siong, C. E",
+      "year": "2025",
+      "arxiv_id": "2502.16240",
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Jiang, Y., Chen, Q., Ji, S., Xi, Y., Wang, W., Zhang, C., Yue, X., Zhang, S., & Li, H. (2025). UniCodec: Unified Audio Codec with Single Domain-Adaptive Codebook. arXiv:2502.20067.",
+      "title": "UniCodec: Unified Audio Codec with Single Domain-Adaptive Codebook",
+      "authors": "Jiang, Y., Chen, Q., Ji, S., Xi, Y., Wang, W., Zhang, C., Yue, X., Zhang, S., & Li, H",
+      "year": "2025",
+      "arxiv_id": "2502.20067",
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Ye, J., Cao, B., & Shan, H. (2025). Emotional Face-to-Speech. arXiv:2502.01046.",
+      "title": "Emotional Face-to-Speech",
+      "authors": "Ye, J., Cao, B., & Shan, H",
+      "year": "2025",
+      "arxiv_id": "2502.01046",
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Li, J., Wang, D., Wang, X., Qian, Y., Zhou, L., Liu, S., Yousefi, M., Li, C., Tsai, C., Xiao, Z., Liu, Y., Chen, J., Zhao, S., Li, J., Wu, Z., & Zeng, M. (2024). Investigating Neural Audio Codecs For Speech Language Model-Based Speech Generation. arXiv:2409.04016.",
+      "title": "Investigating Neural Audio Codecs For Speech Language Model-Based Speech Generation",
+      "authors": "Li, J., Wang, D., Wang, X., Qian, Y., Zhou, L., Liu, S., Yousefi, M., Li, C., Tsai, C., Xiao, Z., Liu, Y., Chen, J., Zhao, S., Li, J., Wu, Z., & Zeng, M",
+      "year": "2024",
+      "arxiv_id": "2409.04016",
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Shen, K., Ju, Z., Tan, X., Liu, Y., Leng, Y., He, L., Qin, T., Zhao, S., & Bian, J. (2023). NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers. arXiv:2304.09116.",
+      "title": "NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers",
+      "authors": "Shen, K., Ju, Z., Tan, X., Liu, Y., Leng, Y., He, L., Qin, T., Zhao, S., & Bian, J",
+      "year": "2023",
+      "arxiv_id": "2304.09116",
+      "doi": null
+    },
+    {
+      "ref_id": 5,
+      "raw": "Zhao, J., Vu, M., & Wang, Y. (2026). Hierarchical Decoding for Discrete Speech Synthesis with Multi-Resolution Spoof Detection. arXiv:2603.05373.",
+      "title": "Hierarchical Decoding for Discrete Speech Synthesis with Multi-Resolution Spoof Detection",
+      "authors": "Zhao, J., Vu, M., & Wang, Y",
+      "year": "2026",
+      "arxiv_id": "2603.05373",
+      "doi": null
+    },
+    {
+      "ref_id": 6,
+      "raw": "Unknown Author (n.d.). FuseCodec Semantic-Contextual Fusion and Supervision for Neural Codecs.",
+      "title": null,
+      "authors": null,
+      "year": null,
+      "arxiv_id": null,
+      "doi": null
+    },
+    {
+      "ref_id": 7,
+      "raw": "Unknown Author (n.d.). DiffSoundStream Efficient Speech Tokenization via Diffusion Decoding.",
+      "title": null,
+      "authors": null,
+      "year": null,
+      "arxiv_id": null,
+      "doi": null
+    }
+  ]
+}

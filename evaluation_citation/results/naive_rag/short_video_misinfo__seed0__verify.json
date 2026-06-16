@@ -1,0 +1,50 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "short_video_misinfo",
+  "seed": 0,
+  "topic": "Detection of Misinformation and Harmful Content on Short-Form Video Platforms: Methods, Datasets, and Multimodal Approaches",
+  "n_references": 1,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Vatndal, H., & Setty, V. (2025). ShortCheck: Checkworthiness Detection of Multilingual Short-Form Videos. arXiv:2509.20467v1.",
+      "parsed": {
+        "title": "ShortCheck: Checkworthiness Detection of Multilingual Short-Form Videos",
+        "authors": "Vatndal, H., & Setty, V",
+        "year": "2025",
+        "arxiv_id": "2509.20467v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "ShortCheck: Checkworthiness Detection of Multilingual Short-Form Videos",
+          "arxiv_id": "2509.20467",
+          "doi": null,
+          "year": "2025",
+          "authors": [
+            "Henrik Vatndal",
+            "Vinay Setty"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2509.20467",
+          "title": "ShortCheck: Checkworthiness Detection of Multilingual Short-Form Videos",
+          "abstract": "Short-form video platforms like TikTok present unique challenges for misinformation detection due to their multimodal, dynamic, and noisy content. We present ShortCheck, a modular, inference-only pipeline with a user-friendly interface that automatically identifies checkworthy short-form videos to help human fact-checkers. The system integrates speech transcription, OCR, object and deepfake detection, video-to-text summarization, and claim verification. ShortCheck is validated by evaluating it on two manually annotated datasets with TikTok videos in a multilingual setting. The pipeline achieves promising results with F1-weighted score over 70\\%.",
+          "year": "2025",
+          "authors": [
+            "Henrik Vatndal",
+            "Vinay Setty"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    }
+  ]
+}

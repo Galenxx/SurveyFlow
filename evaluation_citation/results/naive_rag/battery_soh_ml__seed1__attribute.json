@@ -1,0 +1,232 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "battery_soh_ml",
+  "seed": 1,
+  "topic": "Machine Learning for Lithium-Ion Battery State-of-Health Estimation and Remaining-Useful-Life Prediction",
+  "metrics": {
+    "n_cited_claims": 12,
+    "support_total": 3.0,
+    "citation_recall": 0.25,
+    "n_supported": 2,
+    "n_partial": 2,
+    "n_unsupported": 8,
+    "n_error": 0,
+    "n_citation_mounts": 13,
+    "n_contributing": 4,
+    "contributing_weight": 3.5,
+    "citation_precision": 0.2692,
+    "n_not_verifiable": 0,
+    "n_claims": 19,
+    "n_claims_with_cite": 12,
+    "n_claims_bare": 7,
+    "bare_assertion_rate": 0.3684
+  },
+  "per_sentence": [
+    {
+      "sent_id": 32,
+      "section_title": "3 Background and Foundations",
+      "text": "Lithium-ion batteries are a critical technology for electric vehicles, stationary storage, and portable electronics, yet their aging directly impacts system reliability, safety, and cost (Zhang et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper focuses on a method for state-of-health estimation but does not mention electric vehicles, stationary storage, portable electronics, or how aging impacts system reliability, safety, and cost.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 33,
+      "section_title": "3 Background and Foundations",
+      "text": "Capacity fade and resistance increase reduce usable energy and power, and uncontrolled degradation can lead to unplanned failures (Zhang et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes a method for estimating state-of-health but does not mention capacity fade, resistance increase, or unplanned failures.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 34,
+      "section_title": "3 Background and Foundations",
+      "text": "Richardson et al. (2017) similarly emphasize that not knowing a battery’s rate of capacity loss or useful life renders the system susceptible to an unanticipated decline in performance.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses data-driven methods for predicting battery capacity and remaining useful life but does not state that lacking such knowledge renders a system susceptible to unanticipated performance decline.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 37,
+      "section_title": "3 Background and Foundations",
+      "text": "Richardson et al. (2017) note that prior work by Goebel et al. investigated the use of GPs for extrapolating battery internal resistance and subsequently deriving capacity estimates based on a linear relationship between resistance and capacity, demonstrating that GPs could handle the associated prediction challenges.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence discusses Gaussian process regression for forecasting battery state of health using capacity data but does not mention Goebel et al., internal resistance, or deriving capacity from a linear resistance–capacity relationship.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 39,
+      "section_title": "4 Methods and Techniques",
+      "text": "Zhang et al. (2022) combined model-based incremental capacity analysis with support vector regression, integrating physical insights from battery degradation with a machine learning regressor to improve estimation accuracy.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The cited paper explicitly proposes a method that combines model-based incremental capacity analysis with support vector regression for battery state-of-health estimation, directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 40,
+      "section_title": "4 Methods and Techniques",
+      "text": "In a complementary line of work, Richardson et al. (2017) examined Gaussian process regression for forecasting battery state of health, noting that Gaussian processes are capable of handling the nonlinear data characteristic of battery degradation.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that Gaussian process regression is proposed for forecasting battery state of health and highlights its ability to model complex systems, which aligns with handling nonlinear data characteristic of battery degradation.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 41,
+      "section_title": "4 Methods and Techniques",
+      "text": "Their review of prior work highlighted that Goebel et al. investigated the use of Gaussian processes to extrapolate battery internal resistance and subsequently derive capacity estimates through a linear relationship between resistance and capacity, though they concluded that limitations remained in fully characterizing the degradation trajectory (Richardson et al., 2017).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses Gaussian process regression for forecasting battery state of health using capacity data but does not mention internal resistance, a linear resistance–capacity relationship, or the specific work of Goebel et al.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 43,
+      "section_title": "5 Applications and Systems",
+      "text": "Richardson et al. (2017) note that LIBs are increasingly pivotal in transport and grid energy storage, where not knowing a battery’s rate of capacity loss or remaining useful life leaves the system vulnerable to unanticipated performance declines.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence focuses on a specific data-driven method for predicting battery state of health but does not mention the increasing importance of LIBs in transport and grid storage or the vulnerability caused by unknown capacity loss rates.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 44,
+      "section_title": "5 Applications and Systems",
+      "text": "Zhang et al. (2022) similarly identify electric vehicles, stationary storage, and portable electronics as key application domains, emphasizing that capacity fade and resistance increase reduce usable energy and power, while uncontrolled degradation can lead to unplanned failures that affect reliability, safety, and cost.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper focuses on a method for state-of-health estimation and does not identify electric vehicles, stationary storage, and portable electronics as key application domains or discuss the effects of capacity fade, resistance increase, and uncontrolled degradation on reliability, safety, and cost.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 45,
+      "section_title": "5 Applications and Systems",
+      "text": "These shared concerns across mobility, grid, and consumer electronics motivate the development of data‑driven forecasting methods that can operate on large, high‑resolution datasets (Zhang et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper focuses on battery state-of-health estimation using model-based and SVR methods, with no mention of data-driven forecasting for mobility, grid, or consumer electronics, nor of handling large, high-resolution datasets.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 46,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "Accurate prediction of battery state of health remains a critical need across applications ranging from electric vehicles and grid storage to portable electronics, where unanticipated capacity fade or resistance increase can directly compromise system reliability, safety, and cost (Richardson et al., 2017; Zhang et al., 2022).",
+      "n_cites": 2,
+      "label_to_ref": {
+        "c0": 1,
+        "c1": 3
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The sentence claims accurate SOH prediction is critical for reliability, safety, and cost across EVs, grid storage, and portable electronics, but the cited abstracts only discuss the importance of accurate SOH prediction for reliability and maintenance costs without explicitly mentioning safety or the specific application domains.",
+        "per_citation_contribution": {
+          "c0": true,
+          "c1": true
+        }
+      }
+    },
+    {
+      "sent_id": 48,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "Richardson et al. (2017) note that Gaussian process regression has shown capability in handling the nonlinear data patterns characteristic of battery aging, yet earlier investigations concluded that while such models could characterize degradation, significant forecasting difficulties persist.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence supports that Gaussian process regression can model complex battery degradation patterns and demonstrates predictive capability, but it does not mention earlier investigations concluding that significant forecasting difficulties persist.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

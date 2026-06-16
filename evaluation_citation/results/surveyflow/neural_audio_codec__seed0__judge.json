@@ -1,0 +1,127 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "neural_audio_codec",
+  "seed": 0,
+  "topic": "Neural Audio Codecs and Discrete Speech Representations: Architectures, Tokenization, and Generative Applications",
+  "n_references": 11,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper directly investigates neural audio codecs within speech language models for speech generation, aligning perfectly with the survey's focus on neural audio codecs and their generative applications."
+      }
+    },
+    {
+      "ref_id": 1,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper directly addresses neural codec-based speech synthesis with a focus on improving discrete token generation quality, which is a core generative application within the survey's scope."
+      }
+    },
+    {
+      "ref_id": 2,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper uses a neural audio codec's continuous embeddings for speech enhancement, which is an application of NACs rather than a contribution to codec architectures, tokenization, or generative modeling."
+      }
+    },
+    {
+      "ref_id": 3,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper directly addresses neural audio codec tokenization and language modeling for speech generation, which is a core topic of the survey."
+      }
+    },
+    {
+      "ref_id": 4,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper uses a multi-level neural audio codec as a component of its framework for emotional face-to-speech generation, but its main contribution is in cross-modal emotional speech synthesis rather than advancing neural audio codec architectures or discrete speech representations themselves."
+      }
+    },
+    {
+      "ref_id": 5,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a novel neural speech codec with multi-scale discrete tokenization, directly advancing the core topic of neural audio codecs and discrete speech representations."
+      }
+    },
+    {
+      "ref_id": 6,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a neural codec-based speech denoiser using discrete acoustic tokens and integrates it with an LLM-based TTS model, directly contributing to the survey's focus on neural audio codecs and discrete speech representations for generative applications."
+      }
+    },
+    {
+      "ref_id": 7,
+      "identification_verdict": "NOT_FOUND",
+      "title_sim": 0.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=NOT_FOUND); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 8,
+      "identification_verdict": "NOT_FOUND",
+      "title_sim": 0.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=NOT_FOUND); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 9,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper introduces a neural audio codec with residual vector quantizers as a core component for speech synthesis, directly contributing to the survey's focus on neural audio codecs and discrete speech representations."
+      }
+    },
+    {
+      "ref_id": 10,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a unified neural audio codec with a single codebook for speech, music, and sound, directly advancing the survey's focus on architectures, tokenization, and generative applications of neural audio codecs."
+      }
+    }
+  ],
+  "aggregate": {
+    "score": 72.73,
+    "n_relevant": 7,
+    "n_partial": 2,
+    "n_irrelevant": 2,
+    "n_error": 0,
+    "n_judged": 11
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "arxiv_query": "(abs:\"affective computing\" AND abs:\"workplace\" AND abs:\"emotion recognition\" OR abs:\"sentiment analysis\" OR abs:\"stress monitoring\" OR abs:\"multimodal\" OR abs:\"ethics\" OR abs:\"privacy\" OR abs:\"wearables\")",
+  "generic_arxiv_query": "(abs:\"affective computing\" AND abs:\"remote work\") OR (abs:\"emotion recognition\" AND abs:\"workplace monitoring\")",
+  "s2_query": "affective computing workplace monitoring",
+  "s2_generic_query": "emotion recognition employee monitoring ethical implications",
+  "survey_id": "corpus_affective_remote_work",
+  "tsv_path": "./data/tsv\\corpus_affective_remote_work.tsv",
+  "paper_list": [
+    {
+      "title": "Emotion-Aware Workflows: Utilizing Wearable Biosensors and Edge AI to Detect Stress Patterns and Optimize Employee Well-being in Real Time",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "0f4e5f52a1dd966ae7a6929e383202a04ae73859",
+      "open_access_pdf_url": "",
+      "authors": [
+        "M. Mishra",
+        "S. Khanna",
+        "Aarchana Patil",
+        "Amit Verma"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2026
+    },
+    {
+      "title": "A multimodal Framework for exploring behavioural cues for automatic Stress Detection",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "18f74460324f0f8e1e23e52363be72226be60a1c",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Rebecca Valerio",
+        "Marwa Mahmoud"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2025
+    },
+    {
+      "title": "Workplace wearables and Connected Worker solutions: Changing the digital landscape of occupational safety, health and productivity (Preprint)",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "2e8ce8cebf6dc9eac7c41eba28223c79fcba054f",
+      "open_access_pdf_url": "",
+      "authors": [
+        "V. Patel",
+        "Austin Chesmore",
+        "Christopher Legner",
+        "Santosh Pandey"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2021
+    },
+    {
+      "title": "Real-Time Stress Detection and Secure Communication in Wireless IoT Networks Using the Secure Dual-Stream Edge Fusion Optimization (SDEFO) Algorithm",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "34eeb082156140c910eeb5cd492de4f5d8dcb011",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Wad Ghaban"
+      ],
+      "source": "s2",
+      "citation_count": 3,
+      "year": 2025
+    },
+    {
+      "title": "An Efficient Machine and Deep Learning Classfication Technique for Depression Using EEG",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "373268fe7ac8539c66c026a5c39fc5387ef95137",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Yasmeen Anis",
+        "Kaptan Singh",
+        "Amit Saxena"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2023
+    },
+    {
+      "title": "Digital droplets: AI in real-time monitoring of substance abuse – a review",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "3a72e83e31ba883e0f462ee9506ef25109364748",
+      "open_access_pdf_url": "",
+      "authors": [
+        "C. Malar",
+        "Preetha Elizabeth Chaly",
+        "Deepa Sundareswaran",
+        "Akila Ganesh"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2026
+    },
+    {
+      "title": "Emotion AI as a HR Tool for Promoting Workplace Well-Being: Examining the Practical and Ethical Challenges using Efficient net",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "3bbce10936dc2fec13516831c4bd687056a14d8c",
+      "open_access_pdf_url": "",
+      "authors": [
+        "G. Delina",
+        "Badada Bayissa",
+        "Ramaswamy Krishnaraj",
+        "Vairamani Sathyamoorthi",
+        "Sikkander Basheer Inayath Ahamed"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2024
+    },
+    {
+      "title": "Ethical Considerations in Emotion Recognition Research",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "4eb3f33ce5910f16afe2e2314631decb598fb3b1",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Darlene Barker",
+        "Mukesh Kumar Reddy Tippireddy",
+        "A. Farhan",
+        "Bilal Ahmed"
+      ],
+      "source": "s2",
+      "citation_count": 24,
+      "year": 2025
+    },
+    {
+      "title": "Bosses without a heart: socio-demographic and cross-cultural determinants of attitude toward Emotional AI in the workplace",
+      "pdf_link": "https://link.springer.com/content/pdf/10.1007/s00146-021-01290-1.pdf",
+      "arxiv_id": "",
+      "s2_id": "535c50a84e9652b1c94da85c1a0eeef31892dd86",
+      "open_access_pdf_url": "https://link.springer.com/content/pdf/10.1007/s00146-021-01290-1.pdf",
+      "authors": [
+        "Peter Mantello",
+        "Manh-Tung Ho",
+        "Minh-Hoang Nguyen",
+        "Q. Vuong"
+      ],
+      "source": "s2",
+      "citation_count": 133,
+      "year": 2021
+    },
+    {
+      "title": "Electrodermal activity- driven stress detection device",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "7777667d09619337adc14a9df6bb0ecdc8775d5e",
+      "open_access_pdf_url": "",
+      "authors": [
+        "K. S"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2025
+    },
+    {
+      "title": "MultiPhysio-HRC: Multimodal Physiological Signals Dataset for industrial Human-Robot Collaboration",
+      "pdf_link": "http://arxiv.org/pdf/2510.00703v1",
+      "arxiv_id": "2510.00703v1",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Andrea Bussolan",
+        "Stefano Baraldo",
+        "Oliver Avram",
+        "Pablo Urcola",
+        "Luis Montesano",
+        "Luca Maria Gambardella",
+        "Anna Valente"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    }
+  ],
+  "download_status": {
+    "2510.00703v1": "success",
+    "s2:535c50a84e9652b1c94da85c1a0eeef31892dd86": "success"
+  },
+  "failed_papers": [],
+  "chroma_collections": [
+    "bosseswithoutaheartsocio-demographicandcross-culturaldeterminaa",
+    "multiphysio-hrcmultimodalphysiologicalsignalsdatasetforindustra"
+  ],
+  "total_chunks": 109,
+  "embedding_status": {
+    "./data/arxiv_downloads\\corpus_affective_remote_work\\Bosses without a heart_ socio-demographic and cross-cultural determinants of attitude toward Emotion.pdf": "success",
+    "./data/arxiv_downloads\\corpus_affective_remote_work\\MultiPhysio-HRC_ Multimodal Physiological Signals Dataset for industrial Human-Robot Collaboration.pdf": "success"
+  },
+  "citation_paper_meta": {
+    "bosseswithoutaheartsocio-demographicandcross-culturaldeterminaa": {
+      "title": "Bosses without a heart: socio-demographic and cross-cultural determinants of attitude toward Emotional AI in the workplace",
+      "authors": [
+        "Peter Mantello",
+        "Manh-Tung Ho",
+        "Minh-Hoang Nguyen",
+        "Q. Vuong"
+      ],
+      "year": 2021,
+      "arxiv_id": "",
+      "s2_id": "535c50a84e9652b1c94da85c1a0eeef31892dd86"
+    },
+    "multiphysio-hrcmultimodalphysiologicalsignalsdatasetforindustra": {
+      "title": "MultiPhysio-HRC: Multimodal Physiological Signals Dataset for industrial Human-Robot Collaboration",
+      "authors": [
+        "Andrea Bussolan",
+        "Stefano Baraldo",
+        "Oliver Avram",
+        "Pablo Urcola",
+        "Luis Montesano",
+        "Luca Maria Gambardella",
+        "Anna Valente"
+      ],
+      "year": 2025,
+      "arxiv_id": "2510.00703v1",
+      "s2_id": ""
+    }
+  },
+  "_corpus_stats": {
+    "topic_id": "affective_remote_work",
+    "survey_id": "corpus_affective_remote_work",
+    "n_papers_in_list": 11,
+    "n_collections": 2,
+    "total_chunks": 109,
+    "n_citation_meta": 2
+  }
+}

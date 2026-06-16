@@ -1,0 +1,298 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "neural_audio_codec",
+  "seed": 2,
+  "topic": "Neural Audio Codecs and Discrete Speech Representations: Architectures, Tokenization, and Generative Applications",
+  "metrics": {
+    "n_cited_claims": 16,
+    "support_total": 2.5,
+    "citation_recall": 0.1562,
+    "n_supported": 2,
+    "n_partial": 1,
+    "n_unsupported": 13,
+    "n_error": 0,
+    "n_citation_mounts": 16,
+    "n_contributing": 2,
+    "contributing_weight": 2.5,
+    "citation_precision": 0.1562,
+    "n_not_verifiable": 0,
+    "n_claims": 38,
+    "n_claims_with_cite": 16,
+    "n_claims_bare": 22,
+    "bare_assertion_rate": 0.5789
+  },
+  "per_sentence": [
+    {
+      "sent_id": 37,
+      "section_title": "3.1 Hierarchical and Disentangled Acoustic Tokenization",
+      "text": "In a related direction, Li et al. (2024) investigate a two-stage framework that separates text-to-feature prediction from waveform generation, using a self-supervised vector-quantized acoustic feature as an intermediate representation.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses neural audio codec tokens in SLM-based speech generation but does not mention a two-stage framework separating text-to-feature prediction from waveform generation or the use of a self-supervised vector-quantized acoustic feature as an intermediate representation.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 43,
+      "section_title": "3.2 Semantic-Acoustic Fusion in Neural Codecs",
+      "text": "While this line of work demonstrates the potential of semantic conditioning, Li et al. (2024) note that standard codec architectures—which extract speech representations, quantize them with residual vector quantizers, and reconstruct waveforms with adversarial training—achieve high quality primarily on small, clean datasets and face challenges when scaling to larger or more diverse, noisy data.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence discusses the relationship between codec reconstruction quality and SLM-based speech generation performance, but it does not address the claim that standard codec architectures achieve high quality primarily on small, clean datasets and face challenges scaling to larger or more diverse, noisy data.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 47,
+      "section_title": "3.3 Unified and Multi-Domain Codebook Architectures",
+      "text": "In parallel, Li et al. (2024) investigate codec architectures that extract speech representations via a codec encoder, quantize them with residual vector quantizers, and reconstruct the waveform using a decoder trained with adversarial objectives.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses the impact of codec design on SLM-based speech generation but does not describe the specific architecture (codec encoder, residual vector quantizers, decoder with adversarial objectives) attributed to Li et al. (2024).",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 48,
+      "section_title": "3.3 Unified and Multi-Domain Codebook Architectures",
+      "text": "While these systems achieve high reconstruction quality on small, clean datasets, scaling them to larger and more diverse data remains a challenge (Li et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper investigates the relationship between neural codec reconstruction quality and speech generation performance in SLMs, but it does not address the scalability of such systems to larger or more diverse datasets.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 49,
+      "section_title": "4.1 Token-Level Spoof Detection and Denoising for Codec TTS",
+      "text": "Existing spoof detection systems are predominantly formulated on reconstructed audio signals and designed for post-hoc classification, without operating on discrete codec token sequences or guiding generation during decoding (Zhao et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper proposes a spoof detection system that operates on discrete codec token sequences and guides generation during decoding, directly contradicting the sentence's claim that existing systems do not do so.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 50,
+      "section_title": "4.1 Token-Level Spoof Detection and Denoising for Codec TTS",
+      "text": "To address this gap, Zhao et al. (2026) propose MSpoof-TTS, a framework that integrates a separately trained multi-resolution token-level spoof detector into the decoding process for codec-based speech synthesis, while keeping the underlying language model fixed.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that MSpoof-TTS is a training-free inference framework that integrates a multi-resolution token-based spoof detector into a hierarchical decoding strategy without modifying model parameters, directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 53,
+      "section_title": "4.2 Coarse-to-Fine and Compressed Token Prediction",
+      "text": "Zhao et al. (2026) propose a multi-resolution token-based framework for spoof detection in synthesized speech, motivated by the observation that generated token sequences can progressively deviate from the natural codec distribution.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that the proposed MSpoof-TTS framework uses a Multi-Resolution Token-based Spoof Detection framework to detect unnatural patterns in codec sequences, directly matching the sentence's claim about a multi-resolution token-based spoof detection method motivated by deviations from the natural codec distribution.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 55,
+      "section_title": "4.2 Coarse-to-Fine and Compressed Token Prediction",
+      "text": "In a related vein, Ye et al. (2025) achieve hierarchical modeling of diverse information across different residual vector quantization (RVQ) layers in their emotional face-to-speech system, though further architectural details of this coarse-to-fine design are not elaborated in the provided evidence.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The evidence describes a coarse-to-fine curriculum learning algorithm for multi-level token processing but does not mention hierarchical modeling across different residual vector quantization (RVQ) layers, so the specific claim about RVQ-layer hierarchical modeling is not supported.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 56,
+      "section_title": "4.3 Latent Diffusion Models for Zero-Shot TTS",
+      "text": "Neural codec language models have recently emerged as a practical and effective paradigm for zero-shot speech synthesis, operating by modeling speech as sequences of discrete codec tokens through autoregressive or transformer architectures (Zhao et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms that neural codec language models are used for discrete speech synthesis and mentions zero-shot synthesis, but it does not explicitly state that they operate by modeling speech as sequences of discrete codec tokens through autoregressive or transformer architectures.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 57,
+      "section_title": "4.3 Latent Diffusion Models for Zero-Shot TTS",
+      "text": "These systems streamline the synthesis pipeline by predicting subsequent tokens conditioned on ground-truth codec sequences during training; however, at inference time the model must rely on its own previously generated tokens, introducing a discrepancy between training and decoding conditions (Zhao et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a training-free inference framework for improving robustness, but its abstract does not mention or address the training-inference discrepancy caused by autoregressive decoding from ground-truth versus self-generated tokens.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 58,
+      "section_title": "4.3 Latent Diffusion Models for Zero-Shot TTS",
+      "text": "Zhao et al. (2026) adopt a pretrained codec-based TTS system as a fixed base generator within their framework, highlighting the growing role of discrete representations in zero-shot synthesis.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper proposes a training-free inference framework (MSpoof-TTS) that uses spoof detection to guide decoding of a codec language model, but it does not mention adopting a pretrained codec-based TTS system as a fixed base generator nor does it discuss the growing role of discrete representations in zero-shot synthesis.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 60,
+      "section_title": "4.3 Latent Diffusion Models for Zero-Shot TTS",
+      "text": "Ye et al. (2025) provide a preliminary treatment of discrete diffusion models, situating them alongside continuous diffusion models as a foundation for TTS applications.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a discrete diffusion transformer for emotional face-to-speech, but it does not provide a preliminary treatment of discrete diffusion models nor situate them alongside continuous diffusion models as a foundation for TTS applications.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 62,
+      "section_title": "5.1 Hierarchical Fusion of Discrete Tokens for Emotion Recognition",
+      "text": "Zhao et al. (2026) address the challenge of information loss caused by discretization in speech emotion recognition by proposing a hierarchical fusion approach that integrates discrete tokens with complementary acoustic features.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper addresses discrete speech synthesis and spoof detection, not speech emotion recognition or integration of discrete tokens with acoustic features for emotion tasks.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 63,
+      "section_title": "5.1 Hierarchical Fusion of Discrete Tokens for Emotion Recognition",
+      "text": "To compensate for this loss, they design a method that fuses discrete tokens with discrete speech units derived from traditional paralinguistic acoustic features, specifically utilizing low-level features from the Computational Paralinguistics Challenge (ComParE) and the extended Geneva Minimalistic Acoustic Parameter Set (Zhao et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a spoof-detection-guided decoding framework for neural codec language models and does not mention fusing discrete tokens with discrete speech units from ComParE or the extended Geneva Minimalistic Acoustic Parameter Set.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 65,
+      "section_title": "5.1 Hierarchical Fusion of Discrete Tokens for Emotion Recognition",
+      "text": "The findings demonstrate that through multi-layer fusion and acoustic feature integration, discrete tokens can close the performance gap with continuous representations in SER tasks (Zhao et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper focuses on improving discrete speech synthesis quality via spoof detection and hierarchical decoding, and does not address speech emotion recognition (SER), multi-layer fusion, acoustic feature integration, or performance comparisons between discrete and continuous representations for SER.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 67,
+      "section_title": "5.2 Continuous Codec Embeddings for Speech Enhancement",
+      "text": "Li et al. (2025) propose performing enhancement directly on the continuous embeddings produced by a neural audio codec.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses the relationship between neural audio codec design and SLM-based speech generation performance but does not mention performing enhancement directly on continuous embeddings from a neural audio codec.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

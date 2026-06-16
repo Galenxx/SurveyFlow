@@ -1,0 +1,97 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "code_review_llm",
+  "seed": 2,
+  "topic": "Large Language Models for Automated Code Review: Techniques, Benchmarks, and Industrial Deployment",
+  "n_references": 8,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "The paper focuses on continual instruction tuning for LLMs to prevent catastrophic forgetting, with an application in content compliance review, not on automated code review techniques, benchmarks, or deployment."
+      }
+    },
+    {
+      "ref_id": 1,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 2,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper directly addresses automated code review using large language models, covering sub-tasks like review comment generation and code refinement, and explores multi-task and federated learning techniques, making it a representative work for the survey."
+      }
+    },
+    {
+      "ref_id": 3,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper uses code review data to improve automated program repair with LLMs, which is tangentially related to automated code review but focuses on repair rather than reviewing code."
+      }
+    },
+    {
+      "ref_id": 4,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper reviews benchmarks and metrics for evaluating LLMs on code generation, which is tangentially related to automated code review but does not directly address code review techniques, benchmarks, or deployment."
+      }
+    },
+    {
+      "ref_id": 5,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper includes a Reviewer agent for code review as one component of a broader multi-agent software development framework, making it tangentially relevant but not a primary reference for automated code review techniques, benchmarks, or industrial deployment."
+      }
+    },
+    {
+      "ref_id": 6,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper surveys multimodal retrieval-augmented generation, which includes code as one modality, but its main focus is not on automated code review; it only tangentially relates to the survey topic through the general use of LLMs and code retrieval."
+      }
+    },
+    {
+      "ref_id": 7,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "The paper focuses on using LLMs to review scientific papers for errors, not on automated code review, which is the survey's topic."
+      }
+    }
+  ],
+  "aggregate": {
+    "score": 37.5,
+    "n_relevant": 1,
+    "n_partial": 4,
+    "n_irrelevant": 3,
+    "n_error": 0,
+    "n_judged": 8
+  }
+}

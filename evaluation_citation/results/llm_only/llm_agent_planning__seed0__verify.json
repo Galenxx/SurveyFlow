@@ -1,0 +1,608 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "llm_agent_planning",
+  "seed": 0,
+  "topic": "Planning and Reasoning in Large Language Model Agents: Methods, Tool Use, and Evaluation Benchmarks",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Schick, T., Dwivedi-Yu, J., Dessì, R., Raileanu, R., Lomeli, M., Hambro, E., Zettlemoyer, L., Cancedda, N., & Scialom, T. (2023). Toolformer: Language Models Can Teach Themselves to Use Tools. arXiv:2302.04761v1.",
+      "parsed": {
+        "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+        "authors": "Schick, T., Dwivedi-Yu, J., Dessì, R., Raileanu, R., Lomeli, M., Hambro, E., Zettlemoyer, L., Cancedda, N., & Scialom, T",
+        "year": "2023",
+        "arxiv_id": "2302.04761v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+          "arxiv_id": "2302.04761",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Timo Schick",
+            "Jane Dwivedi-Yu",
+            "Roberto Dessì",
+            "Roberta Raileanu",
+            "Maria Lomeli",
+            "Luke Zettlemoyer",
+            "Nicola Cancedda",
+            "Thomas Scialom"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2302.04761",
+          "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+          "abstract": "Language models (LMs) exhibit remarkable abilities to solve new tasks from just a few examples or textual instructions, especially at scale. They also, paradoxically, struggle with basic functionality, such as arithmetic or factual lookup, where much simpler and smaller models excel. In this paper, we show that LMs can teach themselves to use external tools via simple APIs and achieve the best of both worlds. We introduce Toolformer, a model trained to decide which APIs to call, when to call them, what arguments to pass, and how to best incorporate the results into future token prediction. This is done in a self-supervised way, requiring nothing more than a handful of demonstrations for each API. We incorporate a range of tools, including a calculator, a Q\\&A system, two different search engines, a translation system, and a calendar. Toolformer achieves substantially improved zero-shot performance across a variety of downstream tasks, often competitive with much larger models, without sacrificing its core language modeling abilities.",
+          "year": "2023",
+          "authors": [
+            "Timo Schick",
+            "Jane Dwivedi-Yu",
+            "Roberto Dessì",
+            "Roberta Raileanu",
+            "Maria Lomeli",
+            "Luke Zettlemoyer",
+            "Nicola Cancedda",
+            "Thomas Scialom"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan, K., & Cao, Y. (2023). ReAct: Synergizing Reasoning and Acting in Language Models. arXiv:2210.03629v1.",
+      "parsed": {
+        "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+        "authors": "Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan, K., & Cao, Y",
+        "year": "2023",
+        "arxiv_id": "2210.03629v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Retrieval Augmented Generation with Synergizing Reasoning and Acting Prompt Engineering for Indonesian Open-Domain Question Answering",
+          "arxiv_id": null,
+          "doi": "10.1109/ICoDSA67155.2025.11157319",
+          "year": "2025",
+          "authors": [
+            "Andrew Lomaksan Manuel Tampubolon",
+            "R. Anggraini",
+            "S. Hidayati"
+          ]
+        },
+        {
+          "title": "LAURA: A Legal Agent Using Reasoning and Acting for Vietnamese Law",
+          "arxiv_id": null,
+          "doi": "10.1109/KSE68178.2025.11309628",
+          "year": "2025",
+          "authors": [
+            "Van-Khanh Tran",
+            "V. Nguyen"
+          ]
+        },
+        {
+          "title": "NAVIGATE: Multi-Agent Graph-Based Vulnerability Detection with Adversarial Severity Assessment",
+          "arxiv_id": null,
+          "doi": "10.1109/GAIIS69281.2026.11519278",
+          "year": "2026",
+          "authors": [
+            "Yang Guo"
+          ]
+        },
+        {
+          "title": "Agent-Based Traffic Monitoring and Regulation System for SDN",
+          "arxiv_id": null,
+          "doi": "10.1109/PRAI67447.2025.11412736",
+          "year": "2025",
+          "authors": [
+            "Xiaodan Guo",
+            "Falong Zhou",
+            "Weihao Du",
+            "Mengdie Deng",
+            "Xun Zhu",
+            "Juming Bao"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": "10.1109/KSE68178.2025.11309628",
+          "title": "LAURA: A Legal Agent Using Reasoning and Acting for Vietnamese Law",
+          "abstract": "Accessing legal information in Vietnam is fraught with challenges, primarily due to the sheer volume of legal documents and the complexity of legal language. While Large Language Models (LLMs) present a potential solution, they are often hindered by issues of ‘hallucination’ and outdated knowledge. To overcome these obstacles, this paper introduces LAURA (A Legal Agent Using Reasoning and Acting), a novel agent-based question-answering system tailored for Vietnamese law. LAURA operates on an agentic workflow, leveraging an LLM as its core reasoning engine. The system is built on the ReAct paradigm, which synergizes reasoning with the use of retrieval tools to process legal queries effectively. To enhance accuracy and minimize errors, a custom retrieval module was developed, combining Reciprocal Rank Fusion (RRF) with the BM25 sparse retriever and the multilingual-e5 dense retriever. Furthermore, LAURA integrates Tavily Search to access the latest legal information from external sources in real-time. This integrated approach demonstrates the significant potential of combining agentic reasoning with multi-source retrieval to create an accurate and interpretable legal question-answering system for the Vietnamese language.",
+          "year": "2025",
+          "authors": [
+            "Van-Khanh Tran",
+            "V. Nguyen"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 0
+        },
+        "title_sim": 0.5901639344262295,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Yao, S., Yu, D., Zhao, J., Shafran, I., Griffiths, T., Cao, Y., & Narasimhan, K. (2023). Tree of Thoughts: Deliberate Problem Solving with Large Language Models. arXiv:2305.10601v1.",
+      "parsed": {
+        "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+        "authors": "Yao, S., Yu, D., Zhao, J., Shafran, I., Griffiths, T., Cao, Y., & Narasimhan, K",
+        "year": "2023",
+        "arxiv_id": "2305.10601v1",
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Shen, Y., Song, K., Tan, X., Li, D., Lu, W., & Zhuang, Y. (2023). HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face. arXiv:2303.17580v1.",
+      "parsed": {
+        "title": "HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face",
+        "authors": "Shen, Y., Song, K., Tan, X., Li, D., Lu, W., & Zhuang, Y",
+        "year": "2023",
+        "arxiv_id": "2303.17580v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face",
+          "arxiv_id": "2303.17580",
+          "doi": "10.48550/arXiv.2303.17580",
+          "year": "2023",
+          "authors": [
+            "Yongliang Shen",
+            "Kaitao Song",
+            "Xu Tan",
+            "Dongsheng Li",
+            "Weiming Lu",
+            "Y. Zhuang"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2303.17580",
+          "doi": "10.48550/arXiv.2303.17580",
+          "title": "HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face",
+          "abstract": "Solving complicated AI tasks with different domains and modalities is a key step toward artificial general intelligence. While there are numerous AI models available for various domains and modalities, they cannot handle complicated AI tasks autonomously. Considering large language models (LLMs) have exhibited exceptional abilities in language understanding, generation, interaction, and reasoning, we advocate that LLMs could act as a controller to manage existing AI models to solve complicated AI tasks, with language serving as a generic interface to empower this. Based on this philosophy, we present HuggingGPT, an LLM-powered agent that leverages LLMs (e.g., ChatGPT) to connect various AI models in machine learning communities (e.g., Hugging Face) to solve AI tasks. Specifically, we use ChatGPT to conduct task planning when receiving a user request, select models according to their function descriptions available in Hugging Face, execute each subtask with the selected AI model, and summarize the response according to the execution results. By leveraging the strong language capability of ChatGPT and abundant AI models in Hugging Face, HuggingGPT can tackle a wide range of sophisticated AI tasks spanning different modalities and domains and achieve impressive results in language, vision, speech, and other challenging tasks, which paves a new way towards the realization of artificial general intelligence.",
+          "year": "2023",
+          "authors": [
+            "Yongliang Shen",
+            "Kaitao Song",
+            "Xu Tan",
+            "Dongsheng Li",
+            "Weiming Lu",
+            "Y. Zhuang"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 1520
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 4,
+      "raw": "Liu, X., Yu, H., Zhang, H., Xu, X., Lei, X., Chang, H., Wang, L., & Sun, M. (2023). AgentBench: Evaluating LLMs as Agents. arXiv:2308.03688v1.",
+      "parsed": {
+        "title": "AgentBench: Evaluating LLMs as Agents",
+        "authors": "Liu, X., Yu, H., Zhang, H., Xu, X., Lei, X., Chang, H., Wang, L., & Sun, M",
+        "year": "2023",
+        "arxiv_id": "2308.03688v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "AgentBench: Evaluating LLMs as Agents",
+          "arxiv_id": "2308.03688",
+          "doi": "10.48550/arXiv.2308.03688",
+          "year": "2023",
+          "authors": [
+            "Xiao Liu",
+            "Hao Yu",
+            "Hanchen Zhang",
+            "Yifan Xu",
+            "Xuanyu Lei",
+            "Hanyu Lai",
+            "Yu Gu",
+            "Yuxian Gu",
+            "Han Ding",
+            "Kai Men",
+            "Kejuan Yang",
+            "Shudan Zhang",
+            "Xiang Deng",
+            "Aohan Zeng",
+            "Zhengxiao Du",
+            "Chenhui Zhang",
+            "Shengqi Shen",
+            "Tianjun Zhang",
+            "Sheng Shen",
+            "Yu Su",
+            "Huan Sun",
+            "Minlie Huang",
+            "Yuxiao Dong",
+            "Jie Tang"
+          ]
+        },
+        {
+          "title": "Evaluating LLMs on Kazakhstan's mathematics exam for university admission",
+          "arxiv_id": null,
+          "doi": "10.3389/frai.2025.1642570",
+          "year": "2025",
+          "authors": [
+            "S. Kadyrov",
+            "B. Abdrasilov",
+            "A. Sabyrov",
+            "N. Baizhanov",
+            "Alfira Makhmutova",
+            "P. Kyllonen"
+          ]
+        },
+        {
+          "title": "FHIR-AgentBench: Benchmarking LLM Agents for Realistic Interoperable EHR Question Answering",
+          "arxiv_id": "2509.19319",
+          "doi": "10.48550/arXiv.2509.19319",
+          "year": "2025",
+          "authors": [
+            "Gyubok Lee",
+            "Elea Bach",
+            "Eric Yang",
+            "Tom J. Pollard",
+            "Alistair Johnson",
+            "Edward Choi",
+            "Yugang Jia",
+            "Jong Ha Lee"
+          ]
+        },
+        {
+          "title": "AGENTIC AI - THE RISE OF AUTONOMOUS INTELLIGENT AGENTS IN THE ERA OF LLMS",
+          "arxiv_id": null,
+          "doi": "10.21817/indjcse/2025/v16i1/251602024",
+          "year": "2025",
+          "authors": [
+            "Sai Teja Erukude",
+            "Suhasnadh Reddy Veluru",
+            "Viswa Chaitanya Marella"
+          ]
+        },
+        {
+          "title": "Enhancing the General Agent Capabilities of Low-Parameter LLMs through Tuning and Multi-Branch Reasoning",
+          "arxiv_id": "2403.19962",
+          "doi": "10.48550/arXiv.2403.19962",
+          "year": "2024",
+          "authors": [
+            "Qinhao Zhou",
+            "Zihan Zhang",
+            "Xiang Xiang",
+            "Ke Wang",
+            "Yuchuan Wu",
+            "Yongbin Li"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2308.03688",
+          "doi": "10.48550/arXiv.2308.03688",
+          "title": "AgentBench: Evaluating LLMs as Agents",
+          "abstract": "The potential of Large Language Model (LLM) as agents has been widely acknowledged recently. Thus, there is an urgent need to quantitatively \\textit{evaluate LLMs as agents} on challenging tasks in interactive environments. We present AgentBench, a multi-dimensional benchmark that consists of 8 distinct environments to assess LLM-as-Agent's reasoning and decision-making abilities. Our extensive test over \\num API-based and open-sourced (OSS) LLMs shows that, while top commercial LLMs present a strong ability of acting as agents in complex environments, there is a significant disparity in performance between them and many OSS competitors that are no larger than 70B. We identify the typical reasons of failures in environments and LLMs, showing that poor long-term reasoning, decision-making, and instruction following abilities are the main obstacles for developing usable LLM agents. Improving instruction following and training on high quality multi-round alignment data could improve agent performance. And different from existing assumptions, training on code present ambivalent impacts on different agent tasks. Datasets, environments, and an integrated evaluation package for AgentBench are released at https://github.com/THUDM/AgentBench.",
+          "year": "2023",
+          "authors": [
+            "Xiao Liu",
+            "Hao Yu",
+            "Hanchen Zhang",
+            "Yifan Xu",
+            "Xuanyu Lei",
+            "Hanyu Lai",
+            "Yu Gu",
+            "Yuxian Gu",
+            "Han Ding",
+            "Kai Men",
+            "Kejuan Yang",
+            "Shudan Zhang",
+            "Xiang Deng",
+            "Aohan Zeng",
+            "Zhengxiao Du",
+            "Chenhui Zhang",
+            "Shengqi Shen",
+            "Tianjun Zhang",
+            "Sheng Shen",
+            "Yu Su",
+            "Huan Sun",
+            "Minlie Huang",
+            "Yuxiao Dong",
+            "Jie Tang"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 932
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 5,
+      "raw": "Wang, L., Xu, W., Lan, Y., Hu, Z., Lan, Y., Lee, R. K. W., & Lim, E. P. (2023). Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models. arXiv:2305.04091v1.",
+      "parsed": {
+        "title": "Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models",
+        "authors": "Wang, L., Xu, W., Lan, Y., Hu, Z., Lan, Y., Lee, R. K. W., & Lim, E. P",
+        "year": "2023",
+        "arxiv_id": "2305.04091v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models",
+          "arxiv_id": "2305.04091",
+          "doi": "10.48550/arXiv.2305.04091",
+          "year": "2023",
+          "authors": [
+            "Lei Wang",
+            "Wanyu Xu",
+            "Yihuai Lan",
+            "Zhiqiang Hu",
+            "Yunshi Lan",
+            "Roy Ka-Wei Lee",
+            "Ee-Peng Lim"
+          ]
+        },
+        {
+          "title": "On the Limits of Innate Planning in Large Language Models",
+          "arxiv_id": "2511.21591",
+          "doi": "10.48550/arXiv.2511.21591",
+          "year": "2025",
+          "authors": [
+            "Charles Schepanowski",
+            "Charles Ling"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2305.04091",
+          "doi": "10.48550/arXiv.2305.04091",
+          "title": "Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models",
+          "abstract": "Large language models (LLMs) have recently been shown to deliver impressive performance in various NLP tasks. To tackle multi-step reasoning tasks, Few-shot chain-of-thought (CoT) prompting includes a few manually crafted step-by-step reasoning demonstrations which enable LLMs to explicitly generate reasoning steps and improve their reasoning task accuracy. To eliminate the manual efforts, Zero-shot-CoT concatenates the target problem statement with “Let’s think step by step” as an input prompt to LLMs. Despite the success of Zero-shot-CoT, it still suffers from three pitfalls: calculation errors, missing-step errors, and semantic misunderstanding errors. To address the missing-step errors, we propose Plan-and-Solve (PS) Prompting. It consists of two components: first, devising a plan to divide the entire task into smaller subtasks, and then carrying out the subtasks according to the plan. To address the calculation errors and improve the quality of generated reasoning steps, we extend PS prompting with more detailed instructions and derive PS+ prompting. We evaluate our proposed prompting strategy on ten datasets across three reasoning problems. The experimental results over GPT-3 show that our proposed zero-shot prompting consistently outperforms Zero-shot-CoT across all datasets by a large margin, is comparable to or exceeds Zero-shot-Program-of-Thought Prompting, and has comparable performance with 8-shot CoT prompting on the math reasoning problem. The code can be found at https://github.com/AGI-Edgerunners/Plan-and-Solve-Prompting.",
+          "year": "2023",
+          "authors": [
+            "Lei Wang",
+            "Wanyu Xu",
+            "Yihuai Lan",
+            "Zhiqiang Hu",
+            "Yunshi Lan",
+            "Roy Ka-Wei Lee",
+            "Ee-Peng Lim"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 743
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 6,
+      "raw": "Wang, G., Xie, Y., Jiang, Y., Mandlekar, A., Xiao, C., Zhu, Y., Fan, L., & Anandkumar, A. (2023). Voyager: An Open-Ended Embodied Agent with Large Language Models. arXiv:2305.16291v1.",
+      "parsed": {
+        "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+        "authors": "Wang, G., Xie, Y., Jiang, Y., Mandlekar, A., Xiao, C., Zhu, Y., Fan, L., & Anandkumar, A",
+        "year": "2023",
+        "arxiv_id": "2305.16291v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+          "arxiv_id": "2305.16291",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Guanzhi Wang",
+            "Yuqi Xie",
+            "Yunfan Jiang",
+            "Ajay Mandlekar",
+            "Chaowei Xiao",
+            "Yuke Zhu",
+            "Linxi Fan",
+            "Anima Anandkumar"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2305.16291",
+          "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+          "abstract": "We introduce Voyager, the first LLM-powered embodied lifelong learning agent in Minecraft that continuously explores the world, acquires diverse skills, and makes novel discoveries without human intervention. Voyager consists of three key components: 1) an automatic curriculum that maximizes exploration, 2) an ever-growing skill library of executable code for storing and retrieving complex behaviors, and 3) a new iterative prompting mechanism that incorporates environment feedback, execution errors, and self-verification for program improvement. Voyager interacts with GPT-4 via blackbox queries, which bypasses the need for model parameter fine-tuning. The skills developed by Voyager are temporally extended, interpretable, and compositional, which compounds the agent's abilities rapidly and alleviates catastrophic forgetting. Empirically, Voyager shows strong in-context lifelong learning capability and exhibits exceptional proficiency in playing Minecraft. It obtains 3.3x more unique items, travels 2.3x longer distances, and unlocks key tech tree milestones up to 15.3x faster than prior SOTA. Voyager is able to utilize the learned skill library in a new Minecraft world to solve novel tasks from scratch, while other techniques struggle to generalize. We open-source our full codebase and prompts at https://voyager.minedojo.org/.",
+          "year": "2023",
+          "authors": [
+            "Guanzhi Wang",
+            "Yuqi Xie",
+            "Yunfan Jiang",
+            "Ajay Mandlekar",
+            "Chaowei Xiao",
+            "Yuke Zhu",
+            "Linxi Fan",
+            "Anima Anandkumar"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 7,
+      "raw": "Shinn, N., Cassano, F., Gopinath, A., Narasimhan, K., & Yao, S. (2023). Reflexion: Language Agents with Verbal Reinforcement Learning. arXiv:2303.11366v1.",
+      "parsed": {
+        "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+        "authors": "Shinn, N., Cassano, F., Gopinath, A., Narasimhan, K., & Yao, S",
+        "year": "2023",
+        "arxiv_id": "2303.11366v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+          "arxiv_id": "2303.11366",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Noah Shinn",
+            "Federico Cassano",
+            "Edward Berman",
+            "Ashwin Gopinath",
+            "Karthik Narasimhan",
+            "Shunyu Yao"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2303.11366",
+          "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+          "abstract": "Large language models (LLMs) have been increasingly used to interact with external environments (e.g., games, compilers, APIs) as goal-driven agents. However, it remains challenging for these language agents to quickly and efficiently learn from trial-and-error as traditional reinforcement learning methods require extensive training samples and expensive model fine-tuning. We propose Reflexion, a novel framework to reinforce language agents not by updating weights, but instead through linguistic feedback. Concretely, Reflexion agents verbally reflect on task feedback signals, then maintain their own reflective text in an episodic memory buffer to induce better decision-making in subsequent trials. Reflexion is flexible enough to incorporate various types (scalar values or free-form language) and sources (external or internally simulated) of feedback signals, and obtains significant improvements over a baseline agent across diverse tasks (sequential decision-making, coding, language reasoning). For example, Reflexion achieves a 91% pass@1 accuracy on the HumanEval coding benchmark, surpassing the previous state-of-the-art GPT-4 that achieves 80%. We also conduct ablation and analysis studies using different feedback signals, feedback incorporation methods, and agent types, and provide insights into how they affect performance.",
+          "year": "2023",
+          "authors": [
+            "Noah Shinn",
+            "Federico Cassano",
+            "Edward Berman",
+            "Ashwin Gopinath",
+            "Karthik Narasimhan",
+            "Shunyu Yao"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 8,
+      "raw": "Yao, S., Chen, H., Yang, J., & Narasimhan, K. (2022). WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents. arXiv:2207.01206v1.",
+      "parsed": {
+        "title": "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents",
+        "authors": "Yao, S., Chen, H., Yang, J., & Narasimhan, K",
+        "year": "2022",
+        "arxiv_id": "2207.01206v1",
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 9,
+      "raw": "Besta, M., Blach, N., Kubicek, A., Gerstenberger, R., Gianinazzi, L., Gajda, J., Podstawski, M., Niewiadomski, H., Muller, P., & Hoefler, T. (2023). Graph of Thoughts: Solving Elaborate Problems with Large Language Models. arXiv:2308.09687v1.",
+      "parsed": {
+        "title": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+        "authors": "Besta, M., Blach, N., Kubicek, A., Gerstenberger, R., Gianinazzi, L., Gajda, J., Podstawski, M., Niewiadomski, H., Muller, P., & Hoefler, T",
+        "year": "2023",
+        "arxiv_id": "2308.09687v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+          "arxiv_id": "2308.09687",
+          "doi": "10.1609/aaai.v38i16.29720",
+          "year": "2023",
+          "authors": [
+            "Maciej Besta",
+            "Nils Blach",
+            "Aleš Kubíček",
+            "Robert Gerstenberger",
+            "Lukas Gianinazzi",
+            "Joanna Gajda",
+            "Tomasz Lehmann",
+            "Michal Podstawski",
+            "H. Niewiadomski",
+            "Piotr Nyczyk",
+            "Torsten Hoefler"
+          ]
+        },
+        {
+          "title": "Reinforced Graph of Thoughts: RL-Driven Adaptive Prompting for LLMs",
+          "arxiv_id": "2605.22195",
+          "doi": null,
+          "year": "2026",
+          "authors": [
+            "Manuel Noah Riesen",
+            "Peter Alfred von Niederhausern"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2308.09687",
+          "doi": "10.1609/aaai.v38i16.29720",
+          "title": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+          "abstract": "We introduce Graph of Thoughts (GoT): a framework that\nadvances prompting capabilities in large language models\n(LLMs) beyond those offered by paradigms such as \nChain-of-Thought or Tree of Thoughts (ToT). The key idea and \nprimary advantage of GoT is the ability to model the information \ngenerated by an LLM as an arbitrary graph, where units of \ninformation (\"LLM thoughts\") are vertices, and edges correspond\nto dependencies between these vertices. This approach enables \ncombining arbitrary LLM thoughts into synergistic outcomes, \ndistilling the essence of whole networks of thoughts,\nor enhancing thoughts using feedback loops. We illustrate\nthat GoT offers advantages over state of the art on different\ntasks, for example increasing the quality of sorting by 62%\nover ToT, while simultaneously reducing costs by >31%.\nWe ensure that GoT is extensible with new thought \ntransformations and thus can be used to spearhead new prompting\nschemes. This work brings the LLM reasoning closer to human \nthinking or brain mechanisms such as recurrence, both\nof which form complex networks",
+          "year": "2023",
+          "authors": [
+            "Maciej Besta",
+            "Nils Blach",
+            "Aleš Kubíček",
+            "Robert Gerstenberger",
+            "Lukas Gianinazzi",
+            "Joanna Gajda",
+            "Tomasz Lehmann",
+            "Michal Podstawski",
+            "H. Niewiadomski",
+            "Piotr Nyczyk",
+            "Torsten Hoefler"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 1384
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\naive_rag\\Diffusion_Models_for_3D_Shape_and_Scene_Generation__seed0\\survey.md",
+  "topic": "3 Background and Foundations",
+  "n_references": 2,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Zhou, C., Zhong, F., Xia, W., Miao, A., Baykal, C., & Öztireli, C. (2026). Quartet of Diffusions: Structure-Aware Point Cloud Generation through Part and Symmetry Guidance. arXiv:2601.20425.",
+      "title": "Quartet of Diffusions: Structure-Aware Point Cloud Generation through Part and Symmetry Guidance",
+      "authors": "Zhou, C., Zhong, F., Xia, W., Miao, A., Baykal, C., & Öztireli, C",
+      "year": "2026",
+      "arxiv_id": "2601.20425",
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Li, H., Feng, Y., Meng, M., Yang, Y., Liu, X., & Zhang, B. (2026). Dual Diffusion Models for Multi-modal Guided 3D Avatar Generation. arXiv:2603.04307.",
+      "title": "Dual Diffusion Models for Multi-modal Guided 3D Avatar Generation",
+      "authors": "Li, H., Feng, Y., Meng, M., Yang, Y., Liu, X., & Zhang, B",
+      "year": "2026",
+      "arxiv_id": "2603.04307",
+      "doi": null
+    }
+  ]
+}

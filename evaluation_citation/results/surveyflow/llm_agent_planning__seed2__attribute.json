@@ -1,0 +1,366 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "llm_agent_planning",
+  "seed": 2,
+  "topic": "Planning and Reasoning in Large Language Model Agents: Methods, Tool Use, and Evaluation Benchmarks",
+  "metrics": {
+    "n_cited_claims": 20,
+    "support_total": 11.5,
+    "citation_recall": 0.575,
+    "n_supported": 9,
+    "n_partial": 5,
+    "n_unsupported": 6,
+    "n_error": 0,
+    "n_citation_mounts": 20,
+    "n_contributing": 12,
+    "contributing_weight": 11.5,
+    "citation_precision": 0.575,
+    "n_not_verifiable": 0,
+    "n_claims": 49,
+    "n_claims_with_cite": 28,
+    "n_claims_bare": 21,
+    "bare_assertion_rate": 0.4286
+  },
+  "per_sentence": [
+    {
+      "sent_id": 28,
+      "section_title": "3.1 Real-World Computer Use and Multi-Agent Strategic Planning Benchmarks",
+      "text": "In open-world settings, agents are expected to decompose complex goals into multi-step plans, coordinate diverse sub-tasks, and adapt their strategies as situations evolve, with tool use—querying services, operating software, and executing workflows—serving as the primary interface through which agents act on the world (Xi et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence supports that agents decompose goals into multi-step plans and use tools as an interface, but it does not address coordination of diverse sub-tasks or adaptation of strategies as situations evolve.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 29,
+      "section_title": "3.1 Real-World Computer Use and Multi-Agent Strategic Planning Benchmarks",
+      "text": "Recent work has extended these capabilities toward computer-using agents and multi-agent role specialization for long-horizon workflows (Xi et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "C-World provides an environment for computer-using agents and long-horizon workflows, but the abstract does not mention multi-agent role specialization, so only part of the claim is supported.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 30,
+      "section_title": "3.1 Real-World Computer Use and Multi-Agent Strategic Planning Benchmarks",
+      "text": "Early tool-use benchmarks focused on single-turn function calling, but the field has since progressed to more complex evaluation scenarios (Xi et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a modern environment for complex agent evaluation but provides no information about early tool-use benchmarks or their historical focus on single-turn function calling.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 33,
+      "section_title": "3.2 Categorization and Evaluation of LLM Agent Planning Capabilities",
+      "text": "Despite the strong reasoning abilities that large language models (LLMs) have acquired through scaling laws, a significant gap persists between LLM-based agents and humans in planning and reasoning for real-world tasks (Xi et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states the goal is 'to close the gap between LLM-based agents and humans in planning and reasoning,' directly confirming the existence of such a gap.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 34,
+      "section_title": "3.2 Categorization and Evaluation of LLM Agent Planning Capabilities",
+      "text": "When agents are confronted with complex objectives that involve large decision spaces, underspecified requirements, and many interacting constraints, they frequently fail to maintain coherent long-horizon plans, adapt to evolving situations, or recover from intermediate errors (Xi et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The evidence directly states that state-of-the-art LLMs exhibit constraint following as the dominant failure mode when handling long-horizon workflows with wild constraints, which aligns with the claim that agents fail to maintain coherent plans under complex objectives with many interacting constraints.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 38,
+      "section_title": "3.3 Planning and Reasoning in Personal LLM Agents",
+      "text": "Xi et al. (2026) observe that despite rapid progress, a significant gap persists between LLM-based agents and humans in planning and reasoning for real-world tasks.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states the goal is 'to close the gap between LLM-based agents and humans in planning and reasoning,' directly confirming the existence of such a gap.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 45,
+      "section_title": "4.1 Reinforcement Learning for Agentic Search and Multi-Turn Planning",
+      "text": "Recent work has motivated a shift toward agentic search, a paradigm in which large language models are trained via reinforcement learning to dynamically plan, issue queries to a retriever, and reason over returned evidence as part of an interactive trajectory (Xu et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that recent work has begun training LLMs to dynamically plan, query, and reason with search engines as tools, a paradigm increasingly referred to as agentic search, directly supporting the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 47,
+      "section_title": "4.1 Reinforcement Learning for Agentic Search and Multi-Turn Planning",
+      "text": "In parallel, the computational orchestration of such agentic workflows has been formalized as a batch scheduling problem over directed acyclic graphs of LLM calls, where an optimal policy is sought to minimize execution cost across available workers (Shen et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly describes representing agentic workflows as DAGs and performing plan-level optimization to minimize redundant execution, which directly supports the claim of formalizing orchestration as a batch scheduling problem over DAGs of LLM calls to minimize cost.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 48,
+      "section_title": "4.2 Plan-Level Optimization in Agentic Directed Acyclic Graphs",
+      "text": "Agentic search represents a paradigm in which large language models are trained via reinforcement learning to dynamically plan, issue queries to a retriever, and reason over returned evidence as part of an interactive trajectory (Xu et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that recent work trains LLMs via reinforcement learning to dynamically plan, query, and reason with search engines, which it calls agentic search, directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 50,
+      "section_title": "4.2 Plan-Level Optimization in Agentic Directed Acyclic Graphs",
+      "text": "Shen et al. (2025) identify that such optimizations can include node reordering or operator fusion, techniques that restructure the execution plan to improve efficiency without altering the logical semantics of the workflow.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The Halo abstract explicitly describes representing workflows as structured query plan DAGs and performing plan-level optimization to minimize redundant execution without compromising output quality, which directly supports the claim that optimizations like node reordering or operator fusion restructure execution plans to improve efficiency without altering logical semantics.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 51,
+      "section_title": "4.2 Plan-Level Optimization in Agentic Directed Acyclic Graphs",
+      "text": "Existing multi-agent frameworks, including LangGraph, AutoGen, and AgentScope, provide abstractions for state management and message passing that simplify the logical construction of agentic applications, but they do not perform these kinds of plan-level optimizations across complex agentic DAGs (Shen et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that existing multi-agent frameworks focus on orchestration without system-level performance planning, directly supporting the claim that they do not perform plan-level optimizations across complex agentic DAGs.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 53,
+      "section_title": "4.3 Input Reformulation for Tool-Use Accuracy in Function Calling",
+      "text": "Xu et al. (2025) report that all evaluated checkpoints exhibit high \"Think-Search faithfulness,\" a metric related to reasoning fidelity in retrieval-augmented generation.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The evidence states that canonical agentic search systems have significant room for improvement on faithfulness dimensions, directly contradicting the claim that all evaluated checkpoints exhibit high Think-Search faithfulness.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 55,
+      "section_title": "4.3 Input Reformulation for Tool-Use Accuracy in Function Calling",
+      "text": "Shen et al. (2025) define tool usage nodes as components that execute computational or retrieval tasks via function calls, encompassing structured database queries, external APIs, and local function executions.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract describes a system for optimizing batch agentic workflows but does not define 'tool usage nodes' or enumerate their types (database queries, APIs, local functions) as the sentence claims.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 58,
+      "section_title": "5.1 LLM Agents for Multi-Step Computational Chemistry Workflows",
+      "text": "Pham et al. (2025) introduced ChemGraph, an LLM-powered agentic framework that automates molecular simulation workflows through structured tool calling and reasoning.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that ChemGraph is an agentic framework using LLMs for task planning and reasoning to automate computational chemistry workflows, directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 59,
+      "section_title": "5.1 LLM Agents for Multi-Step Computational Chemistry Workflows",
+      "text": "The system was evaluated across a diverse set of 13 experiments, ranging from simple molecule-name-to-SMILES conversions to complex thermodynamic property calculations, and demonstrated that state-of-the-art LLMs can achieve high task completion accuracy (Pham et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms evaluation across 13 tasks and that LLMs can perform well, but it does not specify 'high task completion accuracy' for state-of-the-art LLMs nor mention molecule-name-to-SMILES conversions or thermodynamic property calculations explicitly.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 60,
+      "section_title": "5.1 LLM Agents for Multi-Step Computational Chemistry Workflows",
+      "text": "A key finding was that single-agent systems perform reliably on tasks involving a small number of steps, while the broader vision for such frameworks involves agents that can not only automate simulations but also adapt, reason, and collaborate, paving the way for more efficient and accessible scientific discoveries (Pham et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence supports that single-agent systems perform well on simple tasks and that the framework aims to automate simulations, but it does not explicitly mention adaptation, reasoning, collaboration, or paving the way for scientific discoveries.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 65,
+      "section_title": "5.2 Code-Empowered Planning and Reasoning in EHRAgent",
+      "text": "A similar planning paradigm appears in the ChemGraph framework for computational chemistry, where a Planner Agent decomposes user requests into subtasks and generates a series of prompts that are sequentially forwarded to an Executor agent through a Loop Controller (Pham et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The abstract confirms ChemGraph uses LLMs for task planning and decomposes complex tasks, but it does not explicitly describe a Planner Agent generating prompts forwarded to an Executor through a Loop Controller.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 67,
+      "section_title": "5.2 Code-Empowered Planning and Reasoning in EHRAgent",
+      "text": "Pham et al. (2025) found that common failure modes across models included errors in tool arguments and issues during result summarization, such as missing values or confusion between float and complex number formats in the final report.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract describes ChemGraph's architecture and evaluation but does not mention any failure modes, tool argument errors, or result summarization issues such as missing values or float/complex confusion.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 70,
+      "section_title": "5.3 Declarative Agentic Layers for Grounded Planning and Tool Use",
+      "text": "In the ChemGraph framework, Pham et al. (2025) introduce a three-agent architecture consisting of a Planner Agent, an Executor Agent, and an Aggregator Agent.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The abstract describes ChemGraph as an agentic framework but does not mention a three-agent architecture consisting of Planner, Executor, and Aggregator agents.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 73,
+      "section_title": "5.3 Declarative Agentic Layers for Grounded Planning and Tool Use",
+      "text": "After each tool call completes, the LLM receives the result and determines whether additional tool calls are needed, with the message subsequently following one of two possible paths (Pham et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The ChemGraph abstract describes an agentic framework for chemistry workflows but does not mention any mechanism where an LLM receives tool call results and decides on further tool calls along two possible paths.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

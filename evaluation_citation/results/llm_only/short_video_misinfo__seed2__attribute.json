@@ -1,0 +1,162 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "short_video_misinfo",
+  "seed": 2,
+  "topic": "Detection of Misinformation and Harmful Content on Short-Form Video Platforms: Methods, Datasets, and Multimodal Approaches",
+  "metrics": {
+    "n_cited_claims": 8,
+    "support_total": 4.5,
+    "citation_recall": 0.5625,
+    "n_supported": 4,
+    "n_partial": 1,
+    "n_unsupported": 3,
+    "n_error": 0,
+    "n_citation_mounts": 8,
+    "n_contributing": 5,
+    "contributing_weight": 4.5,
+    "citation_precision": 0.5625,
+    "n_not_verifiable": 0,
+    "n_claims": 27,
+    "n_claims_with_cite": 8,
+    "n_claims_bare": 19,
+    "bare_assertion_rate": 0.7037
+  },
+  "per_sentence": [
+    {
+      "sent_id": 33,
+      "section_title": "3 Multimodal Approaches for Video Misinformation Detection",
+      "text": "The foundational principles of integrating these disparate data streams are rooted in multimodal machine learning, which provides taxonomies for fusion strategies—early, late, and hybrid fusion (Baltrušaitis et al., 2017).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms the paper provides a taxonomy for multimodal machine learning and mentions early/late fusion, but it explicitly states the taxonomy goes beyond early and late fusion and does not mention hybrid fusion, so the specific claim about early, late, and hybrid fusion is only partially supported.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 35,
+      "section_title": "3 Multimodal Approaches for Video Misinformation Detection",
+      "text": "Models originally designed for image-text alignment, such as VisualBERT, have been adapted to process video frames alongside transcribed audio, enabling the detection of subtle inconsistencies that unimodal models would miss (Li et al., 2019).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes VisualBERT as a model for image-text alignment and does not mention adaptation to video frames, transcribed audio, or detection of inconsistencies in multimodal video data.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 39,
+      "section_title": "4 Datasets and Benchmarks for Short-Form Video Analysis",
+      "text": "For instance, many multimodal fake news detection models are trained and evaluated on datasets like Fakeddit, which, despite being a comprehensive multimodal benchmark, primarily consists of image-text pairs sourced from Reddit rather than short-form videos with audio-visual dynamics (Nakamura et al., 2019).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract confirms Fakeddit is a multimodal (text+image) dataset sourced from Reddit, with no mention of short-form video or audio-visual dynamics, directly supporting the claim that it consists of image-text pairs from Reddit rather than short-form videos with audio-visual dynamics.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 40,
+      "section_title": "4 Datasets and Benchmarks for Short-Form Video Analysis",
+      "text": "Similarly, in the realm of manipulated media, datasets such as FaceForensics++ provide high-quality deepfake videos, but they focus primarily on facial swapping in controlled scenarios, which does not capture the rapid editing, visual effects, and diverse content types typical of TikTok or Instagram Reels (Rossler et al., 2019).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The FaceForensics++ abstract confirms the dataset focuses on facial manipulations (DeepFakes, Face2Face, FaceSwap, NeuralTextures) in a controlled benchmark setting, which aligns with the claim that it does not capture the rapid editing, visual effects, and diverse content types of TikTok or Instagram Reels.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 45,
+      "section_title": "5 Detection of Harmful and Hateful Content in Short Videos",
+      "text": "While significant strides have been made in text-based hate speech detection, researchers have long noted the difficulty of distinguishing harmful intent from merely offensive language, a problem that is exacerbated when context is stripped away (Davidson et al., 2017).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The cited paper explicitly identifies the separation of hate speech from other offensive language as a key challenge and demonstrates through analysis that this differentiation is difficult, directly supporting the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 46,
+      "section_title": "5 Detection of Harmful and Hateful Content in Short Videos",
+      "text": "To move beyond text, the research community has begun developing multimodal hate speech datasets that incorporate images and text, aiming to capture the cross-modal semantics of online abuse (Mathew et al., 2020).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a text-only hate speech dataset with explainability annotations and does not mention images, multimodal data, or cross-modal semantics.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 53,
+      "section_title": "6 Challenges in Real-Time Detection and Platform Deployment",
+      "text": "Early approaches to fake news detection struggled with generalization across different events and domains, a problem that adversarial training seeks to mitigate by forcing models to learn event-invariant features (Wang et al., 2018).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that existing approaches learn event-specific features that do not transfer to unseen events, and proposes EANN to derive event-invariant features via adversarial training, directly supporting the claim that early methods struggled with generalization and adversarial training mitigates this.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 54,
+      "section_title": "6 Challenges in Real-Time Detection and Platform Deployment",
+      "text": "However, the dynamic environment of short-form video platforms requires more than just robust feature learning; it demands scalable data mining pipelines that can handle the rapid turnover of trends and hashtags (Shu et al., 2017).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 7
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses challenges of fake news detection (big, incomplete, unstructured data) but does not mention short-form video platforms, rapid turnover of trends/hashtags, or scalable data mining pipelines.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

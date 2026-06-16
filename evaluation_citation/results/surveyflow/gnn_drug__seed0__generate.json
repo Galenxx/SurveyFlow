@@ -1,0 +1,19 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "gnn_drug",
+  "seed": 0,
+  "md_path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\surveyflow\\gnn_drug__seed0\\survey.md",
+  "survey_id": "corpus_gnn_drug",
+  "n_references_requested": 10,
+  "n_references_realized": 8,
+  "corpus_stats": {
+    "n_papers_in_list": 15,
+    "n_papers_downloaded_ok": 8,
+    "n_collections_embedded": 8,
+    "n_papers_embedded_ok": 8,
+    "n_citation_meta": 8,
+    "total_chunks": 628,
+    "num_classes": 2,
+    "n_labels": 8
+  }
+}

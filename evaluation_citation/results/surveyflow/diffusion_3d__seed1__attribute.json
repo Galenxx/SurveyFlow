@@ -1,0 +1,440 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "diffusion_3d",
+  "seed": 1,
+  "topic": "Diffusion Models for 3D Shape and Scene Generation: Methods, Representations, and Evaluation",
+  "metrics": {
+    "n_cited_claims": 24,
+    "support_total": 6.0,
+    "citation_recall": 0.25,
+    "n_supported": 4,
+    "n_partial": 4,
+    "n_unsupported": 16,
+    "n_error": 0,
+    "n_citation_mounts": 27,
+    "n_contributing": 6,
+    "contributing_weight": 6.5,
+    "citation_precision": 0.2407,
+    "n_not_verifiable": 0,
+    "n_claims": 50,
+    "n_claims_with_cite": 24,
+    "n_claims_bare": 26,
+    "bare_assertion_rate": 0.52
+  },
+  "per_sentence": [
+    {
+      "sent_id": 30,
+      "section_title": "3.1 Point-Voxel and Thermodynamic Diffusion for Point Clouds",
+      "text": "The application of denoising diffusion probabilistic models to point clouds requires representations that can accommodate the interplay between spatial coordinates and geometric features inherent in 3D data (Wan et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a specific equivariant diffusion model for joint pose estimation and shape reconstruction but does not discuss or support the general claim about the representational requirements for applying denoising diffusion probabilistic models to point clouds.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 31,
+      "section_title": "3.1 Point-Voxel and Thermodynamic Diffusion for Point Clouds",
+      "text": "Cheng et al. (2022) introduced Point-Voxel Diffusion (PVD), a diffusion model for 3D point clouds that employs a hybrid point-voxel representation for processing shapes.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes SDFusion, a latent diffusion model for 3D shapes using an encoder-decoder and cross-attention, but makes no mention of Point-Voxel Diffusion (PVD), point clouds, or a hybrid point-voxel representation.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 32,
+      "section_title": "3.1 Point-Voxel and Thermodynamic Diffusion for Point Clouds",
+      "text": "This formulation enables high-quality 3D shape generation, and the model can be adapted for conditional generation tasks such as shape completion without architectural changes (Cheng et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence supports high-quality 3D shape generation and conditional generation tasks like shape completion, but it does not explicitly state that these tasks are performed without architectural changes.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 33,
+      "section_title": "3.1 Point-Voxel and Thermodynamic Diffusion for Point Clouds",
+      "text": "The effectiveness of PVD has also been demonstrated on real-world scans (Cheng et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper (SDFusion) does not mention PVD, real-world scans, or any demonstration of PVD's effectiveness on such data.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 35,
+      "section_title": "3.2 Score-based Diffusion on Tetrahedral Grids for Mesh Generation",
+      "text": "The evidence from Cheng et al. (2022) describes Point-Voxel Diffusion (PVD), a denoising diffusion probabilistic model for 3D point clouds, and Wan et al. (2025) discusses linking the distribution of coordinates in point clouds or meshes to a noise distribution through a diffusion process.",
+      "n_cites": 2,
+      "label_to_ref": {
+        "c0": 2,
+        "c1": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The sentence attributes specific model names and concepts (Point-Voxel Diffusion and linking coordinate distributions to noise) to Cheng et al. (2022) and Wan et al. (2025), but neither cited paper (SDFusion or the equivariant diffusion model) mentions those authors, models, or the specific conceptual link described.",
+        "per_citation_contribution": {
+          "c0": false,
+          "c1": false
+        }
+      }
+    },
+    {
+      "sent_id": 42,
+      "section_title": "4.1 Latent Vecset Representation with Spatial Sparse Attention",
+      "text": "Wu et al. (2025) propose a Spatial Sparse Attention mechanism that partitions key and value tokens into spatially coherent blocks based on their geometric relationships and performs blockwise token selection, achieving significant acceleration.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that Spatial Sparse Attention (SSA) processes large token sets within sparse volumes, reduces computational overhead, and achieves significant speedups, directly supporting the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 46,
+      "section_title": "4.1 Latent Vecset Representation with Spatial Sparse Attention",
+      "text": "In a complementary direction, Li et al. (2026) employ a mixed score parametrization in their latent denoising diffusion models, where score models predict a residual correction to an analytic standard Gaussian score.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes a dual diffusion model for 3D avatar generation with no mention of latent denoising diffusion models, mixed score parametrization, or residual correction to an analytic standard Gaussian score.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 49,
+      "section_title": "4.2 Hierarchical Latent Point Diffusion and Direct DDPM on 3D Representations",
+      "text": "Li et al. (2026) introduced the Latent Point Diffusion Model (LION), which operates on point clouds and is built as a VAE with diffusion models in latent space.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes PromptAvatar, a dual diffusion model for 3D avatar generation, and makes no mention of Li et al. (2026), the Latent Point Diffusion Model (LION), point clouds, or a VAE with latent-space diffusion.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 50,
+      "section_title": "4.2 Hierarchical Latent Point Diffusion and Direct DDPM on 3D Representations",
+      "text": "LION employs a hierarchical latent space that includes a vector-valued global shape latent alongside another latent component (Li et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes PromptAvatar's dual diffusion models for texture and geometry, but makes no mention of LION or any hierarchical latent space with a vector-valued global shape latent.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 52,
+      "section_title": "4.2 Hierarchical Latent Point Diffusion and Direct DDPM on 3D Representations",
+      "text": "Wu et al. (2025) describe how 3DShape2Vecset pioneered diffusion-based shape synthesis by using a VAE to encode 3D shapes into a latent vecset, which can subsequently be decoded into neural SDFs (Wu et al., 2025).",
+      "n_cites": 2,
+      "label_to_ref": {
+        "c0": 3,
+        "c1": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes Direct3D-S2, not 3DShape2Vecset, and makes no mention of a latent vecset, neural SDF decoding, or pioneering diffusion-based shape synthesis.",
+        "per_citation_contribution": {
+          "c0": false,
+          "c1": false
+        }
+      }
+    },
+    {
+      "sent_id": 53,
+      "section_title": "4.2 Hierarchical Latent Point Diffusion and Direct DDPM on 3D Representations",
+      "text": "Wu et al. (2025) further propose a fully end-to-end sparse SDF VAE (SS-VAE) within their Direct3D-S2 framework, which employs a symmetric encoder-decoder network to efficiently encode high-resolution sparse SDF volumes into sparse latent representations for subsequent diffusion training (Wu et al., 2025).",
+      "n_cites": 2,
+      "label_to_ref": {
+        "c0": 3,
+        "c1": 3
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms Direct3D-S2 includes a sparse-format VAE, but does not mention a 'fully end-to-end sparse SDF VAE (SS-VAE)' with a 'symmetric encoder-decoder network' or 'sparse latent representations for subsequent diffusion training' as specifically claimed.",
+        "per_citation_contribution": {
+          "c0": false,
+          "c1": false
+        }
+      }
+    },
+    {
+      "sent_id": 55,
+      "section_title": "4.3 Latent Diffusion for Signed Distance Function Representations",
+      "text": "Wu et al. (2025) note that implicit latent-based methods often rely on variational autoencoders with asymmetric 3D representations, which can lead to lower training efficiency and typically require hundreds of GPUs.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence supports that implicit latent-based methods often use VAEs with asymmetric 3D representations and that this can reduce training efficiency, but it does not state that such methods typically require hundreds of GPUs.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 56,
+      "section_title": "4.3 Latent Diffusion for Signed Distance Function Representations",
+      "text": "Earlier work, such as 3DShape2Vecset, pioneered diffusion-based shape synthesis by using a VAE to encode 3D shapes into a latent vecset that can be decoded into neural SDFs (Wu et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a VAE and diffusion-based 3D generation framework but does not mention 3DShape2Vecset, vecset latent representations, or neural SDF decoding, so it provides no evidence for the specific pioneering claim about that prior work.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 57,
+      "section_title": "4.3 Latent Diffusion for Signed Distance Function Representations",
+      "text": "These methods leverage neural fields for shape representation, benefiting from compact latent codes and scalable generation capabilities (Wu et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a sparse-volume 3D generation framework but does not mention neural fields, compact latent codes, or scalable generation capabilities in the context of neural fields.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 59,
+      "section_title": "4.3 Latent Diffusion for Signed Distance Function Representations",
+      "text": "Li et al. (2026) describe a dual diffusion model where the global shape latent is modeled using a ResNet structure with fully-connected layers implemented as 1×1-convolutions.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The abstract describes a dual diffusion model with a Texture Diffusion Model and a Geometry Diffusion Model but provides no details about the architecture of the global shape latent, such as using a ResNet structure with fully-connected layers implemented as 1×1-convolutions.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 60,
+      "section_title": "4.3 Latent Diffusion for Signed Distance Function Representations",
+      "text": "The underlying architecture employs PVCNNs, which combine point-based processing with the spatial inductive bias of convolutions, and all conditionings on the global shape latent are applied through adaptive Group Normalization in the PVCNN layers (Li et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes a dual diffusion model framework (PromptAvatar) with Texture and Geometry Diffusion Models, but makes no mention of PVCNNs, point-based processing, spatial inductive bias of convolutions, or adaptive Group Normalization conditioned on a global shape latent.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 62,
+      "section_title": "5.1 Multi-modal Conditional Diffusion Priors for 3D Shape Generation",
+      "text": "Alam and Ahmed (2024) introduced GenCAD, a model that employs a conditional latent diffusion prior for image-to-CAD generation.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that GenCAD uses latent diffusion models to transform image inputs into parametric CAD command sequences, directly supporting the claim of a conditional latent diffusion prior for image-to-CAD generation.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 65,
+      "section_title": "5.1 Multi-modal Conditional Diffusion Priors for 3D Shape Generation",
+      "text": "In a complementary direction, Li et al. (2026) proposed a dual diffusion framework for multi-modal guided 3D avatar generation, where a multi-view depth diffusion model (MVDD) generates depth maps from pure Gaussian noise.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a dual diffusion framework (PromptAvatar) with Texture and Geometry Diffusion Models, but makes no mention of a multi-view depth diffusion model (MVDD) generating depth maps from pure Gaussian noise.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 68,
+      "section_title": "5.2 Image-Conditioned CAD Generation with Latent Diffusion Priors",
+      "text": "Alam and Ahmed (2024) introduce GenCAD, an image-conditioned CAD generation framework that leverages a conditional latent diffusion prior.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that GenCAD uses autoregressive transformers with contrastive learning and latent diffusion models to transform image inputs into parametric CAD command sequences, directly supporting the claim of an image-conditioned CAD generation framework with a conditional latent diffusion prior.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 70,
+      "section_title": "5.2 Image-Conditioned CAD Generation with Latent Diffusion Priors",
+      "text": "In evaluations, this model outperformed several baselines, including DeepCAD l-GAN, SkexGen, ContrastCAD, and the authors’ own unconditional diffusion variant, across COV, MMD, and JSD metrics (Alam & Ahmed, 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes GenCAD's outperformance over state-of-the-art methods but does not mention the specific baselines (DeepCAD l-GAN, SkexGen, ContrastCAD, authors' unconditional diffusion variant) or metrics (COV, MMD, JSD) claimed in the sentence.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 71,
+      "section_title": "5.2 Image-Conditioned CAD Generation with Latent Diffusion Priors",
+      "text": "The deterministic-prior model presented in their work also served as an additional comparison point, and the results indicated that the image-conditional diffusion prior achieved the lowest FID score, further underscoring its effectiveness (Alam & Ahmed, 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract describes GenCAD's architecture and states it outperforms existing methods, but it never mentions a deterministic-prior model, an FID score, or any comparison involving a deterministic prior versus an image-conditional diffusion prior.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 73,
+      "section_title": "5.3 Multi-View Depth Representation for Diffusion-Based Shape Generation",
+      "text": "Li et al. (2026) propose MVDD, a diffusion model that generates 3D-consistent multi-view depth maps for 3D shape generation.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper proposes PromptAvatar, a dual diffusion model for 3D avatar generation from text/image, not MVDD or multi-view depth map generation for general 3D shapes.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 76,
+      "section_title": "5.3 Multi-View Depth Representation for Diffusion-Based Shape Generation",
+      "text": "In a related direction, Alam and Ahmed (2024) employ a conditional latent diffusion prior within their GenCAD framework for image-to-CAD generation.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that GenCAD uses latent diffusion models to transform image inputs into parametric CAD command sequences, directly supporting the claim that Alam and Ahmed (2024) employ a conditional latent diffusion prior for image-to-CAD generation.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 78,
+      "section_title": "5.3 Multi-View Depth Representation for Diffusion-Based Shape Generation",
+      "text": "The diffusion prior model generates CAD latents conditioned on image latents, and the authors demonstrate that this conditional diffusion generative model outperforms several baselines, including DeepCAD l-GAN, SkexGen, ContrastCAD, and an unconditional variant, on metrics such as COV, MMD, and JSD (Alam & Ahmed, 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms GenCAD uses a diffusion prior conditioned on image latents and outperforms baselines, but it does not name DeepCAD l-GAN, SkexGen, ContrastCAD, or an unconditional variant, nor does it mention COV, MMD, or JSD metrics.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

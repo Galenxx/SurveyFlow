@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\small
+\caption{SurveyFlow vs.\ baselines, paired by topic (n=10). $\Delta$ is the mean per-topic gap (SurveyFlow $-$ baseline); CI is the paired-bootstrap 95\% interval on $\Delta$; $p$ from Wilcoxon signed-rank; $r$ is the rank-biserial effect size.}
+\label{tab:significance}
+\begin{tabular}{llrrrr}
+\toprule
+Metric & vs.\ & $\Delta$ & 95\% CI & $p$ & $r$ \\
+\midrule
+citation recall & NAIVE_RAG & 0.016 & [-0.218, 0.220] & 0.6953 & 0.164 \\
+citation precision & NAIVE_RAG & 0.043 & [-0.187, 0.236] & 0.4316 & 0.309 \\
+bare assertion rate & NAIVE_RAG & 0.016 & [-0.054, 0.090] & 0.7695 & 0.127 \\
+relevance rate & NAIVE_RAG & 0.015 & [-0.075, 0.108] & 0.7695 & 0.127 \\
+existence resolved rate & NAIVE_RAG & 0.037 & [-0.024, 0.115] & 0.0141 & 0.385 \\
+citation recall & LLM_ONLY & -0.341 & [-0.506, -0.181] & 0.0078 & -0.956 \\
+citation precision & LLM_ONLY & -0.359 & [-0.516, -0.206] & 0.0078 & -0.956 \\
+bare assertion rate & LLM_ONLY & -0.238 & [-0.286, -0.189] & 0.0039 & -1.000 \\
+relevance rate & LLM_ONLY & 0.402 & [0.194, 0.624] & 0.0039 & 0.964 \\
+existence resolved rate & LLM_ONLY & 0.275 & [0.139, 0.420] & 0.0091 & 1.000 \\
+\bottomrule
+\end{tabular}
+\end{table}

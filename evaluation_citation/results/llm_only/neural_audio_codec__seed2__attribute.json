@@ -1,0 +1,141 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "neural_audio_codec",
+  "seed": 2,
+  "topic": "Neural Audio Codecs and Discrete Speech Representations: Architectures, Tokenization, and Generative Applications",
+  "metrics": {
+    "n_cited_claims": 6,
+    "support_total": 4.5,
+    "citation_recall": 0.75,
+    "n_supported": 3,
+    "n_partial": 3,
+    "n_unsupported": 0,
+    "n_error": 0,
+    "n_citation_mounts": 6,
+    "n_contributing": 5,
+    "contributing_weight": 4.5,
+    "citation_precision": 0.75,
+    "n_not_verifiable": 1,
+    "n_claims": 45,
+    "n_claims_with_cite": 7,
+    "n_claims_bare": 38,
+    "bare_assertion_rate": 0.8444
+  },
+  "per_sentence": [
+    {
+      "sent_id": 44,
+      "section_title": "3 Architectures of Neural Audio Codecs",
+      "text": "This multi-scale adversarial approach, pioneered by SoundStream (Zeghidour et al., 2021), ensures that the reconstructed audio maintains high fidelity even at very low bitrates.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms SoundStream uses adversarial and reconstruction losses for high-quality audio and operates at low bitrates, but it does not explicitly mention a 'multi-scale adversarial approach' or that this specific technique was pioneered by SoundStream.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 45,
+      "section_title": "3 Architectures of Neural Audio Codecs",
+      "text": "Subsequent architectures, such as EnCodec, have refined this paradigm by introducing lightweight convolutional models and periodic activation functions, further improving the efficiency and quality of the reconstruction (Defossez et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms EnCodec uses a streaming encoder-decoder with quantized latent space and lightweight Transformer models for compression, but it does not mention 'periodic activation functions' or explicitly describe the model as a 'lightweight convolutional model'.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 57,
+      "section_title": "4 Tokenization and Discrete Representations",
+      "text": "For instance, AudioLM introduces a hierarchical modeling scheme where semantic tokens (derived from a self-supervised speech model like w2v-BERT) capture the linguistic content, while acoustic tokens (derived from the codec) capture the speaker identity and recording conditions (Borsos et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract states that AudioLM uses a hybrid tokenization scheme combining discretized activations from a masked language model (semantic tokens) and discrete codes from a neural audio codec (acoustic tokens), and that this approach maintains speaker identity and prosody, directly supporting the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 59,
+      "section_title": "4 Tokenization and Discrete Representations",
+      "text": "Furthermore, specialized tokenizers like SpeechTokenizer have been designed to explicitly force the first RVQ layer to capture semantic information, aligning it with self-supervised representations while leaving the remaining layers to handle acoustic residuals (Zhang et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The abstract confirms SpeechTokenizer uses RVQ and hierarchically disentangles speech information, but it does not explicitly state that the first RVQ layer is forced to capture semantic information aligned with self-supervised representations while remaining layers handle acoustic residuals.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 65,
+      "section_title": "5 Generative Applications in Speech",
+      "text": "VALL-E demonstrated the efficacy of this approach by framing TTS as a conditional language modeling task over EnCodec tokens (Wang et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that Vall-E regards TTS as a conditional language modeling task using discrete codes from a neural audio codec model, directly supporting the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 74,
+      "section_title": "6 Generative Applications in Music and Audio",
+      "text": "MusicGen exemplifies the power of this approach by utilizing a single-stage transformer language model over EnCodec tokens to generate high-quality music (Copet et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that MusicGen is a single-stage transformer language model operating over compressed discrete music tokens and generates high-quality samples, directly supporting the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 77,
+      "section_title": "6 Generative Applications in Music and Audio",
+      "text": "Similarly, AudioGen focuses on environmental sound generation, tackling the complexity of everyday acoustic scenes (Kreuk et al., 2022).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    }
+  ]
+}

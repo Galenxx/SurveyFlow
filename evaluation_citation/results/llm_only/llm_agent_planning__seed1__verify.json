@@ -1,0 +1,579 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "llm_agent_planning",
+  "seed": 1,
+  "topic": "Planning and Reasoning in Large Language Model Agents: Methods, Tool Use, and Evaluation Benchmarks",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed Chi, Quoc Le, Denny Zhou. (2022). Chain-of-Thought Prompting Elicits Reasoning in Large Language Models. arXiv:2201.11903v1.",
+      "parsed": {
+        "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+        "authors": "Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed Chi, Quoc Le, Denny Zhou",
+        "year": "2022",
+        "arxiv_id": "2201.11903v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+          "arxiv_id": "2201.11903",
+          "doi": null,
+          "year": "2022",
+          "authors": [
+            "Jason Wei",
+            "Xuezhi Wang",
+            "Dale Schuurmans",
+            "Maarten Bosma",
+            "Brian Ichter",
+            "Fei Xia",
+            "Ed Chi",
+            "Quoc Le",
+            "Denny Zhou"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2201.11903",
+          "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+          "abstract": "We explore how generating a chain of thought -- a series of intermediate reasoning steps -- significantly improves the ability of large language models to perform complex reasoning. In particular, we show how such reasoning abilities emerge naturally in sufficiently large language models via a simple method called chain of thought prompting, where a few chain of thought demonstrations are provided as exemplars in prompting. Experiments on three large language models show that chain of thought prompting improves performance on a range of arithmetic, commonsense, and symbolic reasoning tasks. The empirical gains can be striking. For instance, prompting a 540B-parameter language model with just eight chain of thought exemplars achieves state of the art accuracy on the GSM8K benchmark of math word problems, surpassing even finetuned GPT-3 with a verifier.",
+          "year": "2022",
+          "authors": [
+            "Jason Wei",
+            "Xuezhi Wang",
+            "Dale Schuurmans",
+            "Maarten Bosma",
+            "Brian Ichter",
+            "Fei Xia",
+            "Ed Chi",
+            "Quoc Le",
+            "Denny Zhou"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Lei Wang, Wanyu Xu, Yihuai Lan, Zhiqiang Hu, Yunshi Lan, Roy Ka-Wei Lee, Ee-Peng Lim. (2023). Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models. arXiv:2305.04091v1.",
+      "parsed": {
+        "title": "Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models",
+        "authors": "Lei Wang, Wanyu Xu, Yihuai Lan, Zhiqiang Hu, Yunshi Lan, Roy Ka-Wei Lee, Ee-Peng Lim",
+        "year": "2023",
+        "arxiv_id": "2305.04091v1",
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Thomas L. Griffiths, Yuan Cao, Karthik Narasimhan. (2023). Tree of Thoughts: Deliberate Problem Solving with Large Language Models. arXiv:2305.10601v1.",
+      "parsed": {
+        "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+        "authors": "Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Thomas L. Griffiths, Yuan Cao, Karthik Narasimhan",
+        "year": "2023",
+        "arxiv_id": "2305.10601v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+          "arxiv_id": "2305.10601",
+          "doi": "10.48550/arXiv.2305.10601",
+          "year": "2023",
+          "authors": [
+            "Shunyu Yao",
+            "Dian Yu",
+            "Jeffrey Zhao",
+            "Izhak Shafran",
+            "T. Griffiths",
+            "Yuan Cao",
+            "Karthik Narasimhan"
+          ]
+        },
+        {
+          "title": "Automatic Bug Fixing via Deliberate Problem Solving with Large Language Models",
+          "arxiv_id": null,
+          "doi": "10.1109/ISSREW60843.2023.00040",
+          "year": "2023",
+          "authors": [
+            "Guoyang Weng",
+            "Artur Andrzejak"
+          ]
+        },
+        {
+          "title": "A Review of System 2 Reasoning from Cognitive Theories to Algorithmic Innovations",
+          "arxiv_id": null,
+          "doi": "10.1109/IEIR67391.2025.11491040",
+          "year": "2025",
+          "authors": [
+            "Xinguo Yu",
+            "Jing Xia",
+            "Chuanzhi Yang"
+          ]
+        },
+        {
+          "title": "Chain of Preference Optimization: Improving Chain-of-Thought Reasoning in LLMs",
+          "arxiv_id": "2406.09136",
+          "doi": "10.48550/arXiv.2406.09136",
+          "year": "2024",
+          "authors": [
+            "Xuan Zhang",
+            "Chao Du",
+            "Tianyu Pang",
+            "Qian Liu",
+            "Wei Gao",
+            "Min Lin"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2305.10601",
+          "doi": "10.48550/arXiv.2305.10601",
+          "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+          "abstract": "Language models are increasingly being deployed for general problem solving across a wide range of tasks, but are still confined to token-level, left-to-right decision-making processes during inference. This means they can fall short in tasks that require exploration, strategic lookahead, or where initial decisions play a pivotal role. To surmount these challenges, we introduce a new framework for language model inference, Tree of Thoughts (ToT), which generalizes over the popular Chain of Thought approach to prompting language models, and enables exploration over coherent units of text (thoughts) that serve as intermediate steps toward problem solving. ToT allows LMs to perform deliberate decision making by considering multiple different reasoning paths and self-evaluating choices to decide the next course of action, as well as looking ahead or backtracking when necessary to make global choices. Our experiments show that ToT significantly enhances language models' problem-solving abilities on three novel tasks requiring non-trivial planning or search: Game of 24, Creative Writing, and Mini Crosswords. For instance, in Game of 24, while GPT-4 with chain-of-thought prompting only solved 4% of tasks, our method achieved a success rate of 74%. Code repo with all prompts: https://github.com/princeton-nlp/tree-of-thought-llm.",
+          "year": "2023",
+          "authors": [
+            "Shunyu Yao",
+            "Dian Yu",
+            "Jeffrey Zhao",
+            "Izhak Shafran",
+            "T. Griffiths",
+            "Yuan Cao",
+            "Karthik Narasimhan"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 4227
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Maciej Besta, Nils Blach, Ales Kubicek, Robert Gerstenberger, Lukas Gianinazzi, Joanna Gajda, Tomasz Lehmann, Michal Podstawski, Hubert Niewiadomski, Piotr Nyczyk, Torsten Hoefler. (2023). Graph of Thoughts: Solving Elaborate Problems with Large Language Models. arXiv:2308.09687v1.",
+      "parsed": {
+        "title": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+        "authors": "Maciej Besta, Nils Blach, Ales Kubicek, Robert Gerstenberger, Lukas Gianinazzi, Joanna Gajda, Tomasz Lehmann, Michal Podstawski, Hubert Niewiadomski, Piotr Nyczyk, Torsten Hoefler",
+        "year": "2023",
+        "arxiv_id": "2308.09687v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+          "arxiv_id": "2308.09687",
+          "doi": "10.1609/aaai.v38i16.29720",
+          "year": "2023",
+          "authors": [
+            "Maciej Besta",
+            "Nils Blach",
+            "Aleš Kubíček",
+            "Robert Gerstenberger",
+            "Lukas Gianinazzi",
+            "Joanna Gajda",
+            "Tomasz Lehmann",
+            "Michal Podstawski",
+            "H. Niewiadomski",
+            "Piotr Nyczyk",
+            "Torsten Hoefler"
+          ]
+        },
+        {
+          "title": "Reinforced Graph of Thoughts: RL-Driven Adaptive Prompting for LLMs",
+          "arxiv_id": "2605.22195",
+          "doi": null,
+          "year": "2026",
+          "authors": [
+            "Manuel Noah Riesen",
+            "Peter Alfred von Niederhausern"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2308.09687",
+          "doi": "10.1609/aaai.v38i16.29720",
+          "title": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+          "abstract": "We introduce Graph of Thoughts (GoT): a framework that\nadvances prompting capabilities in large language models\n(LLMs) beyond those offered by paradigms such as \nChain-of-Thought or Tree of Thoughts (ToT). The key idea and \nprimary advantage of GoT is the ability to model the information \ngenerated by an LLM as an arbitrary graph, where units of \ninformation (\"LLM thoughts\") are vertices, and edges correspond\nto dependencies between these vertices. This approach enables \ncombining arbitrary LLM thoughts into synergistic outcomes, \ndistilling the essence of whole networks of thoughts,\nor enhancing thoughts using feedback loops. We illustrate\nthat GoT offers advantages over state of the art on different\ntasks, for example increasing the quality of sorting by 62%\nover ToT, while simultaneously reducing costs by >31%.\nWe ensure that GoT is extensible with new thought \ntransformations and thus can be used to spearhead new prompting\nschemes. This work brings the LLM reasoning closer to human \nthinking or brain mechanisms such as recurrence, both\nof which form complex networks",
+          "year": "2023",
+          "authors": [
+            "Maciej Besta",
+            "Nils Blach",
+            "Aleš Kubíček",
+            "Robert Gerstenberger",
+            "Lukas Gianinazzi",
+            "Joanna Gajda",
+            "Tomasz Lehmann",
+            "Michal Podstawski",
+            "H. Niewiadomski",
+            "Piotr Nyczyk",
+            "Torsten Hoefler"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 1384
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 4,
+      "raw": "Noah Shinn, Federico Cassano, Ashwin Gopinath, Karthik Narasimhan, Shunyu Yao. (2023). Reflexion: Language Agents with Verbal Reinforcement Learning. arXiv:2303.11366v1.",
+      "parsed": {
+        "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+        "authors": "Noah Shinn, Federico Cassano, Ashwin Gopinath, Karthik Narasimhan, Shunyu Yao",
+        "year": "2023",
+        "arxiv_id": "2303.11366v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+          "arxiv_id": "2303.11366",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Noah Shinn",
+            "Federico Cassano",
+            "Edward Berman",
+            "Ashwin Gopinath",
+            "Karthik Narasimhan",
+            "Shunyu Yao"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2303.11366",
+          "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+          "abstract": "Large language models (LLMs) have been increasingly used to interact with external environments (e.g., games, compilers, APIs) as goal-driven agents. However, it remains challenging for these language agents to quickly and efficiently learn from trial-and-error as traditional reinforcement learning methods require extensive training samples and expensive model fine-tuning. We propose Reflexion, a novel framework to reinforce language agents not by updating weights, but instead through linguistic feedback. Concretely, Reflexion agents verbally reflect on task feedback signals, then maintain their own reflective text in an episodic memory buffer to induce better decision-making in subsequent trials. Reflexion is flexible enough to incorporate various types (scalar values or free-form language) and sources (external or internally simulated) of feedback signals, and obtains significant improvements over a baseline agent across diverse tasks (sequential decision-making, coding, language reasoning). For example, Reflexion achieves a 91% pass@1 accuracy on the HumanEval coding benchmark, surpassing the previous state-of-the-art GPT-4 that achieves 80%. We also conduct ablation and analysis studies using different feedback signals, feedback incorporation methods, and agent types, and provide insights into how they affect performance.",
+          "year": "2023",
+          "authors": [
+            "Noah Shinn",
+            "Federico Cassano",
+            "Edward Berman",
+            "Ashwin Gopinath",
+            "Karthik Narasimhan",
+            "Shunyu Yao"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 5,
+      "raw": "Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, Yuan Cao. (2023). ReAct: Synergizing Reasoning and Acting in Language Models. arXiv:2210.03629v1.",
+      "parsed": {
+        "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+        "authors": "Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, Yuan Cao",
+        "year": "2023",
+        "arxiv_id": "2210.03629v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+          "arxiv_id": "2210.03629",
+          "doi": null,
+          "year": "2022",
+          "authors": [
+            "Shunyu Yao",
+            "Jeffrey Zhao",
+            "Dian Yu",
+            "Nan Du",
+            "Izhak Shafran",
+            "Karthik Narasimhan",
+            "Yuan Cao"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2210.03629",
+          "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+          "abstract": "While large language models (LLMs) have demonstrated impressive capabilities across tasks in language understanding and interactive decision making, their abilities for reasoning (e.g. chain-of-thought prompting) and acting (e.g. action plan generation) have primarily been studied as separate topics. In this paper, we explore the use of LLMs to generate both reasoning traces and task-specific actions in an interleaved manner, allowing for greater synergy between the two: reasoning traces help the model induce, track, and update action plans as well as handle exceptions, while actions allow it to interface with external sources, such as knowledge bases or environments, to gather additional information. We apply our approach, named ReAct, to a diverse set of language and decision making tasks and demonstrate its effectiveness over state-of-the-art baselines, as well as improved human interpretability and trustworthiness over methods without reasoning or acting components. Concretely, on question answering (HotpotQA) and fact verification (Fever), ReAct overcomes issues of hallucination and error propagation prevalent in chain-of-thought reasoning by interacting with a simple Wikipedia API, and generates human-like task-solving trajectories that are more interpretable than baselines without reasoning traces. On two interactive decision making benchmarks (ALFWorld and WebShop), ReAct outperforms imitation and reinforcement learning methods by an absolute success rate of 34% and 10% respectively, while being prompted with only one or two in-context examples. Project site with code: https://react-lm.github.io",
+          "year": "2022",
+          "authors": [
+            "Shunyu Yao",
+            "Jeffrey Zhao",
+            "Dian Yu",
+            "Nan Du",
+            "Izhak Shafran",
+            "Karthik Narasimhan",
+            "Yuan Cao"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 6,
+      "raw": "Timo Schick, Jane Dwivedi-Yu, Roberto Dessì, Roberta Raileanu, Maria Lomeli, Luke Zettlemoyer, Nicola Cancedda, Thomas Scialom. (2023). Toolformer: Language Models Can Teach Themselves to Use Tools. arXiv:2302.04761v1.",
+      "parsed": {
+        "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+        "authors": "Timo Schick, Jane Dwivedi-Yu, Roberto Dessì, Roberta Raileanu, Maria Lomeli, Luke Zettlemoyer, Nicola Cancedda, Thomas Scialom",
+        "year": "2023",
+        "arxiv_id": "2302.04761v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+          "arxiv_id": "2302.04761",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Timo Schick",
+            "Jane Dwivedi-Yu",
+            "Roberto Dessì",
+            "Roberta Raileanu",
+            "Maria Lomeli",
+            "Luke Zettlemoyer",
+            "Nicola Cancedda",
+            "Thomas Scialom"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2302.04761",
+          "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+          "abstract": "Language models (LMs) exhibit remarkable abilities to solve new tasks from just a few examples or textual instructions, especially at scale. They also, paradoxically, struggle with basic functionality, such as arithmetic or factual lookup, where much simpler and smaller models excel. In this paper, we show that LMs can teach themselves to use external tools via simple APIs and achieve the best of both worlds. We introduce Toolformer, a model trained to decide which APIs to call, when to call them, what arguments to pass, and how to best incorporate the results into future token prediction. This is done in a self-supervised way, requiring nothing more than a handful of demonstrations for each API. We incorporate a range of tools, including a calculator, a Q\\&A system, two different search engines, a translation system, and a calendar. Toolformer achieves substantially improved zero-shot performance across a variety of downstream tasks, often competitive with much larger models, without sacrificing its core language modeling abilities.",
+          "year": "2023",
+          "authors": [
+            "Timo Schick",
+            "Jane Dwivedi-Yu",
+            "Roberto Dessì",
+            "Roberta Raileanu",
+            "Maria Lomeli",
+            "Luke Zettlemoyer",
+            "Nicola Cancedda",
+            "Thomas Scialom"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 7,
+      "raw": "Yongliang Shen, Kaitao Song, Xu Tan, Dongsheng Li, Weiming Lu, Yueting Zhuang. (2023). HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face. arXiv:2303.17580v1.",
+      "parsed": {
+        "title": "HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face",
+        "authors": "Yongliang Shen, Kaitao Song, Xu Tan, Dongsheng Li, Weiming Lu, Yueting Zhuang",
+        "year": "2023",
+        "arxiv_id": "2303.17580v1",
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 8,
+      "raw": "Shunyu Yao, Howard Chen, John Yang, Karthik Narasimhan. (2022). WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents. arXiv:2207.01206v1.",
+      "parsed": {
+        "title": "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents",
+        "authors": "Shunyu Yao, Howard Chen, John Yang, Karthik Narasimhan",
+        "year": "2022",
+        "arxiv_id": "2207.01206v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents",
+          "arxiv_id": "2207.01206",
+          "doi": "10.48550/arXiv.2207.01206",
+          "year": "2022",
+          "authors": [
+            "Shunyu Yao",
+            "Howard Chen",
+            "John Yang",
+            "Karthik Narasimhan"
+          ]
+        },
+        {
+          "title": "Web-CogReasoner: Towards Knowledge-Induced Cognitive Reasoning for Web Agents",
+          "arxiv_id": "2508.01858",
+          "doi": "10.48550/arXiv.2508.01858",
+          "year": "2025",
+          "authors": [
+            "Yuhan Guo",
+            "Congchao Guo",
+            "Aiwen Sun",
+            "Hongliang He",
+            "Xinyu Yang",
+            "Yue Lu",
+            "Yingji Zhang",
+            "Xuntao Guo",
+            "Dong Zhang",
+            "Jianzhuang Liu",
+            "Jiang Duan",
+            "Yijia Xiao",
+            "Liangjian Wen",
+            "Hainiu Xu",
+            "Yong Dai"
+          ]
+        },
+        {
+          "title": "Towards an Enhanced, Faithful, and Adaptable Web Interaction Environment",
+          "arxiv_id": null,
+          "doi": null,
+          "year": "2022",
+          "authors": [
+            "John Yang",
+            "Howard Chen",
+            "Karthik Narasimhan"
+          ]
+        },
+        {
+          "title": "WoW: Towards a World omniscient World model Through Embodied Interaction",
+          "arxiv_id": "2509.22642",
+          "doi": "10.48550/arXiv.2509.22642",
+          "year": "2025",
+          "authors": [
+            "Xiaowei Chi",
+            "Peidong Jia",
+            "Chunkai Fan",
+            "Xiaozhu Ju",
+            "Weishi Mi",
+            "Kevin Zhang",
+            "Zhiyuan Qin",
+            "Wanxin Tian",
+            "Kuangzhi Ge",
+            "Hao Li",
+            "Zezhong Qian",
+            "Anthony Chen",
+            "Qiang Zhou",
+            "Yueru Jia",
+            "Jiaming Liu",
+            "Yong Dai",
+            "Qingpo Wuwu",
+            "Chengyu Bai",
+            "Yu-Kai Wang",
+            "Ying Li",
+            "Lizhang Chen",
+            "Yong Bao",
+            "Zhiyuan Jiang",
+            "Jiacheng Zhu",
+            "Kai-fa Tang",
+            "Ruichuan An",
+            "Yu Luo",
+            "Qi Feng",
+            "Si-yuan Zhou",
+            "Chi-Min Chan",
+            "Chengkai Hou",
+            "Weihong Xue",
+            "Sirui Han",
+            "Yi-Ting Guo",
+            "Shanghang Zhang",
+            "Jian Tang"
+          ]
+        },
+        {
+          "title": "DynaWeb: Model-Based Reinforcement Learning of Web Agents",
+          "arxiv_id": "2601.22149",
+          "doi": "10.48550/arXiv.2601.22149",
+          "year": "2026",
+          "authors": [
+            "Han Ding",
+            "Peidong Liu",
+            "Junqiao Wang",
+            "Z. Ji",
+            "Meng Cao",
+            "Rongzhao Zhang",
+            "Lynn Ai",
+            "Eric Yang",
+            "Tianyu Shi",
+            "Lei Yu"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2207.01206",
+          "doi": "10.48550/arXiv.2207.01206",
+          "title": "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents",
+          "abstract": "Existing benchmarks for grounding language in interactive environments either lack real-world linguistic elements, or prove difficult to scale up due to substantial human involvement in the collection of data or feedback signals. To bridge this gap, we develop WebShop -- a simulated e-commerce website environment with $1.18$ million real-world products and $12,087$ crowd-sourced text instructions. Given a text instruction specifying a product requirement, an agent needs to navigate multiple types of webpages and issue diverse actions to find, customize, and purchase an item. WebShop provides several challenges for language grounding including understanding compositional instructions, query (re-)formulation, comprehending and acting on noisy text in webpages, and performing strategic exploration. We collect over $1,600$ human demonstrations for the task, and train and evaluate a diverse range of agents using reinforcement learning, imitation learning, and pre-trained image and language models. Our best model achieves a task success rate of $29\\%$, which outperforms rule-based heuristics ($9.6\\%$) but is far lower than human expert performance ($59\\%$). We also analyze agent and human trajectories and ablate various model components to provide insights for developing future agents with stronger language understanding and decision making abilities. Finally, we show that agents trained on WebShop exhibit non-trivial sim-to-real transfer when evaluated on amazon.com and ebay.com, indicating the potential value of WebShop in developing practical web-based agents that can operate in the wild.",
+          "year": "2022",
+          "authors": [
+            "Shunyu Yao",
+            "Howard Chen",
+            "John Yang",
+            "Karthik Narasimhan"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 1094
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 9,
+      "raw": "Xiao Liu, Hao Yu, Hanchen Zhang, Yifan Xu, Xuanyu Lei, Hanyu Lai, Yu Gu, Hang Ding, Kaiwen Men, Kecheng Yang et al. (2023). AgentBench: Evaluating LLMs as Agents. arXiv:2308.03688v1.",
+      "parsed": {
+        "title": "AgentBench: Evaluating LLMs as Agents",
+        "authors": "Xiao Liu, Hao Yu, Hanchen Zhang, Yifan Xu, Xuanyu Lei, Hanyu Lai, Yu Gu, Hang Ding, Kaiwen Men, Kecheng Yang et al",
+        "year": "2023",
+        "arxiv_id": "2308.03688v1",
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    }
+  ]
+}

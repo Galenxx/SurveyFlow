@@ -1,0 +1,207 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "short_video_misinfo",
+  "seed": 1,
+  "topic": "Detection of Misinformation and Harmful Content on Short-Form Video Platforms: Methods, Datasets, and Multimodal Approaches",
+  "n_references": 4,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Tian, C., Wang, Y., Yang, C., Guan, J., Lin, Z., Liu, Y., Chen, X., & Ho, Q. (2026). Exposing Cross-Modal Consistency for Fake News Detection in Short-Form Videos. arXiv:2603.14992v1.",
+      "parsed": {
+        "title": "Exposing Cross-Modal Consistency for Fake News Detection in Short-Form Videos",
+        "authors": "Tian, C., Wang, Y., Yang, C., Guan, J., Lin, Z., Liu, Y., Chen, X., & Ho, Q",
+        "year": "2026",
+        "arxiv_id": "2603.14992v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Exposing Cross-Modal Consistency for Fake News Detection in Short-Form Videos",
+          "arxiv_id": "2603.14992",
+          "doi": null,
+          "year": "2026",
+          "authors": [
+            "Chong Tian",
+            "Yu Wang",
+            "Chenxu Yang",
+            "Junyi Guan",
+            "Zheng Lin",
+            "Yuhan Liu",
+            "Xiuying Chen",
+            "Qirong Ho"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2603.14992",
+          "title": "Exposing Cross-Modal Consistency for Fake News Detection in Short-Form Videos",
+          "abstract": "Short-form video platforms are major channels for news but also fertile ground for multimodal misinformation where each modality appears plausible alone yet cross-modal relationships are subtly inconsistent, like mismatched visuals and captions. On two benchmark datasets, FakeSV (Chinese) and FakeTT (English), we observe a clear asymmetry: real videos exhibit high text-visual but moderate text-audio consistency, while fake videos show the opposite pattern. Moreover, a single global consistency score forms an interpretable axis along which fake probability and prediction errors vary smoothly. Motivated by these observations, we present MAGIC3 (Modal-Adversarial Gated Interaction and Consistency-Centric Classifier), a detector that explicitly models and exposes cross-tri-modal consistency signals at multiple granularities. MAGIC3 combines explicit pairwise and global consistency modeling with token- and frame-level consistency signals derived from cross-modal attention, incorporates multi-style LLM rewrites to obtain style-robust text representations, and employs an uncertainty-aware classifier for selective VLM routing. Using pre-extracted features, MAGIC3 consistently outperforms the strongest non-VLM baselines on FakeSV and FakeTT. While matching VLM-level accuracy, the two-stage system achieves 18-27x higher throughput and 93% VRAM savings, offering a strong cost-performance tradeoff.",
+          "year": "2026",
+          "authors": [
+            "Chong Tian",
+            "Yu Wang",
+            "Chenxu Yang",
+            "Junyi Guan",
+            "Zheng Lin",
+            "Yuhan Liu",
+            "Xiuying Chen",
+            "Qirong Ho"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Feng, Y., Li, J., Lu, Q., Ji, W., Zhang, J., Shen, F., Li, X., Jia, Y., Chen, Q., Wang, L., Li, W., & Qin, J. (2026). Explainable Forensics of Manipulated Segments in Untrimmed Long Videos. arXiv:2606.02402.",
+      "parsed": {
+        "title": "Explainable Forensics of Manipulated Segments in Untrimmed Long Videos",
+        "authors": "Feng, Y., Li, J., Lu, Q., Ji, W., Zhang, J., Shen, F., Li, X., Jia, Y., Chen, Q., Wang, L., Li, W., & Qin, J",
+        "year": "2026",
+        "arxiv_id": "2606.02402",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Explainable Forensics of Manipulated Segments in Untrimmed Long Videos",
+          "arxiv_id": "2606.02402",
+          "doi": null,
+          "year": "2026",
+          "authors": [
+            "Yue Feng",
+            "Jingjing Li",
+            "Qijia Lu",
+            "Wei Ji",
+            "Jingrou Zhang",
+            "Fei Shen",
+            "Xiao Li",
+            "Yizhen Jia",
+            "Qiang Chen",
+            "Limin Wang",
+            "Wentong Li",
+            "Jie Qin"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2606.02402",
+          "title": "Explainable Forensics of Manipulated Segments in Untrimmed Long Videos",
+          "abstract": "The rapid advancement of AI-driven video generation has transformed content creation, while simultaneously increasing the risk of misinformation through localized manipulations in long-form videos. Existing video forensic methods predominantly operate on short, independent clips, and thus fail to capture realistic scenarios where AI-generated content is sparsely embedded within otherwise authentic footage. To bridge this gap, we formulate the task of Temporal AI-Generated Segment Localization and Explanation, which targets authenticity detection, temporal localization, and interpretable analysis of manipulated segments in untrimmed long videos. We further introduce TASLE, a large-scale benchmark comprising 12,472 untrimmed videos with diverse manipulation patterns and rich annotation signals, including temporal boundaries, authenticity labels, and segment-level rationales. In addition, we propose MSLoc, a coarse-to-fine forensic baseline that combines a boundary-sensitive proposal generation module for efficient long-video scanning with an MLLM-based refinement module for precise boundary localization and interpretable reasoning. Experiments validate the effectiveness of the proposed baseline, highlighting the importance of segment-level explainable forensics for long-form AI-generated video analysis. Our dataset and code are publicly available at https://debby-0527.github.io/TASLE.",
+          "year": "2026",
+          "authors": [
+            "Yue Feng",
+            "Jingjing Li",
+            "Qijia Lu",
+            "Wei Ji",
+            "Jingrou Zhang",
+            "Fei Shen",
+            "Xiao Li",
+            "Yizhen Jia",
+            "Qiang Chen",
+            "Limin Wang",
+            "Wentong Li",
+            "Jie Qin"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Kan, A., Kan, C., & Nabulsi, Z. (2024). ViMGuard: A Novel Multi-Modal System for Video Misinformation Guarding. arXiv:2410.16592.",
+      "parsed": {
+        "title": "ViMGuard: A Novel Multi-Modal System for Video Misinformation Guarding",
+        "authors": "Kan, A., Kan, C., & Nabulsi, Z",
+        "year": "2024",
+        "arxiv_id": "2410.16592",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "ViMGuard: A Novel Multi-Modal System for Video Misinformation Guarding",
+          "arxiv_id": "2410.16592",
+          "doi": null,
+          "year": "2024",
+          "authors": [
+            "Andrew Kan",
+            "Christopher Kan",
+            "Zaid Nabulsi"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2410.16592",
+          "title": "ViMGuard: A Novel Multi-Modal System for Video Misinformation Guarding",
+          "abstract": "The rise of social media and short-form video (SFV) has facilitated a breeding ground for misinformation. With the emergence of large language models, significant research has gone into curbing this misinformation problem with automatic false claim detection for text. Unfortunately, the automatic detection of misinformation in SFV is a more complex problem that remains largely unstudied. While text samples are monomodal (only containing words), SFVs comprise three different modalities: words, visuals, and non-linguistic audio. In this work, we introduce Video Masked Autoencoders for Misinformation Guarding (ViMGuard), the first deep-learning architecture capable of fact-checking an SFV through analysis of all three of its constituent modalities. ViMGuard leverages a dual-component system. First, Video and Audio Masked Autoencoders analyze the visual and non-linguistic audio elements of a video to discern its intention; specifically whether it intends to make an informative claim. If it is deemed that the SFV has informative intent, it is passed through our second component: a Retrieval Augmented Generation system that validates the factual accuracy of spoken words. In evaluation, ViMGuard outperformed three cutting-edge fact-checkers, thus setting a new standard for SFV fact-checking and marking a significant stride toward trustworthy news on social platforms. To promote further testing and iteration, VimGuard was deployed into a Chrome extension and all code was open-sourced on GitHub.",
+          "year": "2024",
+          "authors": [
+            "Andrew Kan",
+            "Christopher Kan",
+            "Zaid Nabulsi"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Vatndal, H., & Setty, V. (2025). ShortCheck: Checkworthiness Detection of Multilingual Short-Form Videos. arXiv:2509.20467v1.",
+      "parsed": {
+        "title": "ShortCheck: Checkworthiness Detection of Multilingual Short-Form Videos",
+        "authors": "Vatndal, H., & Setty, V",
+        "year": "2025",
+        "arxiv_id": "2509.20467v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "ShortCheck: Checkworthiness Detection of Multilingual Short-Form Videos",
+          "arxiv_id": "2509.20467",
+          "doi": null,
+          "year": "2025",
+          "authors": [
+            "Henrik Vatndal",
+            "Vinay Setty"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2509.20467",
+          "title": "ShortCheck: Checkworthiness Detection of Multilingual Short-Form Videos",
+          "abstract": "Short-form video platforms like TikTok present unique challenges for misinformation detection due to their multimodal, dynamic, and noisy content. We present ShortCheck, a modular, inference-only pipeline with a user-friendly interface that automatically identifies checkworthy short-form videos to help human fact-checkers. The system integrates speech transcription, OCR, object and deepfake detection, video-to-text summarization, and claim verification. ShortCheck is validated by evaluating it on two manually annotated datasets with TikTok videos in a multilingual setting. The pipeline achieves promising results with F1-weighted score over 70\\%.",
+          "year": "2025",
+          "authors": [
+            "Henrik Vatndal",
+            "Vinay Setty"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    }
+  ]
+}

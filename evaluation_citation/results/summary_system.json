@@ -1,0 +1,152 @@
+[
+  {
+    "system": "SURVEYFLOW",
+    "n_cells": 30,
+    "n_cells_complete": 30,
+    "citation_recall": {
+      "num": 135.0,
+      "den": 423,
+      "rate": 0.3191489361702128,
+      "ci_low": 0.27652394138755265,
+      "ci_high": 0.3650292717950424
+    },
+    "citation_precision": {
+      "num": 135,
+      "den": 435,
+      "rate": 0.3103448275862069,
+      "ci_low": 0.26868793276792974,
+      "ci_high": 0.3553221884238625
+    },
+    "bare_assertion_rate": {
+      "num": 577,
+      "den": 1033,
+      "rate": 0.558567279767667,
+      "ci_low": 0.5281242554407526,
+      "ci_high": 0.5885763090427711
+    },
+    "existence_resolved_rate": {
+      "num": 187,
+      "den": 213,
+      "rate": 0.8779342723004695,
+      "ci_low": 0.8271547807977483,
+      "ci_high": 0.9153226774021544
+    },
+    "n_references": 213,
+    "n_padding": 0,
+    "n_failures": 26,
+    "n_genuinely_fabricated": 0,
+    "failure_distribution": {
+      "METADATA_PARSE_ERROR": 9,
+      "ID_EXTRACTION_FAIL": 13,
+      "DEDUP_COLLISION": 4,
+      "GENUINELY_FABRICATED": 0
+    },
+    "relevance_rate": {
+      "num": 153.5,
+      "den": 213,
+      "rate": 0.7206572769953051,
+      "ci_low": 0.6593579768509708,
+      "ci_high": 0.7787498400992823
+    }
+  },
+  {
+    "system": "NAIVE_RAG",
+    "n_cells": 30,
+    "n_cells_complete": 30,
+    "citation_recall": {
+      "num": 60.5,
+      "den": 241,
+      "rate": 0.25103734439834025,
+      "ci_low": 0.19859436556294152,
+      "ci_high": 0.30720856988593637
+    },
+    "citation_precision": {
+      "num": 54,
+      "den": 243,
+      "rate": 0.2222222222222222,
+      "ci_low": 0.1745011376529218,
+      "ci_high": 0.27858942730857567
+    },
+    "bare_assertion_rate": {
+      "num": 299,
+      "den": 556,
+      "rate": 0.5377697841726619,
+      "ci_low": 0.4962097207915455,
+      "ci_high": 0.5788114994964788
+    },
+    "existence_resolved_rate": {
+      "num": 108,
+      "den": 129,
+      "rate": 0.8372093023255814,
+      "ci_low": 0.7639248829731806,
+      "ci_high": 0.8909904447554828
+    },
+    "n_references": 129,
+    "n_padding": 0,
+    "n_failures": 21,
+    "n_genuinely_fabricated": 0,
+    "failure_distribution": {
+      "METADATA_PARSE_ERROR": 12,
+      "ID_EXTRACTION_FAIL": 6,
+      "DEDUP_COLLISION": 3,
+      "GENUINELY_FABRICATED": 0
+    },
+    "relevance_rate": {
+      "num": 85.0,
+      "den": 129,
+      "rate": 0.6589147286821705,
+      "ci_low": 0.5735696766330289,
+      "ci_high": 0.7350685812620881
+    }
+  },
+  {
+    "system": "LLM_ONLY",
+    "n_cells": 30,
+    "n_cells_complete": 30,
+    "citation_recall": {
+      "num": 75.5,
+      "den": 126,
+      "rate": 0.5992063492063492,
+      "ci_low": 0.5159134936356949,
+      "ci_high": 0.6843304959639404
+    },
+    "citation_precision": {
+      "num": 74,
+      "den": 126,
+      "rate": 0.5873015873015873,
+      "ci_low": 0.49999624827931977,
+      "ci_high": 0.6694409736896024
+    },
+    "bare_assertion_rate": {
+      "num": 663,
+      "den": 824,
+      "rate": 0.8046116504854369,
+      "ci_low": 0.7761511143803396,
+      "ci_high": 0.8302450850858386
+    },
+    "existence_resolved_rate": {
+      "num": 131,
+      "den": 193,
+      "rate": 0.6787564766839378,
+      "ci_low": 0.6099409411633322,
+      "ci_high": 0.7405947179656324
+    },
+    "n_references": 300,
+    "n_padding": 107,
+    "n_failures": 62,
+    "n_genuinely_fabricated": 25,
+    "failure_distribution": {
+      "METADATA_PARSE_ERROR": 1,
+      "ID_EXTRACTION_FAIL": 0,
+      "DEDUP_COLLISION": 36,
+      "GENUINELY_FABRICATED": 25
+    },
+    "relevance_rate": {
+      "num": 107.0,
+      "den": 300,
+      "rate": 0.3566666666666667,
+      "ci_low": 0.3045865042894623,
+      "ci_high": 0.41237127897655523
+    }
+  }
+]

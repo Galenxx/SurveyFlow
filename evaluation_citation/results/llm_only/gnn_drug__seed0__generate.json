@@ -1,0 +1,16 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "gnn_drug",
+  "seed": 0,
+  "md_path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\llm_only\\Graph_Neural_Networks_for_Drug_Discovery_and_Molec__glm-5.1__seed0.md",
+  "survey_id": "",
+  "n_references_requested": 10,
+  "n_references_realized": 10,
+  "corpus_stats": {
+    "n_papers_in_list": 0,
+    "n_collections_embedded": 0,
+    "n_citation_meta": 0,
+    "total_chunks": 0,
+    "note": "LLM_ONLY has no retrieval corpus by construction"
+  }
+}

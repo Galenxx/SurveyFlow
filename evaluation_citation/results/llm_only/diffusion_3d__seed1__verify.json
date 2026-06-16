@@ -1,0 +1,883 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "diffusion_3d",
+  "seed": 1,
+  "topic": "Diffusion Models for 3D Shape and Scene Generation: Methods, Representations, and Evaluation",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Ho, Jain, and Abbeel. (2020). Denoising Diffusion Probabilistic Models. arXiv:2006.11239v2.",
+      "parsed": {
+        "title": "Denoising Diffusion Probabilistic Models",
+        "authors": "Ho, Jain, and Abbeel",
+        "year": "2020",
+        "arxiv_id": "2006.11239v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Denoising Diffusion Probabilistic Models",
+          "arxiv_id": "2006.11239",
+          "doi": null,
+          "year": "2020",
+          "authors": [
+            "Jonathan Ho",
+            "Ajay Jain",
+            "P. Abbeel"
+          ]
+        },
+        {
+          "title": "Improved Denoising Diffusion Probabilistic Models",
+          "arxiv_id": "2102.09672",
+          "doi": null,
+          "year": "2021",
+          "authors": [
+            "Alex Nichol",
+            "Prafulla Dhariwal"
+          ]
+        },
+        {
+          "title": "RePaint: Inpainting using Denoising Diffusion Probabilistic Models",
+          "arxiv_id": "2201.09865",
+          "doi": "10.1109/CVPR52688.2022.01117",
+          "year": "2022",
+          "authors": [
+            "Andreas Lugmayr",
+            "Martin Danelljan",
+            "Andrés Romero",
+            "F. Yu",
+            "R. Timofte",
+            "L. Gool"
+          ]
+        },
+        {
+          "title": "ILVR: Conditioning Method for Denoising Diffusion Probabilistic Models",
+          "arxiv_id": "2108.02938",
+          "doi": "10.1109/iccv48922.2021.01410",
+          "year": "2021",
+          "authors": [
+            "Jooyoung Choi",
+            "Sungwon Kim",
+            "Yonghyun Jeong",
+            "Youngjune Gwon",
+            "Sungroh Yoon"
+          ]
+        },
+        {
+          "title": "AnoDDPM: Anomaly Detection with Denoising Diffusion Probabilistic Models using Simplex Noise",
+          "arxiv_id": null,
+          "doi": "10.1109/CVPRW56347.2022.00080",
+          "year": "2022",
+          "authors": [
+            "Julian Wyatt",
+            "Adam Leach",
+            "Sebastian M. Schmon",
+            "Chris G. Willcocks"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2006.11239",
+          "doi": null,
+          "title": "Denoising Diffusion Probabilistic Models",
+          "abstract": "We present high quality image synthesis results using diffusion probabilistic models, a class of latent variable models inspired by considerations from nonequilibrium thermodynamics. Our best results are obtained by training on a weighted variational bound designed according to a novel connection between diffusion probabilistic models and denoising score matching with Langevin dynamics, and our models naturally admit a progressive lossy decompression scheme that can be interpreted as a generalization of autoregressive decoding. On the unconditional CIFAR10 dataset, we obtain an Inception score of 9.46 and a state-of-the-art FID score of 3.17. On 256x256 LSUN, we obtain sample quality similar to ProgressiveGAN. Our implementation is available at this https URL",
+          "year": "2020",
+          "authors": [
+            "Jonathan Ho",
+            "Ajay Jain",
+            "P. Abbeel"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 31711
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Luo and Hu. (2021). Diffusion Probabilistic Models for 3D Point Cloud Generation. arXiv:2104.02616v2.",
+      "parsed": {
+        "title": "Diffusion Probabilistic Models for 3D Point Cloud Generation",
+        "authors": "Luo and Hu",
+        "year": "2021",
+        "arxiv_id": "2104.02616v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Diffusion Probabilistic Models for 3D Point Cloud Generation",
+          "arxiv_id": "2103.01458",
+          "doi": "10.1109/CVPR46437.2021.00286",
+          "year": "2021",
+          "authors": [
+            "Shitong Luo",
+            "Wei Hu"
+          ]
+        },
+        {
+          "title": "LiDAR Point Cloud Image-based Generation Using Denoising Diffusion Probabilistic Models",
+          "arxiv_id": "2509.18917",
+          "doi": "10.1109/ICVES65691.2025.11376500",
+          "year": "2025",
+          "authors": [
+            "Amirhesam Aghanouri",
+            "Cristina Olaverri-Monreal"
+          ]
+        },
+        {
+          "title": "SeaLion: Semantic Part-Aware Latent Point Diffusion Models for 3D Generation",
+          "arxiv_id": "2505.17721",
+          "doi": "10.1109/CVPR52734.2025.01101",
+          "year": "2025",
+          "authors": [
+            "Dekai Zhu",
+            "Yan Di",
+            "Stefan Gavranovic",
+            "Slobodan Ilic"
+          ]
+        },
+        {
+          "title": "DiffFacto: Controllable Part-Based 3D Point Cloud Generation with Cross Diffusion",
+          "arxiv_id": "2305.01921",
+          "doi": "10.1109/ICCV51070.2023.01311",
+          "year": "2023",
+          "authors": [
+            "Kiyohiro Nakayama",
+            "M. Uy",
+            "Jiahui Huang",
+            "Shihui Hu",
+            "Ke Li",
+            "L. Guibas"
+          ]
+        },
+        {
+          "title": "3D Contour Generation based on Diffusion Probabilistic Models",
+          "arxiv_id": null,
+          "doi": "10.1109/CSCWD61410.2024.10580664",
+          "year": "2024",
+          "authors": [
+            "Yiqi Wu",
+            "Xuan Huang",
+            "Kelin Song",
+            "Fazhi He",
+            "Dejun Zhang"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "2103.01458",
+          "doi": "10.1109/CVPR46437.2021.00286",
+          "title": "Diffusion Probabilistic Models for 3D Point Cloud Generation",
+          "abstract": "We present a probabilistic model for point cloud generation, which is fundamental for various 3D vision tasks such as shape completion, upsampling, synthesis and data augmentation. Inspired by the diffusion process in non-equilibrium thermodynamics, we view points in point clouds as particles in a thermodynamic system in contact with a heat bath, which diffuse from the original distribution to a noise distribution. Point cloud generation thus amounts to learning the reverse diffusion process that transforms the noise distribution to the distribution of a desired shape. Specifically, we propose to model the reverse diffusion process for point clouds as a Markov chain conditioned on certain shape latent. We derive the variational bound in closed form for training and provide implementations of the model. Experimental results demonstrate that our model achieves competitive performance in point cloud generation and auto-encoding. The code is available at https://github.com/luost26/diffusion-point-cloud.",
+          "year": "2021",
+          "authors": [
+            "Shitong Luo",
+            "Wei Hu"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 1030
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Zhou, Tung, and Liao. (2021). 3D Shape Generation and Completion through Point-Voxel Diffusion. arXiv:2104.03670v2.",
+      "parsed": {
+        "title": "3D Shape Generation and Completion through Point-Voxel Diffusion",
+        "authors": "Zhou, Tung, and Liao",
+        "year": "2021",
+        "arxiv_id": "2104.03670v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "3D Shape Generation and Completion through Point-Voxel Diffusion",
+          "arxiv_id": "2104.03670",
+          "doi": "10.1109/iccv48922.2021.00577",
+          "year": "2021",
+          "authors": [
+            "Linqi Zhou",
+            "Yilun Du",
+            "Jiajun Wu"
+          ]
+        },
+        {
+          "title": "Appendix: 3D Shape Generation and Completion through Point-Voxel Diffusion",
+          "arxiv_id": null,
+          "doi": null,
+          "year": "2021",
+          "authors": [
+            "A. Additional",
+            "Generation Metrics"
+          ]
+        },
+        {
+          "title": "Scaling Diffusion Mamba with Bidirectional SSMs for Efficient 3D Shape Generation",
+          "arxiv_id": null,
+          "doi": "10.1609/aaai.v39i18.34144",
+          "year": "2025",
+          "authors": [
+            "Shentong Mo"
+          ]
+        },
+        {
+          "title": "Efficient 3D Shape Generation via Diffusion Mamba with Bidirectional SSMs",
+          "arxiv_id": "2406.05038",
+          "doi": "10.48550/arXiv.2406.05038",
+          "year": "2024",
+          "authors": [
+            "Shentong Mo"
+          ]
+        },
+        {
+          "title": "Diffusion-Occ: 3D Point Cloud Completion via Occupancy Diffusion",
+          "arxiv_id": "2408.14846",
+          "doi": "10.48550/arXiv.2408.14846",
+          "year": "2024",
+          "authors": [
+            "Guoqing Zhang",
+            "Jian Liu"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2104.03670",
+          "doi": "10.1109/iccv48922.2021.00577",
+          "title": "3D Shape Generation and Completion through Point-Voxel Diffusion",
+          "abstract": "We propose a novel approach for probabilistic generative modeling of 3D shapes. Unlike most existing models that learn to deterministically translate a latent vector to a shape, our model, Point-Voxel Diffusion (PVD), is a unified, probabilistic formulation for unconditional shape generation and conditional, multi-modal shape completion. PVD marries denoising diffusion models with the hybrid, point-voxel representation of 3D shapes. It can be viewed as a series of denoising steps, reversing the diffusion process from observed point cloud data to Gaussian noise, and is trained by optimizing a variational lower bound to the (conditional) likelihood function. Experiments demonstrate that PVD is capable of synthesizing high-fidelity shapes, completing partial point clouds, and generating multiple completion results from single-view depth scans of real objects.",
+          "year": "2021",
+          "authors": [
+            "Linqi Zhou",
+            "Yilun Du",
+            "Jiajun Wu"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 697
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Zeng et al. (2022). Lion: Latent Point Diffusion Models for 3D Shape Generation. arXiv:2210.06978v2.",
+      "parsed": {
+        "title": "Lion: Latent Point Diffusion Models for 3D Shape Generation",
+        "authors": "Zeng et al",
+        "year": "2022",
+        "arxiv_id": "2210.06978v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "LION: Latent Point Diffusion Models for 3D Shape Generation",
+          "arxiv_id": "2210.06978",
+          "doi": "10.48550/arXiv.2210.06978",
+          "year": "2022",
+          "authors": [
+            "Xiaohui Zeng",
+            "Arash Vahdat",
+            "Francis Williams",
+            "Zan Gojcic",
+            "O. Litany",
+            "S. Fidler",
+            "Karsten Kreis"
+          ]
+        },
+        {
+          "title": "SeaLion: Semantic Part-Aware Latent Point Diffusion Models for 3D Generation",
+          "arxiv_id": "2505.17721",
+          "doi": "10.1109/CVPR52734.2025.01101",
+          "year": "2025",
+          "authors": [
+            "Dekai Zhu",
+            "Yan Di",
+            "Stefan Gavranovic",
+            "Slobodan Ilic"
+          ]
+        },
+        {
+          "title": "Multi-scale Latent Point Consistency Models for 3D Shape Generation",
+          "arxiv_id": "2412.19413",
+          "doi": "10.48550/arXiv.2412.19413",
+          "year": "2024",
+          "authors": [
+            "Bi'an Du",
+            "Wei Hu",
+            "Renjie Liao"
+          ]
+        },
+        {
+          "title": "3D-LDM: Neural Implicit 3D Shape Generation with Latent Diffusion Models",
+          "arxiv_id": "2212.00842",
+          "doi": "10.48550/arXiv.2212.00842",
+          "year": "2022",
+          "authors": [
+            "Gi-Joon Nam",
+            "Mariem Khlifi",
+            "Andrew Rodriguez",
+            "Alberto Tono",
+            "Linqi Zhou",
+            "Paul Guerrero"
+          ]
+        },
+        {
+          "title": "Large Intestine 3D Shape Refinement Using Point Diffusion Models for Digital Phantom Generation",
+          "arxiv_id": null,
+          "doi": "10.48550/arXiv.2309.08289",
+          "year": "2023",
+          "authors": [
+            "Kaouther Mouheb",
+            "Mobina Ghojogh Nejad",
+            "Lavsen Dahal",
+            "E. Samei",
+            "W. Paul Segars",
+            "Joseph Y. Lo"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2210.06978",
+          "doi": "10.48550/arXiv.2210.06978",
+          "title": "LION: Latent Point Diffusion Models for 3D Shape Generation",
+          "abstract": "Denoising diffusion models (DDMs) have shown promising results in 3D point cloud synthesis. To advance 3D DDMs and make them useful for digital artists, we require (i) high generation quality, (ii) flexibility for manipulation and applications such as conditional synthesis and shape interpolation, and (iii) the ability to output smooth surfaces or meshes. To this end, we introduce the hierarchical Latent Point Diffusion Model (LION) for 3D shape generation. LION is set up as a variational autoencoder (VAE) with a hierarchical latent space that combines a global shape latent representation with a point-structured latent space. For generation, we train two hierarchical DDMs in these latent spaces. The hierarchical VAE approach boosts performance compared to DDMs that operate on point clouds directly, while the point-structured latents are still ideally suited for DDM-based modeling. Experimentally, LION achieves state-of-the-art generation performance on multiple ShapeNet benchmarks. Furthermore, our VAE framework allows us to easily use LION for different relevant tasks: LION excels at multimodal shape denoising and voxel-conditioned synthesis, and it can be adapted for text- and image-driven 3D generation. We also demonstrate shape autoencoding and latent shape interpolation, and we augment LION with modern surface reconstruction techniques to generate smooth 3D meshes. We hope that LION provides a powerful tool for artists working with 3D shapes due to its high-quality generation, flexibility, and surface reconstruction. Project page and code: https://nv-tlabs.github.io/LION.",
+          "year": "2022",
+          "authors": [
+            "Xiaohui Zeng",
+            "Arash Vahdat",
+            "Francis Williams",
+            "Zan Gojcic",
+            "O. Litany",
+            "S. Fidler",
+            "Karsten Kreis"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 701
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 4,
+      "raw": "Metzer et al. (2022). Latent-NeRF for Shape-Guided Generation of 3D Shapes and Textures. arXiv:2211.07600v2.",
+      "parsed": {
+        "title": "Latent-NeRF for Shape-Guided Generation of 3D Shapes and Textures",
+        "authors": "Metzer et al",
+        "year": "2022",
+        "arxiv_id": "2211.07600v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Latent-NeRF for Shape-Guided Generation of 3D Shapes and Textures",
+          "arxiv_id": "2211.07600",
+          "doi": "10.1109/CVPR52729.2023.01218",
+          "year": "2022",
+          "authors": [
+            "G. Metzer",
+            "Elad Richardson",
+            "Or Patashnik",
+            "R. Giryes",
+            "D. Cohen-Or"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2211.07600",
+          "doi": "10.1109/CVPR52729.2023.01218",
+          "title": "Latent-NeRF for Shape-Guided Generation of 3D Shapes and Textures",
+          "abstract": "Text-guided image generation has progressed rapidly in recent years, inspiring major breakthroughs in text-guided shape generation. Recently, it has been shown that using score distillation, one can successfully text-guide a NeRF model to generate a 3D object. We adapt the score distillation to the publicly available, and computationally efficient, Latent Diffusion Models, which apply the entire diffusion process in a compact latent space of a pretrained autoencoder. As NeRFs operate in image space, a naive solution for guiding them with latent score distillation would require encoding to the latent space at each guidance step. Instead, we propose to bring the NeRF to the latent space, resulting in a Latent-NeRF. Analyzing our Latent-NeRF, we show that while Text-to-3D models can generate impressive results, they are inherently unconstrained and may lack the ability to guide or enforce a specific 3D structure. To assist and direct the 3D generation, we propose to guide our Latent-NeRF using a Sketch-Shape: an abstract geometry that defines the coarse structure of the desired object. Then, we present means to integrate such a constraint directly into a Latent-NeRF. This unique combination of text and shape guidance allows for increased control over the generation process. We also show that latent score distillation can be successfully applied directly on 3D meshes. This allows for generating high-quality textures on a given geometry. Our experiments validate the power of our different forms of guidance and the efficiency of using latent rendering.",
+          "year": "2022",
+          "authors": [
+            "G. Metzer",
+            "Elad Richardson",
+            "Or Patashnik",
+            "R. Giryes",
+            "D. Cohen-Or"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 601
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 5,
+      "raw": "Poole et al. (2022). DreamFusion: Text-to-3D using 2D Diffusion. arXiv:2209.14988v2.",
+      "parsed": {
+        "title": "DreamFusion: Text-to-3D using 2D Diffusion",
+        "authors": "Poole et al",
+        "year": "2022",
+        "arxiv_id": "2209.14988v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "DreamFusion: Text-to-3D using 2D Diffusion",
+          "arxiv_id": "2209.14988",
+          "doi": "10.48550/arXiv.2209.14988",
+          "year": "2022",
+          "authors": [
+            "Ben Poole",
+            "Ajay Jain",
+            "J. Barron",
+            "B. Mildenhall"
+          ]
+        },
+        {
+          "title": "Addressing Janus Issue in Text-to-3D via Orientation-Controlled Diffusion Models",
+          "arxiv_id": null,
+          "doi": "10.1134/S1054661824700962",
+          "year": "2024",
+          "authors": [
+            "Yuzhong Huang",
+            "Fred Morstatter"
+          ]
+        },
+        {
+          "title": "OrientDream: Streamlining Text-to-3D Generation with Explicit Orientation Control",
+          "arxiv_id": null,
+          "doi": "10.1109/ICASSP49660.2025.10887623",
+          "year": "2025",
+          "authors": [
+            "Yuzhong Huang",
+            "Fred Morstatter"
+          ]
+        },
+        {
+          "title": "Generating Surface for Text-to-3D using 2D Gaussian Splatting",
+          "arxiv_id": "2510.06967",
+          "doi": "10.48550/arXiv.2510.06967",
+          "year": "2025",
+          "authors": [
+            "Huanning Dong",
+            "Fan Li",
+            "Ping Kuang",
+            "Jianwen Min"
+          ]
+        },
+        {
+          "title": "Text-to-3D Generation with Bidirectional Diffusion Using Both 2D and 3D Priors",
+          "arxiv_id": "2312.04963",
+          "doi": "10.1109/CVPR52733.2024.00489",
+          "year": "2023",
+          "authors": [
+            "Lihe Ding",
+            "Shaocong Dong",
+            "Zhanpeng Huang",
+            "Zibin Wang",
+            "Yiyuan Zhang",
+            "Kaixiong Gong",
+            "Dan Xu",
+            "Tianfan Xue"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2209.14988",
+          "doi": "10.48550/arXiv.2209.14988",
+          "title": "DreamFusion: Text-to-3D using 2D Diffusion",
+          "abstract": "Recent breakthroughs in text-to-image synthesis have been driven by diffusion models trained on billions of image-text pairs. Adapting this approach to 3D synthesis would require large-scale datasets of labeled 3D data and efficient architectures for denoising 3D data, neither of which currently exist. In this work, we circumvent these limitations by using a pretrained 2D text-to-image diffusion model to perform text-to-3D synthesis. We introduce a loss based on probability density distillation that enables the use of a 2D diffusion model as a prior for optimization of a parametric image generator. Using this loss in a DeepDream-like procedure, we optimize a randomly-initialized 3D model (a Neural Radiance Field, or NeRF) via gradient descent such that its 2D renderings from random angles achieve a low loss. The resulting 3D model of the given text can be viewed from any angle, relit by arbitrary illumination, or composited into any 3D environment. Our approach requires no 3D training data and no modifications to the image diffusion model, demonstrating the effectiveness of pretrained image diffusion models as priors.",
+          "year": "2022",
+          "authors": [
+            "Ben Poole",
+            "Ajay Jain",
+            "J. Barron",
+            "B. Mildenhall"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 3605
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 6,
+      "raw": "Shue et al. (2022). 3D Neural Field Generation using Triplane Diffusion. arXiv:2211.16677v2.",
+      "parsed": {
+        "title": "3D Neural Field Generation using Triplane Diffusion",
+        "authors": "Shue et al",
+        "year": "2022",
+        "arxiv_id": "2211.16677v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "3D Neural Field Generation Using Triplane Diffusion",
+          "arxiv_id": "2211.16677",
+          "doi": "10.1109/CVPR52729.2023.02000",
+          "year": "2022",
+          "authors": [
+            "J. Shue",
+            "Eric Chan",
+            "Ryan Po",
+            "Zachary Ankner",
+            "Jiajun Wu",
+            "Gordon Wetzstein"
+          ]
+        },
+        {
+          "title": "Square-LFRF: high-speed light field 3D source generation using anti-aliasing virtual views synthesis based on neural radiance fields.",
+          "arxiv_id": null,
+          "doi": "10.1364/oe.567809",
+          "year": "2025",
+          "authors": [
+            "Wei-ze Li",
+            "Lin-Bo Zhang",
+            "Yi-Jian Liu",
+            "Xue-Rui Wen",
+            "Fan Chu",
+            "Yan Xing",
+            "Qiong-Hua Wang"
+          ]
+        },
+        {
+          "title": "Magic123: One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors",
+          "arxiv_id": "2306.17843",
+          "doi": "10.48550/arXiv.2306.17843",
+          "year": "2023",
+          "authors": [
+            "Guocheng Qian",
+            "Jinjie Mai",
+            "Abdullah Hamdi",
+            "Jian Ren",
+            "Aliaksandr Siarohin",
+            "Bing Li",
+            "Hsin-Ying Lee",
+            "Ivan Skorokhodov",
+            "Peter Wonka",
+            "S. Tulyakov",
+            "Bernard Ghanem"
+          ]
+        },
+        {
+          "title": "Direct3D: Scalable Image-to-3D Generation via 3D Latent Diffusion Transformer",
+          "arxiv_id": "2405.14832",
+          "doi": "10.48550/arXiv.2405.14832",
+          "year": "2024",
+          "authors": [
+            "Shuang Wu",
+            "Youtian Lin",
+            "Feihu Zhang",
+            "Yifei Zeng",
+            "Jingxi Xu",
+            "Philip Torr",
+            "Xun Cao",
+            "Yao Yao"
+          ]
+        },
+        {
+          "title": "Blaze3DM: Marry Triplane Representation with Diffusion for 3D Medical Inverse Problem Solving",
+          "arxiv_id": "2405.15241",
+          "doi": "10.48550/arXiv.2405.15241",
+          "year": "2024",
+          "authors": [
+            "Jia He",
+            "Bonan Li",
+            "Ge Yang",
+            "Ziwen Liu"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2211.16677",
+          "doi": "10.1109/CVPR52729.2023.02000",
+          "title": "3D Neural Field Generation Using Triplane Diffusion",
+          "abstract": "Diffusion models have emerged as the state-of-the-art for image generation, among other tasks. Here, we present an efficient diffusion-based model for 3D-aware generation of neural fields. Our approach pre-processes training data, such as ShapeNet meshes, by converting them to continuous occupancy fields and factoring them into a set of axis-aligned triplane feature representations. Thus, our 3D training scenes are all represented by 2D feature planes, and we can directly train existing 2D diffusion models on these representations to generate 3D neural fields with high quality and diversity, outperforming alternative approaches to 3D-aware generation. Our approach requires essential modifications to existing triplane factorization pipelines to make the resulting features easy to learn for the diffusion model. We demonstrate state-of-the-art results on 3D generation on several object classes from ShapeNet.",
+          "year": "2022",
+          "authors": [
+            "J. Shue",
+            "Eric Chan",
+            "Ryan Po",
+            "Zachary Ankner",
+            "Jiajun Wu",
+            "Gordon Wetzstein"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 328
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 7,
+      "raw": "Nichol et al. (2022). Point-E: A System for Generating 3D Point Clouds from Complex Prompts. arXiv:2212.08751v1.",
+      "parsed": {
+        "title": "Point-E: A System for Generating 3D Point Clouds from Complex Prompts",
+        "authors": "Nichol et al",
+        "year": "2022",
+        "arxiv_id": "2212.08751v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Point-E: A System for Generating 3D Point Clouds from Complex Prompts",
+          "arxiv_id": "2212.08751",
+          "doi": "10.48550/arXiv.2212.08751",
+          "year": "2022",
+          "authors": [
+            "Alex Nichol",
+            "Heewoo Jun",
+            "Prafulla Dhariwal",
+            "Pamela Mishkin",
+            "Mark Chen"
+          ]
+        },
+        {
+          "title": "Proc3D: Procedural 3D Generation and Parametric Editing of 3D Shapes with Large Language Models",
+          "arxiv_id": "2601.12234",
+          "doi": "10.48550/arXiv.2601.12234",
+          "year": "2026",
+          "authors": [
+            "Fadlullah Raji",
+            "Stefano Petrangeli",
+            "Matheus A Gadelha",
+            "Yu Shen",
+            "Uttaran Bhattacharya",
+            "Gang Wu"
+          ]
+        },
+        {
+          "title": "Integrating Multimodal Large Language Models with Point Clouds for Urban Vehicle Detection",
+          "arxiv_id": null,
+          "doi": "10.29227/im-2025-02-02-113",
+          "year": "2025",
+          "authors": [
+            "Horia Ameen",
+            "Antón Núñez-Seoane",
+            "David Conde",
+            "Mario Soilán"
+          ]
+        },
+        {
+          "title": "Multitemporal field-based plant height estimation using 3D point clouds generated from small unmanned aerial systems high-resolution imagery",
+          "arxiv_id": null,
+          "doi": "10.1016/j.jag.2017.08.014",
+          "year": "2018",
+          "authors": [
+            "L. Malambo",
+            "S. Popescu",
+            "S. Murray",
+            "E. Putman",
+            "N. A. Pugh",
+            "David W. Horne",
+            "Grant Richardson",
+            "R. Sheridan",
+            "W. Rooney",
+            "R. Avant",
+            "Misty Vidrine",
+            "Billy F. McCutchen",
+            "David D. Baltensperger",
+            "Michael P. Bishop"
+          ]
+        },
+        {
+          "title": "Generating 3D architectured nature-inspired materials and granular media using diffusion models based on language cues",
+          "arxiv_id": null,
+          "doi": "10.1093/oxfmat/itac010",
+          "year": "2022",
+          "authors": [
+            "M. Buehler"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2212.08751",
+          "doi": "10.48550/arXiv.2212.08751",
+          "title": "Point-E: A System for Generating 3D Point Clouds from Complex Prompts",
+          "abstract": "While recent work on text-conditional 3D object generation has shown promising results, the state-of-the-art methods typically require multiple GPU-hours to produce a single sample. This is in stark contrast to state-of-the-art generative image models, which produce samples in a number of seconds or minutes. In this paper, we explore an alternative method for 3D object generation which produces 3D models in only 1-2 minutes on a single GPU. Our method first generates a single synthetic view using a text-to-image diffusion model, and then produces a 3D point cloud using a second diffusion model which conditions on the generated image. While our method still falls short of the state-of-the-art in terms of sample quality, it is one to two orders of magnitude faster to sample from, offering a practical trade-off for some use cases. We release our pre-trained point cloud diffusion models, as well as evaluation code and models, at https://github.com/openai/point-e.",
+          "year": "2022",
+          "authors": [
+            "Alex Nichol",
+            "Heewoo Jun",
+            "Prafulla Dhariwal",
+            "Pamela Mishkin",
+            "Mark Chen"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 852
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 8,
+      "raw": "Jun et al. (2023). Shap-E: Generating Conditional 3D Implicit Functions. arXiv:2305.02463v1.",
+      "parsed": {
+        "title": "Shap-E: Generating Conditional 3D Implicit Functions",
+        "authors": "Jun et al",
+        "year": "2023",
+        "arxiv_id": "2305.02463v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Shap-E: Generating Conditional 3D Implicit Functions",
+          "arxiv_id": "2305.02463",
+          "doi": "10.48550/arXiv.2305.02463",
+          "year": "2023",
+          "authors": [
+            "Heewoo Jun",
+            "Alex Nichol"
+          ]
+        },
+        {
+          "title": "UDiFF: Generating Conditional Unsigned Distance Fields with Optimal Wavelet Diffusion",
+          "arxiv_id": "2404.06851",
+          "doi": "10.1109/CVPR52733.2024.02031",
+          "year": "2024",
+          "authors": [
+            "Junsheng Zhou",
+            "Weiqi Zhang",
+            "Baorui Ma",
+            "Kanle Shi",
+            "Yu-Shen Liu",
+            "Zhizhong Han"
+          ]
+        },
+        {
+          "title": "Diffusion-SDF: Conditional Generative Modeling of Signed Distance Functions",
+          "arxiv_id": "2211.13757",
+          "doi": "10.1109/ICCV51070.2023.00215",
+          "year": "2022",
+          "authors": [
+            "Gene Chou",
+            "Yuval Bahat",
+            "Felix Heide"
+          ]
+        },
+        {
+          "title": "3D Teeth Reconstruction from Panoramic Radiographs Using Neural Implicit Functions",
+          "arxiv_id": "2311.16524",
+          "doi": "10.1007/978-3-031-43999-5_36",
+          "year": "2023",
+          "authors": [
+            "Sihwan Park",
+            "Seongjun Kim",
+            "In-Seok Song",
+            "S. Baek"
+          ]
+        },
+        {
+          "title": "Deep Conditional Shape Models for 3D cardiac image segmentation",
+          "arxiv_id": "2310.10756",
+          "doi": "10.48550/arXiv.2310.10756",
+          "year": "2023",
+          "authors": [
+            "Athira J. Jacob",
+            "Puneet Sharma",
+            "Daniel Rückert"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2305.02463",
+          "doi": "10.48550/arXiv.2305.02463",
+          "title": "Shap-E: Generating Conditional 3D Implicit Functions",
+          "abstract": "We present Shap-E, a conditional generative model for 3D assets. Unlike recent work on 3D generative models which produce a single output representation, Shap-E directly generates the parameters of implicit functions that can be rendered as both textured meshes and neural radiance fields. We train Shap-E in two stages: first, we train an encoder that deterministically maps 3D assets into the parameters of an implicit function; second, we train a conditional diffusion model on outputs of the encoder. When trained on a large dataset of paired 3D and text data, our resulting models are capable of generating complex and diverse 3D assets in a matter of seconds. When compared to Point-E, an explicit generative model over point clouds, Shap-E converges faster and reaches comparable or better sample quality despite modeling a higher-dimensional, multi-representation output space. We release model weights, inference code, and samples at https://github.com/openai/shap-e.",
+          "year": "2023",
+          "authors": [
+            "Heewoo Jun",
+            "Alex Nichol"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 473
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 9,
+      "raw": "Cheng et al. (2022). SDFusion: Multimodal 3D Shape Completion, Reconstruction, and Generation. arXiv:2212.04493v1.",
+      "parsed": {
+        "title": "SDFusion: Multimodal 3D Shape Completion, Reconstruction, and Generation",
+        "authors": "Cheng et al",
+        "year": "2022",
+        "arxiv_id": "2212.04493v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "SDFusion: Multimodal 3D Shape Completion, Reconstruction, and Generation",
+          "arxiv_id": "2212.04493",
+          "doi": null,
+          "year": "2022",
+          "authors": [
+            "Yen-Chi Cheng",
+            "Hsin-Ying Lee",
+            "Sergey Tulyakov",
+            "Alexander Schwing",
+            "Liangyan Gui"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2212.04493",
+          "title": "SDFusion: Multimodal 3D Shape Completion, Reconstruction, and Generation",
+          "abstract": "In this work, we present a novel framework built to simplify 3D asset generation for amateur users. To enable interactive generation, our method supports a variety of input modalities that can be easily provided by a human, including images, text, partially observed shapes and combinations of these, further allowing to adjust the strength of each input. At the core of our approach is an encoder-decoder, compressing 3D shapes into a compact latent representation, upon which a diffusion model is learned. To enable a variety of multi-modal inputs, we employ task-specific encoders with dropout followed by a cross-attention mechanism. Due to its flexibility, our model naturally supports a variety of tasks, outperforming prior works on shape completion, image-based 3D reconstruction, and text-to-3D. Most interestingly, our model can combine all these tasks into one swiss-army-knife tool, enabling the user to perform shape generation using incomplete shapes, images, and textual descriptions at the same time, providing the relative weights for each input and facilitating interactivity. Despite our approach being shape-only, we further show an efficient method to texture the generated shape using large-scale text-to-image models.",
+          "year": "2022",
+          "authors": [
+            "Yen-Chi Cheng",
+            "Hsin-Ying Lee",
+            "Sergey Tulyakov",
+            "Alexander Schwing",
+            "Liangyan Gui"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    }
+  ]
+}

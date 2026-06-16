@@ -1,0 +1,77 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "txt2sql",
+  "seed": 2,
+  "topic": "Text-to-SQL Generation with Large Language Models: Schema Linking, Benchmarks, and Robustness",
+  "metrics": {
+    "n_cited_claims": 3,
+    "support_total": 0.0,
+    "citation_recall": 0.0,
+    "n_supported": 0,
+    "n_partial": 0,
+    "n_unsupported": 3,
+    "n_error": 0,
+    "n_citation_mounts": 3,
+    "n_contributing": 0,
+    "contributing_weight": 0.0,
+    "citation_precision": 0.0,
+    "n_not_verifiable": 0,
+    "n_claims": 16,
+    "n_claims_with_cite": 3,
+    "n_claims_bare": 13,
+    "bare_assertion_rate": 0.8125
+  },
+  "per_sentence": [
+    {
+      "sent_id": 29,
+      "section_title": "3 Background and Foundations",
+      "text": "Schema linking is a foundational component of text-to-SQL systems, as it aims to identify the database schemas—such as tables and columns—and database values that are referenced within a natural language question (Câmara et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper addresses SQL-to-text explanation generation, not schema linking for text-to-SQL, and provides no evidence about identifying database schemas or values referenced in natural language questions.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 36,
+      "section_title": "4 Methods and Techniques",
+      "text": "The method first generates a preliminary SQL query using the complete database schema and employs bidirectional schema linking to achieve a high recall rate, thereby reducing the risk of incomplete results (Câmara et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses SQL-to-text generation using LLMs, not a method for generating preliminary SQL queries with bidirectional schema linking to achieve high recall.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 40,
+      "section_title": "5 Applications and Systems",
+      "text": "Their approach first generates a preliminary SQL query using the complete database schema and employs bidirectional schema linking to achieve a high recall rate, thereby reducing the risk of incomplete results (Câmara et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses SQL-to-text generation using LLMs, not preliminary SQL query generation with bidirectional schema linking for high recall, so it does not support the claimed approach.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

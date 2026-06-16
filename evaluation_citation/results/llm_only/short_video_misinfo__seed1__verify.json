@@ -1,0 +1,671 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "short_video_misinfo",
+  "seed": 1,
+  "topic": "Detection of Misinformation and Harmful Content on Short-Form Video Platforms: Methods, Datasets, and Multimodal Approaches",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Wang, Y., Ma, F., Jin, Z., Yuan, Y., & Xie, X. (2018). EANN: Event Adversarial Neural Networks for Multi-Modal Fake News Detection. arXiv:1803.11175v1.",
+      "parsed": {
+        "title": "EANN: Event Adversarial Neural Networks for Multi-Modal Fake News Detection",
+        "authors": "Wang, Y., Ma, F., Jin, Z., Yuan, Y., & Xie, X",
+        "year": "2018",
+        "arxiv_id": "1803.11175v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "EANN: Event Adversarial Neural Networks for Multi-Modal Fake News Detection",
+          "arxiv_id": null,
+          "doi": "10.1145/3219819.3219903",
+          "year": "2018",
+          "authors": [
+            "Yaqing Wang",
+            "Fenglong Ma",
+            "Zhiwei Jin",
+            "Ye Yuan",
+            "Guangxu Xun",
+            "Kishlay Jha",
+            "Lu Su",
+            "Jing Gao"
+          ]
+        },
+        {
+          "title": "Modality and Event Adversarial Networks for Multi-Modal Fake News Detection",
+          "arxiv_id": null,
+          "doi": "10.1109/lsp.2022.3181893",
+          "year": "2022",
+          "authors": [
+            "Pengfei Wei",
+            "Fei Wu",
+            "Ying Sun",
+            "Honghui Zhou",
+            "Xiao-Yuan Jing"
+          ]
+        },
+        {
+          "title": "Multi-modal Fake News Detection Use Event-Categorizing Neural Networks",
+          "arxiv_id": null,
+          "doi": "10.1007/978-3-031-25201-3_23",
+          "year": "2022",
+          "authors": [
+            "Buze Zhao",
+            "Hai Deng",
+            "Jie Hao"
+          ]
+        },
+        {
+          "title": "BDANN: BERT-Based Domain Adaptation Neural Network for Multi-Modal Fake News Detection",
+          "arxiv_id": null,
+          "doi": "10.1109/IJCNN48605.2020.9206973",
+          "year": "2020",
+          "authors": [
+            "T. Zhang",
+            "Di Wang",
+            "Huanhuan Chen",
+            "Zhiwei Zeng",
+            "Wei Guo",
+            "C. Miao",
+            "Li-zhen Cui"
+          ]
+        },
+        {
+          "title": "A Multi-Reading Habits Fusion Adversarial Network for Multi-Modal Fake News Detection",
+          "arxiv_id": null,
+          "doi": "10.14569/ijacsa.2024.0150740",
+          "year": "2024",
+          "authors": [
+            "Bofan Wang",
+            "Shenwu Zhang"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": "10.1145/3219819.3219903",
+          "title": "EANN: Event Adversarial Neural Networks for Multi-Modal Fake News Detection",
+          "abstract": "As news reading on social media becomes more and more popular, fake news becomes a major issue concerning the public and government. The fake news can take advantage of multimedia content to mislead readers and get dissemination, which can cause negative effects or even manipulate the public events. One of the unique challenges for fake news detection on social media is how to identify fake news on newly emerged events. Unfortunately, most of the existing approaches can hardly handle this challenge, since they tend to learn event-specific features that can not be transferred to unseen events. In order to address this issue, we propose an end-to-end framework named Event Adversarial Neural Network (EANN), which can derive event-invariant features and thus benefit the detection of fake news on newly arrived events. It consists of three main components: the multi-modal feature extractor, the fake news detector, and the event discriminator. The multi-modal feature extractor is responsible for extracting the textual and visual features from posts. It cooperates with the fake news detector to learn the discriminable representation for the detection of fake news. The role of event discriminator is to remove the event-specific features and keep shared features among events. Extensive experiments are conducted on multimedia datasets collected from Weibo and Twitter. The experimental results show our proposed EANN model can outperform the state-of-the-art methods, and learn transferable feature representations.",
+          "year": "2018",
+          "authors": [
+            "Yaqing Wang",
+            "Fenglong Ma",
+            "Zhiwei Jin",
+            "Ye Yuan",
+            "Guangxu Xun",
+            "Kishlay Jha",
+            "Lu Su",
+            "Jing Gao"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 1210
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Shu, K., Cui, L., Wang, S., Lee, D., & Liu, H. (2018). FakeNewsNet: A Data Repository with News Content, Social Context and Spatiotemporal Information for Studying Fake News on Social Media. arXiv:1809.01286v2.",
+      "parsed": {
+        "title": "FakeNewsNet: A Data Repository with News Content, Social Context and Spatiotemporal Information for Studying Fake News on Social Media",
+        "authors": "Shu, K., Cui, L., Wang, S., Lee, D., & Liu, H",
+        "year": "2018",
+        "arxiv_id": "1809.01286v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "FakeNewsNet: A Data Repository with News Content, Social Context, and Spatiotemporal Information for Studying Fake News on Social Media",
+          "arxiv_id": "1809.01286",
+          "doi": "10.1089/big.2020.0062",
+          "year": "2018",
+          "authors": [
+            "Kai Shu",
+            "Deepak Mahudeswaran",
+            "Suhang Wang",
+            "Dongwon Lee",
+            "Huan Liu"
+          ]
+        },
+        {
+          "title": "FakeNewsNet: A Data Repository with News Content, Social Context and Dynamic Information for Studying Fake News on Social Media",
+          "arxiv_id": null,
+          "doi": null,
+          "year": "2018",
+          "authors": [
+            "Kai Shu",
+            "Deepak Mahudeswaran",
+            "Suhang Wang",
+            "Dongwon Lee",
+            "Huan Liu"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "1809.01286",
+          "doi": "10.1089/big.2020.0062",
+          "title": "FakeNewsNet: A Data Repository with News Content, Social Context, and Spatiotemporal Information for Studying Fake News on Social Media",
+          "abstract": "Social media has become a popular means for people to consume and share the news. At the same time, however, it has also enabled the wide dissemination of fake news, that is, news with intentionally false information, causing significant negative effects on society. To mitigate this problem, the research of fake news detection has recently received a lot of attention. Despite several existing computational solutions on the detection of fake news, the lack of comprehensive and community-driven fake news data sets has become one of major roadblocks. Not only existing data sets are scarce, they do not contain a myriad of features often required in the study such as news content, social context, and spatiotemporal information. Therefore, in this article, to facilitate fake news-related research, we present a fake news data repository FakeNewsNet, which contains two comprehensive data sets with diverse features in news content, social context, and spatiotemporal information. We present a comprehensive description of the FakeNewsNet, demonstrate an exploratory analysis of two data sets from different perspectives, and discuss the benefits of the FakeNewsNet for potential applications on fake news study on social media.",
+          "year": "2018",
+          "authors": [
+            "Kai Shu",
+            "Deepak Mahudeswaran",
+            "Suhang Wang",
+            "Dongwon Lee",
+            "Huan Liu"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 1196
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Kiela, D., Firooz, H., Mohit, A., et al. (2020). The Hateful Memes Challenge: Detecting Hate Speech in Multimodal Memes. arXiv:2005.04790v1.",
+      "parsed": {
+        "title": "The Hateful Memes Challenge: Detecting Hate Speech in Multimodal Memes",
+        "authors": "Kiela, D., Firooz, H., Mohit, A., et al",
+        "year": "2020",
+        "arxiv_id": "2005.04790v1",
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Tolosana, R., Vera-Rodriguez, R., Fierrez, J., Morales, A., & Ortega-Garcia, J. (2020). DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection. arXiv:2001.00179v1.",
+      "parsed": {
+        "title": "DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection",
+        "authors": "Tolosana, R., Vera-Rodriguez, R., Fierrez, J., Morales, A., & Ortega-Garcia, J",
+        "year": "2020",
+        "arxiv_id": "2001.00179v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection",
+          "arxiv_id": "2001.00179",
+          "doi": "10.1016/j.inffus.2020.06.014",
+          "year": "2020",
+          "authors": [
+            "Rubén Tolosana",
+            "R. Vera-Rodríguez",
+            "Julian Fierrez",
+            "A. Morales",
+            "J. Ortega-Garcia"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2001.00179",
+          "doi": "10.1016/j.inffus.2020.06.014",
+          "title": "DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection",
+          "abstract": "The free access to large-scale public databases, together with the fast progress of deep learning techniques, in particular Generative Adversarial Networks, have led to the generation of very realistic fake content with its corresponding implications towards society in this era of fake news. This survey provides a thorough review of techniques for manipulating face images including DeepFake methods, and methods to detect such manipulations. In particular, four types of facial manipulation are reviewed: i) entire face synthesis, ii) identity swap (DeepFakes), iii) attribute manipulation, and iv) expression swap. For each manipulation group, we provide details regarding manipulation techniques, existing public databases, and key benchmarks for technology evaluation of fake detection methods, including a summary of results from those evaluations. Among all the aspects discussed in the survey, we pay special attention to the latest generation of DeepFakes, highlighting its improvements and challenges for fake detection. \nIn addition to the survey information, we also discuss open issues and future trends that should be considered to advance in the field.",
+          "year": "2020",
+          "authors": [
+            "Rubén Tolosana",
+            "R. Vera-Rodríguez",
+            "Julian Fierrez",
+            "A. Morales",
+            "J. Ortega-Garcia"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 1080
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 4,
+      "raw": "Liang, P. P., Zadeh, A., & Morency, L. P. (2022). Multimodal Machine Learning: A Survey and Taxonomy. arXiv:2203.07895v1.",
+      "parsed": {
+        "title": "Multimodal Machine Learning: A Survey and Taxonomy",
+        "authors": "Liang, P. P., Zadeh, A., & Morency, L. P",
+        "year": "2022",
+        "arxiv_id": "2203.07895v1",
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 5,
+      "raw": "Zhao, W. X., Zhou, K., Li, J., et al. (2023). A Survey of Large Language Models. arXiv:2303.18223v2.",
+      "parsed": {
+        "title": "A Survey of Large Language Models",
+        "authors": "Zhao, W. X., Zhou, K., Li, J., et al",
+        "year": "2023",
+        "arxiv_id": "2303.18223v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "A Survey of Large Language Models",
+          "arxiv_id": "2303.18223v19",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Wayne Xin Zhao",
+            "Kun Zhou",
+            "Junyi Li",
+            "Tianyi Tang",
+            "Xiaolei Wang",
+            "Yupeng Hou",
+            "Yingqian Min",
+            "Beichen Zhang",
+            "Junjie Zhang",
+            "Zican Dong",
+            "Yifan Du",
+            "Chen Yang",
+            "Yushuo Chen",
+            "Zhipeng Chen",
+            "Jinhao Jiang",
+            "Ruiyang Ren",
+            "Yifan Li",
+            "Xinyu Tang",
+            "Zikang Liu",
+            "Peiyu Liu",
+            "Jian-Yun Nie",
+            "Ji-Rong Wen"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "2303.18223v19",
+          "title": "A Survey of Large Language Models",
+          "abstract": "Language is essentially a complex, intricate system of human expressions governed by grammatical rules. It poses a significant challenge to develop capable AI algorithms for comprehending and grasping a language. As a major approach, language modeling has been widely studied for language understanding and generation in the past two decades, evolving from statistical language models to neural language models. Recently, pre-trained language models (PLMs) have been proposed by pre-training Transformer models over large-scale corpora, showing strong capabilities in solving various NLP tasks. Since researchers have found that model scaling can lead to performance improvement, they further study the scaling effect by increasing the model size to an even larger size. Interestingly, when the parameter scale exceeds a certain level, these enlarged language models not only achieve a significant performance improvement but also show some special abilities that are not present in small-scale language models. To discriminate the difference in parameter scale, the research community has coined the term large language models (LLM) for the PLMs of significant size. Recently, the research on LLMs has been largely advanced by both academia and industry, and a remarkable progress is the launch of ChatGPT, which has attracted widespread attention from society. The technical evolution of LLMs has been making an important impact on the entire AI community, which would revolutionize the way how we develop and use AI algorithms. In this survey, we review the recent advances of LLMs by introducing the background, key findings, and mainstream techniques. In particular, we focus on four major aspects of LLMs, namely pre-training, adaptation tuning, utilization, and capacity evaluation. Besides, we also summarize the available resources for developing LLMs and discuss the remaining issues for future directions.",
+          "year": "2023",
+          "authors": [
+            "Wayne Xin Zhao",
+            "Kun Zhou",
+            "Junyi Li",
+            "Tianyi Tang",
+            "Xiaolei Wang",
+            "Yupeng Hou",
+            "Yingqian Min",
+            "Beichen Zhang",
+            "Junjie Zhang",
+            "Zican Dong",
+            "Yifan Du",
+            "Chen Yang",
+            "Yushuo Chen",
+            "Zhipeng Chen",
+            "Jinhao Jiang",
+            "Ruiyang Ren",
+            "Yifan Li",
+            "Xinyu Tang",
+            "Zikang Liu",
+            "Peiyu Liu",
+            "Jian-Yun Nie",
+            "Ji-Rong Wen"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 6,
+      "raw": "Shu, K., Sliva, A., Wang, S., Tang, J., & Liu, H. (2017). Fake News Detection on Social Media: A Data Mining Perspective. arXiv:1708.01958v1.",
+      "parsed": {
+        "title": "Fake News Detection on Social Media: A Data Mining Perspective",
+        "authors": "Shu, K., Sliva, A., Wang, S., Tang, J., & Liu, H",
+        "year": "2017",
+        "arxiv_id": "1708.01958v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Fake News Detection on Social Media: A Data Mining Perspective",
+          "arxiv_id": "1708.01967",
+          "doi": "10.1145/3137597.3137600",
+          "year": "2017",
+          "authors": [
+            "Kai Shu",
+            "A. Sliva",
+            "Suhang Wang",
+            "Jiliang Tang",
+            "Huan Liu"
+          ]
+        },
+        {
+          "title": "Innovative Approaches to Fake News Detection: A Data Mining Perspective",
+          "arxiv_id": null,
+          "doi": "10.34257/gjcstcvol24is1pg1",
+          "year": "2025",
+          "authors": [
+            "Md. Ismail",
+            "Yayale Isihaka Muhammad",
+            "A. M. Abdullahi"
+          ]
+        },
+        {
+          "title": "Combating Fake News: A Data Management and Mining Perspective",
+          "arxiv_id": null,
+          "doi": "10.14778/3352063.3352117",
+          "year": "2019",
+          "authors": [
+            "L. Lakshmanan",
+            "Michael Simpson",
+            "Saravanan Thirumuruganathan"
+          ]
+        },
+        {
+          "title": "A Review on Fake News Detection using Machine Learning",
+          "arxiv_id": null,
+          "doi": "10.24113/ijoscience.v9i2.511",
+          "year": "2023",
+          "authors": [
+            "Parul Saini",
+            "Virendra Khatarkar"
+          ]
+        },
+        {
+          "title": "Evaluating Deep Learning Approaches for Covid19 Fake News Detection",
+          "arxiv_id": "2101.04012",
+          "doi": "10.1007/978-3-030-73696-5_15",
+          "year": "2021",
+          "authors": [
+            "Apurva Wani",
+            "Isha Joshi",
+            "Snehal Khandve",
+            "Vedangi Wagh",
+            "Raviraj Joshi"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "1708.01967",
+          "doi": "10.1145/3137597.3137600",
+          "title": "Fake News Detection on Social Media: A Data Mining Perspective",
+          "abstract": "Social media for news consumption is a double-edged sword. On the one hand, its low cost, easy access, and rapid dissemination of information lead people to seek out and consume news from social media. On the other hand, it enables the wide spread of \\fake news\", i.e., low quality news with intentionally false information. The extensive spread of fake news has the potential for extremely negative impacts on individuals and society. Therefore, fake news detection on social media has recently become an emerging research that is attracting tremendous attention. Fake news detection on social media presents unique characteristics and challenges that make existing detection algorithms from traditional news media ine ective or not applicable. First, fake news is intentionally written to mislead readers to believe false information, which makes it difficult and nontrivial to detect based on news content; therefore, we need to include auxiliary information, such as user social engagements on social media, to help make a determination. Second, exploiting this auxiliary information is challenging in and of itself as users' social engagements with fake news produce data that is big, incomplete, unstructured, and noisy. Because the issue of fake news detection on social media is both challenging and relevant, we conducted this survey to further facilitate research on the problem. In this survey, we present a comprehensive review of detecting fake news on social media, including fake news characterizations on psychology and social theories, existing algorithms from a data mining perspective, evaluation metrics and representative datasets. We also discuss related research areas, open problems, and future research directions for fake news detection on social media.",
+          "year": "2017",
+          "authors": [
+            "Kai Shu",
+            "A. Sliva",
+            "Suhang Wang",
+            "Jiliang Tang",
+            "Huan Liu"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 3264
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 7,
+      "raw": "Singhal, S., Shah, R. R., Chakraborty, T., Kumar, P., & Mukherjee, S. (2020). SpotFake: A Multi-modal Framework for Fake News Detection. arXiv:1909.04064v2.",
+      "parsed": {
+        "title": "SpotFake: A Multi-modal Framework for Fake News Detection",
+        "authors": "Singhal, S., Shah, R. R., Chakraborty, T., Kumar, P., & Mukherjee, S",
+        "year": "2020",
+        "arxiv_id": "1909.04064v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "SpotFake: A Multi-modal Framework for Fake News Detection",
+          "arxiv_id": null,
+          "doi": "10.1109/BigMM.2019.00-44",
+          "year": "2019",
+          "authors": [
+            "Shivangi Singhal",
+            "R. Shah",
+            "Tanmoy Chakraborty",
+            "P. Kumaraguru",
+            "S. Satoh"
+          ]
+        },
+        {
+          "title": "A Unified Multilingual Framework for Fake News Detection in Encrypted Communication Ecosystems",
+          "arxiv_id": null,
+          "doi": "10.1109/ICSADL67539.2026.11451778",
+          "year": "2026",
+          "authors": [
+            "Pavishraj R",
+            "Sivabharathi P",
+            "T. A",
+            "Jayapratha R"
+          ]
+        },
+        {
+          "title": "Truth be told: a multimodal ensemble approach for enhanced fake news detection in textual and visual media",
+          "arxiv_id": null,
+          "doi": "10.1186/s40537-025-01182-x",
+          "year": "2025",
+          "authors": [
+            "Rami Mohawesh",
+            "Islam Obaidat",
+            "Ahmed Abdallah AlQarni",
+            "Ali Abdulaziz Aljubailan",
+            "Moy’awiah A. Al-Shannaq",
+            "H. B. Salameh",
+            "Ali Al-Yousef",
+            "A. Saifan",
+            "Suboh M. Alkhushayni",
+            "Sumbal Maqsood"
+          ]
+        },
+        {
+          "title": "Multi-Modal Fake News Classification: A Hybrid Deep Learning Approach",
+          "arxiv_id": null,
+          "doi": "10.1109/ICAISET66439.2026.11541777",
+          "year": "2026",
+          "authors": [
+            "M. Eskander",
+            "Mostafa Magdy Karam",
+            "Nahla A. Belal",
+            "Mohamed Khedr",
+            "Ahmed Hamdy Abdallah",
+            "Ahmed Farouk"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": "10.1109/BigMM.2019.00-44",
+          "title": "SpotFake: A Multi-modal Framework for Fake News Detection",
+          "abstract": "A rapid growth in the amount of fake news on social media is a very serious concern in our society. It is usually created by manipulating images, text, audio, and videos. This indicates that there is a need of multimodal system for fake news detection. Though, there are multimodal fake news detection systems but they tend to solve the problem of fake news by considering an additional sub-task like event discriminator and finding correlations across the modalities. The results of fake news detection are heavily dependent on the subtask and in absence of subtask training, the performance of fake news detection degrade by 10% on an average. To solve this issue, we introduce SpotFake-a multi-modal framework for fake news detection. Our proposed solution detects fake news without taking into account any other subtasks. It exploits both the textual and visual features of an article. Specifically, we made use of language models (like BERT) to learn text features, and image features are learned from VGG-19 pre-trained on ImageNet dataset. All the experiments are performed on two publicly available datasets, i.e., Twitter and Weibo. The proposed model performs better than the current state-of-the-art on Twitter and Weibo datasets by 3.27% and 6.83%, respectively.",
+          "year": "2019",
+          "authors": [
+            "Shivangi Singhal",
+            "R. Shah",
+            "Tanmoy Chakraborty",
+            "P. Kumaraguru",
+            "S. Satoh"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 496
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 8,
+      "raw": "Davidson, T., Warmsley, D., Macy, M., & Weber, I. (2017). Automated Hate Speech Detection and the Problem of Offensive Language. arXiv:1703.04009v1.",
+      "parsed": {
+        "title": "Automated Hate Speech Detection and the Problem of Offensive Language",
+        "authors": "Davidson, T., Warmsley, D., Macy, M., & Weber, I",
+        "year": "2017",
+        "arxiv_id": "1703.04009v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Automated Hate Speech Detection and the Problem of Offensive Language",
+          "arxiv_id": "1703.04009",
+          "doi": "10.1609/icwsm.v11i1.14955",
+          "year": "2017",
+          "authors": [
+            "Thomas Davidson",
+            "Dana Warmsley",
+            "M. Macy",
+            "Ingmar Weber"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "1703.04009",
+          "doi": "10.1609/icwsm.v11i1.14955",
+          "title": "Automated Hate Speech Detection and the Problem of Offensive Language",
+          "abstract": "A key challenge for automatic hate-speech detection on social media is the separation of hate speech from other instances of offensive language. Lexical detection methods tend to have low precision because they classify all messages containing particular terms as hate speech and previous work using supervised learning has failed to distinguish between the two categories. We used a crowd-sourced hate speech lexicon to collect tweets containing hate speech keywords. We use crowd-sourcing to label a sample of these tweets into three categories: those containing hate speech, only offensive language, and those with neither. We train a multi-class classifier to distinguish between these different categories. Close analysis of the predictions and the errors shows when we can reliably separate hate speech from other offensive language and when this differentiation is more difficult. We find that racist and homophobic tweets are more likely to be classified as hate speech but that sexist tweets are generally classified as offensive. Tweets without explicit hate keywords are also more difficult to classify.",
+          "year": "2017",
+          "authors": [
+            "Thomas Davidson",
+            "Dana Warmsley",
+            "M. Macy",
+            "Ingmar Weber"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 3150
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 9,
+      "raw": "Guo, H., Schlichtkrull, M., & Vlachos, A. (2022). A Survey on Automated Fact-Checking. arXiv:2203.05306v1.",
+      "parsed": {
+        "title": "A Survey on Automated Fact-Checking",
+        "authors": "Guo, H., Schlichtkrull, M., & Vlachos, A",
+        "year": "2022",
+        "arxiv_id": "2203.05306v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "A Survey on Automated Fact-Checking",
+          "arxiv_id": "2108.11896",
+          "doi": "10.1162/tacl_a_00454",
+          "year": "2021",
+          "authors": [
+            "Zhijiang Guo",
+            "M. Schlichtkrull",
+            "Andreas Vlachos"
+          ]
+        },
+        {
+          "title": "Claim Detection for Automated Fact-checking: A Survey on Monolingual, Multilingual and Cross-Lingual Research",
+          "arxiv_id": "2401.11969",
+          "doi": "10.1016/j.nlp.2024.100066",
+          "year": "2024",
+          "authors": [
+            "Rrubaa Panchendrarajan",
+            "A. Zubiaga"
+          ]
+        },
+        {
+          "title": "Adversarial Attacks Against Automated Fact-Checking: A Survey",
+          "arxiv_id": "2509.08463",
+          "doi": "10.48550/arXiv.2509.08463",
+          "year": "2025",
+          "authors": [
+            "Fanzhen Liu",
+            "A. Abuadbba",
+            "Kristen Moore",
+            "Surya Nepal",
+            "Cécile Paris",
+            "Jia Wu",
+            "Jian Yang",
+            "Quan Z. Sheng"
+          ]
+        },
+        {
+          "title": "Explainable Automated Fact-Checking: A Survey",
+          "arxiv_id": "2011.03870",
+          "doi": "10.18653/V1/2020.COLING-MAIN.474",
+          "year": "2020",
+          "authors": [
+            "Neema Kotonya",
+            "Francesca Toni"
+          ]
+        },
+        {
+          "title": "Automated Fact-Checking: A Survey",
+          "arxiv_id": "2109.11427",
+          "doi": "10.1111/lnc3.12438",
+          "year": "2021",
+          "authors": [
+            "Xia Zeng",
+            "Amani S. Abumansour",
+            "A. Zubiaga"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "2108.11896",
+          "doi": "10.1162/tacl_a_00454",
+          "title": "A Survey on Automated Fact-Checking",
+          "abstract": "Fact-checking has become increasingly important due to the speed with which both information and misinformation can spread in the modern media ecosystem. Therefore, researchers have been exploring how fact-checking can be automated, using techniques based on natural language processing, machine learning, knowledge representation, and databases to automatically predict the veracity of claims. In this paper, we survey automated fact-checking stemming from natural language processing, and discuss its connections to related tasks and disciplines. In this process, we present an overview of existing datasets and models, aiming to unify the various definitions given and identify common concepts. Finally, we highlight challenges for future research.",
+          "year": "2021",
+          "authors": [
+            "Zhijiang Guo",
+            "M. Schlichtkrull",
+            "Andreas Vlachos"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 728
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    }
+  ]
+}

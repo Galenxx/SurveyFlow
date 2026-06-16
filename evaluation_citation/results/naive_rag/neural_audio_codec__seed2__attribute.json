@@ -1,0 +1,94 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "neural_audio_codec",
+  "seed": 2,
+  "topic": "Neural Audio Codecs and Discrete Speech Representations: Architectures, Tokenization, and Generative Applications",
+  "metrics": {
+    "n_cited_claims": 4,
+    "support_total": 0.0,
+    "citation_recall": 0.0,
+    "n_supported": 0,
+    "n_partial": 0,
+    "n_unsupported": 4,
+    "n_error": 0,
+    "n_citation_mounts": 4,
+    "n_contributing": 0,
+    "contributing_weight": 0.0,
+    "citation_precision": 0.0,
+    "n_not_verifiable": 0,
+    "n_claims": 21,
+    "n_claims_with_cite": 5,
+    "n_claims_bare": 16,
+    "bare_assertion_rate": 0.7619
+  },
+  "per_sentence": [
+    {
+      "sent_id": 39,
+      "section_title": "3 Background and Foundations",
+      "text": "Li et al. (2025) introduced a low-bitrate neural codec framework designed to learn disentangled discrete tokens operating at both global and local levels, incorporating knowledge from self-supervised learning (SSL) representations.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses using a pretrained NAC's continuous embeddings for speech enhancement, but it does not mention Li et al. (2025), low-bitrate codecs, disentangled discrete tokens at global/local levels, or incorporation of SSL representations.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 42,
+      "section_title": "4 Methods and Techniques",
+      "text": "Li et al. (2025) introduce a low-bitrate neural codec framework designed to produce disentangled discrete tokens at both global and local levels, incorporating knowledge from self-supervised learning (SSL) representations.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses using a pretrained NAC encoder's continuous embeddings for speech enhancement, but it does not mention Li et al. (2025), low-bitrate neural codecs, disentangled discrete tokens at global/local levels, or incorporation of SSL representations.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 46,
+      "section_title": "5 Applications and Systems",
+      "text": "Li et al. (2025) introduced a low-bitrate neural codec framework that learns disentangled discrete tokens at both global and local levels, incorporating knowledge from self-supervised learning (SSL) representations.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses using a pretrained neural audio codec for speech enhancement in continuous embedding space, but it does not mention learning disentangled discrete tokens at global and local levels or incorporating SSL representations.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 51,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "Li et al. (2025) highlight the difficulty of obtaining disentangled discrete tokens that capture information at multiple granularities, proposing a low-bitrate framework that incorporates knowledge from self-supervised learning (SSL) representations to learn such tokens at both global and local levels.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper focuses on speech enhancement using continuous embeddings from a neural audio codec and does not address the difficulty of obtaining disentangled discrete tokens at multiple granularities or propose a low-bitrate framework incorporating SSL representations for learning such tokens.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

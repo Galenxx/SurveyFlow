@@ -1,0 +1,359 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "neural_audio_codec",
+  "seed": 1,
+  "topic": "Neural Audio Codecs and Discrete Speech Representations: Architectures, Tokenization, and Generative Applications",
+  "n_references": 8,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Li, H., Yip, J., Fan, T., & Siong, C. E. (2025). Speech Enhancement Using Continuous Embeddings of Neural Audio Codec. arXiv:2502.16240.",
+      "parsed": {
+        "title": "Speech Enhancement Using Continuous Embeddings of Neural Audio Codec",
+        "authors": "Li, H., Yip, J., Fan, T., & Siong, C. E",
+        "year": "2025",
+        "arxiv_id": "2502.16240",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Speech Enhancement Using Continuous Embeddings of Neural Audio Codec",
+          "arxiv_id": "2502.16240",
+          "doi": null,
+          "year": "2025",
+          "authors": [
+            "Haoyang Li",
+            "Jia Qi Yip",
+            "Tianyu Fan",
+            "Eng Siong Chng"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2502.16240",
+          "title": "Speech Enhancement Using Continuous Embeddings of Neural Audio Codec",
+          "abstract": "Recent advancements in Neural Audio Codec (NAC) models have inspired their use in various speech processing tasks, including speech enhancement (SE). In this work, we propose a novel, efficient SE approach by leveraging the pre-quantization output of a pretrained NAC encoder. Unlike prior NAC-based SE methods, which process discrete speech tokens using Language Models (LMs), we perform SE within the continuous embedding space of the pretrained NAC, which is highly compressed along the time dimension for efficient representation. Our lightweight SE model, optimized through an embedding-level loss, delivers results comparable to SE baselines trained on larger datasets, with a significantly lower real-time factor of 0.005. Additionally, our method achieves a low GMAC of 3.94, reducing complexity 18-fold compared to Sepformer in a simulated cloud-based audio transmission environment. This work highlights a new, efficient NAC-based SE solution, particularly suitable for cloud applications where NAC is used to compress audio before transmission. Copyright 20XX IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works.",
+          "year": "2025",
+          "authors": [
+            "Haoyang Li",
+            "Jia Qi Yip",
+            "Tianyu Fan",
+            "Eng Siong Chng"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Jiang, Y., Chen, Q., Ji, S., Xi, Y., Wang, W., Zhang, C., Yue, X., Zhang, S., & Li, H. (2025). UniCodec: Unified Audio Codec with Single Domain-Adaptive Codebook. arXiv:2502.20067.",
+      "parsed": {
+        "title": "UniCodec: Unified Audio Codec with Single Domain-Adaptive Codebook",
+        "authors": "Jiang, Y., Chen, Q., Ji, S., Xi, Y., Wang, W., Zhang, C., Yue, X., Zhang, S., & Li, H",
+        "year": "2025",
+        "arxiv_id": "2502.20067",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "UniCodec: Unified Audio Codec with Single Domain-Adaptive Codebook",
+          "arxiv_id": "2502.20067",
+          "doi": null,
+          "year": "2025",
+          "authors": [
+            "Yidi Jiang",
+            "Qian Chen",
+            "Shengpeng Ji",
+            "Yu Xi",
+            "Wen Wang",
+            "Chong Zhang",
+            "Xianghu Yue",
+            "ShiLiang Zhang",
+            "Haizhou Li"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2502.20067",
+          "title": "UniCodec: Unified Audio Codec with Single Domain-Adaptive Codebook",
+          "abstract": "The emergence of audio language models is empowered by neural audio codecs, which establish critical mappings between continuous waveforms and discrete tokens compatible with language model paradigms. The evolutionary trends from multi-layer residual vector quantizer to single-layer quantizer are beneficial for language-autoregressive decoding. However, the capability to handle multi-domain audio signals through a single codebook remains constrained by inter-domain distribution discrepancies. In this work, we introduce UniCodec, a unified audio codec with a single codebook to support multi-domain audio data, including speech, music, and sound. To achieve this, we propose a partitioned domain-adaptive codebook method and domain Mixture-of-Experts strategy to capture the distinct characteristics of each audio domain. Furthermore, to enrich the semantic density of the codec without auxiliary modules, we propose a self-supervised mask prediction modeling approach. Comprehensive objective and subjective evaluations demonstrate that UniCodec achieves excellent audio reconstruction performance across the three audio domains, outperforming existing unified neural codecs with a single codebook, and even surpasses state-of-the-art domain-specific codecs on both acoustic and semantic representation capabilities.",
+          "year": "2025",
+          "authors": [
+            "Yidi Jiang",
+            "Qian Chen",
+            "Shengpeng Ji",
+            "Yu Xi",
+            "Wen Wang",
+            "Chong Zhang",
+            "Xianghu Yue",
+            "ShiLiang Zhang",
+            "Haizhou Li"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Ye, J., Cao, B., & Shan, H. (2025). Emotional Face-to-Speech. arXiv:2502.01046.",
+      "parsed": {
+        "title": "Emotional Face-to-Speech",
+        "authors": "Ye, J., Cao, B., & Shan, H",
+        "year": "2025",
+        "arxiv_id": "2502.01046",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Emotional Face-to-Speech",
+          "arxiv_id": "2502.01046",
+          "doi": null,
+          "year": "2025",
+          "authors": [
+            "Jiaxin Ye",
+            "Boyuan Cao",
+            "Hongming Shan"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2502.01046",
+          "title": "Emotional Face-to-Speech",
+          "abstract": "How much can we infer about an emotional voice solely from an expressive face? This intriguing question holds great potential for applications such as virtual character dubbing and aiding individuals with expressive language disorders. Existing face-to-speech methods offer great promise in capturing identity characteristics but struggle to generate diverse vocal styles with emotional expression. In this paper, we explore a new task, termed emotional face-to-speech, aiming to synthesize emotional speech directly from expressive facial cues. To that end, we introduce DEmoFace, a novel generative framework that leverages a discrete diffusion transformer (DiT) with curriculum learning, built upon a multi-level neural audio codec. Specifically, we propose multimodal DiT blocks to dynamically align text and speech while tailoring vocal styles based on facial emotion and identity. To enhance training efficiency and generation quality, we further introduce a coarse-to-fine curriculum learning algorithm for multi-level token processing. In addition, we develop an enhanced predictor-free guidance to handle diverse conditioning scenarios, enabling multi-conditional generation and disentangling complex attributes effectively. Extensive experimental results demonstrate that DEmoFace generates more natural and consistent speech compared to baselines, even surpassing speech-driven methods. Demos are shown at https://demoface-ai.github.io/.",
+          "year": "2025",
+          "authors": [
+            "Jiaxin Ye",
+            "Boyuan Cao",
+            "Hongming Shan"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Li, J., Wang, D., Wang, X., Qian, Y., Zhou, L., Liu, S., Yousefi, M., Li, C., Tsai, C., Xiao, Z., Liu, Y., Chen, J., Zhao, S., Li, J., Wu, Z., & Zeng, M. (2024). Investigating Neural Audio Codecs For Speech Language Model-Based Speech Generation. arXiv:2409.04016.",
+      "parsed": {
+        "title": "Investigating Neural Audio Codecs For Speech Language Model-Based Speech Generation",
+        "authors": "Li, J., Wang, D., Wang, X., Qian, Y., Zhou, L., Liu, S., Yousefi, M., Li, C., Tsai, C., Xiao, Z., Liu, Y., Chen, J., Zhao, S., Li, J., Wu, Z., & Zeng, M",
+        "year": "2024",
+        "arxiv_id": "2409.04016",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Investigating Neural Audio Codecs for Speech Language Model-Based Speech Generation",
+          "arxiv_id": "2409.04016",
+          "doi": null,
+          "year": "2024",
+          "authors": [
+            "Jiaqi Li",
+            "Dongmei Wang",
+            "Xiaofei Wang",
+            "Yao Qian",
+            "Long Zhou",
+            "Shujie Liu",
+            "Midia Yousefi",
+            "Canrun Li",
+            "Chung-Hsien Tsai",
+            "Zhen Xiao",
+            "Yanqing Liu",
+            "Junkun Chen",
+            "Sheng Zhao",
+            "Jinyu Li",
+            "Zhizheng Wu",
+            "Michael Zeng"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2409.04016",
+          "title": "Investigating Neural Audio Codecs for Speech Language Model-Based Speech Generation",
+          "abstract": "Neural audio codec tokens serve as the fundamental building blocks for speech language model (SLM)-based speech generation. However, there is no systematic understanding on how the codec system affects the speech generation performance of the SLM. In this work, we examine codec tokens within SLM framework for speech generation to provide insights for effective codec design. We retrain existing high-performing neural codec models on the same data set and loss functions to compare their performance in a uniform setting. We integrate codec tokens into two SLM systems: masked-based parallel speech generation system and an auto-regressive (AR) plus non-auto-regressive (NAR) model-based system. Our findings indicate that better speech reconstruction in codec systems does not guarantee improved speech generation in SLM. A high-quality codec decoder is crucial for natural speech production in SLM, while speech intelligibility depends more on quantization mechanism.",
+          "year": "2024",
+          "authors": [
+            "Jiaqi Li",
+            "Dongmei Wang",
+            "Xiaofei Wang",
+            "Yao Qian",
+            "Long Zhou",
+            "Shujie Liu",
+            "Midia Yousefi",
+            "Canrun Li",
+            "Chung-Hsien Tsai",
+            "Zhen Xiao",
+            "Yanqing Liu",
+            "Junkun Chen",
+            "Sheng Zhao",
+            "Jinyu Li",
+            "Zhizheng Wu",
+            "Michael Zeng"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 4,
+      "raw": "Shen, K., Ju, Z., Tan, X., Liu, Y., Leng, Y., He, L., Qin, T., Zhao, S., & Bian, J. (2023). NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers. arXiv:2304.09116.",
+      "parsed": {
+        "title": "NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers",
+        "authors": "Shen, K., Ju, Z., Tan, X., Liu, Y., Leng, Y., He, L., Qin, T., Zhao, S., & Bian, J",
+        "year": "2023",
+        "arxiv_id": "2304.09116",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers",
+          "arxiv_id": "2304.09116",
+          "doi": null,
+          "year": "2023",
+          "authors": [
+            "Kai Shen",
+            "Zeqian Ju",
+            "Xu Tan",
+            "Yanqing Liu",
+            "Yichong Leng",
+            "Lei He",
+            "Tao Qin",
+            "Sheng Zhao",
+            "Jiang Bian"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2304.09116",
+          "title": "NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers",
+          "abstract": "Scaling text-to-speech (TTS) to large-scale, multi-speaker, and in-the-wild datasets is important to capture the diversity in human speech such as speaker identities, prosodies, and styles (e.g., singing). Current large TTS systems usually quantize speech into discrete tokens and use language models to generate these tokens one by one, which suffer from unstable prosody, word skipping/repeating issue, and poor voice quality. In this paper, we develop NaturalSpeech 2, a TTS system that leverages a neural audio codec with residual vector quantizers to get the quantized latent vectors and uses a diffusion model to generate these latent vectors conditioned on text input. To enhance the zero-shot capability that is important to achieve diverse speech synthesis, we design a speech prompting mechanism to facilitate in-context learning in the diffusion model and the duration/pitch predictor. We scale NaturalSpeech 2 to large-scale datasets with 44K hours of speech and singing data and evaluate its voice quality on unseen speakers. NaturalSpeech 2 outperforms previous TTS systems by a large margin in terms of prosody/timbre similarity, robustness, and voice quality in a zero-shot setting, and performs novel zero-shot singing synthesis with only a speech prompt. Audio samples are available at https://speechresearch.github.io/naturalspeech2.",
+          "year": "2023",
+          "authors": [
+            "Kai Shen",
+            "Zeqian Ju",
+            "Xu Tan",
+            "Yanqing Liu",
+            "Yichong Leng",
+            "Lei He",
+            "Tao Qin",
+            "Sheng Zhao",
+            "Jiang Bian"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 5,
+      "raw": "Zhao, J., Vu, M., & Wang, Y. (2026). Hierarchical Decoding for Discrete Speech Synthesis with Multi-Resolution Spoof Detection. arXiv:2603.05373.",
+      "parsed": {
+        "title": "Hierarchical Decoding for Discrete Speech Synthesis with Multi-Resolution Spoof Detection",
+        "authors": "Zhao, J., Vu, M., & Wang, Y",
+        "year": "2026",
+        "arxiv_id": "2603.05373",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Hierarchical Decoding for Discrete Speech Synthesis with Multi-Resolution Spoof Detection",
+          "arxiv_id": "2603.05373",
+          "doi": null,
+          "year": "2026",
+          "authors": [
+            "Junchuan Zhao",
+            "Minh Duc Vu",
+            "Ye Wang"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2603.05373",
+          "title": "Hierarchical Decoding for Discrete Speech Synthesis with Multi-Resolution Spoof Detection",
+          "abstract": "Neural codec language models enable high-quality discrete speech synthesis, yet their inference remains vulnerable to token-level artifacts and distributional drift that degrade perceptual realism. Rather than relying on preference optimization or retraining, we propose MSpoof-TTS, a training-free inference framework that improves zero-shot synthesis through multi-resolution spoof guidance. We introduce a Multi-Resolution Token-based Spoof Detection framework that evaluates codec sequences at different temporal granularities to detect locally inconsistent or unnatural patterns. We then integrate the spoof detectors into a hierarchical decoding strategy, progressively pruning low-quality candidates and re-ranking hypotheses. This discriminator-guided generation enhances robustness without modifying model parameters. Experiments validate the effectiveness of our framework for robust and high-quality codec-based speech generation. Audio samples are available at https://danny-nus.github.io/MSpoofTTS.github.io/.",
+          "year": "2026",
+          "authors": [
+            "Junchuan Zhao",
+            "Minh Duc Vu",
+            "Ye Wang"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 6,
+      "raw": "Unknown Author (n.d.). FuseCodec Semantic-Contextual Fusion and Supervision for Neural Codecs.",
+      "parsed": {
+        "title": null,
+        "authors": null,
+        "year": null,
+        "arxiv_id": null,
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 7,
+      "raw": "Unknown Author (n.d.). DiffSoundStream Efficient Speech Tokenization via Diffusion Decoding.",
+      "parsed": {
+        "title": null,
+        "authors": null,
+        "year": null,
+        "arxiv_id": null,
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    }
+  ]
+}

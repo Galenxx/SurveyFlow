@@ -1,0 +1,43 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\naive_rag\\Machine_Learning_for_Lithium_Ion_Battery_State_of__seed2\\survey.md",
+  "topic": "3 Background and Foundations",
+  "n_references": 4,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Pour, M. A., Ghasemzadeh, A., Bijarchi, M. A., & Shafii, M. B. (2025). Toward accurate RUL and SoH estimation using reinforced graph-based physics-informed neural networks enhanced with dynamic weights. arXiv:2507.09766v2.",
+      "title": "Toward accurate RUL and SoH estimation using reinforced graph-based physics-informed neural networks enhanced with dynamic weights",
+      "authors": "Pour, M. A., Ghasemzadeh, A., Bijarchi, M. A., & Shafii, M. B",
+      "year": "2025",
+      "arxiv_id": "2507.09766v2",
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Richardson, R. R., Osborne, M. A., & Howey, D. A. (2017). Gaussian process regression for forecasting battery state of health. arXiv:1703.05687v2.",
+      "title": "Gaussian process regression for forecasting battery state of health",
+      "authors": "Richardson, R. R., Osborne, M. A., & Howey, D. A",
+      "year": "2017",
+      "arxiv_id": "1703.05687v2",
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Tao, S. (2024). Machine Learning-Assisted Sustainable Remanufacturing, Reusing and Recycling for Lithium-ion Batteries. arXiv:2406.00276v2.",
+      "title": "Machine Learning-Assisted Sustainable Remanufacturing, Reusing and Recycling for Lithium-ion Batteries",
+      "authors": "Tao, S",
+      "year": "2024",
+      "arxiv_id": "2406.00276v2",
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Zhang, Y., Liu, Y., Wang, J., & Zhang, T. (2022). State-of-health estimation for lithium-ion batteries by combining model-based incremental capacity analysis with support vector regression.",
+      "title": "State-of-health estimation for lithium-ion batteries by combining model-based incremental capacity analysis with support vector regression",
+      "authors": "Zhang, Y., Liu, Y., Wang, J., & Zhang, T",
+      "year": "2022",
+      "arxiv_id": null,
+      "doi": null
+    }
+  ]
+}

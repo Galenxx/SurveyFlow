@@ -1,0 +1,111 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "diffusion_3d",
+  "seed": 1,
+  "topic": "Diffusion Models for 3D Shape and Scene Generation: Methods, Representations, and Evaluation",
+  "metrics": {
+    "n_cited_claims": 5,
+    "support_total": 2.5,
+    "citation_recall": 0.5,
+    "n_supported": 2,
+    "n_partial": 1,
+    "n_unsupported": 2,
+    "n_error": 0,
+    "n_citation_mounts": 5,
+    "n_contributing": 2,
+    "contributing_weight": 2.5,
+    "citation_precision": 0.5,
+    "n_not_verifiable": 0,
+    "n_claims": 36,
+    "n_claims_with_cite": 5,
+    "n_claims_bare": 31,
+    "bare_assertion_rate": 0.8611
+  },
+  "per_sentence": [
+    {
+      "sent_id": 35,
+      "section_title": "3 3D Representations for Diffusion Models",
+      "text": "For instance, (Luo and Hu, 2021) introduced a diffusion model that directly generates 3D point clouds by progressively denoising a set of points, demonstrating that diffusion could outperform GANs in terms of diversity and quality for 3D shape generation.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence supports that the model generates 3D point clouds via a diffusion process, but it does not mention GANs or any comparison demonstrating that diffusion outperforms GANs in diversity and quality.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 41,
+      "section_title": "3 3D Representations for Diffusion Models",
+      "text": "For example, (Metzer et al., 2022) proposed Latent-NeRF, which generates a latent code representation of a NeRF, combining the high-fidelity benefits of implicit fields with the efficiency of latent diffusion.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that Latent-NeRF brings the NeRF into the latent space to enable efficient latent diffusion guidance, directly supporting the claim that it combines implicit field fidelity with latent diffusion efficiency.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 48,
+      "section_title": "4 Diffusion Methods and Architectures",
+      "text": "(Poole et al., 2022) introduced DreamFusion, which leverages a frozen pre-trained 2D text-to-image diffusion model to optimize a 3D representation (such as a NeRF).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that the work uses a pretrained 2D text-to-image diffusion model to optimize a randomly-initialized 3D model (a NeRF), directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 56,
+      "section_title": "5 Scene Generation and Compositionality",
+      "text": "(Zeng et al., 2022) demonstrated how latent diffusion models can be applied to generate individual objects that are later composed, but ensuring global scene coherence remains difficult.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes LION for single 3D shape generation and manipulation but does not address composing individual objects into a globally coherent scene, which is the specific claim made in the sentence.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 66,
+      "section_title": "6 Evaluation Metrics and Benchmarks",
+      "text": "However, as noted by (Shue et al., 2022), evaluating triplane and implicit representations requires careful rendering protocols to ensure fair comparisons.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract describes a method for 3D generation using triplane diffusion but does not mention or discuss rendering protocols, fair comparisons, or evaluation methodology.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

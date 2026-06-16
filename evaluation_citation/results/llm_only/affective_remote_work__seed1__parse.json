@@ -1,0 +1,97 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\llm_only\\Affective_Computing_for_Remote_Workplace_Monitorin__glm-5.1__seed1.md",
+  "topic": "References",
+  "n_references": 10,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Unknown Author. (2024). Placeholder Reference 1. arXiv:0000.00000v1.",
+      "title": "Placeholder Reference 1",
+      "authors": "Unknown Author",
+      "year": "2024",
+      "arxiv_id": "0000.00000v1",
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Unknown Author. (2024). Placeholder Reference 2. arXiv:0000.00000v1.",
+      "title": "Placeholder Reference 2",
+      "authors": "Unknown Author",
+      "year": "2024",
+      "arxiv_id": "0000.00000v1",
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Unknown Author. (2024). Placeholder Reference 3. arXiv:0000.00000v1.",
+      "title": "Placeholder Reference 3",
+      "authors": "Unknown Author",
+      "year": "2024",
+      "arxiv_id": "0000.00000v1",
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Unknown Author. (2024). Placeholder Reference 4. arXiv:0000.00000v1.",
+      "title": "Placeholder Reference 4",
+      "authors": "Unknown Author",
+      "year": "2024",
+      "arxiv_id": "0000.00000v1",
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Unknown Author. (2024). Placeholder Reference 5. arXiv:0000.00000v1.",
+      "title": "Placeholder Reference 5",
+      "authors": "Unknown Author",
+      "year": "2024",
+      "arxiv_id": "0000.00000v1",
+      "doi": null
+    },
+    {
+      "ref_id": 5,
+      "raw": "Unknown Author. (2024). Placeholder Reference 6. arXiv:0000.00000v1.",
+      "title": "Placeholder Reference 6",
+      "authors": "Unknown Author",
+      "year": "2024",
+      "arxiv_id": "0000.00000v1",
+      "doi": null
+    },
+    {
+      "ref_id": 6,
+      "raw": "Unknown Author. (2024). Placeholder Reference 7. arXiv:0000.00000v1.",
+      "title": "Placeholder Reference 7",
+      "authors": "Unknown Author",
+      "year": "2024",
+      "arxiv_id": "0000.00000v1",
+      "doi": null
+    },
+    {
+      "ref_id": 7,
+      "raw": "Unknown Author. (2024). Placeholder Reference 8. arXiv:0000.00000v1.",
+      "title": "Placeholder Reference 8",
+      "authors": "Unknown Author",
+      "year": "2024",
+      "arxiv_id": "0000.00000v1",
+      "doi": null
+    },
+    {
+      "ref_id": 8,
+      "raw": "Unknown Author. (2024). Placeholder Reference 9. arXiv:0000.00000v1.",
+      "title": "Placeholder Reference 9",
+      "authors": "Unknown Author",
+      "year": "2024",
+      "arxiv_id": "0000.00000v1",
+      "doi": null
+    },
+    {
+      "ref_id": 9,
+      "raw": "Unknown Author. (2024). Placeholder Reference 10. arXiv:0000.00000v1.",
+      "title": "Placeholder Reference 10",
+      "authors": "Unknown Author",
+      "year": "2024",
+      "arxiv_id": "0000.00000v1",
+      "doi": null
+    }
+  ]
+}

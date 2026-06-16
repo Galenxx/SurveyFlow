@@ -1,0 +1,117 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "code_review_llm",
+  "seed": 2,
+  "topic": "Large Language Models for Automated Code Review: Techniques, Benchmarks, and Industrial Deployment",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper focuses on code generation (synthesis) rather than automated code review, though the model (Codex) and evaluation methodology are tangentially relevant to the survey's interest in LLMs for code-related tasks."
+      }
+    },
+    {
+      "ref_id": 1,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "CodeBERT is a pre-trained model for code and natural language that could serve as a foundation for code review tasks, but the paper itself does not address automated code review, its techniques, benchmarks, or deployment."
+      }
+    },
+    {
+      "ref_id": 2,
+      "identification_verdict": "MATCH",
+      "title_sim": 0.991869918699187,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper focuses on pre-training code representations using data flow for general code understanding tasks, with code refinement as one downstream task, but it does not specifically address automated code review techniques, benchmarks, or industrial deployment."
+      }
+    },
+    {
+      "ref_id": 3,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper is a broad systematic literature review on LLMs for software engineering, which likely includes automated code review as one of many tasks, but its main contribution is not focused specifically on code review techniques, benchmarks, or industrial deployment."
+      }
+    },
+    {
+      "ref_id": 4,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper directly addresses automated code review using large-scale pre-training, covering key tasks like review comment generation and code refinement, which aligns perfectly with the survey's focus on LLMs for automated code review."
+      }
+    },
+    {
+      "ref_id": 5,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 0.203125,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 6,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper presents a general-purpose code LLM, which could be used as a component in automated code review systems, but it does not specifically address code review techniques, benchmarks, or deployment."
+      }
+    },
+    {
+      "ref_id": 7,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper focuses on pre-training for general code understanding and generation, with code defect detection as one evaluation task, but it does not specifically address automated code review techniques, benchmarks, or industrial deployment."
+      }
+    },
+    {
+      "ref_id": 8,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "The paper focuses on general code understanding and generation with a flexible encoder-decoder architecture, not on automated code review techniques, benchmarks, or industrial deployment."
+      }
+    },
+    {
+      "ref_id": 9,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 0.29577464788732394,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    }
+  ],
+  "aggregate": {
+    "score": 40.0,
+    "n_relevant": 1,
+    "n_partial": 6,
+    "n_irrelevant": 3,
+    "n_error": 0,
+    "n_judged": 10
+  }
+}

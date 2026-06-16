@@ -1,0 +1,247 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "diffusion_3d",
+  "seed": 1,
+  "topic": "Diffusion Models for 3D Shape and Scene Generation: Methods, Representations, and Evaluation",
+  "metrics": {
+    "n_cited_claims": 13,
+    "support_total": 0.0,
+    "citation_recall": 0.0,
+    "n_supported": 0,
+    "n_partial": 0,
+    "n_unsupported": 13,
+    "n_error": 0,
+    "n_citation_mounts": 13,
+    "n_contributing": 0,
+    "contributing_weight": 0.0,
+    "citation_precision": 0.0,
+    "n_not_verifiable": 0,
+    "n_claims": 29,
+    "n_claims_with_cite": 13,
+    "n_claims_bare": 16,
+    "bare_assertion_rate": 0.5517
+  },
+  "per_sentence": [
+    {
+      "sent_id": 34,
+      "section_title": "3 Background and Foundations",
+      "text": "Li et al. (2026) situate their work within this landscape by noting that earlier paradigms—including generative adversarial networks (GANs), variational autoencoders (VAEs), and normalizing flows—have been widely applied to shape generation, while denoising diffusion models offer the advantage of explicitly modeling the data distribution, thereby enabling more faithful generation that reflects content diversity.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a specific dual diffusion framework for 3D avatar generation but does not discuss or compare GANs, VAEs, normalizing flows, or the general advantage of diffusion models in modeling data distribution for faithful generation.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 37,
+      "section_title": "3 Background and Foundations",
+      "text": "Other approaches include PDGN, which introduces progressive deconvolutional networks within a point cloud GAN, and SP-GAN, which employs a spherical representation (Li et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes PromptAvatar, a dual diffusion model for 3D avatar generation, and makes no mention of PDGN, progressive deconvolutional networks, point cloud GANs, SP-GAN, or spherical representations.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 39,
+      "section_title": "3 Background and Foundations",
+      "text": "Li et al. (2026) describe a multi-view depth generation procedure where 2D maps are initialized as pure Gaussian noise and then progressively refined via ancestral sampling over \\(T = 1000\\) steps, following a standard denoising diffusion formulation in which the reverse process samples from an isotropic multivariate normal distribution at each step.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract describes a dual diffusion framework for 3D avatar generation but does not mention initializing 2D maps as pure Gaussian noise, using 1000-step ancestral sampling, or sampling from an isotropic multivariate normal distribution in the reverse process.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 40,
+      "section_title": "4 Methods and Techniques",
+      "text": "Li et al. (2026) situate their work within a broader landscape of 3D shape generation techniques, noting that generative adversarial networks have been applied through several distinct paradigms.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a dual diffusion model framework for 3D avatar generation and does not mention generative adversarial networks or situate itself within a landscape of GAN-based 3D shape generation paradigms.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 41,
+      "section_title": "4 Methods and Techniques",
+      "text": "These include approaches that model shape surfaces via gradient fields, such as ShapeGF, as well as methods that represent shapes as neural fields (IM-GAN) or learn GANs over latent shape encodings (l-GAN), while r-GAN generates point clouds directly (Li et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes a dual diffusion model for 3D avatar generation and does not mention ShapeGF, IM-GAN, l-GAN, r-GAN, or any of the specific modeling approaches listed in the sentence.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 43,
+      "section_title": "4 Methods and Techniques",
+      "text": "For their own multi-view depth diffusion (MVDD) approach, Li et al. (2026) employ an ancestral sampling inference strategy.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes PromptAvatar, a dual diffusion model for 3D avatar generation, and makes no mention of Li et al. (2026), multi-view depth diffusion (MVDD), or ancestral sampling inference.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 47,
+      "section_title": "5 Applications and Systems",
+      "text": "Li et al. (2026) introduce a multi-view depth diffusion model (MVDD) that operates on multi-view depth maps initialized as 2D maps of pure Gaussian noise.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes PromptAvatar, a dual diffusion model for 3D avatar generation from text/image, and makes no mention of a multi-view depth diffusion model (MVDD) or initializing multi-view depth maps from pure Gaussian noise.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 51,
+      "section_title": "5 Applications and Systems",
+      "text": "ShapeGF learns distributions over gradient fields that model shape surfaces, while IM-GAN represents shapes as neural fields and l-GAN trains GANs over latent variables that encode shapes (Li et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes PromptAvatar's dual diffusion models for 3D avatar generation and does not mention ShapeGF, IM-GAN, l-GAN, or their specific modeling approaches.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 52,
+      "section_title": "5 Applications and Systems",
+      "text": "In contrast, r-GAN generates point clouds directly, and PDGN employs progressive deconvolutional networks within a point cloud GAN framework (Li et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses dual diffusion models for 3D avatar generation and does not mention r-GAN, point cloud generation, PDGN, or progressive deconvolutional networks in a point cloud GAN framework.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 53,
+      "section_title": "5 Applications and Systems",
+      "text": "SP-GAN further contributes by using a spherical representation for shape generation (Li et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes PromptAvatar's dual diffusion models for 3D avatar generation but makes no mention of SP-GAN or spherical representations for shape generation.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 56,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "Li et al. (2026) note that a powerful 3D generative model must balance scalability—the capacity to produce objects with fine-grained details—and faithfulness, meaning the generated shapes should exhibit high fidelity to the target distribution.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a specific 3D avatar generation framework but does not discuss or define the general concepts of scalability and faithfulness as required by the sentence.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 58,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "The inference process itself introduces practical hurdles: the dual diffusion framework described by Li et al. (2026) requires iterative ancestral sampling over \\(T = 1000\\) steps to transform pure Gaussian noise into multi-view depth maps, a computationally intensive procedure that may limit real-time or resource-constrained applications.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The sentence describes a dual diffusion framework requiring 1000-step ancestral sampling from noise to multi-view depth maps, but the cited paper (PromptAvatar) uses dual diffusion models for 3D avatar generation from text/image prompts and claims to eliminate iterative optimization, generating avatars in under 10 seconds, with no mention of 1000-step sampling or multi-view depth maps.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 60,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "Prior approaches have explored diverse strategies, including learning distributions over gradient fields that model shape surfaces (ShapeGF), training GANs on latent encodings of neural fields (IM-GAN, l-GAN), directly generating point clouds (r-GAN), and employing progressive deconvolutional networks within point-cloud GANs (PDGN), as surveyed by Li et al. (2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a dual diffusion model for 3D avatar generation from text/image prompts, but none of the specific prior approaches (ShapeGF, IM-GAN, l-GAN, r-GAN, PDGN) or the survey by Li et al. (2026) are mentioned or evidenced in the abstract.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

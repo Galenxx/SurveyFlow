@@ -1,0 +1,94 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "code_review_llm",
+  "seed": 2,
+  "topic": "Large Language Models for Automated Code Review: Techniques, Benchmarks, and Industrial Deployment",
+  "metrics": {
+    "n_cited_claims": 4,
+    "support_total": 1.5,
+    "citation_recall": 0.375,
+    "n_supported": 1,
+    "n_partial": 1,
+    "n_unsupported": 2,
+    "n_error": 0,
+    "n_citation_mounts": 4,
+    "n_contributing": 1,
+    "contributing_weight": 1.5,
+    "citation_precision": 0.375,
+    "n_not_verifiable": 0,
+    "n_claims": 36,
+    "n_claims_with_cite": 4,
+    "n_claims_bare": 32,
+    "bare_assertion_rate": 0.8889
+  },
+  "per_sentence": [
+    {
+      "sent_id": 34,
+      "section_title": "3 Techniques and Architectures for Code Review",
+      "text": "A foundational work in this space is CodeReviewer, which introduced pre-training tasks specifically designed for code review, such as code difference generation and review comment generation (Li et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that CodeReviewer is a pre-trained model utilizing four pre-training tasks tailored for code review, including review comment generation, and the sentence's claim about code difference generation aligns with the model's focus on understanding code diffs.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 46,
+      "section_title": "4 Benchmarks and Evaluation Methodologies",
+      "text": "Furthermore, comprehensive surveys highlight that existing benchmarks often lack the contextual richness of real-world reviews, omitting lengthy conversation histories, repository-specific guidelines, and multi-file dependencies (Hou et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper is a broad systematic literature review on LLMs in software engineering and does not discuss the specific shortcomings of existing benchmarks regarding contextual richness, conversation histories, repository guidelines, or multi-file dependencies.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 56,
+      "section_title": "5 Industrial Deployment and Integration",
+      "text": "The release of open foundation models has significantly alleviated this issue, providing performant baselines that can be fine-tuned on proprietary data without compromising intellectual property (Roziere et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence shows Code Llama is an open foundation model with state-of-the-art performance that can be fine-tuned, but it does not mention or demonstrate that fine-tuning on proprietary data avoids compromising intellectual property.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 65,
+      "section_title": "6 Challenges and Limitations",
+      "text": "Furthermore, the evaluation of automated program repair and code refinement remains challenging, as multiple semantically equivalent patches may exist for a given issue, yet strict metrics may fail to recognize them (Xia et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 9
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a conversational APR approach (ChatRepair) but does not discuss the challenge of evaluating APR due to multiple semantically equivalent patches or the failure of strict metrics to recognize them.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

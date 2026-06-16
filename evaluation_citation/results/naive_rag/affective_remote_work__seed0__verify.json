@@ -1,0 +1,29 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "affective_remote_work",
+  "seed": 0,
+  "topic": "Affective Computing for Remote Workplace Monitoring: Sensing, Inference, and Ethical Considerations",
+  "n_references": 1,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Mantello, P., Ho, M., Nguyen, M., & Vuong, Q. (2021). Bosses without a heart: socio-demographic and cross-cultural determinants of attitude toward Emotional AI in the workplace.",
+      "parsed": {
+        "title": "Bosses without a heart: socio-demographic and cross-cultural determinants of attitude toward Emotional AI in the workplace",
+        "authors": "Mantello, P., Ho, M., Nguyen, M., & Vuong, Q",
+        "year": "2021",
+        "arxiv_id": null,
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    }
+  ]
+}

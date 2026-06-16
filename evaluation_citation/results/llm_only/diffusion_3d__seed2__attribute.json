@@ -1,0 +1,154 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "diffusion_3d",
+  "seed": 2,
+  "topic": "Diffusion Models for 3D Shape and Scene Generation: Methods, Representations, and Evaluation",
+  "metrics": {
+    "n_cited_claims": 6,
+    "support_total": 3.5,
+    "citation_recall": 0.5833,
+    "n_supported": 3,
+    "n_partial": 1,
+    "n_unsupported": 2,
+    "n_error": 0,
+    "n_citation_mounts": 6,
+    "n_contributing": 3,
+    "contributing_weight": 3.5,
+    "citation_precision": 0.5833,
+    "n_not_verifiable": 2,
+    "n_claims": 42,
+    "n_claims_with_cite": 8,
+    "n_claims_bare": 34,
+    "bare_assertion_rate": 0.8095
+  },
+  "per_sentence": [
+    {
+      "sent_id": 40,
+      "section_title": "3 3D Representations for Diffusion Models",
+      "text": "For instance, systems generating 3D point clouds from text prompts leverage the simplicity of point clouds to achieve fast inference times, though they often lack the topological information required for high-quality rendering (Nichol et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence supports fast inference times for point cloud generation but does not mention any lack of topological information or rendering quality issues.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 45,
+      "section_title": "3 3D Representations for Diffusion Models",
+      "text": "Similarly, SDF-based diffusion models can produce high-fidelity surfaces by applying the denoising process directly to the latent space of SDFs (Cheng et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 8
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a diffusion model operating on a latent representation of 3D shapes, but it does not mention signed distance functions (SDFs) or applying denoising directly to an SDF latent space.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 53,
+      "section_title": "4 Diffusion Methods for 3D Shape Generation",
+      "text": "The seminal work introducing Score Distillation Sampling (SDS) demonstrated that a 3D representation like a NeRF could be optimized by extracting gradients from a 2D diffusion model, effectively \"lifting\" 2D priors into 3D (Poole et al., 2022).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 55,
+      "section_title": "4 Diffusion Methods for 3D Shape Generation",
+      "text": "Subsequent methods have sought to improve upon this by employing coarse-to-fine optimization strategies or utilizing more sophisticated 2D priors to achieve high-resolution text-to-3D content creation (Lin et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract of Magic3D explicitly describes a two-stage (coarse-to-fine) optimization framework that uses a low-resolution prior for a coarse model and then a high-resolution latent diffusion model for refinement, directly supporting the claim about employing coarse-to-fine optimization strategies to achieve high-resolution text-to-3D content creation.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 61,
+      "section_title": "5 Diffusion Methods for 3D Scene Generation",
+      "text": "For example, extracting textured 3D meshes from 2D text-to-image models can be achieved by iteratively generating images from chosen viewpoints and fusing them into a coherent 3D mesh representation (Höllein et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract of Text2Room explicitly describes generating textured 3D meshes by synthesizing images from different poses and iteratively fusing them into a seamless mesh, directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 65,
+      "section_title": "5 Diffusion Methods for 3D Scene Generation",
+      "text": "By integrating iterative dataset updates with diffusion-based image editing techniques, it is possible to edit 3D scenes with instructions, ensuring that changes are consistent across all viewpoints (Haque et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 7
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The cited paper describes iteratively editing input images with an image-conditioned diffusion model while optimizing the underlying NeRF scene, which directly supports the claim of integrating iterative dataset updates with diffusion-based editing to achieve instruction-based 3D scene edits consistent across viewpoints.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 73,
+      "section_title": "6 Evaluation Metrics and Benchmarks",
+      "text": "For instance, evaluating the quality of 3D digital avatars often relies on FID scores calculated over rendered frontal views, alongside specialized metrics for texture and identity preservation (Wang et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses using 2D diffusion models for 3D generation via score chaining and differentiable rendering, but its abstract makes no mention of evaluating 3D digital avatars, FID scores, frontal views, or texture/identity preservation metrics.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 76,
+      "section_title": "6 Evaluation Metrics and Benchmarks",
+      "text": "For methods that optimize NeRFs using 2D priors, evaluating the consistency and quality of the latent representations is also crucial (Metzer et al., 2023).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    }
+  ]
+}

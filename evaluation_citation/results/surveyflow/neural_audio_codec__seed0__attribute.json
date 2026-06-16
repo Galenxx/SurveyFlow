@@ -1,0 +1,196 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "neural_audio_codec",
+  "seed": 0,
+  "topic": "Neural Audio Codecs and Discrete Speech Representations: Architectures, Tokenization, and Generative Applications",
+  "metrics": {
+    "n_cited_claims": 10,
+    "support_total": 0.5,
+    "citation_recall": 0.05,
+    "n_supported": 0,
+    "n_partial": 1,
+    "n_unsupported": 9,
+    "n_error": 0,
+    "n_citation_mounts": 10,
+    "n_contributing": 1,
+    "contributing_weight": 0.5,
+    "citation_precision": 0.05,
+    "n_not_verifiable": 0,
+    "n_claims": 52,
+    "n_claims_with_cite": 13,
+    "n_claims_bare": 39,
+    "bare_assertion_rate": 0.75
+  },
+  "per_sentence": [
+    {
+      "sent_id": 35,
+      "section_title": "3.1 Multi-Scale Hierarchical Encoding for Low-Bitrate Compression",
+      "text": "Li et al. (2024) describe a design in which a linear projection maps the encoder’s original latent space, which is 1024‑dimensional, into a lower‑dimensional quantization latent space of 8 or 32 dimensions.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses codec tokens and their impact on SLM-based speech generation but does not mention any specific design involving a linear projection from a 1024-dimensional latent space to an 8- or 32-dimensional quantization space.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 43,
+      "section_title": "3.2 Unified Cross-Domain Audio Tokenization with Domain-Adaptive Codebooks",
+      "text": "Li et al. (2024) note that discrete speech tokens have historically emerged from two distinct paradigms: semantic tokens derived from self‑supervised learning, and codec tokens produced by neural audio codec systems.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses the impact of neural audio codec tokens on speech generation performance but does not mention semantic tokens from self-supervised learning or describe two distinct paradigms of discrete speech tokens.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 49,
+      "section_title": "3.3 Disentangled Global and Local Tokens from Self-Supervised Representations",
+      "text": "Li et al. (2024) characterize this as two parallel lines of work: self-supervised learning produces semantic tokens, while neural audio codec systems yield codec tokens.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses neural audio codec tokens in SLM-based speech generation but does not mention self-supervised learning, semantic tokens, or characterize two parallel lines of work as claimed.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 62,
+      "section_title": "4.2 Coarse-to-Fine and Hierarchical Discrete Token Generation",
+      "text": "Li et al. (2024) further formalize this hierarchical structure by proposing a codec network built on vector-quantized auto-encoders with adversarial training (VQ-GAN).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper investigates the impact of neural audio codecs on speech generation but does not mention Li et al. (2024), VQ-GAN, or any formalization of a hierarchical codec network structure.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 70,
+      "section_title": "4.3 Token Denoising and Robust Decoding for Zero-Shot TTS",
+      "text": "In parallel, Li et al. (2024) introduce FoundationTTS, a framework that combines discrete speech tokens in a hierarchical fashion with a large language model to achieve long-term consistency and diverse output on large-scale and complex speech datasets.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence discusses neural audio codec design for speech language models but does not mention FoundationTTS, hierarchical discrete speech tokens, or any framework achieving long-term consistency and diverse output on large-scale complex speech datasets.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 73,
+      "section_title": "5.1 Multi-Layer Fusion of Discrete Tokens for Speech Emotion Recognition",
+      "text": "Recent work by Zhao et al. (2026) addresses the challenge that discrete speech tokens, while efficient, may not adequately preserve the paralinguistic and prosodic information essential for speech emotion recognition (SER).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper focuses on improving perceptual realism in discrete speech synthesis via spoof detection and hierarchical decoding, but it does not discuss or evaluate the preservation of paralinguistic or prosodic information for speech emotion recognition.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 74,
+      "section_title": "5.1 Multi-Layer Fusion of Discrete Tokens for Speech Emotion Recognition",
+      "text": "To overcome this limitation, they employ an attention-based cross-layer fusion mechanism that architecturally combines information across WavLM layers and augment the discrete tokens with seven families of discretized OpenSMILE features at the feature level (Zhao et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a hierarchical decoding framework with multi-resolution spoof detection for discrete speech synthesis, but it does not mention WavLM, attention-based cross-layer fusion, or OpenSMILE features, so it provides no support for the specific architectural and feature-level claims in the sentence.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 76,
+      "section_title": "5.1 Multi-Layer Fusion of Discrete Tokens for Speech Emotion Recognition",
+      "text": "The findings demonstrate that through multi-layer fusion and acoustic feature integration, discrete tokens can close the performance gap with continuous representations in SER tasks (Zhao et al., 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses discrete speech synthesis and spoof detection, not speech emotion recognition (SER) or any comparison between discrete tokens and continuous representations in SER tasks.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 78,
+      "section_title": "5.2 Generative Speech Enhancement via Continuous Codec Embeddings",
+      "text": "Li et al. (2025) propose a method that performs enhancement directly in the continuous representation space of a codec encoder.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses the impact of codec design on SLM-based speech generation but does not mention any method that performs enhancement in the continuous representation space of a codec encoder.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 83,
+      "section_title": "5.2 Generative Speech Enhancement via Continuous Codec Embeddings",
+      "text": "In contrast, Zhao et al. (2026) focus on discrete speech representations for synthesis and spoof detection, employing neural codec tokenization via EnCodec, DAC, and SpeechTokenizer to obtain discrete tokens.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The abstract confirms the use of neural codec tokenization for discrete speech synthesis and spoof detection, but it does not explicitly mention EnCodec, DAC, or SpeechTokenizer as the specific tokenizers employed.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "neural_audio_codec",
+  "seed": 2,
+  "topic": "Neural Audio Codecs and Discrete Speech Representations: Architectures, Tokenization, and Generative Applications",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "SoundStream is a foundational neural audio codec that directly exemplifies the survey's core themes of neural codec architectures, residual vector quantization, and end-to-end training for discrete speech/audio representations."
+      }
+    },
+    {
+      "ref_id": 1,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper presents a neural audio codec with quantized latent space and discrete representations, directly aligning with the survey's focus on architectures, tokenization, and generative applications."
+      }
+    },
+    {
+      "ref_id": 2,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a hybrid tokenization scheme combining neural audio codec tokens with semantic tokens for audio generation, directly contributing to the survey's focus on neural audio codecs, discrete speech representations, and their generative applications."
+      }
+    },
+    {
+      "ref_id": 3,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper directly uses a neural audio codec to obtain discrete speech representations and builds a generative language model on top of them for zero-shot TTS, making it a core example of generative applications of neural audio codecs."
+      }
+    },
+    {
+      "ref_id": 4,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper uses discrete music tokens from a neural audio codec (EnCodec) as a core component, but its main contribution is a language model for conditional music generation rather than advancing codec architectures or discrete speech representations."
+      }
+    },
+    {
+      "ref_id": 5,
+      "identification_verdict": "NOT_FOUND",
+      "title_sim": 0.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=NOT_FOUND); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 6,
+      "identification_verdict": "MATCH",
+      "title_sim": 0.9571428571428572,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a neural audio codec with residual vector quantization that hierarchically disentangles semantic and acoustic speech tokens, directly addressing the survey's focus on architectures, tokenization, and generative applications."
+      }
+    },
+    {
+      "ref_id": 7,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper introduces a neural audio codec using improved RVQGAN, directly addressing the survey's focus on neural audio codecs and discrete speech representations for generative applications."
+      }
+    },
+    {
+      "ref_id": 8,
+      "identification_verdict": "NOT_FOUND",
+      "title_sim": 0.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=NOT_FOUND); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 9,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a novel neural audio codec (HiFi-Codec) with a group-residual vector quantization technique, directly addressing the survey's core themes of audio codec architectures, tokenization, and generative applications."
+      }
+    }
+  ],
+  "aggregate": {
+    "score": 75.0,
+    "n_relevant": 7,
+    "n_partial": 1,
+    "n_irrelevant": 2,
+    "n_error": 0,
+    "n_judged": 10
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "battery_soh_ml",
+  "seed": 1,
+  "topic": "Machine Learning for Lithium-Ion Battery State-of-Health Estimation and Remaining-Useful-Life Prediction",
+  "n_references": 6,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Zhang, Y., Liu, Y., Wang, J., & Zhang, T. (2022). State-of-health estimation for lithium-ion batteries by combining model-based incremental capacity analysis with support vector regression.",
+      "parsed": {
+        "title": "State-of-health estimation for lithium-ion batteries by combining model-based incremental capacity analysis with support vector regression",
+        "authors": "Zhang, Y., Liu, Y., Wang, J., & Zhang, T",
+        "year": "2022",
+        "arxiv_id": null,
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Richardson, R. R., Osborne, M. A., & Howey, D. A. (2017). Gaussian process regression for forecasting battery state of health. arXiv:1703.05687v2.",
+      "parsed": {
+        "title": "Gaussian process regression for forecasting battery state of health",
+        "authors": "Richardson, R. R., Osborne, M. A., & Howey, D. A",
+        "year": "2017",
+        "arxiv_id": "1703.05687v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Gaussian process regression for forecasting battery state of health",
+          "arxiv_id": "1703.05687",
+          "doi": null,
+          "year": "2017",
+          "authors": [
+            "Robert R. Richardson",
+            "Michael A. Osborne",
+            "David A. Howey"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "1703.05687",
+          "title": "Gaussian process regression for forecasting battery state of health",
+          "abstract": "Accurately predicting the future capacity and remaining useful life of batteries is necessary to ensure reliable system operation and to minimise maintenance costs. The complex nature of battery degradation has meant that mechanistic modelling of capacity fade has thus far remained intractable; however, with the advent of cloud-connected devices, data from cells in various applications is becoming increasingly available, and the feasibility of data-driven methods for battery prognostics is increasing. Here we propose Gaussian process (GP) regression for forecasting battery state of health, and highlight various advantages of GPs over other data-driven and mechanistic approaches. GPs are a type of Bayesian non-parametric method, and hence can model complex systems whilst handling uncertainty in a principled manner. Prior information can be exploited by GPs in a variety of ways: explicit mean functions can be used if the functional form of the underlying degradation model is available, and multiple-output GPs can effectively exploit correlations between data from different cells. We demonstrate the predictive capability of GPs for short-term and long-term (remaining useful life) forecasting on a selection of capacity vs. cycle datasets from lithium-ion cells.",
+          "year": "2017",
+          "authors": [
+            "Robert R. Richardson",
+            "Michael A. Osborne",
+            "David A. Howey"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Tao, S. (2024). Machine Learning-Assisted Sustainable Remanufacturing, Reusing and Recycling for Lithium-ion Batteries. arXiv:2406.00276v2.",
+      "parsed": {
+        "title": "Machine Learning-Assisted Sustainable Remanufacturing, Reusing and Recycling for Lithium-ion Batteries",
+        "authors": "Tao, S",
+        "year": "2024",
+        "arxiv_id": "2406.00276v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Machine Learning-Assisted Sustainable Remanufacturing, Reusing and Recycling for Lithium-ion Batteries",
+          "arxiv_id": "2406.00276",
+          "doi": null,
+          "year": "2024",
+          "authors": [
+            "Shengyu Tao"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2406.00276",
+          "title": "Machine Learning-Assisted Sustainable Remanufacturing, Reusing and Recycling for Lithium-ion Batteries",
+          "abstract": "The sustainable utilization of lithium-ion batteries (LIBs) is crucial to the global energy transition and carbon neutrality, yet data scarcity and heterogeneity remain major barriers across remanufacturing, reusing, and recycling. This dissertation develops a machine learning assisted framework to address these challenges throughout the battery lifecycle. A physics informed quality control model predicts long-term degradation from limited early-cycle data, while a generative learning based residual value assessment method enables rapid and accurate evaluation of retired batteries under random conditions. A federated learning strategy achieves privacy preserving and high precision cathode material sorting, supporting efficient recycling. Furthermore, a unified diagnostics and prognostics framework based on correlation alignment enhances adaptability across tasks such as state of health estimation, state of charge estimation, and remaining useful life prediction under varied testing protocols. Collectively, these contributions advance sustainable battery management by integrating physics, data generation, privacy preserving collaboration, and adaptive learning, offering methodological innovations to promote circular economy and global carbon neutrality.",
+          "year": "2024",
+          "authors": [
+            "Shengyu Tao"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Madabattula, G. (2026). Linking Calendar and Cycle Ageing in Lithium-Ion Batteries through Consistent Parameterisation of an Electrochemical-Thermal-Degradation Model. arXiv:2604.09217v1.",
+      "parsed": {
+        "title": "Linking Calendar and Cycle Ageing in Lithium-Ion Batteries through Consistent Parameterisation of an Electrochemical-Thermal-Degradation Model",
+        "authors": "Madabattula, G",
+        "year": "2026",
+        "arxiv_id": "2604.09217v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Linking Calendar and Cycle Ageing in Lithium-Ion Batteries through Consistent Parameterisation of an Electrochemical-Thermal-Degradation Model",
+          "arxiv_id": "2604.09217",
+          "doi": null,
+          "year": "2026",
+          "authors": [
+            "Ganesh Madabattula"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2604.09217",
+          "title": "Linking Calendar and Cycle Ageing in Lithium-Ion Batteries through Consistent Parameterisation of an Electrochemical-Thermal-Degradation Model",
+          "abstract": "Parameterisation of coupled degradation mechanisms in lithium-ion batteries is a major challenge. Interactions between the mechanisms depend on usage conditions: C-rate, rest state-of-charge (SoC), depth-of-discharge (DoD) and temperature. This work presents a framework to consistently parameterise key degradation modes--solid-electrolyte interphase (SEI) growth, lithium plating, and active material loss in both electrodes--using insights derived from degradation mode analysis data. The work predicts capacity fade trajectories of a NMC-based lithium-ion cell under both calendar and combined calendar-cyclic ageing, using a P2D electrochemical-thermal-degradation model. The work predicts state-of-health (SoH), remaining-useful-life (RUL) and internal degradation modes of the cell--under 81 combinations of temperature (10$^o$C, 25$^o$C, 40$^o$C), C-rate (0.1 C, 0.3 C and 1.0 C), rest SoC (10%, 60%, and 100%) and DoD (50%, 70%, and 90%)--using PyBaMM. The predicted cycle-life varies between 0.8 to 14 years to reach 75% of SoH. The work provides mechanistic insights into competing effects between calendar and cyclic ageing, during cycling. The model demonstrates sub-linear, linear, and sup-linear/accelerated capacity fade based on the usage conditions. The simulated dataset for all the cases is made available.",
+          "year": "2026",
+          "authors": [
+            "Ganesh Madabattula"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 4,
+      "raw": "Pour, M. A., Ghasemzadeh, A., Bijarchi, M. A., & Shafii, M. B. (2025). Toward accurate RUL and SoH estimation using reinforced graph-based physics-informed neural networks enhanced with dynamic weights. arXiv:2507.09766v2.",
+      "parsed": {
+        "title": "Toward accurate RUL and SoH estimation using reinforced graph-based physics-informed neural networks enhanced with dynamic weights",
+        "authors": "Pour, M. A., Ghasemzadeh, A., Bijarchi, M. A., & Shafii, M. B",
+        "year": "2025",
+        "arxiv_id": "2507.09766v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Toward accurate RUL and SoH estimation using reinforced graph-based physics-informed neural networks enhanced with dynamic weights",
+          "arxiv_id": "2507.09766",
+          "doi": null,
+          "year": "2025",
+          "authors": [
+            "Mohamadreza Akbari Pour",
+            "Ali Ghasemzadeh",
+            "Mohamad Ali Bijarchi",
+            "Mohammad Behshad Shafii"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2507.09766",
+          "title": "Toward accurate RUL and SoH estimation using reinforced graph-based physics-informed neural networks enhanced with dynamic weights",
+          "abstract": "Accurate estimation of Remaining Useful Life (RUL) and State of Health (SoH) is essential for reliable Prognostics and Health Management (PHM), supporting timely maintenance and dependable industrial operation. However, hybrid models that combine data-driven learning with physics-based regularization often rely on fixed loss weights and therefore lose accuracy when transferred across assets with different degradation behaviors. This study introduces Reinforced Graph-based Physics-informed Networks with Dynamic Weighting (RGPD), a unified framework for spatio-temporal degradation modeling and adaptive physics-guided regularization. Graph-based representation learning captures inter-sensor degradation structure, a Soft Actor-Critic (SAC) module refines latent features under noisy conditions, and a lightweight Q-learning policy adaptively balances monotonicity, smoothness, and latent-dynamics residual losses during training. The framework is evaluated on the C-MAPSS, PHM2012, and XJTU datasets, which represent engine, bearing, and battery degradation processes. Relative to the strongest compared baselines reported in the corresponding benchmark tables, RGPD improves average RMSE by up to 12 percent on PHM2012 and C-MAPSS, and reduces average MAPE by 20 percent on XJTU compared with the second-best reported model. Performance on these heterogeneous benchmarks further suggests the model's generalizability across degradation systems. The physics-informed component is implemented through degradation-consistent priors together with a Deep Hidden Physics Model-style residual, which improves physical plausibility without requiring a full first-principles model for each asset type.",
+          "year": "2025",
+          "authors": [
+            "Mohamadreza Akbari Pour",
+            "Ali Ghasemzadeh",
+            "Mohamad Ali Bijarchi",
+            "Mohammad Behshad Shafii"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 5,
+      "raw": "liu, c., & Gao, D. (2025). SOH Estimation of Lithium-Ion Batteries from Charging Segments via TCN-GRU Networks.",
+      "parsed": {
+        "title": "SOH Estimation of Lithium-Ion Batteries from Charging Segments via TCN-GRU Networks",
+        "authors": "liu, c., & Gao, D",
+        "year": "2025",
+        "arxiv_id": null,
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "SOH Estimation of Lithium-Ion Batteries from Charging Segments via TCN-GRU Networks",
+          "arxiv_id": null,
+          "doi": "10.1109/AANN66429.2025.11257592",
+          "year": "2025",
+          "authors": [
+            "chengfu liu",
+            "Dexin Gao"
+          ]
+        },
+        {
+          "title": "Health Feature Parameters-Based TCN-GRU-AM for Lithium-Ion Battery SOH and RUL Estimation",
+          "arxiv_id": null,
+          "doi": "10.1149/1945-7111/ae0984",
+          "year": "2025",
+          "authors": [
+            "Qinyi Liao",
+            "Shidong Li",
+            "Qiaoqiao Xing",
+            "Yunxiang Li",
+            "Jian Zhou"
+          ]
+        },
+        {
+          "title": "A TCN-GRU Method for State-of-Health Estimation in Nonfully Charged and Discharged Lithium-Ion Batteries",
+          "arxiv_id": null,
+          "doi": "10.1109/TIE.2026.3651346",
+          "year": "2026",
+          "authors": [
+            "Tiancheng Ouyang",
+            "Yingying Su",
+            "Xinshu Lu",
+            "Longde Su"
+          ]
+        },
+        {
+          "title": "State estimation of lithium-ion batteries via electrochemical features and self-attention networks",
+          "arxiv_id": null,
+          "doi": "10.3389/fbael.2026.1795223",
+          "year": "2026",
+          "authors": [
+            "Jinman Li",
+            "Yuxiao Wu"
+          ]
+        },
+        {
+          "title": "Deep Learning-Based State Estimation for Sodium-Ion Batteries Using Long Short-Term Memory Network",
+          "arxiv_id": null,
+          "doi": "10.3390/batteries12010006",
+          "year": "2025",
+          "authors": [
+            "Yunzhe Li",
+            "Yuhao Li",
+            "Jiangong Zhu",
+            "Haifeng Dai",
+            "Zhi Li",
+            "Bo Jiang"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISSING_ID",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": "10.1109/AANN66429.2025.11257592",
+          "title": "SOH Estimation of Lithium-Ion Batteries from Charging Segments via TCN-GRU Networks",
+          "abstract": "Precise evaluation of battery state of health (SOH) is paramount in the battery management systems of electric vehicles. Nonetheless, the prevailing techniques primarily depend on full charge-discharge cycle data, thereby constraining their real-world utility. To address this issue, this paper presents an SOH estimation method that integrates charging segment information with a data-driven model. The proposed method first selects a specific voltage interval during the constant current charging phase to extract representative health indicators; then, key indicators closely related to SOH are identified through correlation analysis. These health indicators are subsequently used as inputs to construct and train a temporal convolutional networkgated recurrent unit (TCN-GRU) model network enhanced with a multi-head attention mechanism. Finally, during the application stage, the obtained charging segments are utilized to estimate SOH. Empirical findings indicate that the proposed approach achieves enhanced estimation precision and exhibits robust generalization ability.",
+          "year": "2025",
+          "authors": [
+            "chengfu liu",
+            "Dexin Gao"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 0
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    }
+  ]
+}

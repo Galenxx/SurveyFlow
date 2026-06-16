@@ -1,0 +1,31 @@
+system,topic_id,topic_label,citation_recall,citation_precision,bare_assertion_rate,relevance_rate,existence_resolved_rate,n_references,n_genuinely_fabricated,seed_std_recall,seed_std_precision
+SURVEYFLOW,code_review_llm,LLM-based Automated Code Review,0.3952,0.2857,0.4876,0.3542,0.8750,24,0,0.0955,0.0853
+SURVEYFLOW,diffusion_3d,Diffusion Models for 3D Content Generation,0.1769,0.1739,0.5185,0.7500,0.8750,24,0,0.0632,0.0613
+SURVEYFLOW,gnn_drug,Graph Neural Networks for Drug Discovery,0.5132,0.4750,0.5476,0.9375,1.0000,24,0,0.0375,0.0210
+SURVEYFLOW,short_video_misinfo,Misinformation Detection on Short Video Platforms,0.3548,0.3548,0.5441,0.8750,1.0000,12,0,0.0425,0.0425
+SURVEYFLOW,affective_remote_work,Affective Computing in Remote Workplaces,0.2222,0.2222,0.6250,1.0000,1.0000,6,0,0.1571,0.1571
+SURVEYFLOW,federated_health,Federated Learning for Healthcare,0.1548,0.1190,0.5579,0.8000,1.0000,15,0,0.0421,0.0421
+SURVEYFLOW,neural_audio_codec,Neural Audio Codecs,0.1486,0.1795,0.6901,0.6970,0.7879,33,0,0.0729,0.0742
+SURVEYFLOW,llm_agent_planning,Planning in LLM Agents,0.4909,0.4643,0.5070,0.6818,0.7273,33,0,0.0955,0.1046
+SURVEYFLOW,battery_soh_ml,ML for Battery State-of-Health,0.3721,0.5227,0.4353,0.8611,0.9444,18,0,0.0380,0.0570
+SURVEYFLOW,txt2sql,Text-to-SQL with LLMs,0.2805,0.2857,0.6569,0.6250,0.8750,24,0,0.1827,0.1827
+NAIVE_RAG,code_review_llm,LLM-based Automated Code Review,0.4242,0.3939,0.4211,0.3056,0.8333,18,0,0.0228,0.0228
+NAIVE_RAG,diffusion_3d,Diffusion Models for 3D Content Generation,0.0238,0.0238,0.5059,1.0000,1.0000,6,0,0.0337,0.0337
+NAIVE_RAG,gnn_drug,Graph Neural Networks for Drug Discovery,0.1034,0.0690,0.3830,1.0000,1.0000,6,0,0.0268,0.0268
+NAIVE_RAG,short_video_misinfo,Misinformation Detection on Short Video Platforms,0.5417,0.4615,0.7143,1.0000,1.0000,3,0,0.0589,0.0920
+NAIVE_RAG,affective_remote_work,Affective Computing in Remote Workplaces,1.0000,1.0000,0.6000,0.6667,0.6667,3,0,0.0000,0.0000
+NAIVE_RAG,federated_health,Federated Learning for Healthcare,0.5179,0.3571,0.3125,0.6667,0.9167,12,0,0.1339,0.1339
+NAIVE_RAG,neural_audio_codec,Neural Audio Codecs,0.0000,0.0000,0.7576,0.6250,0.7500,24,0,0.0000,0.0000
+NAIVE_RAG,llm_agent_planning,Planning in LLM Agents,0.0345,0.0345,0.5246,0.7143,0.7143,21,0,0.0471,0.0471
+NAIVE_RAG,battery_soh_ml,ML for Battery State-of-Health,0.3026,0.3077,0.4154,0.8750,1.0000,12,0,0.1076,0.1045
+NAIVE_RAG,txt2sql,Text-to-SQL with LLMs,0.0000,0.0000,0.7800,0.5833,0.8333,24,0,0.0000,0.0000
+LLM_ONLY,code_review_llm,LLM-based Automated Code Review,0.2895,0.2632,0.8288,0.3000,0.7333,30,0,0.0661,0.0661
+LLM_ONLY,diffusion_3d,Diffusion Models for 3D Content Generation,0.5455,0.4545,0.8350,0.4833,0.8000,30,3,0.0417,0.0417
+LLM_ONLY,gnn_drug,Graph Neural Networks for Drug Discovery,0.6607,0.6071,0.7143,0.7500,0.8333,30,2,0.0367,0.0367
+LLM_ONLY,short_video_misinfo,Misinformation Detection on Short Video Platforms,0.6071,0.6429,0.7922,0.1500,0.5000,30,2,0.0521,0.0521
+LLM_ONLY,affective_remote_work,Affective Computing in Remote Workplaces,1.0000,1.0000,0.8596,0.0167,0.3333,30,1,0.0000,0.0000
+LLM_ONLY,federated_health,Federated Learning for Healthcare,0.5833,0.6667,0.8451,0.1500,0.5000,30,0,0.0000,0.0000
+LLM_ONLY,neural_audio_codec,Neural Audio Codecs,0.6923,0.6923,0.8052,0.4500,0.7000,30,2,0.0535,0.0535
+LLM_ONLY,llm_agent_planning,Planning in LLM Agents,0.6190,0.6190,0.7913,0.7000,0.7000,30,6,0.1832,0.1832
+LLM_ONLY,battery_soh_ml,ML for Battery State-of-Health,0.0000,0.0000,0.0000,0.0000,0.0000,30,0,0.0000,0.0000
+LLM_ONLY,txt2sql,Text-to-SQL with LLMs,0.8077,0.8462,0.8056,0.5667,0.5667,30,9,0.1641,0.1641

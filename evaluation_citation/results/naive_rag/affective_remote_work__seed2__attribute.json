@@ -1,0 +1,94 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "affective_remote_work",
+  "seed": 2,
+  "topic": "Affective Computing for Remote Workplace Monitoring: Sensing, Inference, and Ethical Considerations",
+  "metrics": {
+    "n_cited_claims": 4,
+    "support_total": 4.0,
+    "citation_recall": 1.0,
+    "n_supported": 4,
+    "n_partial": 0,
+    "n_unsupported": 0,
+    "n_error": 0,
+    "n_citation_mounts": 4,
+    "n_contributing": 4,
+    "contributing_weight": 4.0,
+    "citation_precision": 1.0,
+    "n_not_verifiable": 0,
+    "n_claims": 12,
+    "n_claims_with_cite": 4,
+    "n_claims_bare": 8,
+    "bare_assertion_rate": 0.6667
+  },
+  "per_sentence": [
+    {
+      "sent_id": 35,
+      "section_title": "3 Background and Foundations",
+      "text": "Mantello et al. (2021) observe that a new generation of biometric devices has emerged which can sense, read, monitor, and evaluate the affective state of a worker.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract of c0 explicitly states that 'a new generation of biometric devices has emerged that can sense, read, monitor and evaluate the affective state of a worker,' directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 38,
+      "section_title": "4 Methods and Techniques",
+      "text": "Mantello et al. (2021) describe a new generation of biometric devices capable of sensing, reading, monitoring, and evaluating the affective state of a worker.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that 'a new generation of biometric devices has emerged that can sense, read, monitor and evaluate the affective state of a worker,' directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 41,
+      "section_title": "5 Applications and Systems",
+      "text": "Mantello et al. (2021) describe a new generation of biometric devices, commercially termed Emotional AI, that can sense, read, monitor, and evaluate the affective state of a worker.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that a new generation of biometric devices has emerged that can sense, read, monitor and evaluate the affective state of a worker, commercially termed Emotional AI, directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 44,
+      "section_title": "6 Challenges and Open Problems",
+      "text": "Mantello et al. (2021) highlight the emergence of a new generation of biometric devices capable of sensing, reading, monitoring, and evaluating a worker's affective state, a technology popularly known as Emotional AI.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that a new generation of biometric devices has emerged that can sense, read, monitor, and evaluate the affective state of a worker, popularly known as Emotional AI, directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "federated_health",
+  "seed": 2,
+  "topic": "Federated Learning for Privacy-Preserving Healthcare: Architectures, Communication Efficiency, and Clinical Deployment",
+  "n_references": 4,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "identification_verdict": "MISSING_ID",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper presents a federated learning framework for privacy-preserving radiological analysis, directly addressing architectures, communication efficiency, and clinical deployment in healthcare, which are core topics of the survey."
+      }
+    },
+    {
+      "ref_id": 1,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper surveys Quantum Federated Learning (QFL), which is a distinct paradigm from classical Federated Learning, and while it mentions healthcare as one application domain, its primary contribution is on quantum-enhanced architectures rather than privacy-preserving healthcare FL specifically."
+      }
+    },
+    {
+      "ref_id": 2,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper focuses on data pricing in federated learning, which is tangentially related to the survey's core topics of architectures, communication efficiency, and clinical deployment in healthcare, but it is not a primary reference for those areas."
+      }
+    },
+    {
+      "ref_id": 3,
+      "identification_verdict": "MISSING_ID",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a federated learning framework for ECG data in IoT healthcare, directly addressing privacy-preserving healthcare architectures and deployment, which are core topics of the survey."
+      }
+    }
+  ],
+  "aggregate": {
+    "score": 75.0,
+    "n_relevant": 2,
+    "n_partial": 2,
+    "n_irrelevant": 0,
+    "n_error": 0,
+    "n_judged": 4
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "battery_soh_ml",
+  "seed": 0,
+  "topic": "Machine Learning for Lithium-Ion Battery State-of-Health Estimation and Remaining-Useful-Life Prediction",
+  "metrics": {
+    "n_cited_claims": 13,
+    "support_total": 5.5,
+    "citation_recall": 0.4231,
+    "n_supported": 3,
+    "n_partial": 5,
+    "n_unsupported": 5,
+    "n_error": 0,
+    "n_citation_mounts": 14,
+    "n_contributing": 8,
+    "contributing_weight": 6.5,
+    "citation_precision": 0.4643,
+    "n_not_verifiable": 0,
+    "n_claims": 26,
+    "n_claims_with_cite": 13,
+    "n_claims_bare": 13,
+    "bare_assertion_rate": 0.5
+  },
+  "per_sentence": [
+    {
+      "sent_id": 32,
+      "section_title": "3.1 Data-Driven Machine Learning for Battery Cycle Life Prediction",
+      "text": "Data-driven machine learning (ML) approaches have gained increasing attention for battery state and health estimation (Zhang et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The cited paper uses support vector regression (a machine learning method) for battery state-of-health estimation, which partially supports the claim that ML approaches are used for battery state estimation, but it does not demonstrate that data-driven ML approaches have 'gained increasing attention' broadly.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 33,
+      "section_title": "3.1 Data-Driven Machine Learning for Battery Cycle Life Prediction",
+      "text": "Liu and Gao (2025) note that ML modeling has been applied successfully in this domain, and they emphasize that the first step of any battery modeling effort should be defining the application precisely.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a specific ML model for SOH estimation but does not mention that ML modeling has been applied successfully in this domain broadly, nor does it state that defining the application precisely should be the first step of any battery modeling effort.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 36,
+      "section_title": "3.2 Gaussian Process Regression for SOH and RUL Estimation",
+      "text": "Zhang et al. (2022) note that GPs represent a key class of regressors in this domain and reference prior work by Li et al. (2020) that combined incremental capacity analysis with GPR for SOH estimation.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The sentence claims that Li et al. (2020) combined incremental capacity analysis with Gaussian process regression (GPR) for SOH estimation, but the cited evidence (c0) describes a method combining ICA with support vector regression (SVR), not GPR, and does not mention Li et al. (2020) or Gaussian processes.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 38,
+      "section_title": "3.2 Gaussian Process Regression for SOH and RUL Estimation",
+      "text": "However, Zhang et al. (2022) shift the focus toward a different scenario, indicating that their own work pursues an alternative estimation setting.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract describes a specific SOH estimation method without any mention of Zhang et al. (2022) or any discussion of shifting focus to an alternative estimation scenario.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 41,
+      "section_title": "3.3 Pulse Test Data Prediction and Generalization for Battery Reuse",
+      "text": "Liu and Gao (2025) describe an approach in which a data-driven model learns the prediction error of a previously trained first-principles model, thereby increasing the flexibility and prediction accuracy of the physics-based component while enhancing overall generalizability.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a direct data-driven SOH estimation model using TCN-GRU, not a hybrid approach where a data-driven model learns the prediction error of a first-principles model.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 44,
+      "section_title": "3.3 Pulse Test Data Prediction and Generalization for Battery Reuse",
+      "text": "Zhang et al. (2022) introduce a Gaussian process regression network (GPRn) that combines single training cell Gaussian processes and is designed to estimate state of health from one charging cycle of a new cell, given cycling data from beginning-of-life to end-of-life for multiple similar cells.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a method combining voltage-capacity model-based incremental capacity analysis with support vector regression, not a Gaussian process regression network, and does not mention estimating state of health from a single charging cycle of a new cell.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 47,
+      "section_title": "4.1 Electrochemical-Thermal-Degradation Modeling for SOH and RUL Prediction",
+      "text": "Madabattula (2026) developed a consistent parameterisation of such a model to link calendar and cycle ageing, arguing that a unified physics-based framework providing insights into degradation modes across coupled usage conditions was not previously available.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence supports that Madabattula (2026) developed a consistent parameterisation linking calendar and cycle ageing and provides mechanistic insights, but it does not explicitly state that a unified physics-based framework providing such insights was not previously available.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 48,
+      "section_title": "4.1 Electrochemical-Thermal-Degradation Modeling for SOH and RUL Prediction",
+      "text": "The study examined variations in rest state-of-charge (10%, 60%, 100%), C-rate (0.1C, 0.3C, 1C), depth-of-discharge (50%, 70%, 90%), and temperature (10 °C, 25 °C, 40 °C), and found that the model predicted sub-linear degradation trajectories under gentle operation, linear trajectories under moderate conditions, and contributions from both positive and negative electrodes to the total capacity loss (Madabattula, 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms the examined parameter variations and sub-linear/linear degradation trajectories, but it does not mention sup-linear/accelerated trajectories as 'contributions from both positive and negative electrodes to the total capacity loss' in the way the sentence claims.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 51,
+      "section_title": "4.1 Electrochemical-Thermal-Degradation Modeling for SOH and RUL Prediction",
+      "text": "Pour et al. (2025) employed a reinforced graph-based physics-informed neural network with dynamic weights, demonstrating that the model could consistently follow the overall SOH degradation trend across multiple battery batches, with uncertainty quantification that narrowed toward end-of-life.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The abstract confirms the model (RGPD) and its evaluation on the XJTU battery dataset, but it does not mention consistent SOH degradation trend following across multiple battery batches or uncertainty quantification narrowing toward end-of-life.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 53,
+      "section_title": "4.2 Reinforced Graph-Based Physics-Informed Neural Networks for SOH Estimation",
+      "text": "Pour et al. (2025) introduced the Reinforced Graph-based Physics-informed neural networks enhanced with Dynamic weights (RGPD) framework to address the challenge of capturing complex degradation interactions in battery state-of-health (SOH) estimation.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The cited paper's title and abstract explicitly state that it introduces the RGPD framework and evaluates it on battery degradation data (XJTU), directly supporting the claim that Pour et al. (2025) proposed RGPD for battery SOH estimation.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 54,
+      "section_title": "4.2 Reinforced Graph-Based Physics-Informed Neural Networks for SOH Estimation",
+      "text": "The architecture integrates graph-based spatio-temporal learning to model degradation dynamics, employs soft actor-critic (SAC) to adaptively modulate hidden representations before temporal attention, and leverages Q-learning as part of its reinforcement mechanism (Pour et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that the framework uses graph-based representation learning for spatio-temporal degradation modeling, a Soft Actor-Critic module to refine latent features, and a Q-learning policy for adaptive loss balancing, directly matching all three architectural claims in the sentence.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 56,
+      "section_title": "4.2 Reinforced Graph-Based Physics-Informed Neural Networks for SOH Estimation",
+      "text": "Madabattula (2026) generated a comprehensive dataset from an electrochemical-thermal-degradation model, covering 81 cyclic ageing use cases, 9 calendar ageing cases, and 3 standard cycling conditions, with the explicit purpose of training physics-informed data-driven models (Madabattula, 2026).",
+      "n_cites": 2,
+      "label_to_ref": {
+        "c0": 3,
+        "c1": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states the model predicts under 81 combinations of temperature, C-rate, rest SoC, and DoD (cyclic ageing use cases), covers calendar ageing, and makes the simulated dataset available, which directly supports the claim of generating a comprehensive dataset for training data-driven models.",
+        "per_citation_contribution": {
+          "c0": true,
+          "c1": true
+        }
+      }
+    },
+    {
+      "sent_id": 57,
+      "section_title": "4.2 Reinforced Graph-Based Physics-Informed Neural Networks for SOH Estimation",
+      "text": "This dataset, which links usage conditions to coupled degradation mechanisms, provides the kind of physically consistent degradation trajectories that can validate models under different operating modes and support the development of frameworks like RGPD (Madabattula, 2026).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence describes a dataset linking usage conditions to coupled degradation mechanisms and provides degradation trajectories, but it does not mention RGPD or any framework development support.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    }
+  ]
+}

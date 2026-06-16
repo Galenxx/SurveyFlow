@@ -1,0 +1,145 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "code_review_llm",
+  "seed": 1,
+  "topic": "Large Language Models for Automated Code Review: Techniques, Benchmarks, and Industrial Deployment",
+  "metrics": {
+    "n_cited_claims": 7,
+    "support_total": 1.5,
+    "citation_recall": 0.2143,
+    "n_supported": 1,
+    "n_partial": 1,
+    "n_unsupported": 5,
+    "n_error": 0,
+    "n_citation_mounts": 7,
+    "n_contributing": 2,
+    "contributing_weight": 1.5,
+    "citation_precision": 0.2143,
+    "n_not_verifiable": 0,
+    "n_claims": 50,
+    "n_claims_with_cite": 7,
+    "n_claims_bare": 43,
+    "bare_assertion_rate": 0.86
+  },
+  "per_sentence": [
+    {
+      "sent_id": 41,
+      "section_title": "3 Techniques and Model Architectures",
+      "text": "Pioneering work in this area, such as CodeReviewer, introduced pre-training objectives specifically designed for code review activities, demonstrating that task-aware pre-training significantly outperforms general-purpose models (Li et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that CodeReviewer uses four pre-training tasks tailored for code review and outperforms previous state-of-the-art pre-training approaches, directly supporting the claim of task-aware pre-training significantly outperforming general-purpose models.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 42,
+      "section_title": "3 Techniques and Model Architectures",
+      "text": "Similarly, sequence editing models like CoditT5 have been proposed to handle the inherent structure of code diffs, treating code changes as edits rather than generation from scratch (Li et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper proposes CodeReviewer, a general pre-trained model for code review tasks, but does not mention CoditT5 or the specific approach of treating code changes as edits rather than generation from scratch.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 57,
+      "section_title": "4 Benchmarks and Evaluation Methodologies",
+      "text": "Furthermore, benchmarks for code generation, such as HumanEval, have been adapted to evaluate the code refinement capabilities of LLMs (Chen et al., 2021).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 7
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper introduces HumanEval for measuring functional correctness of code generation from docstrings but does not mention adapting it to evaluate code refinement capabilities of LLMs.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 59,
+      "section_title": "4 Benchmarks and Evaluation Methodologies",
+      "text": "The development of context-rich, repository-level benchmarks is essential for accurately gauging the efficacy of LLMs in realistic code review settings (Hou et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper is a broad systematic literature review on LLMs for software engineering and does not specifically discuss or argue for the necessity of context-rich, repository-level benchmarks for code review evaluation.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 72,
+      "section_title": "5 Industrial Deployment and Integration",
+      "text": "The rise of open-source models tailored for code, such as Code Llama, has facilitated on-premise deployments, allowing companies to fine-tune models on their internal codebases while retaining complete control over their intellectual property (Roziere et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms Code Llama is an open model for code released under a permissive license, which enables on-premise deployment and fine-tuning, but it does not explicitly state that this allows companies to retain complete control over their intellectual property.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 73,
+      "section_title": "5 Industrial Deployment and Integration",
+      "text": "Effective integration also involves seamlessly embedding the LLM into existing developer tools and IDEs, ensuring that the AI acts as a collaborative assistant rather than a disruptive barrier (Fan et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract discusses LLMs for software engineering broadly and mentions hybrid techniques but does not address embedding LLMs into developer tools or IDEs as a collaborative assistant.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 83,
+      "section_title": "6 Limitations and Challenges",
+      "text": "The quality of the training data also poses a challenge; models trained on open-source code may learn suboptimal practices or reinforce existing biases present in the data (Zhang et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence examines student perceptions and intentions regarding generative AI use in education, but it does not address training data quality, open-source code, or the learning of suboptimal practices and biases.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

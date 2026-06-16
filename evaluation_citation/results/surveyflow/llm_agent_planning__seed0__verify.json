@@ -1,0 +1,654 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "llm_agent_planning",
+  "seed": 0,
+  "topic": "Planning and Reasoning in Large Language Model Agents: Methods, Tool Use, and Evaluation Benchmarks",
+  "n_references": 11,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Rodríguez-Sánchez, M. J., Noguera, M., Ruiz-Zafra, Á., & Benghazi, K. (2026). Towards a Declarative Agentic Layer for Intelligent Agents in MCP-Based Server Ecosystems. arXiv:2601.17435.",
+      "parsed": {
+        "title": "Towards a Declarative Agentic Layer for Intelligent Agents in MCP-Based Server Ecosystems",
+        "authors": "Rodríguez-Sánchez, M. J., Noguera, M., Ruiz-Zafra, Á., & Benghazi, K",
+        "year": "2026",
+        "arxiv_id": "2601.17435",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Towards a Declarative Agentic Layer for Intelligent Agents in MCP-Based Server Ecosystems",
+          "arxiv_id": "2601.17435",
+          "doi": null,
+          "year": "2026",
+          "authors": [
+            "Maria Jesus Rodriguez-Sanchez",
+            "Manuel Noguera",
+            "Angel Ruiz-Zafra",
+            "Kawtar Benghazi"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2601.17435",
+          "title": "Towards a Declarative Agentic Layer for Intelligent Agents in MCP-Based Server Ecosystems",
+          "abstract": "Recent advances in Large Language Models (LLMs) have enabled the development of increasingly complex agentic and multi-agent systems capable of planning, tool use and task decomposition. However, empirical evidence shows that many of these systems suffer from fundamental reliability issues, including hallucinated actions, unexecutable plans and brittle coordination. Crucially, these failures do not stem from limitations of the underlying models themselves, but from the absence of explicit architectural structure linking goals, capabilities and execution. This paper presents a declarative, model-independent architectural layer for grounded agentic workflows that addresses this gap. The proposed layer, referred to as DALIA (Declarative Agentic Layer for Intelligent Agents), formalises executable capabilities, exposes tasks through a declarative discovery protocol, maintains a federated directory of agents and their execution resources, and constructs deterministic task graphs grounded exclusively in declared operations. By enforcing a clear separation between discovery, planning and execution, the architecture constrains agent behaviour to a verifiable operational space, reducing reliance on speculative reasoning and free-form coordination. We present the architecture and design principles of the proposed layer and illustrate its operation through a representative task-oriented scenario, demonstrating how declarative grounding enables reproducible and verifiable agentic workflows across heterogeneous environments.",
+          "year": "2026",
+          "authors": [
+            "Maria Jesus Rodriguez-Sanchez",
+            "Manuel Noguera",
+            "Angel Ruiz-Zafra",
+            "Kawtar Benghazi"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Shen, J., Wadlom, N., & Lu, Y. (2025). Batch Query Processing and Optimization for Agentic Workflows. arXiv:2509.02121.",
+      "parsed": {
+        "title": "Batch Query Processing and Optimization for Agentic Workflows",
+        "authors": "Shen, J., Wadlom, N., & Lu, Y",
+        "year": "2025",
+        "arxiv_id": "2509.02121",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Batch Query Processing and Optimization for Agentic Workflows",
+          "arxiv_id": "2509.02121",
+          "doi": null,
+          "year": "2025",
+          "authors": [
+            "Junyi Shen",
+            "Noppanat Wadlom",
+            "Yao Lu"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2509.02121",
+          "title": "Batch Query Processing and Optimization for Agentic Workflows",
+          "abstract": "Large Language Models (LLMs) in agentic workflows combine multi-step reasoning, heterogeneous tool use, and collaboration across multiple specialized agents. Existing LLM serving engines optimize individual calls in isolation, while multi-agent frameworks focus on orchestration without system-level performance planning. As a result, repeated prompts, overlapping contexts, and fragmented CPU-GPU execution create substantial redundancy and poor hardware utilization, especially in batch analytics scenarios. We introduce Halo, a system that brings batch query processing and optimization into agentic LLM workflows. Halo represents each workflow as a structured query plan DAG and constructs a consolidated graph for batched queries that exposes shared computation. Guided by a cost model that jointly considers heterogeneous resource constraints, prefill and decode costs, cache reuse, and GPU placement, Halo performs plan-level optimization to minimize redundant execution. The Processor integrates adaptive batching, KV-cache sharing and migration, along with fine-grained CPU-GPU pipelining to maximize holistic hardware efficiency. Evaluation across six benchmarks shows that Halo achieves up to 3.6x speedup for batch inference and 2.6x throughput improvement under online serving, scaling to workloads of thousands of queries and complex graphs. These gains are achieved without compromising output quality. By unifying query optimization with heterogeneous LLM serving, Halo enables efficient agentic workflows in data analytics and decision-making applications.",
+          "year": "2025",
+          "authors": [
+            "Junyi Shen",
+            "Noppanat Wadlom",
+            "Yao Lu"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Mishra, V., Saeidi, A., Raj, S., Nakamura, M., Srinivasa, J., Liu, G., Payani, A., & Baral, C. (2025). How Can Input Reformulation Improve Tool Usage Accuracy in a Complex Dynamic Environment? A Study on τ-bench. arXiv:2508.20931.",
+      "parsed": {
+        "title": "How Can Input Reformulation Improve Tool Usage Accuracy in a Complex Dynamic Environment? A Study on τ-bench",
+        "authors": "Mishra, V., Saeidi, A., Raj, S., Nakamura, M., Srinivasa, J., Liu, G., Payani, A., & Baral, C",
+        "year": "2025",
+        "arxiv_id": "2508.20931",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "How Can Input Reformulation Improve Tool Usage Accuracy in a Complex Dynamic Environment? A Study on $τ$-bench",
+          "arxiv_id": "2508.20931",
+          "doi": null,
+          "year": "2025",
+          "authors": [
+            "Venkatesh Mishra",
+            "Amir Saeidi",
+            "Satyam Raj",
+            "Mutsumi Nakamura",
+            "Jayanth Srinivasa",
+            "Gaowen Liu",
+            "Ali Payani",
+            "Chitta Baral"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2508.20931",
+          "title": "How Can Input Reformulation Improve Tool Usage Accuracy in a Complex Dynamic Environment? A Study on $τ$-bench",
+          "abstract": "Recent advances in reasoning and planning capabilities of large language models (LLMs) have enabled their potential as autonomous agents capable of tool use in dynamic environments. However, in multi-turn conversational environments like $τ$-bench, these agents often struggle with consistent reasoning, adherence to domain-specific policies, and extracting correct information over a long horizon of tool-calls and conversation. To capture and mitigate these failures, we conduct a comprehensive manual analysis of the common errors occurring in the conversation trajectories. We then experiment with reformulations of inputs to the tool-calling agent for improvement in agent decision making. Finally, we propose the Input-Reformulation Multi-Agent (IRMA) framework, which automatically reformulates user queries augmented with relevant domain rules and tool suggestions for the tool-calling agent to focus on. The results show that IRMA significantly outperforms ReAct, Function Calling, and Self-Reflection by 16.1%, 12.7%, and 19.1%, respectively, in overall pass^5 scores. These findings highlight the superior reliability and consistency of IRMA compared to other methods in dynamic environments.",
+          "year": "2025",
+          "authors": [
+            "Venkatesh Mishra",
+            "Amir Saeidi",
+            "Satyam Raj",
+            "Mutsumi Nakamura",
+            "Jayanth Srinivasa",
+            "Gaowen Liu",
+            "Ali Payani",
+            "Chitta Baral"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Xi, Z., Liang, S., Liu, Q., Zhang, J., Peng, L., Nan, F., Nayim, M., Zhang, T., Mundada, R., Qin, L., Huang, B., & Zhou, K. (2026). C-World: A Computer Use Agent Environment Creator. arXiv:2601.06328.",
+      "parsed": {
+        "title": "C-World: A Computer Use Agent Environment Creator",
+        "authors": "Xi, Z., Liang, S., Liu, Q., Zhang, J., Peng, L., Nan, F., Nayim, M., Zhang, T., Mundada, R., Qin, L., Huang, B., & Zhou, K",
+        "year": "2026",
+        "arxiv_id": "2601.06328",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "C-World: A Computer Use Agent Environment Creator",
+          "arxiv_id": "2601.06328",
+          "doi": null,
+          "year": "2026",
+          "authors": [
+            "Ziqiao Xi",
+            "Shuang Liang",
+            "Qi Liu",
+            "Jiaqing Zhang",
+            "Letian Peng",
+            "Fang Nan",
+            "Meshal Nayim",
+            "Tianhui Zhang",
+            "Rishika Mundada",
+            "Lianhui Qin",
+            "Biwei Huang",
+            "Kun Zhou"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2601.06328",
+          "title": "C-World: A Computer Use Agent Environment Creator",
+          "abstract": "To close the gap between LLM-based agents and humans in planning and reasoning, agents need large-scale, diverse environments for continuous learning -- yet building such environments is itself prohibitively expensive. We present C-World, an environment creation system that enables users to build agent environments on demand. We define a complete agent environment through four components: an Action Space of 5,571 format-unified tools across 204 common applications, a Task Distribution engine that synthesizes long-horizon workflows with wild constraints, a Transition Function implemented as a state controller that injects realistic failures and perturbations, and a Reward Signal combining verifiable metrics with LLM-based judgment. C-World operates in two modes: a realistic mode grounded in live API execution, and a synthesized mode powered by the World Engine, which approximates tool behavior without live service access, enabling scalable environment creation -- including environments for domains and tools that do not yet exist in the real world. Evaluation of nine state-of-the-art LLMs reveals that planning ability is uniformly strong but execution remains the bottleneck, and that constraint following -- not tool invocation -- is the dominant failure mode. The World Engine achieves Spearman $ρ= 0.883$ ranking correlation with real execution, and fine-tuning on just 1,170 C-World trajectories outperforms baselines trained on 119k samples, demonstrating C-World's dual value as a rigorous evaluation environment and a scalable data engine. Our code and data are available at https://ziqiao-git.github.io/C-World/",
+          "year": "2026",
+          "authors": [
+            "Ziqiao Xi",
+            "Shuang Liang",
+            "Qi Liu",
+            "Jiaqing Zhang",
+            "Letian Peng",
+            "Fang Nan",
+            "Meshal Nayim",
+            "Tianhui Zhang",
+            "Rishika Mundada",
+            "Lianhui Qin",
+            "Biwei Huang",
+            "Kun Zhou"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 4,
+      "raw": "Unknown Author (n.d.). A Lightweight Modular Framework for Constructing Autonomous Agents Driven by Large Language Models_.",
+      "parsed": {
+        "title": null,
+        "authors": null,
+        "year": null,
+        "arxiv_id": null,
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 5,
+      "raw": "Xu, Z., Wu, Z., Zhou, Y., Feng, A., Zhou, K., Woo, S., Ramnath, K., Tian, Y., Qi, X., Qiu, W., Cheong, L. L., & Ding, H. (2025). Beyond Correctness: Rewarding Faithful Reasoning in Retrieval-Augmented Generation. arXiv:2510.13272.",
+      "parsed": {
+        "title": "Beyond Correctness: Rewarding Faithful Reasoning in Retrieval-Augmented Generation",
+        "authors": "Xu, Z., Wu, Z., Zhou, Y., Feng, A., Zhou, K., Woo, S., Ramnath, K., Tian, Y., Qi, X., Qiu, W., Cheong, L. L., & Ding, H",
+        "year": "2025",
+        "arxiv_id": "2510.13272",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Beyond Correctness: Rewarding Faithful Reasoning in Retrieval-Augmented Generation",
+          "arxiv_id": "2510.13272",
+          "doi": null,
+          "year": "2025",
+          "authors": [
+            "Zhichao Xu",
+            "Zongyu Wu",
+            "Yun Zhou",
+            "Aosong Feng",
+            "Kang Zhou",
+            "Sangmin Woo",
+            "Kiran Ramnath",
+            "Yijun Tian",
+            "Xuan Qi",
+            "Weikang Qiu",
+            "Lin Lee Cheong",
+            "Haibo Ding"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2510.13272",
+          "title": "Beyond Correctness: Rewarding Faithful Reasoning in Retrieval-Augmented Generation",
+          "abstract": "Inspired by the success of reinforcement learning (RL) in Large Language Model (LLM) training for domains like math and code, recent work has begun training LLMs to dynamically plan, query, and reason with search engines as tools -- a paradigm increasingly referred to as agentic search. Although these methods achieve performance improvement across popular short-form QA benchmarks, many prioritize final answer correctness while overlooking the quality of intermediate reasoning steps, which may lead to chain-of-thought unfaithfulness. In this paper, we first introduce a comprehensive evaluation framework for agentic search, covering three distinct faithfulness metrics: Think-Search faithfulness, Information-Think faithfulness, and Think-Answer faithfulness. Our evaluations reveal that canonical agentic search systems trained through Reinforcement Learning from Verifiable Reward (RLVR) using episode-level outcome-based reward -- including Search-R1 and ReSearch -- have significant room for improvement on these faithfulness dimensions. To foster faithful reasoning in agentic search, we introduce VERITAS (Verifying Entailed Reasoning through Intermediate Traceability in Agentic Search), a novel framework that integrates fine-grained turn-level faithfulness rewards into the reinforcement learning process. Our experiments show that models trained with \\ours not only significantly improve reasoning faithfulness, but also achieve better task performance compared to baselines trained against episode-level outcome-based reward.",
+          "year": "2025",
+          "authors": [
+            "Zhichao Xu",
+            "Zongyu Wu",
+            "Yun Zhou",
+            "Aosong Feng",
+            "Kang Zhou",
+            "Sangmin Woo",
+            "Kiran Ramnath",
+            "Yijun Tian",
+            "Xuan Qi",
+            "Weikang Qiu",
+            "Lin Lee Cheong",
+            "Haibo Ding"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 6,
+      "raw": "Pham, T. D., Tanikanti, A., & Keçeli, M. (2025). ChemGraph: An Agentic Framework for Computational Chemistry Workflows. arXiv:2506.06363.",
+      "parsed": {
+        "title": "ChemGraph: An Agentic Framework for Computational Chemistry Workflows",
+        "authors": "Pham, T. D., Tanikanti, A., & Keçeli, M",
+        "year": "2025",
+        "arxiv_id": "2506.06363",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "ChemGraph: An Agentic Framework for Computational Chemistry Workflows",
+          "arxiv_id": "2506.06363",
+          "doi": null,
+          "year": "2025",
+          "authors": [
+            "Thang D. Pham",
+            "Aditya Tanikanti",
+            "Murat Keçeli"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2506.06363",
+          "title": "ChemGraph: An Agentic Framework for Computational Chemistry Workflows",
+          "abstract": "Atomistic simulations are essential tools in chemistry and materials science, accelerating the discovery of novel catalysts, energy storage materials, and pharmaceuticals. However, running these simulations remains challenging due to the wide range of computational methods, diverse software ecosystems, and the need for expert knowledge and manual effort for the setup, execution, and validation stages. In this work, we present ChemGraph, an agentic framework powered by artificial intelligence and state-of-the-art simulation tools to streamline and automate computational chemistry and materials science workflows. ChemGraph leverages graph neural network-based foundation models for accurate yet computationally efficient calculations and large language models (LLMs) for natural language understanding, task planning, and scientific reasoning to provide an intuitive and interactive interface. Users can perform tasks such as molecular structure generation, single-point energy, geometry optimization, vibrational analysis, and thermochemistry calculations with methods ranging from tight-binding and machine learning interatomic potentials to density functional theory or wave function theory-based methods. We evaluate ChemGraph across 13 benchmark tasks and demonstrate that smaller LLMs (GPT-4o-mini, Claude-3.5-haiku, Qwen2.5-14B) perform well on simple workflows, while more complex tasks benefit from using larger models like GPT-4o. Importantly, we show that decomposing complex tasks into smaller subtasks through a multi-agent framework enables smaller LLM models to match or exceed GPT-4o's performance in specific scenarios.",
+          "year": "2025",
+          "authors": [
+            "Thang D. Pham",
+            "Aditya Tanikanti",
+            "Murat Keçeli"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 7,
+      "raw": "Unknown Author (2022). EHRAgent_ Code Empowers Large Language Models for Few-shot Complex Tabular Reasoning on Electronic H.",
+      "parsed": {
+        "title": "EHRAgent_ Code Empowers Large Language Models for Few-shot Complex Tabular Reasoning on Electronic H",
+        "authors": "Unknown Author",
+        "year": "2022",
+        "arxiv_id": null,
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "EHRAgent: Code Empowers Large Language Models for Few-shot Complex Tabular Reasoning on Electronic Health Records",
+          "arxiv_id": "2401.07128",
+          "doi": "10.18653/v1/2024.emnlp-main.1245",
+          "year": "2024",
+          "authors": [
+            "Wenqi Shi",
+            "Ran Xu",
+            "Yuchen Zhuang",
+            "Yue Yu",
+            "Jieyu Zhang",
+            "Hang Wu",
+            "Yuanda Zhu",
+            "Joyce C. Ho",
+            "Carl Yang",
+            "M. D. Wang"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "AMBIGUOUS",
+        "best_hit": {
+          "arxiv_id": "2401.07128",
+          "doi": "10.18653/v1/2024.emnlp-main.1245",
+          "title": "EHRAgent: Code Empowers Large Language Models for Few-shot Complex Tabular Reasoning on Electronic Health Records",
+          "abstract": "Clinicians often rely on data engineers to retrieve complex patient information from electronic health record (EHR) systems, a process that is both inefficient and time-consuming. We propose EHRAgent, a large language model (LLM) agent empowered with accumulative domain knowledge and robust coding capability. EHRAgent enables autonomous code generation and execution to facilitate clinicians in directly interacting with EHRs using natural language. Specifically, we formulate a multi-tabular reasoning task based on EHRs as a tool-use planning process, efficiently decomposing a complex task into a sequence of manageable actions with external toolsets. We first inject relevant medical information to enable EHRAgent to effectively reason about the given query, identifying and extracting the required records from the appropriate tables. By integrating interactive coding and execution feedback, EHRAgent then effectively learns from error messages and iteratively improves its originally generated code. Experiments on three real-world EHR datasets show that EHRAgent outperforms the strongest baseline by up to 29.6% in success rate, verifying its strong capacity to tackle complex clinical tasks with minimal demonstrations.",
+          "year": "2024",
+          "authors": [
+            "Wenqi Shi",
+            "Ran Xu",
+            "Yuchen Zhuang",
+            "Yue Yu",
+            "Jieyu Zhang",
+            "Hang Wu",
+            "Yuanda Zhu",
+            "Joyce C. Ho",
+            "Carl Yang",
+            "M. D. Wang"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 96
+        },
+        "title_sim": 0.9383886255924171,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 8,
+      "raw": "Unknown Author (2023). LLMArena_ Assessing Capabilities of Large Language Models in Dynamic Multi-Agent Environments.",
+      "parsed": {
+        "title": "LLMArena_ Assessing Capabilities of Large Language Models in Dynamic Multi-Agent Environments",
+        "authors": "Unknown Author",
+        "year": "2023",
+        "arxiv_id": null,
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "LLMArena: Assessing Capabilities of Large Language Models in Dynamic Multi-Agent Environments",
+          "arxiv_id": "2402.16499",
+          "doi": "10.48550/arXiv.2402.16499",
+          "year": "2024",
+          "authors": [
+            "Junzhe Chen",
+            "Xuming Hu",
+            "Shuodi Liu",
+            "Shiyu Huang",
+            "Weijuan Tu",
+            "Zhaofeng He",
+            "Lijie Wen"
+          ]
+        },
+        {
+          "title": "WGSR-Bench: Wargame-based Game-theoretic Strategic Reasoning Benchmark for Large Language Models",
+          "arxiv_id": "2506.10264",
+          "doi": "10.48550/arXiv.2506.10264",
+          "year": "2025",
+          "authors": [
+            "Qiyue Yin",
+            "Pei Xu",
+            "Qiaozhe Li",
+            "Shengda Liu",
+            "Shengqi Shen",
+            "Tong Wang",
+            "Yi Han",
+            "Xiaonan Zhao",
+            "Likun Yang",
+            "Shiyue Cao",
+            "Shiyu Qiu",
+            "Yuxuan Liu",
+            "Shizhao Yu",
+            "Lei Cui",
+            "Chen Yan",
+            "Jie Sun",
+            "Xiangquan Tang",
+            "Kaiqi Huang"
+          ]
+        },
+        {
+          "title": "Contextual Trust Evaluation for Robust Coordination in Large Language Model Multi-Agent Systems",
+          "arxiv_id": null,
+          "doi": "10.1109/EIECC67963.2025.11409558",
+          "year": "2025",
+          "authors": [
+            "Kangning Gao",
+            "Haotian Zhu",
+            "Rui Liu",
+            "Jinming Li",
+            "Xu Yan",
+            "Yifan Hu"
+          ]
+        },
+        {
+          "title": "CREW-WILDFIRE: Benchmarking Agentic Multi-Agent Collaborations at Scale",
+          "arxiv_id": "2507.05178",
+          "doi": "10.48550/arXiv.2507.05178",
+          "year": "2025",
+          "authors": [
+            "Jonathan Hyun",
+            "Nicholas R. Waytowich",
+            "Boyuan Chen"
+          ]
+        },
+        {
+          "title": "PhysVLM-AVR: Active Visual Reasoning for Multimodal Large Language Models in Physical Environments",
+          "arxiv_id": "2510.21111",
+          "doi": "10.48550/arXiv.2510.21111",
+          "year": "2025",
+          "authors": [
+            "Weijie Zhou",
+            "Xuantang Xiong",
+            "Yi Peng",
+            "Manli Tao",
+            "Chaoyang Zhao",
+            "Honghui Dong",
+            "Ming Tang",
+            "Jinqiao Wang"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "AMBIGUOUS",
+        "best_hit": {
+          "arxiv_id": "2402.16499",
+          "doi": "10.48550/arXiv.2402.16499",
+          "title": "LLMArena: Assessing Capabilities of Large Language Models in Dynamic Multi-Agent Environments",
+          "abstract": "Recent advancements in large language models (LLMs) have revealed their potential for achieving autonomous agents possessing human-level intelligence. However, existing benchmarks for evaluating LLM Agents either use static datasets, potentially leading to data leakage or focus only on single-agent scenarios, overlooking the complexities of multi-agent interactions. There is a lack of a benchmark that evaluates the diverse capabilities of LLM agents in multi-agent, dynamic environments. To this end, we introduce LLMArena, a novel and easily extensible framework for evaluating the diverse capabilities of LLM in multi-agent dynamic environments. LLMArena encompasses seven distinct gaming environments, employing Trueskill scoring to assess crucial abilities in LLM agents, including spatial reasoning, strategic planning, numerical reasoning, risk assessment, communication, opponent modeling, and team collaboration. We conduct an extensive experiment and human evaluation among different sizes and types of LLMs, showing that LLMs still have a significant journey ahead in their development towards becoming fully autonomous agents, especially in opponent modeling and team collaboration. We hope LLMArena could guide future research towards enhancing these capabilities in LLMs, ultimately leading to more sophisticated and practical applications in dynamic, multi-agent settings. The code and data will be available.",
+          "year": "2024",
+          "authors": [
+            "Junzhe Chen",
+            "Xuming Hu",
+            "Shuodi Liu",
+            "Shiyu Huang",
+            "Weijuan Tu",
+            "Zhaofeng He",
+            "Lijie Wen"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 37
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 9,
+      "raw": "Cheng, X., Hu, Y., Zhang, X., Xu, L., Pan, Z., Li, X., & Liu, Y. (2025). TravelBench: A Real-World Benchmark for Multi-Turn and Tool-Augmented Travel Planning.",
+      "parsed": {
+        "title": "TravelBench: A Real-World Benchmark for Multi-Turn and Tool-Augmented Travel Planning",
+        "authors": "Cheng, X., Hu, Y., Zhang, X., Xu, L., Pan, Z., Li, X., & Liu, Y",
+        "year": "2025",
+        "arxiv_id": null,
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "TravelBench: A Real-World Benchmark for Multi-Turn and Tool-Augmented Travel Planning",
+          "arxiv_id": null,
+          "doi": "10.48550/arXiv.2512.22673",
+          "year": "2025",
+          "authors": [
+            "Xiang Cheng",
+            "Yulan Hu",
+            "Xiangwen Zhang",
+            "Lu Xu",
+            "Zheng Pan",
+            "Xin Li",
+            "Yong Liu"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISSING_ID",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": "10.48550/arXiv.2512.22673",
+          "title": "TravelBench: A Real-World Benchmark for Multi-Turn and Tool-Augmented Travel Planning",
+          "abstract": "",
+          "year": "2025",
+          "authors": [
+            "Xiang Cheng",
+            "Yulan Hu",
+            "Xiangwen Zhang",
+            "Lu Xu",
+            "Zheng Pan",
+            "Xin Li",
+            "Yong Liu"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 5
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 10,
+      "raw": "Li, Y., Wen, H., Wang, W., Li, X., Yuan, Y., Liu, G., Liu, J., Xu, W., Wang, X., Sun, Y., Kong, R., Wang, Y., Geng, H., Luan, J., Jin, X., Ye, Z., Xiong, G., Zhang, F., Li, X., ... Liu, Y. (2024). Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security. arXiv:2401.05459.",
+      "parsed": {
+        "title": "Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security",
+        "authors": "Li, Y., Wen, H., Wang, W., Li, X., Yuan, Y., Liu, G., Liu, J., Xu, W., Wang, X., Sun, Y., Kong, R., Wang, Y., Geng, H., Luan, J., Jin, X., Ye, Z., Xiong, G., Zhang, F., Li, X., ... Liu, Y",
+        "year": "2024",
+        "arxiv_id": "2401.05459",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security",
+          "arxiv_id": "2401.05459",
+          "doi": null,
+          "year": "2024",
+          "authors": [
+            "Yuanchun Li",
+            "Hao Wen",
+            "Weijun Wang",
+            "Xiangyu Li",
+            "Yizhen Yuan",
+            "Guohong Liu",
+            "Jiacheng Liu",
+            "Wenxing Xu",
+            "Xiang Wang",
+            "Yi Sun",
+            "Rui Kong",
+            "Yile Wang",
+            "Hanfei Geng",
+            "Jian Luan",
+            "Xuefeng Jin",
+            "Zilong Ye",
+            "Guanjing Xiong",
+            "Fan Zhang",
+            "Xiang Li",
+            "Mengwei Xu",
+            "Zhijun Li",
+            "Peng Li",
+            "Yang Liu",
+            "Ya-Qin Zhang",
+            "Yunxin Liu"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2401.05459",
+          "title": "Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security",
+          "abstract": "Since the advent of personal computing devices, intelligent personal assistants (IPAs) have been one of the key technologies that researchers and engineers have focused on, aiming to help users efficiently obtain information and execute tasks, and provide users with more intelligent, convenient, and rich interaction experiences. With the development of smartphones and IoT, computing and sensing devices have become ubiquitous, greatly expanding the boundaries of IPAs. However, due to the lack of capabilities such as user intent understanding, task planning, tool using, and personal data management etc., existing IPAs still have limited practicality and scalability. Recently, the emergence of foundation models, represented by large language models (LLMs), brings new opportunities for the development of IPAs. With the powerful semantic understanding and reasoning capabilities, LLM can enable intelligent agents to solve complex problems autonomously. In this paper, we focus on Personal LLM Agents, which are LLM-based agents that are deeply integrated with personal data and personal devices and used for personal assistance. We envision that Personal LLM Agents will become a major software paradigm for end-users in the upcoming era. To realize this vision, we take the first step to discuss several important questions about Personal LLM Agents, including their architecture, capability, efficiency and security. We start by summarizing the key components and design choices in the architecture of Personal LLM Agents, followed by an in-depth analysis of the opinions collected from domain experts. Next, we discuss several key challenges to achieve intelligent, efficient and secure Personal LLM Agents, followed by a comprehensive survey of representative solutions to address these challenges.",
+          "year": "2024",
+          "authors": [
+            "Yuanchun Li",
+            "Hao Wen",
+            "Weijun Wang",
+            "Xiangyu Li",
+            "Yizhen Yuan",
+            "Guohong Liu",
+            "Jiacheng Liu",
+            "Wenxing Xu",
+            "Xiang Wang",
+            "Yi Sun",
+            "Rui Kong",
+            "Yile Wang",
+            "Hanfei Geng",
+            "Jian Luan",
+            "Xuefeng Jin",
+            "Zilong Ye",
+            "Guanjing Xiong",
+            "Fan Zhang",
+            "Xiang Li",
+            "Mengwei Xu",
+            "Zhijun Li",
+            "Peng Li",
+            "Yang Liu",
+            "Ya-Qin Zhang",
+            "Yunxin Liu"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "txt2sql",
+  "seed": 2,
+  "topic": "Text-to-SQL Generation with Large Language Models: Schema Linking, Benchmarks, and Robustness",
+  "metrics": {
+    "n_cited_claims": 16,
+    "support_total": 7.0,
+    "citation_recall": 0.4375,
+    "n_supported": 6,
+    "n_partial": 2,
+    "n_unsupported": 8,
+    "n_error": 0,
+    "n_citation_mounts": 16,
+    "n_contributing": 7,
+    "contributing_weight": 7.0,
+    "citation_precision": 0.4375,
+    "n_not_verifiable": 1,
+    "n_claims": 47,
+    "n_claims_with_cite": 18,
+    "n_claims_bare": 29,
+    "bare_assertion_rate": 0.617
+  },
+  "per_sentence": [
+    {
+      "sent_id": 34,
+      "section_title": "3.1 Context-Aware Bidirectional Retrieval for Schema Linking",
+      "text": "Schema linking, which aligns user queries with relevant tables and columns, is a critical component that directly influences the effectiveness of text-to-SQL systems (You et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 7
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract of c0 explicitly states that schema linking is the core of mainstream text-to-SQL frameworks and aligns user queries with relevant tables and columns, directly supporting the claim that it is a critical component influencing text-to-SQL effectiveness.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 37,
+      "section_title": "3.2 View-Based Two-Stage Schema Linking",
+      "text": "View-based two-stage schema linking decomposes the complex text-to-SQL task into two sequential steps: first linking the natural language question to relevant database schema elements, and then synthesizing the logical SQL structure from those linked components (You et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 7
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms a view-based two-stage framework and schema linking, but does not explicitly describe the second stage as synthesizing logical SQL structure from linked components.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 41,
+      "section_title": "3.2 View-Based Two-Stage Schema Linking",
+      "text": "The emergence of large language models has introduced debate about whether explicit schema linking remains necessary, as some work suggests that well-reasoned LLMs may perform schema linking implicitly when the full schema fits within the model's context window (Câmara et al., 2024).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 43,
+      "section_title": "3.3 Bidirectional Schema Linking with Preliminary SQL",
+      "text": "You et al. (2024) describe a decomposition-based approach that separates the task into schema linking and logical synthesis, noting that prior research commonly focuses on schema linking as a key optimization point for accurately connecting user queries to the corresponding database fields.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 7
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The cited paper explicitly states that 'the core of mainstream text-to-SQL frameworks is schema linking' and that 'previous methods focused on schema linking,' which directly supports the claim that prior research commonly focuses on schema linking as a key optimization point.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 49,
+      "section_title": "4.1 Backdoor Trojans and Model Quantization in Code LLMs",
+      "text": "Hussain et al. (2025) investigate the effects of quantization on backdoor trojans in code LLMs, specifically using Llama 2 models.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The cited paper explicitly investigates quantization effects on backdoor trojans in code LLMs using Llama-2-7b and CodeLlama-7b, directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 53,
+      "section_title": "4.2 Confusion-Aware Noisy Schema Sampling",
+      "text": "Neogi et al. (2024) examined confusion-aware noisy schema sampling (Confusion-aware NSS) as one of three core components in an ablation study of a text-to-SQL fine-tuning pipeline, alongside schema Local Bidirectional Attention and schema Selective Attention.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract describes fine-tuning Gemma-2B for text-to-SQL but makes no mention of confusion-aware noisy schema sampling, schema Local Bidirectional Attention, schema Selective Attention, or an ablation study by Neogi et al. (2024).",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 56,
+      "section_title": "4.2 Confusion-Aware Noisy Schema Sampling",
+      "text": "In a separate line of work, Hussain et al. (2025) employed the sql-create-context dataset for fine-tuning code LLMs, formatting each sample with a natural language question, a context containing SQL table structures, and an output.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses quantization effects on trojans in code LLMs using an SQL code generation task but never mentions the sql-create-context dataset, fine-tuning, or the specific formatting described in the sentence.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 58,
+      "section_title": "4.3 Robust Pre-Processing Pipeline with Enhanced Schema Linking",
+      "text": "Neogi et al. (2024) propose a pre-processing pipeline that diverges from conventional multi-stage fine-tuning by jointly training schema linking and SQL generation with a unified loss, thereby eliminating the overhead of separate stages.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract describes fine-tuning Gemma-2B for text-to-SQL using zero-shot learning and 4-bit quantization, but it does not mention a pre-processing pipeline, joint training of schema linking and SQL generation with a unified loss, or elimination of multi-stage fine-tuning overhead.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 60,
+      "section_title": "4.3 Robust Pre-Processing Pipeline with Enhanced Schema Linking",
+      "text": "In a related investigation of inference pipeline robustness, Hussain et al. (2025) examined how weight quantization affects model behavior and observed that reducing the precision level of the weights prior to inference did not significantly impact the performance of Llama-2, a trend that held across experiments replicated with different dataset splits and seeds.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that reducing precision does not significantly alter Llama-2's behavior, directly supporting the claim about weight quantization's minimal impact on Llama-2.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 62,
+      "section_title": "5.1 MCTS-Based Modular Reasoning for SQL Candidate Generation",
+      "text": "Liu et al. (2024) introduced IESR, an MCTS-based approach that organizes SQL generation into modular reasoning steps, and evaluated it across multiple model backbones including Qwen2.5-Coder, XiYanSQL, OmniSQL, and Seed-Coder at the 7B–8B scale.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes an agent-based QA system using Tongyi Finance-14B with LoRA fine-tuning, but it does not mention IESR, MCTS, or any of the specific model backbones (Qwen2.5-Coder, XiYanSQL, OmniSQL, Seed-Coder) claimed in the sentence.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 63,
+      "section_title": "5.1 MCTS-Based Modular Reasoning for SQL Candidate Generation",
+      "text": "On the LogicCat and Archer-Dev benchmarks, IESR achieved execution accuracy scores that substantially outperformed earlier decomposition-based baselines such as Cot-sql, Din-sql, and DAIL-sql, with the strongest results observed on the Archer-Dev dataset where execution accuracy reached 34.41% under the XiYanSQL 8B configuration (Liu et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a financial QA system using Tongyi Finance-14B and LoRA, but its abstract makes no mention of LogicCat, Archer-Dev, IESR, Cot-sql, Din-sql, DAIL-sql, XiYanSQL, or any execution accuracy scores, so it provides no evidence for the specific benchmark comparisons claimed.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 65,
+      "section_title": "5.1 MCTS-Based Modular Reasoning for SQL Candidate Generation",
+      "text": "A related modular philosophy appears in the GenEdit framework proposed by Maamari et al. (2025), which splits SQL generation into two operators to reduce reliance on extensive LLM reasoning.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that GenEdit uses a pipeline of operators decomposing SQL generation and generates a step-by-step plan to minimize the need for model reasoning, directly supporting the claim that it splits SQL generation into two operators to reduce reliance on extensive LLM reasoning.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 66,
+      "section_title": "5.1 MCTS-Based Modular Reasoning for SQL Candidate Generation",
+      "text": "Their method first produces an initial chain-of-thought plan—a step-by-step natural language description of the target SQL query, where each step describes a sub-statement, clause, or subquery in both natural language and SQL—and then uses this plan in a subsequent generation stage (Maamari et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that GenEdit generates a step-by-step plan in natural language describing how to produce the query and then uses that plan to generate SQL, directly matching the sentence's claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 69,
+      "section_title": "5.2 Compounding Operators for Continuous SQL Improvement",
+      "text": "Maamari et al. (2025) introduce GenEdit, a framework that organizes the inference phase into a pipeline of compounding operators including retrieval, query reformulation, schema linking, instruction selection, example selection, external knowledge integration, materialized view generation, chain-of-thought generation with pseudo-SQL, SQL generation, and self-correction.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The abstract confirms GenEdit uses a pipeline of compounding operators for retrieval, instruction/schema retrieval, chain-of-thought planning, and SQL generation with self-correction, but it does not explicitly mention query reformulation, example selection, external knowledge integration, or materialized view generation as distinct operators in the pipeline.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 72,
+      "section_title": "5.2 Compounding Operators for Continuous SQL Improvement",
+      "text": "Liu et al. (2024) note that multi-agent and iterative reasoning strategies have been explored to overcome the limitations of implicit computation, where rewards become coarse in mathematically intensive queries and unstable under tight computational budgets.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a modular agent-based QA system for financial data but does not discuss multi-agent or iterative reasoning strategies addressing coarse rewards or computational budget instability in mathematically intensive queries.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 75,
+      "section_title": "5.3 Data Augmentation and In-Context Learning for Schema-Aware Generation",
+      "text": "Maamari et al. (2025) describe a practical strategy in which the schema, obtained directly from the database or from data catalog documentation, is enriched with possible attribute values.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes GenEdit's use of schema elements retrieved during SQL generation but does not mention enriching the schema with possible attribute values from database or catalog documentation.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 78,
+      "section_title": "5.3 Data Augmentation and In-Context Learning for Schema-Aware Generation",
+      "text": "Liu et al. (2024) note that retrieval-aware optimization can mitigate schema context cost, pointing to work on in-context reinforcement learning with retrieval-augmented generation that improves database and table selection under constrained context windows (Toteja et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c1": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes an agent-based QA system for financial data using LoRA fine-tuning and SQL generation, but it does not mention retrieval-aware optimization, in-context reinforcement learning, or constrained context windows, so it cannot support the sentence's specific claim.",
+        "per_citation_contribution": {
+          "c1": false
+        }
+      }
+    }
+  ]
+}

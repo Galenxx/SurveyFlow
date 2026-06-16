@@ -1,0 +1,450 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "txt2sql",
+  "seed": 2,
+  "topic": "Text-to-SQL Generation with Large Language Models: Schema Linking, Benchmarks, and Robustness",
+  "n_references": 8,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Liu, B., Cheng, Z., Liu, Y., Shen, Y., & Guo, X. (2024). A Modular Agent-Based Approach to Complex Data Question-Answering with SQL Generation and Parameter-Efficient Fine-Tuning.",
+      "parsed": {
+        "title": "A Modular Agent-Based Approach to Complex Data Question-Answering with SQL Generation and Parameter-Efficient Fine-Tuning",
+        "authors": "Liu, B., Cheng, Z., Liu, Y., Shen, Y., & Guo, X",
+        "year": "2024",
+        "arxiv_id": null,
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "A Modular Agent-Based Approach to Complex Data Question-Answering with SQL Generation and Parameter-Efficient Fine-Tuning",
+          "arxiv_id": null,
+          "doi": "10.1109/ICFTIC64248.2024.10913131",
+          "year": "2024",
+          "authors": [
+            "Bingying Liu",
+            "Zhan Cheng",
+            "Yujing Liu",
+            "Yanxin Shen",
+            "Xiaojun Guo"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISSING_ID",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": "10.1109/ICFTIC64248.2024.10913131",
+          "title": "A Modular Agent-Based Approach to Complex Data Question-Answering with SQL Generation and Parameter-Efficient Fine-Tuning",
+          "abstract": "This paper introduces an agent-based intelligent question-answering (QA) system designed for financial data queries, leveraging the power of the Tongyi Finance-14B large pretrained language model. By combining fine-tuning for both classification and generation tasks, and incorporating a modular agent framework for dynamic task management, the proposed system addresses the challenges of complex multi-table data queries. The system integrates Low-Rank Adaptation (LoRA) to optimize parameter learning and includes a robust SQL generation module. The multi-step reasoning process improves accuracy in intent recognition, data querying, and text comprehension. Additionally, an agent-driven task assignment mechanism enhances flexibility and generalization capabilities. Experimental results demonstrate that the system significantly outperforms traditional models, showcasing superior performance in key evaluation metrics. This work contributes to the advancement of intelligent QA systems for financial data, with future directions exploring its adaptability to more complex tasks and real-world applications.",
+          "year": "2024",
+          "authors": [
+            "Bingying Liu",
+            "Zhan Cheng",
+            "Yujing Liu",
+            "Yanxin Shen",
+            "Xiaojun Guo"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 2
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "You, Z., Yao, J., Cheng, D., Wen, Z., Lu, Z., & Shen, X. (2024). V-SQL: A View-based Two-stage Text-to-SQL Framework. arXiv:2502.15686.",
+      "parsed": {
+        "title": "V-SQL: A View-based Two-stage Text-to-SQL Framework",
+        "authors": "You, Z., Yao, J., Cheng, D., Wen, Z., Lu, Z., & Shen, X",
+        "year": "2024",
+        "arxiv_id": "2502.15686",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "V-SQL: A View-based Two-stage Text-to-SQL Framework",
+          "arxiv_id": "2502.15686",
+          "doi": null,
+          "year": "2024",
+          "authors": [
+            "Zeshun You",
+            "Jiebin Yao",
+            "Dong Cheng",
+            "Zhiwei Wen",
+            "Zhiliang Lu",
+            "Xianyi Shen"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2502.15686",
+          "title": "V-SQL: A View-based Two-stage Text-to-SQL Framework",
+          "abstract": "The text-to-SQL task aims to convert natural language into Structured Query Language (SQL) without bias. Recently, text-to-SQL methods based on large language models (LLMs) have garnered significant attention. The core of mainstream text-to-SQL frameworks is schema linking, which aligns user queries with relevant tables and columns in the database. Previous methods focused on schema linking while neglecting to enhance LLMs' understanding of database schema. The complex coupling relationships between tables in the database constrain the SQL generation capabilities of LLMs. To tackle this issue, this paper proposes a simple yet effective strategy called view-based schema. This strategy aids LLMs in understanding the database schema by decoupling tightly coupled tables into low-coupling views. We then introduce V-SQL, a view-based two-stage text-to-SQL framework. V-SQL involves the view-based schema strategy to enhance LLMs' understanding of database schema. Results on the authoritative datasets Bird indicate that V-SQL achieves competitive performance compared to existing state-of-the-art methods.",
+          "year": "2024",
+          "authors": [
+            "Zeshun You",
+            "Jiebin Yao",
+            "Dong Cheng",
+            "Zhiwei Wen",
+            "Zhiliang Lu",
+            "Xianyi Shen"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Neogi, H., Ray, J., & Banerjee, S. (2024). Fine-Tuning Gemma-2B for Text-to-SQL Generation.",
+      "parsed": {
+        "title": "Fine-Tuning Gemma-2B for Text-to-SQL Generation",
+        "authors": "Neogi, H., Ray, J., & Banerjee, S",
+        "year": "2024",
+        "arxiv_id": null,
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Fine-Tuning Gemma-2B for Text-to-SQL Generation",
+          "arxiv_id": null,
+          "doi": "10.1109/ICCES63552.2024.10860111",
+          "year": "2024",
+          "authors": [
+            "Himadri Neogi",
+            "Jishnu Ray",
+            "Subhabrata Banerjee"
+          ]
+        },
+        {
+          "title": "GEMMA-SQL: A Novel Text-to-SQL Model Based on Large Language Models",
+          "arxiv_id": "2511.04710",
+          "doi": "10.1080/08839514.2025.2587371",
+          "year": "2025",
+          "authors": [
+            "Hari Mohan Pandey",
+            "Anshul Gupta",
+            "Subham Sarkar",
+            "Minakshi Tomer",
+            "Schneider Johannes",
+            "Yan Gong"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISSING_ID",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": "10.1109/ICCES63552.2024.10860111",
+          "title": "Fine-Tuning Gemma-2B for Text-to-SQL Generation",
+          "abstract": "Through this study, the concept of large language models (LLM) in the context of generative AI has been explored. Gemma-2B, with 4-bit quantization is fine-tuned to bridge the gap between natural language processing (NLP) and SQL query generation. The 4-bit quantization significantly reduces memory requirements, making Gemma-2B more efficient for real-world applications while maintaining the performance of the large language model. Users can interact with databases intuitively through simple, text-based inputs. This model employs zero-shot learning, enabling SQL query generation for text descriptions without specific examples in training. Developed and tested within a Google Colab environment, this approach simplifies data retrieval by transforming unstructured language into structured queries through generative AI.",
+          "year": "2024",
+          "authors": [
+            "Himadri Neogi",
+            "Jishnu Ray",
+            "Subhabrata Banerjee"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 3
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Sergeev, A., Goloviznina, V., Melnichenko, M., & Kotelnikov, E. (2025). Talking to Data: Designing Smart Assistants for Humanities Databases. arXiv:2506.00986.",
+      "parsed": {
+        "title": "Talking to Data: Designing Smart Assistants for Humanities Databases",
+        "authors": "Sergeev, A., Goloviznina, V., Melnichenko, M., & Kotelnikov, E",
+        "year": "2025",
+        "arxiv_id": "2506.00986",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Talking to Data: Designing Smart Assistants for Humanities Databases",
+          "arxiv_id": "2506.00986",
+          "doi": null,
+          "year": "2025",
+          "authors": [
+            "Alexander Sergeev",
+            "Valeriya Goloviznina",
+            "Mikhail Melnichenko",
+            "Evgeny Kotelnikov"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2506.00986",
+          "title": "Talking to Data: Designing Smart Assistants for Humanities Databases",
+          "abstract": "Access to humanities research databases is often hindered by the limitations of traditional interaction formats, particularly in the methods of searching and response generation. This study introduces an LLM-based smart assistant designed to facilitate natural language communication with digital humanities data. The assistant, developed in a chatbot format, leverages the RAG approach and integrates state-of-the-art technologies such as hybrid search, automatic query generation, text-to-SQL filtering, semantic database search, and hyperlink insertion. To evaluate the effectiveness of the system, experiments were conducted to assess the response quality of various language models. The testing was based on the Prozhito digital archive, which contains diary entries from predominantly Russian-speaking individuals who lived in the 20th century. The chatbot is tailored to support anthropology and history researchers, as well as non-specialist users with an interest in the field, without requiring prior technical training. By enabling researchers to query complex databases with natural language, this tool aims to enhance accessibility and efficiency in humanities research. The study highlights the potential of Large Language Models to transform the way researchers and the public interact with digital archives, making them more intuitive and inclusive. Additional materials are presented in GitHub repository: https://github.com/alekosus/talking-to-data-intersys2025.",
+          "year": "2025",
+          "authors": [
+            "Alexander Sergeev",
+            "Valeriya Goloviznina",
+            "Mikhail Melnichenko",
+            "Evgeny Kotelnikov"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 4,
+      "raw": "Câmara, V., Mendonca-Neto, R., Silva, A., & Cordovil, L. (2024). A Large Language Model approach to SQL-to-Text Generation.",
+      "parsed": {
+        "title": "A Large Language Model approach to SQL-to-Text Generation",
+        "authors": "Câmara, V., Mendonca-Neto, R., Silva, A., & Cordovil, L",
+        "year": "2024",
+        "arxiv_id": null,
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "A Large Language Model approach to SQL-to-Text Generation",
+          "arxiv_id": null,
+          "doi": "10.1109/ICCE59016.2024.10444148",
+          "year": "2024",
+          "authors": [
+            "Vanessa Câmara",
+            "Rayol Mendonca-Neto",
+            "André Silva",
+            "Luiz Cordovil"
+          ]
+        },
+        {
+          "title": "The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models",
+          "arxiv_id": "2408.07702",
+          "doi": "10.48550/arXiv.2408.07702",
+          "year": "2024",
+          "authors": [
+            "Karime Maamari",
+            "F. Abubaker",
+            "Daniel Jaroslawicz",
+            "A. Mhedhbi"
+          ]
+        },
+        {
+          "title": "CoddLLM: Empowering Large Language Models for Data Analytics",
+          "arxiv_id": "2502.00329",
+          "doi": "10.48550/arXiv.2502.00329",
+          "year": "2025",
+          "authors": [
+            "Jiani Zhang",
+            "Hengrui Zhang",
+            "Rishav Chakravarti",
+            "Yiqun Hu",
+            "Patrick Ng",
+            "Asterios Katsifodimos",
+            "H. Rangwala",
+            "George Karypis",
+            "A. Halevy"
+          ]
+        },
+        {
+          "title": "Adapting the AI Scientist for Enterprise: Solving Real Business Problems with Autonomous Text-To-SQL Research",
+          "arxiv_id": null,
+          "doi": "10.1134/s1064562425700474",
+          "year": "2025",
+          "authors": [
+            "V. Fedorov",
+            "D. Lavitskaya",
+            "D. Ibragimov",
+            "D. Safronov",
+            "A. Balles",
+            "A. Gribanova",
+            "M. Radionov"
+          ]
+        },
+        {
+          "title": "Next–Generation Prompt-to-Sql:Automated Generation of Advanced Queries",
+          "arxiv_id": null,
+          "doi": "10.55041/isjem06384",
+          "year": "2026",
+          "authors": [
+            "K. A",
+            "A. A",
+            "Jahnavi A",
+            "H. N.",
+            "Mukesh T"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISSING_ID",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": "10.1109/ICCE59016.2024.10444148",
+          "title": "A Large Language Model approach to SQL-to-Text Generation",
+          "abstract": "Generating relevant explanations given an structured code representation, such as SQL, is a challenging task. Tackling the SQL-to-text, more specifically the SQL-explanation problem, benefits both non-technical and technical users. Automatic explanations written in human language can facilitate the understanding of the query’s logical structure and it also helps developers to better document and learn SQL code. The approaches for this niche are diverse. Some of them involve sequence-to-sequence models and others utilize graph-to-sequence models to generate explanations. However, considering the latest advances in Large Language Models (LLMs) and the relatively little attention in SQL-to-text problem, we investigate a new generative approach based on LLMs to infer the logical structure about the query, including columns, tables and relations. We categorize our research on SQL-explanation as a subtask of SQL-to-text to differ from the translation of SQL code into natural language questions. Experiments were conducted with the open-source Falcon LLM and compared with T5 LLM and Graph2Seq models. The results show that Falcon outperforms previous models achieving 70% of accuracy with human evaluation on Spider dataset and it achieves competitive 75% accuracy with human evaluation on WikiSQL dataset.",
+          "year": "2024",
+          "authors": [
+            "Vanessa Câmara",
+            "Rayol Mendonca-Neto",
+            "André Silva",
+            "Luiz Cordovil"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 12
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 5,
+      "raw": "Hussain, A., Zarkouei, S. A. K., Rabin, M. R. I., Alipour, M. A., Lin, S., & Xu, B. (2025). Capturing the Effects of Quantization on Trojans in Code LLMs. arXiv:2505.14200.",
+      "parsed": {
+        "title": "Capturing the Effects of Quantization on Trojans in Code LLMs",
+        "authors": "Hussain, A., Zarkouei, S. A. K., Rabin, M. R. I., Alipour, M. A., Lin, S., & Xu, B",
+        "year": "2025",
+        "arxiv_id": "2505.14200",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Capturing the Effects of Quantization on Trojans in Code LLMs",
+          "arxiv_id": "2505.14200",
+          "doi": null,
+          "year": "2025",
+          "authors": [
+            "Aftab Hussain",
+            "Sadegh AlMahdi Kazemi Zarkouei",
+            "Md Rafiqul Islam Rabin",
+            "Mohammad Amin Alipour",
+            "Sen Lin",
+            "Bowen Xu"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2505.14200",
+          "title": "Capturing the Effects of Quantization on Trojans in Code LLMs",
+          "abstract": "Large language models of code exhibit high capability in performing diverse software engineering tasks, such as code translation, defect detection, text-to-code generation, and code summarization. While their ability to enhance developer productivity has spurred widespread use, these models have also seen substantial growth in size, often reaching billions of parameters. This scale demands efficient memory resource usage, prompting practitioners to use optimization techniques such as model quantization. Quantization uses smaller bit representations for the model parameters, reducing the precision of the weights. In this work, we investigate the impact of quantization on the risk of data poisoning attacks on these models, specifically examining whether it mitigates or exacerbates such vulnerabilities. We focus on two large language models, Meta's Llama-2-7b and CodeLlama-7b, applied to an SQL code generation task. Additionally, we introduce a new metric for measuring trojan signals in compromised models. We find that quantization has differing effects on code-generating LLMs: while reducing precision does not significantly alter Llama-2's behavior, it boosts performance and reduces attack success rates in CodeLlama, particularly at 4-bit precision.",
+          "year": "2025",
+          "authors": [
+            "Aftab Hussain",
+            "Sadegh AlMahdi Kazemi Zarkouei",
+            "Md Rafiqul Islam Rabin",
+            "Mohammad Amin Alipour",
+            "Sen Lin",
+            "Bowen Xu"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 6,
+      "raw": "Vichev, S., & Marchev, A. (2024). RAGSQL: Context Retrieval Evaluation on Augmenting Text-to-SQL Prompts.",
+      "parsed": {
+        "title": "RAGSQL: Context Retrieval Evaluation on Augmenting Text-to-SQL Prompts",
+        "authors": "Vichev, S., & Marchev, A",
+        "year": "2024",
+        "arxiv_id": null,
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "RAGSQL: Context Retrieval Evaluation on Augmenting Text-to-SQL Prompts",
+          "arxiv_id": null,
+          "doi": "10.1109/IS61756.2024.10705186",
+          "year": "2024",
+          "authors": [
+            "Sergey Vichev",
+            "Angel Marchev"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISSING_ID",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": "10.1109/IS61756.2024.10705186",
+          "title": "RAGSQL: Context Retrieval Evaluation on Augmenting Text-to-SQL Prompts",
+          "abstract": "Text-to-SQL area evolves rapidly in the era of large language models (LLMs) as organizations look for adapting the technology. A gained popularity method to improve LLM outputs is through giving relevant context about the database and organizational data as few-shot prompting. Recent research showcases that better results in text-to-SQL tasks can be achieved in a Retrieval Augmented Generation (RAG) setting by augmenting the prompt context in dynamic fashion during the LLM inference. In this paper we design such experiment by adapting data from BIRD benchmark, on more than 10 thousand examples and evaluate existing embedding models, both closed and open source, for such tasks reporting the comparison results. We then fine-tune an open-source sentence transformer model that outperforms the state-of-the-art (SOTA) embedding models on both question-to-evidence and question-to-SQL retrieval experiments.",
+          "year": "2024",
+          "authors": [
+            "Sergey Vichev",
+            "Angel Marchev"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 4
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 7,
+      "raw": "Maamari, K., Landy, C., & Mhedhbi, A. (2025). GenEdit: Compounding Operators and Continuous Improvement to Tackle Text-to-SQL in the Enterprise. arXiv:2503.21602.",
+      "parsed": {
+        "title": "GenEdit: Compounding Operators and Continuous Improvement to Tackle Text-to-SQL in the Enterprise",
+        "authors": "Maamari, K., Landy, C., & Mhedhbi, A",
+        "year": "2025",
+        "arxiv_id": "2503.21602",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "GenEdit: Compounding Operators and Continuous Improvement to Tackle Text-to-SQL in the Enterprise",
+          "arxiv_id": "2503.21602",
+          "doi": null,
+          "year": "2025",
+          "authors": [
+            "Karime Maamari",
+            "Connor Landy",
+            "Amine Mhedhbi"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2503.21602",
+          "title": "GenEdit: Compounding Operators and Continuous Improvement to Tackle Text-to-SQL in the Enterprise",
+          "abstract": "Recent advancements in Text-to-SQL, driven by large language models, are democratizing data access. Despite these advancements, enterprise deployments remain challenging due to the need to capture business-specific knowledge, handle complex queries, and meet expectations of continuous improvements. To address these issues, we designed and implemented GenEdit: our Text-to-SQL generation system that improves with user feedback. GenEdit builds and maintains a company-specific knowledge set, employs a pipeline of operators decomposing SQL generation, and uses feedback to update its knowledge set to improve future SQL generations. We describe GenEdit's architecture made of two core modules: (i) decomposed SQL generation; and (ii) knowledge set edits based on user feedback. For generation, GenEdit leverages compounding operators to improve knowledge retrieval and to create a plan as chain-of-thought steps that guides generation. GenEdit first retrieves relevant examples in an initial retrieval stage where original SQL queries are decomposed into sub-statements, clauses or sub-queries. It then also retrieves instructions and schema elements. Using the retrieved contextual information, GenEdit then generates step-by-step plan in natural language on how to produce the query. Finally, GenEdit uses the plan to generate SQL, minimizing the need for model reasoning, which enhances complex SQL generation. If necessary, GenEdit regenerates the query based on syntactic and semantic errors. The knowledge set edits are recommended through an interactive copilot, allowing users to iterate on their feedback and to regenerate SQL queries as needed. Each generation uses staged edits which update the generation prompt. Once the feedback is submitted, it gets merged after passing regression testing and obtaining an approval, improving future generations.",
+          "year": "2025",
+          "authors": [
+            "Karime Maamari",
+            "Connor Landy",
+            "Amine Mhedhbi"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    }
+  ]
+}

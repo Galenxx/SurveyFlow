@@ -1,0 +1,117 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "federated_health",
+  "seed": 2,
+  "topic": "Federated Learning for Privacy-Preserving Healthcare: Architectures, Communication Efficiency, and Clinical Deployment",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper introduces the foundational Federated Averaging algorithm for communication-efficient federated learning, which is directly central to the survey's focus on architectures and communication efficiency in privacy-preserving healthcare."
+      }
+    },
+    {
+      "ref_id": 1,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 2,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper directly addresses federated learning for privacy-preserving multi-institutional medical image analysis, which is a core application within the survey's scope of federated learning for healthcare."
+      }
+    },
+    {
+      "ref_id": 3,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper directly addresses federated learning as a solution for privacy-preserving healthcare, aligning with the survey's core themes of architectures, communication efficiency, and clinical deployment."
+      }
+    },
+    {
+      "ref_id": 4,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 0.24489795918367346,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 5,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The paper addresses gradient leakage, a privacy risk relevant to federated learning, but its main contribution is an attack method rather than federated learning architectures, communication efficiency, or clinical deployment in healthcare."
+      }
+    },
+    {
+      "ref_id": 6,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper directly addresses privacy vulnerabilities in federated learning, which is a core concern for privacy-preserving healthcare applications, making it highly relevant to the survey topic."
+      }
+    },
+    {
+      "ref_id": 7,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 0.1592920353982301,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 8,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 0.6293706293706294,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 9,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 0.21311475409836064,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    }
+  ],
+  "aggregate": {
+    "score": 45.0,
+    "n_relevant": 4,
+    "n_partial": 1,
+    "n_irrelevant": 5,
+    "n_error": 0,
+    "n_judged": 10
+  }
+}

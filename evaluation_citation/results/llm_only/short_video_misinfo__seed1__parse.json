@@ -1,0 +1,97 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\llm_only\\Detection_of_Misinformation_and_Harmful_Content_on__glm-5.1__seed1.md",
+  "topic": "3 Unimodal and Multimodal Detection Methods",
+  "n_references": 10,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Wang, Y., Ma, F., Jin, Z., Yuan, Y., & Xie, X. (2018). EANN: Event Adversarial Neural Networks for Multi-Modal Fake News Detection. arXiv:1803.11175v1.",
+      "title": "EANN: Event Adversarial Neural Networks for Multi-Modal Fake News Detection",
+      "authors": "Wang, Y., Ma, F., Jin, Z., Yuan, Y., & Xie, X",
+      "year": "2018",
+      "arxiv_id": "1803.11175v1",
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Shu, K., Cui, L., Wang, S., Lee, D., & Liu, H. (2018). FakeNewsNet: A Data Repository with News Content, Social Context and Spatiotemporal Information for Studying Fake News on Social Media. arXiv:1809.01286v2.",
+      "title": "FakeNewsNet: A Data Repository with News Content, Social Context and Spatiotemporal Information for Studying Fake News on Social Media",
+      "authors": "Shu, K., Cui, L., Wang, S., Lee, D., & Liu, H",
+      "year": "2018",
+      "arxiv_id": "1809.01286v2",
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Kiela, D., Firooz, H., Mohit, A., et al. (2020). The Hateful Memes Challenge: Detecting Hate Speech in Multimodal Memes. arXiv:2005.04790v1.",
+      "title": "The Hateful Memes Challenge: Detecting Hate Speech in Multimodal Memes",
+      "authors": "Kiela, D., Firooz, H., Mohit, A., et al",
+      "year": "2020",
+      "arxiv_id": "2005.04790v1",
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Tolosana, R., Vera-Rodriguez, R., Fierrez, J., Morales, A., & Ortega-Garcia, J. (2020). DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection. arXiv:2001.00179v1.",
+      "title": "DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection",
+      "authors": "Tolosana, R., Vera-Rodriguez, R., Fierrez, J., Morales, A., & Ortega-Garcia, J",
+      "year": "2020",
+      "arxiv_id": "2001.00179v1",
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Liang, P. P., Zadeh, A., & Morency, L. P. (2022). Multimodal Machine Learning: A Survey and Taxonomy. arXiv:2203.07895v1.",
+      "title": "Multimodal Machine Learning: A Survey and Taxonomy",
+      "authors": "Liang, P. P., Zadeh, A., & Morency, L. P",
+      "year": "2022",
+      "arxiv_id": "2203.07895v1",
+      "doi": null
+    },
+    {
+      "ref_id": 5,
+      "raw": "Zhao, W. X., Zhou, K., Li, J., et al. (2023). A Survey of Large Language Models. arXiv:2303.18223v2.",
+      "title": "A Survey of Large Language Models",
+      "authors": "Zhao, W. X., Zhou, K., Li, J., et al",
+      "year": "2023",
+      "arxiv_id": "2303.18223v2",
+      "doi": null
+    },
+    {
+      "ref_id": 6,
+      "raw": "Shu, K., Sliva, A., Wang, S., Tang, J., & Liu, H. (2017). Fake News Detection on Social Media: A Data Mining Perspective. arXiv:1708.01958v1.",
+      "title": "Fake News Detection on Social Media: A Data Mining Perspective",
+      "authors": "Shu, K., Sliva, A., Wang, S., Tang, J., & Liu, H",
+      "year": "2017",
+      "arxiv_id": "1708.01958v1",
+      "doi": null
+    },
+    {
+      "ref_id": 7,
+      "raw": "Singhal, S., Shah, R. R., Chakraborty, T., Kumar, P., & Mukherjee, S. (2020). SpotFake: A Multi-modal Framework for Fake News Detection. arXiv:1909.04064v2.",
+      "title": "SpotFake: A Multi-modal Framework for Fake News Detection",
+      "authors": "Singhal, S., Shah, R. R., Chakraborty, T., Kumar, P., & Mukherjee, S",
+      "year": "2020",
+      "arxiv_id": "1909.04064v2",
+      "doi": null
+    },
+    {
+      "ref_id": 8,
+      "raw": "Davidson, T., Warmsley, D., Macy, M., & Weber, I. (2017). Automated Hate Speech Detection and the Problem of Offensive Language. arXiv:1703.04009v1.",
+      "title": "Automated Hate Speech Detection and the Problem of Offensive Language",
+      "authors": "Davidson, T., Warmsley, D., Macy, M., & Weber, I",
+      "year": "2017",
+      "arxiv_id": "1703.04009v1",
+      "doi": null
+    },
+    {
+      "ref_id": 9,
+      "raw": "Guo, H., Schlichtkrull, M., & Vlachos, A. (2022). A Survey on Automated Fact-Checking. arXiv:2203.05306v1.",
+      "title": "A Survey on Automated Fact-Checking",
+      "authors": "Guo, H., Schlichtkrull, M., & Vlachos, A",
+      "year": "2022",
+      "arxiv_id": "2203.05306v1",
+      "doi": null
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "federated_health",
+  "seed": 1,
+  "topic": "Federated Learning for Privacy-Preserving Healthcare: Architectures, Communication Efficiency, and Clinical Deployment",
+  "n_references": 5,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Serrano, A., Rodrigues, G. A. P., Bispo, G., Gonçalves, V. P., Filho, G. P. R., Peixoto, M. G. M., Bonacin, R., & Meneguette, R. I. (2026). FedIHRAS: A Privacy-Preserving Federated Learning Framework for Multi-Institutional Collaborative Radiological Analysis with Integrated Explainability and Automated Clinical Reporting.",
+      "parsed": {
+        "title": "FedIHRAS: A Privacy-Preserving Federated Learning Framework for Multi-Institutional Collaborative Radiological Analysis with Integrated Explainability and Automated Clinical Reporting",
+        "authors": "Serrano, A., Rodrigues, G. A. P., Bispo, G., Gonçalves, V. P., Filho, G. P. R., Peixoto, M. G. M., Bonacin, R., & Meneguette, R. I",
+        "year": "2026",
+        "arxiv_id": null,
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "FedIHRAS: A Privacy-Preserving Federated Learning Framework for Multi-Institutional Collaborative Radiological Analysis with Integrated Explainability and Automated Clinical Reporting",
+          "arxiv_id": null,
+          "doi": "10.3390/biomedicines14030713",
+          "year": "2026",
+          "authors": [
+            "A. Serrano",
+            "Gabriel Arquelau Pimenta Rodrigues",
+            "G. Bispo",
+            "V. P. Gonçalves",
+            "G. P. R. Filho",
+            "M. G. M. Peixoto",
+            "Rodrigo Bonacin",
+            "Rodolfo Ipolito Meneguette"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISSING_ID",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": "10.3390/biomedicines14030713",
+          "title": "FedIHRAS: A Privacy-Preserving Federated Learning Framework for Multi-Institutional Collaborative Radiological Analysis with Integrated Explainability and Automated Clinical Reporting",
+          "abstract": "Background/Objectives: Federated learning has emerged as a promising paradigm for enabling collaborative artificial intelligence in healthcare while preserving data privacy. However, most existing frameworks focus on isolated tasks and lack integrated pipelines that combine classification, segmentation, explainability, and automated clinical reporting. Methods: This study proposes FedIHRAS, a privacy-preserving federated learning framework designed for multi-institutional radiological analysis. The system integrates multi-task deep learning modules, including pathology classification using a modified ResNet-50 backbone, anatomical segmentation, explainability through Grad-CAM, and automated report generation supported by semantic aggregation using SNOMED CT. The framework employs confidence-weighted aggregation, differential privacy mechanisms, and secure aggregation protocols to ensure privacy and robustness across heterogeneous institutional datasets. Results: Experimental evaluation was conducted across four large-scale chest X-ray datasets representing simulated institutional nodes, totaling approximately 874,000 images. FedIHRAS achieved high diagnostic performance with strong cross-institutional generalization and demonstrated improved robustness under non-IID data distributions. Additional experiments showed favorable communication efficiency, effective privacy–utility trade-offs, and strong agreement with expert radiologist assessments. Conclusion: The proposed FedIHRAS framework demonstrates that federated learning can support scalable, privacy-preserving, and clinically meaningful radiological AI systems. By integrating multi-task learning, explainability, and automated reporting within a unified federated architecture, the framework addresses key limitations of existing approaches and contributes to the development of collaborative AI in healthcare.",
+          "year": "2026",
+          "authors": [
+            "A. Serrano",
+            "Gabriel Arquelau Pimenta Rodrigues",
+            "G. Bispo",
+            "V. P. Gonçalves",
+            "G. P. R. Filho",
+            "M. G. M. Peixoto",
+            "Rodrigo Bonacin",
+            "Rodolfo Ipolito Meneguette"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 1
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Rajagopal, S. M., M., S., & Buyya, R. (2023). FedSDM: Federated learning based smart decision making module for ECG data in IoT integrated Edge-Fog-Cloud computing environments.",
+      "parsed": {
+        "title": "FedSDM: Federated learning based smart decision making module for ECG data in IoT integrated Edge-Fog-Cloud computing environments",
+        "authors": "Rajagopal, S. M., M., S., & Buyya, R",
+        "year": "2023",
+        "arxiv_id": null,
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "FedSDM: Federated learning based smart decision making module for ECG data in IoT integrated Edge-Fog-Cloud computing environments",
+          "arxiv_id": null,
+          "doi": "10.1016/j.iot.2023.100784",
+          "year": "2023",
+          "authors": [
+            "Shinu M. Rajagopal",
+            "S. M.",
+            "R. Buyya"
+          ]
+        },
+        {
+          "title": "Fog Computing-Enabled Smart Grids Reduced Latency for Smarter Energy Systems",
+          "arxiv_id": null,
+          "doi": "10.1109/ICASST68917.2026.11484467",
+          "year": "2026",
+          "authors": [
+            "Bindiya Jain",
+            "Hemant K Upadhyay",
+            "Pooja Arora",
+            "Vaishali Sonwane",
+            "Swapan Banerjee",
+            "S. Dave"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISSING_ID",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": "10.1016/j.iot.2023.100784",
+          "title": "FedSDM: Federated learning based smart decision making module for ECG data in IoT integrated Edge-Fog-Cloud computing environments",
+          "abstract": "Massive data collection in modern systems has paved the way for data-driven machine learning, a promising technique for creating reliable and robust statistical models. By combining the data into centralized storage to develop a reliable learning model, there are concerns with privacy, ownership, and strict rules. It is self-evident that the samples in the typical machine learning centralized server paradigm have vastly different probability distributions of data supplied by each user. As a result, the typical model needs to be personalized for critical medical applications, and the deployment needs an efficient mechanism that can adapt to varying user inputs. Due to the heterogeneous and dynamic nature of critical medical IoT applications in such Edge/Fog scenarios, the privacy of patients become a crucial problem. Federated Learning, the model trained on diversity helps in addressing these concerns when used. This paper proposes the integration of Federated Learning for distributed Edge-Fog-Cloud architecture in the IoT smart healthcare sector. This paper presents FedSDM, the Federated Learning-based Smart Decision Making framework for the ECG data in microservice-based IoT medical applications. This proposal makes use of the advantages of Edge/Fog computing for real-time critical applications. It deploys the Federated Learning model at the Edge, Fog, and Cloud layers for performance comparison. The parameters considered for performance evaluation are energy consumption, network usage, cost, execution time, and latency. The proposed method shows that Edge-based deployment outperforms Fog and Cloud in terms of energy consumption, network usage, cost, execution time, and latency (i.e.) 0.3%, 2%, 15%, 11%, and 3% when compared with",
+          "year": "2023",
+          "authors": [
+            "Shinu M. Rajagopal",
+            "S. M.",
+            "R. Buyya"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 119
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Wen, Z., Feng, W., Wu, D., Hu, H., Xu, C., Qian, B., Hong, Z., Wang, C., & Ji, S. (2024). FLMarket: Enabling Privacy-preserved Pre-training Data Pricing for Federated Learning. arXiv:2411.11713.",
+      "parsed": {
+        "title": "FLMarket: Enabling Privacy-preserved Pre-training Data Pricing for Federated Learning",
+        "authors": "Wen, Z., Feng, W., Wu, D., Hu, H., Xu, C., Qian, B., Hong, Z., Wang, C., & Ji, S",
+        "year": "2024",
+        "arxiv_id": "2411.11713",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "FLMarket: Enabling Privacy-preserved Pre-training Data Pricing for Federated Learning",
+          "arxiv_id": "2411.11713",
+          "doi": null,
+          "year": "2024",
+          "authors": [
+            "Zhenyu Wen",
+            "Wanglei Feng",
+            "Di Wu",
+            "Haozhen Hu",
+            "Chang Xu",
+            "Bin Qian",
+            "Zhen Hong",
+            "Cong Wang",
+            "Shouling Ji"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2411.11713",
+          "title": "FLMarket: Enabling Privacy-preserved Pre-training Data Pricing for Federated Learning",
+          "abstract": "Federated Learning (FL), as a mainstream privacy-preserving machine learning paradigm, offers promising solutions for privacy-critical domains such as healthcare and finance. Although extensive efforts have been dedicated from both academia and industry to improve the vanilla FL, little work focuses on the data pricing mechanism. In contrast to the straightforward in/post-training pricing techniques, we study a more difficult problem of pre-training pricing without direct information from the learning process. We propose FLMarket that integrates a two-stage, auction-based pricing mechanism with a security protocol to address the utility-privacy conflict. Through comprehensive experiments, we show that the client selection according to FLMarket can achieve more than 10% higher accuracy in subsequent FL training compared to state-of-the-art methods. In addition, it outperforms the in-training baseline with more than 2% accuracy increase and 3x run-time speedup.",
+          "year": "2024",
+          "authors": [
+            "Zhenyu Wen",
+            "Wanglei Feng",
+            "Di Wu",
+            "Haozhen Hu",
+            "Chang Xu",
+            "Bin Qian",
+            "Zhen Hong",
+            "Cong Wang",
+            "Shouling Ji"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Tang, F., Liang, S., Ling, G., & Shan, J. (2023). IHVFL: a privacy-enhanced intention-hiding vertical federated learning framework for medical data.",
+      "parsed": {
+        "title": "IHVFL: a privacy-enhanced intention-hiding vertical federated learning framework for medical data",
+        "authors": "Tang, F., Liang, S., Ling, G., & Shan, J",
+        "year": "2023",
+        "arxiv_id": null,
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "IHVFL: a privacy-enhanced intention-hiding vertical federated learning framework for medical data",
+          "arxiv_id": null,
+          "doi": "10.1186/s42400-023-00166-9",
+          "year": "2023",
+          "authors": [
+            "Fei Tang",
+            "Shikai Liang",
+            "Guowei Ling",
+            "Jinyong Shan"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISSING_ID",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": "10.1186/s42400-023-00166-9",
+          "title": "IHVFL: a privacy-enhanced intention-hiding vertical federated learning framework for medical data",
+          "abstract": "Vertical Federated Learning (VFL) has many applications in the field of smart healthcare with excellent performance. However, current VFL systems usually primarily focus on the privacy protection during model training, while the preparation of training data receives little attention. In real-world applications, like smart healthcare, the process of the training data preparation may involve some participant’s intention which could be privacy information for this participant. To protect the privacy of the model training intention, we describe the idea of Intention-Hiding Vertical Federated Learning (IHVFL) and illustrate a framework to achieve this privacy-preserving goal. First, we construct two secure screening protocols to enhance the privacy protection in feature engineering. Second, we implement the work of sample alignment bases on a novel private set intersection protocol. Finally, we use the logistic regression algorithm to demonstrate the process of IHVFL. Experiments show that our model can perform better efficiency (less than 5min) and accuracy (97%) on Breast Cancer medical dataset while maintaining the intention-hiding goal.",
+          "year": "2023",
+          "authors": [
+            "Fei Tang",
+            "Shikai Liang",
+            "Guowei Ling",
+            "Jinyong Shan"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 18
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 4,
+      "raw": "Sai, S., Sawaika, A., Singh, P., & Buyya, R. (2025). Quantum Federated Learning: Architectural Elements and Future Directions. arXiv:2510.17642v1.",
+      "parsed": {
+        "title": "Quantum Federated Learning: Architectural Elements and Future Directions",
+        "authors": "Sai, S., Sawaika, A., Singh, P., & Buyya, R",
+        "year": "2025",
+        "arxiv_id": "2510.17642v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "arxiv_id",
+      "candidates": [
+        {
+          "title": "Quantum Federated Learning: Architectural Elements and Future Directions",
+          "arxiv_id": "2510.17642",
+          "doi": null,
+          "year": "2025",
+          "authors": [
+            "Siva Sai",
+            "Abhishek Sawaika",
+            "Prabhjot Singh",
+            "Rajkumar Buyya"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2510.17642",
+          "title": "Quantum Federated Learning: Architectural Elements and Future Directions",
+          "abstract": "Federated learning (FL) focuses on collaborative model training without the need to move the private data silos to a central server. Despite its several benefits, the classical FL is plagued with several limitations, such as high computational power required for model training(which is critical for low-resource clients), privacy risks, large update traffic, and non-IID heterogeneity. This chapter surveys a hybrid paradigm - Quantum Federated Learning (QFL), which introduces quantum computation, that addresses multiple challenges of classical FL and offers rapid computing capability while keeping the classical orchestration intact. Firstly, we motivate QFL with a concrete presentation on pain points of classical FL, followed by a discussion on a general architecture of QFL frameworks specifying the roles of client and server, communication primitives and the quantum model placement. We classify the existing QFL systems based on four criteria - quantum architecture (pure QFL, hybrid QFL), data processing method (quantum data encoding, quantum feature mapping, and quantum feature selection & dimensionality reduction), network topology (centralized, hierarchial, decentralized), and quantum security mechanisms (quantum key distribution, quantum homomorphic encryption, quantum differential privacy, blind quantum computing). We then describe applications of QFL in healthcare, vehicular networks, wireless networks, and network security, clearly highlighting where QFL improves communication efficiency, security, and performance compared to classical FL. We close with multiple challenges and future works in QFL, including extension of QFL beyond classification tasks, adversarial attacks, realistic hardware deployment, quantum communication protocols deployment, aggregation of different quantum models, and quantum split learning as an alternative to QFL.",
+          "year": "2025",
+          "authors": [
+            "Siva Sai",
+            "Abhishek Sawaika",
+            "Prabhjot Singh",
+            "Rajkumar Buyya"
+          ],
+          "source": "arxiv"
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    }
+  ]
+}

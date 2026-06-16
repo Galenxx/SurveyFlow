@@ -1,0 +1,16 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "txt2sql",
+  "seed": 0,
+  "md_path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\naive_rag\\Text_to_SQL_Generation_with_Large_Language_Models__seed0\\survey.md",
+  "survey_id": "corpus_txt2sql",
+  "n_references_requested": 10,
+  "n_references_realized": 8,
+  "corpus_stats": {
+    "n_papers_in_list": 15,
+    "n_collections_embedded": 10,
+    "n_citation_meta": 10,
+    "n_collections_used_in_writing": 10,
+    "total_chunks": 1194
+  }
+}

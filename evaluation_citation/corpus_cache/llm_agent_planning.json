@@ -1,0 +1,461 @@
+{
+  "arxiv_query": "(abs:\"llm agent\" AND abs:\"planning\" AND abs:\"autonomous agent\" OR abs:\"reasoning\" OR abs:\"tool use\" OR abs:\"benchmark\" OR abs:\"task decomposition\" OR abs:\"verification\")",
+  "generic_arxiv_query": "(abs:\"language model\" AND abs:\"planning\") OR (abs:\"llm\" AND abs:\"reasoning\")",
+  "s2_query": "llm agent planning reasoning tool use",
+  "s2_generic_query": "large language model agents planning reasoning",
+  "survey_id": "corpus_llm_agent_planning",
+  "tsv_path": "./data/tsv\\corpus_llm_agent_planning.tsv",
+  "paper_list": [
+    {
+      "title": "Beyond Correctness: Rewarding Faithful Reasoning in Retrieval-Augmented Generation",
+      "pdf_link": "",
+      "arxiv_id": "2510.13272",
+      "s2_id": "01021187b2ac3b2341b674c2063b1566b87ec6ef",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Zhichao Xu",
+        "Zongyu Wu",
+        "Yun Zhou",
+        "Aosong Feng",
+        "Kang Zhou",
+        "Sangmin Woo",
+        "Kiran Ramnath",
+        "Yijun Tian",
+        "X. Qi",
+        "Weikang Qiu",
+        "Lin Lee Cheong",
+        "Haibo Ding"
+      ],
+      "source": "s2",
+      "citation_count": 5,
+      "year": 2025
+    },
+    {
+      "title": "RefactorAI: An Autonomous Code Modernization Agent",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "0182514f6db322445966b1a35e72256f96bb9d35",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Dr. H. Venkateswara Reddy"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2026
+    },
+    {
+      "title": "ChemGraph: An Agentic Framework for Computational Chemistry Workflows",
+      "pdf_link": "",
+      "arxiv_id": "2506.06363",
+      "s2_id": "01f5c59d68245d31b333e706e378129b15404caf",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Thang D. Pham",
+        "Aditya Tanikanti",
+        "Murat Keçeli"
+      ],
+      "source": "s2",
+      "citation_count": 14,
+      "year": 2025
+    },
+    {
+      "title": "TravelBench: A Real-World Benchmark for Multi-Turn and Tool-Augmented Travel Planning",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "038960a355af4df0412b822234a3a1622d5c4987",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Xiang Cheng",
+        "Yulan Hu",
+        "Xiangwen Zhang",
+        "Lu Xu",
+        "Zheng Pan",
+        "Xin Li",
+        "Yong Liu"
+      ],
+      "source": "s2",
+      "citation_count": 5,
+      "year": 2025
+    },
+    {
+      "title": "Towards a Declarative Agentic Layer for Intelligent Agents in MCP-Based Server Ecosystems",
+      "pdf_link": "",
+      "arxiv_id": "2601.17435",
+      "s2_id": "03b7965a66303e4f5f16488715e2060a81cddf66",
+      "open_access_pdf_url": "",
+      "authors": [
+        "María Jesús Rodríguez-Sánchez",
+        "Manuel Noguera",
+        "Ángel Ruiz-Zafra",
+        "K. Benghazi"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2026
+    },
+    {
+      "title": "Ego-R1: Agentic Chain-of-Tool-Thought for Ultra-Long Egocentric Video Reasoning.",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "04f2c54883cdb76c383e1c092533d61d45605cc2",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Shulin Tian",
+        "Ruiqi Wang",
+        "Hongming Guo",
+        "Penghao Wu",
+        "Yuhao Dong",
+        "Xiuying Wang",
+        "Jingkang Yang",
+        "Hao Zhang",
+        "Hongyuan Zhu",
+        "Ziwei Liu"
+      ],
+      "source": "s2",
+      "citation_count": 1,
+      "year": 2026
+    },
+    {
+      "title": "Batch Query Processing and Optimization for Agentic Workflows",
+      "pdf_link": "",
+      "arxiv_id": "2509.02121",
+      "s2_id": "065c9ac1ea5e8db2b64a64ef69c2da3122cffda4",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Junyi Shen",
+        "Noppanat Wadlom",
+        "Yao Lu"
+      ],
+      "source": "s2",
+      "citation_count": 5,
+      "year": 2025
+    },
+    {
+      "title": "Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security",
+      "pdf_link": "",
+      "arxiv_id": "2401.05459",
+      "s2_id": "06d860a5bbb99a4eafdbbb2d5f6aa8dd5fd32cf4",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Yuanchun Li",
+        "Hao Wen",
+        "Weijun Wang",
+        "Xiangyu Li",
+        "Yizhen Yuan",
+        "Guohong Liu",
+        "Jiacheng Liu",
+        "Wenxing Xu",
+        "Xiang Wang",
+        "Yi Sun",
+        "Rui Kong",
+        "Yile Wang",
+        "Hanfei Geng",
+        "Jian Luan",
+        "Xuefeng Jin",
+        "Zi-Liang Ye",
+        "Guanjing Xiong",
+        "Fan Zhang",
+        "Xiang Li",
+        "Mengwei Xu",
+        "Zhijun Li",
+        "Peng Li",
+        "Yang Liu",
+        "Yaqiong Zhang",
+        "Yunxin Liu"
+      ],
+      "source": "s2",
+      "citation_count": 346,
+      "year": 2024
+    },
+    {
+      "title": "C-World: A Computer Use Agent Environment Creator",
+      "pdf_link": "",
+      "arxiv_id": "2601.06328",
+      "s2_id": "0931d4532c93238a4fc1aba5782df9ca1c674429",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Ziqiao Xi",
+        "Shuang Liang",
+        "Qi Liu",
+        "Jiaqing Zhang",
+        "Letian Peng",
+        "Fang Nan",
+        "Meshal Nayim",
+        "Tianhui Zhang",
+        "Rishika Mundada",
+        "Lianhui Qin",
+        "Biwei Huang",
+        "Kun Zhou"
+      ],
+      "source": "s2",
+      "citation_count": 1,
+      "year": 2026
+    },
+    {
+      "title": "How Can Input Reformulation Improve Tool Usage Accuracy in a Complex Dynamic Environment? A Study on τ-bench",
+      "pdf_link": "",
+      "arxiv_id": "2508.20931",
+      "s2_id": "0984d132de5e05ac6702ef10d598596dd18a7ef3",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Venkatesh Mishra",
+        "Amir Saeidi",
+        "Satyam Raj",
+        "Mutsumi Nakamura",
+        "Jayanth Srinivasa",
+        "Gaowen Liu",
+        "Ali Payani",
+        "Chitta Baral"
+      ],
+      "source": "s2",
+      "citation_count": 3,
+      "year": 2025
+    }
+  ],
+  "download_status": {
+    "2510.13272": "success",
+    "2506.06363": "success",
+    "2601.17435": "success",
+    "2509.02121": "success",
+    "2401.05459": "success",
+    "2601.06328": "success",
+    "2508.20931": "success",
+    "2402.02716v1": "success",
+    "2509.20616v2": "success",
+    "2402.16499v1": "success",
+    "2601.13383v1": "success",
+    "2401.07128v3": "success"
+  },
+  "failed_papers": [],
+  "chroma_collections": [
+    "c-worldacomputeruseagentenvironmentcreatoa",
+    "alightweightmodularframeworkforconstructingautonomousagentsdria",
+    "beyondcorrectnessrewardingfaithfulreasoninginretrieval-augmenta",
+    "chemgraphanagenticframeworkforcomputationalchemistryworkflowa",
+    "batchqueryprocessingandoptimizationforagenticworkflowa",
+    "ehragentcodeempowerslargelanguagemodelsforfew-shotcomplextabula",
+    "llmarenaassessingcapabilitiesoflargelanguagemodelsindynamicmula",
+    "howcaninputreformulationimprovetoolusageaccuracyinacomplexdynaa",
+    "towardsadeclarativeagenticlayerforintelligentagentsinmcp-baseda",
+    "trainingtaskreasoningllmagentsformulti-turntaskplanningviasinga",
+    "understandingtheplanningofllmagentsasurvea",
+    "personalllmagentsinsightsandsurveyaboutthecapabilityefficiencya"
+  ],
+  "total_chunks": 1821,
+  "embedding_status": {
+    "./data/arxiv_downloads\\corpus_llm_agent_planning\\C-World_ A Computer Use Agent Environment Creator.pdf": "success",
+    "./data/arxiv_downloads\\corpus_llm_agent_planning\\A Lightweight Modular Framework for Constructing Autonomous Agents Driven by Large Language Models_ .pdf": "success",
+    "./data/arxiv_downloads\\corpus_llm_agent_planning\\Beyond Correctness_ Rewarding Faithful Reasoning in Retrieval-Augmented Generation.pdf": "success",
+    "./data/arxiv_downloads\\corpus_llm_agent_planning\\ChemGraph_ An Agentic Framework for Computational Chemistry Workflows.pdf": "success",
+    "./data/arxiv_downloads\\corpus_llm_agent_planning\\Batch Query Processing and Optimization for Agentic Workflows.pdf": "success",
+    "./data/arxiv_downloads\\corpus_llm_agent_planning\\EHRAgent_ Code Empowers Large Language Models for Few-shot Complex Tabular Reasoning on Electronic H.pdf": "success",
+    "./data/arxiv_downloads\\corpus_llm_agent_planning\\LLMArena_ Assessing Capabilities of Large Language Models in Dynamic Multi-Agent Environments.pdf": "success",
+    "./data/arxiv_downloads\\corpus_llm_agent_planning\\How Can Input Reformulation Improve Tool Usage Accuracy in a Complex Dynamic Environment_ A Study on.pdf": "success",
+    "./data/arxiv_downloads\\corpus_llm_agent_planning\\Towards a Declarative Agentic Layer for Intelligent Agents in MCP-Based Server Ecosystems.pdf": "success",
+    "./data/arxiv_downloads\\corpus_llm_agent_planning\\Training Task Reasoning LLM Agents for Multi-turn Task Planning via Single-turn Reinforcement Learni.pdf": "success",
+    "./data/arxiv_downloads\\corpus_llm_agent_planning\\Understanding the planning of LLM agents_ A survey.pdf": "success",
+    "./data/arxiv_downloads\\corpus_llm_agent_planning\\Personal LLM Agents_ Insights and Survey about the Capability, Efficiency and Security.pdf": "success"
+  },
+  "citation_paper_meta": {
+    "towardsadeclarativeagenticlayerforintelligentagentsinmcp-baseda": {
+      "title": "Towards a Declarative Agentic Layer for Intelligent Agents in MCP-Based Server Ecosystems",
+      "authors": [
+        "María Jesús Rodríguez-Sánchez",
+        "Manuel Noguera",
+        "Ángel Ruiz-Zafra",
+        "K. Benghazi"
+      ],
+      "year": 2026,
+      "arxiv_id": "2601.17435",
+      "s2_id": "03b7965a66303e4f5f16488715e2060a81cddf66"
+    },
+    "batchqueryprocessingandoptimizationforagenticworkflowa": {
+      "title": "Batch Query Processing and Optimization for Agentic Workflows",
+      "authors": [
+        "Junyi Shen",
+        "Noppanat Wadlom",
+        "Yao Lu"
+      ],
+      "year": 2025,
+      "arxiv_id": "2509.02121",
+      "s2_id": "065c9ac1ea5e8db2b64a64ef69c2da3122cffda4"
+    },
+    "howcaninputreformulationimprovetoolusageaccuracyinacomplexdynaa": {
+      "title": "How Can Input Reformulation Improve Tool Usage Accuracy in a Complex Dynamic Environment? A Study on τ-bench",
+      "authors": [
+        "Venkatesh Mishra",
+        "Amir Saeidi",
+        "Satyam Raj",
+        "Mutsumi Nakamura",
+        "Jayanth Srinivasa",
+        "Gaowen Liu",
+        "Ali Payani",
+        "Chitta Baral"
+      ],
+      "year": 2025,
+      "arxiv_id": "2508.20931",
+      "s2_id": "0984d132de5e05ac6702ef10d598596dd18a7ef3"
+    },
+    "c-worldacomputeruseagentenvironmentcreatoa": {
+      "title": "C-World: A Computer Use Agent Environment Creator",
+      "authors": [
+        "Ziqiao Xi",
+        "Shuang Liang",
+        "Qi Liu",
+        "Jiaqing Zhang",
+        "Letian Peng",
+        "Fang Nan",
+        "Meshal Nayim",
+        "Tianhui Zhang",
+        "Rishika Mundada",
+        "Lianhui Qin",
+        "Biwei Huang",
+        "Kun Zhou"
+      ],
+      "year": 2026,
+      "arxiv_id": "2601.06328",
+      "s2_id": "0931d4532c93238a4fc1aba5782df9ca1c674429"
+    },
+    "alightweightmodularframeworkforconstructingautonomousagentsdria": {
+      "title": "A Lightweight Modular Framework for Constructing Autonomous Agents Driven by Large Language Models",
+      "authors": [],
+      "year": null,
+      "arxiv_id": "",
+      "s2_id": ""
+    },
+    "beyondcorrectnessrewardingfaithfulreasoninginretrieval-augmenta": {
+      "title": "Beyond Correctness: Rewarding Faithful Reasoning in Retrieval-Augmented Generation",
+      "authors": [
+        "Zhichao Xu",
+        "Zongyu Wu",
+        "Yun Zhou",
+        "Aosong Feng",
+        "Kang Zhou",
+        "Sangmin Woo",
+        "Kiran Ramnath",
+        "Yijun Tian",
+        "X. Qi",
+        "Weikang Qiu",
+        "Lin Lee Cheong",
+        "Haibo Ding"
+      ],
+      "year": 2025,
+      "arxiv_id": "2510.13272",
+      "s2_id": "01021187b2ac3b2341b674c2063b1566b87ec6ef"
+    },
+    "chemgraphanagenticframeworkforcomputationalchemistryworkflowa": {
+      "title": "ChemGraph: An Agentic Framework for Computational Chemistry Workflows",
+      "authors": [
+        "Thang D. Pham",
+        "Aditya Tanikanti",
+        "Murat Keçeli"
+      ],
+      "year": 2025,
+      "arxiv_id": "2506.06363",
+      "s2_id": "01f5c59d68245d31b333e706e378129b15404caf"
+    },
+    "ehragentcodeempowerslargelanguagemodelsforfew-shotcomplextabula": {
+      "title": "EHRAgent Code Empowers Large Language Models for Few-shot Complex Tabular Reasoning on Electronic H",
+      "authors": [],
+      "year": null,
+      "arxiv_id": "",
+      "s2_id": ""
+    },
+    "llmarenaassessingcapabilitiesoflargelanguagemodelsindynamicmula": {
+      "title": "LLMArena Assessing Capabilities of Large Language Models in Dynamic Multi-Agent Environments",
+      "authors": [],
+      "year": null,
+      "arxiv_id": "",
+      "s2_id": ""
+    },
+    "trainingtaskreasoningllmagentsformulti-turntaskplanningviasinga": {
+      "title": "TravelBench: A Real-World Benchmark for Multi-Turn and Tool-Augmented Travel Planning",
+      "authors": [
+        "Xiang Cheng",
+        "Yulan Hu",
+        "Xiangwen Zhang",
+        "Lu Xu",
+        "Zheng Pan",
+        "Xin Li",
+        "Yong Liu"
+      ],
+      "year": 2025,
+      "arxiv_id": "",
+      "s2_id": "038960a355af4df0412b822234a3a1622d5c4987"
+    },
+    "understandingtheplanningofllmagentsasurvea": {
+      "title": "Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security",
+      "authors": [
+        "Yuanchun Li",
+        "Hao Wen",
+        "Weijun Wang",
+        "Xiangyu Li",
+        "Yizhen Yuan",
+        "Guohong Liu",
+        "Jiacheng Liu",
+        "Wenxing Xu",
+        "Xiang Wang",
+        "Yi Sun",
+        "Rui Kong",
+        "Yile Wang",
+        "Hanfei Geng",
+        "Jian Luan",
+        "Xuefeng Jin",
+        "Zi-Liang Ye",
+        "Guanjing Xiong",
+        "Fan Zhang",
+        "Xiang Li",
+        "Mengwei Xu",
+        "Zhijun Li",
+        "Peng Li",
+        "Yang Liu",
+        "Yaqiong Zhang",
+        "Yunxin Liu"
+      ],
+      "year": 2024,
+      "arxiv_id": "2401.05459",
+      "s2_id": "06d860a5bbb99a4eafdbbb2d5f6aa8dd5fd32cf4"
+    },
+    "personalllmagentsinsightsandsurveyaboutthecapabilityefficiencya": {
+      "title": "Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security",
+      "authors": [
+        "Yuanchun Li",
+        "Hao Wen",
+        "Weijun Wang",
+        "Xiangyu Li",
+        "Yizhen Yuan",
+        "Guohong Liu",
+        "Jiacheng Liu",
+        "Wenxing Xu",
+        "Xiang Wang",
+        "Yi Sun",
+        "Rui Kong",
+        "Yile Wang",
+        "Hanfei Geng",
+        "Jian Luan",
+        "Xuefeng Jin",
+        "Zi-Liang Ye",
+        "Guanjing Xiong",
+        "Fan Zhang",
+        "Xiang Li",
+        "Mengwei Xu",
+        "Zhijun Li",
+        "Peng Li",
+        "Yang Liu",
+        "Yaqiong Zhang",
+        "Yunxin Liu"
+      ],
+      "year": 2024,
+      "arxiv_id": "2401.05459",
+      "s2_id": "06d860a5bbb99a4eafdbbb2d5f6aa8dd5fd32cf4"
+    }
+  },
+  "_corpus_stats": {
+    "topic_id": "llm_agent_planning",
+    "survey_id": "corpus_llm_agent_planning",
+    "n_papers_in_list": 10,
+    "n_collections": 12,
+    "total_chunks": 1821,
+    "n_citation_meta": 12
+  }
+}

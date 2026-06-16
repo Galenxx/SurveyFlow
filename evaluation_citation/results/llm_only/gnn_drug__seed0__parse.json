@@ -1,0 +1,97 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\llm_only\\Graph_Neural_Networks_for_Drug_Discovery_and_Molec__glm-5.1__seed0.md",
+  "topic": "3 Molecular Representation and Graph Construction",
+  "n_references": 10,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Gilmer, J., Schoenholz, S. S., Riley, P. F., Vinyals, O., & Dahl, G. E. (2017). Neural Message Passing for Quantum Chemistry. arXiv:1704.01212v2.",
+      "title": "Neural Message Passing for Quantum Chemistry",
+      "authors": "Gilmer, J., Schoenholz, S. S., Riley, P. F., Vinyals, O., & Dahl, G. E",
+      "year": "2017",
+      "arxiv_id": "1704.01212v2",
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Yang, K., Swanson, K., Jin, W., Coley, C., Eiden, P., Gao, H., ... & Barzilay, R. (2019). Analyzing Learned Molecular Representations for Property Prediction. arXiv:1904.01561v2.",
+      "title": "Analyzing Learned Molecular Representations for Property Prediction",
+      "authors": "Yang, K., Swanson, K., Jin, W., Coley, C., Eiden, P., Gao, H., ... & Barzilay, R",
+      "year": "2019",
+      "arxiv_id": "1904.01561v2",
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Klicpera, J., Groß, J., & Günnemann, S. (2020). Directional Message Passing for Molecular Graphs. arXiv:2003.03123v2.",
+      "title": "Directional Message Passing for Molecular Graphs",
+      "authors": "Klicpera, J., Groß, J., & Günnemann, S",
+      "year": "2020",
+      "arxiv_id": "2003.03123v2",
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Schütt, K. T., Kindermans, P. J., Sauceda, H. E., Chmiela, S., Tkatchenko, A., & Müller, K. R. (2017). SchNet: A continuous-filter convolutional neural network for modeling quantum interactions. arXiv:1706.08566v2.",
+      "title": "SchNet: A continuous-filter convolutional neural network for modeling quantum interactions",
+      "authors": "Schütt, K. T., Kindermans, P. J., Sauceda, H. E., Chmiela, S., Tkatchenko, A., & Müller, K. R",
+      "year": "2017",
+      "arxiv_id": "1706.08566v2",
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Shi, C., Xu, M., Zhu, Z., Zhang, W., Zhang, M., & Tang, J. (2020). GraphAF: a Flow-based Autoregressive Model for Molecular Graph Generation. arXiv:2001.09382v2.",
+      "title": "GraphAF: a Flow-based Autoregressive Model for Molecular Graph Generation",
+      "authors": "Shi, C., Xu, M., Zhu, Z., Zhang, W., Zhang, M., & Tang, J",
+      "year": "2020",
+      "arxiv_id": "2001.09382v2",
+      "doi": null
+    },
+    {
+      "ref_id": 5,
+      "raw": "De Cao, N., & Kipf, T. (2018). MolGAN: An implicit generative model for small molecular graphs. arXiv:1805.11973v1.",
+      "title": "MolGAN: An implicit generative model for small molecular graphs",
+      "authors": "De Cao, N., & Kipf, T",
+      "year": "2018",
+      "arxiv_id": "1805.11973v1",
+      "doi": null
+    },
+    {
+      "ref_id": 6,
+      "raw": "Gasteiger, J., Becker, F., & Günnemann, S. (2021). GemNet: Universal Directional Graph Neural Networks for Molecules. arXiv:2106.08903v2.",
+      "title": "GemNet: Universal Directional Graph Neural Networks for Molecules",
+      "authors": "Gasteiger, J., Becker, F., & Günnemann, S",
+      "year": "2021",
+      "arxiv_id": "2106.08903v2",
+      "doi": null
+    },
+    {
+      "ref_id": 7,
+      "raw": "Fey, M., & Lenssen, J. E. (2019). Fast Graph Representation Learning with PyTorch Geometric. arXiv:1903.02428v3.",
+      "title": "Fast Graph Representation Learning with PyTorch Geometric",
+      "authors": "Fey, M., & Lenssen, J. E",
+      "year": "2019",
+      "arxiv_id": "1903.02428v3",
+      "doi": null
+    },
+    {
+      "ref_id": 8,
+      "raw": "Simonovsky, M., & Komodakis, N. (2018). GraphVAE: Towards Generation of Small Graphs Using Variational Autoencoders. arXiv:1802.03480v1.",
+      "title": "GraphVAE: Towards Generation of Small Graphs Using Variational Autoencoders",
+      "authors": "Simonovsky, M., & Komodakis, N",
+      "year": "2018",
+      "arxiv_id": "1802.03480v1",
+      "doi": null
+    },
+    {
+      "ref_id": 9,
+      "raw": "Liu, Q., Allamanis, M., Brockschmidt, M., & Gaunt, A. (2018). Constrained Graph Variational Autoencoders for Molecule Design. arXiv:1805.09076v1.",
+      "title": "Constrained Graph Variational Autoencoders for Molecule Design",
+      "authors": "Liu, Q., Allamanis, M., Brockschmidt, M., & Gaunt, A",
+      "year": "2018",
+      "arxiv_id": "1805.09076v1",
+      "doi": null
+    }
+  ]
+}

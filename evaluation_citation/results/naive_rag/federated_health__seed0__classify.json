@@ -1,0 +1,45 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "federated_health",
+  "seed": 0,
+  "topic": "Federated Learning for Privacy-Preserving Healthcare: Architectures, Communication Efficiency, and Clinical Deployment",
+  "n_references": 4,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MISSING_ID)",
+      "verdict": "MISSING_ID"
+    },
+    {
+      "ref_id": 1,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 2,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 3,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MISSING_ID)",
+      "verdict": "MISSING_ID"
+    }
+  ],
+  "distribution": {
+    "RESOLVED": 4,
+    "METADATA_PARSE_ERROR": 0,
+    "ID_EXTRACTION_FAIL": 0,
+    "DEDUP_COLLISION": 0,
+    "GENUINELY_FABRICATED": 0,
+    "PLACEHOLDER_PADDING": 0
+  },
+  "n_resolved": 4,
+  "n_padding": 0,
+  "n_failures": 0,
+  "n_genuinely_fabricated": 0
+}

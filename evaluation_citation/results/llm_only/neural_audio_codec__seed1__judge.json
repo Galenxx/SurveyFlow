@@ -1,0 +1,117 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "neural_audio_codec",
+  "seed": 1,
+  "topic": "Neural Audio Codecs and Discrete Speech Representations: Architectures, Tokenization, and Generative Applications",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper presents a neural audio codec with quantized latent space and discrete representations, directly aligning with the survey's focus on architectures, tokenization, and generative applications."
+      }
+    },
+    {
+      "ref_id": 1,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper introduces a neural audio codec (Improved RVQGAN) that compresses audio into discrete tokens, directly aligning with the survey's focus on neural audio codecs and discrete speech representations."
+      }
+    },
+    {
+      "ref_id": 2,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a neural codec language model for TTS using discrete codes from a neural audio codec, directly aligning with the survey's focus on neural audio codecs, discrete speech representations, and generative applications."
+      }
+    },
+    {
+      "ref_id": 3,
+      "identification_verdict": "MATCH",
+      "title_sim": 0.9571428571428572,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a neural audio codec with discrete speech representations and applies it to speech language models, directly aligning with the survey's focus on architectures, tokenization, and generative applications."
+      }
+    },
+    {
+      "ref_id": 4,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper proposes a hybrid tokenization scheme combining neural audio codec tokens with semantic tokens for audio generation, directly contributing to the survey's focus on neural audio codecs, discrete speech representations, and their generative applications."
+      }
+    },
+    {
+      "ref_id": 5,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 0.44594594594594594,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 6,
+      "identification_verdict": "MATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "RELEVANT",
+        "score": 1.0,
+        "rationale": "The paper uses discrete speech representations (semantic and acoustic tokens) as a core component of its TTS architecture, making it directly relevant to the survey's focus on neural audio codecs and discrete speech representations for generative applications."
+      }
+    },
+    {
+      "ref_id": 7,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 0.8191489361702128,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 8,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 0.6870229007633588,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    },
+    {
+      "ref_id": 9,
+      "identification_verdict": "MISMATCH",
+      "title_sim": 1.0,
+      "judge": {
+        "verdict": "IRRELEVANT",
+        "score": 0.0,
+        "rationale": "reference did not resolve (id_verdict=MISMATCH); defaulting to IRRELEVANT for faithfulness"
+      }
+    }
+  ],
+  "aggregate": {
+    "score": 60.0,
+    "n_relevant": 6,
+    "n_partial": 0,
+    "n_irrelevant": 4,
+    "n_error": 0,
+    "n_judged": 10
+  }
+}

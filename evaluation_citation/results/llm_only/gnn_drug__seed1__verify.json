@@ -1,0 +1,887 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "gnn_drug",
+  "seed": 1,
+  "topic": "Graph Neural Networks for Drug Discovery and Molecular Property Prediction",
+  "n_references": 10,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "raw": "Gilmer, J., Schoenholz, S. S., Riley, P. F., Vinyals, O., & Dahl, G. E. (2017). Neural Message Passing for Quantum Chemistry. arXiv:1704.01212v2.",
+      "parsed": {
+        "title": "Neural Message Passing for Quantum Chemistry",
+        "authors": "Gilmer, J., Schoenholz, S. S., Riley, P. F., Vinyals, O., & Dahl, G. E",
+        "year": "2017",
+        "arxiv_id": "1704.01212v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Neural Message Passing for Quantum Chemistry",
+          "arxiv_id": "1704.01212",
+          "doi": null,
+          "year": "2017",
+          "authors": [
+            "J. Gilmer",
+            "S. Schoenholz",
+            "Patrick F. Riley",
+            "O. Vinyals",
+            "George E. Dahl"
+          ]
+        },
+        {
+          "title": "Q-MARL: A quantum-inspired algorithm using neural message passing for large-scale multi-agent reinforcement learning",
+          "arxiv_id": "2503.07397",
+          "doi": "10.48550/arXiv.2503.07397",
+          "year": "2025",
+          "authors": [
+            "Khang H. N. Vo",
+            "Chin-Teng Lin"
+          ]
+        },
+        {
+          "title": "Flexible dual-branched message passing neural network for quantum mechanical property prediction with molecular conformation",
+          "arxiv_id": "2106.07273",
+          "doi": null,
+          "year": "2021",
+          "authors": [
+            "Jeonghee Jo",
+            "Bumju Kwak",
+            "Byunghan Lee",
+            "Sungroh Yoon"
+          ]
+        },
+        {
+          "title": "Pretrained E(3)-equivariant message-passing neural networks with multi-level representations for organic molecule spectra prediction",
+          "arxiv_id": null,
+          "doi": "10.1038/s41524-025-01698-z",
+          "year": "2025",
+          "authors": [
+            "Yuzhi Xu",
+            "Daqian Bian",
+            "Cheng-Wei Ju",
+            "Fanyu Zhao",
+            "Pujun Xie",
+            "Yuanqing Wang",
+            "Wei Hu",
+            "Zhenrong Sun",
+            "John Z. H. Zhang",
+            "Tong Zhu"
+          ]
+        },
+        {
+          "title": "Quantum-Accurate Modeling of Ferroelectric Phase Transition in Perovskites from Message-Passing Neural Networks",
+          "arxiv_id": null,
+          "doi": "10.1021/acs.jpcc.3c04888",
+          "year": "2023",
+          "authors": [
+            "Xinjian Ouyang",
+            "Zhuang Yuan",
+            "Jiale Zhang",
+            "Feng Zhang",
+            "Xiao Jie",
+            "Weijian Chen",
+            "Yanxing Zhang",
+            "Laijun Liu",
+            "Dawei Wang"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "1704.01212",
+          "doi": null,
+          "title": "Neural Message Passing for Quantum Chemistry",
+          "abstract": "Supervised learning on molecules has incredible potential to be useful in chemistry, drug discovery, and materials science. Luckily, several promising and closely related neural network models invariant to molecular symmetries have already been described in the literature. These models learn a message passing algorithm and aggregation procedure to compute a function of their entire input graph. At this point, the next step is to find a particularly effective variant of this general approach and apply it to chemical prediction benchmarks until we either solve them or reach the limits of the approach. In this paper, we reformulate existing models into a single common framework we call Message Passing Neural Networks (MPNNs) and explore additional novel variations within this framework. Using MPNNs we demonstrate state of the art results on an important molecular property prediction benchmark; these results are strong enough that we believe future work should focus on datasets with larger molecules or more accurate ground truth labels.",
+          "year": "2017",
+          "authors": [
+            "J. Gilmer",
+            "S. Schoenholz",
+            "Patrick F. Riley",
+            "O. Vinyals",
+            "George E. Dahl"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 9080
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 1,
+      "raw": "Yang, K., Swanson, K., Jin, W., Coley, C., Eiden, P., Gao, H., Guzman-Perez, A., Hopper, T., Kelley, B., Mathea, M., Palmer, A., Settels, V., Jaakkola, T., Jensen, K., & Barzilay, R. (2019). Analyzing Learned Molecular Representations for Property Prediction. arXiv:1904.01561v2.",
+      "parsed": {
+        "title": "Analyzing Learned Molecular Representations for Property Prediction",
+        "authors": "Yang, K., Swanson, K., Jin, W., Coley, C., Eiden, P., Gao, H., Guzman-Perez, A., Hopper, T., Kelley, B., Mathea, M., Palmer, A., Settels, V., Jaakkola, T., Jensen, K., & Barzilay, R",
+        "year": "2019",
+        "arxiv_id": "1904.01561v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Analyzing Learned Molecular Representations for Property Prediction",
+          "arxiv_id": "1904.01561",
+          "doi": "10.1021/acs.jcim.9b00237",
+          "year": "2019",
+          "authors": [
+            "Kevin Yang",
+            "Kyle Swanson",
+            "Wengong Jin",
+            "Connor W. Coley",
+            "Philipp Eiden",
+            "Hua Gao",
+            "A. Guzman-Perez",
+            "Timothy Hopper",
+            "Brian P. Kelley",
+            "M. Mathea",
+            "Andrew Palmer",
+            "Volker Settels",
+            "T. Jaakkola",
+            "K. Jensen",
+            "R. Barzilay"
+          ]
+        },
+        {
+          "title": "Correction to Analyzing Learned Molecular Representations for Property Prediction",
+          "arxiv_id": null,
+          "doi": "10.1021/acs.jcim.9b01076",
+          "year": "2019",
+          "authors": [
+            "Kevin Yang",
+            "Kyle Swanson",
+            "Wengong Jin",
+            "Connor W. Coley",
+            "Philipp Eiden",
+            "Hua Gao",
+            "A. Guzman-Perez",
+            "Timothy Hopper",
+            "Brian P. Kelley",
+            "M. Mathea",
+            "Andrew Palmer",
+            "Volker Settels",
+            "T. Jaakkola",
+            "K. Jensen",
+            "R. Barzilay"
+          ]
+        },
+        {
+          "title": "BERT Learns (and Teaches) Chemistry",
+          "arxiv_id": "2007.16012",
+          "doi": null,
+          "year": "2020",
+          "authors": [
+            "Josh Payne",
+            "Mario Srouji",
+            "Dian Ang Yap",
+            "Vineet Kosaraju"
+          ]
+        },
+        {
+          "title": "Data Fusion of Deep Learned Molecular Embeddings for Property Prediction",
+          "arxiv_id": "2504.07297",
+          "doi": "10.1021/acs.jcim.5c01728",
+          "year": "2025",
+          "authors": [
+            "Robert J. Appleton",
+            "Brian C. Barnes",
+            "Alejandro Strachan"
+          ]
+        },
+        {
+          "title": "Leveraging Hybrid Representations for Robust Molecular Property Prediction in Low-Data Regimes",
+          "arxiv_id": null,
+          "doi": "10.1109/ICDMW69685.2025.00366",
+          "year": "2025",
+          "authors": [
+            "Alex Liu",
+            "Haomin Zhuang",
+            "Olaf Wiest",
+            "Ying Cheng",
+            "Xiangliang Zhang"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "1904.01561",
+          "doi": "10.1021/acs.jcim.9b00237",
+          "title": "Analyzing Learned Molecular Representations for Property Prediction",
+          "abstract": "Advancements in neural machinery have led to a wide range of algorithmic solutions for molecular property prediction. Two classes of models in particular have yielded promising results: neural networks applied to computed molecular fingerprints or expert-crafted descriptors and graph convolutional neural networks that construct a learned molecular representation by operating on the graph structure of the molecule. However, recent literature has yet to clearly determine which of these two methods is superior when generalizing to new chemical space. Furthermore, prior research has rarely examined these new models in industry research settings in comparison to existing employed models. In this paper, we benchmark models extensively on 19 public and 16 proprietary industrial data sets spanning a wide variety of chemical end points. In addition, we introduce a graph convolutional model that consistently matches or outperforms models using fixed molecular descriptors as well as previous graph neural architectures on both public and proprietary data sets. Our empirical findings indicate that while approaches based on these representations have yet to reach the level of experimental reproducibility, our proposed model nevertheless offers significant improvements over models currently used in industrial workflows.",
+          "year": "2019",
+          "authors": [
+            "Kevin Yang",
+            "Kyle Swanson",
+            "Wengong Jin",
+            "Connor W. Coley",
+            "Philipp Eiden",
+            "Hua Gao",
+            "A. Guzman-Perez",
+            "Timothy Hopper",
+            "Brian P. Kelley",
+            "M. Mathea",
+            "Andrew Palmer",
+            "Volker Settels",
+            "T. Jaakkola",
+            "K. Jensen",
+            "R. Barzilay"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 1736
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 2,
+      "raw": "Stokes, J. M., Yang, K., Swanson, K., Jin, W., Cubillos-Ruiz, A., Donghia, N. M., MacNair, C. R., French, S., Carfrae, L. A., Bloom-Ackermann, Z., Tran, V. M., Chiappino-Pepe, A., Badran, A. H., Andrews, I. W., Clemons, E. J., Dombrowski, A. J., Green, N. G., Habteslassie, M. A., Kwon, S. J., ... Collins, J. J. (2020). A Deep Learning Approach to Antibiotic Discovery. arXiv:2001.02721v1.",
+      "parsed": {
+        "title": "A Deep Learning Approach to Antibiotic Discovery",
+        "authors": "Stokes, J. M., Yang, K., Swanson, K., Jin, W., Cubillos-Ruiz, A., Donghia, N. M., MacNair, C. R., French, S., Carfrae, L. A., Bloom-Ackermann, Z., Tran, V. M., Chiappino-Pepe, A., Badran, A. H., Andrews, I. W., Clemons, E. J., Dombrowski, A. J., Green, N. G., Habteslassie, M. A., Kwon, S. J., ... Collins, J. J",
+        "year": "2020",
+        "arxiv_id": "2001.02721v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "A deep learning approach to antibiotic discovery",
+          "arxiv_id": null,
+          "doi": "10.1016/j.cell.2020.01.021",
+          "year": "2020",
+          "authors": [
+            "Jonathan M. Stokes",
+            "Kevin Yang",
+            "Kyle Swanson",
+            "Wengong Jin",
+            "Andres Cubillos-Ruiz",
+            "Nina M. Donghia",
+            "C. MacNair",
+            "S. French",
+            "L. Carfrae",
+            "Zohar Bloom-Ackermann",
+            "Victoria M. Tran",
+            "Anush Chiappino-Pepe",
+            "A. Badran",
+            "Ian W. Andrews",
+            "Emma J. Chory",
+            "George M. Church",
+            "Eric D. Brown",
+            "T. Jaakkola",
+            "R. Barzilay",
+            "James J. Collins"
+          ]
+        },
+        {
+          "title": "A Deep Learning Approach to Antibiotic Discovery.",
+          "arxiv_id": null,
+          "doi": "10.1016/j.cell.2020.04.001",
+          "year": "2020",
+          "authors": [
+            "Jonathan M. Stokes",
+            "Kevin Yang",
+            "Kyle Swanson",
+            "Wengong Jin",
+            "Andrés Cubillos-Ruiz",
+            "Nina M. Donghia",
+            "C. MacNair",
+            "S. French",
+            "L. Carfrae",
+            "Zohar Bloom-Ackermann",
+            "Victoria M. Tran",
+            "Anush Chiappino-Pepe",
+            "A. Badran",
+            "Ian W. Andrews",
+            "Emma J. Chory",
+            "G. Church",
+            "E. Brown",
+            "T. Jaakkola",
+            "R. Barzilay",
+            "J. Collins"
+          ]
+        },
+        {
+          "title": "Faculty Opinions recommendation of A deep learning approach to antibiotic discovery.",
+          "arxiv_id": null,
+          "doi": "10.3410/f.737402248.793571864",
+          "year": "2020",
+          "authors": [
+            "Wenjun Zhang",
+            "Zhijuan Hu"
+          ]
+        },
+        {
+          "title": "Faculty Opinions recommendation of A deep learning approach to antibiotic discovery.",
+          "arxiv_id": null,
+          "doi": "10.3410/f.737402248.793576936",
+          "year": "2020",
+          "authors": [
+            "D. Swinney"
+          ]
+        },
+        {
+          "title": "Faculty Opinions recommendation of A deep learning approach to antibiotic discovery.",
+          "arxiv_id": null,
+          "doi": "10.3410/f.737402248.793572001",
+          "year": "2020",
+          "authors": [
+            "Richard Watkins"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": null,
+          "doi": "10.1016/j.cell.2020.01.021",
+          "title": "A deep learning approach to antibiotic discovery",
+          "abstract": "SUMMARY Due to the rapid emergence of antibiotic-resistant bacteria, there is a growing need to discover new antibiotics. To address this challenge, we trained a deep neural network capable of predicting molecules with antibacterial activity. We performed predictions on multiple chemical libraries and discovered a molecule from the Drug Repurposing Hub – halicin – that is structurally divergent from conventional antibiotics and displays bactericidal activity against a wide phylogenetic spectrum of pathogens, including Mycobacterium tuberculosis and carbapenem-resistant Enterobacteriaceae. Halicin also effectively treated Clostridioides difficile and pan-resistant Acinetobacter baumannii infections in murine models. Additionally, from a discrete set of 23 empirically tested predictions from >107 million molecules curated from the ZINC15 database, our model identified eight antibacterial compounds that are structurally distant from known antibiotics. This work highlights the utility of deep learning approaches to expand our antibiotic arsenal through the discovery of structurally distinct antibacterial molecules.",
+          "year": "2020",
+          "authors": [
+            "Jonathan M. Stokes",
+            "Kevin Yang",
+            "Kyle Swanson",
+            "Wengong Jin",
+            "Andres Cubillos-Ruiz",
+            "Nina M. Donghia",
+            "C. MacNair",
+            "S. French",
+            "L. Carfrae",
+            "Zohar Bloom-Ackermann",
+            "Victoria M. Tran",
+            "Anush Chiappino-Pepe",
+            "A. Badran",
+            "Ian W. Andrews",
+            "Emma J. Chory",
+            "George M. Church",
+            "Eric D. Brown",
+            "T. Jaakkola",
+            "R. Barzilay",
+            "James J. Collins"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 990
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 3,
+      "raw": "Klicpera, J., Groß, J., & Günnemann, S. (2020). Directional Message Passing for Molecular Graphs. arXiv:2003.03123v2.",
+      "parsed": {
+        "title": "Directional Message Passing for Molecular Graphs",
+        "authors": "Klicpera, J., Groß, J., & Günnemann, S",
+        "year": "2020",
+        "arxiv_id": "2003.03123v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Directional Message Passing for Molecular Graphs",
+          "arxiv_id": "2003.03123",
+          "doi": null,
+          "year": "2020",
+          "authors": [
+            "Johannes Klicpera",
+            "Janek Groß",
+            "Stephan Günnemann"
+          ]
+        },
+        {
+          "title": "Directional Message Passing on Molecular Graphs via Synthetic Coordinates",
+          "arxiv_id": "2111.04718",
+          "doi": null,
+          "year": "2021",
+          "authors": [
+            "Johannes Klicpera",
+            "Chandan Yeshwanth",
+            "Stephan Günnemann"
+          ]
+        },
+        {
+          "title": "A Directed Message Passing Neural Network Model for Predicting True Solubility in Drug Discovery",
+          "arxiv_id": null,
+          "doi": "10.54254/2755-2721/2025.tj24494",
+          "year": "2025",
+          "authors": [
+            "Xingyu Zhu"
+          ]
+        },
+        {
+          "title": "GemNet: Universal Directional Graph Neural Networks for Molecules",
+          "arxiv_id": "2106.08903",
+          "doi": null,
+          "year": "2021",
+          "authors": [
+            "Johannes Klicpera",
+            "Florian Becker",
+            "Stephan Gunnemann"
+          ]
+        },
+        {
+          "title": "KGMAEDDI: Knowledge Graph and Molecular-Graph Masked Autoencoder for Drug-Drug Interaction Prediction.",
+          "arxiv_id": null,
+          "doi": "10.1109/JBHI.2025.3610870",
+          "year": "2025",
+          "authors": [
+            "Yu Li",
+            "Zhuhong You",
+            "Yuan Yang",
+            "Cheng-gang Mi"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2003.03123",
+          "doi": null,
+          "title": "Directional Message Passing for Molecular Graphs",
+          "abstract": "Graph neural networks have recently achieved great successes in predicting quantum mechanical properties of molecules. These models represent a molecule as a graph using only the distance between atoms (nodes) and not the spatial direction from one atom to another. However, directional information plays a central role in empirical potentials for molecules, e.g. in angular potentials. To alleviate this limitation we propose directional message passing, in which we embed the messages passed between atoms instead of the atoms themselves. Each message is associated with a direction in coordinate space. These directional message embeddings are rotationally equivariant since the associated directions rotate with the molecule. We propose a message passing scheme analogous to belief propagation, which uses the directional information by transforming messages based on the angle between them. Additionally, we use spherical Bessel functions to construct a theoretically well-founded, orthogonal radial basis that achieves better performance than the currently prevalent Gaussian radial basis functions while using more than 4x fewer parameters. We leverage these innovations to construct the directional message passing neural network (DimeNet). DimeNet outperforms previous GNNs on average by 77% on MD17 and by 41% on QM9.",
+          "year": "2020",
+          "authors": [
+            "Johannes Klicpera",
+            "Janek Groß",
+            "Stephan Günnemann"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 1115
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 4,
+      "raw": "Liu, Y., Wang, L., Liu, M., Zhang, X., Oztekin, B., & Ji, S. (2021). Spherical Message Passing for 3D Molecular Graphs. arXiv:2102.05040v1.",
+      "parsed": {
+        "title": "Spherical Message Passing for 3D Molecular Graphs",
+        "authors": "Liu, Y., Wang, L., Liu, M., Zhang, X., Oztekin, B., & Ji, S",
+        "year": "2021",
+        "arxiv_id": "2102.05040v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Spherical Message Passing for 3D Molecular Graphs",
+          "arxiv_id": "2102.05013",
+          "doi": null,
+          "year": "2021",
+          "authors": [
+            "Yi Liu",
+            "Limei Wang",
+            "Meng Liu",
+            "Xuan Zhang",
+            "Bora Oztekin",
+            "Shuiwang Ji"
+          ]
+        },
+        {
+          "title": "An Autoregressive Flow Model for 3D Molecular Geometry Generation from Scratch",
+          "arxiv_id": null,
+          "doi": null,
+          "year": "2022",
+          "authors": [
+            "Youzhi Luo",
+            "Shuiwang Ji"
+          ]
+        },
+        {
+          "title": "ComENet: Towards Complete and Efficient Message Passing for 3D Molecular Graphs",
+          "arxiv_id": "2206.08515",
+          "doi": "10.48550/arXiv.2206.08515",
+          "year": "2022",
+          "authors": [
+            "Limei Wang",
+            "Yi Liu",
+            "Yu-Ching Lin",
+            "Hao Liu",
+            "Shuiwang Ji"
+          ]
+        },
+        {
+          "title": "Spherical Message Passing for 3D Graph Networks",
+          "arxiv_id": null,
+          "doi": null,
+          "year": "2021",
+          "authors": [
+            "Yi Liu",
+            "Limei Wang",
+            "Meng Liu",
+            "Xuan Zhang",
+            "Bora Oztekin",
+            "Shuiwang Ji"
+          ]
+        },
+        {
+          "title": "Directional Message Passing for Molecular Graphs",
+          "arxiv_id": "2003.03123",
+          "doi": null,
+          "year": "2020",
+          "authors": [
+            "Johannes Klicpera",
+            "Janek Groß",
+            "Stephan Günnemann"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "2102.05013",
+          "doi": null,
+          "title": "Spherical Message Passing for 3D Molecular Graphs",
+          "abstract": "We consider representation learning of 3D molecular graphs in which each atom is associated with a spatial position in 3D. This is an under-explored area of research, and a principled message passing framework is currently lacking. In this work, we conduct analyses in the spherical coordinate system (SCS) for the complete identification of 3D graph structures. Based on such observations, we propose the spherical message passing (SMP) as a novel and powerful scheme for 3D molecular learning. SMP dramatically reduces training complexity, enabling it to perform efficiently on large-scale molecules. In addition, SMP is capable of distinguishing almost all molecular structures, and the uncovered cases may not exist in practice. Based on meaningful physically-based representations of 3D information, we further propose the SphereNet for 3D molecular learning. Experimental results demonstrate that the use of meaningful 3D information in SphereNet leads to significant performance improvements in prediction tasks. Our results also demonstrate the advantages of SphereNet in terms of capability, efficiency, and scalability. Our code is publicly available as part of the DIG library (https://github.com/divelab/DIG).",
+          "year": "2021",
+          "authors": [
+            "Yi Liu",
+            "Limei Wang",
+            "Meng Liu",
+            "Xuan Zhang",
+            "Bora Oztekin",
+            "Shuiwang Ji"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 259
+        },
+        "title_sim": 1.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 5,
+      "raw": "Shwartz-Ziv, R., Ghosh, A., Ravid, G., & Armon, A. (2022). What is the best GNN for molecular property prediction?. arXiv:2207.12512v1.",
+      "parsed": {
+        "title": "What is the best GNN for molecular property prediction?",
+        "authors": "Shwartz-Ziv, R., Ghosh, A., Ravid, G., & Armon, A",
+        "year": "2022",
+        "arxiv_id": "2207.12512v1",
+        "doi": null
+      },
+      "existence": "NOT_FOUND",
+      "resolve_method": "none",
+      "candidates": [],
+      "identification": {
+        "verdict": "NOT_FOUND",
+        "best_hit": null,
+        "title_sim": 0.0,
+        "id_match": false
+      }
+    },
+    {
+      "ref_id": 6,
+      "raw": "Corso, G., Stark, H., Jing, B., Barzilay, R., & Jaakkola, T. (2022). DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking. arXiv:2210.01776v2.",
+      "parsed": {
+        "title": "DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking",
+        "authors": "Corso, G., Stark, H., Jing, B., Barzilay, R., & Jaakkola, T",
+        "year": "2022",
+        "arxiv_id": "2210.01776v2",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking",
+          "arxiv_id": "2210.01776",
+          "doi": "10.48550/arXiv.2210.01776",
+          "year": "2022",
+          "authors": [
+            "Gabriele Corso",
+            "Hannes Stärk",
+            "Bowen Jing",
+            "R. Barzilay",
+            "T. Jaakkola"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2210.01776",
+          "doi": "10.48550/arXiv.2210.01776",
+          "title": "DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking",
+          "abstract": "Predicting the binding structure of a small molecule ligand to a protein -- a task known as molecular docking -- is critical to drug design. Recent deep learning methods that treat docking as a regression problem have decreased runtime compared to traditional search-based methods but have yet to offer substantial improvements in accuracy. We instead frame molecular docking as a generative modeling problem and develop DiffDock, a diffusion generative model over the non-Euclidean manifold of ligand poses. To do so, we map this manifold to the product space of the degrees of freedom (translational, rotational, and torsional) involved in docking and develop an efficient diffusion process on this space. Empirically, DiffDock obtains a 38% top-1 success rate (RMSD<2A) on PDBBind, significantly outperforming the previous state-of-the-art of traditional docking (23%) and deep learning (20%) methods. Moreover, while previous methods are not able to dock on computationally folded structures (maximum accuracy 10.4%), DiffDock maintains significantly higher precision (21.7%). Finally, DiffDock has fast inference times and provides confidence estimates with high selective accuracy.",
+          "year": "2022",
+          "authors": [
+            "Gabriele Corso",
+            "Hannes Stärk",
+            "Bowen Jing",
+            "R. Barzilay",
+            "T. Jaakkola"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 757
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 7,
+      "raw": "Igashov, I., Stärk, H., Vignac, C., Satorras, V. G., Frossard, P., Welling, M., Bronstein, M., & Correia, B. (2022). Equivariant 3D-Conditional Diffusion Models for Molecular Linker Design. arXiv:2210.05274v1.",
+      "parsed": {
+        "title": "Equivariant 3D-Conditional Diffusion Models for Molecular Linker Design",
+        "authors": "Igashov, I., Stärk, H., Vignac, C., Satorras, V. G., Frossard, P., Welling, M., Bronstein, M., & Correia, B",
+        "year": "2022",
+        "arxiv_id": "2210.05274v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Equivariant 3D-conditional diffusion model for molecular linker design",
+          "arxiv_id": "2210.05274",
+          "doi": "10.1038/s42256-024-00815-9",
+          "year": "2022",
+          "authors": [
+            "Ilia Igashov",
+            "Hannes Stärk",
+            "Clément Vignac",
+            "Arne Schneuing",
+            "Victor Garcia Satorras",
+            "Pascal Frossard",
+            "Max Welling",
+            "Michael M. Bronstein",
+            "Bruno E. Correia"
+          ]
+        },
+        {
+          "title": "Multiscale graph equivariant diffusion model for 3D molecule design",
+          "arxiv_id": null,
+          "doi": "10.1126/sciadv.adv0778",
+          "year": "2025",
+          "authors": [
+            "Lu Chen",
+            "Yan Li",
+            "Yanji Ma",
+            "Lin Gao",
+            "Liang Yu"
+          ]
+        },
+        {
+          "title": "3DLinker: An E(3) Equivariant Variational Autoencoder for Molecular Linker Design",
+          "arxiv_id": "2205.07309",
+          "doi": "10.48550/arXiv.2205.07309",
+          "year": "2022",
+          "authors": [
+            "Yinan Huang",
+            "Xing Peng",
+            "Jianzhu Ma",
+            "Muhan Zhang"
+          ]
+        },
+        {
+          "title": "LinkerNet: Fragment Poses and Linker Co-Design with 3D Equivariant Diffusion",
+          "arxiv_id": null,
+          "doi": "10.52202/075280-3388",
+          "year": "2023",
+          "authors": [
+            "Jiaqi Guan",
+            "Xingang Peng",
+            "Peiqi Jiang",
+            "Yunan Luo",
+            "Jian Peng",
+            "Jianzhu Ma"
+          ]
+        },
+        {
+          "title": "Allo-DiffHopping: A Computational Approach for Allosteric Scaffold Hopping Using Conditional E(3) Equivariant Diffusion Models",
+          "arxiv_id": null,
+          "doi": "10.1145/3715020.3715039",
+          "year": "2024",
+          "authors": [
+            "Victor Li",
+            "Yu Sun"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2210.05274",
+          "doi": "10.1038/s42256-024-00815-9",
+          "title": "Equivariant 3D-conditional diffusion model for molecular linker design",
+          "abstract": "Fragment-based drug discovery has been an effective paradigm in early-stage drug development. An open challenge in this area is designing linkers between disconnected molecular fragments of interest to obtain chemically relevant candidate drug molecules. In this work, we propose DiffLinker, an E(3)-equivariant three-dimensional conditional diffusion model for molecular linker design. Given a set of disconnected fragments, our model places missing atoms in between and designs a molecule incorporating all the initial fragments. Unlike previous approaches that are only able to connect pairs of molecular fragments, our method can link an arbitrary number of fragments. Additionally, the model automatically determines the number of atoms in the linker and its attachment points to the input fragments. We demonstrate that DiffLinker outperforms other methods on the standard datasets, generating more diverse and synthetically accessible molecules. We experimentally test our method in real-world applications, showing that it can successfully generate valid linkers conditioned on target protein pockets. Fragment-based molecular design uses chemical motifs and combines them into bio-active compounds. While this approach has grown in capability, molecular linker methods are restricted to linking fragments one by one, which makes the search for effective combinations harder. Igashov and colleagues use a conditional diffusion model to link multiple fragments in a one-shot generative process.",
+          "year": "2022",
+          "authors": [
+            "Ilia Igashov",
+            "Hannes Stärk",
+            "Clément Vignac",
+            "Arne Schneuing",
+            "Victor Garcia Satorras",
+            "Pascal Frossard",
+            "Max Welling",
+            "Michael M. Bronstein",
+            "Bruno E. Correia"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 264
+        },
+        "title_sim": 0.9929078014184397,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 8,
+      "raw": "Hoogeboom, E., Satorras, V. G., Vignac, C., & Welling, M. (2022). Equivariant Diffusion for Molecule Generation in 3D. arXiv:2203.17003v1.",
+      "parsed": {
+        "title": "Equivariant Diffusion for Molecule Generation in 3D",
+        "authors": "Hoogeboom, E., Satorras, V. G., Vignac, C., & Welling, M",
+        "year": "2022",
+        "arxiv_id": "2203.17003v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Equivariant Diffusion for Molecule Generation in 3D",
+          "arxiv_id": "2203.17003",
+          "doi": "10.48550/arXiv.2203.17003",
+          "year": "2022",
+          "authors": [
+            "E. Hoogeboom",
+            "Victor Garcia Satorras",
+            "Clément Vignac",
+            "M. Welling"
+          ]
+        },
+        {
+          "title": "3D Equivariant Diffusion for Target-Aware Molecule Generation and Affinity Prediction",
+          "arxiv_id": "2303.03543",
+          "doi": "10.48550/arXiv.2303.03543",
+          "year": "2023",
+          "authors": [
+            "Jiaqi Guan",
+            "Wesley Wei Qian",
+            "Xingang Peng",
+            "Yufeng Su",
+            "Jian Peng",
+            "Jianzhu Ma"
+          ]
+        },
+        {
+          "title": "FedEDM: Federated Equivariant Diffusion Model for 3D Molecule Generation with Enhanced Communication Efficiency",
+          "arxiv_id": null,
+          "doi": "10.1145/3701716.3717648",
+          "year": "2025",
+          "authors": [
+            "Zixing Song",
+            "Irwin King",
+            "José Miguel Hernández-Lobato"
+          ]
+        },
+        {
+          "title": "Coarse-to-Fine: a Hierarchical Diffusion Model for Molecule Generation in 3D",
+          "arxiv_id": "2305.13266",
+          "doi": "10.48550/arXiv.2305.13266",
+          "year": "2023",
+          "authors": [
+            "Bo Qiang",
+            "Yuxuan Song",
+            "Minkai Xu",
+            "Jingjing Gong",
+            "B. Gao",
+            "Hao Zhou",
+            "Weiying Ma",
+            "Yanyan Lan"
+          ]
+        },
+        {
+          "title": "Equivariant Neural Diffusion for Molecule Generation",
+          "arxiv_id": "2506.10532",
+          "doi": "10.48550/arXiv.2506.10532",
+          "year": "2025",
+          "authors": [
+            "François Cornet",
+            "G. Bartosh",
+            "Mikkel N Schmidt",
+            "C. A. Naesseth"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MATCH",
+        "best_hit": {
+          "arxiv_id": "2203.17003",
+          "doi": "10.48550/arXiv.2203.17003",
+          "title": "Equivariant Diffusion for Molecule Generation in 3D",
+          "abstract": "This work introduces a diffusion model for molecule generation in 3D that is equivariant to Euclidean transformations. Our E(3) Equivariant Diffusion Model (EDM) learns to denoise a diffusion process with an equivariant network that jointly operates on both continuous (atom coordinates) and categorical features (atom types). In addition, we provide a probabilistic analysis which admits likelihood computation of molecules using our model. Experimentally, the proposed method significantly outperforms previous 3D molecular generative methods regarding the quality of generated samples and efficiency at training time.",
+          "year": "2022",
+          "authors": [
+            "E. Hoogeboom",
+            "Victor Garcia Satorras",
+            "Clément Vignac",
+            "M. Welling"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 922
+        },
+        "title_sim": 1.0,
+        "id_match": true
+      }
+    },
+    {
+      "ref_id": 9,
+      "raw": "Gasteiger, J., Groß, J., & Günnemann, S. (2020). Fast and Uncertainty-Aware Directional Message Passing for Molecular Graphs. arXiv:2011.14194v1.",
+      "parsed": {
+        "title": "Fast and Uncertainty-Aware Directional Message Passing for Molecular Graphs",
+        "authors": "Gasteiger, J., Groß, J., & Günnemann, S",
+        "year": "2020",
+        "arxiv_id": "2011.14194v1",
+        "doi": null
+      },
+      "existence": "FOUND",
+      "resolve_method": "s2:title_search",
+      "candidates": [
+        {
+          "title": "Fast and Uncertainty-Aware Directional Message Passing for Non-Equilibrium Molecules",
+          "arxiv_id": "2011.14115",
+          "doi": null,
+          "year": "2020",
+          "authors": [
+            "Johannes Klicpera",
+            "S. Giri",
+            "Johannes T. Margraf",
+            "Stephan Gunnemann"
+          ]
+        }
+      ],
+      "identification": {
+        "verdict": "MISMATCH",
+        "best_hit": {
+          "arxiv_id": "2011.14115",
+          "doi": null,
+          "title": "Fast and Uncertainty-Aware Directional Message Passing for Non-Equilibrium Molecules",
+          "abstract": "Many important tasks in chemistry revolve around molecules during reactions. This requires predictions far from the equilibrium, while most recent work in machine learning for molecules has been focused on equilibrium or near-equilibrium states. In this paper we aim to extend this scope in three ways. First, we propose the DimeNet++ model, which is 8x faster and 10% more accurate than the original DimeNet on the QM9 benchmark of equilibrium molecules. Second, we validate DimeNet++ on highly reactive molecules by developing the challenging COLL dataset, which contains distorted configurations of small molecules during collisions. Finally, we investigate ensembling and mean-variance estimation for uncertainty quantification with the goal of accelerating the exploration of the vast space of non-equilibrium structures. Our DimeNet++ implementation as well as the COLL dataset are available online.",
+          "year": "2020",
+          "authors": [
+            "Johannes Klicpera",
+            "S. Giri",
+            "Johannes T. Margraf",
+            "Stephan Gunnemann"
+          ],
+          "source": "semantic_scholar",
+          "citation_count": 422
+        },
+        "title_sim": 0.8427672955974843,
+        "id_match": false
+      }
+    }
+  ]
+}

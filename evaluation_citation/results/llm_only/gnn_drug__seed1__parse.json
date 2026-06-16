@@ -1,0 +1,97 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\llm_only\\Graph_Neural_Networks_for_Drug_Discovery_and_Molec__glm-5.1__seed1.md",
+  "topic": "3 Foundational Message Passing Architectures",
+  "n_references": 10,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Gilmer, J., Schoenholz, S. S., Riley, P. F., Vinyals, O., & Dahl, G. E. (2017). Neural Message Passing for Quantum Chemistry. arXiv:1704.01212v2.",
+      "title": "Neural Message Passing for Quantum Chemistry",
+      "authors": "Gilmer, J., Schoenholz, S. S., Riley, P. F., Vinyals, O., & Dahl, G. E",
+      "year": "2017",
+      "arxiv_id": "1704.01212v2",
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Yang, K., Swanson, K., Jin, W., Coley, C., Eiden, P., Gao, H., Guzman-Perez, A., Hopper, T., Kelley, B., Mathea, M., Palmer, A., Settels, V., Jaakkola, T., Jensen, K., & Barzilay, R. (2019). Analyzing Learned Molecular Representations for Property Prediction. arXiv:1904.01561v2.",
+      "title": "Analyzing Learned Molecular Representations for Property Prediction",
+      "authors": "Yang, K., Swanson, K., Jin, W., Coley, C., Eiden, P., Gao, H., Guzman-Perez, A., Hopper, T., Kelley, B., Mathea, M., Palmer, A., Settels, V., Jaakkola, T., Jensen, K., & Barzilay, R",
+      "year": "2019",
+      "arxiv_id": "1904.01561v2",
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Stokes, J. M., Yang, K., Swanson, K., Jin, W., Cubillos-Ruiz, A., Donghia, N. M., MacNair, C. R., French, S., Carfrae, L. A., Bloom-Ackermann, Z., Tran, V. M., Chiappino-Pepe, A., Badran, A. H., Andrews, I. W., Clemons, E. J., Dombrowski, A. J., Green, N. G., Habteslassie, M. A., Kwon, S. J., ... Collins, J. J. (2020). A Deep Learning Approach to Antibiotic Discovery. arXiv:2001.02721v1.",
+      "title": "A Deep Learning Approach to Antibiotic Discovery",
+      "authors": "Stokes, J. M., Yang, K., Swanson, K., Jin, W., Cubillos-Ruiz, A., Donghia, N. M., MacNair, C. R., French, S., Carfrae, L. A., Bloom-Ackermann, Z., Tran, V. M., Chiappino-Pepe, A., Badran, A. H., Andrews, I. W., Clemons, E. J., Dombrowski, A. J., Green, N. G., Habteslassie, M. A., Kwon, S. J., ... Collins, J. J",
+      "year": "2020",
+      "arxiv_id": "2001.02721v1",
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Klicpera, J., Groß, J., & Günnemann, S. (2020). Directional Message Passing for Molecular Graphs. arXiv:2003.03123v2.",
+      "title": "Directional Message Passing for Molecular Graphs",
+      "authors": "Klicpera, J., Groß, J., & Günnemann, S",
+      "year": "2020",
+      "arxiv_id": "2003.03123v2",
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Liu, Y., Wang, L., Liu, M., Zhang, X., Oztekin, B., & Ji, S. (2021). Spherical Message Passing for 3D Molecular Graphs. arXiv:2102.05040v1.",
+      "title": "Spherical Message Passing for 3D Molecular Graphs",
+      "authors": "Liu, Y., Wang, L., Liu, M., Zhang, X., Oztekin, B., & Ji, S",
+      "year": "2021",
+      "arxiv_id": "2102.05040v1",
+      "doi": null
+    },
+    {
+      "ref_id": 5,
+      "raw": "Shwartz-Ziv, R., Ghosh, A., Ravid, G., & Armon, A. (2022). What is the best GNN for molecular property prediction?. arXiv:2207.12512v1.",
+      "title": "What is the best GNN for molecular property prediction?",
+      "authors": "Shwartz-Ziv, R., Ghosh, A., Ravid, G., & Armon, A",
+      "year": "2022",
+      "arxiv_id": "2207.12512v1",
+      "doi": null
+    },
+    {
+      "ref_id": 6,
+      "raw": "Corso, G., Stark, H., Jing, B., Barzilay, R., & Jaakkola, T. (2022). DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking. arXiv:2210.01776v2.",
+      "title": "DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking",
+      "authors": "Corso, G., Stark, H., Jing, B., Barzilay, R., & Jaakkola, T",
+      "year": "2022",
+      "arxiv_id": "2210.01776v2",
+      "doi": null
+    },
+    {
+      "ref_id": 7,
+      "raw": "Igashov, I., Stärk, H., Vignac, C., Satorras, V. G., Frossard, P., Welling, M., Bronstein, M., & Correia, B. (2022). Equivariant 3D-Conditional Diffusion Models for Molecular Linker Design. arXiv:2210.05274v1.",
+      "title": "Equivariant 3D-Conditional Diffusion Models for Molecular Linker Design",
+      "authors": "Igashov, I., Stärk, H., Vignac, C., Satorras, V. G., Frossard, P., Welling, M., Bronstein, M., & Correia, B",
+      "year": "2022",
+      "arxiv_id": "2210.05274v1",
+      "doi": null
+    },
+    {
+      "ref_id": 8,
+      "raw": "Hoogeboom, E., Satorras, V. G., Vignac, C., & Welling, M. (2022). Equivariant Diffusion for Molecule Generation in 3D. arXiv:2203.17003v1.",
+      "title": "Equivariant Diffusion for Molecule Generation in 3D",
+      "authors": "Hoogeboom, E., Satorras, V. G., Vignac, C., & Welling, M",
+      "year": "2022",
+      "arxiv_id": "2203.17003v1",
+      "doi": null
+    },
+    {
+      "ref_id": 9,
+      "raw": "Gasteiger, J., Groß, J., & Günnemann, S. (2020). Fast and Uncertainty-Aware Directional Message Passing for Molecular Graphs. arXiv:2011.14194v1.",
+      "title": "Fast and Uncertainty-Aware Directional Message Passing for Molecular Graphs",
+      "authors": "Gasteiger, J., Groß, J., & Günnemann, S",
+      "year": "2020",
+      "arxiv_id": "2011.14194v1",
+      "doi": null
+    }
+  ]
+}

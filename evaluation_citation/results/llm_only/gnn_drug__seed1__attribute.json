@@ -1,0 +1,192 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "gnn_drug",
+  "seed": 1,
+  "topic": "Graph Neural Networks for Drug Discovery and Molecular Property Prediction",
+  "metrics": {
+    "n_cited_claims": 9,
+    "support_total": 5.5,
+    "citation_recall": 0.6111,
+    "n_supported": 3,
+    "n_partial": 5,
+    "n_unsupported": 1,
+    "n_error": 0,
+    "n_citation_mounts": 9,
+    "n_contributing": 4,
+    "contributing_weight": 5.5,
+    "citation_precision": 0.6111,
+    "n_not_verifiable": 1,
+    "n_claims": 36,
+    "n_claims_with_cite": 10,
+    "n_claims_bare": 26,
+    "bare_assertion_rate": 0.7222
+  },
+  "per_sentence": [
+    {
+      "sent_id": 31,
+      "section_title": "3 Foundational Message Passing Architectures",
+      "text": "The efficacy of this approach was rigorously demonstrated in large-scale molecular property prediction benchmarks (Yang et al., 2019).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence benchmarks models on large-scale molecular property prediction datasets and introduces a graph convolutional model that outperforms others, but it does not explicitly mention Yang et al., 2019 or demonstrate the efficacy of their specific approach.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 32,
+      "section_title": "3 Foundational Message Passing Architectures",
+      "text": "Furthermore, the unification of these message-passing schemes under a generalizable framework established the standard methodology for molecular graph learning, proving that learned representations could consistently outperform traditional expert-engineered features like Extended-Connectivity Fingerprints (ECFPs) across diverse chemical datasets (Gilmer et al., 2017).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence supports that Gilmer et al. unified message-passing schemes into a common framework and achieved state-of-the-art results on a benchmark, but it does not mention Extended-Connectivity Fingerprints (ECFPs) or compare learned representations against them.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 38,
+      "section_title": "4 Geometric Deep Learning and 3D Equivariant GNNs",
+      "text": "For instance, directional message passing was introduced to embed geometric information by explicitly modeling the angles between bonds, leading to substantial improvements in predicting quantum mechanical properties (Klicpera et al., 2020).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that directional message passing embeds directional information and uses angles between messages, leading to substantial improvements (77% on MD17, 41% on QM9) in predicting quantum mechanical properties.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 41,
+      "section_title": "4 Geometric Deep Learning and 3D Equivariant GNNs",
+      "text": "Such spherical message passing schemes have set new state-of-the-art results on 3D molecular benchmarks by seamlessly integrating distance, angle, and torsion information (Liu et al., 2021).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence shows SphereNet uses 3D information (distance, angle, torsion) and achieves strong results, but it does not explicitly state that it set new state-of-the-art results on 3D molecular benchmarks.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 47,
+      "section_title": "5 Generative Models and Molecular Docking",
+      "text": "By representing the protein binding pocket as a graph and iteratively updating the ligand's atom positions using equivariant neural networks, these models can rapidly predict accurate binding poses, significantly outperforming traditional search algorithms in terms of both speed and accuracy (Corso et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence confirms DiffDock outperforms traditional and deep learning methods in accuracy and has fast inference, but it does not describe representing the binding pocket as a graph or using equivariant neural networks to iteratively update ligand atom positions.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 50,
+      "section_title": "5 Generative Models and Molecular Docking",
+      "text": "By ensuring that the denoising process respects the rotational and translational symmetries of the molecular space, equivariant diffusion models can generate realistic and synthetically accessible molecular conformations (Hoogeboom et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 8
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence shows the model is equivariant to Euclidean transformations and generates high-quality 3D molecules, but it does not explicitly mention respecting rotational/translational symmetries or ensuring synthetic accessibility.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 51,
+      "section_title": "5 Generative Models and Molecular Docking",
+      "text": "This paradigm has also been extended to fragment-based drug design, where conditional diffusion models link molecular fragments with appropriate chemical scaffolds while maintaining 3D equivariance (Igashov et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 7
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The evidence explicitly describes an E(3)-equivariant 3D conditional diffusion model (DiffLinker) that links multiple molecular fragments, directly supporting the claim about extending fragment-based drug design with conditional diffusion models while maintaining 3D equivariance.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 58,
+      "section_title": "6 Benchmarking and Generalization Challenges",
+      "text": "Recent large-scale empirical studies have systematically evaluated the performance of various GNN architectures under these rigorous conditions, revealing that more complex models do not always yield better generalization, and that simple baseline models can be highly competitive (Shwartz-Ziv et al., 2022).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 59,
+      "section_title": "6 Benchmarking and Generalization Challenges",
+      "text": "Furthermore, uncertainty quantification remains a significant hurdle; models must not only predict properties accurately but also indicate when their predictions are unreliable, which is crucial for high-stakes pharmaceutical decision-making (Gasteiger et al., 2020).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 9
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper investigates uncertainty quantification for non-equilibrium molecular configurations, but its abstract does not mention pharmaceutical decision-making or the need for models to indicate unreliable predictions in high-stakes contexts.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 60,
+      "section_title": "6 Benchmarking and Generalization Challenges",
+      "text": "The practical impact of these predictive models is already evident in recent discoveries, such as the identification of novel structural classes of antibiotics using deep learning approaches that leverage molecular graph representations (Stokes et al., 2020).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that a deep neural network was used to discover structurally novel antibiotics, including halicin and eight other structurally distant compounds, directly supporting the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    }
+  ]
+}

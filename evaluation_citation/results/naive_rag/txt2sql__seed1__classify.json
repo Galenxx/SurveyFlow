@@ -1,0 +1,69 @@
+{
+  "system": "NAIVE_RAG",
+  "topic_id": "txt2sql",
+  "seed": 1,
+  "topic": "Text-to-SQL Generation with Large Language Models: Schema Linking, Benchmarks, and Robustness",
+  "n_references": 8,
+  "per_reference": [
+    {
+      "ref_id": 0,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MISSING_ID)",
+      "verdict": "MISSING_ID"
+    },
+    {
+      "ref_id": 1,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 2,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MISSING_ID)",
+      "verdict": "MISSING_ID"
+    },
+    {
+      "ref_id": 3,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 4,
+      "label": "ID_EXTRACTION_FAIL",
+      "reason": "title-only reference could not be pinned to one paper (verdict=NOT_FOUND)",
+      "verdict": "NOT_FOUND"
+    },
+    {
+      "ref_id": 5,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    },
+    {
+      "ref_id": 6,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MISSING_ID)",
+      "verdict": "MISSING_ID"
+    },
+    {
+      "ref_id": 7,
+      "label": "RESOLVED",
+      "reason": "resolved cleanly (verdict=MATCH)",
+      "verdict": "MATCH"
+    }
+  ],
+  "distribution": {
+    "RESOLVED": 7,
+    "METADATA_PARSE_ERROR": 0,
+    "ID_EXTRACTION_FAIL": 1,
+    "DEDUP_COLLISION": 0,
+    "GENUINELY_FABRICATED": 0,
+    "PLACEHOLDER_PADDING": 0
+  },
+  "n_resolved": 7,
+  "n_padding": 0,
+  "n_failures": 1,
+  "n_genuinely_fabricated": 0
+}

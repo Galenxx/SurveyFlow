@@ -1,0 +1,97 @@
+{
+  "path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\llm_only\\Text_to_SQL_Generation_with_Large_Language_Models__glm-5.1__seed1.md",
+  "topic": "3 Schema Linking in the Era of LLMs",
+  "n_references": 10,
+  "references": [
+    {
+      "ref_id": 0,
+      "raw": "Tao Yu, Rui Zhang, Kai Yang, Michihiro Yasunaga, Dongxu Wang, Suyi Li, James Ma, Irene Li, Qingning Yao, Shanelle Roman, Zilin Zhang, Dragomir Radev. (2018). Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Database Semantic Parsing and Text-to-SQL Task. arXiv:1809.08887v1.",
+      "title": "Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Database Semantic Parsing and Text-to-SQL Task",
+      "authors": "Tao Yu, Rui Zhang, Kai Yang, Michihiro Yasunaga, Dongxu Wang, Suyi Li, James Ma, Irene Li, Qingning Yao, Shanelle Roman, Zilin Zhang, Dragomir Radev",
+      "year": "2018",
+      "arxiv_id": "1809.08887v1",
+      "doi": null
+    },
+    {
+      "ref_id": 1,
+      "raw": "Jinyang Li, Binyuan Hui, Ge Qu, Jiaxi Yang, Binhua Li, Bowen Li, Bailin Wang, Bowen Qin, Ruiying Geng, Nan Huo, Chenhao Ma, et al. (2024). Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQL. arXiv:2305.03111v1.",
+      "title": "Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQL",
+      "authors": "Jinyang Li, Binyuan Hui, Ge Qu, Jiaxi Yang, Binhua Li, Bowen Li, Bailin Wang, Bowen Qin, Ruiying Geng, Nan Huo, Chenhao Ma, et al",
+      "year": "2024",
+      "arxiv_id": "2305.03111v1",
+      "doi": null
+    },
+    {
+      "ref_id": 2,
+      "raw": "Mohammadreza Pourreza, Davood Rafiei. (2023). DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction. arXiv:2304.11015v1.",
+      "title": "DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction",
+      "authors": "Mohammadreza Pourreza, Davood Rafiei",
+      "year": "2023",
+      "arxiv_id": "2304.11015v1",
+      "doi": null
+    },
+    {
+      "ref_id": 3,
+      "raw": "Haoyang Li, Jiazhang Liu, Jing Zhang, Xiaoyu Li, Cuiping Li, Hong Chen. (2023). RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL. arXiv:2302.05965v1.",
+      "title": "RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL",
+      "authors": "Haoyang Li, Jiazhang Liu, Jing Zhang, Xiaoyu Li, Cuiping Li, Hong Chen",
+      "year": "2023",
+      "arxiv_id": "2302.05965v1",
+      "doi": null
+    },
+    {
+      "ref_id": 4,
+      "raw": "Xuefeng Dong, Chang Ma, Yan Wang, Suyuchen Wang, Yixin Cao, Yunlong Feng, Rui Yan. (2023). C3: Zero-shot Text-to-SQL with ChatGPT. arXiv:2307.07306v1.",
+      "title": "C3: Zero-shot Text-to-SQL with ChatGPT",
+      "authors": "Xuefeng Dong, Chang Ma, Yan Wang, Suyuchen Wang, Yixin Cao, Yunlong Feng, Rui Yan",
+      "year": "2023",
+      "arxiv_id": "2307.07306v1",
+      "doi": null
+    },
+    {
+      "ref_id": 5,
+      "raw": "Donggyu Yang, Seonghyeon Ye, Minjoon Seo. (2023). S3: Injecting Schema Links into Text-to-SQL. arXiv:2310.10732v1.",
+      "title": "S3: Injecting Schema Links into Text-to-SQL",
+      "authors": "Donggyu Yang, Seonghyeon Ye, Minjoon Seo",
+      "year": "2023",
+      "arxiv_id": "2310.10732v1",
+      "doi": null
+    },
+    {
+      "ref_id": 6,
+      "raw": "Haoyang Li, Jing Zhang, Hanbing Liu, Ju Fan, Xiaoyu Li, Junliang Wang, Hong Chen, Cuiping Li. (2024). CodeS: Towards Building Open-source Language Models for Text-to-SQL. arXiv:2402.16347v1.",
+      "title": "CodeS: Towards Building Open-source Language Models for Text-to-SQL",
+      "authors": "Haoyang Li, Jing Zhang, Hanbing Liu, Ju Fan, Xiaoyu Li, Junliang Wang, Hong Chen, Cuiping Li",
+      "year": "2024",
+      "arxiv_id": "2402.16347v1",
+      "doi": null
+    },
+    {
+      "ref_id": 7,
+      "raw": "Shuaichen Chang, Eric Fosler-Lussier. (2023). A Comprehensive Evaluation of ChatGPT's Zero-Shot Text-to-SQL Capability. arXiv:2303.13547v1.",
+      "title": "A Comprehensive Evaluation of ChatGPT's Zero-Shot Text-to-SQL Capability",
+      "authors": "Shuaichen Chang, Eric Fosler-Lussier",
+      "year": "2023",
+      "arxiv_id": "2303.13547v1",
+      "doi": null
+    },
+    {
+      "ref_id": 8,
+      "raw": "Bailin Wang, Richard Shin, Xiaodong Liu, Oleksandr Polozov, Matthew Richardson. (2019). RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers. arXiv:1911.04942v1.",
+      "title": "RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers",
+      "authors": "Bailin Wang, Richard Shin, Xiaodong Liu, Oleksandr Polozov, Matthew Richardson",
+      "year": "2019",
+      "arxiv_id": "1911.04942v1",
+      "doi": null
+    },
+    {
+      "ref_id": 9,
+      "raw": "Bing Wang, Changyu Ren, Jian Yang, Xinnian Liang, Jiazhang Liu, Menqin Wang, Junyi Tan, Qian-Wen Zhang, Di Hu. (2024). MAC-SQL: Multi-Agent Collaboration for Text-to-SQL. arXiv:2312.11242v1.",
+      "title": "MAC-SQL: Multi-Agent Collaboration for Text-to-SQL",
+      "authors": "Bing Wang, Changyu Ren, Jian Yang, Xinnian Liang, Jiazhang Liu, Menqin Wang, Junyi Tan, Qian-Wen Zhang, Di Hu",
+      "year": "2024",
+      "arxiv_id": "2312.11242v1",
+      "doi": null
+    }
+  ]
+}

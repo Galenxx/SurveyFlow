@@ -1,0 +1,198 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "txt2sql",
+  "seed": 1,
+  "topic": "Text-to-SQL Generation with Large Language Models: Schema Linking, Benchmarks, and Robustness",
+  "metrics": {
+    "n_cited_claims": 10,
+    "support_total": 0.0,
+    "citation_recall": 0.0,
+    "n_supported": 0,
+    "n_partial": 0,
+    "n_unsupported": 10,
+    "n_error": 0,
+    "n_citation_mounts": 11,
+    "n_contributing": 0,
+    "contributing_weight": 0.0,
+    "citation_precision": 0.0,
+    "n_not_verifiable": 0,
+    "n_claims": 43,
+    "n_claims_with_cite": 10,
+    "n_claims_bare": 33,
+    "bare_assertion_rate": 0.7674
+  },
+  "per_sentence": [
+    {
+      "sent_id": 47,
+      "section_title": "3.2 View-Based Two-Stage Schema Linking",
+      "text": "Sergeev et al. (2025) demonstrate that combining semantic encoders with traditional tf-idf encoders can lead to significant improvements in accuracy for search tasks relevant to database interaction.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract describes a system using hybrid search and semantic database search but does not mention combining semantic encoders with tf-idf encoders or report accuracy improvements from such a combination.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 52,
+      "section_title": "3.3 Schema-Aware Prompt Pre-processing for In-Context Learning",
+      "text": "By simplifying the schema context, this strategy may notably boost the performance of smaller LLMs, enabling accurate SQL generation even in constrained settings (Câmara et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence discusses SQL-to-text generation using LLMs, not schema simplification or its effect on smaller LLM performance for SQL generation.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 53,
+      "section_title": "3.3 Schema-Aware Prompt Pre-processing for In-Context Learning",
+      "text": "Separately, Sergeev et al. (2025) discuss how various prompt engineering techniques, such as few-shot prompting, can be applied to enhance task performance.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited abstract describes an LLM-based smart assistant for humanities databases using RAG and other techniques, but it never mentions prompt engineering, few-shot prompting, or Sergeev et al. (2025), so it provides no evidence for the claim.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 54,
+      "section_title": "3.3 Schema-Aware Prompt Pre-processing for In-Context Learning",
+      "text": "Few-shot prompting allows the inclusion of multiple transformation examples within the instruction and helps specify edge cases that refine the primary instruction (Sergeev et al., 2025).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses an LLM-based smart assistant for humanities databases using RAG and other technologies, but it does not mention few-shot prompting, transformation examples, or edge-case refinement of instructions.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 59,
+      "section_title": "4.1 SQL-Centric Data Augmentation for Supervised Fine-Tuning",
+      "text": "Neogi et al. (2024) note that while early approaches relied on direct language model fine-tuning, later methods have decomposed the problem into distinct stages.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes a single fine-tuning approach for Text-to-SQL and does not mention any decomposition into distinct stages or contrast early versus later methods.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 62,
+      "section_title": "4.2 Joint Loss Tuning and Noisy Schema Sampling",
+      "text": "Neogi et al. (2024) propose a joint loss tuning strategy combined with confusion-aware noisy schema sampling to improve text-to-SQL generation.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited evidence describes fine-tuning Gemma-2B with 4-bit quantization and zero-shot learning for text-to-SQL, but makes no mention of a joint loss tuning strategy or confusion-aware noisy schema sampling.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 69,
+      "section_title": "5.1 Model Quantization and Trojan Attack Robustness",
+      "text": "Hussain et al. (2025) investigated this relationship by applying quantization at two distinct stages of a model's lifecycle, which they term dependencies adjustment points (DAP).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper investigates quantization effects on trojan vulnerabilities in code LLMs but never mentions 'dependencies adjustment points' (DAP) or applying quantization at two distinct lifecycle stages, so the specific claim about Hussain et al. (2025) and DAP is unsupported.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 73,
+      "section_title": "5.2 MCTS-based Modular Reasoning Frameworks",
+      "text": "Liu et al. (2024) propose using MCTS to progressively break down a problem into candidate reasoning trajectories.",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes an agent-based QA system using LoRA fine-tuning and SQL generation, but it does not mention Monte Carlo Tree Search (MCTS) or breaking down problems into candidate reasoning trajectories.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 75,
+      "section_title": "5.2 MCTS-based Modular Reasoning Frameworks",
+      "text": "A key advantage of this MCTS-based formulation over alternatives such as beam search or self-consistency is its explicit balancing of exploration and exploitation across the search space (Liu et al., 2024).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses an agent-based QA system with SQL generation and LoRA fine-tuning, but it does not mention MCTS, beam search, self-consistency, or any exploration–exploitation trade-off in search.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 78,
+      "section_title": "5.3 Iterative SQL Query Refinement with Compounding Operators",
+      "text": "The evidence from Hussain et al. (2025) describes the sql-create-context dataset built from WikiSQL and Spider, while Liu et al. (2024) discusses a modular agent-based approach with stages for information understanding and MCTS-based reasoning.",
+      "n_cites": 2,
+      "label_to_ref": {
+        "c0": 0,
+        "c1": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The sentence claims that Hussain et al. (2025) describes the sql-create-context dataset and Liu et al. (2024) discusses a modular agent-based approach with MCTS-based reasoning, but neither cited abstract mentions the sql-create-context dataset, WikiSQL, Spider, or MCTS-based reasoning.",
+        "per_citation_contribution": {
+          "c0": false,
+          "c1": false
+        }
+      }
+    }
+  ]
+}

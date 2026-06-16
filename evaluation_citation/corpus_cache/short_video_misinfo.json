@@ -1,0 +1,299 @@
+{
+  "arxiv_query": "(abs:\"short form video\" AND abs:\"misinformation\" AND abs:\"tiktok\" OR abs:\"disinformation\" OR abs:\"multimodal\" OR abs:\"deepfake\" OR abs:\"cheapfake\" OR abs:\"hate speech\" OR abs:\"moderation\")",
+  "generic_arxiv_query": "(abs:\"misinformation\" AND abs:\"video\") OR (abs:\"disinformation\" AND abs:\"multimodal\")",
+  "s2_query": "short-form video misinformation detection",
+  "s2_generic_query": "misinformation detection video platforms",
+  "survey_id": "corpus_short_video_misinfo",
+  "tsv_path": "./data/tsv\\corpus_short_video_misinfo.tsv",
+  "paper_list": [
+    {
+      "title": "Deep Fake Detection: Enhancing Content Verification Using CNN-LSTM for Mitigating AI-Generated Video Threats",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "213ea67bf2fcc86489e5a5f8ef7b1c136d880cfe",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Longwei Xiao",
+        "N. Z. Jhanjhi",
+        "Soobia Saeed",
+        "Farzeen Ashfaq",
+        "Fikri Arif Wicaksana",
+        "Aryo De Wibowo Muhammad Sidik"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2025
+    },
+    {
+      "title": "AMFB: Attention based multimodal Factorized Bilinear Pooling for multimodal Fake News Detection",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "2a67b0a9d61ea5d97ff1a9de0230445c237a7369",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Rina Kumari",
+        "Asif Ekbal"
+      ],
+      "source": "s2",
+      "citation_count": 118,
+      "year": 2021
+    },
+    {
+      "title": "A novel fuzzy logic-based hybrid framework for detecting fake news",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "2e3ba7712e493494cfbb240a3f06900d130d3c35",
+      "open_access_pdf_url": "",
+      "authors": [
+        "R. Bharati",
+        "J. Bharti",
+        "Vasudev Dehalwar"
+      ],
+      "source": "s2",
+      "citation_count": 1,
+      "year": 2026
+    },
+    {
+      "title": "Deepfake Media Detection Framework Using Machine Learning with Multimodal Feature Extraction for Real and Synthetic Content",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "3f8d1e60fdefebc5760a714cc4e9c527b1b75f41",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Shraddha Veer",
+        "D. Mohod"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2026
+    },
+    {
+      "title": "ViMGuard: A Novel Multi-Modal System for Video Misinformation Guarding",
+      "pdf_link": "",
+      "arxiv_id": "2410.16592",
+      "s2_id": "48fe06ff9b7ede81037f429e072b1882f115c38f",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Andrew Kan",
+        "Christopher Kan",
+        "Zaid Nabulsi"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2024
+    },
+    {
+      "title": "Combating Online Misinformation Videos: Characterization, Detection, and Prevention",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "4aa85714ddfb8472d7ab25995f99c5f5745e74d6",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Qiang Sheng",
+        "Peng Qi",
+        "Tianyun Yang",
+        "Yuyan Bu",
+        "W. Hsu",
+        "Mong Li Lee",
+        "Juan Cao"
+      ],
+      "source": "s2",
+      "citation_count": 1,
+      "year": 2025
+    },
+    {
+      "title": "Explainable Forensics of Manipulated Segments in Untrimmed Long Videos",
+      "pdf_link": "",
+      "arxiv_id": "2606.02402",
+      "s2_id": "68fa857a540e04d3eb500d91bc416e64125ed576",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Yue Feng",
+        "Jingjing Li",
+        "Qijia Lu",
+        "Wei Ji",
+        "Jingrou Zhang",
+        "Fei Shen",
+        "Xiao Li",
+        "Yizhen Jia",
+        "Qiang Chen",
+        "Limin Wang",
+        "Wentong Li",
+        "Jie Qin"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2026
+    },
+    {
+      "title": "Detecting AI-Generated News: A Hybrid Classifier to Distinguish Real vs. LLM-Based Fabrication",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "713acb7eda004fe1aff242dce635cb9aaa1117a9",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Krunal Panchal"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2025
+    },
+    {
+      "title": "An Ensemble Deep Learning Models Based on Metadata for Measuring Arabic Fake News Uncertainty",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "7384ac297f51599e2e3b56860a798c80414b2b4d",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Amir Fares",
+        "Rania Yasmine Chougui",
+        "Ahlem Drif",
+        "Silvia Giordano"
+      ],
+      "source": "s2",
+      "citation_count": 3,
+      "year": 2024
+    },
+    {
+      "title": "Misinformation Detection in Social Media Video Posts",
+      "pdf_link": "",
+      "arxiv_id": "2202.07706",
+      "s2_id": "9520a0f12bcd8793c4891b7d16c3d7a5353ad130",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Kehan Wang",
+        "David Chan",
+        "Seth Z. Zhao",
+        "J. Canny",
+        "A. Zakhor"
+      ],
+      "source": "s2",
+      "citation_count": 10,
+      "year": 2022
+    },
+    {
+      "title": "ShortCheck: Checkworthiness Detection of Multilingual Short-Form Videos",
+      "pdf_link": "http://arxiv.org/pdf/2509.20467v1",
+      "arxiv_id": "2509.20467v1",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Henrik Vatndal",
+        "Vinay Setty"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    },
+    {
+      "title": "Exposing Cross-Modal Consistency for Fake News Detection in Short-Form Videos",
+      "pdf_link": "http://arxiv.org/pdf/2603.14992v1",
+      "arxiv_id": "2603.14992v1",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Chong Tian",
+        "Yu Wang",
+        "Chenxu Yang",
+        "Junyi Guan",
+        "Zheng Lin",
+        "Yuhan Liu",
+        "Xiuying Chen",
+        "Qirong Ho"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    }
+  ],
+  "download_status": {
+    "2410.16592": "success",
+    "2606.02402": "success",
+    "2202.07706": "failed: Download failed: 404",
+    "2509.20467v1": "success",
+    "2603.14992v1": "success"
+  },
+  "failed_papers": [
+    "2202.07706"
+  ],
+  "chroma_collections": [
+    "vimguardanovelmulti-modalsystemforvideomisinformationguardina",
+    "explainableforensicsofmanipulatedsegmentsinuntrimmedlongvideoa",
+    "shortcheckcheckworthinessdetectionofmultilingualshort-formvidea",
+    "exposingcross-modalconsistencyforfakenewsdetectioninshort-forma"
+  ],
+  "total_chunks": 336,
+  "embedding_status": {
+    "./data/arxiv_downloads\\corpus_short_video_misinfo\\ViMGuard_ A Novel Multi-Modal System for Video Misinformation Guarding.pdf": "success",
+    "./data/arxiv_downloads\\corpus_short_video_misinfo\\Explainable Forensics of Manipulated Segments in Untrimmed Long Videos.pdf": "success",
+    "./data/arxiv_downloads\\corpus_short_video_misinfo\\ShortCheck_ Checkworthiness Detection of Multilingual Short-Form Videos.pdf": "success",
+    "./data/arxiv_downloads\\corpus_short_video_misinfo\\Exposing Cross-Modal Consistency for Fake News Detection in Short-Form Videos.pdf": "success"
+  },
+  "citation_paper_meta": {
+    "exposingcross-modalconsistencyforfakenewsdetectioninshort-forma": {
+      "title": "Exposing Cross-Modal Consistency for Fake News Detection in Short-Form Videos",
+      "authors": [
+        "Chong Tian",
+        "Yu Wang",
+        "Chenxu Yang",
+        "Junyi Guan",
+        "Zheng Lin",
+        "Yuhan Liu",
+        "Xiuying Chen",
+        "Qirong Ho"
+      ],
+      "year": 2026,
+      "arxiv_id": "2603.14992v1",
+      "s2_id": ""
+    },
+    "explainableforensicsofmanipulatedsegmentsinuntrimmedlongvideoa": {
+      "title": "Explainable Forensics of Manipulated Segments in Untrimmed Long Videos",
+      "authors": [
+        "Yue Feng",
+        "Jingjing Li",
+        "Qijia Lu",
+        "Wei Ji",
+        "Jingrou Zhang",
+        "Fei Shen",
+        "Xiao Li",
+        "Yizhen Jia",
+        "Qiang Chen",
+        "Limin Wang",
+        "Wentong Li",
+        "Jie Qin"
+      ],
+      "year": 2026,
+      "arxiv_id": "2606.02402",
+      "s2_id": "68fa857a540e04d3eb500d91bc416e64125ed576"
+    },
+    "vimguardanovelmulti-modalsystemforvideomisinformationguardina": {
+      "title": "ViMGuard: A Novel Multi-Modal System for Video Misinformation Guarding",
+      "authors": [
+        "Andrew Kan",
+        "Christopher Kan",
+        "Zaid Nabulsi"
+      ],
+      "year": 2024,
+      "arxiv_id": "2410.16592",
+      "s2_id": "48fe06ff9b7ede81037f429e072b1882f115c38f"
+    },
+    "shortcheckcheckworthinessdetectionofmultilingualshort-formvidea": {
+      "title": "ShortCheck: Checkworthiness Detection of Multilingual Short-Form Videos",
+      "authors": [
+        "Henrik Vatndal",
+        "Vinay Setty"
+      ],
+      "year": 2025,
+      "arxiv_id": "2509.20467v1",
+      "s2_id": ""
+    }
+  },
+  "_corpus_stats": {
+    "topic_id": "short_video_misinfo",
+    "survey_id": "corpus_short_video_misinfo",
+    "n_papers_in_list": 12,
+    "n_collections": 4,
+    "total_chunks": 336,
+    "n_citation_meta": 4
+  }
+}

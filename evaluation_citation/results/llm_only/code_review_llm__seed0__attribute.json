@@ -1,0 +1,162 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "code_review_llm",
+  "seed": 0,
+  "topic": "Large Language Models for Automated Code Review: Techniques, Benchmarks, and Industrial Deployment",
+  "metrics": {
+    "n_cited_claims": 8,
+    "support_total": 2.5,
+    "citation_recall": 0.3125,
+    "n_supported": 2,
+    "n_partial": 1,
+    "n_unsupported": 5,
+    "n_error": 0,
+    "n_citation_mounts": 8,
+    "n_contributing": 2,
+    "contributing_weight": 2.5,
+    "citation_precision": 0.3125,
+    "n_not_verifiable": 0,
+    "n_claims": 25,
+    "n_claims_with_cite": 8,
+    "n_claims_bare": 17,
+    "bare_assertion_rate": 0.68
+  },
+  "per_sentence": [
+    {
+      "sent_id": 32,
+      "section_title": "3 Techniques for Automated Code Review",
+      "text": "For instance, models have been designed to automate code review activities by leveraging large-scale pre-training on code review trajectories, effectively capturing the complex relationship between code modifications and reviewer feedback (Li et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The cited paper explicitly proposes a pre-trained model (CodeReviewer) that uses large-scale pre-training on code review data to automate code review tasks, directly supporting the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 34,
+      "section_title": "3 Techniques for Automated Code Review",
+      "text": "Since code review often involves suggesting localized edits rather than generating entire files from scratch, models like CoditT5 have been pre-trained specifically for source code and natural language editing tasks, demonstrating superior performance in generating accurate code refinements based on review comments (Zhang et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 2
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper is about secrecy in RIS-aided wireless systems and does not mention code review, code editing, or the CoditT5 model at all.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 37,
+      "section_title": "4 Benchmarks and Evaluation Methodologies",
+      "text": "Early benchmarks primarily focused on functional correctness in code generation, utilizing test suites to validate synthesized code (Chen et al., 2021).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The cited paper introduces HumanEval, a benchmark that measures functional correctness of synthesized code using test cases, directly supporting the claim that early benchmarks focused on functional correctness via test suites.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 39,
+      "section_title": "4 Benchmarks and Evaluation Methodologies",
+      "text": "To address this, the community has developed polyglot benchmarks that evaluate models across multiple programming languages and diverse task formats, ensuring that automated review tools generalize well beyond a single language context (Cassano et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 4
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper is about predicting protein orientational states in lipid membranes using deep learning, which is completely unrelated to polyglot benchmarks for evaluating code models across programming languages.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 43,
+      "section_title": "5 Industrial Deployment and Integration",
+      "text": "A systematic understanding of how LLMs are integrated into the software development lifecycle reveals that industry adoption often favors proprietary models accessed via APIs due to their high performance, though open-source alternatives are gaining traction for data privacy reasons (Hou et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a systematic literature review on LLMs in software engineering but its abstract does not mention industry adoption, proprietary models, APIs, open-source alternatives, or data privacy concerns.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 45,
+      "section_title": "5 Industrial Deployment and Integration",
+      "text": "However, the deployment of large models requires significant computational resources, prompting the use of optimized inference techniques and distilled models to meet the strict latency requirements of continuous integration pipelines (Nijkamp et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper discusses training and releasing CodeGen models and multi-turn program synthesis, but it does not mention deployment computational resources, optimized inference techniques, distilled models, or latency requirements for continuous integration pipelines.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 50,
+      "section_title": "6 Challenges and Open Issues",
+      "text": "While reinforcement learning and specialized pre-training have been explored to improve the factual grounding of generated code, ensuring the semantic correctness of suggested refinements remains an open problem (Le et al., 2022).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 6
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence shows that reinforcement learning (CodeRL) has been explored to improve factual grounding of generated code via unit-test feedback, but it does not address or establish that ensuring semantic correctness of suggested refinements remains an open problem.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 52,
+      "section_title": "6 Challenges and Open Issues",
+      "text": "The lack of identifier-aware reasoning in some models can lead to superficial suggestions that fail to address deeper logical flaws (Wang et al., 2021).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 7
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes CodeT5's identifier-aware pre-training and its benefits for code understanding and generation, but it does not mention or provide evidence that a lack of identifier-aware reasoning leads to superficial suggestions or failure to address deeper logical flaws.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

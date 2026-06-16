@@ -1,0 +1,409 @@
+{
+  "arxiv_query": "(abs:\"graph neural network\" AND abs:\"drug discovery\" AND abs:\"gnn\" OR abs:\"message passing\" OR abs:\"molecular graph\" OR abs:\"molecular property\" OR abs:\"representation\" OR abs:\"equivariant\" OR abs:\"self supervised\")",
+  "generic_arxiv_query": "(abs:\"graph neural\" AND abs:\"drug\") OR (abs:\"molecular\" AND abs:\"property prediction\")",
+  "s2_query": "graph neural network drug discovery molecular property",
+  "s2_generic_query": "graph neural networks molecular prediction",
+  "survey_id": "corpus_gnn_drug",
+  "tsv_path": "./data/tsv\\corpus_gnn_drug.tsv",
+  "paper_list": [
+    {
+      "title": "De novo drug design by iterative multiobjective deep reinforcement learning with graph-based molecular quality assessment",
+      "pdf_link": "https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btad157/49628110/btad157.pdf",
+      "arxiv_id": "",
+      "s2_id": "006f26974d2db9fe7d5bc6365cb74dc2e3afaef0",
+      "open_access_pdf_url": "https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btad157/49628110/btad157.pdf",
+      "authors": [
+        "Yi Fang",
+        "Xiaoyong Pan",
+        "Hongbin Shen"
+      ],
+      "source": "s2",
+      "citation_count": 36,
+      "year": 2023
+    },
+    {
+      "title": "Neural Atoms: Propagating Long-range Interaction in Molecular Graphs through Efficient Communication Channel",
+      "pdf_link": "",
+      "arxiv_id": "2311.01276",
+      "s2_id": "01210dddf3d2e449fcd69592ed2d78cf419d7361",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Xuan Li",
+        "Zhanke Zhou",
+        "Jiangchao Yao",
+        "Yu Rong",
+        "Lu Zhang",
+        "Bo Han"
+      ],
+      "source": "s2",
+      "citation_count": 14,
+      "year": 2023
+    },
+    {
+      "title": "Predicting ADMET Properties from Molecule SMILE: A Bottom-Up Approach Using Attention-Based Graph Neural Networks",
+      "pdf_link": "https://www.mdpi.com/1999-4923/16/6/776/pdf?version=1717752132",
+      "arxiv_id": "",
+      "s2_id": "01453cd5518b0593e0b01cf8fcaabf43951b2ae4",
+      "open_access_pdf_url": "https://www.mdpi.com/1999-4923/16/6/776/pdf?version=1717752132",
+      "authors": [
+        "A. De Carlo",
+        "D. Ronchi",
+        "Marco Piastra",
+        "E. Tosca",
+        "P. Magni"
+      ],
+      "source": "s2",
+      "citation_count": 24,
+      "year": 2024
+    },
+    {
+      "title": "The Role of Artificial Intelligence and Machine Learning in Revolutionizing Drug Discovery and Pharmacological Research: A Systematic Review",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "01737be02d88db040aa92a562cdf190eeacc1874",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Zainab G. Aljassim",
+        "H. Rajab",
+        "H. I. Al-Qadhi"
+      ],
+      "source": "s2",
+      "citation_count": 0,
+      "year": 2026
+    },
+    {
+      "title": "Employing Molecular Conformations for Ligand-Based Virtual Screening with Equivariant Graph Neural Network and Deep Multiple Instance Learning",
+      "pdf_link": "https://www.mdpi.com/1420-3049/28/16/5982/pdf?version=1691659209",
+      "arxiv_id": "",
+      "s2_id": "0221911d570f1b88619ecd0d15011048a983c2e8",
+      "open_access_pdf_url": "https://www.mdpi.com/1420-3049/28/16/5982/pdf?version=1691659209",
+      "authors": [
+        "Yaowen Gu",
+        "Jiao Li",
+        "Hongyu Kang",
+        "Bowen Zhang",
+        "Si Zheng"
+      ],
+      "source": "s2",
+      "citation_count": 13,
+      "year": 2023
+    },
+    {
+      "title": "Adaptive Substructure-Aware Expert Model for Molecular Property Prediction",
+      "pdf_link": "",
+      "arxiv_id": "2504.05844",
+      "s2_id": "03928fa54533fdf0c1368e673a61fa88758ae899",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Tianyi Jiang",
+        "Zeyu Wang",
+        "Shanqing Yu",
+        "Qi Xuan"
+      ],
+      "source": "s2",
+      "citation_count": 1,
+      "year": 2025
+    },
+    {
+      "title": "Demystifying Molecules: Unveiling the Power of AI in Computational Chemistry",
+      "pdf_link": "https://doi.org/10.48047/afjbs.6.11.2024.1851-1861",
+      "arxiv_id": "",
+      "s2_id": "03c6f907c56ca2667af179bcff4a8f8524fd4454",
+      "open_access_pdf_url": "https://doi.org/10.48047/afjbs.6.11.2024.1851-1861",
+      "authors": [
+        "Parinita Tripathy",
+        "B. Das",
+        "Sanyogita Shahi"
+      ],
+      "source": "s2",
+      "citation_count": 1,
+      "year": 2024
+    },
+    {
+      "title": "Hardware Acceleration of Molecular Property Graph Prediction on a Heterogeneous Edge Platform",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "055a536154757806baf3ebd0a90f9bec8b9928e9",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Mahdieh Grailoo",
+        "T. Nikoubin",
+        "José L. Núñez-Yáñez"
+      ],
+      "source": "s2",
+      "citation_count": 1,
+      "year": 2024
+    },
+    {
+      "title": "Meta-Learning GNN Initializations for Low-Resource Molecular Property Prediction",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "05615a0c3bf6ae831a5df6dfa14a02de608fbbe0",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Cuong Q. Nguyen",
+        "Constantine Kreatsoulas",
+        "K. Branson"
+      ],
+      "source": "s2",
+      "citation_count": 40,
+      "year": 2020
+    },
+    {
+      "title": "Tensor improve equivariant graph neural network for molecular dynamics prediction",
+      "pdf_link": "",
+      "arxiv_id": "",
+      "s2_id": "05624fbfd7a4359f367f0844f57a4eefc852aaec",
+      "open_access_pdf_url": "",
+      "authors": [
+        "Chi Jiang",
+        "Yi Zhang",
+        "Yang Liu",
+        "Jing Peng"
+      ],
+      "source": "s2",
+      "citation_count": 5,
+      "year": 2024
+    },
+    {
+      "title": "Directed Message Passing Based on Attention for Prediction of Molecular Properties",
+      "pdf_link": "http://arxiv.org/pdf/2305.14819v1",
+      "arxiv_id": "2305.14819v1",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Chen Gong",
+        "Yvon Maday"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    },
+    {
+      "title": "BatmanNet: Bi-branch Masked Graph Transformer Autoencoder for Molecular Representation",
+      "pdf_link": "http://arxiv.org/pdf/2211.13979v3",
+      "arxiv_id": "2211.13979v3",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Zhen Wang",
+        "Zheng Feng",
+        "Yanjun Li",
+        "Bowen Li",
+        "Yongrui Wang",
+        "Chulin Sha",
+        "Min He",
+        "Xiaolin Li"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    },
+    {
+      "title": "XIMP: Cross Graph Inter-Message Passing for Molecular Property Prediction",
+      "pdf_link": "http://arxiv.org/pdf/2601.19037v1",
+      "arxiv_id": "2601.19037v1",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Anatol Ehrlich",
+        "Lorenz Kummer",
+        "Vojtech Voracek",
+        "Franka Bause",
+        "Nils M. Kriege"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    },
+    {
+      "title": "Graph Neural Networks in Modern AI-aided Drug Discovery",
+      "pdf_link": "http://arxiv.org/pdf/2506.06915v1",
+      "arxiv_id": "2506.06915v1",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Odin Zhang",
+        "Haitao Lin",
+        "Xujun Zhang",
+        "Xiaorui Wang",
+        "Zhenxing Wu",
+        "Qing Ye",
+        "Weibo Zhao",
+        "Jike Wang",
+        "Kejun Ying",
+        "Yu Kang",
+        "Chang-yu Hsieh",
+        "Tingjun Hou"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    },
+    {
+      "title": "Investigating Graph Neural Networks and Classical Feature-Extraction Techniques in Activity-Cliff and Molecular Property Prediction",
+      "pdf_link": "http://arxiv.org/pdf/2411.13688v1",
+      "arxiv_id": "2411.13688v1",
+      "s2_id": null,
+      "open_access_pdf_url": "",
+      "authors": [
+        "Markus Dablander"
+      ],
+      "source": "arxiv",
+      "citation_count": 0,
+      "year": null
+    }
+  ],
+  "download_status": {
+    "2311.01276": "success",
+    "2504.05844": "success",
+    "2305.14819v1": "success",
+    "2211.13979v3": "success",
+    "2601.19037v1": "success",
+    "2506.06915v1": "success",
+    "2411.13688v1": "success",
+    "s2:006f26974d2db9fe7d5bc6365cb74dc2e3afaef0": "failed: S2 PDF download failed: 403",
+    "s2:01453cd5518b0593e0b01cf8fcaabf43951b2ae4": "failed: S2 PDF download failed: 403",
+    "s2:0221911d570f1b88619ecd0d15011048a983c2e8": "failed: S2 PDF download failed: 403",
+    "s2:03c6f907c56ca2667af179bcff4a8f8524fd4454": "success"
+  },
+  "failed_papers": [
+    "s2:006f26974d2db9fe7d5bc6365cb74dc2e3afaef0",
+    "s2:01453cd5518b0593e0b01cf8fcaabf43951b2ae4",
+    "s2:0221911d570f1b88619ecd0d15011048a983c2e8"
+  ],
+  "chroma_collections": [
+    "demystifyingmoleculesunveilingthepowerofaiincomputationalchemia",
+    "graphneuralnetworksinmodernai-aideddrugdiscovera",
+    "directedmessagepassingbasedonattentionforpredictionofmoleculara",
+    "adaptivesubstructure-awareexpertmodelformolecularpropertypredia",
+    "investigatinggraphneuralnetworksandclassicalfeature-extractiona",
+    "batmannetbi-branchmaskedgraphtransformerautoencoderformoleculaa",
+    "neuralatomspropagatinglong-rangeinteractioninmoleculargraphstha",
+    "ximpcrossgraphinter-messagepassingformolecularpropertypredictia"
+  ],
+  "total_chunks": 628,
+  "embedding_status": {
+    "./data/arxiv_downloads\\corpus_gnn_drug\\Demystifying Molecules_ Unveiling the Power of AI in Computational Chemistry.pdf": "success",
+    "./data/arxiv_downloads\\corpus_gnn_drug\\Graph Neural Networks in Modern AI-aided Drug Discovery.pdf": "success",
+    "./data/arxiv_downloads\\corpus_gnn_drug\\Directed Message Passing Based on Attention for Prediction of Molecular Properties.pdf": "success",
+    "./data/arxiv_downloads\\corpus_gnn_drug\\Adaptive Substructure-Aware Expert Model for Molecular Property Prediction.pdf": "success",
+    "./data/arxiv_downloads\\corpus_gnn_drug\\Investigating Graph Neural Networks and Classical Feature-Extraction Techniques in Activity-Cliff an.pdf": "success",
+    "./data/arxiv_downloads\\corpus_gnn_drug\\BatmanNet_ Bi-branch Masked Graph Transformer Autoencoder for Molecular Representation.pdf": "success",
+    "./data/arxiv_downloads\\corpus_gnn_drug\\Neural Atoms_ Propagating Long-range Interaction in Molecular Graphs through Efficient Communication.pdf": "success",
+    "./data/arxiv_downloads\\corpus_gnn_drug\\XIMP_ Cross Graph Inter-Message Passing for Molecular Property Prediction.pdf": "success"
+  },
+  "citation_paper_meta": {
+    "graphneuralnetworksinmodernai-aideddrugdiscovera": {
+      "title": "Graph Neural Networks in Modern AI-aided Drug Discovery",
+      "authors": [
+        "Odin Zhang",
+        "Haitao Lin",
+        "Xujun Zhang",
+        "Xiaorui Wang",
+        "Zhenxing Wu",
+        "Qing Ye",
+        "Weibo Zhao",
+        "Jike Wang",
+        "Kejun Ying",
+        "Yu Kang",
+        "Chang-yu Hsieh",
+        "Tingjun Hou"
+      ],
+      "year": 2025,
+      "arxiv_id": "2506.06915v1",
+      "s2_id": ""
+    },
+    "adaptivesubstructure-awareexpertmodelformolecularpropertypredia": {
+      "title": "Meta-Learning GNN Initializations for Low-Resource Molecular Property Prediction",
+      "authors": [
+        "Cuong Q. Nguyen",
+        "Constantine Kreatsoulas",
+        "K. Branson"
+      ],
+      "year": 2020,
+      "arxiv_id": "",
+      "s2_id": "05615a0c3bf6ae831a5df6dfa14a02de608fbbe0"
+    },
+    "directedmessagepassingbasedonattentionforpredictionofmoleculara": {
+      "title": "Directed Message Passing Based on Attention for Prediction of Molecular Properties",
+      "authors": [
+        "Chen Gong",
+        "Yvon Maday"
+      ],
+      "year": 2023,
+      "arxiv_id": "2305.14819v1",
+      "s2_id": ""
+    },
+    "investigatinggraphneuralnetworksandclassicalfeature-extractiona": {
+      "title": "Investigating Graph Neural Networks and Classical Feature-Extraction Techniques in Activity-Cliff and Molecular Property Prediction",
+      "authors": [
+        "Markus Dablander"
+      ],
+      "year": 2024,
+      "arxiv_id": "2411.13688v1",
+      "s2_id": ""
+    },
+    "demystifyingmoleculesunveilingthepowerofaiincomputationalchemia": {
+      "title": "Demystifying Molecules: Unveiling the Power of AI in Computational Chemistry",
+      "authors": [
+        "Parinita Tripathy",
+        "B. Das",
+        "Sanyogita Shahi"
+      ],
+      "year": 2024,
+      "arxiv_id": "",
+      "s2_id": "03c6f907c56ca2667af179bcff4a8f8524fd4454"
+    },
+    "batmannetbi-branchmaskedgraphtransformerautoencoderformoleculaa": {
+      "title": "BatmanNet: Bi-branch Masked Graph Transformer Autoencoder for Molecular Representation",
+      "authors": [
+        "Zhen Wang",
+        "Zheng Feng",
+        "Yanjun Li",
+        "Bowen Li",
+        "Yongrui Wang",
+        "Chulin Sha",
+        "Min He",
+        "Xiaolin Li"
+      ],
+      "year": 2022,
+      "arxiv_id": "2211.13979v3",
+      "s2_id": ""
+    },
+    "neuralatomspropagatinglong-rangeinteractioninmoleculargraphstha": {
+      "title": "Neural Atoms: Propagating Long-range Interaction in Molecular Graphs through Efficient Communication Channel",
+      "authors": [
+        "Xuan Li",
+        "Zhanke Zhou",
+        "Jiangchao Yao",
+        "Yu Rong",
+        "Lu Zhang",
+        "Bo Han"
+      ],
+      "year": 2023,
+      "arxiv_id": "2311.01276",
+      "s2_id": "01210dddf3d2e449fcd69592ed2d78cf419d7361"
+    },
+    "ximpcrossgraphinter-messagepassingformolecularpropertypredictia": {
+      "title": "Adaptive Substructure-Aware Expert Model for Molecular Property Prediction",
+      "authors": [
+        "Tianyi Jiang",
+        "Zeyu Wang",
+        "Shanqing Yu",
+        "Qi Xuan"
+      ],
+      "year": 2025,
+      "arxiv_id": "2504.05844",
+      "s2_id": "03928fa54533fdf0c1368e673a61fa88758ae899"
+    }
+  },
+  "_corpus_stats": {
+    "topic_id": "gnn_drug",
+    "survey_id": "corpus_gnn_drug",
+    "n_papers_in_list": 15,
+    "n_collections": 8,
+    "total_chunks": 628,
+    "n_citation_meta": 8
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "system": "LLM_ONLY",
+  "topic_id": "short_video_misinfo",
+  "seed": 1,
+  "topic": "Detection of Misinformation and Harmful Content on Short-Form Video Platforms: Methods, Datasets, and Multimodal Approaches",
+  "metrics": {
+    "n_cited_claims": 6,
+    "support_total": 4.0,
+    "citation_recall": 0.6667,
+    "n_supported": 3,
+    "n_partial": 2,
+    "n_unsupported": 1,
+    "n_error": 0,
+    "n_citation_mounts": 6,
+    "n_contributing": 4,
+    "contributing_weight": 4.0,
+    "citation_precision": 0.6667,
+    "n_not_verifiable": 2,
+    "n_claims": 50,
+    "n_claims_with_cite": 8,
+    "n_claims_bare": 42,
+    "bare_assertion_rate": 0.84
+  },
+  "per_sentence": [
+    {
+      "sent_id": 40,
+      "section_title": "3 Unimodal and Multimodal Detection Methods",
+      "text": "For instance, event adversarial neural networks have been proposed to extract multimodal features that are robust to event-specific biases, allowing models to generalize better to unseen misinformation events (Wang et al., 2018).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 0
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that EANN uses an event discriminator to remove event-specific features and derive event-invariant features, enabling better detection on unseen events, which directly supports the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 42,
+      "section_title": "3 Unimodal and Multimodal Detection Methods",
+      "text": "Approaches like SpotFake have utilized these pre-trained representations to bridge the semantic gap between modalities, achieving state-of-the-art performance by deeply integrating contextual text and visual features (Singhal et al., 2020).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 7
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract explicitly states that SpotFake uses BERT for text and VGG-19 for images to learn features, and it outperforms the state-of-the-art on two datasets, directly supporting the claim.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 47,
+      "section_title": "4 Datasets and Evaluation Benchmarks",
+      "text": "For example, widely used resources like FakeNewsNet provide rich social context and multimodal news content, but they are primarily centered around traditional news articles and their associated images, lacking the temporal and auditory dimensions of video (Shu et al., 2018).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "SUPPORTED",
+        "score": 1.0,
+        "rationale": "The abstract confirms FakeNewsNet provides news content and social context but does not mention video, temporal, or auditory dimensions, directly supporting the claim that it lacks those features.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 49,
+      "section_title": "4 Datasets and Evaluation Benchmarks",
+      "text": "While this dataset successfully highlighted the necessity of multimodal reasoning—as the harmful intent often relies on the interplay between the two modalities—it remains limited to static memes rather than dynamic video content (Kiela et al., 2020).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 61,
+      "section_title": "5 Challenges in Short-Form Video Analysis",
+      "text": "While significant research has been dedicated to deepfake detection, manipulations are becoming increasingly imperceptible, and detectors often struggle to generalize to novel generation techniques not represented in their training data (Tolosana et al., 2020).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 3
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The abstract confirms that deepfake generation is improving and presents challenges for detection, but it does not explicitly state that detectors struggle to generalize to novel generation techniques not seen during training.",
+        "per_citation_contribution": {
+          "c0": true
+        }
+      }
+    },
+    {
+      "sent_id": 66,
+      "section_title": "5 Challenges in Short-Form Video Analysis",
+      "text": "The field of multimodal machine learning continues to grapple with the complexities of cross-modal alignment, fusion, and representation learning, particularly when dealing with noisy, unaligned data streams typical of user-generated content (Liang et al., 2022).",
+      "n_cites": 0,
+      "label_to_ref": {},
+      "judge": {
+        "verdict": "NOT_VERIFIABLE",
+        "score": null,
+        "rationale": "all citations on this claim resolved to a real paper but no abstract was available to judge attribution; excluded from recall/precision",
+        "per_citation_contribution": {}
+      }
+    },
+    {
+      "sent_id": 71,
+      "section_title": "6 Cross-Platform and Cross-Lingual Generalization",
+      "text": "This domain shift encompasses differences in user demographics, content formatting, and the very nature of how misinformation spreads (Shu et al., 2017).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 1
+      },
+      "judge": {
+        "verdict": "UNSUPPORTED",
+        "score": 0.0,
+        "rationale": "The cited paper describes a dataset for fake news research but does not discuss domain shift, user demographics, content formatting, or how misinformation spreads differently across domains.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    },
+    {
+      "sent_id": 78,
+      "section_title": "6 Cross-Platform and Cross-Lingual Generalization",
+      "text": "These foundation models, pre-trained on vast corpora of multilingual and multimodal data, exhibit impressive zero-shot and few-shot capabilities, allowing them to transfer knowledge across domains and languages without extensive fine-tuning (Zhao et al., 2023).",
+      "n_cites": 1,
+      "label_to_ref": {
+        "c0": 5
+      },
+      "judge": {
+        "verdict": "PARTIAL",
+        "score": 0.5,
+        "rationale": "The evidence discusses pre-training on large-scale corpora and emergent abilities from scaling, but it does not explicitly mention zero-shot/few-shot transfer across domains and languages without extensive fine-tuning.",
+        "per_citation_contribution": {
+          "c0": false
+        }
+      }
+    }
+  ]
+}

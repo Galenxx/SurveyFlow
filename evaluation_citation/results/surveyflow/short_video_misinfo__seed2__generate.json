@@ -1,0 +1,20 @@
+{
+  "system": "SURVEYFLOW",
+  "topic_id": "short_video_misinfo",
+  "seed": 2,
+  "md_path": "D:\\Agent_survey5\\survey_agent\\evaluation_citation\\generated_surveys\\surveyflow\\short_video_misinfo__seed2\\survey.md",
+  "survey_id": "corpus_short_video_misinfo",
+  "n_references_requested": 10,
+  "n_references_realized": 4,
+  "corpus_stats": {
+    "n_papers_in_list": 12,
+    "n_papers_downloaded_ok": 4,
+    "n_collections_embedded": 4,
+    "n_papers_embedded_ok": 4,
+    "n_citation_meta": 4,
+    "total_chunks": 336,
+    "num_classes": 2,
+    "n_labels": 4
+  },
+  "warning": "LOW CITATION COUNT: realized 4 references < 6 (= 60% of requested 10). Inspect corpus_stats to see whether the corpus was thin or the writer dropped sections."
+}
