@@ -1,9 +1,6 @@
 # SurveyFlow
 
-[![CI](https://github.com/<your-username>/SurveyFlow/actions/workflows/ci.yml/badge.svg)](https://github.com/<your-username>/SurveyFlow/actions/workflows/ci.yml)
-[![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![CI](https://github.com/<your-username>/SurveyFlow/actions/workflows/ci.yml/badge.svg)](https://github.com/<your-username>/SurveyFlow/actions/workflows/ci.yml) · [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/downloads/) · [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) · [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
 **SurveyFlow** is a deterministic, retrieval-augmented research survey writing system powered by [LangGraph](https://langchain-ai.github.io/langgraph/). It takes a research topic as input, automatically retrieves relevant papers from arXiv and Semantic Scholar, generates a structured literature survey, and exposes everything via a FastAPI service with real-time WebSocket streaming.
 

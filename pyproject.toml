@@ -39,6 +39,13 @@ line-length = 120
 target-version = "py310"
 select = ["E", "F", "W", "I", "UP", "B", "C4", "SIM"]
 ignore = ["E501"]
+exclude = [
+    ".git",
+    "data",
+    "storage",
+    ".env",
+    ".env.example",
+]
 
 [tool.mypy]
 python_version = "3.10"
